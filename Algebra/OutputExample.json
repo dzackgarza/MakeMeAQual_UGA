@@ -1,0 +1,159 @@
+{
+  "Problems": [
+    {
+      "year": 2019,
+      "season": "Fall",
+      "number": 1,
+      "tags": [
+        "Groups",
+        "Conjugacy"
+      ],
+      "question": "Let $G$ be a finite group with $n$ distinct conjugacy classes.\nLet $g_1 \\cdots g_n$ be representatives of the conjugacy classes of $G$.\n\nProve that if $g_i g_j = g_j g_i$ for all $i, j$ then $G$ is abelian.\n"
+    },
+    {
+      "year": 2019,
+      "season": "Fall",
+      "number": 2,
+      "tags": [
+        "Group Theory",
+        "Sylow Theorems"
+      ],
+      "question": "Let $G$ be a group of order 105 and let $P, Q, R$ be Sylow 3, 5, 7 subgroups respectively.\n\n(a) Prove that at least one of $Q$ and $R$ is normal in $G$.\n\n(b) Prove that $G$ has a cyclic subgroup of order 35.\n\n(c) Prove that both $Q$ and $R$ are normal in $G$.\n\n(d) Prove that if $P$ is normal in $G$ then $G$ is cyclic.\n"
+    },
+    {
+      "year": 2019,
+      "season": "Fall",
+      "number": 3,
+      "tags": [
+        "Ring"
+      ],
+      "question": "Let $R$ be a ring with the property that for every $a \\in R, a^2 = a$.\n\n(a) Prove that $R$ has characteristic 2.\n\n(b) Prove that $R$ is commutative.\n"
+    },
+    {
+      "year": 2019,
+      "season": "Fall",
+      "number": 4,
+      "tags": [
+        "Fields"
+      ],
+      "question": "Let $F$ be a finite field with $q$ elements.\n\nLet $n$ be a positive integer relatively prime to $q$ and let $\\omega$ be a primitive $n$th root of unity in an extension field of $F$.\n\nLet $E = F [\\omega]$ and let $k = [E : F]$.\n\n(a) Prove that $n$ divides $q^{k}-1$.\n\n(b) Let $m$ be the order of $q$ in $\\ZZ/n\\ZZ$.\nProve that $m$ divides $k$.\n\n(c) Prove that $m = k$.\n"
+    },
+    {
+      "year": 2019,
+      "season": "Fall",
+      "number": 5,
+      "tags": [
+        "Modules"
+      ],
+      "question": "Let $R$ be a ring and $M$ an $R\\dash$module.\n\n> Recall that the set of torsion elements in M is defined by\n$$\n\\Tor(m) = \\{m \\in M \\suchthat \\exists r \\in R, ~r \\neq 0, ~rm = 0\\}\n.$$\n\n(a) Prove that if $R$ is an integral domain, then $\\Tor(M )$ is a submodule of $M$ .\n\n(b) Give an example where $\\Tor(M )$ is not a submodule of $M$.\n\n(c) If $R$ has zero-divisors, prove that every non-zero $R\\dash$module has non-zero torsion elements.\n"
+    },
+    {
+      "year": 2019,
+      "season": "Fall",
+      "number": 6,
+      "tags": [
+        "Rings"
+      ],
+      "question": "Let $R$ be a commutative ring with multiplicative identity. Assume Zorn's Lemma.\n\n(a) Show that\n$$\nN = \\{r \\in R \\mid r^n = 0 \\text{ for some } n > 0\\}\n$$\nis an ideal which is contained in any prime ideal.\n\n(b) Let $r$ be an element of $R$ not in $N$.\nLet $S$ be the collection of all proper ideals of $R$ not containing any positive power of $r$. Use Zorn's Lemma to prove that\nthere is a prime ideal in $S$.\n\n(c) Suppose that $R$ has exactly one prime ideal $P$ . Prove that every element $r$ of $R$ is either nilpotent or a unit.\n"
+    },
+    {
+      "year": 2019,
+      "season": "Fall",
+      "number": 7,
+      "tags": [
+        "Fields",
+        "Galois Theory"
+      ],
+      "question": "Let $\\zeta_n$ denote a primitive $n$th root of 1 $\\in \\QQ$.\nYou may assume the roots of the minimal polynomial $p_n(x)$ of $\\zeta_n$ are exactly the primitive $n$th roots of 1.\n\nShow that the field extension $\\QQ(\\zeta_n )$ over $\\QQ$ is Galois and prove its Galois group is $(\\ZZ/n\\ZZ)\\units$.\n\nHow many subfields are there of $\\QQ(\\zeta_{20} )$?\n"
+    },
+    {
+      "year": 2019,
+      "season": "Fall",
+      "number": 8,
+      "tags": [
+        "Linear Algebra"
+      ],
+      "question": "Let $\\{e_1, \\cdots, e_n \\}$ be a basis of a real vector space $V$ and let\n$$\n\\Lambda \\definedas \\theset{ \\sum r_i e_i \\mid ri \\in \\ZZ}\n$$\n\nLet $\\cdot$ be a non-degenerate ($v \\cdot w = 0$ for all $w \\in V \\iff v = 0$) symmetric bilinear form on V such that the Gram matrix $M = (e_i \\cdot e_j )$ has integer entries.\n\nDefine the dual of $\\Lambda$ to be\n\n$$\n\\Lambda \\dual \\definedas \\{v \\in V \\suchthat v \\cdot x \\in \\ZZ \\text{ for all } x \\in \\Lambda\n\\}\n.$$\n\n(a) Show that $\\Lambda \\subset \\Lambda \\dual$.\n\n(b) Prove that $\\det M \\neq 0$ and that the rows of $M\\inv$ span $\\Lambda\\dual$.\n\n(c) Prove that $\\det M = |\\Lambda\\dual /\\Lambda|$.\n"
+    },
+    {
+      "year": 2019,
+      "season": "Spring",
+      "number": 1,
+      "tags": [
+        "Linear Algebra"
+      ],
+      "question": "Let $A$ be a square matrix over the complex numbers.\nSuppose that $A$ is nonsingular\nand that $A^{2019}$ is diagonalizable over $\\CC$.\n\nShow that $A$ is also diagonalizable over $\\CC$.\n"
+    },
+    {
+      "year": 2019,
+      "season": "Spring",
+      "number": 2,
+      "tags": [
+        "Fields"
+      ],
+      "question": "Let $F = \\FF_p$ , where $p$ is a prime number.\n\n(a) Show that if $\\pi(x) \\in F[x]$ is irreducible of degree $d$, then $\\pi(x)$ divides $x^{p^d} - x$.\n\n\n(b) Show that if $\\pi(x) \\in F[x]$ is an irreducible polynomial that divides $x^{p^n} - x$,\nthen $\\deg \\pi(x)$ divides $n$.\n"
+    },
+    {
+      "year": 2019,
+      "season": "Spring",
+      "number": 3,
+      "tags": [
+        "Groups",
+        "Classification of Groups"
+      ],
+      "question": "How many isomorphism classes are there of groups of order 45?\n\nDescribe a representative from each class.\n"
+    },
+    {
+      "year": 2019,
+      "season": "Spring",
+      "number": 4,
+      "tags": [
+        "Groups",
+        "Conjugacy",
+        "Class Equation"
+      ],
+      "question": "For a finite group $G$, let $c(G)$ denote the number of conjugacy classes of $G$.\n\n (a) Prove that if two elements of $G$ are chosen uniformly at random,then the probability they commute is precisely\n $$\n \\frac{c(G)}{\\abs G}\n .$$\n\n (b) State the class equation for a finite group.\n\n (c) Using the class equation (or otherwise) show that the probability in part (a) is at most $$\n \\frac 1 2 + \\frac 1 {2[G : Z(G)]}\n .$$\n\n > Here, as usual, $Z(G)$ denotes the center of $G$.\n"
+    },
+    {
+      "year": 2019,
+      "season": "Spring",
+      "number": 5,
+      "tags": [
+        "Modules",
+        "Torsion"
+      ],
+      "question": "Let $R$ be an integral domain. Recall that if $M$ is an $R\\dash$module, the *rank* of $M$ is\ndefined to be the maximum number of $R\\dash$linearly independent elements of $M$ .\n\n(a) Prove that for any $R\\dash$module $M$, the rank of $\\tor(M )$ is 0.\n\n(b) Prove that the rank of $M$ is equal to the rank of of $M/\\tor(M )$.\n\n(c) Suppose that M is a non-principal ideal of $R$.\n\n(d) Prove that $M$ is torsion-free of rank 1 but not free.\n"
+    },
+    {
+      "year": 2019,
+      "season": "Spring",
+      "number": 6,
+      "tags": [
+        "Rings",
+        "Ideals",
+        "Jacobson Radical"
+      ],
+      "question": "Let $R$ be a commutative ring with 1.\n\n> Recall that $x \\in R$ is nilpotent iff $xn = 0$ for\nsome positive integer $n$.\n\n(a) Show that every proper ideal of $R$ is contained within a maximal ideal.\n\n(b) Let $J(R)$ denote the intersection of all maximal ideals of $R$.\n\n    Show that $x \\in J(R) \\iff 1 + rx$ is a unit for all $r \\in R$.\n\n(c) Suppose now that $R$ is finite. Show that in this case $J(R)$ consists precisely\nof the nilpotent elements in R.\n"
+    },
+    {
+      "year": 2019,
+      "season": "Spring",
+      "number": 7,
+      "tags": [
+        "Linear Algebra",
+        "Jordan Canonical Form"
+      ],
+      "question": "Let $p$ be a prime number.\nLet $A$ be a $p \\times p$ matrix over a field $F$ with 1 in all\nentries except 0 on the main diagonal.\n\nDetermine the Jordan canonical form (JCF) of $A$\n\n(a) When $F = \\QQ$,\n\n(b) When $F = \\FF_p$.\n\n> Hint: In both cases, all eigenvalues lie in the ground field. In each case find a\nmatrix $P$ such that $P\\inv AP$ is in JCF.\n"
+    },
+    {
+      "year": 2019,
+      "season": "Spring",
+      "number": 8,
+      "tags": [
+        "Fields",
+        "Galois Theory"
+      ],
+      "question": "Let $\\zeta = e^{2\\pi i/8}$.\n\n(a) What is the degree of $\\QQ(\\zeta)/\\QQ$?\n\n(b) How many quadratic subfields of $\\QQ(\\zeta)$ are there?\n\n(c) What is the degree of $\\QQ(\\zeta, \\sqrt[4] 2)$ over $\\QQ$?\n"
+    }
+  ]
+}
