@@ -1,7 +1,6 @@
 
-
 let parseQuestions = jsonQuestions => {
-  let years = Array.from(new Set(jsonQuestions.Problems.map(a => a.year)));
+  years = Array.from(new Set(jsonQuestions.Problems.map(a => a.year)));
   //years.forEach(j => {
     //$("#selectYears").append($("<option selected></option>").val(j).html(j));
   //});
@@ -20,6 +19,7 @@ let parseQuestions = jsonQuestions => {
     options: topics.map(a => ({"text": a, "value": a})),
     items: topics
   })
+  window.questions = jsonQuestions.Problems;
 }
 
 $('#makeQual').on('click', function(event) {
