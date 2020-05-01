@@ -1,6 +1,6 @@
 
 let parseQuestions = jsonQuestions => {
-  years = Array.from(new Set(jsonQuestions.Problems.map(a => a.year)));
+  years = Array.from(new Set(jsonQuestions.Problems.map(a => a.year))).sort();
   //years.forEach(j => {
     //$("#selectYears").append($("<option selected></option>").val(j).html(j));
   //});
