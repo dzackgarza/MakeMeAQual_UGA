@@ -5,7 +5,7 @@ let parseQuestions = jsonQuestions => {
     //$("#selectYears").append($("<option selected></option>").val(j).html(j));
   //});
 
-  let topics = Array.from(new Set([].concat(...jsonQuestions.Problems.map(a => a.tags))));
+  let topics = Array.from(new Set([].concat(...jsonQuestions.Problems.map(a => a.tags)))).sort();
   //topics.forEach(j => {
     //$("#selectTopics").append($("<option selected></option>").val(j).html(j));
   //});
