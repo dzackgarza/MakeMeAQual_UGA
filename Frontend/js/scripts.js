@@ -1,18 +1,25 @@
 
-$('#selectYears').selectize({})
-$('#selectTopics').selectize({})
 
 let parseQuestions = jsonQuestions => {
-  let years = new Set(jsonQuestions.Problems.map(a => a.year));
-  years.forEach(j => {
-    $("#selectYears").append($("<option selected></option>").val(j).html(j));
-  });
+  let years = Array.from(new Set(jsonQuestions.Problems.map(a => a.year)));
+  //years.forEach(j => {
+    //$("#selectYears").append($("<option selected></option>").val(j).html(j));
+  //});
 
-  let topics = new Set([].concat(...jsonQuestions.Problems.map(a => a.tags)))
-  topics.forEach(j => {
-    $("#selectTopics").append($("<option selected></option>").val(j).html(j));
-  });
+  let topics = Array.from(new Set([].concat(...jsonQuestions.Problems.map(a => a.tags))));
+  //topics.forEach(j => {
+    //$("#selectTopics").append($("<option selected></option>").val(j).html(j));
+  //});
 
+
+  $('#selectYears').selectize({
+    options: years,
+    items: years
+  })
+  $('#selectTopics').selectize({
+    options: topics,
+    items: topics
+  })
 }
 
 fetch("/questions.json")
