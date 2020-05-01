@@ -22,9 +22,11 @@ let parseQuestions = jsonQuestions => {
     onChange: updateSelectedQuestions
   })
   window.questions = jsonQuestions.Problems;
+  window.selectedQuestions = jsonQuestions.Problems;
 }
 
 let updateSelectedQuestions = () => {
+
   debugger;
 }
 
