@@ -13,18 +13,24 @@ let parseQuestions = jsonQuestions => {
 
   $('#selectYears').selectize({
     options: years.map(a => ({"text": a, "value": a})),
-    items: years
+    items: years,
+    onChange: updateSelectedQuestions
   })
   $('#selectTopics').selectize({
     options: topics.map(a => ({"text": a, "value": a})),
-    items: topics
+    items: topics,
+    onChange: updateSelectedQuestions
   })
   window.questions = jsonQuestions.Problems;
 }
 
-$('#makeQual').on('click', function(event) {
+let updateSelectedQuestions = () => {
   debugger;
+}
+
+$('#makeQual').on('click', function(event) {
   event.preventDefault(); 
+  updateSelectedQuestions();
 });
 
 fetch("/questions.json")
