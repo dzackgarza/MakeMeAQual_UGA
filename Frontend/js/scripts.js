@@ -13,12 +13,19 @@ let parseQuestions = jsonQuestions => {
 
 
   $('#selectYears').selectize({
-    options: years.reduce((o, j) => { o[j] = j; return o;}, {})
+    options: years.map(a => ({"text": a, "value": a})),
+    items: years
   })
   $('#selectTopics').selectize({
-    options: topics.reduce((o, j) => { o[j] = j; return o;}, {})
+    options: topics.map(a => ({"text": a, "value": a})),
+    items: topics
   })
 }
+
+$('#makeQual').on('click', function(event) {
+  debugger;
+  event.preventDefault(); 
+});
 
 fetch("/questions.json")
   .then(response => response.json())
