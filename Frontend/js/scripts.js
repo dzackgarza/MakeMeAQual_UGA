@@ -1,4 +1,7 @@
 
+$('#selectYears').selectize({})
+$('#selectTopics').selectize({})
+
 let parseQuestions = jsonQuestions => {
   let years = new Set(jsonQuestions.Problems.map(a => a.year));
   years.forEach(j => {
