@@ -13,12 +13,10 @@ let parseQuestions = jsonQuestions => {
 
 
   $('#selectYears').selectize({
-    options: years,
-    items: years
+    options: years
   })
   $('#selectTopics').selectize({
-    options: topics,
-    items: topics
+    options: topics
   })
 }
 
