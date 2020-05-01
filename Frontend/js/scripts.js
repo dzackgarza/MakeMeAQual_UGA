@@ -1,7 +1,16 @@
 // Empty JS for your own code to be here
 
 let parseQuestions = jsonQuestions => {
-  debugger;
+  let years = new Set(jsonQuestions.Problems.map(a => a.year));
+  years.forEach(j => {
+    $("#selectYears").append($("<option></option>").val(j).html(j));
+  });
+
+  let topics = new Set([].concat(...jsonQuestions.Problems.map(a => a.tags)))
+  topics.forEach(j => {
+    $("#selectTopics").append($("<option></option>").val(j).html(j));
+  });
+
 }
 
 fetch("/questions.json")
