@@ -26,7 +26,7 @@ let parseQuestions = jsonQuestions => {
     onChange: updateSelectedQuestions
   })
   window.questions = jsonQuestions.Problems;
-  window.selectedQuestions = jsonQuestions.Problems;
+  updateSelectedQuestions();
 }
 
 let updateSelectedQuestions = () => {
@@ -35,8 +35,8 @@ let updateSelectedQuestions = () => {
   let selectedQuestions = window.questions
     .filter(a => intersect(new Set(a.tags), selectedTopics).size > 0)
     .filter(a => intersect(new Set([a.year.toString()]), selectedYears).size > 0);
-
-  debugger;
+  $("#numQuestions").html(selectedQuestions.length);
+  window.selectedQuestions = selectedQuestions;
 }
 
 $('#makeQual').on('click', function(event) {
