@@ -30,8 +30,8 @@ let parseQuestions = jsonQuestions => {
 }
 
 let updateSelectedQuestions = () => {
-  let selectedTopics = new Set( $('#selectTopics').val().map(a => toString(a)) );
-  let selectedYears = new Set( $('#selectYears').val().map(a => toString(a)) );
+  let selectedTopics = new Set( $('#selectTopics').val() );
+  let selectedYears = new Set( $('#selectYears').val().map(a => a.toString()) );
   let selectedQuestions = window.questions
     .filter(a => intersect(new Set(a.tags), selectedTopics).size > 0)
     .filter(a => intersect(new Set([a.year.toString()]), selectedYears).size > 0);
