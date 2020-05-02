@@ -1,5 +1,6 @@
 let intersect = (s1, s2) => {
-  new Set( [...s1].filter(x => s2.has(x)) );
+  let s = new Set( [...s1].filter(x => s2.has(x)) );
+  return s;
 }
 
 let parseQuestions = jsonQuestions => {
@@ -29,8 +30,8 @@ let parseQuestions = jsonQuestions => {
 }
 
 let updateSelectedQuestions = () => {
-  let selectedTopics = $('#selectTopics').val();
-  let selectedYears = $('#selectYears').val();
+  let selectedTopics = new Set( $('#selectTopics').val());
+  let selectedYears = new Set( $('#selectYears').val() );
   window.selectedQuestions = window.questions
   debugger;
 }
