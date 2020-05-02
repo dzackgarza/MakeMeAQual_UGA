@@ -15,12 +15,12 @@ let parseQuestions = jsonQuestions => {
   //});
 
 
-  $('#selectYears').selectize({
+  window.selectYears = $('#selectYears').selectize({
     options: years.map(a => ({"text": a, "value": a})),
     items: years,
     onChange: updateSelectedQuestions
   })
-  $('#selectTopics').selectize({
+  window.selectTopics = $('#selectTopics').selectize({
     options: topics.map(a => ({"text": a, "value": a})),
     items: topics,
     onChange: updateSelectedQuestions
@@ -44,9 +44,15 @@ $('#makeQual').on('click', function(event) {
   updateSelectedQuestions();
 });
 
-$('#btnClearAll').on('click', function(event) {
+$('#btnClearAllTopics').on('click', function(event) {
   event.preventDefault(); 
-  $('#selectTopics').clear();
+  window.selectTopics[0].selectize.clear();
+});
+
+
+$('#btnClearAllYears').on('click', function(event) {
+  event.preventDefault(); 
+  window.selectYears[0].selectize.clear();
 });
 
 fetch("/questions.json")
