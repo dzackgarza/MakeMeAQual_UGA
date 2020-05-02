@@ -1,5 +1,5 @@
-Set.prototype.intersect = s2 => {
-  new Set( [...this].filter(x => s2.has(x)) );
+let intersect = (s1, s2) => {
+  new Set( [...s1].filter(x => s2.has(x)) );
 }
 
 let parseQuestions = jsonQuestions => {
