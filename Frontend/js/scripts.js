@@ -1,3 +1,6 @@
+Set.prototype.intersect = s2 => {
+  new Set( [...this].filter(x => s2.has(x)) );
+}
 
 let parseQuestions = jsonQuestions => {
   years = Array.from(new Set(jsonQuestions.Problems.map(a => a.year))).sort();
@@ -26,7 +29,9 @@ let parseQuestions = jsonQuestions => {
 }
 
 let updateSelectedQuestions = () => {
-
+  let selectedTopics = $('#selectTopics').val();
+  let selectedYears = $('#selectYears').val();
+  window.selectedQuestions = window.questions
   debugger;
 }
 
