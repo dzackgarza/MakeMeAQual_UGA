@@ -44,6 +44,11 @@ $('#makeQual').on('click', function(event) {
   updateSelectedQuestions();
 });
 
+$('#btnClearAll').on('click', function(event) {
+  event.preventDefault(); 
+  $('#selectTopics').clear();
+});
+
 fetch("/questions.json")
   .then(response => response.json())
   .then(json => parseQuestions(json));
