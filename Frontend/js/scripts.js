@@ -34,7 +34,7 @@ let updateSelectedQuestions = () => {
   let selectedYears = new Set( $('#selectYears').val().map(a => toString(a)) );
   let selectedQuestions = window.questions
     .filter(a => intersect(new Set(a.tags), selectedTopics).size > 0)
-    .filter(a => intersect(new Set([a.year]), selectedYears).size > 0);
+    .filter(a => intersect(new Set([a.year.toString()]), selectedYears).size > 0);
 
   debugger;
 }
