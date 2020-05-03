@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, make_response
 from flask_cors import CORS
 from flask import request
 import subprocess
@@ -22,7 +22,7 @@ def example():
     p = subprocess.Popen(final_cmd, stdout=subprocess.PIPE, shell=True)
     (output, err) = p.communicate()
     p.wait()
-    return(output)
+    return(make_response(output))
     # language = request.args.get('language') #if key doesn't exist, returns None
     # framework = request.args['framework'] #if key doesn't exist, returns a 400, bad request error
     # website = request.args.get('website')
