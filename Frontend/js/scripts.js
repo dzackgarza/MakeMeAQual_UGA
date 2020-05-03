@@ -38,7 +38,17 @@ let updateSelectedQuestions = () => {
   $("#numQuestions").html(selectedQuestions.length);
   window.selectedQuestions = selectedQuestions;
   debugger;
-  $.post( "localhost:5000/makequal", selectedQuestions);
+  $.ajax({
+    url: 'localhost:5000/makequal',
+    type: 'post',
+    dataType: 'json',
+    contentType: 'application/json',
+    success: function (data) {
+      debugger;
+        //$('#target').html(data.msg);
+    },
+    data: JSON.stringify(selectedQuestion)
+  });
 }
 
 $('#makeQual').on('click', function(event) {
