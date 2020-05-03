@@ -2,6 +2,10 @@ from flask import Flask
 
 app = Flask(__name__, static_folder="Frontend")
 
+@app.route('/', methods=['GET'])
+def serve_dir_directory_index():
+    return send_from_directory(static_file_dir, 'index.html')
+
 @app.route('/createqual')
 def example():
     print (request.is_json)
@@ -18,3 +22,20 @@ def example():
 
 if __name__ == '__main__':
     app.run(port = 5000)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
