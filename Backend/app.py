@@ -23,7 +23,8 @@ def example():
     (output, err) = p.communicate()
     p.wait()
     print(output)
-    return(make_response(output, 200))
+    return "okay"
+    # return(make_response(output, 200))
     # language = request.args.get('language') #if key doesn't exist, returns None
     # framework = request.args['framework'] #if key doesn't exist, returns a 400, bad request error
     # website = request.args.get('website')
