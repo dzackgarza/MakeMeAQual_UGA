@@ -1,5 +1,6 @@
 from flask import Flask
 from flask_cors import CORS
+from flask import request
 
 app = Flask(__name__, static_folder="Frontend")
 CORS(app)
@@ -7,7 +8,7 @@ CORS(app)
 
 @app.route('/createqual', methods=['POST'])
 def example():
-    print (request.is_json)
+    print (request)
     content = request.get_json()
     print (content)
     return 'JSON posted'
