@@ -10,8 +10,10 @@ CORS(app)
 def example():
     print (request)
     content = request.get_json()
-    for i in content:
-        print(i)
+    for i, x in enumerate(content):
+        out_str = '# Question {q_number}\n\n{content}'.format(q_number = i+1, content = x)
+        print(out_str)
+        print("----------------")
     return 'JSON posted'
     # language = request.args.get('language') #if key doesn't exist, returns None
     # framework = request.args['framework'] #if key doesn't exist, returns a 400, bad request error
