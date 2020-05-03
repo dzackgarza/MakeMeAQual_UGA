@@ -1,11 +1,6 @@
 from flask import Flask
-from flask import send_from_directory  
 
 app = Flask(__name__, static_folder="Frontend")
-
-@app.route('/', methods=['GET'])
-def serve_dir_directory_index():
-    return send_from_directory(static_file_dir, 'index.html')
 
 @app.route('/createqual')
 def example():
