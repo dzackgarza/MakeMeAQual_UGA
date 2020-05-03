@@ -22,6 +22,7 @@ def example():
     p = subprocess.Popen(final_cmd, stdout=subprocess.PIPE, shell=True)
     (output, err) = p.communicate()
     p.wait()
+    print(output)
     return(make_response(output))
     # language = request.args.get('language') #if key doesn't exist, returns None
     # framework = request.args['framework'] #if key doesn't exist, returns a 400, bad request error
