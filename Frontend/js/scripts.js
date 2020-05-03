@@ -37,6 +37,8 @@ let updateSelectedQuestions = () => {
     .filter(a => intersect(new Set([a.year.toString()]), selectedYears).size > 0);
   $("#numQuestions").html(selectedQuestions.length);
   window.selectedQuestions = selectedQuestions;
+  debugger;
+  $.post( "localhost:5000/makequal", selectedQuestions);
 }
 
 $('#makeQual').on('click', function(event) {
