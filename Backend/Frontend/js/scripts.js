@@ -46,12 +46,14 @@ $('#makeQual').on('click', function(event) {
     url: 'http://localhost:5000/createqual',
     type: 'post',
     dataType: 'json',
-    contentType: 'application/json',
+    data: JSON.stringify(window.selectedQuestions.map(a => a.question)),
     success: function (data) {
       debugger;
         //$('#target').html(data.msg);
     },
-    data: JSON.stringify(window.selectedQuestions.map(a => a.question))
+    error:   function(jqXHR, textStatus, errorThrown) {
+      alert("Error, status = " + textStatus + ", " + "error thrown: " + errorThrown);
+    }
   });
 });
 
