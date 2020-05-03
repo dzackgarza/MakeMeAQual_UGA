@@ -42,9 +42,8 @@ let updateSelectedQuestions = () => {
 $('#makeQual').on('click', function(event) {
   event.preventDefault(); 
   updateSelectedQuestions();
-  debugger;
   $.ajax({
-    url: 'localhost:5000/createqual',
+    url: 'http://localhost:5000/createqual',
     type: 'post',
     dataType: 'json',
     contentType: 'application/json',
