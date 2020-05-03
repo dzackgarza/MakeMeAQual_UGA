@@ -37,9 +37,14 @@ let updateSelectedQuestions = () => {
     .filter(a => intersect(new Set([a.year.toString()]), selectedYears).size > 0);
   $("#numQuestions").html(selectedQuestions.length);
   window.selectedQuestions = selectedQuestions;
+  }
+
+$('#makeQual').on('click', function(event) {
+  event.preventDefault(); 
+  updateSelectedQuestions();
   debugger;
   $.ajax({
-    url: 'localhost:5000/makequal',
+    url: 'localhost:5000/createqual',
     type: 'post',
     dataType: 'json',
     contentType: 'application/json',
@@ -47,13 +52,8 @@ let updateSelectedQuestions = () => {
       debugger;
         //$('#target').html(data.msg);
     },
-    data: JSON.stringify(selectedQuestion)
+    data: JSON.stringify(window.selectedQuestions.map(a => a.question))
   });
-}
-
-$('#makeQual').on('click', function(event) {
-  event.preventDefault(); 
-  updateSelectedQuestions();
 });
 
 $('#btnClearAllTopics').on('click', function(event) {
