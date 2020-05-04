@@ -19,7 +19,6 @@ def example():
         out_str = '# Question {q_number}\n\n{content}\n\n'.format(q_number = i+1, content = x)
         total_string += out_str
     final_cmd = "echo \"{total_string}\" | {pandoc_cmd}".format(total_string=total_string, pandoc_cmd=pandoc_cmd)
-    print(final_cmd)
     p = subprocess.Popen(final_cmd, stdout=subprocess.PIPE, shell=True)
     (output, err) = p.communicate()
     p.wait()

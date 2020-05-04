@@ -48,7 +48,7 @@ $('#makeQual').on('click', function(event) {
     data: JSON.stringify(
       window.selectedQuestions
         .map(a => a.question)
-        .slice(0, 3);
+        .slice(0, 3)
     ),
     contentType: "application/json",
     success: function (data) {
