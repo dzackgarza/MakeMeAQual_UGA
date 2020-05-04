@@ -18,11 +18,11 @@ pandoc -f markdown --filter pandoc-include --filter pandoc-theorem-exe -r markdo
 def example():
     content = request.get_json()
     questions = content['questions']
-    to_pdf = content['pdf']
+    to_pdf = content['pdf'] == 1
     print(to_pdf)
     total_string = ""
     print(to_pdf == 1)
-    pandoc_cmd = pandoc_cmd_pdf if to_pdf == 1 else pandoc_cmd_pdf 
+    pandoc_cmd = pandoc_cmd_pdf if to_pdf else pandoc_cmd_pdf 
     for i, x in enumerate(questions):
         out_str = '# Question {q_number}\n\n{content}\n\n'.format(q_number = i+1, content = x)
         total_string += out_str
@@ -31,17 +31,13 @@ def example():
     (output, err) = p.communicate()
     p.wait()
     print(output)
-    if (do_pdf == true):
-        response = make+response(output.encode('latin1'))
-    return(output)
-    # return(make_response(output, 200))
-    # language = request.args.get('language') #if key doesn't exist, returns None
-    # framework = request.args['framework'] #if key doesn't exist, returns a 400, bad request error
-    # website = request.args.get('website')
-
-    # return '''<h1>The language value is: {}</h1>
-              # <h1>The framework value is: {}</h1>
-              # <h1>The website value is: {}'''.format(language, framework, website)
+    if (to_pdf):
+        response = make_response(output.encode('latin1'))
+        response.headers.set('Content-Disposition', 'attachment', filename='Qual' + '.pdf')
+        response.headers.set('Content-Type', 'application/pdf')
+        return(response)
+    else:
+        return(output)
 
 if __name__ == '__main__':
     app.run(port = 5000, debug=True)
