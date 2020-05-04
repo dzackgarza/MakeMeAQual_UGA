@@ -46,9 +46,12 @@ $('#makeQual').on('click', function(event) {
     url: 'http://localhost:5000/createqual',
     type: 'post',
     data: JSON.stringify(
-      window.selectedQuestions
-        .map(a => a.question)
-        .slice(0, 3)
+      {
+        questions: window.selectedQuestions
+          .map(a => a.question)
+          .slice(0, 3),
+        pdf: 0
+      }
     ),
     contentType: "application/json",
     success: function (data) {
