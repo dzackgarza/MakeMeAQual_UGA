@@ -42,6 +42,7 @@ let updateSelectedQuestions = () => {
 $('#makeQual').on('click', function(event) {
   event.preventDefault(); 
   updateSelectedQuestions();
+  let num_questions= parseInt($('numberQuestions').val())
   $.ajax({
     url: 'http://localhost:5000/createqual',
     type: 'post',
@@ -49,7 +50,7 @@ $('#makeQual').on('click', function(event) {
       {
         questions: window.selectedQuestions
           .map(a => a.question)
-          .slice(0, 3),
+          .slice(0, num_questions),
         pdf: 1
       }
     ),
