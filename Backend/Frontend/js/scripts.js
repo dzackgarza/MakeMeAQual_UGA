@@ -59,7 +59,7 @@ $('#makeQual').on('click', function(event) {
     success: function (data) {
       debugger;
       if (do_pdf == true) {
-        var blob=new Blob([data]);
+        var blob=new Blob([data], { type: 'application/pdf' });
         var link=document.createElement('a');
         link.href=window.URL.createObjectURL(blob);
         link.download="qual.pdf";
