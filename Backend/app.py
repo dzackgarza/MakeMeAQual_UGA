@@ -1,6 +1,7 @@
 from flask import Flask, make_response
 from flask_cors import CORS
 from flask import request
+from flask import Response
 import subprocess
 
 app = Flask(__name__, static_folder="Frontend")
@@ -32,10 +33,10 @@ def example():
     p.wait()
     print(output)
     if (to_pdf):
-        response = make_response(output.encode('latin1'))
-        response.headers.set('Content-Disposition', 'attachment', filename='Qual' + '.pdf')
-        response.headers.set('Content-Type', 'application/pdf')
-        return(response)
+        resp= Response(output) 
+        resp.headers['Content-Disposition'] = "inline; filename=%s" % "Qual.pdf" 
+        resp.mimetype = 'application/pdf'
+        return(resp)
     else:
         return(output)
 
