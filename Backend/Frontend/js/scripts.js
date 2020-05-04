@@ -45,7 +45,11 @@ $('#makeQual').on('click', function(event) {
   $.ajax({
     url: 'http://localhost:5000/createqual',
     type: 'post',
-    data: JSON.stringify(window.selectedQuestions.map(a => a.question)),
+    data: JSON.stringify(
+      window.selectedQuestions
+        .map(a => a.question)
+        .slice(0, 3);
+    ),
     contentType: "application/json",
     success: function (data) {
       debugger;
