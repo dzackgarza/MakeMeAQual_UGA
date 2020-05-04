@@ -13,6 +13,7 @@ pandoc -f markdown --filter pandoc-include --filter pandoc-theorem-exe -r markdo
 @app.route('/createqual', methods=['POST'])
 def example():
     content = request.get_json()
+    print(content)
     total_string = ""
     for i, x in enumerate(content):
         out_str = '# Question {q_number}\n\n{content}\n\n'.format(q_number = i+1, content = x)
@@ -23,7 +24,7 @@ def example():
     (output, err) = p.communicate()
     p.wait()
     print(output)
-    return "okay"
+    return(output)
     # return(make_response(output, 200))
     # language = request.args.get('language') #if key doesn't exist, returns None
     # framework = request.args['framework'] #if key doesn't exist, returns a 400, bad request error
