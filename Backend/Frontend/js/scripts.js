@@ -63,11 +63,12 @@ $('#makeQual').on('click', function(event) {
         link.href=window.URL.createObjectURL(blob);
         link.download="qual.pdf";
         link.click();
+      } else{
+        var w = window.open('about:blank');
+        w.document.open();
+        w.document.write(data);
+        w.document.close();
       }
-      var w = window.open('about:blank');
-      w.document.open();
-      w.document.write(data);
-      w.document.close();
     },
     error:   function(jqXHR, textStatus, errorThrown) {
       alert("Error, status = " + textStatus + ", " + "error thrown: " + errorThrown);
