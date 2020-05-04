@@ -13,9 +13,11 @@ pandoc -f markdown --filter pandoc-include --filter pandoc-theorem-exe -r markdo
 @app.route('/createqual', methods=['POST'])
 def example():
     content = request.get_json()
-    print(content)
+    questions = content['questions']
+    to_pdf = content['pdf']
+    print(to_pdf)
     total_string = ""
-    for i, x in enumerate(content):
+    for i, x in enumerate(questions):
         out_str = '# Question {q_number}\n\n{content}\n\n'.format(q_number = i+1, content = x)
         total_string += out_str
     final_cmd = "echo \'{total_string}\' | {pandoc_cmd}".format(total_string=total_string, pandoc_cmd=pandoc_cmd)
