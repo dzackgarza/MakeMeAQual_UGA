@@ -33,10 +33,15 @@ def example():
     p.wait()
     print(output)
     if (to_pdf):
-        resp= Response(output) 
-        resp.headers['Content-Disposition'] = "inline; filename=%s" % "Qual.pdf" 
-        resp.mimetype = 'application/pdf'
-        return(resp)
+        f = open('mf.pdf', 'w+b')
+        binary_format = bytearray(output)
+        f.write(binary_format)
+        f.close()
+        return send_file(binary_format, attachment_filname="qual.pdf", mimetype="application/pdf")
+        # resp= Response(io.BytesIO(output)) 
+        # resp.headers['Content-Disposition'] = "inline; filename=%s" % "Qual.pdf" 
+        # resp.mimetype = 'application/pdf'
+        # return(resp)
     else:
         return(output)
 
