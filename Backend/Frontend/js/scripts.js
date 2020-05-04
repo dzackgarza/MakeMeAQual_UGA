@@ -50,7 +50,7 @@ $('#makeQual').on('click', function(event) {
         questions: window.selectedQuestions
           .map(a => a.question)
           .slice(0, 3),
-        pdf: 0
+        pdf: 1
       }
     ),
     contentType: "application/json",
