@@ -42,7 +42,7 @@ let updateSelectedQuestions = () => {
 $('#makeQual').on('click', function(event) {
   event.preventDefault(); 
   updateSelectedQuestions();
-  let num_questions= parseInt($('numberQuestions').val())
+  let num_questions= parseInt($('#numberQuestions').val())
   $.ajax({
     url: 'http://localhost:5000/createqual',
     type: 'post',
