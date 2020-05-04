@@ -31,6 +31,8 @@ def example():
     (output, err) = p.communicate()
     p.wait()
     print(output)
+    if (do_pdf == true):
+        response = make+response(output.encode('latin1'))
     return(output)
     # return(make_response(output, 200))
     # language = request.args.get('language') #if key doesn't exist, returns None
