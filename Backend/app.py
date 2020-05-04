@@ -2,6 +2,7 @@ from flask import Flask, make_response
 from flask_cors import CORS
 from flask import request, Response, send_file
 import subprocess
+import io
 
 app = Flask(__name__, static_folder="Frontend")
 CORS(app)
@@ -36,7 +37,10 @@ def example():
         binary_format = bytearray(output)
         f.write(binary_format)
         f.close()
-        return send_file(binary_format, attachment_filename="qual.pdf", mimetype="application/pdf")
+        # response = make_response(image_binary)
+        # response.headers.set('Content-Type', 'application/pdf')
+        # response.headers.set('Content-Disposition', 'attachment', filename='Qual.pdf')
+        return send_file(io.BytesIO(binary_format), attachment_filename="qual.pdf", mimetype="application/pdf")
         # resp= Response(io.BytesIO(output)) 
         # resp.headers['Content-Disposition'] = "inline; filename=%s" % "Qual.pdf" 
         # resp.mimetype = 'application/pdf'
