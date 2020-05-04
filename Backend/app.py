@@ -11,7 +11,7 @@ pandoc -f markdown --filter pandoc-include --filter pandoc-theorem-exe -r markdo
 """
 
 pandoc_cmd_pdf = """
-pandoc -f markdown --filter pandoc-include --filter pandoc-theorem-exe -r markdown+tex_math_dollars+simple_tables+table_captions+                yaml_metadata_block+smart+blank_before_blockquote+backtick_code_blocks+link_attributes --template=/home/zack/Notes/Latex/pandoc_template.tex  --resource-path="$directory" --pdf-              engine=pdflatex --lua-filter=/home/zack/Notes/Latex/dollar_math.lua
+pandoc -f markdown --filter pandoc-include --filter pandoc-theorem-exe -r markdown+tex_math_dollars+simple_tables+table_captions+yaml_metadata_block+smart+blank_before_blockquote+backtick_code_blocks+link_attributes --template=/home/zack/Notes/Latex/pandoc_template.tex  --resource-path="$directory" --pdf-engine=pdflatex --lua-filter=/home/zack/Notes/Latex/dollar_math.lua -t pdf
 """
 
 @app.route('/createqual', methods=['POST'])
