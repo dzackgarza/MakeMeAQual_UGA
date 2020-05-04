@@ -11,7 +11,7 @@ pandoc -f markdown --filter pandoc-include --filter pandoc-theorem-exe -r markdo
 """
 
 pandoc_cmd_pdf = """
-pandoc -f markdown --filter pandoc-include --filter pandoc-theorem-exe -r markdown+tex_math_dollars+simple_tables+table_captions+yaml_metadata_block+smart+blank_before_blockquote+backtick_code_blocks+link_attributes --lua-filter=/home/zack/Notes/Latex/dollar_math.lua -s --mathjax
+pandoc -f markdown --filter pandoc-include --filter pandoc-theorem-exe -r markdown+tex_math_dollars+simple_tables+table_captions+yaml_metadata_block+smart+blank_before_blockquote+backtick_code_blocks+link_attributes --lua-filter=/home/zack/Notes/Latex/dollar_math.lua -t pdf
 """
 
 @app.route('/createqual', methods=['POST'])
@@ -21,6 +21,7 @@ def example():
     to_pdf = content['pdf']
     print(to_pdf)
     total_string = ""
+    pandoc_cmd = pandoc_cmd_html if to_pdf == 0 else pandoc_cmd_pdf 
     for i, x in enumerate(questions):
         out_str = '# Question {q_number}\n\n{content}\n\n'.format(q_number = i+1, content = x)
         total_string += out_str
