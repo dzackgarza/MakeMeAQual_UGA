@@ -43,6 +43,7 @@ $('#makeQual').on('click', function(event) {
   event.preventDefault(); 
   updateSelectedQuestions();
   let num_questions= parseInt($('#numberQuestions').val())
+  let do_pdf = parseInt($("input[name='outputRadios']:checked").val());
   $.ajax({
     url: 'http://localhost:5000/createqual',
     type: 'post',
@@ -51,7 +52,7 @@ $('#makeQual').on('click', function(event) {
         questions: window.selectedQuestions
           .map(a => a.question)
           .slice(0, num_questions),
-        pdf: 1
+        pdf: do_pdf
       }
     ),
     contentType: "application/json",
