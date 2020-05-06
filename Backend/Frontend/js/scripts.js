@@ -1,3 +1,8 @@
+$(document).ajaxStart(function() {
+    $(document.body).css({'cursor' : 'wait'});
+}).ajaxStop(function() {
+    $(document.body).css({'cursor' : 'default'});
+});
 let intersect = (s1, s2) => {
   let s = new Set( [...s1].filter(x => s2.has(x)) );
   return s;
