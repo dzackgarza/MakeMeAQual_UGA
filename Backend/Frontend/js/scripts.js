@@ -56,17 +56,20 @@ $('#makeQual').on('click', function(event) {
       }
     ),
     contentType: "application/json",
+    responseType: "blob",
     success: function (data) {
       if (do_pdf == true) {
       debugger;
         //var file = new Blob([data], { type: 'application/pdf' });
         //var fileURL = URL.createObjectURL(file);
         //window.open(fileURL);
-        var blob=new Blob([data], { type: 'application/pdf' });
-        var link=document.createElement('a');
-        link.href=window.URL.createObjectURL(blob);
-        link.download="qual.pdf";
-        link.click();
+        var fileURL = URL.createObjectURL(data.data);
+        window.open(fileURL);
+        //var blob=new Blob([data], { type: 'application/pdf' });
+        //var link=document.createElement('a');
+        //link.href=window.URL.createObjectURL(blob);
+        //link.download="qual.pdf";
+        //link.click();
       } else{
         var w = window.open('about:blank');
         w.document.open();
