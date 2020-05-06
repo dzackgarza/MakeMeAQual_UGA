@@ -21,7 +21,7 @@ def example():
     questions = content['questions']
     to_pdf = content['do_pdf'] == 1
     print(to_pdf)
-    total_string = ""
+    total_string = "" if to_pdf else open('latexmacs.tex', 'r').read() + "\n\n" 
     pandoc_cmd = pandoc_cmd_pdf if to_pdf else pandoc_cmd_html 
     for i, x in enumerate(questions):
         out_str = '# Question {q_number}\n\n{content}\n\n'.format(
