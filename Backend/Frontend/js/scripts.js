@@ -57,7 +57,6 @@ $('#makeQual').on('click', function(event) {
     ),
     contentType: "application/json",
     xhr:function(){
-      debugger;
       var xhr = new XMLHttpRequest();
       if(do_pdf) {
         xhr.responseType= 'blob'
