@@ -44,6 +44,16 @@ $('#makeQual').on('click', function(event) {
   updateSelectedQuestions();
   let num_questions= parseInt($('#numberQuestions').val())
   let do_pdf = true; //parseInt($("input[name='outputRadios']:checked").val());
+  $http({
+    url: 'http://localhost:5000/createqual',
+    method: "POST",
+    responseType: "blob"
+  }).then(function(response) {
+    debugger;
+    var fileURL = URL.createObjectURL(response.data);
+    window.open(fileURL);
+  });
+  return;
   $.ajax({
     url: 'http://localhost:5000/createqual',
     type: 'post',
