@@ -20,7 +20,7 @@ def example():
     content = request.get_json()
     questions = content['questions']
     to_pdf = content['do_pdf'] == 1
-    print(to_pdf)
+    print("To PDF? ", to_pdf)
     total_string = ""
     pandoc_cmd = pandoc_cmd_pdf if to_pdf else pandoc_cmd_pdf 
     for i, x in enumerate(questions):
@@ -36,31 +36,10 @@ def example():
     p = subprocess.Popen(final_cmd, stdout=subprocess.PIPE, shell=True)
     (output, err) = p.communicate()
     p.wait()
-    print(output)
     if (to_pdf):
-        f = open('mf.pdf', 'w+b')
-        binary_format = bytearray(output)
-        f.write(binary_format)
-        f.close()
-        # response = make_response(image_binary)
-        # response.headers.set('Content-Type', 'application/pdf')
-        # response.headers.set('Content-Disposition', 'attachment', filename='Qual.pdf')
-        mem = io.BytesIO(binary_format) 
-        # response = send_file(
-        # mem,
-        # as_attachment=True,
-        # attachment_filename='out.pdf',
-        # mimetype='application/pdf'
-        # )
-        response = make_response(bytearray(output))
         response.headers.set('Content-Disposition', 'attachment', filename='qualout.pdf')
         response.headers.set('Content-Type', 'application/pdf')
         return response
-        # return send_file(, attachment_filename="qual.pdf", mimetype="application/pdf")
-        # resp= Response(io.BytesIO(output)) 
-        # resp.headers['Content-Disposition'] = "inline; filename=%s" % "Qual.pdf" 
-        # resp.mimetype = 'application/pdf'
-        # return(resp)
     else:
         return(output)
 

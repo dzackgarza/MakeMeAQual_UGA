@@ -43,10 +43,7 @@ $('#makeQual').on('click', function(event) {
   event.preventDefault(); 
   updateSelectedQuestions();
   let num_questions= parseInt($('#numberQuestions').val())
-  let do_pdf = true; //parseInt($("input[name='outputRadios']:checked").val());
-  //var img = document.getElementById('img');
-  //var url = window.URL || window.webkitURL;
-  //img.src = url.createObjectURL(data);
+  let do_pdf = parseInt($("input[name='outputFormat']:checked").val());
   $.ajax({
     url: 'http://localhost:5000/createqual',
     type: 'post',
@@ -55,24 +52,19 @@ $('#makeQual').on('click', function(event) {
         questions: window.selectedQuestions
           .map(a => a.question)
           .slice(0, num_questions),
-        pdf: do_pdf
+        do_pdf: do_pdf
       }
     ),
     contentType: "application/json",
-    xhr:function(){// Seems like the only way to get access to the xhr object
+    xhr:function(){
       var xhr = new XMLHttpRequest();
-      xhr.responseType= 'blob'
+      if(do_pdf) {
+        xhr.responseType= 'blob'
+      }
       return xhr;
     },
     success: function (data) {
-      if (do_pdf == true) {
-      debugger;
-        //var file = new Blob([data], { type: 'application/pdf' });
-        //var fileURL = URL.createObjectURL(file);
-        //window.open(fileURL);
-        //var fileURL = URL.createObjectURL(data.data);
-        //window.open(fileURL);
-        //var blob=new Blob([data], { type: 'application/pdf' });
+      if (do_pdf) {
         let blob = data;
         var link=document.createElement('a');
         link.href=window.URL.createObjectURL(blob);
