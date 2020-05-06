@@ -45,7 +45,16 @@ $('#makeQual').on('click', function(event) {
   let num_questions= parseInt($('#numberQuestions').val())
   let do_pdf = true; //parseInt($("input[name='outputRadios']:checked").val());
   jQuery.ajax({
-    url: 'http://localhost:5000/createqual',
+    type: "post",
+    data: JSON.stringify(
+      {
+        questions: window.selectedQuestions
+          .map(a => a.question)
+          .slice(0, num_questions),
+        pdf: do_pdf
+      }
+    ),
+url: 'http://localhost:5000/createqual',
         cache:false,
         xhr:function(){// Seems like the only way to get access to the xhr object
             var xhr = new XMLHttpRequest();
