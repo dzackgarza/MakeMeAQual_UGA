@@ -38,6 +38,7 @@ def example():
     (output, err) = p.communicate()
     p.wait()
     if (to_pdf):
+        response = make_response(bytearray(output))
         response.headers.set('Content-Disposition', 'attachment', filename='qualout.pdf')
         response.headers.set('Content-Type', 'application/pdf')
         return response
