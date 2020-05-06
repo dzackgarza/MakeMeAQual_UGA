@@ -44,15 +44,24 @@ $('#makeQual').on('click', function(event) {
   updateSelectedQuestions();
   let num_questions= parseInt($('#numberQuestions').val())
   let do_pdf = true; //parseInt($("input[name='outputRadios']:checked").val());
-  $http({
+  jQuery.ajax({
     url: 'http://localhost:5000/createqual',
-    method: "POST",
-    responseType: "blob"
-  }).then(function(response) {
-    debugger;
-    var fileURL = URL.createObjectURL(response.data);
-    window.open(fileURL);
-  });
+        cache:false,
+        xhr:function(){// Seems like the only way to get access to the xhr object
+            var xhr = new XMLHttpRequest();
+            xhr.responseType= 'blob'
+            return xhr;
+        },
+        success: function(data){
+          debugger
+            var img = document.getElementById('img');
+            var url = window.URL || window.webkitURL;
+            img.src = url.createObjectURL(data);
+        },
+        error:function(){
+            
+        }
+    });
   return;
   $.ajax({
     url: 'http://localhost:5000/createqual',
