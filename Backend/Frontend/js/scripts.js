@@ -42,8 +42,8 @@ let updateSelectedQuestions = () => {
 $('#makeQual').on('click', function(event) {
   event.preventDefault(); 
   updateSelectedQuestions();
-  let num_questions= parseInt($('#numberQuestions').val())
-  let do_pdf = parseInt($("input[name='outputFormat']:checked").val());
+  let num_questions= parseInt($('#numberQuestions').val()) || 0;
+  let do_pdf = parseInt($("input[name='outputFormat']:checked").val()) || 0;
   $.ajax({
     url: 'http://localhost:5000/createqual',
     type: 'post',
