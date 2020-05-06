@@ -41,12 +41,16 @@ def example():
         # response.headers.set('Content-Type', 'application/pdf')
         # response.headers.set('Content-Disposition', 'attachment', filename='Qual.pdf')
         mem = io.BytesIO(binary_format) 
-        return send_file(
-                mem,
-                as_attachment=True,
-                attachment_filename='out.pdf',
-                mimetype='application/pdf'
-            )
+        # response = send_file(
+        # mem,
+        # as_attachment=True,
+        # attachment_filename='out.pdf',
+        # mimetype='application/pdf'
+        # )
+        response = make_response(output)
+        response.headers.set('Content-Disposition', 'attachment', filename='qualout.pdf')
+        response.headers.set('Content-Type', 'application/pdf')
+        return response
         # return send_file(, attachment_filename="qual.pdf", mimetype="application/pdf")
         # resp= Response(io.BytesIO(output)) 
         # resp.headers['Content-Disposition'] = "inline; filename=%s" % "Qual.pdf" 
