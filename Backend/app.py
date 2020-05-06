@@ -47,7 +47,7 @@ def example():
         # attachment_filename='out.pdf',
         # mimetype='application/pdf'
         # )
-        response = make_response(output)
+        response = make_response(bytearray(output.encode))
         response.headers.set('Content-Disposition', 'attachment', filename='qualout.pdf')
         response.headers.set('Content-Type', 'application/pdf')
         return response
