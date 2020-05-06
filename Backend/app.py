@@ -19,15 +19,20 @@ pandoc -f markdown --filter pandoc-include --filter pandoc-theorem-exe -r markdo
 def example():
     content = request.get_json()
     questions = content['questions']
-    to_pdf = True #content['pdf'] == 1
+    to_pdf = content['do_pdf'] == 1
     print(to_pdf)
     total_string = ""
-    print(to_pdf == 1)
     pandoc_cmd = pandoc_cmd_pdf if to_pdf else pandoc_cmd_pdf 
     for i, x in enumerate(questions):
-        out_str = '# Question {q_number}\n\n{content}\n\n'.format(q_number = i+1, content = x)
+        out_str = '# Question {q_number}\n\n{content}\n\n'.format(
+                q_number = i+1, 
+                content = x
+            )
         total_string += out_str
-    final_cmd = "echo \'{total_string}\' | {pandoc_cmd}".format(total_string=total_string, pandoc_cmd=pandoc_cmd)
+    final_cmd = "echo \'{total_string}\' | {pandoc_cmd}".format(
+            total_string = total_string, 
+            pandoc_cmd = pandoc_cmd
+        )
     p = subprocess.Popen(final_cmd, stdout=subprocess.PIPE, shell=True)
     (output, err) = p.communicate()
     p.wait()
