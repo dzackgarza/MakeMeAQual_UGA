@@ -44,34 +44,9 @@ $('#makeQual').on('click', function(event) {
   updateSelectedQuestions();
   let num_questions= parseInt($('#numberQuestions').val())
   let do_pdf = true; //parseInt($("input[name='outputRadios']:checked").val());
-  jQuery.ajax({
-    type: "post",
-    data: JSON.stringify(
-      {
-        questions: window.selectedQuestions
-          .map(a => a.question)
-          .slice(0, num_questions),
-        pdf: do_pdf
-      }
-    ),
-url: 'http://localhost:5000/createqual',
-        cache:false,
-        xhr:function(){// Seems like the only way to get access to the xhr object
-            var xhr = new XMLHttpRequest();
-            xhr.responseType= 'blob'
-            return xhr;
-        },
-        success: function(data){
-          debugger
-            var img = document.getElementById('img');
-            var url = window.URL || window.webkitURL;
-            img.src = url.createObjectURL(data);
-        },
-        error:function(){
-            
-        }
-    });
-  return;
+  //var img = document.getElementById('img');
+  //var url = window.URL || window.webkitURL;
+  //img.src = url.createObjectURL(data);
   $.ajax({
     url: 'http://localhost:5000/createqual',
     type: 'post',
@@ -84,20 +59,25 @@ url: 'http://localhost:5000/createqual',
       }
     ),
     contentType: "application/json",
-    responseType: "blob",
+    xhr:function(){// Seems like the only way to get access to the xhr object
+      var xhr = new XMLHttpRequest();
+      xhr.responseType= 'blob'
+      return xhr;
+    },
     success: function (data) {
       if (do_pdf == true) {
       debugger;
         //var file = new Blob([data], { type: 'application/pdf' });
         //var fileURL = URL.createObjectURL(file);
         //window.open(fileURL);
-        var fileURL = URL.createObjectURL(data.data);
-        window.open(fileURL);
+        //var fileURL = URL.createObjectURL(data.data);
+        //window.open(fileURL);
         //var blob=new Blob([data], { type: 'application/pdf' });
-        //var link=document.createElement('a');
-        //link.href=window.URL.createObjectURL(blob);
-        //link.download="qual.pdf";
-        //link.click();
+        let blob = data;
+        var link=document.createElement('a');
+        link.href=window.URL.createObjectURL(blob);
+        link.download="qual.pdf";
+        link.click();
       } else{
         var w = window.open('about:blank');
         w.document.open();
