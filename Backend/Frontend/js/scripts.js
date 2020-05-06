@@ -43,7 +43,7 @@ $('#makeQual').on('click', function(event) {
   event.preventDefault(); 
   updateSelectedQuestions();
   let num_questions= parseInt($('#numberQuestions').val())
-  let do_pdf = parseInt($("input[name='outputRadios']:checked").val());
+  let do_pdf = true; //parseInt($("input[name='outputRadios']:checked").val());
   $.ajax({
     url: 'http://localhost:5000/createqual',
     type: 'post',
@@ -57,8 +57,11 @@ $('#makeQual').on('click', function(event) {
     ),
     contentType: "application/json",
     success: function (data) {
-      debugger;
       if (do_pdf == true) {
+      debugger;
+        //var file = new Blob([data], { type: 'application/pdf' });
+        //var fileURL = URL.createObjectURL(file);
+        //window.open(fileURL);
         var blob=new Blob([data], { type: 'application/pdf' });
         var link=document.createElement('a');
         link.href=window.URL.createObjectURL(blob);
