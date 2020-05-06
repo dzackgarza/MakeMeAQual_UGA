@@ -13,7 +13,7 @@ $endfor$
 $if(date-meta)$
 <meta name="dcterms.date" content="$date-meta$">
 $endif$
-<title>Practice Qualifying Exam/title>
+<title>$if(title-prefix)$$title-prefix$ - $endif$$pagetitle$</title>
 
 <!-- Yahoo! CDN combo URL for selected Pure.css modules -->
 <link rel="stylesheet" href="http://yui.yahooapis.com/combo?pure/0.6.0/base-min.css&pure/0.6.0/grids-responsive-min.css&pure/0.6.0/menus-min.css&pure/0.6.0/tables-min.css">
@@ -99,6 +99,8 @@ $if(toc)$
 $toc$
 </nav>
 $endif$
+<h1>Practice Qualifying Exam</h1>
+<hr>
 $body$
 $for(include-after)$
 $include-after$

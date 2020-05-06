@@ -42,6 +42,7 @@ def example():
         response.headers.set('Content-Type', 'application/pdf')
         return response
     else:
+        print(output)
         return(output)
 
 if __name__ == '__main__':
