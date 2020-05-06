@@ -19,7 +19,7 @@ pandoc -f markdown --filter pandoc-include --filter pandoc-theorem-exe -r markdo
 def example():
     content = request.get_json()
     questions = content['questions']
-    to_pdf = content['pdf'] == 1
+    to_pdf = True #content['pdf'] == 1
     print(to_pdf)
     total_string = ""
     print(to_pdf == 1)
