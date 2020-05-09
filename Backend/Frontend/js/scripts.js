@@ -45,12 +45,12 @@ let updateSelectedQuestions = () => {
   }
 
 $('#makeQual').on('click', function(event) {
-  event.preventDefault(); 
+  event.preventDefault();
   updateSelectedQuestions();
   let num_questions= parseInt($('#numberQuestions').val()) || 0;
   let do_pdf = parseInt($("input[name='outputFormat']:checked").val()) == 1 || false;
   $.ajax({
-    url: 'http://localhost:5000/createqual',
+    url: 'https://dzackgarza.com:5000/createqual',
     type: 'post',
     data: JSON.stringify(
       {
@@ -89,17 +89,17 @@ $('#makeQual').on('click', function(event) {
 });
 
 $('#btnClearAllTopics').on('click', function(event) {
-  event.preventDefault(); 
+  event.preventDefault();
   window.selectTopics[0].selectize.clear();
 });
 
 
 $('#btnClearAllYears').on('click', function(event) {
-  event.preventDefault(); 
+  event.preventDefault();
   window.selectYears[0].selectize.clear();
 });
 
-fetch("/questions.json")
+fetch("questions.json")
   .then(response => response.json())
   .then(json => parseQuestions(json));
 
