@@ -29,7 +29,7 @@ def example():
                 content = x
             )
         total_string += out_str
-    final_cmd = "echo \'{total_string}\' | {pandoc_cmd}".format(
+    final_cmd = "printf \'\%s\' \'{total_string}\' | {pandoc_cmd}".format(
             total_string = total_string, 
             pandoc_cmd = pandoc_cmd
         )
