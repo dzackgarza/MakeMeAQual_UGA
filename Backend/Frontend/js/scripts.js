@@ -56,6 +56,9 @@ $('#makeQual').on('click', function(event) {
       {
         questions: window.selectedQuestions
           .map(a => a.question)
+          .map((a) => ({sort: Math.random(), value: a}))
+          .sort((a, b) => a.sort - b.sort)
+          .map((a) => a.value)
           .slice(0, num_questions),
         do_pdf: do_pdf
       }

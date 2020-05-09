@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Bootstrap 4, from LayoutIt!</title>
+    <title>Make Me a Qual</title>
 
     <meta name="description" content="Source code generated using layoutit.com">
     <meta name="author" content="LayoutIt!">
@@ -21,6 +21,15 @@
   <fieldset>
   <!-- Form Name -->
   <legend>Make Me a Qual</legend>
+  <small class="form-text text-muted">Inspired by / adapted from Jonathan Love's <a href="http://stanford.edu/~jonlove/qual/makeit.html">tool of the same name </a>.</small>
+  Instructions:
+  <ul>
+    <li>There is an underlying collection of questions from a large number of quals, the options here essentially filter these down and take a random selection.</li>
+    <li>Select exam type (Algebra, Analysis, etc). The later selections will be populated with the metadata from the available questions.</li>
+    <li>Use the "Topics" and "Years" sections to add or remove questions, while ensuring the "Number of Matching Questions" is strictly positive.</li>
+    <li>Choose the number of questions to appear on the exam, then click "Make Me a Qual" to open a new HTML window with the exam questions.</li>
+    <li><i>(Note that you can instead generate a PDF to download, but this takes slightly longer.)</i></li>
+  </ul>
   <hr>
 	<div class="row">
 		<div class="col-md-12">
@@ -104,7 +113,7 @@
             </div>
             <div class="col-md-6">
             <label class="col-md-6 control-label" for="selectmultiple">Number of Questions</label>
-            <input id="numberQuestions" name="textinput" type="text" value="5" class="form-control input-md"> 
+            <input id="numberQuestions" name="textinput" type="text" value="5" class="form-control input-md">
 
             </div>
             <!--<label class="col-md-6 control-label" for="textinput">Number of Questions</label>  -->
