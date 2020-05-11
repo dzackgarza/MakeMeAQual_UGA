@@ -26,11 +26,13 @@ def example():
     #print(to_pdf)
     total_string = "" if to_pdf else open('latexmacs.tex', 'r').read() + "\n\n"
     pandoc_cmd = pandoc_cmd_pdf if to_pdf else pandoc_cmd_html
+    total_string += "---\ntitle: Qualifying Exam\n---\n\n"
     for i, x in enumerate(questions):
         out_str = '# Question {q_number}\n\n{content}\n\n'.format(
                 q_number = i+1,
                 content = x
-            )
+            ).replace("'", r"\textsc{\char13}")
+        print(out_str)
         total_string += out_str
     #print(total_string)
     final_cmd = "printf \'\\n%s\' \'{total_string}\' | {pandoc_cmd}".format(

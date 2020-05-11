@@ -25,7 +25,7 @@
       "season": "Fall",
       "number": 3,
       "tags": [
-        "Ring"
+        "Rings"
       ],
       "question": "Let $R$ be a ring with the property that for every $a \\in R, a^2 = a$.\n\n(a) Prove that $R$ has characteristic 2.\n\n(b) Prove that $R$ is commutative.\n"
     },
