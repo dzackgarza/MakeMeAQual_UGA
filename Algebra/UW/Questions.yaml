@@ -1,0 +1,43 @@
+- year: 2018
+  number: 1
+  tags:
+    - Algebra 
+  question: |
+    Show that no finite group is the union of conjugates of a proper subgroup.
+- year: 2018
+  number: 2
+  tags:
+    - Algebra 
+  question: |
+    Classify all groups of order 18 up to isomorphism.
+- year: 2018
+  number: 3
+  tags:
+    - Algebra 
+  question: |
+    Let $\alpha,\beta$ denote the unique positive
+    real $5^{\text{th}}$ root of 7 and $4^{\text{th}}$ root of 5,
+    respectively. Determine the degree of $\mathbb Q(\alpha,\beta)$ over $\mathbb Q$.
+year: 2018
+  number: 4
+  tags:
+    - Algebra 
+  question: |
+- year: 2018
+    Show that the field extension $\mathbb Q\subseteq\mathbb Q\left(
+    \sqrt{2+\sqrt2}\right)$ is Galois and determine its Galois group.
+  number: 5
+  tags:
+    - Algebra 
+  question: |
+    Let $M$ be a square matrix over a field $K$. Use a suitable canonical
+    form to show that $M$ is similar to its transpose $M^T$.
+- year: 2018
+  number: 7
+  tags:
+    - Algebra 
+  question: |
+    Let $G$ be a finite group and $\pi$, $\pi'$ be two irreducible 
+    representations of $G$. Prove or disprove the following assertion:
+    $\pi$ and $\pi'$ are equivalent if and only if $\det\pi(g)=\det\pi'(g)$
+    for all $g\in G$.
