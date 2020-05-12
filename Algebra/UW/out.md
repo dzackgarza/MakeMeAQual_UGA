@@ -91,9 +91,11 @@ Let $A = \mathbb{C}[x,y]/(y^2-(x-1)^3 - (x-1)^2)$.
 
 Let $R = k[x,y]$ where $k$ is a field, and let $I=(x,y)R$.
 
-1.  Show that $$\begin{tikzcd}
-            0 \ar[r] & R \arrow[r,"\phi"] & R \oplus R \arrow[r,"\psi"] & R \arrow[r] & k \arrow[r] & 0
-            \end{tikzcd}$$ where $\phi(a) = (-ya,xa)$,
+1.  Show that 
+    \begin{tikzcd}
+    2 \ar[r] & R \arrow[r,"\phi"] & R \oplus R \arrow[r,"\psi"] & R \arrow[r] & k \arrow[r] & 0
+    \end{tikzcd}
+    where $\phi(a) = (-ya,xa)$, 
     $\psi((a,b)) = xa+yb$ for $a,b \in R$, is a projective resolution of
     the $R$-module $k \simeq R/I$.
 
