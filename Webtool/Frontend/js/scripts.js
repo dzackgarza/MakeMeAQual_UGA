@@ -9,12 +9,12 @@ let intersect = (s1, s2) => {
 }
 
 let parseQuestions = jsonQuestions => {
-  years = Array.from(new Set(jsonQuestions.Problems.map(a => a.year))).sort();
+  years = Array.from(new Set(jsonQuestions.map(a => a.year))).sort();
   //years.forEach(j => {
     //$("#selectYears").append($("<option selected></option>").val(j).html(j));
   //});
 
-  let topics = Array.from(new Set([].concat(...jsonQuestions.Problems.map(a => a.tags)))).sort();
+  let topics = Array.from(new Set([].concat(...jsonQuestions.map(a => a.tags)))).sort();
   //topics.forEach(j => {
     //$("#selectTopics").append($("<option selected></option>").val(j).html(j));
   //});
@@ -30,7 +30,7 @@ let parseQuestions = jsonQuestions => {
     items: topics,
     onChange: updateSelectedQuestions
   })
-  window.questions = jsonQuestions.Problems;
+  window.questions = jsonQuestions;
   updateSelectedQuestions();
 }
 
