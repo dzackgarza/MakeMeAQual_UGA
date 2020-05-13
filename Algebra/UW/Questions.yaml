@@ -1015,116 +1015,244 @@ Problems:
       Show there are exactly two groups of order 21 up to isomorphism.
 
 
-  - year: 2007
-    number: 6
+  - year: 2006
+    number: 2
     tags:
       - Algebra
     question: |
+      Let $K$ be the field $\mathbb Q(z)$ of rational functions in a variable $z$
+      with coeffiecients in the rational field $\mathbb Q$.
+      Let $n$ be a positive integer. Consider the polynomial $x^n-z\in K[x]$.
+      \begin{enumerate}[(a)]
+        \item Show that the polynomial $x^n-z$ is irreducible over $K$.
+        \item Describe the splitting field of $x^n-z$ over $K$.
+        \item Determine the Galois group of the splitting field
+          of $x^5-z$ over the field $K$.
+      \end{enumerate}
 
 
-  - year: 2007
-    number: 6
+  - year: 2006
+    number: 3
     tags:
       - Algebra
     question: |
+      \begin{enumerate}[(a)]
+        \item Let $p<q<r$ be prime integers. Show that a group of order
+          $pqr$ cannot be simple.
+        \item Consider groups of orders $2^2\cdot 3\cdot p$ where $p$
+          has the values 5, 7, and 11. For each of those values
+          of $p$, either display a simple group of order
+          $2^2\cdot 3\cdot p$, or show that there cannot
+          be a simple group of that order.
+      \end{enumerate}
 
 
-  - year: 2007
-    number: 6
+  - year: 2006
+    number: 4
     tags:
       - Algebra
     question: |
+      Let $K/F$ be a finite Galois extension and let $n=[K:F]$. There is a theorem
+      (often referred to as the "normal basis theorem") which states that there
+      exists an irreducible polynomial $f(x)\in F[x]$ whose
+      roots form a basis for $K$ as a vector space over $F$. You may assume
+      that theorem in this problem.
+      \begin{enumerate}[(a)]
+        \item Let $G=\Gal(K/F)$. The action of $G$ on $K$ makes $K$ into
+          a finite-dimensional representation space for $G$ over $F$.
+          Prove that $K$ is isomorphic to the regular representation
+          for $G$ over $F$.\\
+          (The regular representation is defined by letting $G$ act
+          on the group algebra $F[G]$ by multiplication on
+          the left.)
+        \item Suppose that the Galois group $G$ is cyclic and that $F$
+          contains a primitive $n^{\text{th}}$ root of unity. Show that
+          there exists an injective homomorphism $\chi:G\rightarrow
+          F^{\times}$.
+        \item Show that $K$ contains a non-zero element $a$ with the
+          following property:
+          $$
+          g(a)=\chi(g)\cdot a
+          $$
+          for all $g\in G$.
+        \item If $a$ has the property stated in (c), show that $K=F(a)$ and
+          that $a^n\in F^{\times}$.
+      \end{enumerate}
 
 
-  - year: 2007
-    number: 6
+  - year: 2006
+    number: 5
     tags:
       - Algebra
     question: |
+      Let $G$ be the group of matrices of the form
+      $$
+      \begin{pmatrix}
+        1 & a & b\\
+        0 & 1 & c\\
+        0 & 0 & 1
+      \end{pmatrix}
+      $$
+      with entries in the finite field $\mathbb F_p$ of $p$ element, where
+      $p$ is a prime.
+      \begin{enumerate}[(a)]
+        \item Prove that $G$ is non-abelian.
+        \item Suppose $p$ is odd. Prove that $g^p=I_3$ for all $g\in G$.
+        \item Suppose that $p=2$. It is known that there are exactly
+          two non-abelian groups of order 8, up to isomorphism:
+          the dihedral group $D_8$ and the quaternionic group.
+          Assuming this fact without proof, determine which
+          of these groups $G$ is isomorphic to.
+      \end{enumerate}
 
 
-  - year: 2007
-    number: 6
+  - year: 2006
+    number: 7
     tags:
       - Algebra
     question: |
+      There are five nonisomorphic groups of order 8. For
+      each of those groups $G$, find the smallest positive integer n such that there is an
+      injective homomorphism $\varphi: G\rightarrow S_n$.
 
 
-  - year: 2007
-    number: 6
+  - year: 2005
+    number: 1
     tags:
       - Algebra
     question: |
+      For any group $G$ we define $\Omega(G)$ to be the image of the group
+      homomorphism $\rho:G\rightarrow\Aut(G)$ where $\rho$ maps
+      $g\in G$ to the conjugation automorphism $x\mapsto gxg\inv$.
+      Starting with a group $G_0$, we define $G_1=\Omega(G_0)$ and
+      $G_{i+1}=\Omega(G_i)$ for all $i\geq 0$. If $G_0$ is of order
+      $p^e$ for a prime $p$ and integer $e\geq 2$, prove that $G_{e-1}$
+      is the trivial group.
 
 
-  - year: 2007
-    number: 6
+  - year: 2005
+    number: 2
     tags:
       - Algebra
     question: |
+      Let $\mathbb F_2$ be the field with two elements.
+      \begin{enumerate}[(a)]
+        \item What is the order of $\text{GL}_3(\mathbb F_2)$?
+        \item Use the fact that $\text{GL}_3(\mathbb F_2)$ is a simple group
+          (which you should not prove) to find the number
+          of elements of order 7 in $\text{GL}_3(\mathbb F_2)$.
+      \end{enumerate}
 
 
-  - year: 2007
-    number: 6
+  - year: 2005
+    number: 3
     tags:
       - Algebra
     question: |
+      Let $G$ be a finite abelian group. Let $f:\mathbb Z^m\rightarrow G$ be a
+      surjection of abelian groups. We may think of $f$ as a homomorphism
+      of $\mathbb Z$-modules. Let $K$ be the kernel of $f$.
+      \begin{enumerate}[(a)]
+        \item Prove that $K$ is isomorphic to $\mathbb Z^m$.
+        \item We can therefore write the inclusion map
+          $K\rightarrow\mathbb Z^m$ as $\mathbb Z^m\rightarrow\mathbb Z^m$
+          and represent it by an $m\times m$ integer matrix
+          $A$. Prove that $|\det A|=|G|$.
+      \end{enumerate}
 
 
-  - year: 2007
-    number: 6
+  - year: 2005
+    number: 4
     tags:
       - Algebra
     question: |
+      Let $R=C([0,1])$ be the ring of all continuous real-valued functions
+      on the closed interval $[0,1]$, and for each $c\in[0,1]$, denote by
+      $M_c$ the set of all functions $f\in R$ such that $f(c)=0$.
+      \begin{enumerate}[(a)]
+        \item Prove that $g\in R$ is a unit if and only if $g(c)\neq0$
+          for all $c\in[0,1]$.
+        \item Prove that for each $c\in[0,1]$, $M_c$ is a maximal ideal of
+          $R$.
+        \item Prove that if $M$ is a maximal ideal of $T$, then
+          $M=M_c$ for some $c\in[0,1]$. (Hint:
+          compactness of $[0,1]$ may be relevant.)
+      \end{enumerate}
 
 
-  - year: 2007
-    number: 6
+  - year: 2005
+    number: 5
     tags:
       - Algebra
     question: |
+      Let $R$ and $S$ be commutative rings, and $f:R\rightarrow S$
+      a ring homomorphism.
+      \begin{enumerate}[(a)]
+        \item Show that if $I$ is a prime ideal of $S$, then
+          $$
+          f\inv(I)=\{r\in R:f(r)\in I\}
+          $$
+          is a prime ideal of $R$.
+        \item Let $N$ be the set of nilpotent elements of $R$:
+          $$
+          N=\{r\in R:r^m=0\text{ for some }m\geq 1\}.
+          $$
+          $N$ is called the \textit{nilradical} of $R$. Prove that
+          it is an ideal which is contained in every prime ideal.
+        \item Part (a) lets us define a function
+          $$
+          f^*:\{\text{prime ideals of }S\}\rightarrow
+          \{\text{prime ideals of }R\}.
+          $$
+          $$
+          I\mapsto f\inv(I).
+          $$
+          Let $N$ be the nilradical of $R$. Show that if
+          $S=R/N$ and $f:R\rightarrow R/N$ is the quotient map,
+          then $f^*$ is a bijection
+      \end{enumerate}
 
 
-  - year: 2007
-    number: 6
+  - year: 2005
+    number: 7
     tags:
       - Algebra
     question: |
+      Consider the polynomial $f(x)=x^{10}+x^5+1\in\mathbb Q[x]$ with
+      splitting field $K$ over $\mathbb Q$.
+      \begin{enumerate}[(a)]
+        \item Determine whether $f(x)$ is irreducible over $\mathbb Q$ and find
+          $[K:\mathbb Q]$.
+        \item Determine the structure of the Galois group
+          $\Gal(K/\mathbb Q)$.
+      \end{enumerate}
 
 
-  - year: 2007
-    number: 6
+  - year: 2005
+    number: 8
     tags:
       - Algebra
     question: |
+      For each prime number $p$ and each positive integer $n$, how many
+      elements $\alpha$ are there in $\mathbb F_{p^n}$ such that
+      $F_p(\alpha)=F_{p^6}$?
 
 
-  - year: 2007
-    number: 6
+  - year: 0000
+    number: 1
     tags:
       - Algebra
     question: |
-
-
-  - year: 2007
-    number: 6
-    tags:
-      - Algebra
-    question: |
-
-
-  - year: 2007
-    number: 6
-    tags:
-      - Algebra
-    question: |
-
-
-  - year: 2007
-    number: 6
-    tags:
-      - Algebra
-    question: |
-
+      Assume that $K$ is a cyclic group, $H$ is an arbitrary group, and $\varphi_1$
+      and $\varphi_2$ are homomorphisms from $K$ into $\Aut(H)$ such that
+      $\varphi_1(K)$ and $\varphi_2(K)$ are conjugate subgroups
+      of $\Aut(H)$. Prove by constructing an explicit isomorphism that
+      $H\rtimes_{\varphi_1}K\cong H\rtimes_{\varphi_2} K$.
+      [Suppose $\sigma_{\varphi_1}(K)\sigma\inv=\varphi_2(K)$
+      so that for some $a\in\mathbb Z$ we have $\sigma\varphi_1(k)\sigma\inv
+      =\varphi_2(k)^a$ for all $k\in K$. Show that the map $\psi:H
+      \rtimes_{\varphi_1}K\rightarrow H\rtimes_{\varphi_2}K$
+      defined by $\psi((h,k))=(\sigma(h),k^a)$ is a homomorphism.
+      Show $\psi$ is bijective by construcing a 2-sided inverse.]
 
 ...
