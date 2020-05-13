@@ -23,12 +23,14 @@ let parseQuestions = jsonQuestions => {
   window.selectYears = $('#selectYears').selectize({
     options: years.map(a => ({"text": a, "value": a})),
     items: years,
-    onChange: updateSelectedQuestions
+    onChange: updateSelectedQuestions,
+    selectOnTab: true
   })
   window.selectTopics = $('#selectTopics').selectize({
     options: topics.map(a => ({"text": a, "value": a})),
     items: topics,
-    onChange: updateSelectedQuestions
+    onChange: updateSelectedQuestions,
+    selectOnTab: true
   })
   $('label[for=AlgebraRadio]').html(`Algebra <small class=text-muted>(${jsonQuestions.map(a => a.exam).filter(a => a == "Algebra").length})</small>`)
   $('label[for=RealAnalysisRadio]').html(`Real Analysis <small class=text-muted>(${jsonQuestions.map(a => a.exam).filter(a => a == "Real_Analysis").length})</small>`)
