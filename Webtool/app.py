@@ -26,7 +26,11 @@ def example():
     content = request.get_json()
     to_pdf = content['do_pdf'] == 1
     num_questions = content['num_questions']
-    questions = random.sample(content['questions'], num_questions)
+    all_questions = content['questions']
+    if num_questions > len(all_questions):
+        num_questions = len(all_questions)
+
+    questions = random.sample(all_questions, num_questions)
         
     # Start building markdown document
     total_string = "" if to_pdf else open('latexmacs.tex', 'r').read() + "\n\n"
