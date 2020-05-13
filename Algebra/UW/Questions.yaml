@@ -377,105 +377,139 @@ Problems:
       \end{enumerate}
 
 
-  - year: 2014
+  - year: 2013
+    number: 3
+    tags:
+      - Algebra
+    question: |
+      \begin{enumerate}[(a)]
+        \item Suppose that $G$ is a finitely generated group. Let $n$
+          be a positive integer. Prove that $G$ has only finitely
+          many subgroups of index $n$
+        \item Let $p$ be a prime number. If $G$ is any finitely-generated
+          abelian group, let $t_p(G)$ denote the number of
+          subgroups of $G$ of index $p$. Determine the possible
+          values of $t_p(G)$ as $G$ varies over all
+          finitely-generated abelian groups.
+      \end{enumerate}
+
+
+  - year: 2013
+    number: 3
+    tags:
+      - Algebra
+    question: |
+      \begin{enumerate}[(a)]
+        \item Suppose that $G$ is a finitely generated group. Let $n$
+          be a positive integer. Prove that $G$ has only finitely
+          many subgroups of index $n$
+        \item Let $p$ be a prime number. If $G$ is any finitely-generated
+          abelian group, let $t_p(G)$ denote the number of
+          subgroups of $G$ of index $p$. Determine the possible
+          values of $t_p(G)$ as $G$ varies over all
+          finitely-generated abelian groups.
+      \end{enumerate}
+
+
+  - year: 2013
+    number: 4
+    tags:
+      - Algebra
+    question: |
+      Suppose that $G$ is a finite group of order 2013. Prove that $G$ has
+      a normal subgroup $N$ of index 3 and that $N$ is a cyclic group.
+      Furthermore, prove that the center of $G$ has order divisible by 11.
+      (You will need the factorization $2013=3\cdot11\cdot61$.)
+
+  - year: 2013
+    number: 6
+    tags:
+      - Algebra
+    question: |
+      This question concerns an extension $K$ of $\mathbb Q$ such that
+      $[K:\mathbb Q]=8$. Assume that $K/\mathbb Q$ is Galois and let
+      $G=\Gal(K/\mathbb Q)$. Furthermore, assume that $G$ is non-abelian.
+      \begin{enumerate}[(a)]
+        \item Prove that $K$ has a unique subfield $F$ such that
+          $F/\mathbb Q$ is Galois and $[F:\mathbb Q]=4$.
+        \item Prove that $F$ has the form $F=\mathbb Q(\sqrt{d_1},\sqrt{d_2})$
+          where $d_1,d_2$ are non-zero integers.
+        \item Suppose that $G$ is the quaternionic group. Prove
+          that $d_1$ and $d_2$ are positive integers.
+      \end{enumerate}
+
+
+  - year: 2013
     number: 1
     tags:
       - Algebra
     question: |
 
 
-  - year: 2014
+  - year: 2013
     number: 1
     tags:
       - Algebra
     question: |
 
 
-  - year: 2014
+  - year: 2013
     number: 1
     tags:
       - Algebra
     question: |
 
 
-  - year: 2014
+  - year: 2013
     number: 1
     tags:
       - Algebra
     question: |
 
 
-  - year: 2014
+  - year: 2013
     number: 1
     tags:
       - Algebra
     question: |
 
 
-  - year: 2014
+  - year: 2013
     number: 1
     tags:
       - Algebra
     question: |
 
 
-  - year: 2014
+  - year: 2013
     number: 1
     tags:
       - Algebra
     question: |
 
 
-  - year: 2014
+  - year: 2013
     number: 1
     tags:
       - Algebra
     question: |
 
 
-  - year: 2014
+  - year: 2013
     number: 1
     tags:
       - Algebra
     question: |
 
 
-  - year: 2014
+  - year: 2013
     number: 1
     tags:
       - Algebra
     question: |
 
 
-  - year: 2014
-    number: 1
-    tags:
-      - Algebra
-    question: |
-
-
-  - year: 2014
-    number: 1
-    tags:
-      - Algebra
-    question: |
-
-
-  - year: 2014
-    number: 1
-    tags:
-      - Algebra
-    question: |
-
-
-  - year: 2014
-    number: 1
-    tags:
-      - Algebra
-    question: |
-
-
-  - year: 2014
+  - year: 2013
     number: 1
     tags:
       - Algebra
