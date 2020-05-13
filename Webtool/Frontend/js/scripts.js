@@ -15,6 +15,7 @@ let parseQuestions = jsonQuestions => {
   //});
 
   let topics = Array.from(new Set([].concat(...jsonQuestions.map(a => a.tags)))).sort();
+  let universities = Array.from(new Set([].concat(...jsonQuestions.map(a => a.university)))).sort();
   //topics.forEach(j => {
     //$("#selectTopics").append($("<option selected></option>").val(j).html(j));
   //});
@@ -32,7 +33,13 @@ let parseQuestions = jsonQuestions => {
     onChange: updateSelectedQuestions,
     selectOnTab: true
   })
-  $('label[for=AlgebraRadio]').html(`Algebra <small class=text-muted>(${jsonQuestions.map(a => a.exam).filter(a => a == "Algebra").length})</small>`)
+  window.selectUniversities = $('#selectUniversities').selectize({
+    options: universities.map(a => ({"text": a, "value": a})),
+    items: universities,
+    onChange: updateSelectedQuestions,
+    selectOnTab: true
+  })
+$('label[for=AlgebraRadio]').html(`Algebra <small class=text-muted>(${jsonQuestions.map(a => a.exam).filter(a => a == "Algebra").length})</small>`)
   $('label[for=RealAnalysisRadio]').html(`Real Analysis <small class=text-muted>(${jsonQuestions.map(a => a.exam).filter(a => a == "Real_Analysis").length})</small>`)
   $('label[for=TopologyRadio]').html(`Topology <small class=text-muted>(${jsonQuestions.map(a => a.exam).filter(a => a == "Topology").length})</small>`)
   $('label[for=ComplexAnalysisRadio]').html(`Complex Analysis <small class=text-muted>(${jsonQuestions.map(a => a.exam).filter(a => a == "Complex_Analysis").length})</small>`)
