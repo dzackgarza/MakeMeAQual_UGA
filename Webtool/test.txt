@@ -1,24 +1,8 @@
-# Question 5
-
-Let $G$ be a finite abelian group. Let $f:\mathbb Z^m\rightarrow G$ be a
-surjection of abelian groups. We may think of $f$ as a homomorphism
-of $\mathbb Z$-modules. Let $K$ be the kernel of $f$.
-\begin{enumerate}[(a)]
-  \item Prove that $K$ is isomorphic to $\mathbb Z^m$.
-  \item We can therefore write the inclusion map
-    $K\rightarrow\mathbb Z^m$ as $\mathbb Z^m\rightarrow\mathbb Z^m$
-    and represent it by an $m\times m$ integer matrix
-    $A$. Prove that $|\det A|=|G|$.
-\end{enumerate}
-
 # Question 1 (UW 2016 #7)
 
 Let $R = k[x,y]$ where $k$ is a field, and let $I=(x,y)R$.
 
-  - Show that
-    $$
-    0 \to R \mapsvia{\phi} R \oplus R \mapsvia{\psi} R \to k \to 0
-    $$
+  - Show that $$0 \to R \mapsvia{\phi} R \oplus R \mapsvia{\psi} R \to k \to 0$$
     where $\phi(a) = (-ya,xa)$, $\psi((a,b)) = xa+yb$ for $a,b \in R$, is a projective resolution of the $R$-module $k \simeq R/I$.
 
   - Show that $I$ is not a flat $R$-module by computing $\Tor_i^R(I,k)$
