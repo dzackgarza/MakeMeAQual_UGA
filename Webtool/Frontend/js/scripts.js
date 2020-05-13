@@ -30,10 +30,10 @@ let parseQuestions = jsonQuestions => {
     items: topics,
     onChange: updateSelectedQuestions
   })
-  $('label[for=AlgebraRadio]').html(`Algebra <small class=text-muted>(${1+1})</small>`)
-  $('label[for=RealAnalysisRadio]').html(`Real Analysis <small class=text-muted>(${1+1})</small>`)
-  $('label[for=TopologyRadio]').html(`Topology <small class=text-muted>(${1+1})</small>`)
-  $('label[for=ComplexAnalysisRadio]').html(`Algebra <small class=text-muted>(${1+1})</small>`)
+  $('label[for=AlgebraRadio]').html(`Algebra <small class=text-muted>(${jsonQuestions.map(a => a.exam).filter(a => a == "Algebra").length})</small>`)
+  $('label[for=RealAnalysisRadio]').html(`Real Analysis <small class=text-muted>(${jsonQuestions.map(a => a.exam).filter(a => a == "Real_Analysis").length})</small>`)
+  $('label[for=TopologyRadio]').html(`Topology <small class=text-muted>(${jsonQuestions.map(a => a.exam).filter(a => a == "Topology").length})</small>`)
+  $('label[for=ComplexAnalysisRadio]').html(`Complex Analysis <small class=text-muted>(${jsonQuestions.map(a => a.exam).filter(a => a == "Complex_Analysis").length})</small>`)
   window.questions = jsonQuestions;
   updateSelectedQuestions();
 }

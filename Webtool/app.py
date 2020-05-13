@@ -39,11 +39,11 @@ def example():
             total_string = total_string,
             pandoc_cmd = pandoc_cmd
         )
-    #print(final_cmd)
+    print(final_cmd)
     p = subprocess.Popen(final_cmd, stdout=subprocess.PIPE, shell=True)
     (output, err) = p.communicate()
     p.wait()
-    #print(output)
+    print(output)
     if (to_pdf):
         response = make_response(bytearray(output))
         response.headers.set('Content-Disposition', 'attachment', filename='qualout.pdf')

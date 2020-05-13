@@ -900,7 +900,7 @@
     "question": "For each prime number $p$ and each positive integer $n$, how many\nelements $\\alpha$ are there in $\\mathbb F_{p^n}$ such that\n$F_p(\\alpha)=F_{p^6}$?\n"
   },
   {
-    "year": 0,
+    "year": "Extra",
     "number": 1,
     "exam": "Algebra",
     "tags": [
