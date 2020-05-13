@@ -1,3 +1,9 @@
+---
+title: Emory Quals
+author: Santiago Arango
+---
+
+
 Algebra
 =======
 

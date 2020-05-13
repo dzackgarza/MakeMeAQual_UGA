@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2020.5.2)  13 MAY 2020 10:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2020.5.2)  13 MAY 2020 10:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -161,8 +161,7 @@ Package: colonequals 2016/05/16 v1.1 Colon equals symbols (HO)
 \c@example=\count110
 \c@question=\count111
 \c@problem=\count112
-
-No file main.aux.
+ (./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
@@ -179,6 +178,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 66.
 LaTeX Font Info:    ... okay on input line 66.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 66.
 
+
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
@@ -190,9 +190,9 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4] (./main.au
 x) ) 
 Here is how much of TeX's memory you used:
- 2875 strings out of 492167
- 34544 string characters out of 6131559
- 113692 words of memory out of 5000000
+ 2877 strings out of 492167
+ 34562 string characters out of 6131559
+ 113705 words of memory out of 5000000
  7081 multiletter control sequences out of 15000+600000
  12399 words of font info for 47 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
