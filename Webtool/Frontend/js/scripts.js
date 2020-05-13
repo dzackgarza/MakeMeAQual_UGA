@@ -55,7 +55,7 @@ let updateSelectedQuestions = () => {
   let selectedQuestions = window.questions
     .filter(a => a.exam == examType)
     .filter(a => intersect(new Set(a.tags), selectedTopics).size > 0)
-    .filter(a => intersect(new Set(a.university), selectedUniversities).size > 0)
+    .filter(a => selectedUniversities.indexOf(a.university) >= 0)
     .filter(a => intersect(new Set([a.year.toString()]), selectedYears).size > 0);
   $("#numQuestions").html(selectedQuestions.length);
   window.selectedQuestions = selectedQuestions;
