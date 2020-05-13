@@ -67,8 +67,8 @@ $('#makeQual').on('click', function(event) {
   let num_questions= parseInt($('#numberQuestions').val()) || 0;
   let do_pdf = parseInt($("input[name='outputFormat']:checked").val()) == 1 || false;
   $.ajax({
-    url: 'http://127.0.0.1:5000/createqual',
-    //url: 'https://dzackgarza.com:5000/createqual',
+    //url: 'http://127.0.0.1:5000/createqual',
+    url: 'https://dzackgarza.com:5000/createqual',
     type: 'post',
     data: JSON.stringify(
       {
