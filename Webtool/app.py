@@ -3,6 +3,8 @@ from flask_cors import CORS
 from flask import request, Response, send_file
 import subprocess
 import io
+import random
+
 
 app = Flask(__name__, static_folder="Frontend")
 CORS(app)
@@ -20,17 +22,24 @@ def hello():
 
 @app.route('/createqual', methods=['POST'])
 def example():
+    # Extract JSON data
     content = request.get_json()
-    questions = content['questions']
     to_pdf = content['do_pdf'] == 1
-    #print(to_pdf)
+    num_questions = content['num_questions']
+    questions = random.sample(content['questions'], num_questions)
+        
+    # Start building markdown document
     total_string = "" if to_pdf else open('latexmacs.tex', 'r').read() + "\n\n"
     pandoc_cmd = pandoc_cmd_pdf if to_pdf else pandoc_cmd_html
     total_string += "---\ntitle: Qualifying Exam\n---\n\n"
+
+    # Add all questions to doc
     for i, x in enumerate(questions):
-        out_str = '# Question {q_number}\n\n{content}\n\n'.format(
+        out_str = '# Question {q_number} (? {q_year}, {orig_number})\n\n{content}\n\n'.format(
                 q_number = i+1,
-                content = x
+                q_year = x['year'],
+                orig_number = x['number'],
+                content = x['question']
             ).replace("'", r"\textsc{\char13}")
         print(out_str)
         total_string += out_str

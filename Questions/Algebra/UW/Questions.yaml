@@ -1,6 +1,7 @@
 - year: 2018
   number: 1
   exam: Algebra
+  university: UW
   tags:
     - Algebra 
   question: |
@@ -9,6 +10,7 @@
 - year: 2018
   number: 2
   exam: Algebra
+  university: UW
   tags:
     - Algebra 
   question: |
@@ -17,6 +19,7 @@
 - year: 2018
   number: 3
   exam: Algebra
+  university: UW
   tags:
     - Algebra 
   question: |
@@ -27,6 +30,7 @@
 - year: 2018
   number: 4
   exam: Algebra
+  university: UW
   tags:
     - Algebra 
   question: |
@@ -36,6 +40,7 @@
 - year: 2018
   number: 5
   exam: Algebra
+  university: UW
   tags:
     - Algebra 
   question: |
@@ -45,6 +50,7 @@
 - year: 2018
   number: 7
   exam: Algebra
+  university: UW
   tags:
     - Algebra 
   question: |
@@ -56,6 +62,7 @@
 - year: 2017
   number: 1
   exam: Algebra
+  university: UW
   tags:
     - Algebra
   question: |
@@ -66,6 +73,7 @@
 - year: 2017
   number: 2
   exam: Algebra
+  university: UW
   tags:
     - Algebra
   question: |
@@ -74,6 +82,7 @@
 - year: 2017
   number: 3
   exam: Algebra
+  university: UW
   tags:
     - Algebra
   question: |
@@ -84,6 +93,7 @@
 - year: 2017
   number: 4
   exam: Algebra
+  university: UW
   tags:
     - Algebra
   question: |
@@ -92,6 +102,7 @@
 - year: 2017
   number: 7
   exam: Algebra
+  university: UW
   tags:
     - Algebra
   question: |
@@ -101,6 +112,7 @@
 - year: 2016
   number: 1
   exam: Algebra
+  university: UW
   tags:
     - Algebra
   question: |
@@ -110,6 +122,7 @@
 - year: 2016
   number: 2
   exam: Algebra
+  university: UW
   tags:
     - Algebra
   question: |
@@ -119,6 +132,7 @@
 - year: 2016
   number: 4
   exam: Algebra
+  university: UW
   tags:
     - Algebra
   question: |
@@ -131,6 +145,7 @@
 - year: 2016
   number: 5
   exam: Algebra
+  university: UW
   tags:
     - Algebra
   question: |
@@ -144,6 +159,7 @@
 - year: 2016
   number: 6
   exam: Algebra
+  university: UW
   tags:
     - Algebra
   question: |
@@ -155,6 +171,7 @@
 - year: 2016
   number: 7
   exam: Algebra
+  university: UW
   tags:
     - Algebra
   question: |
@@ -171,6 +188,7 @@
 - year: 2015
   number: 1 
   exam: Algebra
+  university: UW
   tags:
     - Algebra
   question: |
@@ -186,6 +204,7 @@
 - year: 2015
   number: 2
   exam: Algebra
+  university: UW
   tags:
     - Algebra
   question: |
@@ -195,6 +214,7 @@
 - year: 2015
   number: 3 
   exam: Algebra
+  university: UW
   tags:
     - Algebra
   question: |
@@ -207,6 +227,7 @@
 - year: 2015
   number: 4
   exam: Algebra
+  university: UW
   tags:
     - Algebra
   question: |
@@ -217,6 +238,7 @@
 - year: 2015
   number: 5 
   exam: Algebra
+  university: UW
   tags:
     - Algebra
   question: |
@@ -232,6 +254,7 @@
 - year: 2015
   number: 6
   exam: Algebra
+  university: UW
   tags:
     - Algebra
   question: |
@@ -251,6 +274,7 @@
 - year: 2015
   number: 7
   exam: Algebra
+  university: UW
   tags:
     - Algebra
   question: |
@@ -269,6 +293,7 @@
 - year: 2014
   number: 1
   exam: Algebra
+  university: UW
   tags:
     - Algebra
   question: |
@@ -283,6 +308,7 @@
 - year: 2014
   number: 2
   exam: Algebra
+  university: UW
   tags:
     - Algebra
   question: |
@@ -301,6 +327,7 @@
 - year: 2014
   number: 3
   exam: Algebra
+  university: UW
   tags:
     - Algebra
   question: |
@@ -315,6 +342,7 @@
 - year: 2014
   number: 4
   exam: Algebra
+  university: UW
   tags:
     - Algebra
   question: |
@@ -333,6 +361,7 @@
 - year: 2014
   number: 6
   exam: Algebra
+  university: UW
   tags:
     - Algebra
   question: |
@@ -344,6 +373,7 @@
 - year: 2014
   number: 7
   exam: Algebra
+  university: UW
   tags:
     - Algebra
   question: |
@@ -371,6 +401,7 @@
 - year: 2014
   number: 8
   exam: Algebra
+  university: UW
   tags:
     - Algebra
   question: |
@@ -406,6 +437,7 @@
 - year: 2013
   number: 3
   exam: Algebra
+  university: UW
   tags:
     - Algebra
   question: |
@@ -424,6 +456,7 @@
 - year: 2013
   number: 3
   exam: Algebra
+  university: UW
   tags:
     - Algebra
   question: |
@@ -441,6 +474,7 @@
 - year: 2013
   number: 4
   exam: Algebra
+  university: UW
   tags:
     - Algebra
   question: |
@@ -452,6 +486,7 @@
 - year: 2013
   number: 6
   exam: Algebra
+  university: UW
   tags:
     - Algebra
   question: |
@@ -471,6 +506,7 @@
 - year: 2013
   number: 8
   exam: Algebra
+  university: UW
   tags:
     - Algebra
   question: |
@@ -489,6 +525,7 @@
 - year: 2012
   number: 1
   exam: Algebra
+  university: UW
   tags:
     - Algebra
   question: | 
@@ -498,6 +535,7 @@
 - year: 2012
   number: 2
   exam: Algebra
+  university: UW
   tags:
     - Algebra
   question: |
@@ -513,6 +551,7 @@
 - year: 2012
   number: 6
   exam: Algebra
+  university: UW
   tags:
     - Algebra
   question: |
@@ -526,6 +565,7 @@
 - year: 2012
   number: 3
   exam: Algebra
+  university: UW
   tags:
     - Algebra
   question: |
@@ -543,6 +583,7 @@
 - year: 2011
   number: 2
   exam: Algebra
+  university: UW
   tags:
     - Algebra
   question: |
@@ -564,6 +605,7 @@
 - year: 2011
   number: 3
   exam: Algebra
+  university: UW
   tags:
     - Algebra
   question: |
@@ -574,6 +616,7 @@
 - year: 2011
   number: 4
   exam: Algebra
+  university: UW
   tags:
     - Algebra
   question: |
@@ -592,6 +635,7 @@
 - year: 2011
   number: 1
   exam: Algebra
+  university: UW
   tags:
     - Algebra
   question: |
@@ -621,6 +665,7 @@
 - year: 2011
   number: 6
   exam: Algebra
+  university: UW
   tags:
     - Algebra
   question: |
@@ -644,6 +689,7 @@
 - year: 2011
   number: 8
   exam: Algebra
+  university: UW
   tags:
     - Algebra
   question: |
@@ -659,6 +705,7 @@
 - year: 2010
   number: 1
   exam: Algebra
+  university: UW
   tags:
     - Algebra
   question: |
@@ -685,6 +732,7 @@
 - year: 2010
   number: 2
   exam: Algebra
+  university: UW
   tags:
     - Algebra
   question: |
@@ -708,6 +756,7 @@
 - year: 2010
   number: 3
   exam: Algebra
+  university: UW
   tags:
     - Algebra
   question: |
@@ -733,6 +782,7 @@
 - year: 2010
   number: 4
   exam: Algebra
+  university: UW
   tags:
     - Algebra
   question: |
@@ -745,6 +795,7 @@
 - year: 2010
   number: 5
   exam: Algebra
+  university: UW
   tags:
     - Algebra
   question: |
@@ -771,6 +822,7 @@
 - year: 2010
   number: 7
   exam: Algebra
+  university: UW
   tags:
     - Algebra
   question: |
@@ -785,6 +837,7 @@
 - year: 2010
   number: 8
   exam: Algebra
+  university: UW
   tags:
     - Algebra
   question: |
@@ -801,6 +854,7 @@
 - year: 2009
   number: 1
   exam: Algebra
+  university: UW
   tags:
     - Algebra
   question: |
@@ -815,6 +869,7 @@
 - year: 2009
   number: 2
   exam: Algebra
+  university: UW
   tags:
     - Algebra
   question: |
@@ -852,6 +907,7 @@
 - year: 2009
   number: 3
   exam: Algebra
+  university: UW
   tags:
     - Algebra
   question: |
@@ -871,6 +927,7 @@
 - year: 2009
   number: 4
   exam: Algebra
+  university: UW
   tags:
     - Algebra
   question: |
@@ -893,6 +950,7 @@
 - year: 2009
   number: 6
   exam: Algebra
+  university: UW
   tags:
     - Algebra
   question: |
@@ -919,6 +977,7 @@
 - year: 2009
   number: 7
   exam: Algebra
+  university: UW
   tags:
     - Algebra
   question: |
@@ -940,6 +999,7 @@
 - year: 2008
   number: 1
   exam: Algebra
+  university: UW
   tags:
     - Algebra
   question: |
@@ -957,6 +1017,7 @@
 - year: 2008
   number: 2
   exam: Algebra
+  university: UW
   tags:
     - Algebra
   question: |
@@ -967,6 +1028,7 @@
 - year: 2008
   number: 3
   exam: Algebra
+  university: UW
   tags:
     - Algebra
   question: |
@@ -978,6 +1040,7 @@
 - year: 2008
   number: 5
   exam: Algebra
+  university: UW
   tags:
     - Algebra
   question: |
@@ -994,6 +1057,7 @@
 - year: 2008
   number: 6
   exam: Algebra
+  university: UW
   tags:
     - Algebra
   question: |
@@ -1033,6 +1097,7 @@
 - year: 2008
   number: 7
   exam: Algebra
+  university: UW
   tags:
     - Algebra
   question: |
@@ -1050,6 +1115,7 @@
 - year: 2008
   number: 8
   exam: Algebra
+  university: UW
   tags:
     - Algebra
   question: |
@@ -1061,6 +1127,7 @@
 - year: 2007
   number: 1
   exam: Algebra
+  university: UW
   tags:
     - Algebra
   question: |
@@ -1073,6 +1140,7 @@
 - year: 2007
   number: 2
   exam: Algebra
+  university: UW
   tags:
     - Algebra
   question: |
@@ -1093,6 +1161,7 @@
 - year: 2007
   number: 3
   exam: Algebra
+  university: UW
   tags:
     - Algebra
   question: |
@@ -1102,6 +1171,7 @@
 - year: 2006
   number: 2
   exam: Algebra
+  university: UW
   tags:
     - Algebra
   question: |
@@ -1120,6 +1190,7 @@
 - year: 2006
   number: 3
   exam: Algebra
+  university: UW
   tags:
     - Algebra
   question: |
@@ -1137,6 +1208,7 @@
 - year: 2006
   number: 4
   exam: Algebra
+  university: UW
   tags:
     - Algebra
   question: |
@@ -1173,6 +1245,7 @@
 - year: 2006
   number: 5
   exam: Algebra
+  university: UW
   tags:
     - Algebra
   question: |
@@ -1201,6 +1274,7 @@
 - year: 2006
   number: 7
   exam: Algebra
+  university: UW
   tags:
     - Algebra
   question: |
@@ -1212,6 +1286,7 @@
 - year: 2005
   number: 1
   exam: Algebra
+  university: UW
   tags:
     - Algebra
   question: |
@@ -1227,6 +1302,7 @@
 - year: 2005
   number: 2
   exam: Algebra
+  university: UW
   tags:
     - Algebra
   question: |
@@ -1242,6 +1318,7 @@
 - year: 2005
   number: 3
   exam: Algebra
+  university: UW
   tags:
     - Algebra
   question: |
@@ -1260,6 +1337,7 @@
 - year: 2005
   number: 4
   exam: Algebra
+  university: UW
   tags:
     - Algebra
   question: |
@@ -1281,6 +1359,7 @@
 - year: 2005
   number: 5
   exam: Algebra
+  university: UW
   tags:
     - Algebra
   question: |
@@ -1316,6 +1395,7 @@
 - year: 2005
   number: 7
   exam: Algebra
+  university: UW
   tags:
     - Algebra
   question: |
@@ -1332,6 +1412,7 @@
 - year: 2005
   number: 8
   exam: Algebra
+  university: UW
   tags:
     - Algebra
   question: |
@@ -1343,6 +1424,7 @@
 - year: Extra 
   number: 1
   exam: Algebra
+  university: UW
   tags:
     - Algebra
   question: |
