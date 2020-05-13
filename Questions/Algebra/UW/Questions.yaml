@@ -155,9 +155,12 @@
       \Ann(M) = \{a \in A: am = 0 \text{ for all } m \in M\}
     .\end{align*}
     Show that for a prime ideal $\mathfrak p \subset A$, the following are equivalent:
-        - $\Ann(M) \not\subset \mathfrak p$
-        - The localization of $M$ at the prime ideal $\mathfrak p$ is $0$.
-        - $M \otimes_A k(\mathfrak p) = 0$, where $k(\mathfrak p) = A_{\mathfrak p}/\mathfrak p A_{\mathfrak p}$ is the residue field of $A$ at $\mathfrak p$.
+    
+    - $\Ann(M) \not\subset \mathfrak p$
+    
+    - The localization of $M$ at the prime ideal $\mathfrak p$ is $0$.
+    
+    - $M \otimes_A k(\mathfrak p) = 0$, where $k(\mathfrak p) = A_{\mathfrak p}/\mathfrak p A_{\mathfrak p}$ is the residue field of $A$ at $\mathfrak p$.
 
 - year: 2016
   number: 6
