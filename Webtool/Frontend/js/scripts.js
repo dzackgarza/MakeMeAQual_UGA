@@ -41,7 +41,9 @@ let parseQuestions = jsonQuestions => {
 let updateSelectedQuestions = () => {
   let selectedTopics = new Set( $('#selectTopics').val() );
   let selectedYears = new Set( $('#selectYears').val().map(a => a.toString()) );
+  let examType = parseInt($("input[name='examType']:checked").val())
   let selectedQuestions = window.questions
+    .filter(a => a.exam == examType)
     .filter(a => intersect(new Set(a.tags), selectedTopics).size > 0)
     .filter(a => intersect(new Set([a.year.toString()]), selectedYears).size > 0);
   $("#numQuestions").html(selectedQuestions.length);
@@ -53,7 +55,6 @@ $('#makeQual').on('click', function(event) {
   updateSelectedQuestions();
   let num_questions= parseInt($('#numberQuestions').val()) || 0;
   let do_pdf = parseInt($("input[name='outputFormat']:checked").val()) == 1 || false;
-  let examType = parseInt($("input[name='examType']:checked").val())
   $.ajax({
     url: 'http://127.0.0.1:5000/createqual',
     //url: 'https://dzackgarza.com:5000/createqual',
