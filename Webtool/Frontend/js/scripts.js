@@ -102,7 +102,7 @@ $('#btnClearAllYears').on('click', function(event) {
   window.selectYears[0].selectize.clear();
 });
 
-fetch("questions.json")
+fetch("AllQuestions.json")
   .then(response => response.json())
   .then(json => parseQuestions(json));
 
