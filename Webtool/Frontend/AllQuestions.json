@@ -334,7 +334,7 @@
     "tags": [
       "Algebra"
     ],
-    "question": "Let $A$ be a commutative ring and $M$ a finitely generated $A$-module. Define\n\\[ \\Ann(M) = \\{a \\in A: am = 0 \\text{ for all } m \\in M\\}.\\]\nShow that for a prime ideal $\\mathfrak p \\subset A$, the following are equivalent:\n    - $\\Ann(M) \\not\\subset \\mathfrak p$\n    - The localization of $M$ at the prime ideal $\\mathfrak p$ is $0$.\n    - $M \\otimes_A k(\\mathfrak p) = 0$, where $k(\\mathfrak p) = A_{\\mathfrak p}/\\mathfrak p A_{\\mathfrak p}$ is the residue field of $A$ at $\\mathfrak p$.\n"
+    "question": "Let $A$ be a commutative ring and $M$ a finitely generated $A$-module. \nDefine \n\\begin{align*} \n  \\Ann(M) = \\{a \\in A: am = 0 \\text{ for all } m \\in M\\}\n.\\end{align*}\nShow that for a prime ideal $\\mathfrak p \\subset A$, the following are equivalent:\n    - $\\Ann(M) \\not\\subset \\mathfrak p$\n    - The localization of $M$ at the prime ideal $\\mathfrak p$ is $0$.\n    - $M \\otimes_A k(\\mathfrak p) = 0$, where $k(\\mathfrak p) = A_{\\mathfrak p}/\\mathfrak p A_{\\mathfrak p}$ is the residue field of $A$ at $\\mathfrak p$.\n"
   },
   {
     "year": 2016,
