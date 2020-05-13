@@ -53,6 +53,7 @@ $('#makeQual').on('click', function(event) {
   updateSelectedQuestions();
   let num_questions= parseInt($('#numberQuestions').val()) || 0;
   let do_pdf = parseInt($("input[name='outputFormat']:checked").val()) == 1 || false;
+  let examType = parseInt($("input[name='examType']:checked").val())
   $.ajax({
     url: 'http://127.0.0.1:5000/createqual',
     //url: 'https://dzackgarza.com:5000/createqual',
