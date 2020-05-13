@@ -3,8 +3,336 @@
   exam: Algebra
   university: Emory
   tags:
+    - Groups
+  question: |
+    Classify the groups of order $182 = 2 \cdot 7 \cdot 13$.
+
+
+- year: 0 
+  number: 0
+  exam: Algebra
+  university: Emory
+  tags:
+    - Groups
+  question: |
+    Let $G$ be a finite group of order $p^nm$ where $p$ is a prime and
+    $m$ is not divisible by $p$. Prove that if $H$ is a subgroup of $G$
+    of order $p^k$ for some $k<n$, then the normalizer of $H$ in $G$
+    properly contains $H$.
+
+
+- year: 0 
+  number: 0
+  exam: Algebra
+  university: Emory
+  tags:
+    - Groups
+  question: |
+    Let $H$ be a subgroup of $S_n$ of index $n$. Prove:
+
+    1.  There is an isomorphism $f: S_n \to S_n$ such that $f(H)$ is the
+        subgroup of $S_n$ stabilizing $n$. In particular, $H$ is
+        isomorphic to $S_{n-1}$.
+
+    2.  The only subgroups of $S_n$ containing $H$ are $S_n$ and $H$.
+
+
+
+- year: 0 
+  number: 0
+  exam: Algebra
+  university: Emory
+  tags:
+    - Groups
+  question: |
+
+    -   Prove that a group of order $351=3^3\cdot 13$ cannot be simple.
+
+    -   Prove that a group of order $33$ must be cyclic.
+
+
+
+- year: 0 
+  number: 0
+  exam: Algebra
+  university: Emory
+  tags:
+    - Groups
+  question: |
+
+    1.  Let $G$ be a group, and $Z(G)$ the center of $G$. Prove that if
+        $G/Z(G)$ is cyclic, then $G$ is abelian.
+
+    2.  Prove that a group of order $p^n$, where $p$ is a prime and
+        $n \geq 1$, has non-trivial center.
+
+    3.  Prove that a group of order $p^2$ must be abelian.
+
+
+
+- year: 0 
+  number: 0
+  exam: Algebra
+  university: Emory
+  tags:
+    - Groups 
+  question: |
+    Let $G$ be a finite group.
+
+    1.  Prove that if $H < G$ is a proper subgroup, then $G$ is not the
+        union of conjugates of $H$.
+
+    2.  Suppose that $G$ acts transitively on a set $X$ with $|X| > 1$.
+        Prove that there exists an element of $G$ with no fixed points
+        in $X$.
+
+
+
+- year: 0 
+  number: 0
+  exam: Algebra
+  university: Emory
+  tags:
+    - Groups 
+  question: |
+    Classify all groups of order $15$ and of order $30$.
+
+
+- year: 0 
+  number: 0
+  exam: Algebra
+  university: Emory
+  tags:
+    - Groups 
+  question: |
+    Count the number of $p$-Sylow subgroups of $S_p$.
+
+
+- year: 0 
+  number: 0
+  exam: Algebra
+  university: Emory
+  tags:
     - Algebra
   question: |
-    Show that no finite group is the union of conjugates of a proper subgroup.
+
+    1.  Let $G$ be a group of order $n$. Suppose that for every divisor
+        $d$ of $n$, $G$ contains at most one subgroup of order $d$. Show
+        that $G$ is clyclic.
+
+    2.  Let $F$ be a field. Show that every finite subgroup of the group
+        of units $F^\times$ is cyclic.
+
+
+
+- year: 0 
+  number: 0
+  exam: Algebra
+  university: Emory
+  tags:
+    - Algebra
+  question: |
+    Classify the groups of order $182 = 2 \cdot 7 \cdot 13$.
+
+
+- year: 0 
+  number: 0
+  exam: Algebra
+  university: Emory
+  tags:
+    - Algebra
+  question: |
+    Classify the groups of order $182 = 2 \cdot 7 \cdot 13$.
+
+
+- year: 0 
+  number: 0
+  exam: Algebra
+  university: Emory
+  tags:
+    - Algebra
+  question: |
+    Classify the groups of order $182 = 2 \cdot 7 \cdot 13$.
+
+
+- year: 0 
+  number: 0
+  exam: Algebra
+  university: Emory
+  tags:
+    - Algebra
+  question: |
+    Classify the groups of order $182 = 2 \cdot 7 \cdot 13$.
+
+
+- year: 0 
+  number: 0
+  exam: Algebra
+  university: Emory
+  tags:
+    - Algebra
+  question: |
+    Classify the groups of order $182 = 2 \cdot 7 \cdot 13$.
+
+
+- year: 0 
+  number: 0
+  exam: Algebra
+  university: Emory
+  tags:
+    - Algebra
+  question: |
+    Classify the groups of order $182 = 2 \cdot 7 \cdot 13$.
+
+
+- year: 0 
+  number: 0
+  exam: Algebra
+  university: Emory
+  tags:
+    - Algebra
+  question: |
+    Classify the groups of order $182 = 2 \cdot 7 \cdot 13$.
+
+
+- year: 0 
+  number: 0
+  exam: Algebra
+  university: Emory
+  tags:
+    - Algebra
+  question: |
+    Classify the groups of order $182 = 2 \cdot 7 \cdot 13$.
+
+
+- year: 0 
+  number: 0
+  exam: Algebra
+  university: Emory
+  tags:
+    - Algebra
+  question: |
+    Classify the groups of order $182 = 2 \cdot 7 \cdot 13$.
+
+
+- year: 0 
+  number: 0
+  exam: Algebra
+  university: Emory
+  tags:
+    - Algebra
+  question: |
+    Classify the groups of order $182 = 2 \cdot 7 \cdot 13$.
+
+
+- year: 0 
+  number: 0
+  exam: Algebra
+  university: Emory
+  tags:
+    - Algebra
+  question: |
+    Classify the groups of order $182 = 2 \cdot 7 \cdot 13$.
+
+
+- year: 0 
+  number: 0
+  exam: Algebra
+  university: Emory
+  tags:
+    - Algebra
+  question: |
+    Classify the groups of order $182 = 2 \cdot 7 \cdot 13$.
+
+
+- year: 0 
+  number: 0
+  exam: Algebra
+  university: Emory
+  tags:
+    - Algebra
+  question: |
+    Classify the groups of order $182 = 2 \cdot 7 \cdot 13$.
+
+
+- year: 0 
+  number: 0
+  exam: Algebra
+  university: Emory
+  tags:
+    - Algebra
+  question: |
+    Classify the groups of order $182 = 2 \cdot 7 \cdot 13$.
+
+
+- year: 0 
+  number: 0
+  exam: Algebra
+  university: Emory
+  tags:
+    - Algebra
+  question: |
+    Classify the groups of order $182 = 2 \cdot 7 \cdot 13$.
+
+
+- year: 0 
+  number: 0
+  exam: Algebra
+  university: Emory
+  tags:
+    - Algebra
+  question: |
+    Classify the groups of order $182 = 2 \cdot 7 \cdot 13$.
+
+
+- year: 0 
+  number: 0
+  exam: Algebra
+  university: Emory
+  tags:
+    - Algebra
+  question: |
+    Classify the groups of order $182 = 2 \cdot 7 \cdot 13$.
+
+
+- year: 0 
+  number: 0
+  exam: Algebra
+  university: Emory
+  tags:
+    - Algebra
+  question: |
+    Classify the groups of order $182 = 2 \cdot 7 \cdot 13$.
+
+
+- year: 0 
+  number: 0
+  exam: Algebra
+  university: Emory
+  tags:
+    - Algebra
+  question: |
+    Classify the groups of order $182 = 2 \cdot 7 \cdot 13$.
+
+
+- year: 0 
+  number: 0
+  exam: Algebra
+  university: Emory
+  tags:
+    - Algebra
+  question: |
+    Classify the groups of order $182 = 2 \cdot 7 \cdot 13$.
+
+
+- year: 0 
+  number: 0
+  exam: Algebra
+  university: Emory
+  tags:
+    - Algebra
+  question: |
+    Classify the groups of order $182 = 2 \cdot 7 \cdot 13$.
+
 
 
