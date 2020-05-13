@@ -74,12 +74,6 @@
 
           <!-- Button -->
           <div class="form-group">
-            <label class="col-md-6 control-label" for="singlebutton"></label>
-            <div class="col-md-4">
-              <label class="col-md-6 control-label" for="selectmultiple">Universities</label>
-              <select id="selectUniversities" name="selectUniversities" class="form-control" multiple="multiple">
-              </select>
-            </div>
 
             <div class="col-md-4">
             <div class="form-check">
@@ -92,6 +86,8 @@
               <input class="form-check-input" type="radio" name="outputFormat" id="exampleRadios2" value="1">
               <label class="form-check-label" for="exampleRadios2">PDF</label>
             </div>
+            <label class="col-md-6 control-label" for="selectmultiple">Number of Questions</label>
+            <input id="numberQuestions" name="textinput" type="text" value="5" class="form-control input-md">
             <button id="makeQual" name="singlebutton" class="btn btn-primary">Make Me a Qual</button>
             </div>
               <small class="form-text text-muted">Number of matching questions: <span id="numQuestions"></span></small>
@@ -120,11 +116,14 @@
               </select>
               <button id="btnClearAllYears" name="btnClearAllYears" class="btn btn-primary">Clear All</button>
             </div>
-            <div class="col-md-6">
-            <label class="col-md-6 control-label" for="selectmultiple">Number of Questions</label>
-            <input id="numberQuestions" name="textinput" type="text" value="5" class="form-control input-md">
 
+            <label class="col-md-6 control-label" for="singlebutton"></label>
+            <div class="col-md-8">
+              <label class="col-md-8 control-label" for="selectmultiple">Universities</label>
+              <select id="selectUniversities" name="selectUniversities" class="form-control" multiple="multiple">
+              </select>
             </div>
+
             <!--<label class="col-md-6 control-label" for="textinput">Number of Questions</label>  -->
           </div>
 
