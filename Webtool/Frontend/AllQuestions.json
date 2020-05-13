@@ -1,2 +1,1020 @@
-Error: unknown command "." for "yq"
-Run 'yq --help' for usage.
+[
+  {
+    "year": 2019,
+    "season": "Fall",
+    "number": 1,
+    "exam": "Algebra",
+    "university": "UGA",
+    "tags": [
+      "Groups",
+      "Conjugacy"
+    ],
+    "question": "Let $G$ be a finite group with $n$ distinct conjugacy classes.\nLet $g_1 \\cdots g_n$ be representatives of the conjugacy classes of $G$.\n\nProve that if $g_i g_j = g_j g_i$ for all $i, j$ then $G$ is abelian.\n"
+  },
+  {
+    "year": 2019,
+    "season": "Fall",
+    "number": 2,
+    "exam": "Algebra",
+    "university": "UGA",
+    "tags": [
+      "Group Theory",
+      "Sylow Theorems"
+    ],
+    "question": "Let $G$ be a group of order 105 and let $P, Q, R$ be Sylow 3, 5, 7 subgroups respectively.\n\n(a) Prove that at least one of $Q$ and $R$ is normal in $G$.\n\n(b) Prove that $G$ has a cyclic subgroup of order 35.\n\n(c) Prove that both $Q$ and $R$ are normal in $G$.\n\n(d) Prove that if $P$ is normal in $G$ then $G$ is cyclic.\n"
+  },
+  {
+    "year": 2019,
+    "season": "Fall",
+    "number": 3,
+    "exam": "Algebra",
+    "university": "UGA",
+    "tags": [
+      "Ring"
+    ],
+    "question": "Let $R$ be a ring with the property that for every $a \\in R, a^2 = a$.\n\n(a) Prove that $R$ has characteristic 2.\n\n(b) Prove that $R$ is commutative.\n"
+  },
+  {
+    "year": 2019,
+    "season": "Fall",
+    "number": 4,
+    "exam": "Algebra",
+    "university": "UGA",
+    "tags": [
+      "Fields"
+    ],
+    "question": "Let $F$ be a finite field with $q$ elements.\n\nLet $n$ be a positive integer relatively prime to $q$ and let $\\omega$ be a primitive $n$th root of unity in an extension field of $F$.\n\nLet $E = F [\\omega]$ and let $k = [E : F]$.\n\n(a) Prove that $n$ divides $q^{k}-1$.\n\n(b) Let $m$ be the order of $q$ in $\\ZZ/n\\ZZ$.\nProve that $m$ divides $k$.\n\n(c) Prove that $m = k$.\n"
+  },
+  {
+    "year": 2019,
+    "season": "Fall",
+    "number": 5,
+    "exam": "Algebra",
+    "university": "UGA",
+    "tags": [
+      "Modules"
+    ],
+    "question": "Let $R$ be a ring and $M$ an $R\\dash$module.\n\n> Recall that the set of torsion elements in M is defined by\n$$\n\\Tor(m) = \\{m \\in M \\suchthat \\exists r \\in R, ~r \\neq 0, ~rm = 0\\}\n.$$\n\n(a) Prove that if $R$ is an integral domain, then $\\Tor(M )$ is a submodule of $M$ .\n\n(b) Give an example where $\\Tor(M )$ is not a submodule of $M$.\n\n(c) If $R$ has zero-divisors, prove that every non-zero $R\\dash$module has non-zero torsion elements.\n"
+  },
+  {
+    "year": 2019,
+    "season": "Fall",
+    "number": 6,
+    "exam": "Algebra",
+    "university": "UGA",
+    "tags": [
+      "Rings"
+    ],
+    "question": "Let $R$ be a commutative ring with multiplicative identity. Assume Zorn's Lemma.\n\n(a) Show that\n$$\nN = \\{r \\in R \\mid r^n = 0 \\text{ for some } n > 0\\}\n$$\nis an ideal which is contained in any prime ideal.\n\n(b) Let $r$ be an element of $R$ not in $N$.\nLet $S$ be the collection of all proper ideals of $R$ not containing any positive power of $r$. Use Zorn's Lemma to prove that\nthere is a prime ideal in $S$.\n\n(c) Suppose that $R$ has exactly one prime ideal $P$ . Prove that every element $r$ of $R$ is either nilpotent or a unit.\n"
+  },
+  {
+    "year": 2019,
+    "season": "Fall",
+    "number": 7,
+    "exam": "Algebra",
+    "university": "UGA",
+    "tags": [
+      "Fields",
+      "Galois Theory"
+    ],
+    "question": "Let $\\zeta_n$ denote a primitive $n$th root of 1 $\\in \\QQ$.\nYou may assume the roots of the minimal polynomial $p_n(x)$ of $\\zeta_n$ are exactly the primitive $n$th roots of 1.\n\nShow that the field extension $\\QQ(\\zeta_n )$ over $\\QQ$ is Galois and prove its Galois group is $(\\ZZ/n\\ZZ)\\units$.\n\nHow many subfields are there of $\\QQ(\\zeta_{20} )$?\n"
+  },
+  {
+    "year": 2019,
+    "season": "Fall",
+    "number": 8,
+    "exam": "Algebra",
+    "university": "UGA",
+    "tags": [
+      "Linear Algebra"
+    ],
+    "question": "Let $\\{e_1, \\cdots, e_n \\}$ be a basis of a real vector space $V$ and let\n$$\n\\Lambda \\definedas \\theset{ \\sum r_i e_i \\mid ri \\in \\ZZ}\n$$\n\nLet $\\cdot$ be a non-degenerate ($v \\cdot w = 0$ for all $w \\in V \\iff v = 0$) symmetric bilinear form on V such that the Gram matrix $M = (e_i \\cdot e_j )$ has integer entries.\n\nDefine the dual of $\\Lambda$ to be\n\n$$\n\\Lambda \\dual \\definedas \\{v \\in V \\suchthat v \\cdot x \\in \\ZZ \\text{ for all } x \\in \\Lambda\n\\}\n.$$\n\n(a) Show that $\\Lambda \\subset \\Lambda \\dual$.\n\n(b) Prove that $\\det M \\neq 0$ and that the rows of $M\\inv$ span $\\Lambda\\dual$.\n\n(c) Prove that $\\det M = |\\Lambda\\dual /\\Lambda|$.\n"
+  },
+  {
+    "year": 2019,
+    "season": "Spring",
+    "number": 1,
+    "exam": "Algebra",
+    "university": "UGA",
+    "tags": [
+      "Linear Algebra"
+    ],
+    "question": "Let $A$ be a square matrix over the complex numbers.\nSuppose that $A$ is nonsingular\nand that $A^{2019}$ is diagonalizable over $\\CC$.\n\nShow that $A$ is also diagonalizable over $\\CC$.\n"
+  },
+  {
+    "year": 2019,
+    "season": "Spring",
+    "number": 2,
+    "exam": "Algebra",
+    "university": "UGA",
+    "tags": [
+      "Fields"
+    ],
+    "question": "Let $F = \\FF_p$ , where $p$ is a prime number.\n\n(a) Show that if $\\pi(x) \\in F[x]$ is irreducible of degree $d$, then $\\pi(x)$ divides $x^{p^d} - x$.\n\n\n(b) Show that if $\\pi(x) \\in F[x]$ is an irreducible polynomial that divides $x^{p^n} - x$,\nthen $\\deg \\pi(x)$ divides $n$.\n"
+  },
+  {
+    "year": 2019,
+    "season": "Spring",
+    "number": 3,
+    "exam": "Algebra",
+    "university": "UGA",
+    "tags": [
+      "Groups",
+      "Classification of Groups"
+    ],
+    "question": "How many isomorphism classes are there of groups of order 45?\n\nDescribe a representative from each class.\n"
+  },
+  {
+    "year": 2019,
+    "season": "Spring",
+    "number": 4,
+    "exam": "Algebra",
+    "university": "UGA",
+    "tags": [
+      "Groups",
+      "Conjugacy",
+      "Class Equation"
+    ],
+    "question": "For a finite group $G$, let $c(G)$ denote the number of conjugacy classes of $G$.\n\n(a) Prove that if two elements of $G$ are chosen uniformly at random,then the probability they commute is precisely\n$$\n\\frac{c(G)}{\\abs G}\n.$$\n\n(b) State the class equation for a finite group.\n\n(c) Using the class equation (or otherwise) show that the probability in part (a) is at most $$\n\\frac 1 2 + \\frac 1 {2[G : Z(G)]}\n.$$\n\n> Here, as usual, $Z(G)$ denotes the center of $G$.\n"
+  },
+  {
+    "year": 2019,
+    "season": "Spring",
+    "number": 5,
+    "exam": "Algebra",
+    "university": "UGA",
+    "tags": [
+      "Modules",
+      "Torsion"
+    ],
+    "question": "Let $R$ be an integral domain. Recall that if $M$ is an $R\\dash$module, the *rank* of $M$ is\ndefined to be the maximum number of $R\\dash$linearly independent elements of $M$ .\n\n(a) Prove that for any $R\\dash$module $M$, the rank of $\\tor(M )$ is 0.\n\n(b) Prove that the rank of $M$ is equal to the rank of of $M/\\tor(M )$.\n\n(c) Suppose that M is a non-principal ideal of $R$.\n\n(d) Prove that $M$ is torsion-free of rank 1 but not free.\n"
+  },
+  {
+    "year": 2019,
+    "season": "Spring",
+    "number": 6,
+    "exam": "Algebra",
+    "university": "UGA",
+    "tags": [
+      "Rings",
+      "Ideals",
+      "Jacobson Radical"
+    ],
+    "question": "Let $R$ be a commutative ring with 1.\n\n> Recall that $x \\in R$ is nilpotent iff $xn = 0$ for\nsome positive integer $n$.\n\n(a) Show that every proper ideal of $R$ is contained within a maximal ideal.\n\n(b) Let $J(R)$ denote the intersection of all maximal ideals of $R$.\n\n    Show that $x \\in J(R) \\iff 1 + rx$ is a unit for all $r \\in R$.\n\n(c) Suppose now that $R$ is finite. Show that in this case $J(R)$ consists precisely\nof the nilpotent elements in R.\n"
+  },
+  {
+    "year": 2019,
+    "season": "Spring",
+    "number": 7,
+    "exam": "Algebra",
+    "university": "UGA",
+    "tags": [
+      "Linear Algebra",
+      "Jordan Canonical Form"
+    ],
+    "question": "Let $p$ be a prime number.\nLet $A$ be a $p \\times p$ matrix over a field $F$ with 1 in all\nentries except 0 on the main diagonal.\n\nDetermine the Jordan canonical form (JCF) of $A$\n\n(a) When $F = \\QQ$,\n\n(b) When $F = \\FF_p$.\n\n> Hint: In both cases, all eigenvalues lie in the ground field. In each case find a\nmatrix $P$ such that $P\\inv AP$ is in JCF.\n"
+  },
+  {
+    "year": 2019,
+    "season": "Spring",
+    "number": 8,
+    "exam": "Algebra",
+    "university": "UGA",
+    "tags": [
+      "Fields",
+      "Galois Theory"
+    ],
+    "question": "Let $\\zeta = e^{2\\pi i/8}$.\n\n(a) What is the degree of $\\QQ(\\zeta)/\\QQ$?\n\n(b) How many quadratic subfields of $\\QQ(\\zeta)$ are there?\n\n(c) What is the degree of $\\QQ(\\zeta, \\sqrt[4] 2)$ over $\\QQ$?\n"
+  },
+  {
+    "year": 2018,
+    "number": 1,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "Show that no finite group is the union of conjugates of a proper subgroup.\n"
+  },
+  {
+    "year": 2018,
+    "number": 2,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "Classify all groups of order 18 up to isomorphism.\n"
+  },
+  {
+    "year": 2018,
+    "number": 3,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "Let $\\alpha,\\beta$ denote the unique positive\nreal $5^{\\text{th}}$ root of 7 and $4^{\\text{th}}$ root of 5,\nrespectively. Determine the degree of $\\mathbb Q(\\alpha,\\beta)$ over $\\mathbb Q$.\n"
+  },
+  {
+    "year": 2018,
+    "number": 4,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "Show that the field extension $\\mathbb Q\\subseteq\\mathbb Q\\left(\n\\sqrt{2+\\sqrt2}\\right)$ is Galois and determine its Galois group.\n"
+  },
+  {
+    "year": 2018,
+    "number": 5,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "Let $M$ be a square matrix over a field $K$. Use a suitable canonical\nform to show that $M$ is similar to its transpose $M^T$.\n"
+  },
+  {
+    "year": 2018,
+    "number": 7,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "Let $G$ be a finite group and $\\pi$, $\\pi'$ be two irreducible\nrepresentations of $G$. Prove or disprove the following assertion:\n$\\pi$ and $\\pi'$ are equivalent if and only if $\\det\\pi(g)=\\det\\pi'(g)$\nfor all $g\\in G$.\n"
+  },
+  {
+    "year": 2017,
+    "number": 1,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "Let $R$ be a Noetherian ring. Prove that $R[x]$ and $R[[x]]$ are both\nNoetherian. (The first part of the question is asking you to prove the\nHilbert Basis Theorem, not to use it!)\n"
+  },
+  {
+    "year": 2017,
+    "number": 2,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "Classify (with proof) all fields with finitely many elements.\n"
+  },
+  {
+    "year": 2017,
+    "number": 3,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "Suppose $A$ is a commutative ring and $M$ is a finitely presented module.\nGiven any surjection $\\phi:A^n\\rightarrow M$ from a finite free\n$A$-module, show that $\\ker\\phi$ is finitely generated.\n"
+  },
+  {
+    "year": 2017,
+    "number": 4,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "Classify all groups of order 57.\n"
+  },
+  {
+    "year": 2017,
+    "number": 7,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "Show that a finite simple group cannot have a 2-dimensional irreducible\nrepresentation over $\\mathbb C$. (Hint: the determinant might prove useful.)\n"
+  },
+  {
+    "year": 2016,
+    "number": 1,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "Let $G$ be a finite simple group. Assume that every proper subgroup\nof $G$ is abelian. Prove that then $G$ is cyclic of prime order.\n"
+  },
+  {
+    "year": 2016,
+    "number": 2,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "Let $a\\in\\mathbb N$, $a>0$. Compute the Galois group of the splitting field\nof the polynomial $x^5-5a^4x+a$ over $\\mathbb Q$.\n"
+  },
+  {
+    "year": 2016,
+    "number": 4,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "Recall that an inner automorphism of a group is an automorphism given by conjugation by an element of the group. An outer automorphism is an automorphism that is not inner.\n\n- Prove that $S_5$ has a subgroup of order 20.\n- Use the subgroup from (a) to construct a degree 6 permutation representation of $S_5$ (i.e., an embedding $S_5 \\hookrightarrow S_6$ as a transitive permutation group on 6 letters).\n- Conclude that $S_6$ has an outer automorphism.\n"
+  },
+  {
+    "year": 2016,
+    "number": 5,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "Let $A$ be a commutative ring and $M$ a finitely generated $A$-module.\nDefine\n\\begin{align*}\n  \\Ann(M) = \\{a \\in A: am = 0 \\text{ for all } m \\in M\\}\n.\\end{align*}\nShow that for a prime ideal $\\mathfrak p \\subset A$, the following are equivalent:\n\n- $\\Ann(M) \\not\\subset \\mathfrak p$\n\n- The localization of $M$ at the prime ideal $\\mathfrak p$ is $0$.\n\n- $M \\otimes_A k(\\mathfrak p) = 0$, where $k(\\mathfrak p) = A_{\\mathfrak p}/\\mathfrak p A_{\\mathfrak p}$ is the residue field of $A$ at $\\mathfrak p$.\n"
+  },
+  {
+    "year": 2016,
+    "number": 6,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "Let $A = \\CC[x,y]/(y^2-(x-1)^3 - (x-1)^2)$.\n\n- Show that $A$ is an integral domain and sketch the $\\RR$-points of $\\text{Spec} A$.\n- Find the integral closure of $A$. Recall that for an integral domain $A$ with fraction field $K$, the integral closure of $A$ in $K$ is the set of all elements of $K$ integral over $A$.\n"
+  },
+  {
+    "year": 2016,
+    "number": 7,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Homological Algebra"
+    ],
+    "question": "Let $R = k[x,y]$ where $k$ is a field, and let $I=(x,y)R$.\n\n  - Show that\n    \\begin{align*}\n    0 \\to R \\mapsvia{\\phi} R \\oplus R \\mapsvia{\\psi} R \\to k \\to 0\n    \\end{align*}\n    where $\\phi(a) = (-ya,xa)$, $\\psi((a,b)) = xa+yb$ for $a,b \\in R$, is a projective resolution of the $R$-module $k \\simeq R/I$.\n\n  - Show that $I$ is not a flat $R$-module by computing $\\Tor_i^R(I,k)$\n"
+  },
+  {
+    "year": 2015,
+    "number": 1,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "\n- Find an irreducible polynomial of degree 5 over the\n  field $\\mathbb Z/2$ of two elements and use it to construct\n  a field of order 32 as a quotient of the\n  polynomial ring $\\mathbb Z/2[x]$.\n- Using the polynomial found in part (a), find a $5\\times5$\n  matrix $M$ over $\\mathbb Z/2$ of order 31, so that $M^{31}=I$\n  but $M\\neq I$.\n"
+  },
+  {
+    "year": 2015,
+    "number": 2,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "Find the minimal polynomial of $\\sqrt2+\\sqrt3$ over $\\mathbb Q$.\nJustify your answer.\n"
+  },
+  {
+    "year": 2015,
+    "number": 3,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "\\hfill\n - Let $R$ be a commutative ring with no nonzero nilpotent\n   elements. Show that the only units in the polynomial ring\n   $R[x]$ are the units of $R$, regarded as constant polynomials.\n - Find all units in the polynomial ring $\\mathbb Z_4[x]$.\n"
+  },
+  {
+    "year": 2015,
+    "number": 4,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "Let $p$, $q$ be two distinct primes. Prove that there is at most one\nnon-abelian group of order $pq$ and describe the pairs $(p,q)$\nsuch that there is no non-abelian group of order $pq$.\n"
+  },
+  {
+    "year": 2015,
+    "number": 5,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "\n- Let $L$ be a Galois extension of a field $K$ of degree 4.\n  What is the minimum number of subfields there could\n  be strictly between $K$ and $L$? What is the maximum\n  number of such subfields? Give examples where these\n  bounds are attained.\n- How do these numbers change if we assume only that $L$\n  is separable (but not necessarily Galois) over $K$?\n"
+  },
+  {
+    "year": 2015,
+    "number": 6,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "Let $R$ be a commutative algebra over $\\mathbb C$. A derivation of $R$ is a\n$\\mathbb C$-linear map $D:R\\rightarrow R$ such that (i) $D(1)=0$ and\n(ii) $D(ab)=D(a)b+aD(b)$ for all $a,b\\in R$.\n\n- Describe all derivations of the polynomial ring $\\mathbb C[x]$.\n\n- Let $A$ be the subring (or $\\mathbb C$-subalgebra) of\n  $\\mathrm{End}_{\\mathbb C}(\\mathbb C[x])$ generated by all derivations\n  of $\\mathbb C[x]$ and the left multiplications by $x$.\n  Prove that $\\mathbb C[x]$ is a simple left $A$-module.\n  > Note that the inclusion $A\\rightarrow\\mathrm{\\End}_{\\mathbb C}(\\mathbb C[x])$\n  defines a natural left $A$-module structure on $\\mathbb C[x]$.\n"
+  },
+  {
+    "year": 2015,
+    "number": 7,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "Let $G$ be a non-abelian group of order $p^3$ with $p$ a prime.\n\n- Determine the order of the center $Z$ of $G$.\n\n- Determine the number of inequivalent complex\n  1-dimensional representations of $G$.\n\n- Compute the dimensions of all the inequivalent irreducible\n  representations of $G$ and verify that the number of such\n  representations equals the number of conjugacy classes of\n  $G$.\n"
+  },
+  {
+    "year": 2014,
+    "number": 1,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "\n- Let $G$ be a group (not necessarily finite) that contains\n  a subgroup of index $n$. Show that $G$ contains a\n  \\textit{normal} subgroup $N$ such that $n\\leq[G:N]\\leq n!$\n\n- Use part (a) to show that there is no simple group\n  of order 36.\n"
+  },
+  {
+    "year": 2014,
+    "number": 2,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "Let $p$ be a prime, let $\\mathbb F_p$ be the $p$-element field,\nand let $K=\\mathbb F_p(t)$ be the field of rational functions in\n$t$ with coefficients in $\\mathbb F_p$. Consider the polynomial $f(x)=\nx^p-t\\in K[x]$.\n\n- Show that $f$ does not have a root in $K$.\n\n- Let $E$ be the splitting field of $f$ over $K$.\n  Find the factorization of $f$ over $E$.\n\n- Conclude that $f$ is irreducible over $K$.\n"
+  },
+  {
+    "year": 2014,
+    "number": 3,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "Recall that a ring $A$ is called \\textit{graded} if it admits a direct\nsum decomposition $A=\\oplus_{n=0}^{\\infty}A_n$ as abelian groups, with the\nproperty that $A_iA_j\\subseteq A_{i+j}$ for all $i,j\\geq 0$.\nProve that a graded commutative ring $A=\\oplus_{n=0}^{\\infty} A_n$\nis Noetherian if and only if $A_0$ is Noetherian and $A$ is finitely\ngenerated as an algebra over $A_0$.\n"
+  },
+  {
+    "year": 2014,
+    "number": 4,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "Let $R$ be a ring with the property that $a^2=a$ for all $a\\in R$.\n\n- Compute the Jacobson radical of $R$.\n\n- What is the characteristic of $R$?\n\n- Prove that $R$ is commutative.\n\n- Prove that if $R$ is finite, then $R$ is isomorphic\n  (as a ring) to $(\\mathbb Z/2\\mathbb Z)^d$ for some $d$.\n"
+  },
+  {
+    "year": 2014,
+    "number": 6,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "Let $\\overline{\\mathbb F_p}$ denote the algebraic closure of $\\mathbb F_p$. Show that\nthe Galois group $\\Gal(\\overline{\\mathbb F_p}/\\mathbb F_p)$\nhas no non-trivial finite subgroups.\n"
+  },
+  {
+    "year": 2014,
+    "number": 7,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "Let $C_p$ denote the cyclic group of order $p$.\n\n- Show that $C_p$ has two irreducible representations over\n  $\\mathbb Q$ (up to isomorphism), one of dimension 1\n  and one of dimension $p-1$.\n\n- Let $G$ be a finite group, and let $\\rho:G\\rightarrow\n  \\GL_n(\\mathbb Q)$ be a representation of $G$ over $\\mathbb Q$.\n  Let $\\rho_{\\mathbb C}:G\\rightarrow\\GL_n(\\mathbb C)$ denote\n  $\\rho$ followed by the inclusion $\\GL_n(\\mathbb Q)\\rightarrow\n  \\GL_n(\\mathbb C)$. Thus $\\rho_{\\mathbb C}$ is a representation\n  of $G$ over $\\mathbb C$, called the \\textit{complexification}\n  of $\\rho$. We say that an irreducible representation $\\rho$\n  of $G$ is \\textit{absolutely irreducible} if its\n  complexification remains irreducible over $\\mathbb C$.\\\\\n  Now suppose $G$ is abelian and that every representation\n  of $G$ over $\\mathbb Q$ is absolutely irreducible. Show that\n  $G\\cong(C_2)^k$ for some $k$ (i.e., is a product of\n  cyclic groups of order 2).\n"
+  },
+  {
+    "year": 2014,
+    "number": 8,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "Let $G$ be a finite group and $\\mathbb Z[G]$ the internal group algebra.\nLet $\\mathcal Z$ be the center of $\\mathbb Z[G]$. For each conjugacy class\n$C\\subseteq G$, let $P_C=\\sum_{g\\in C}g$.\n\n- Show that the elements $P_C$ form a $\\mathbb Z$-basis for\n  $\\mathcal Z$. Hence $\\mathcal Z\\cong\\mathbb Z^d$ as an\n  abelian group, where $d$ is the number of\n  conjugacy classes in $G$.\n\n- Show that if a ring $R$ is isomorphic to $\\mathbb Z^d$ as\n  an abelian group, then every element in $R$ satisfies\n  a monic integral polynomial.\n  (\\textbf{Hint:} Let $\\{v_1,\\dots,v_d\\}$ be a basis of\n  $R$ and for a fixed non-zero $r\\in R$, write $rv_i=\\sum_j\n  a_{ij}v_j$. Use the Hamilton-Cayley theorem.)\n\n- Let $\\pi:G\\rightarrow\\GL(V)$ be an irreducible representation\n  of $G$ (over $\\mathbb C$). Show that $\\pi(P_C)$ acts on $V$\n  as multiplication by the scalar\n  $$\n  \\frac{|C|\\chi_{\\pi}(C)}{\\dim V},\n  $$\n  where $\\chi_{\\pi}(C)$ is the value of the character\n  $\\chi_{\\pi}$ on any element of $C$.\n\n- Conclude that $|C|\\chi_{\\pi}(C)/\\dim V$ is an algebraic\n  integer.\n"
+  },
+  {
+    "year": 2013,
+    "number": 3,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "\n- Suppose that $G$ is a finitely generated group. Let $n$\n  be a positive integer. Prove that $G$ has only finitely\n  many subgroups of index $n$\n\n- Let $p$ be a prime number. If $G$ is any finitely-generated\n  abelian group, let $t_p(G)$ denote the number of\n  subgroups of $G$ of index $p$. Determine the possible\n  values of $t_p(G)$ as $G$ varies over all\n  finitely-generated abelian groups.\n"
+  },
+  {
+    "year": 2013,
+    "number": 3,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "\n- Suppose that $G$ is a finitely generated group. Let $n$\n  be a positive integer. Prove that $G$ has only finitely\n  many subgroups of index $n$\n\n- Let $p$ be a prime number. If $G$ is any finitely-generated\n  abelian group, let $t_p(G)$ denote the number of\n  subgroups of $G$ of index $p$. Determine the possible\n  values of $t_p(G)$ as $G$ varies over all\n  finitely-generated abelian groups.\n"
+  },
+  {
+    "year": 2013,
+    "number": 4,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "Suppose that $G$ is a finite group of order 2013. Prove that $G$ has\na normal subgroup $N$ of index 3 and that $N$ is a cyclic group.\nFurthermore, prove that the center of $G$ has order divisible by 11.\n(You will need the factorization $2013=3\\cdot11\\cdot61$.)\n"
+  },
+  {
+    "year": 2013,
+    "number": 6,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "This question concerns an extension $K$ of $\\mathbb Q$ such that\n$[K:\\mathbb Q]=8$. Assume that $K/\\mathbb Q$ is Galois and let\n$G=\\Gal(K/\\mathbb Q)$. Furthermore, assume that $G$ is non-abelian.\n\n- Prove that $K$ has a unique subfield $F$ such that\n  $F/\\mathbb Q$ is Galois and $[F:\\mathbb Q]=4$.\n\n- Prove that $F$ has the form $F=\\mathbb Q(\\sqrt{d_1},\\sqrt{d_2})$\n  where $d_1,d_2$ are non-zero integers.\n\n- Suppose that $G$ is the quaternionic group. Prove\n  that $d_1$ and $d_2$ are positive integers.\n"
+  },
+  {
+    "year": 2013,
+    "number": 8,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "This question concerns the polynomial ring $R=\\mathbb Z[x,y]$ and the ideal\n$I=(5,x^2+2)$ in $R$.\n\n- Prove that $I$ is a prime ideal of $R$ and that $R/I$ is\n  a PID.\n\n- Give an explicit example of a maximal ideal of $R$ which\n  contains $I$. (Give a set of generators for such an ideal.)\n\n- Show that there are infinitely many distinct maximal ideals\n  in $R$ which contain $I$.\n"
+  },
+  {
+    "year": 2012,
+    "number": 1,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "Classify all groups of order 2012 up to isomorphism. (Hint: 503 is prime).\n"
+  },
+  {
+    "year": 2012,
+    "number": 2,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "For any positive integer $n$, let $G_n$ be the group generated by\n$a$ and $b$ subject to the following three relations:\n$$\na^2=1, \\quad b^2=1, \\quad \\text{and} \\quad (ab)^n=1.\n$$\n\n- Find the order of the group $G_n$\n"
+  },
+  {
+    "year": 2012,
+    "number": 6,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "Determine the Galois groups of the following polynomials over $\\mathbb Q$.\n\n- $f(x)=x^4+4x^2+1$\n\n- $f(x)=x^4+4x^2-5$.\n"
+  },
+  {
+    "year": 2012,
+    "number": 3,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "Let $R$ be a (commutative) principal ideal domain, let $M$ and $N$ be\nfinitely generated free $R$-modules, and let $\\varphi:M\\rightarrow N$ be\nan $R$-module homomorphism.\n\n- Let $K$ be the kernel of $\\varphi$. Prove that\n  $K$ is a direct summand of $M$.\n\n- Let $C$ be the image of $\\varphi$. Show by example\n  (specifying $R$, $M$, $N$, and $\\varphi$) that $C$\n  need not be a direct summand of $N$.\n"
+  },
+  {
+    "year": 2011,
+    "number": 2,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "In this problem, as you apply Sylow's Theorem, state precisely which portions\nyou are using.\n\n- Prove that there is no simple group of order 30.\n\n- Suppose that $G$ is a simple group of order 60. Determine\n  the number of $p$-Sylow subgroups of $G$ for each prime\n  $p$ dividing 60, then prove that $G$ is isomorphic to\n  the alternating group $A_5$.\n\n> Note: in the second part, you needn't show that $A_5$ is simple.\nYou need only show that if there is a simple group of order 60, then\nit must be isomorphic to $A_5$.\n"
+  },
+  {
+    "year": 2011,
+    "number": 3,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "Describe the Galois group and the intermediate fields of the cyclotomic\nextension $\\mathbb Q(\\zeta_{12})/\\mathbb Q$.\n"
+  },
+  {
+    "year": 2011,
+    "number": 4,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "Let\n$$\nR=\\mathbb Z[x]/(x^2+x+1).\n$$\n\n- Answer the following questions with suitable justification.\n    - Is $R$ a Noetherian ring?\n    - Is $R$ an Artinian ring?\n\n- Prove that $R$ is an integrally closed domain.\n"
+  },
+  {
+    "year": 2011,
+    "number": 1,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "Let $R$ be a commutative ring. Recall that an element $r$ of $R$ is\n\\textit{nilpotent} if $r^n=0$ for some positive integer $n$ and that\nthe \\textit{nilradical} of $R$ is the set $N(R)$ of nilpotent\nelements.\n\n- Prove that\n  $$\n  N(R)=\\cap_{P\\text{ prime}}P.\n  $$\n  (Hint: given a non-nilpotent element $r$ of $R$, you may\n  wish to construct a prime ideal that does not\n  contain $r$ or its powers.)\n\n- Given a positive integer $m$, determine the nilradical\n  of $\\mathbb Z/(m)$.\n\n- Determine the nilradical of $\\mathbb C[x,y]/(y^2-x^3)$.\n\n- Let $p(x,y)$ be a polynomial in $\\mathbb C[x,y]$ such that\n  for any complex number $a$, $p(a,a^{3/2})=0$. Prove that\n  $p(x,y)$ is divisible by $y^2-x^3$.\n"
+  },
+  {
+    "year": 2011,
+    "number": 6,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "Given a finite group $G$, recall that its *regular representation*\nis the representation on the complex group algebra $\\mathbb C[G]$ induced by\nleft multiplication of $G$ on itself and its \\textit{adjoint representation}\nis the representation on the complex group algebra $\\mathbb C[G]$ induced\nby conjugation of $G$ on itself.\n\n- Let $G=\\GL_2(\\mathbb F_2)$. Describe the number and dimensions of\n  the irreducible representations of $G$. Then describe the\n  decomposition of its regular representation as a direct\n  sum of irreducible representations.\n\n- Let $G$ be a group of order 12. Show that its adjoint\n  representation is reducible; that is, there is\n  an $H$-invariant subspace of $\\mathbb C[H]$ besides 0 and\n  $\\mathbb C[H]$.\n"
+  },
+  {
+    "year": 2011,
+    "number": 8,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "Let $R$ be a commutative integral domain. Show that the following\nare equivalent:\n\n- $R$ is a field;\n\n- $R$ is a semi-simple ring;\n\n- Any $R$-module is projective.\n"
+  },
+  {
+    "year": 2010,
+    "number": 1,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "Let $p$ be a positive prime number, $\\mathbb F_p$ the field with $p$ elements,\nand let $G=\\text{GL}_2(\\mathbb F_p)$.\n\n- Compute the order of $G$, $|G|$.\n\n- Write down an explicit isomorphism from $\\mathbb Z/p\\mathbb Z$ to\n  $$\n  U=\\left\\{\n  \\begin{pmatrix}\n    1 & a\\\\\n    0 & 1\n  \\end{pmatrix}\n  \\bigg|a\\in\\mathbb F_p\\right\\}.\n  $$\n\n- How many subgroups of order $p$ does $G$ have? Hint:\n  compute $gug\\inv$ for $g\\in G$ and $u\\in U$; use this\n  to find the size of the normalizer of $U$ in $G$.\n"
+  },
+  {
+    "year": 2010,
+    "number": 2,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "\n- Give definitions of the following terms:\n  (i) a finite length (left) module, (ii) a\n  composition series for a module, and (iii) the length\n  of a module,\n\n- Let $l(M)$ denote the length of a module $M$. Prove that if\n  $$\n  0\\rightarrow M_1\\rightarrow M_2\\rightarrow\\dots\\rightarrow\n  M_n\\rightarrow 0\n  $$\n  is an exact sequence of modules of finite length, then\n  $$\n  \\sum_{i=1}^n(-1)^kl(M_i)=0.\n  $$\n"
+  },
+  {
+    "year": 2010,
+    "number": 3,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "Let $\\mathbb F$ be a field of characteristic $p$, and $G$ a group of\norder $p^n$. Let $R=\\mathbb F[G]$ be the group ring (group algebra)\nof $G$ over $\\mathbb F$, and let $u:=\\sum_{x\\in G}x$ (so $u$ is an element of\n$R$).\n\n- Prove that $u$ lies in the center of $R$.\n\n- Verify that $Ru$ is a 2-sided ideal of $R$.\n\n- Show there exists a positive integer $k$ such that $u^k=0$.\n  Conclude that for such a $k$, $(Ru)^k=0$.\n\n- Show that $R$ is \\textbf{not} a semi-simple ring.\n  (\\textbf{Warning:} Please use the definition of a semi-simple\n  ring: do \\textbf{not} use the result that a finite length\n  ring fails to be semisimple if and only if it has a non-zero\n  nilpotent ideal.)\n"
+  },
+  {
+    "year": 2010,
+    "number": 4,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "Let $f(x)=a_nx^n+a_{n-1}x^{n-1}+\\dots+a_0\\in\\mathbb Z[x]$\n(where $a_n\\neq 0$) and let $R=\\mathbb Z[x]/(f)$.\nProve that $R$ is a finitely generated module over $\\mathbb Z$ if and only if\n$a_n=\\pm 1$.\n"
+  },
+  {
+    "year": 2010,
+    "number": 5,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "Consider the ring\n$$\nS=C[0,1]=\\{f:[0,1]\\rightarrow\\mathbb R:f\\text{ is continuous}\\}\n$$\nwith the usual operations of addition and multiplication of functions.\n\n- What are the invertible elements of $S$?\n\n- For $a\\in[0,1]$, define $I_a=\\{f\\in S:f(a)=0\\}$.\n  Show that $I_a$ is a maximal ideal of $S$.\n\n- Show that the elements of any proper ideal of $S$ have a\n  common zero, i.e., if $I$ is a proper ideal of $S$, then\n  there exists $a\\in[0,1]$ such that $f(a)=0$ for all $f\\in I$.\n  Conclude that every maximal ideal of $S$ is of the form\n  $I_a$ for some $a\\in[0,1]$. \\textbf{Hint:} as $[0,1]$\n  is compact, every open cover of $[0,1]$ contains a finite\n  subcover.\n"
+  },
+  {
+    "year": 2010,
+    "number": 7,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "Let $F$ be a field of characteristic zero, and let $K$\nbe an \\textit{algebraic} extension of $F$ that possesses the following\nproperty: every polynomial $f\\in F[x]$ has a root in $K$.\nShow that $K$ is algebraically closed.\\\\\n\\textbf{Hint:} if $K(\\theta)/K$ is algebraic, consider $F(\\theta)/F$\nand its normal closure; primitive elements might be of help.\n"
+  },
+  {
+    "year": 2010,
+    "number": 8,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "Let $G$ be the unique non-abelian group of order 21.\n\n- Describe all 1-dimensional complex representations of $G$.\n\n- How many (non-isomorphic) irreducible complex representations\n  does $G$ have and what are their dimensions?\n\n- Determine the character table of $G$.\n"
+  },
+  {
+    "year": 2009,
+    "number": 1,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "\n- Classify all groups of order $2009=7^2\\times 41$.\n\n- Suppose that $G$ is a group of order 2009. How many intermediate groups are\n  there—that is, how many groups H are there with $1\\subsetneq H\\subsetneq G$, where both\n  inclusions are proper? (There may be several cases to consider.)\n"
+  },
+  {
+    "year": 2009,
+    "number": 2,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "Let $K$ be a field. A discrete valuation on $K$ is a function $\\nu:\nK\\setminus\\{0\\}\\rightarrow\\mathbb Z$ such that\n\n- $\\nu(ab)=\\nu(a)+\\nu(b)$\n\n- $\\nu$ is surjective\n\n- $\\nu(a+b)\\geq\\text{min}\\{(\\nu(a),\\nu(b)\\}$ for\n  $a,b\\in K\\setminus\\{0\\}$ with $a+b\\neq 0$.\n\nLet $R:=\\{x\\in K\\setminus\\{0\\}:\\nu(x)\\geq0\\}\\cup\\{0\\}$. Then\n$R$ is called the valuation ring of $\\nu$.\n\nProve the following:\n\n- $R$ is a subring of $K$ containing the 1 in $K$.\n\n- for all $x\\in K\\setminus\\{0\\}$, either $x$ or\n  $x\\inv$ is in $R$.\n\n- $x$ is a unit of $R$ if and only if $\\nu(x)=0$.\n\n- Let $p$ be a prime number, $K=\\mathbb Q$,\n  and $\\nu_p:\\mathbb Q\\setminus\\{0\\}\\rightarrow\\mathbb Z$\n  be the function defined by $\\nu_p(\\frac ab)=n$ where\n  $\\frac ab=p^n\\frac cd$ and $p$ does not divide $c$ and $d$.\n  Prove that the corresponding valuation ring $R$ is the ring\n  of all rational numbers whose denominators are relatively\n  prime to $p$.\n"
+  },
+  {
+    "year": 2009,
+    "number": 3,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "Let $F$ be a field of characteristic not equal to 2.\n\n- Prove that any extension $K$ of $F$ of degree 2\n  is of the form $F(\\sqrt D)$ where $D\\in F$\n  is not a square in $F$ and, conversely, that each such\n  extension has degree 2 over $F$.\n\n- Let $D_1,D_2\\in F$ neither of which is a square in $F$.\n  Prove that $[F(\\sqrt{D_1},\\sqrt{D_2}):F]=4$ if\n  $D_1D_2$ is not a square in $F$ and is of degree\n  2 otherwise.\n"
+  },
+  {
+    "year": 2009,
+    "number": 4,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "Let $F$ be a field and $p(x)\\in F[x]$ an irreducible polynomial.\n\n- Prove that there exists a field extension $K$ of $F$\n  in which $p(x)$ has a root.\n\n- Determine the dimension of $K$ as a vector space over $F$\n  and exhibit a vector space basis for $K$.\n\n- If $\\theta\\in K$ denotes a root of $p(x)$, express\n  $\\theta\\inv$ in terms of the basis found in part (b).\n\n- Suppose $p(x)=x^3+9x+6$. Show $p(x)$ is irreducible over\n  $\\mathbb Q$. If $\\theta$ is a root of $p(x)$, compute\n  the inverse of $(1+\\theta)$ in $\\mathbb Q(\\theta)$.\n"
+  },
+  {
+    "year": 2009,
+    "number": 6,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "Fix a ring $R$, an $R$-module $M$, and an $R$-module homomorphism\n$f:M\\rightarrow M$.\n\n- If $M$ satisfies the descending chain condition on submodules,\n  show that if $f$ is injective, then $f$ is surjective.\n  (Hint: note that if $f$ is injective, so are\n  $f\\circ f$, $f\\circ f\\circ f$, etc.)\n\n- Give an example of a ring $R$, an $R$-module $M$,\n  and an injective $R$-module homomorphism $f:M\\rightarrow M$\n  which is not surjective.\n\n- If $M$ satisfies the ascending chain condition on submodules,\n  show that if $f$ is surjective, then $f$ is injective.\n\n- Give an exampe of a ring $R$, and $R$-module $M$, and\n  a surjective $R$-module homomorphism $f:M\\rightarrow M$\n  which is not injective.\n"
+  },
+  {
+    "year": 2009,
+    "number": 7,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "Let $G$ be a finite group, $k$ an algebraically closed field, and $V$\nan irreducible $k$-linear representation of $G$.\n\n- Show that $\\Hom_{kG}(V,V)$ is a division algebra with $k$\n  in its center.\n\n- Show that $V$ is finite-dimensional over $k$, and conclude\n  that $\\Hom_{kG}(V,V)$ is also finite dimensional.\n\n- Show the inclusion $k\\hookrightarrow\\Hom_{kG}(V,V)$ found\n  in (a) is an isomorphism. (For $f\\in\\Hom_{kG}(V,V)$, view\n  $f$ as a linear transformation and consider $f-\\alpha I$,\n  where $\\alpha$ is an eigenvalue of $f$).\n"
+  },
+  {
+    "year": 2008,
+    "number": 1,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "Let $f(x)$ be an irreducible polynomial of degree 5 over the field\n$\\mathbb Q$ of rational numbers with exactly 3 real roots.\n\n- Show that $f(x)$ is not solvable by radicals.\n\n- Let $E$ be the splitting field of $f$ over $\\mathbb Q$.\n  Construct a Galois extension $K$ of degree 2 over\n  $\\mathbb Q$ lying in $E$ such that \\textit{no} field $F$\n  strictly between $K$ and $E$ is Galois over $\\mathbb Q$.\n"
+  },
+  {
+    "year": 2008,
+    "number": 2,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "Let $F$ be a finite field. Show for any positive integer $n$ that\nthere are irreducible polynomials of degree $n$ in $F[x]$.\n"
+  },
+  {
+    "year": 2008,
+    "number": 3,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "Show that the order of the group $\\text{GL}_n(\\mathbb F_q)$ of invertible\n$n\\times n$ matrices over the field $\\mathbb F_q$ of $q$ elements is given by\n$(q^n-1)(q^n-q)\\dots(q^n-q^{n-1})$.\n"
+  },
+  {
+    "year": 2008,
+    "number": 5,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "\n- Let $R$ be a commutative principal ideal domain. Show that\n  any $R$-module $M$ generated by two elements takes the form\n  $R/(a)\\oplus R/(b)$ for some $a,b\\in R$. What more\n  can you say about $a$ and $b$?\n\n- Give a necessary and sufficient condition for two direct sums\n  as in part (a) to be isomorphic as $R$-modules.\n"
+  },
+  {
+    "year": 2008,
+    "number": 6,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "Let $G$ be the subgroup of $\\text{GL}_3(\\mathbb C)$ generated by the three\nmatrices\n$$\nA=\n\\begin{pmatrix}\n  0 & 0 & 1\\\\\n  0 & 1 & 0\\\\\n  1 & 0 & 0\n\\end{pmatrix},\n\\quad B=\n\\begin{pmatrix}\n  0 & 0 & 1\\\\\n  1 & 0 & 0\\\\\n  0 & 1 & 0\n\\end{pmatrix},\n\\quad C=\n\\begin{pmatrix}\n  i & 0 & 0\\\\\n  0 & 1 & 0\\\\\n  0 & 0 & 1\n\\end{pmatrix}\n$$\nwhere $i^2=-1$. Here $\\mathbb C$ denotes the complex field.\n\n- Compute the order of $G$.\n\n- Find a matrix in $G$ of largest possible order (as an element\n  of $G$) and compute this order.\n\n- Compute the number of elements in $G$ with this largest\n  order.\n"
+  },
+  {
+    "year": 2008,
+    "number": 7,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "\n- Let $G$ be a group of (finite) order $n$. Show that any\n  irreducible left module over the group algebra $\\mathbb CG$\n  has complex dimension at least $\\sqrt n$.\n\n- Give an example of a group $G$ of order $n\\geq5$ and an\n  irreducible left module over $\\mathbb CG$ of complex dimension\n  $\\lfloor\\sqrt n\\rfloor$, the greatest integer to\n  $\\sqrt n$.\n"
+  },
+  {
+    "year": 2008,
+    "number": 8,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "Use the rational canonical form to show that any square matrix $M$ over\na field $k$ is similar to its transpose $M^t$, recalling that $p(M)=0$\nfor some $p\\in k[t]$ if and only if $p(M^t)=0$.\n"
+  },
+  {
+    "year": 2007,
+    "number": 1,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "Let $K$ be a field of characteristic zero and $L$ a Galois extension\nof $K$. Let $f$ be an irreducible polynomial in $K[x]$ of degree 7 and\nsuppose $f$ has no zeroes in $L$. Show that $f$ is irreducible\nin $L[x]$.\n"
+  },
+  {
+    "year": 2007,
+    "number": 2,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "Let $K$ be a field of characteristic zero and $f\\in K[x]$ an\nirreducible polynomial of degree $n$. Let $L$ be a splitting field for\n$f$. Let $G$ be the group of automorphisms of $L$ which act trivially\non $K$.\n\n- Show that $G$ embeds in the symmetric group $S_n$.\n\n- For each $n$, give an example of a field $K$ and polynomial\n  $f$ such that $G=S_n$.\n\n- What are the possible groups $G$ when $n=3$. Justify\n  your answer.\n"
+  },
+  {
+    "year": 2007,
+    "number": 3,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "Show there are exactly two groups of order 21 up to isomorphism.\n"
+  },
+  {
+    "year": 2006,
+    "number": 2,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "Let $K$ be the field $\\mathbb Q(z)$ of rational functions in a variable $z$\nwith coeffiecients in the rational field $\\mathbb Q$.\nLet $n$ be a positive integer. Consider the polynomial $x^n-z\\in K[x]$.\n\n- Show that the polynomial $x^n-z$ is irreducible over $K$.\n\n- Describe the splitting field of $x^n-z$ over $K$.\n\n- Determine the Galois group of the splitting field\n  of $x^5-z$ over the field $K$.\n"
+  },
+  {
+    "year": 2006,
+    "number": 3,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "\n- Let $p<q<r$ be prime integers. Show that a group of order\n  $pqr$ cannot be simple.\n\n- Consider groups of orders $2^2\\cdot 3\\cdot p$ where $p$\n  has the values 5, 7, and 11. For each of those values\n  of $p$, either display a simple group of order\n  $2^2\\cdot 3\\cdot p$, or show that there cannot\n  be a simple group of that order.\n"
+  },
+  {
+    "year": 2006,
+    "number": 4,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "Let $K/F$ be a finite Galois extension and let $n=[K:F]$. There is a theorem\n(often referred to as the \"normal basis theorem\") which states that there\nexists an irreducible polynomial $f(x)\\in F[x]$ whose\nroots form a basis for $K$ as a vector space over $F$. You may assume\nthat theorem in this problem.\n\n- Let $G=\\Gal(K/F)$. The action of $G$ on $K$ makes $K$ into\n  a finite-dimensional representation space for $G$ over $F$.\n  Prove that $K$ is isomorphic to the regular representation\n  for $G$ over $F$.\n\n  > The regular representation is defined by letting $G$ act\n  on the group algebra $F[G]$ by multiplication on\n  the left.\n\n- Suppose that the Galois group $G$ is cyclic and that $F$\n  contains a primitive $n^{\\text{th}}$ root of unity. Show that\n  there exists an injective homomorphism $\\chi:G\\rightarrow\n  F^{\\times}$.\n\n- Show that $K$ contains a non-zero element $a$ with the\n  following property:\n  $$\n  g(a)=\\chi(g)\\cdot a\n  $$\n  for all $g\\in G$.\n\n- If $a$ has the property stated in (c), show that $K=F(a)$ and\n  that $a^n\\in F^{\\times}$.\n"
+  },
+  {
+    "year": 2006,
+    "number": 5,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "Let $G$ be the group of matrices of the form\n$$\n\\begin{pmatrix}\n  1 & a & b\\\\\n  0 & 1 & c\\\\\n  0 & 0 & 1\n\\end{pmatrix}\n$$\nwith entries in the finite field $\\mathbb F_p$ of $p$ element, where\n$p$ is a prime.\n\n- Prove that $G$ is non-abelian.\n\n- Suppose $p$ is odd. Prove that $g^p=I_3$ for all $g\\in G$.\n\n- Suppose that $p=2$. It is known that there are exactly\n  two non-abelian groups of order 8, up to isomorphism:\n  the dihedral group $D_8$ and the quaternionic group.\n  Assuming this fact without proof, determine which\n  of these groups $G$ is isomorphic to.\n"
+  },
+  {
+    "year": 2006,
+    "number": 7,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "There are five nonisomorphic groups of order 8. For\neach of those groups $G$, find the smallest positive integer n such that there is an\ninjective homomorphism $\\varphi: G\\rightarrow S_n$.\n"
+  },
+  {
+    "year": 2005,
+    "number": 1,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "For any group $G$ we define $\\Omega(G)$ to be the image of the group\nhomomorphism $\\rho:G\\rightarrow\\Aut(G)$ where $\\rho$ maps\n$g\\in G$ to the conjugation automorphism $x\\mapsto gxg\\inv$.\nStarting with a group $G_0$, we define $G_1=\\Omega(G_0)$ and\n$G_{i+1}=\\Omega(G_i)$ for all $i\\geq 0$. If $G_0$ is of order\n$p^e$ for a prime $p$ and integer $e\\geq 2$, prove that $G_{e-1}$\nis the trivial group.\n"
+  },
+  {
+    "year": 2005,
+    "number": 2,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "Let $\\mathbb F_2$ be the field with two elements.\n\n- What is the order of $\\text{GL}_3(\\mathbb F_2)$?\n\n- Use the fact that $\\text{GL}_3(\\mathbb F_2)$ is a simple group\n  (which you should not prove) to find the number\n  of elements of order 7 in $\\text{GL}_3(\\mathbb F_2)$.\n"
+  },
+  {
+    "year": 2005,
+    "number": 3,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "Let $G$ be a finite abelian group. Let $f:\\mathbb Z^m\\rightarrow G$ be a\nsurjection of abelian groups. We may think of $f$ as a homomorphism\nof $\\mathbb Z$-modules. Let $K$ be the kernel of $f$.\n\n- Prove that $K$ is isomorphic to $\\mathbb Z^m$.\n\n- We can therefore write the inclusion map\n  $K\\rightarrow\\mathbb Z^m$ as $\\mathbb Z^m\\rightarrow\\mathbb Z^m$\n  and represent it by an $m\\times m$ integer matrix\n  $A$. Prove that $|\\det A|=|G|$.\n"
+  },
+  {
+    "year": 2005,
+    "number": 4,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "Let $R=C([0,1])$ be the ring of all continuous real-valued functions\non the closed interval $[0,1]$, and for each $c\\in[0,1]$, denote by\n$M_c$ the set of all functions $f\\in R$ such that $f(c)=0$.\n\n- Prove that $g\\in R$ is a unit if and only if $g(c)\\neq0$\n  for all $c\\in[0,1]$.\n\n- Prove that for each $c\\in[0,1]$, $M_c$ is a maximal ideal of\n  $R$.\n\n- Prove that if $M$ is a maximal ideal of $T$, then\n  $M=M_c$ for some $c\\in[0,1]$. (Hint:\n  compactness of $[0,1]$ may be relevant.)\n"
+  },
+  {
+    "year": 2005,
+    "number": 5,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "Let $R$ and $S$ be commutative rings, and $f:R\\rightarrow S$\na ring homomorphism.\n\n- Show that if $I$ is a prime ideal of $S$, then\n  $$\n  f\\inv(I)=\\{r\\in R:f(r)\\in I\\}\n  $$\n  is a prime ideal of $R$.\n\n- Let $N$ be the set of nilpotent elements of $R$:\n  $$\n  N=\\{r\\in R:r^m=0\\text{ for some }m\\geq 1\\}.\n  $$\n  $N$ is called the \\textit{nilradical} of $R$. Prove that\n  it is an ideal which is contained in every prime ideal.\n\n- Part (a) lets us define a function\n  $$\n  f^*:\\{\\text{prime ideals of }S\\}\\rightarrow\n  \\{\\text{prime ideals of }R\\}.\n  $$\n  $$\n  I\\mapsto f\\inv(I).\n  $$\n  Let $N$ be the nilradical of $R$. Show that if\n  $S=R/N$ and $f:R\\rightarrow R/N$ is the quotient map,\n  then $f^*$ is a bijection\n"
+  },
+  {
+    "year": 2005,
+    "number": 7,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "Consider the polynomial $f(x)=x^{10}+x^5+1\\in\\mathbb Q[x]$ with\nsplitting field $K$ over $\\mathbb Q$.\n\n- Determine whether $f(x)$ is irreducible over $\\mathbb Q$ and find\n  $[K:\\mathbb Q]$.\n\n- Determine the structure of the Galois group\n  $\\Gal(K/\\mathbb Q)$.\n"
+  },
+  {
+    "year": 2005,
+    "number": 8,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "For each prime number $p$ and each positive integer $n$, how many\nelements $\\alpha$ are there in $\\mathbb F_{p^n}$ such that\n$F_p(\\alpha)=F_{p^6}$?\n"
+  },
+  {
+    "year": "Extra",
+    "number": 1,
+    "exam": "Algebra",
+    "university": "UW",
+    "tags": [
+      "Algebra"
+    ],
+    "question": "Assume that $K$ is a cyclic group, $H$ is an arbitrary group, and $\\varphi_1$\nand $\\varphi_2$ are homomorphisms from $K$ into $\\Aut(H)$ such that\n$\\varphi_1(K)$ and $\\varphi_2(K)$ are conjugate subgroups\nof $\\Aut(H)$.\n\nProve by constructing an explicit isomorphism that\n$H\\rtimes_{\\varphi_1}K\\cong H\\rtimes_{\\varphi_2} K$.\n\n> Suppose $\\sigma_{\\varphi_1}(K)\\sigma\\inv=\\varphi_2(K)$\nso that for some $a\\in\\mathbb Z$ we have $\\sigma\\varphi_1(k)\\sigma\\inv\n=\\varphi_2(k)^a$ for all $k\\in K$. Show that the map $\\psi:H\n\\rtimes_{\\varphi_1}K\\rightarrow H\\rtimes_{\\varphi_2}K$\ndefined by $\\psi((h,k))=(\\sigma(h),k^a)$ is a homomorphism.\nShow $\\psi$ is bijective by construcing a 2-sided inverse.\n"
+  },
+  {
+    "year": 2019,
+    "season": "Fall",
+    "number": 1,
+    "exam": "Topology",
+    "university": "UGA",
+    "tags": [
+      "Topology"
+    ],
+    "question": "Something something $G$.\n"
+  }
+]
