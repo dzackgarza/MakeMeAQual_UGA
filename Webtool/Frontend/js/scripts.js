@@ -61,13 +61,9 @@ $('#makeQual').on('click', function(event) {
     type: 'post',
     data: JSON.stringify(
       {
-        questions: window.selectedQuestions
-          .map(a => a.question)
-          .map((a) => ({sort: Math.random(), value: a}))
-          .sort((a, b) => a.sort - b.sort)
-          .map((a) => a.value)
-          .slice(0, num_questions),
-        do_pdf: do_pdf
+        questions: window.selectedQuestions,
+        do_pdf: do_pdf,
+        num_questions: num_questions
       }
     ),
     contentType: "application/json",
