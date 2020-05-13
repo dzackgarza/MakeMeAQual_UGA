@@ -809,14 +809,5 @@
       "Galois Theory"
     ],
     "question": "Let $\\zeta = e^{2\\pi i/8}$.\n\n(a) What is the degree of $\\QQ(\\zeta)/\\QQ$?\n\n(b) How many quadratic subfields of $\\QQ(\\zeta)$ are there?\n\n(c) What is the degree of $\\QQ(\\zeta, \\sqrt[4] 2)$ over $\\QQ$?\n"
-  },
-  {
-    "year": 2019,
-    "season": "Fall",
-    "number": 1,
-    "tags": [
-      "Topology"
-    ],
-    "question": "Something something $G$.\n"
   }
 ]
