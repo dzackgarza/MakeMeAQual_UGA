@@ -179,7 +179,7 @@
         
       - Show that
         $$
-        0 \to R \mapsvia{\phi} R \oplus R \mapsvia{\psi} R \to k \to & 0
+        0 \to R \mapsvia{\phi} R \oplus R \mapsvia{\psi} R \to k \to 0
         $$ 
         where $\phi(a) = (-ya,xa)$, $\psi((a,b)) = xa+yb$ for $a,b \in R$, is a projective resolution of the $R$-module $k \simeq R/I$.
       
