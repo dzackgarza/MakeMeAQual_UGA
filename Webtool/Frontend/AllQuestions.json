@@ -352,9 +352,9 @@
     "exam": "Algebra",
     "university": "UW",
     "tags": [
-      "Algebra"
+      "Homological Algebra"
     ],
-    "question": "Let $R = k[x,y]$ where $k$ is a field, and let $I=(x,y)R$.\n    - Show that\n    \\[\n    \\begin{tikzcd}\n    0 \\ar[r] & R \\arrow[r,\"\\phi\"] & R \\oplus R \\arrow[r,\"\\psi\"] & R \\arrow[r] & k \\arrow[r] & 0\n    \\end{tikzcd}\n    \\]\n    where $\\phi(a) = (-ya,xa)$, $\\psi((a,b)) = xa+yb$ for $a,b \\in R$, is a projective resolution of the $R$-module $k \\simeq R/I$.\n    - Show that $I$ is not a flat $R$-module by computing $\\Tor_i^R(I,k)$\n"
+    "question": "Let $R = k[x,y]$ where $k$ is a field, and let $I=(x,y)R$.\n    \n  - Show that\n    \\begin{tikzcd}\n    0 \\ar[r] & R \\arrow[r,\"\\phi\"] & R \\oplus R \\arrow[r,\"\\psi\"] & R \\arrow[r] & k \\arrow[r] & 0\n    \\end{tikzcd}\n    where $\\phi(a) = (-ya,xa)$, $\\psi((a,b)) = xa+yb$ for $a,b \\in R$, is a projective resolution of the $R$-module $k \\simeq R/I$.\n  \n  - Show that $I$ is not a flat $R$-module by computing $\\Tor_i^R(I,k)$\n"
   },
   {
     "year": 2015,

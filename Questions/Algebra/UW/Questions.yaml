@@ -173,7 +173,7 @@
   exam: Algebra
   university: UW
   tags:
-    - Algebra
+    - Homological Algebra
   question: |
     Let $R = k[x,y]$ where $k$ is a field, and let $I=(x,y)R$.
         
