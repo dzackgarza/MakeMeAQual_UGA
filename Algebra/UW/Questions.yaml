@@ -6,12 +6,14 @@ Problems:
       - Algebra 
     question: |
       Show that no finite group is the union of conjugates of a proper subgroup.
+  
   - year: 2018
     number: 2
     tags:
       - Algebra 
     question: |
       Classify all groups of order 18 up to isomorphism.
+  
   - year: 2018
     number: 3
     tags:
@@ -20,20 +22,23 @@ Problems:
       Let $\alpha,\beta$ denote the unique positive
       real $5^{\text{th}}$ root of 7 and $4^{\text{th}}$ root of 5,
       respectively. Determine the degree of $\mathbb Q(\alpha,\beta)$ over $\mathbb Q$.
+  
   - year: 2018
     number: 4
     tags:
       - Algebra 
     question: |
-  - year: 2018
       Show that the field extension $\mathbb Q\subseteq\mathbb Q\left(
       \sqrt{2+\sqrt2}\right)$ is Galois and determine its Galois group.
+  
+  - year: 2018
     number: 5
     tags:
       - Algebra 
     question: |
       Let $M$ be a square matrix over a field $K$. Use a suitable canonical
       form to show that $M$ is similar to its transpose $M^T$.
+  
   - year: 2018
     number: 7
     tags:
@@ -60,7 +65,6 @@ Problems:
     question: |
       Classify (with proof) all fields with finitely many elements.
       
-
   - year: 2017
     number: 3
     tags:
@@ -69,7 +73,6 @@ Problems:
       Suppose $A$ is a commutative ring and $M$ is a finitely presented module.
       Given any surjection $\phi:A^n\rightarrow M$ from a finite free
       $A$-module, show that $\ker\phi$ is finitely generated.
-      
 
   - year: 2017
     number: 4
@@ -77,7 +80,6 @@ Problems:
       - Algebra
     question: |
       Classify all groups of order 57.
-      
 
   - year: 2017
     number: 7
@@ -86,7 +88,6 @@ Problems:
     question: |
       Show that a finite simple group cannot have a 2-dimensional irreducible
       representation over $\mathbb C$. (Hint: the determinant might prove useful.)
-      
 
   - year: 2016
     number: 1
@@ -95,7 +96,6 @@ Problems:
     question: |
       Let $G$ be a finite simple group. Assume that every proper subgroup
       of $G$ is abelian. Prove that then $G$ is cyclic of prime order.
-      
 
   - year: 2016
     number: 2
@@ -104,7 +104,6 @@ Problems:
     question: |
       Let $a\in\mathbb N$, $a>0$. Compute the Galois group of the splitting field
       of the polynomial $x^5-5a^4x+a$ over $\mathbb Q$.
-      
 
   - year: 2016
     number: 4
@@ -117,7 +116,6 @@ Problems:
         \item Use the subgroup from (a) to construct a degree 6 permutation representation of $S_5$ (i.e., an embedding $S_5 \hookrightarrow S_6$ as a transitive permutation group on 6 letters).
         \item Conclude that $S_6$ has an outer automorphism.
       \end{enumerate}
-  
 
   - year: 2016
     number: 5
@@ -132,7 +130,6 @@ Problems:
           \item The localization of $M$ at the prime ideal $\mathfrak p$ is $0$.
           \item $M \otimes_A k(\mathfrak p) = 0$, where $k(\mathfrak p) = A_{\mathfrak p}/\mathfrak p A_{\mathfrak p}$ is the residue field of $A$ at $\mathfrak p$.
       \end{enumerate}
-  
 
   - year: 2016
     number: 6
@@ -144,7 +141,6 @@ Problems:
         \item Show that $A$ is an integral domain and sketch the $\R$-points of $\text{Spec} A$.
         \item Find the integral closure of $A$. Recall that for an integral domain $A$ with fraction field $K$, the integral closure of $A$ in $K$ is the set of all elements of $K$ integral over $A$.
       \end{enumerate}
-  
 
   - year: 2016
     number: 7
@@ -162,6 +158,105 @@ Problems:
           where $\phi(a) = (-ya,xa)$, $\psi((a,b)) = xa+yb$ for $a,b \in R$, is a projective resolution of the $R$-module $k \simeq R/I$.
           \item Show that $I$ is not a flat $R$-module by computing $\Tor_i^R(I,k)$
       \end{enumerate}
+
+  - year: 2015
+    number: 1 
+    tags:
+      - Algebra
+    question: |
+      \begin{enumerate}[(a)]
+        \item Find an irreducible polynomial of degree 5 over the
+          field $\mathbb Z/2$ of two elements and use it to construct
+          a field of order 32 as a quotient of the
+          polynomial ring $\mathbb Z/2[x]$.
+        \item Using the polynomial found in part (a), find a $5\times5$
+          matrix $M$ over $\mathbb Z/2$ of order 31, so that $M^{31}=I$
+          but $M\neq I$.
+      \end{enumerate}
+      
+  - year: 2015
+    number: 2
+    tags:
+      - Algebra
+    question: |
+      Find the minimal polynomial of $\sqrt2+\sqrt3$ over $\mathbb Q$.
+      Justify your answer.
+
+  - year: 2015
+    number: 3 
+    tags:
+      - Algebra
+    question: |
+      \begin{enumerate}[(a)]
+        \item Let $R$ be a commutative ring with no nonzero nilpotent
+          elements. Show that the only units in the polynomial ring
+          $R[x]$ are the units of $R$, regarded as constant polynomials.
+        \item Find all units in the polynomial ring $\mathbb Z_4[x]$.
+      \end{enumerate}
+
+  - year: 2015
+    number: 4
+    tags:
+      - Algebra
+    question: |
+      Let $p$, $q$ be two distinct primes. Prove that there is at most one
+      non-abelian group of order $pq$ and describe the pairs $(p,q)$
+      such that there is no non-abelian group of order $pq$.
+
+  - year: 2015
+    number: 5 
+    tags:
+      - Algebra
+    question: |
+      \begin{enumerate}[(a)]
+        \item Let $L$ be a Galois extension of a field $K$ of degree 4.
+          What is the minimum number of subfields there could
+          be strictly between $K$ and $L$? What is the maximum
+          number of such subfields? Give examples where these
+          bounds are attained.
+        \item How do these numbers change if we assume only that $L$
+          is separable (but not necessarily Galois) over $K$?
+      \end{enumerate}
+
+  - year: 2015
+    number: 6
+    tags:
+      - Algebra
+    question: |
+      Let $R$ be a commutative algebra over $\mathbb C$. A derivation of $R$ is a
+      $\mathbb C$-linear map $D:R\rightarrow R$ such that (i) $D(1)=0$ and
+      (ii) $D(ab)=D(a)b+aD(b)$ for all $a,b\in R$.
+      \begin{enumerate}[(a)]
+        \item Describe all derivations of the polynomial ring $\mathbb C[x]$.
+        \item Let $A$ be the subring (or $\mathbb C$-subalgebra) of
+          $\End_{\mathbb C}(\mathbb C[x])$ generated by all derivations
+          of $\mathbb C[x]$ and the left multiplications by $x$.
+          Prove that $\mathbb C[x]$ is a simple left $A$-module.
+          Note that the inclusion $A\rightarrow\End_{\mathbb C}(\mathbb C[x])$
+          defines a natural left $A$-module structure on $\mathbb C[x]$.
+      \end{enumerate}
   
+  - year: 2015
+    number: 7
+    tags:
+      - Algebra
+    question: |
+      Let $G$ be a non-abelian group of order $p^3$ with $p$ a prime.
+      \begin{enumerate}[(a)]
+        \item Determine the order of the center $Z$ of $G$.
+        \item Determine the number of inequivalent complex
+          1-dimensional representations of $G$.
+        \item Compute the dimensions of all the inequivalent irreducible
+          representations of $G$ and verify that the number of such
+          representations equals the number of conjugacy classes of
+          $G$.
+      \end{enumerate}
+
+  - year: 2014
+    number: 1
+    tags:
+      - Algebra
+    question: |
+      test
 
 ...
