@@ -953,146 +953,174 @@ Problems:
 
 
   - year: 2008
+    number: 7
+    tags:
+      - Algebra
+    question: |
+      \begin{enumerate}[(a)]
+        \item Let $G$ be a group of (finite) order $n$. Show that any
+          irreducible left module over the group algebra $\mathbb CG$
+          has complex dimension at least $\sqrt n$.
+        \item Give an example of a group $G$ of order $n\geq5$ and an
+          irreducible left module over $\mathbb CG$ of complex dimension
+          $\lfloor\sqrt n\rfloor$, the greatest integer to
+          $\sqrt n$.
+      \end{enumerate}
+
+
+  - year: 2008
+    number: 8
+    tags:
+      - Algebra
+    question: |
+      Use the rational canonical form to show that any square matrix $M$ over
+      a field $k$ is similar to its transpose $M^t$, recalling that $p(M)=0$
+      for some $p\in k[t]$ if and only if $p(M^t)=0$.
+
+
+  - year: 2007
+    number: 1
+    tags:
+      - Algebra
+    question: |
+      Let $K$ be a field of characteristic zero and $L$ a Galois extension
+      of $K$. Let $f$ be an irreducible polynomial in $K[x]$ of degree 7 and
+      suppose $f$ has no zeroes in $L$. Show that $f$ is irreducible
+      in $L[x]$.
+
+
+  - year: 2007
+    number: 2
+    tags:
+      - Algebra
+    question: |
+      Let $K$ be a field of characteristic zero and $f\in K[x]$ an
+      irreducible polynomial of degree $n$. Let $L$ be a splitting field for
+      $f$. Let $G$ be the group of automorphisms of $L$ which act trivially
+      on $K$.
+      \begin{enumerate}[(a)]
+        \item Show that $G$ embeds in the symmetric group $S_n$.
+        \item For each $n$, give an example of a field $K$ and polynomial
+          $f$ such that $G=S_n$.
+        \item What are the possible groups $G$ when $n=3$. Justify
+          your answer.
+      \end{enumerate}
+
+
+  - year: 2007
+    number: 3
+    tags:
+      - Algebra
+    question: |
+      Show there are exactly two groups of order 21 up to isomorphism.
+
+
+  - year: 2007
     number: 6
     tags:
       - Algebra
     question: |
 
 
-  - year: 2008
+  - year: 2007
     number: 6
     tags:
       - Algebra
     question: |
 
 
-  - year: 2008
+  - year: 2007
     number: 6
     tags:
       - Algebra
     question: |
 
 
-  - year: 2008
+  - year: 2007
     number: 6
     tags:
       - Algebra
     question: |
 
 
-  - year: 2008
+  - year: 2007
     number: 6
     tags:
       - Algebra
     question: |
 
 
-  - year: 2008
+  - year: 2007
     number: 6
     tags:
       - Algebra
     question: |
 
 
-  - year: 2008
+  - year: 2007
     number: 6
     tags:
       - Algebra
     question: |
 
 
-  - year: 2008
+  - year: 2007
     number: 6
     tags:
       - Algebra
     question: |
 
 
-  - year: 2008
+  - year: 2007
     number: 6
     tags:
       - Algebra
     question: |
 
 
-  - year: 2008
+  - year: 2007
     number: 6
     tags:
       - Algebra
     question: |
 
 
-  - year: 2008
+  - year: 2007
     number: 6
     tags:
       - Algebra
     question: |
 
 
-  - year: 2008
+  - year: 2007
     number: 6
     tags:
       - Algebra
     question: |
 
 
-  - year: 2008
+  - year: 2007
     number: 6
     tags:
       - Algebra
     question: |
 
 
-  - year: 2008
+  - year: 2007
     number: 6
     tags:
       - Algebra
     question: |
 
 
-  - year: 2008
+  - year: 2007
     number: 6
     tags:
       - Algebra
     question: |
 
 
-  - year: 2008
-    number: 6
-    tags:
-      - Algebra
-    question: |
-
-
-  - year: 2008
-    number: 6
-    tags:
-      - Algebra
-    question: |
-
-
-  - year: 2008
-    number: 6
-    tags:
-      - Algebra
-    question: |
-
-
-  - year: 2008
-    number: 6
-    tags:
-      - Algebra
-    question: |
-
-
-  - year: 2008
-    number: 6
-    tags:
-      - Algebra
-    question: |
-
-
-  - year: 2008
+  - year: 2007
     number: 6
     tags:
       - Algebra
