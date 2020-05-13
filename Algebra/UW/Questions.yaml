@@ -257,6 +257,229 @@ Problems:
     tags:
       - Algebra
     question: |
-      test
+      \begin{enumerate}[(a)]
+        \item Let $G$ be a group (not necessarily finite) that contains
+          a subgroup of index $n$. Show that $G$ contains a
+          \textit{normal} subgroup $N$ such that $n\leq[G:N]\leq n!$
+        \item Use part (a) to show that there is no simple group
+          of order 36.
+      \end{enumerate}
+  
+  - year: 2014
+    number: 2
+    tags:
+      - Algebra
+    question: |
+      Let $p$ be a prime, let $\mathbb F_p$ be the $p$-element field,
+      and let $K=\mathbb F_p(t)$ be the field of rational functions in
+      $t$ with coefficients in $\mathbb F_p$. Consider the polynomial $f(x)=
+      x^p-t\in K[x]$.
+      \begin{enumerate}[(a)]
+        \item Show that $f$ does not have a root in $K$.
+        \item Let $E$ be the splitting field of $f$ over $K$.
+          Find the factorization of $f$ over $E$.
+        \item Conclude that $f$ is irreducible over $K$.
+      \end{enumerate}
+    
+  - year: 2014
+    number: 3
+    tags:
+      - Algebra
+    question: |
+      Recall that a ring $A$ is called \textit{graded} if it admits a direct
+      sum decomposition $A=\oplus_{n=0}^{\infty}A_n$ as abelian groups, with the
+      property that $A_iA_j\subseteq A_{i+j}$ for all $i,j\geq 0$.
+      Prove that a graded commutative ring $A=\oplus_{n=0}^{\infty} A_n$
+      is Noetherian if and only if $A_0$ is Noetherian and $A$ is finitely
+      generated as an algebra over $A_0$.
+
+
+  - year: 2014
+    number: 4
+    tags:
+      - Algebra
+    question: |
+      Let $R$ be a ring with the property that $a^2=a$ for all $a\in R$.
+      \begin{enumerate}[(a)]
+        \item Compute the Jacobson radical of $R$.
+        \item What is the characteristic of $R$?
+        \item Prove that $R$ is commutative.
+        \item Prove that if $R$ is finite, then $R$ is isomorphic
+          (as a ring) to $(\mathbb Z/2\mathbb Z)^d$ for some $d$.
+      \end{enumerate}
+
+
+  - year: 2014
+    number: 6
+    tags:
+      - Algebra
+    question: |
+      Let $\overline{\mathbb F_p}$ denote the algebraic closure of $\mathbb F_p$. Show that
+      the Galois group $\Gal(\overline{\mathbb F_p}/\mathbb F_p)$
+      has no non-trivial finite subgroups.
+
+
+  - year: 2014
+    number: 7
+    tags:
+      - Algebra
+    question: |
+      Let $C_p$ denote the cyclic group of order $p$.
+      \begin{enumerate}[(a)]
+        \item Show that $C_p$ has two irreducible representations over
+          $\mathbb Q$ (up to isomorphism), one of dimension 1
+          and one of dimension $p-1$.
+        \item Let $G$ be a finite group, and let $\rho:G\rightarrow
+          \GL_n(\mathbb Q)$ be a representation of $G$ over $\mathbb Q$.
+          Let $\rho_{\mathbb C}:G\rightarrow\GL_n(\mathbb C)$ denote
+          $\rho$ followed by the inclusion $\GL_n(\mathbb Q)\rightarrow
+          \GL_n(\mathbb C)$. Thus $\rho_{\mathbb C}$ is a representation
+          of $G$ over $\mathbb C$, called the \textit{complexification}
+          of $\rho$. We say that an irreducible representation $\rho$
+          of $G$ is \textit{absolutely irreducible} if its
+          complexification remains irreducible over $\mathbb C$.\\
+          Now suppose $G$ is abelian and that every representation
+          of $G$ over $\mathbb Q$ is absolutely irreducible. Show that
+          $G\cong(C_2)^k$ for some $k$ (i.e., is a product of
+          cyclic groups of order 2).
+      \end{enumerate}
+
+
+  - year: 2014
+    number: 8
+    tags:
+      - Algebra
+    question: |
+      Let $G$ be a finite group and $\mathbb Z[G]$ the internal group algebra.
+      Let $\mathcal Z$ be the center of $\mathbb Z[G]$. For each conjugacy class
+      $C\subseteq G$, let $P_C=\sum_{g\in C}g$.
+      \begin{enumerate}[(a)]
+        \item Show that the elements $P_C$ form a $\mathbb Z$-basis for
+          $\mathcal Z$. Hence $\mathcal Z\cong\mathbb Z^d$ as an
+          abelian group, where $d$ is the number of
+          conjugacy classes in $G$.
+        \item Show that if a ring $R$ is isomorphic to $\mathbb Z^d$ as
+          an abelian group, then every element in $R$ satisfies
+          a monic integral polynomial.
+          (\textbf{Hint:} Let $\{v_1,\dots,v_d\}$ be a basis of
+          $R$ and for a fixed non-zero $r\in R$, write $rv_i=\sum_j
+          a_{ij}v_j$. Use the Hamilton-Cayley theorem.)
+        \item Let $\pi:G\rightarrow\GL(V)$ be an irreducible representation
+          of $G$ (over $\mathbb C$). Show that $\pi(P_C)$ acts on $V$
+          as multiplication by the scalar
+          $$
+          \frac{|C|\chi_{\pi}(C)}{\dim V},
+          $$
+          where $\chi_{\pi}(C)$ is the value of the character
+          $\chi_{\pi}$ on any element of $C$.
+        \item Conclude that $|C|\chi_{\pi}(C)/\dim V$ is an algebraic
+          integer.
+      \end{enumerate}
+
+
+  - year: 2014
+    number: 1
+    tags:
+      - Algebra
+    question: |
+
+
+  - year: 2014
+    number: 1
+    tags:
+      - Algebra
+    question: |
+
+
+  - year: 2014
+    number: 1
+    tags:
+      - Algebra
+    question: |
+
+
+  - year: 2014
+    number: 1
+    tags:
+      - Algebra
+    question: |
+
+
+  - year: 2014
+    number: 1
+    tags:
+      - Algebra
+    question: |
+
+
+  - year: 2014
+    number: 1
+    tags:
+      - Algebra
+    question: |
+
+
+  - year: 2014
+    number: 1
+    tags:
+      - Algebra
+    question: |
+
+
+  - year: 2014
+    number: 1
+    tags:
+      - Algebra
+    question: |
+
+
+  - year: 2014
+    number: 1
+    tags:
+      - Algebra
+    question: |
+
+
+  - year: 2014
+    number: 1
+    tags:
+      - Algebra
+    question: |
+
+
+  - year: 2014
+    number: 1
+    tags:
+      - Algebra
+    question: |
+
+
+  - year: 2014
+    number: 1
+    tags:
+      - Algebra
+    question: |
+
+
+  - year: 2014
+    number: 1
+    tags:
+      - Algebra
+    question: |
+
+
+  - year: 2014
+    number: 1
+    tags:
+      - Algebra
+    question: |
+
+
+  - year: 2014
+    number: 1
+    tags:
+      - Algebra
+    question: |
+
 
 ...
