@@ -294,7 +294,7 @@
     "tags": [
       "Algebra"
     ],
-    "question": "Recall that an inner automorphism of a group is an automorphism given by conjugation by an element of the group. An outer automorphism is an automorphism that is not inner.\n\\begin{enumerate}[(a)]\n  \\item Prove that $S_5$ has a subgroup of order 20.\n  \\item Use the subgroup from (a) to construct a degree 6 permutation representation of $S_5$ (i.e., an embedding $S_5 \\hookrightarrow S_6$ as a transitive permutation group on 6 letters).\n  \\item Conclude that $S_6$ has an outer automorphism.\n\\end{enumerate}\n"
+    "question": "Recall that an inner automorphism of a group is an automorphism given by conjugation by an element of the group. An outer automorphism is an automorphism that is not inner.\n\n- Prove that $S_5$ has a subgroup of order 20.\n- Use the subgroup from (a) to construct a degree 6 permutation representation of $S_5$ (i.e., an embedding $S_5 \\hookrightarrow S_6$ as a transitive permutation group on 6 letters).\n- Conclude that $S_6$ has an outer automorphism.\n"
   },
   {
     "year": 2016,
@@ -303,7 +303,7 @@
     "tags": [
       "Algebra"
     ],
-    "question": "Let $A$ be a commutative ring and $M$ a finitely generated $A$-module. Define\n\\[ \\Ann(M) = \\{a \\in A: am = 0 \\text{ for all } m \\in M\\}.\\]\nShow that for a prime ideal $\\mathfrak p \\subset A$, the following are equivalent:\n\\begin{enumerate}[(a)]\n    \\item $\\Ann(M) \\not\\subset \\mathfrak p$\n    \\item The localization of $M$ at the prime ideal $\\mathfrak p$ is $0$.\n    \\item $M \\otimes_A k(\\mathfrak p) = 0$, where $k(\\mathfrak p) = A_{\\mathfrak p}/\\mathfrak p A_{\\mathfrak p}$ is the residue field of $A$ at $\\mathfrak p$.\n\\end{enumerate}\n"
+    "question": "Let $A$ be a commutative ring and $M$ a finitely generated $A$-module. Define\n\\[ \\Ann(M) = \\{a \\in A: am = 0 \\text{ for all } m \\in M\\}.\\]\nShow that for a prime ideal $\\mathfrak p \\subset A$, the following are equivalent:\n    - $\\Ann(M) \\not\\subset \\mathfrak p$\n    - The localization of $M$ at the prime ideal $\\mathfrak p$ is $0$.\n    - $M \\otimes_A k(\\mathfrak p) = 0$, where $k(\\mathfrak p) = A_{\\mathfrak p}/\\mathfrak p A_{\\mathfrak p}$ is the residue field of $A$ at $\\mathfrak p$.\n"
   },
   {
     "year": 2016,
@@ -312,7 +312,7 @@
     "tags": [
       "Algebra"
     ],
-    "question": "Let $A = \\C[x,y]/(y^2-(x-1)^3 - (x-1)^2)$.\n\\begin{enumerate}[(a)]\n  \\item Show that $A$ is an integral domain and sketch the $\\R$-points of $\\text{Spec} A$.\n  \\item Find the integral closure of $A$. Recall that for an integral domain $A$ with fraction field $K$, the integral closure of $A$ in $K$ is the set of all elements of $K$ integral over $A$.\n\\end{enumerate}\n"
+    "question": "Let $A = \\C[x,y]/(y^2-(x-1)^3 - (x-1)^2)$.\n\n- Show that $A$ is an integral domain and sketch the $\\R$-points of $\\text{Spec} A$.\n- Find the integral closure of $A$. Recall that for an integral domain $A$ with fraction field $K$, the integral closure of $A$ in $K$ is the set of all elements of $K$ integral over $A$.\n"
   },
   {
     "year": 2016,
@@ -321,7 +321,7 @@
     "tags": [
       "Algebra"
     ],
-    "question": "Let $R = k[x,y]$ where $k$ is a field, and let $I=(x,y)R$.\n\\begin{enumerate}\n    \\item Show that\n    \\[\n    \\begin{tikzcd}\n    0 \\ar[r] & R \\arrow[r,\"\\phi\"] & R \\oplus R \\arrow[r,\"\\psi\"] & R \\arrow[r] & k \\arrow[r] & 0\n    \\end{tikzcd}\n    \\]\n    where $\\phi(a) = (-ya,xa)$, $\\psi((a,b)) = xa+yb$ for $a,b \\in R$, is a projective resolution of the $R$-module $k \\simeq R/I$.\n    \\item Show that $I$ is not a flat $R$-module by computing $\\Tor_i^R(I,k)$\n\\end{enumerate}\n"
+    "question": "Let $R = k[x,y]$ where $k$ is a field, and let $I=(x,y)R$.\n    - Show that\n    \\[\n    \\begin{tikzcd}\n    0 \\ar[r] & R \\arrow[r,\"\\phi\"] & R \\oplus R \\arrow[r,\"\\psi\"] & R \\arrow[r] & k \\arrow[r] & 0\n    \\end{tikzcd}\n    \\]\n    where $\\phi(a) = (-ya,xa)$, $\\psi((a,b)) = xa+yb$ for $a,b \\in R$, is a projective resolution of the $R$-module $k \\simeq R/I$.\n    - Show that $I$ is not a flat $R$-module by computing $\\Tor_i^R(I,k)$\n"
   },
   {
     "year": 2015,
@@ -330,7 +330,7 @@
     "tags": [
       "Algebra"
     ],
-    "question": "\\begin{enumerate}[(a)]\n  \\item Find an irreducible polynomial of degree 5 over the\n    field $\\mathbb Z/2$ of two elements and use it to construct\n    a field of order 32 as a quotient of the\n    polynomial ring $\\mathbb Z/2[x]$.\n  \\item Using the polynomial found in part (a), find a $5\\times5$\n    matrix $M$ over $\\mathbb Z/2$ of order 31, so that $M^{31}=I$\n    but $M\\neq I$.\n\\end{enumerate}\n"
+    "question": "\n- Find an irreducible polynomial of degree 5 over the\n  field $\\mathbb Z/2$ of two elements and use it to construct\n  a field of order 32 as a quotient of the\n  polynomial ring $\\mathbb Z/2[x]$.\n- Using the polynomial found in part (a), find a $5\\times5$\n  matrix $M$ over $\\mathbb Z/2$ of order 31, so that $M^{31}=I$\n  but $M\\neq I$.\n"
   },
   {
     "year": 2015,
@@ -348,7 +348,7 @@
     "tags": [
       "Algebra"
     ],
-    "question": "\\begin{enumerate}[(a)]\n  \\item Let $R$ be a commutative ring with no nonzero nilpotent\n    elements. Show that the only units in the polynomial ring\n    $R[x]$ are the units of $R$, regarded as constant polynomials.\n  \\item Find all units in the polynomial ring $\\mathbb Z_4[x]$.\n\\end{enumerate}\n"
+    "question": "\\hfill   \n - Let $R$ be a commutative ring with no nonzero nilpotent\n   elements. Show that the only units in the polynomial ring\n   $R[x]$ are the units of $R$, regarded as constant polynomials.\n - Find all units in the polynomial ring $\\mathbb Z_4[x]$.\n"
   },
   {
     "year": 2015,
@@ -366,7 +366,7 @@
     "tags": [
       "Algebra"
     ],
-    "question": "\\begin{enumerate}[(a)]\n  \\item Let $L$ be a Galois extension of a field $K$ of degree 4.\n    What is the minimum number of subfields there could\n    be strictly between $K$ and $L$? What is the maximum\n    number of such subfields? Give examples where these\n    bounds are attained.\n  \\item How do these numbers change if we assume only that $L$\n    is separable (but not necessarily Galois) over $K$?\n\\end{enumerate}\n"
+    "question": "\n- Let $L$ be a Galois extension of a field $K$ of degree 4.\n  What is the minimum number of subfields there could\n  be strictly between $K$ and $L$? What is the maximum\n  number of such subfields? Give examples where these\n  bounds are attained.\n- How do these numbers change if we assume only that $L$\n  is separable (but not necessarily Galois) over $K$?\n"
   },
   {
     "year": 2015,
@@ -375,7 +375,7 @@
     "tags": [
       "Algebra"
     ],
-    "question": "Let $R$ be a commutative algebra over $\\mathbb C$. A derivation of $R$ is a\n$\\mathbb C$-linear map $D:R\\rightarrow R$ such that (i) $D(1)=0$ and\n(ii) $D(ab)=D(a)b+aD(b)$ for all $a,b\\in R$.\n\\begin{enumerate}[(a)]\n  \\item Describe all derivations of the polynomial ring $\\mathbb C[x]$.\n  \\item Let $A$ be the subring (or $\\mathbb C$-subalgebra) of\n    $\\End_{\\mathbb C}(\\mathbb C[x])$ generated by all derivations\n    of $\\mathbb C[x]$ and the left multiplications by $x$.\n    Prove that $\\mathbb C[x]$ is a simple left $A$-module.\n    Note that the inclusion $A\\rightarrow\\End_{\\mathbb C}(\\mathbb C[x])$\n    defines a natural left $A$-module structure on $\\mathbb C[x]$.\n\\end{enumerate}\n"
+    "question": "Let $R$ be a commutative algebra over $\\mathbb C$. A derivation of $R$ is a\n$\\mathbb C$-linear map $D:R\\rightarrow R$ such that (i) $D(1)=0$ and\n(ii) $D(ab)=D(a)b+aD(b)$ for all $a,b\\in R$.\n\n- Describe all derivations of the polynomial ring $\\mathbb C[x]$.\n\n- Let $A$ be the subring (or $\\mathbb C$-subalgebra) of\n  $\\End_{\\mathbb C}(\\mathbb C[x])$ generated by all derivations\n  of $\\mathbb C[x]$ and the left multiplications by $x$.\n  Prove that $\\mathbb C[x]$ is a simple left $A$-module.\n  Note that the inclusion $A\\rightarrow\\End_{\\mathbb C}(\\mathbb C[x])$\n  defines a natural left $A$-module structure on $\\mathbb C[x]$.\n"
   },
   {
     "year": 2015,
@@ -384,7 +384,7 @@
     "tags": [
       "Algebra"
     ],
-    "question": "Let $G$ be a non-abelian group of order $p^3$ with $p$ a prime.\n\\begin{enumerate}[(a)]\n  \\item Determine the order of the center $Z$ of $G$.\n  \\item Determine the number of inequivalent complex\n    1-dimensional representations of $G$.\n  \\item Compute the dimensions of all the inequivalent irreducible\n    representations of $G$ and verify that the number of such\n    representations equals the number of conjugacy classes of\n    $G$.\n\\end{enumerate}\n"
+    "question": "Let $G$ be a non-abelian group of order $p^3$ with $p$ a prime.\n\n- Determine the order of the center $Z$ of $G$.\n\n- Determine the number of inequivalent complex\n  1-dimensional representations of $G$.\n\n- Compute the dimensions of all the inequivalent irreducible\n  representations of $G$ and verify that the number of such\n  representations equals the number of conjugacy classes of\n  $G$.\n"
   },
   {
     "year": 2014,
@@ -393,7 +393,7 @@
     "tags": [
       "Algebra"
     ],
-    "question": "\\begin{enumerate}[(a)]\n  \\item Let $G$ be a group (not necessarily finite) that contains\n    a subgroup of index $n$. Show that $G$ contains a\n    \\textit{normal} subgroup $N$ such that $n\\leq[G:N]\\leq n!$\n  \\item Use part (a) to show that there is no simple group\n    of order 36.\n\\end{enumerate}\n"
+    "question": "\n- Let $G$ be a group (not necessarily finite) that contains\n  a subgroup of index $n$. Show that $G$ contains a\n  \\textit{normal} subgroup $N$ such that $n\\leq[G:N]\\leq n!$\n\n- Use part (a) to show that there is no simple group\n  of order 36.\n"
   },
   {
     "year": 2014,
@@ -402,7 +402,7 @@
     "tags": [
       "Algebra"
     ],
-    "question": "Let $p$ be a prime, let $\\mathbb F_p$ be the $p$-element field,\nand let $K=\\mathbb F_p(t)$ be the field of rational functions in\n$t$ with coefficients in $\\mathbb F_p$. Consider the polynomial $f(x)=\nx^p-t\\in K[x]$.\n\\begin{enumerate}[(a)]\n  \\item Show that $f$ does not have a root in $K$.\n  \\item Let $E$ be the splitting field of $f$ over $K$.\n    Find the factorization of $f$ over $E$.\n  \\item Conclude that $f$ is irreducible over $K$.\n\\end{enumerate}\n"
+    "question": "Let $p$ be a prime, let $\\mathbb F_p$ be the $p$-element field,\nand let $K=\\mathbb F_p(t)$ be the field of rational functions in\n$t$ with coefficients in $\\mathbb F_p$. Consider the polynomial $f(x)=\nx^p-t\\in K[x]$.\n\n- Show that $f$ does not have a root in $K$.\n\n- Let $E$ be the splitting field of $f$ over $K$.\n  Find the factorization of $f$ over $E$.\n\n- Conclude that $f$ is irreducible over $K$.\n"
   },
   {
     "year": 2014,
@@ -420,7 +420,7 @@
     "tags": [
       "Algebra"
     ],
-    "question": "Let $R$ be a ring with the property that $a^2=a$ for all $a\\in R$.\n\\begin{enumerate}[(a)]\n  \\item Compute the Jacobson radical of $R$.\n  \\item What is the characteristic of $R$?\n  \\item Prove that $R$ is commutative.\n  \\item Prove that if $R$ is finite, then $R$ is isomorphic\n    (as a ring) to $(\\mathbb Z/2\\mathbb Z)^d$ for some $d$.\n\\end{enumerate}\n"
+    "question": "Let $R$ be a ring with the property that $a^2=a$ for all $a\\in R$.\n\n- Compute the Jacobson radical of $R$.\n\n- What is the characteristic of $R$?\n\n- Prove that $R$ is commutative.\n\n- Prove that if $R$ is finite, then $R$ is isomorphic\n  (as a ring) to $(\\mathbb Z/2\\mathbb Z)^d$ for some $d$.\n"
   },
   {
     "year": 2014,
@@ -438,7 +438,7 @@
     "tags": [
       "Algebra"
     ],
-    "question": "Let $C_p$ denote the cyclic group of order $p$.\n\\begin{enumerate}[(a)]\n  \\item Show that $C_p$ has two irreducible representations over\n    $\\mathbb Q$ (up to isomorphism), one of dimension 1\n    and one of dimension $p-1$.\n  \\item Let $G$ be a finite group, and let $\\rho:G\\rightarrow\n    \\GL_n(\\mathbb Q)$ be a representation of $G$ over $\\mathbb Q$.\n    Let $\\rho_{\\mathbb C}:G\\rightarrow\\GL_n(\\mathbb C)$ denote\n    $\\rho$ followed by the inclusion $\\GL_n(\\mathbb Q)\\rightarrow\n    \\GL_n(\\mathbb C)$. Thus $\\rho_{\\mathbb C}$ is a representation\n    of $G$ over $\\mathbb C$, called the \\textit{complexification}\n    of $\\rho$. We say that an irreducible representation $\\rho$\n    of $G$ is \\textit{absolutely irreducible} if its\n    complexification remains irreducible over $\\mathbb C$.\\\\\n    Now suppose $G$ is abelian and that every representation\n    of $G$ over $\\mathbb Q$ is absolutely irreducible. Show that\n    $G\\cong(C_2)^k$ for some $k$ (i.e., is a product of\n    cyclic groups of order 2).\n\\end{enumerate}\n"
+    "question": "Let $C_p$ denote the cyclic group of order $p$.\n\n- Show that $C_p$ has two irreducible representations over\n  $\\mathbb Q$ (up to isomorphism), one of dimension 1\n  and one of dimension $p-1$.\n\n- Let $G$ be a finite group, and let $\\rho:G\\rightarrow\n  \\GL_n(\\mathbb Q)$ be a representation of $G$ over $\\mathbb Q$.\n  Let $\\rho_{\\mathbb C}:G\\rightarrow\\GL_n(\\mathbb C)$ denote\n  $\\rho$ followed by the inclusion $\\GL_n(\\mathbb Q)\\rightarrow\n  \\GL_n(\\mathbb C)$. Thus $\\rho_{\\mathbb C}$ is a representation\n  of $G$ over $\\mathbb C$, called the \\textit{complexification}\n  of $\\rho$. We say that an irreducible representation $\\rho$\n  of $G$ is \\textit{absolutely irreducible} if its\n  complexification remains irreducible over $\\mathbb C$.\\\\\n  Now suppose $G$ is abelian and that every representation\n  of $G$ over $\\mathbb Q$ is absolutely irreducible. Show that\n  $G\\cong(C_2)^k$ for some $k$ (i.e., is a product of\n  cyclic groups of order 2).\n"
   },
   {
     "year": 2014,
@@ -447,7 +447,7 @@
     "tags": [
       "Algebra"
     ],
-    "question": "Let $G$ be a finite group and $\\mathbb Z[G]$ the internal group algebra.\nLet $\\mathcal Z$ be the center of $\\mathbb Z[G]$. For each conjugacy class\n$C\\subseteq G$, let $P_C=\\sum_{g\\in C}g$.\n\\begin{enumerate}[(a)]\n  \\item Show that the elements $P_C$ form a $\\mathbb Z$-basis for\n    $\\mathcal Z$. Hence $\\mathcal Z\\cong\\mathbb Z^d$ as an\n    abelian group, where $d$ is the number of\n    conjugacy classes in $G$.\n  \\item Show that if a ring $R$ is isomorphic to $\\mathbb Z^d$ as\n    an abelian group, then every element in $R$ satisfies\n    a monic integral polynomial.\n    (\\textbf{Hint:} Let $\\{v_1,\\dots,v_d\\}$ be a basis of\n    $R$ and for a fixed non-zero $r\\in R$, write $rv_i=\\sum_j\n    a_{ij}v_j$. Use the Hamilton-Cayley theorem.)\n  \\item Let $\\pi:G\\rightarrow\\GL(V)$ be an irreducible representation\n    of $G$ (over $\\mathbb C$). Show that $\\pi(P_C)$ acts on $V$\n    as multiplication by the scalar\n    $$\n    \\frac{|C|\\chi_{\\pi}(C)}{\\dim V},\n    $$\n    where $\\chi_{\\pi}(C)$ is the value of the character\n    $\\chi_{\\pi}$ on any element of $C$.\n  \\item Conclude that $|C|\\chi_{\\pi}(C)/\\dim V$ is an algebraic\n    integer.\n\\end{enumerate}\n"
+    "question": "Let $G$ be a finite group and $\\mathbb Z[G]$ the internal group algebra.\nLet $\\mathcal Z$ be the center of $\\mathbb Z[G]$. For each conjugacy class\n$C\\subseteq G$, let $P_C=\\sum_{g\\in C}g$.\n\n- Show that the elements $P_C$ form a $\\mathbb Z$-basis for\n  $\\mathcal Z$. Hence $\\mathcal Z\\cong\\mathbb Z^d$ as an\n  abelian group, where $d$ is the number of\n  conjugacy classes in $G$.\n\n- Show that if a ring $R$ is isomorphic to $\\mathbb Z^d$ as\n  an abelian group, then every element in $R$ satisfies\n  a monic integral polynomial.\n  (\\textbf{Hint:} Let $\\{v_1,\\dots,v_d\\}$ be a basis of\n  $R$ and for a fixed non-zero $r\\in R$, write $rv_i=\\sum_j\n  a_{ij}v_j$. Use the Hamilton-Cayley theorem.)\n\n- Let $\\pi:G\\rightarrow\\GL(V)$ be an irreducible representation\n  of $G$ (over $\\mathbb C$). Show that $\\pi(P_C)$ acts on $V$\n  as multiplication by the scalar\n  $$\n  \\frac{|C|\\chi_{\\pi}(C)}{\\dim V},\n  $$\n  where $\\chi_{\\pi}(C)$ is the value of the character\n  $\\chi_{\\pi}$ on any element of $C$.\n\n- Conclude that $|C|\\chi_{\\pi}(C)/\\dim V$ is an algebraic\n  integer.\n"
   },
   {
     "year": 2013,
@@ -456,7 +456,7 @@
     "tags": [
       "Algebra"
     ],
-    "question": "\\begin{enumerate}[(a)]\n  \\item Suppose that $G$ is a finitely generated group. Let $n$\n    be a positive integer. Prove that $G$ has only finitely\n    many subgroups of index $n$\n  \\item Let $p$ be a prime number. If $G$ is any finitely-generated\n    abelian group, let $t_p(G)$ denote the number of\n    subgroups of $G$ of index $p$. Determine the possible\n    values of $t_p(G)$ as $G$ varies over all\n    finitely-generated abelian groups.\n\\end{enumerate}\n"
+    "question": "\n- Suppose that $G$ is a finitely generated group. Let $n$\n  be a positive integer. Prove that $G$ has only finitely\n  many subgroups of index $n$\n\n- Let $p$ be a prime number. If $G$ is any finitely-generated\n  abelian group, let $t_p(G)$ denote the number of\n  subgroups of $G$ of index $p$. Determine the possible\n  values of $t_p(G)$ as $G$ varies over all\n  finitely-generated abelian groups.\n"
   },
   {
     "year": 2013,
@@ -465,7 +465,7 @@
     "tags": [
       "Algebra"
     ],
-    "question": "\\begin{enumerate}[(a)]\n  \\item Suppose that $G$ is a finitely generated group. Let $n$\n    be a positive integer. Prove that $G$ has only finitely\n    many subgroups of index $n$\n  \\item Let $p$ be a prime number. If $G$ is any finitely-generated\n    abelian group, let $t_p(G)$ denote the number of\n    subgroups of $G$ of index $p$. Determine the possible\n    values of $t_p(G)$ as $G$ varies over all\n    finitely-generated abelian groups.\n\\end{enumerate}\n"
+    "question": "\n- Suppose that $G$ is a finitely generated group. Let $n$\n  be a positive integer. Prove that $G$ has only finitely\n  many subgroups of index $n$\n\n- Let $p$ be a prime number. If $G$ is any finitely-generated\n  abelian group, let $t_p(G)$ denote the number of\n  subgroups of $G$ of index $p$. Determine the possible\n  values of $t_p(G)$ as $G$ varies over all\n  finitely-generated abelian groups.\n"
   },
   {
     "year": 2013,
@@ -483,7 +483,7 @@
     "tags": [
       "Algebra"
     ],
-    "question": "This question concerns an extension $K$ of $\\mathbb Q$ such that\n$[K:\\mathbb Q]=8$. Assume that $K/\\mathbb Q$ is Galois and let\n$G=\\Gal(K/\\mathbb Q)$. Furthermore, assume that $G$ is non-abelian.\n\\begin{enumerate}[(a)]\n  \\item Prove that $K$ has a unique subfield $F$ such that\n    $F/\\mathbb Q$ is Galois and $[F:\\mathbb Q]=4$.\n  \\item Prove that $F$ has the form $F=\\mathbb Q(\\sqrt{d_1},\\sqrt{d_2})$\n    where $d_1,d_2$ are non-zero integers.\n  \\item Suppose that $G$ is the quaternionic group. Prove\n    that $d_1$ and $d_2$ are positive integers.\n\\end{enumerate}\n"
+    "question": "This question concerns an extension $K$ of $\\mathbb Q$ such that\n$[K:\\mathbb Q]=8$. Assume that $K/\\mathbb Q$ is Galois and let\n$G=\\Gal(K/\\mathbb Q)$. Furthermore, assume that $G$ is non-abelian.\n\n- Prove that $K$ has a unique subfield $F$ such that\n  $F/\\mathbb Q$ is Galois and $[F:\\mathbb Q]=4$.\n\n- Prove that $F$ has the form $F=\\mathbb Q(\\sqrt{d_1},\\sqrt{d_2})$\n  where $d_1,d_2$ are non-zero integers.\n\n- Suppose that $G$ is the quaternionic group. Prove\n  that $d_1$ and $d_2$ are positive integers.\n"
   },
   {
     "year": 2013,
@@ -492,7 +492,7 @@
     "tags": [
       "Algebra"
     ],
-    "question": "This question concerns the polynomial ring $R=\\mathbb Z[x,y]$ and the ideal\n$I=(5,x^2+2)$ in $R$.\n\\begin{enumerate}[(a)]\n  \\item Prove that $I$ is a prime ideal of $R$ and that $R/I$ is\n    a PID.\n  \\item Give an explicit example of a maximal ideal of $R$ which\n    contains $I$. (Give a set of generators for such an ideal.)\n  \\item Show that there are infinitely many distinct maximal ideals\n    in $R$ which contain $I$.\n\\end{enumerate}\n"
+    "question": "This question concerns the polynomial ring $R=\\mathbb Z[x,y]$ and the ideal\n$I=(5,x^2+2)$ in $R$.\n\n- Prove that $I$ is a prime ideal of $R$ and that $R/I$ is\n  a PID.\n\n- Give an explicit example of a maximal ideal of $R$ which\n  contains $I$. (Give a set of generators for such an ideal.)\n\n- Show that there are infinitely many distinct maximal ideals\n  in $R$ which contain $I$.\n"
   },
   {
     "year": 2012,
@@ -510,7 +510,7 @@
     "tags": [
       "Algebra"
     ],
-    "question": "For any positive integer $n$, let $G_n$ be the group generated by\n$a$ and $b$ subject to the following three relations:\n$$\na^2=1, \\quad b^2=1, \\quad \\text{and} \\quad (ab)^n=1.\n$$\n\\begin{enumerate}[(a)]\n  \\item Find the order of the group $G_n$\n\\end{enumerate}\n"
+    "question": "For any positive integer $n$, let $G_n$ be the group generated by\n$a$ and $b$ subject to the following three relations:\n$$\na^2=1, \\quad b^2=1, \\quad \\text{and} \\quad (ab)^n=1.\n$$\n\n- Find the order of the group $G_n$\n"
   },
   {
     "year": 2012,
@@ -519,7 +519,7 @@
     "tags": [
       "Algebra"
     ],
-    "question": "Determine the Galois groups of the following polynomials over $\\mathbb Q$.\n\\begin{enumerate}[(a)]\n  \\item $f(x)=x^4+4x^2+1$\n  \\item $f(x)=x^4+4x^2-5$.\n\\end{enumerate}\n"
+    "question": "Determine the Galois groups of the following polynomials over $\\mathbb Q$.\n\n- $f(x)=x^4+4x^2+1$\n\n- $f(x)=x^4+4x^2-5$.\n"
   },
   {
     "year": 2012,
@@ -528,7 +528,7 @@
     "tags": [
       "Algebra"
     ],
-    "question": "Let $R$ be a (commutative) principal ideal domain, let $M$ and $N$ be\nfinitely generated free $R$-modules, and let $\\varphi:M\\rightarrow N$ be\nan $R$-module homomorphism.\n\\begin{enumerate}[(a)]\n  \\item Let $K$ be the kernel of $\\varphi$. Prove that\n    $K$ is a direct summand of $M$.\n  \\item Let $C$ be the image of $\\varphi$. Show by example\n    (specifying $R$, $M$, $N$, and $\\varphi$) that $C$\n    need not be a direct summand of $N$.\n\\end{enumerate}\n"
+    "question": "Let $R$ be a (commutative) principal ideal domain, let $M$ and $N$ be\nfinitely generated free $R$-modules, and let $\\varphi:M\\rightarrow N$ be\nan $R$-module homomorphism.\n\n- Let $K$ be the kernel of $\\varphi$. Prove that\n  $K$ is a direct summand of $M$.\n\n- Let $C$ be the image of $\\varphi$. Show by example\n  (specifying $R$, $M$, $N$, and $\\varphi$) that $C$\n  need not be a direct summand of $N$.\n"
   },
   {
     "year": 2011,
@@ -537,7 +537,7 @@
     "tags": [
       "Algebra"
     ],
-    "question": "In this problem, as you apply Sylow's Theorem, state precisely which portions\nyou are using.\n\\begin{enumerate}[(a)]\n  \\item Prove that there is no simple group of order 30.\n  \\item Suppose that $G$ is a simple group of order 60. Determine\n    the number of $p$-Sylow subgroups of $G$ for each prime\n    $p$ dividing 60, then prove that $G$ is isomorphic to\n    the alternating group $A_5$.\n\\end{enumerate}\nNote: in the second part, you needn't show that $A_5$ is simple.\nYou need only show that if there is a simple group of order 60, then\nit must be isomorphic to $A_5$.\n"
+    "question": "In this problem, as you apply Sylow's Theorem, state precisely which portions\nyou are using.\n\n- Prove that there is no simple group of order 30.\n\n- Suppose that $G$ is a simple group of order 60. Determine\n  the number of $p$-Sylow subgroups of $G$ for each prime\n  $p$ dividing 60, then prove that $G$ is isomorphic to\n  the alternating group $A_5$.\n\n> Note: in the second part, you needn't show that $A_5$ is simple.\nYou need only show that if there is a simple group of order 60, then\nit must be isomorphic to $A_5$.\n"
   },
   {
     "year": 2011,
@@ -555,7 +555,7 @@
     "tags": [
       "Algebra"
     ],
-    "question": "Let\n$$\nR=\\mathbb Z[x]/(x^2+x+1).\n$$\n\\begin{enumerate}[(a)]\n  \\item Answer the following questions with suitable justification.\n    \\begin{enumerate}[(i)]\n      \\item Is $R$ a Noetherian ring?\n      \\item Is $R$ an Artinian ring?\n    \\end{enumerate}\n  \\item Prove that $R$ is an integrally closed domain.\n\\end{enumerate}\n"
+    "question": "Let\n$$\nR=\\mathbb Z[x]/(x^2+x+1).\n$$\n\n- Answer the following questions with suitable justification.\n    - Is $R$ a Noetherian ring?\n    - Is $R$ an Artinian ring?\n\n- Prove that $R$ is an integrally closed domain.\n"
   },
   {
     "year": 2011,
@@ -564,7 +564,7 @@
     "tags": [
       "Algebra"
     ],
-    "question": "Let $R$ be a commutative ring. Recall that an element $r$ of $R$ is\n\\textit{nilpotent} if $r^n=0$ for some positive integer $n$ and that\nthe \\textit{nilradical} of $R$ is the set $N(R)$ of nilpotent\nelements.\n\\begin{enumerate}[(a)]\n  \\item Prove that\n    $$\n    N(R)=\\cap_{P\\text{ prime}}P.\n    $$\n    (Hint: given a non-nilpotent element $r$ of $R$, you may\n    wish to construct a prime ideal that does not\n    contain $r$ or its powers.)\n  \\item Given a positive integer $m$, determine the nilradical\n    of $\\mathbb Z/(m)$.\n  \\item Determine the nilradical of $\\mathbb C[x,y]/(y^2-x^3)$.\n  \\item Let $p(x,y)$ be a polynomial in $\\mathbb C[x,y]$ such that\n    for any complex number $a$, $p(a,a^{3/2})=0$. Prove that\n    $p(x,y)$ is divisible by $y^2-x^3$.\n\\end{enumerate}\n"
+    "question": "Let $R$ be a commutative ring. Recall that an element $r$ of $R$ is\n\\textit{nilpotent} if $r^n=0$ for some positive integer $n$ and that\nthe \\textit{nilradical} of $R$ is the set $N(R)$ of nilpotent\nelements.\n\n- Prove that\n  $$\n  N(R)=\\cap_{P\\text{ prime}}P.\n  $$\n  (Hint: given a non-nilpotent element $r$ of $R$, you may\n  wish to construct a prime ideal that does not\n  contain $r$ or its powers.)\n\n- Given a positive integer $m$, determine the nilradical\n  of $\\mathbb Z/(m)$.\n\n- Determine the nilradical of $\\mathbb C[x,y]/(y^2-x^3)$.\n\n- Let $p(x,y)$ be a polynomial in $\\mathbb C[x,y]$ such that\n  for any complex number $a$, $p(a,a^{3/2})=0$. Prove that\n  $p(x,y)$ is divisible by $y^2-x^3$.\n"
   },
   {
     "year": 2011,
@@ -573,7 +573,7 @@
     "tags": [
       "Algebra"
     ],
-    "question": "Given a finite group $G$, recall that its \\textit{regular representation}\nis the representation on the complex group algebra $\\mathbb C[G]$ induced by\nleft multiplication of $G$ on itself and its \\textit{adjoint representation}\nis the representation on the complex group algebra $\\mathbb C[G]$ induced\nby conjugation of $G$ on itself.\n\\begin{enumerate}[(a)]\n  \\item Let $G=\\GL_2(\\mathbb F_2)$. Describe the number and dimensions of\n    the irreducible representations of $G$. Then describe the\n    decomposition of its regular representation as a direct\n    sum of irreducible representations.\n  \\item Let $G$ be a group of order 12. Show that its adjoint\n    representation is reducible; that is, there is\n    an $H$-invariant subspace of $\\mathbb C[H]$ besides 0 and\n    $\\mathbb C[H]$.\n\\end{enumerate}\n"
+    "question": "Given a finite group $G$, recall that its \\textit{regular representation}\nis the representation on the complex group algebra $\\mathbb C[G]$ induced by\nleft multiplication of $G$ on itself and its \\textit{adjoint representation}\nis the representation on the complex group algebra $\\mathbb C[G]$ induced\nby conjugation of $G$ on itself.\n\n- Let $G=\\GL_2(\\mathbb F_2)$. Describe the number and dimensions of\n  the irreducible representations of $G$. Then describe the\n  decomposition of its regular representation as a direct\n  sum of irreducible representations.\n\n- Let $G$ be a group of order 12. Show that its adjoint\n  representation is reducible; that is, there is\n  an $H$-invariant subspace of $\\mathbb C[H]$ besides 0 and\n  $\\mathbb C[H]$.\n"
   },
   {
     "year": 2011,
@@ -582,7 +582,7 @@
     "tags": [
       "Algebra"
     ],
-    "question": "Let $R$ be a commutative integral domain. Show that the following\nare equivalent:\n\\begin{enumerate}[(a)]\n  \\item $R$ is a field;\n  \\item $R$ is a semi-simple ring;\n  \\item Any $R$-module is projective.\n\\end{enumerate}\n"
+    "question": "Let $R$ be a commutative integral domain. Show that the following\nare equivalent:\n\n- $R$ is a field;\n\n- $R$ is a semi-simple ring;\n\n- Any $R$-module is projective.\n"
   },
   {
     "year": 2010,
@@ -591,7 +591,7 @@
     "tags": [
       "Algebra"
     ],
-    "question": "Let $p$ be a positive prime number, $\\mathbb F_p$ the field with $p$ elements,\nand let $G=\\text{GL}_2(\\mathbb F_p)$.\n\\begin{enumerate}[(a)]\n  \\item Compute the order of $G$, $|G|$.\n  \\item Write down an explicit isomorphism from $\\mathbb Z/p\\mathbb Z$ to\n    $$\n    U=\\left\\{\n    \\begin{pmatrix}\n      1 & a\\\\\n      0 & 1\n    \\end{pmatrix}\n    \\bigg|a\\in\\mathbb F_p\\right\\}.\n    $$\n  \\item How many subgroups of order $p$ does $G$ have? Hint:\n    compute $gug\\inv$ for $g\\in G$ and $u\\in U$; use this\n    to find the size of the normalizer of $U$ in $G$.\n\\end{enumerate}\n"
+    "question": "Let $p$ be a positive prime number, $\\mathbb F_p$ the field with $p$ elements,\nand let $G=\\text{GL}_2(\\mathbb F_p)$.\n\n- Compute the order of $G$, $|G|$.\n\n- Write down an explicit isomorphism from $\\mathbb Z/p\\mathbb Z$ to\n  $$\n  U=\\left\\{\n  \\begin{pmatrix}\n    1 & a\\\\\n    0 & 1\n  \\end{pmatrix}\n  \\bigg|a\\in\\mathbb F_p\\right\\}.\n  $$\n\n- How many subgroups of order $p$ does $G$ have? Hint:\n  compute $gug\\inv$ for $g\\in G$ and $u\\in U$; use this\n  to find the size of the normalizer of $U$ in $G$.\n"
   },
   {
     "year": 2010,
@@ -600,7 +600,7 @@
     "tags": [
       "Algebra"
     ],
-    "question": "\\begin{enumerate}[(a)]\n  \\item Give definitions of the following terms:\n    (i) a finite length (left) module, (ii) a\n    composition series for a module, and (iii) the length\n    of a module,\n  \\item Let $l(M)$ denote the length of a module $M$. Prove that if\n    $$\n    0\\rightarrow M_1\\rightarrow M_2\\rightarrow\\dots\\rightarrow\n    M_n\\rightarrow 0\n    $$\n    is an exact sequence of modules of finite length, then\n    $$\n    \\sum_{i=1}^n(-1)^kl(M_i)=0.\n    $$\n\\end{enumerate}\n"
+    "question": "\n- Give definitions of the following terms:\n  (i) a finite length (left) module, (ii) a\n  composition series for a module, and (iii) the length\n  of a module,\n\n- Let $l(M)$ denote the length of a module $M$. Prove that if\n  $$\n  0\\rightarrow M_1\\rightarrow M_2\\rightarrow\\dots\\rightarrow\n  M_n\\rightarrow 0\n  $$\n  is an exact sequence of modules of finite length, then\n  $$\n  \\sum_{i=1}^n(-1)^kl(M_i)=0.\n  $$\n"
   },
   {
     "year": 2010,
@@ -609,7 +609,7 @@
     "tags": [
       "Algebra"
     ],
-    "question": "Let $\\mathbb F$ be a field of characteristic $p$, and $G$ a group of\norder $p^n$. Let $R=\\mathbb F[G]$ be the group ring (group algebra)\nof $G$ over $\\mathbb F$, and let $u:=\\sum_{x\\in G}x$ (so $u$ is an element of\n$R$).\n\\begin{enumerate}[(a)]\n  \\item Prove that $u$ lies in the center of $R$.\n  \\item Verify that $Ru$ is a 2-sided ideal of $R$.\n  \\item Show there exists a positive integer $k$ such that $u^k=0$.\n    Conclude that for such a $k$, $(Ru)^k=0$.\n  \\item Show that $R$ is \\textbf{not} a semi-simple ring.\n    (\\textbf{Warning:} Please use the definition of a semi-simple\n    ring: do \\textbf{not} use the result that a finite length\n    ring fails to be semisimple if and only if it has a non-zero\n    nilpotent ideal.)\n\\end{enumerate}\n"
+    "question": "Let $\\mathbb F$ be a field of characteristic $p$, and $G$ a group of\norder $p^n$. Let $R=\\mathbb F[G]$ be the group ring (group algebra)\nof $G$ over $\\mathbb F$, and let $u:=\\sum_{x\\in G}x$ (so $u$ is an element of\n$R$).\n\n- Prove that $u$ lies in the center of $R$.\n\n- Verify that $Ru$ is a 2-sided ideal of $R$.\n\n- Show there exists a positive integer $k$ such that $u^k=0$.\n  Conclude that for such a $k$, $(Ru)^k=0$.\n\n- Show that $R$ is \\textbf{not} a semi-simple ring.\n  (\\textbf{Warning:} Please use the definition of a semi-simple\n  ring: do \\textbf{not} use the result that a finite length\n  ring fails to be semisimple if and only if it has a non-zero\n  nilpotent ideal.)\n"
   },
   {
     "year": 2010,
@@ -627,7 +627,7 @@
     "tags": [
       "Algebra"
     ],
-    "question": "Consider the ring\n$$\nS=C[0,1]=\\{f:[0,1]\\rightarrow\\mathbb R:f\\text{ is continuous}\\}\n$$\nwith the usual operations of addition and multiplication of functions.\n\\begin{enumerate}[(a)]\n  \\item What are the invertible elements of $S$?\n  \\item For $a\\in[0,1]$, define $I_a=\\{f\\in S:f(a)=0\\}$.\n    Show that $I_a$ is a maximal ideal of $S$.\n  \\item Show that the elements of any proper ideal of $S$ have a\n    common zero, i.e., if $I$ is a proper ideal of $S$, then\n    there exists $a\\in[0,1]$ such that $f(a)=0$ for all $f\\in I$.\n    Conclude that every maximal ideal of $S$ is of the form\n    $I_a$ for some $a\\in[0,1]$. \\textbf{Hint:} as $[0,1]$\n    is compact, every open cover of $[0,1]$ contains a finite\n    subcover.\n\\end{enumerate}\n"
+    "question": "Consider the ring\n$$\nS=C[0,1]=\\{f:[0,1]\\rightarrow\\mathbb R:f\\text{ is continuous}\\}\n$$\nwith the usual operations of addition and multiplication of functions.\n\n- What are the invertible elements of $S$?\n\n- For $a\\in[0,1]$, define $I_a=\\{f\\in S:f(a)=0\\}$.\n  Show that $I_a$ is a maximal ideal of $S$.\n\n- Show that the elements of any proper ideal of $S$ have a\n  common zero, i.e., if $I$ is a proper ideal of $S$, then\n  there exists $a\\in[0,1]$ such that $f(a)=0$ for all $f\\in I$.\n  Conclude that every maximal ideal of $S$ is of the form\n  $I_a$ for some $a\\in[0,1]$. \\textbf{Hint:} as $[0,1]$\n  is compact, every open cover of $[0,1]$ contains a finite\n  subcover.\n"
   },
   {
     "year": 2010,
@@ -645,7 +645,7 @@
     "tags": [
       "Algebra"
     ],
-    "question": "Let $G$ be the unique non-abelian group of order 21.\n\\begin{enumerate}[(a)]\n  \\item Describe all 1-dimensional complex representations of $G$.\n  \\item How many (non-isomorphic) irreducible complex representations\n    does $G$ have and what are their dimensions?\n  \\item Determine the character table of $G$.\n\\end{enumerate}\n"
+    "question": "Let $G$ be the unique non-abelian group of order 21.\n\n- Describe all 1-dimensional complex representations of $G$.\n\n- How many (non-isomorphic) irreducible complex representations\n  does $G$ have and what are their dimensions?\n\n- Determine the character table of $G$.\n"
   },
   {
     "year": 2009,
@@ -654,7 +654,7 @@
     "tags": [
       "Algebra"
     ],
-    "question": "\\begin{enumerate}[(a)]\n  \\item Classify all groups of order $2009=7^2\\times 41$.\n  \\item Suppose that $G$ is a group of order 2009. How many intermediate groups are\nthere—that is, how many groups H are there with $1\\subsetneq H\\subsetneq G$, where both\ninclusions are proper? (There may be several cases to consider.)\n\\end{enumerate}\n"
+    "question": "\n- Classify all groups of order $2009=7^2\\times 41$.\n\n- Suppose that $G$ is a group of order 2009. How many intermediate groups are\n  there—that is, how many groups H are there with $1\\subsetneq H\\subsetneq G$, where both\n  inclusions are proper? (There may be several cases to consider.)\n"
   },
   {
     "year": 2009,
@@ -663,7 +663,7 @@
     "tags": [
       "Algebra"
     ],
-    "question": "Let $K$ be a field. A discrete valuation on $K$ is a function $\\nu:\nK\\setminus\\{0\\}\\rightarrow\\mathbb Z$ such that\n\\begin{enumerate}[(i)]\n  \\item $\\nu(ab)=\\nu(a)+\\nu(b)$\n  \\item $\\nu$ is surjective\n  \\item $\\nu(a+b)\\geq\\text{min}\\{(\\nu(a),\\nu(b)\\}$ for\n    $a,b\\in K\\setminus\\{0\\}$ with $a+b\\neq 0$.\n\\end{enumerate}\nLet $R:=\\{x\\in K\\setminus\\{0\\}:\\nu(x)\\geq0\\}\\cup\\{0\\}$. Then\n$R$ is called the valuation ring of $\\nu$.\nProve the following:\n\\begin{enumerate}[(a)]\n  \\item $R$ is a subring of $K$ containing the 1 in $K$.\n  \\item for all $x\\in K\\setminus\\{0\\}$, either $x$ or\n    $x\\inv$ is in $R$.\n  \\item $x$ is a unit of $R$ if and only if $\\nu(x)=0$.\n  \\item Let $p$ be a prime number, $K=\\mathbb Q$,\n    and $\\nu_p:\\mathbb Q\\setminus\\{0\\}\\rightarrow\\mathbb Z$\n    be the function defined by $\\nu_p(\\frac ab)=n$ where\n    $\\frac ab=p^n\\frac cd$ and $p$ does not divide $c$ and $d$.\n    Prove that the corresponding valuation ring $R$ is the ring\n    of all rational numbers whose denominators are relatively\n    prime to $p$.\n\\end{enumerate}\n"
+    "question": "Let $K$ be a field. A discrete valuation on $K$ is a function $\\nu:\nK\\setminus\\{0\\}\\rightarrow\\mathbb Z$ such that\n\n- $\\nu(ab)=\\nu(a)+\\nu(b)$\n\n- $\\nu$ is surjective\n\n- $\\nu(a+b)\\geq\\text{min}\\{(\\nu(a),\\nu(b)\\}$ for\n  $a,b\\in K\\setminus\\{0\\}$ with $a+b\\neq 0$.\n\nLet $R:=\\{x\\in K\\setminus\\{0\\}:\\nu(x)\\geq0\\}\\cup\\{0\\}$. Then\n$R$ is called the valuation ring of $\\nu$.\n\nProve the following:\n\n- $R$ is a subring of $K$ containing the 1 in $K$.\n\n- for all $x\\in K\\setminus\\{0\\}$, either $x$ or\n  $x\\inv$ is in $R$.\n\n- $x$ is a unit of $R$ if and only if $\\nu(x)=0$.\n\n- Let $p$ be a prime number, $K=\\mathbb Q$,\n  and $\\nu_p:\\mathbb Q\\setminus\\{0\\}\\rightarrow\\mathbb Z$\n  be the function defined by $\\nu_p(\\frac ab)=n$ where\n  $\\frac ab=p^n\\frac cd$ and $p$ does not divide $c$ and $d$.\n  Prove that the corresponding valuation ring $R$ is the ring\n  of all rational numbers whose denominators are relatively\n  prime to $p$.\n"
   },
   {
     "year": 2009,
@@ -672,7 +672,7 @@
     "tags": [
       "Algebra"
     ],
-    "question": "Let $F$ be a field of characteristic not equal to 2.\n\\begin{enumerate}[(a)]\n  \\item Prove that any extension $K$ of $F$ of degree 2\n    is of the form $F(\\sqrt D)$ where $D\\in F$\n    is not a square in $F$ and, conversely, that each such\n    extension has degree 2 over $F$.\n  \\item Let $D_1,D_2\\in F$ neither of which is a square in $F$.\n    Prove that $[F(\\sqrt{D_1},\\sqrt{D_2}):F]=4$ if\n    $D_1D_2$ is not a square in $F$ and is of degree\n    2 otherwise.\n\\end{enumerate}\n"
+    "question": "Let $F$ be a field of characteristic not equal to 2.\n\n- Prove that any extension $K$ of $F$ of degree 2\n  is of the form $F(\\sqrt D)$ where $D\\in F$\n  is not a square in $F$ and, conversely, that each such\n  extension has degree 2 over $F$.\n\n- Let $D_1,D_2\\in F$ neither of which is a square in $F$.\n  Prove that $[F(\\sqrt{D_1},\\sqrt{D_2}):F]=4$ if\n  $D_1D_2$ is not a square in $F$ and is of degree\n  2 otherwise.\n"
   },
   {
     "year": 2009,
@@ -681,7 +681,7 @@
     "tags": [
       "Algebra"
     ],
-    "question": "Let $F$ be a field and $p(x)\\in F[x]$ an irreducible polynomial.\n\\begin{enumerate}[(a)]\n  \\item Prove that there exists a field extension $K$ of $F$\n    in which $p(x)$ has a root.\n  \\item Determine the dimension of $K$ as a vector space over $F$\n    and exhibit a vector space basis for $K$.\n  \\item If $\\theta\\in K$ denotes a root of $p(x)$, express\n    $\\theta\\inv$ in terms of the basis found in part (b).\n  \\item Suppose $p(x)=x^3+9x+6$. Show $p(x)$ is irreducible over\n    $\\mathbb Q$. If $\\theta$ is a root of $p(x)$, compute\n    the inverse of $(1+\\theta)$ in $\\mathbb Q(\\theta)$.\n\\end{enumerate}\n"
+    "question": "Let $F$ be a field and $p(x)\\in F[x]$ an irreducible polynomial.\n\n- Prove that there exists a field extension $K$ of $F$\n  in which $p(x)$ has a root.\n\n- Determine the dimension of $K$ as a vector space over $F$\n  and exhibit a vector space basis for $K$.\n\n- If $\\theta\\in K$ denotes a root of $p(x)$, express\n  $\\theta\\inv$ in terms of the basis found in part (b).\n\n- Suppose $p(x)=x^3+9x+6$. Show $p(x)$ is irreducible over\n  $\\mathbb Q$. If $\\theta$ is a root of $p(x)$, compute\n  the inverse of $(1+\\theta)$ in $\\mathbb Q(\\theta)$.\n"
   },
   {
     "year": 2009,
@@ -690,7 +690,7 @@
     "tags": [
       "Algebra"
     ],
-    "question": "Fix a ring $R$, an $R$-module $M$, and an $R$-module homomorphism\n$f:M\\rightarrow M$.\n\\begin{enumerate}[(a)]\n  \\item If $M$ satisfies the descending chain condition on submodules,\n    show that if $f$ is injective, then $f$ is surjective.\n    (Hint: note that if $f$ is injective, so are\n    $f\\circ f$, $f\\circ f\\circ f$, etc.)\n  \\item Give an example of a ring $R$, an $R$-module $M$,\n    and an injective $R$-module homomorphism $f:M\\rightarrow M$\n    which is not surjective.\n  \\item If $M$ satisfies the ascending chain condition on submodules,\n    show that if $f$ is surjective, then $f$ is injective.\n  \\item Give an exampe of a ring $R$, and $R$-module $M$, and\n    a surjective $R$-module homomorphism $f:M\\rightarrow M$\n    which is not injective.\n\\end{enumerate}\n"
+    "question": "Fix a ring $R$, an $R$-module $M$, and an $R$-module homomorphism\n$f:M\\rightarrow M$.\n\n- If $M$ satisfies the descending chain condition on submodules,\n  show that if $f$ is injective, then $f$ is surjective.\n  (Hint: note that if $f$ is injective, so are\n  $f\\circ f$, $f\\circ f\\circ f$, etc.)\n\n- Give an example of a ring $R$, an $R$-module $M$,\n  and an injective $R$-module homomorphism $f:M\\rightarrow M$\n  which is not surjective.\n\n- If $M$ satisfies the ascending chain condition on submodules,\n  show that if $f$ is surjective, then $f$ is injective.\n\n- Give an exampe of a ring $R$, and $R$-module $M$, and\n  a surjective $R$-module homomorphism $f:M\\rightarrow M$\n  which is not injective.\n"
   },
   {
     "year": 2009,
@@ -699,7 +699,7 @@
     "tags": [
       "Algebra"
     ],
-    "question": "Let $G$ be a finite group, $k$ an algebraically closed field, and $V$\nan irreducible $k$-linear representation of $G$.\n\\begin{enumerate}[(a)]\n  \\item Show that $\\Hom_{kG}(V,V)$ is a division algebra with $k$\n    in its center.\n  \\item Show that $V$ is finite-dimensional over $k$, and conclude\n    that $\\Hom_{kG}(V,V)$ is also finite dimensional.\n  \\item Show the inclusion $k\\hookrightarrow\\Hom_{kG}(V,V)$ found\n    in (a) is an isomorphism. (For $f\\in\\Hom_{kG}(V,V)$, view\n    $f$ as a linear transformation and consider $f-\\alpha I$,\n    where $\\alpha$ is an eigenvalue of $f$).\n\\end{enumerate}\n"
+    "question": "Let $G$ be a finite group, $k$ an algebraically closed field, and $V$\nan irreducible $k$-linear representation of $G$.\n\n- Show that $\\Hom_{kG}(V,V)$ is a division algebra with $k$\n  in its center.\n\n- Show that $V$ is finite-dimensional over $k$, and conclude\n  that $\\Hom_{kG}(V,V)$ is also finite dimensional.\n\n- Show the inclusion $k\\hookrightarrow\\Hom_{kG}(V,V)$ found\n  in (a) is an isomorphism. (For $f\\in\\Hom_{kG}(V,V)$, view\n  $f$ as a linear transformation and consider $f-\\alpha I$,\n  where $\\alpha$ is an eigenvalue of $f$).\n"
   },
   {
     "year": 2008,
@@ -708,7 +708,7 @@
     "tags": [
       "Algebra"
     ],
-    "question": "Let $f(x)$ be an irreducible polynomial of degree 5 over the field\n$\\mathbb Q$ of rational numbers with exactly 3 real roots.\n\\begin{enumerate}[(a)]\n  \\item Show that $f(x)$ is not solvable by radicals.\n  \\item Let $E$ be the splitting field of $f$ over $\\mathbb Q$.\n    Construct a Galois extension $K$ of degree 2 over\n    $\\mathbb Q$ lying in $E$ such that \\textit{no} field $F$\n    strictly between $K$ and $E$ is Galois over $\\mathbb Q$.\n\\end{enumerate}\n"
+    "question": "Let $f(x)$ be an irreducible polynomial of degree 5 over the field\n$\\mathbb Q$ of rational numbers with exactly 3 real roots.\n\n- Show that $f(x)$ is not solvable by radicals.\n\n- Let $E$ be the splitting field of $f$ over $\\mathbb Q$.\n  Construct a Galois extension $K$ of degree 2 over\n  $\\mathbb Q$ lying in $E$ such that \\textit{no} field $F$\n  strictly between $K$ and $E$ is Galois over $\\mathbb Q$.\n"
   },
   {
     "year": 2008,
@@ -735,7 +735,7 @@
     "tags": [
       "Algebra"
     ],
-    "question": "\\begin{enumerate}[(a)]\n  \\item Let $R$ be a commutative principal ideal domain. Show that\n    any $R$-module $M$ generated by two elements takes the form\n    $R/(a)\\oplus R/(b)$ for some $a,b\\in R$. What more\n    can you say about $a$ and $b$?\n  \\item Give a necessary and sufficient condition for two direct sums\n    as in part (a) to be isomorphic as $R$-modules.\n\\end{enumerate}\n"
+    "question": "\n- Let $R$ be a commutative principal ideal domain. Show that\n  any $R$-module $M$ generated by two elements takes the form\n  $R/(a)\\oplus R/(b)$ for some $a,b\\in R$. What more\n  can you say about $a$ and $b$?\n\n- Give a necessary and sufficient condition for two direct sums\n  as in part (a) to be isomorphic as $R$-modules.\n"
   },
   {
     "year": 2008,
@@ -744,7 +744,7 @@
     "tags": [
       "Algebra"
     ],
-    "question": "Let $G$ be the subgroup of $\\text{GL}_3(\\mathbb C)$ generated by the three\nmatrices\n$$\nA=\n\\begin{pmatrix}\n  0 & 0 & 1\\\\\n  0 & 1 & 0\\\\\n  1 & 0 & 0\n\\end{pmatrix},\n\\quad B=\n\\begin{pmatrix}\n  0 & 0 & 1\\\\\n  1 & 0 & 0\\\\\n  0 & 1 & 0\n\\end{pmatrix},\n\\quad C=\n\\begin{pmatrix}\n  i & 0 & 0\\\\\n  0 & 1 & 0\\\\\n  0 & 0 & 1\n\\end{pmatrix}\n$$\nwhere $i^2=-1$. Here $\\mathbb C$ denotes the complex field.\n\\begin{enumerate}[(a)]\n  \\item Compute the order of $G$.\n  \\item Find a matrix in $G$ of largest possible order (as an element\n    of $G$) and compute this order.\n  \\item Compute the number of elements in $G$ with this largest\n    order.\n\\end{enumerate}\n"
+    "question": "Let $G$ be the subgroup of $\\text{GL}_3(\\mathbb C)$ generated by the three\nmatrices\n$$\nA=\n\\begin{pmatrix}\n  0 & 0 & 1\\\\\n  0 & 1 & 0\\\\\n  1 & 0 & 0\n\\end{pmatrix},\n\\quad B=\n\\begin{pmatrix}\n  0 & 0 & 1\\\\\n  1 & 0 & 0\\\\\n  0 & 1 & 0\n\\end{pmatrix},\n\\quad C=\n\\begin{pmatrix}\n  i & 0 & 0\\\\\n  0 & 1 & 0\\\\\n  0 & 0 & 1\n\\end{pmatrix}\n$$\nwhere $i^2=-1$. Here $\\mathbb C$ denotes the complex field.\n\n- Compute the order of $G$.\n\n- Find a matrix in $G$ of largest possible order (as an element\n  of $G$) and compute this order.\n\n- Compute the number of elements in $G$ with this largest\n  order.\n"
   },
   {
     "year": 2008,
@@ -753,7 +753,7 @@
     "tags": [
       "Algebra"
     ],
-    "question": "\\begin{enumerate}[(a)]\n  \\item Let $G$ be a group of (finite) order $n$. Show that any\n    irreducible left module over the group algebra $\\mathbb CG$\n    has complex dimension at least $\\sqrt n$.\n  \\item Give an example of a group $G$ of order $n\\geq5$ and an\n    irreducible left module over $\\mathbb CG$ of complex dimension\n    $\\lfloor\\sqrt n\\rfloor$, the greatest integer to\n    $\\sqrt n$.\n\\end{enumerate}\n"
+    "question": "\n- Let $G$ be a group of (finite) order $n$. Show that any\n  irreducible left module over the group algebra $\\mathbb CG$\n  has complex dimension at least $\\sqrt n$.\n\n- Give an example of a group $G$ of order $n\\geq5$ and an\n  irreducible left module over $\\mathbb CG$ of complex dimension\n  $\\lfloor\\sqrt n\\rfloor$, the greatest integer to\n  $\\sqrt n$.\n"
   },
   {
     "year": 2008,
@@ -780,7 +780,7 @@
     "tags": [
       "Algebra"
     ],
-    "question": "Let $K$ be a field of characteristic zero and $f\\in K[x]$ an\nirreducible polynomial of degree $n$. Let $L$ be a splitting field for\n$f$. Let $G$ be the group of automorphisms of $L$ which act trivially\non $K$.\n\\begin{enumerate}[(a)]\n  \\item Show that $G$ embeds in the symmetric group $S_n$.\n  \\item For each $n$, give an example of a field $K$ and polynomial\n    $f$ such that $G=S_n$.\n  \\item What are the possible groups $G$ when $n=3$. Justify\n    your answer.\n\\end{enumerate}\n"
+    "question": "Let $K$ be a field of characteristic zero and $f\\in K[x]$ an\nirreducible polynomial of degree $n$. Let $L$ be a splitting field for\n$f$. Let $G$ be the group of automorphisms of $L$ which act trivially\non $K$.\n\n- Show that $G$ embeds in the symmetric group $S_n$.\n\n- For each $n$, give an example of a field $K$ and polynomial\n  $f$ such that $G=S_n$.\n\n- What are the possible groups $G$ when $n=3$. Justify\n  your answer.\n"
   },
   {
     "year": 2007,
@@ -798,7 +798,7 @@
     "tags": [
       "Algebra"
     ],
-    "question": "Let $K$ be the field $\\mathbb Q(z)$ of rational functions in a variable $z$\nwith coeffiecients in the rational field $\\mathbb Q$.\nLet $n$ be a positive integer. Consider the polynomial $x^n-z\\in K[x]$.\n\\begin{enumerate}[(a)]\n  \\item Show that the polynomial $x^n-z$ is irreducible over $K$.\n  \\item Describe the splitting field of $x^n-z$ over $K$.\n  \\item Determine the Galois group of the splitting field\n    of $x^5-z$ over the field $K$.\n\\end{enumerate}\n"
+    "question": "Let $K$ be the field $\\mathbb Q(z)$ of rational functions in a variable $z$\nwith coeffiecients in the rational field $\\mathbb Q$.\nLet $n$ be a positive integer. Consider the polynomial $x^n-z\\in K[x]$.\n\n- Show that the polynomial $x^n-z$ is irreducible over $K$.\n\n- Describe the splitting field of $x^n-z$ over $K$.\n\n- Determine the Galois group of the splitting field\n  of $x^5-z$ over the field $K$.\n"
   },
   {
     "year": 2006,
@@ -807,7 +807,7 @@
     "tags": [
       "Algebra"
     ],
-    "question": "\\begin{enumerate}[(a)]\n  \\item Let $p<q<r$ be prime integers. Show that a group of order\n    $pqr$ cannot be simple.\n  \\item Consider groups of orders $2^2\\cdot 3\\cdot p$ where $p$\n    has the values 5, 7, and 11. For each of those values\n    of $p$, either display a simple group of order\n    $2^2\\cdot 3\\cdot p$, or show that there cannot\n    be a simple group of that order.\n\\end{enumerate}\n"
+    "question": "\n- Let $p<q<r$ be prime integers. Show that a group of order\n  $pqr$ cannot be simple.\n\n- Consider groups of orders $2^2\\cdot 3\\cdot p$ where $p$\n  has the values 5, 7, and 11. For each of those values\n  of $p$, either display a simple group of order\n  $2^2\\cdot 3\\cdot p$, or show that there cannot\n  be a simple group of that order.\n"
   },
   {
     "year": 2006,
@@ -816,7 +816,7 @@
     "tags": [
       "Algebra"
     ],
-    "question": "Let $K/F$ be a finite Galois extension and let $n=[K:F]$. There is a theorem\n(often referred to as the \"normal basis theorem\") which states that there\nexists an irreducible polynomial $f(x)\\in F[x]$ whose\nroots form a basis for $K$ as a vector space over $F$. You may assume\nthat theorem in this problem.\n\\begin{enumerate}[(a)]\n  \\item Let $G=\\Gal(K/F)$. The action of $G$ on $K$ makes $K$ into\n    a finite-dimensional representation space for $G$ over $F$.\n    Prove that $K$ is isomorphic to the regular representation\n    for $G$ over $F$.\\\\\n    (The regular representation is defined by letting $G$ act\n    on the group algebra $F[G]$ by multiplication on\n    the left.)\n  \\item Suppose that the Galois group $G$ is cyclic and that $F$\n    contains a primitive $n^{\\text{th}}$ root of unity. Show that\n    there exists an injective homomorphism $\\chi:G\\rightarrow\n    F^{\\times}$.\n  \\item Show that $K$ contains a non-zero element $a$ with the\n    following property:\n    $$\n    g(a)=\\chi(g)\\cdot a\n    $$\n    for all $g\\in G$.\n  \\item If $a$ has the property stated in (c), show that $K=F(a)$ and\n    that $a^n\\in F^{\\times}$.\n\\end{enumerate}\n"
+    "question": "Let $K/F$ be a finite Galois extension and let $n=[K:F]$. There is a theorem\n(often referred to as the \"normal basis theorem\") which states that there\nexists an irreducible polynomial $f(x)\\in F[x]$ whose\nroots form a basis for $K$ as a vector space over $F$. You may assume\nthat theorem in this problem.\n\n- Let $G=\\Gal(K/F)$. The action of $G$ on $K$ makes $K$ into\n  a finite-dimensional representation space for $G$ over $F$.\n  Prove that $K$ is isomorphic to the regular representation\n  for $G$ over $F$.\\\\\n  (The regular representation is defined by letting $G$ act\n  on the group algebra $F[G]$ by multiplication on\n  the left.)\n\n- Suppose that the Galois group $G$ is cyclic and that $F$\n  contains a primitive $n^{\\text{th}}$ root of unity. Show that\n  there exists an injective homomorphism $\\chi:G\\rightarrow\n  F^{\\times}$.\n\n- Show that $K$ contains a non-zero element $a$ with the\n  following property:\n  $$\n  g(a)=\\chi(g)\\cdot a\n  $$\n  for all $g\\in G$.\n\n- If $a$ has the property stated in (c), show that $K=F(a)$ and\n  that $a^n\\in F^{\\times}$.\n"
   },
   {
     "year": 2006,
@@ -825,7 +825,7 @@
     "tags": [
       "Algebra"
     ],
-    "question": "Let $G$ be the group of matrices of the form\n$$\n\\begin{pmatrix}\n  1 & a & b\\\\\n  0 & 1 & c\\\\\n  0 & 0 & 1\n\\end{pmatrix}\n$$\nwith entries in the finite field $\\mathbb F_p$ of $p$ element, where\n$p$ is a prime.\n\\begin{enumerate}[(a)]\n  \\item Prove that $G$ is non-abelian.\n  \\item Suppose $p$ is odd. Prove that $g^p=I_3$ for all $g\\in G$.\n  \\item Suppose that $p=2$. It is known that there are exactly\n    two non-abelian groups of order 8, up to isomorphism:\n    the dihedral group $D_8$ and the quaternionic group.\n    Assuming this fact without proof, determine which\n    of these groups $G$ is isomorphic to.\n\\end{enumerate}\n"
+    "question": "Let $G$ be the group of matrices of the form\n$$\n\\begin{pmatrix}\n  1 & a & b\\\\\n  0 & 1 & c\\\\\n  0 & 0 & 1\n\\end{pmatrix}\n$$\nwith entries in the finite field $\\mathbb F_p$ of $p$ element, where\n$p$ is a prime.\n\n- Prove that $G$ is non-abelian.\n\n- Suppose $p$ is odd. Prove that $g^p=I_3$ for all $g\\in G$.\n\n- Suppose that $p=2$. It is known that there are exactly\n  two non-abelian groups of order 8, up to isomorphism:\n  the dihedral group $D_8$ and the quaternionic group.\n  Assuming this fact without proof, determine which\n  of these groups $G$ is isomorphic to.\n"
   },
   {
     "year": 2006,
@@ -852,7 +852,7 @@
     "tags": [
       "Algebra"
     ],
-    "question": "Let $\\mathbb F_2$ be the field with two elements.\n\\begin{enumerate}[(a)]\n  \\item What is the order of $\\text{GL}_3(\\mathbb F_2)$?\n  \\item Use the fact that $\\text{GL}_3(\\mathbb F_2)$ is a simple group\n    (which you should not prove) to find the number\n    of elements of order 7 in $\\text{GL}_3(\\mathbb F_2)$.\n\\end{enumerate}\n"
+    "question": "Let $\\mathbb F_2$ be the field with two elements.\n\n- What is the order of $\\text{GL}_3(\\mathbb F_2)$?\n\n- Use the fact that $\\text{GL}_3(\\mathbb F_2)$ is a simple group\n  (which you should not prove) to find the number\n  of elements of order 7 in $\\text{GL}_3(\\mathbb F_2)$.\n"
   },
   {
     "year": 2005,
@@ -861,7 +861,7 @@
     "tags": [
       "Algebra"
     ],
-    "question": "Let $G$ be a finite abelian group. Let $f:\\mathbb Z^m\\rightarrow G$ be a\nsurjection of abelian groups. We may think of $f$ as a homomorphism\nof $\\mathbb Z$-modules. Let $K$ be the kernel of $f$.\n\\begin{enumerate}[(a)]\n  \\item Prove that $K$ is isomorphic to $\\mathbb Z^m$.\n  \\item We can therefore write the inclusion map\n    $K\\rightarrow\\mathbb Z^m$ as $\\mathbb Z^m\\rightarrow\\mathbb Z^m$\n    and represent it by an $m\\times m$ integer matrix\n    $A$. Prove that $|\\det A|=|G|$.\n\\end{enumerate}\n"
+    "question": "Let $G$ be a finite abelian group. Let $f:\\mathbb Z^m\\rightarrow G$ be a\nsurjection of abelian groups. We may think of $f$ as a homomorphism\nof $\\mathbb Z$-modules. Let $K$ be the kernel of $f$.\n\n- Prove that $K$ is isomorphic to $\\mathbb Z^m$.\n\n- We can therefore write the inclusion map\n  $K\\rightarrow\\mathbb Z^m$ as $\\mathbb Z^m\\rightarrow\\mathbb Z^m$\n  and represent it by an $m\\times m$ integer matrix\n  $A$. Prove that $|\\det A|=|G|$.\n"
   },
   {
     "year": 2005,
@@ -870,7 +870,7 @@
     "tags": [
       "Algebra"
     ],
-    "question": "Let $R=C([0,1])$ be the ring of all continuous real-valued functions\non the closed interval $[0,1]$, and for each $c\\in[0,1]$, denote by\n$M_c$ the set of all functions $f\\in R$ such that $f(c)=0$.\n\\begin{enumerate}[(a)]\n  \\item Prove that $g\\in R$ is a unit if and only if $g(c)\\neq0$\n    for all $c\\in[0,1]$.\n  \\item Prove that for each $c\\in[0,1]$, $M_c$ is a maximal ideal of\n    $R$.\n  \\item Prove that if $M$ is a maximal ideal of $T$, then\n    $M=M_c$ for some $c\\in[0,1]$. (Hint:\n    compactness of $[0,1]$ may be relevant.)\n\\end{enumerate}\n"
+    "question": "Let $R=C([0,1])$ be the ring of all continuous real-valued functions\non the closed interval $[0,1]$, and for each $c\\in[0,1]$, denote by\n$M_c$ the set of all functions $f\\in R$ such that $f(c)=0$.\n\n- Prove that $g\\in R$ is a unit if and only if $g(c)\\neq0$\n  for all $c\\in[0,1]$.\n\n- Prove that for each $c\\in[0,1]$, $M_c$ is a maximal ideal of\n  $R$.\n\n- Prove that if $M$ is a maximal ideal of $T$, then\n  $M=M_c$ for some $c\\in[0,1]$. (Hint:\n  compactness of $[0,1]$ may be relevant.)\n"
   },
   {
     "year": 2005,
@@ -879,7 +879,7 @@
     "tags": [
       "Algebra"
     ],
-    "question": "Let $R$ and $S$ be commutative rings, and $f:R\\rightarrow S$\na ring homomorphism.\n\\begin{enumerate}[(a)]\n  \\item Show that if $I$ is a prime ideal of $S$, then\n    $$\n    f\\inv(I)=\\{r\\in R:f(r)\\in I\\}\n    $$\n    is a prime ideal of $R$.\n  \\item Let $N$ be the set of nilpotent elements of $R$:\n    $$\n    N=\\{r\\in R:r^m=0\\text{ for some }m\\geq 1\\}.\n    $$\n    $N$ is called the \\textit{nilradical} of $R$. Prove that\n    it is an ideal which is contained in every prime ideal.\n  \\item Part (a) lets us define a function\n    $$\n    f^*:\\{\\text{prime ideals of }S\\}\\rightarrow\n    \\{\\text{prime ideals of }R\\}.\n    $$\n    $$\n    I\\mapsto f\\inv(I).\n    $$\n    Let $N$ be the nilradical of $R$. Show that if\n    $S=R/N$ and $f:R\\rightarrow R/N$ is the quotient map,\n    then $f^*$ is a bijection\n\\end{enumerate}\n"
+    "question": "Let $R$ and $S$ be commutative rings, and $f:R\\rightarrow S$\na ring homomorphism.\n\n- Show that if $I$ is a prime ideal of $S$, then\n  $$\n  f\\inv(I)=\\{r\\in R:f(r)\\in I\\}\n  $$\n  is a prime ideal of $R$.\n\n- Let $N$ be the set of nilpotent elements of $R$:\n  $$\n  N=\\{r\\in R:r^m=0\\text{ for some }m\\geq 1\\}.\n  $$\n  $N$ is called the \\textit{nilradical} of $R$. Prove that\n  it is an ideal which is contained in every prime ideal.\n\n- Part (a) lets us define a function\n  $$\n  f^*:\\{\\text{prime ideals of }S\\}\\rightarrow\n  \\{\\text{prime ideals of }R\\}.\n  $$\n  $$\n  I\\mapsto f\\inv(I).\n  $$\n  Let $N$ be the nilradical of $R$. Show that if\n  $S=R/N$ and $f:R\\rightarrow R/N$ is the quotient map,\n  then $f^*$ is a bijection\n"
   },
   {
     "year": 2005,
@@ -888,7 +888,7 @@
     "tags": [
       "Algebra"
     ],
-    "question": "Consider the polynomial $f(x)=x^{10}+x^5+1\\in\\mathbb Q[x]$ with\nsplitting field $K$ over $\\mathbb Q$.\n\\begin{enumerate}[(a)]\n  \\item Determine whether $f(x)$ is irreducible over $\\mathbb Q$ and find\n    $[K:\\mathbb Q]$.\n  \\item Determine the structure of the Galois group\n    $\\Gal(K/\\mathbb Q)$.\n\\end{enumerate}\n"
+    "question": "Consider the polynomial $f(x)=x^{10}+x^5+1\\in\\mathbb Q[x]$ with\nsplitting field $K$ over $\\mathbb Q$.\n\n- Determine whether $f(x)$ is irreducible over $\\mathbb Q$ and find\n  $[K:\\mathbb Q]$.\n\n- Determine the structure of the Galois group\n  $\\Gal(K/\\mathbb Q)$.\n"
   },
   {
     "year": 2005,
@@ -906,7 +906,7 @@
     "tags": [
       "Algebra"
     ],
-    "question": "Assume that $K$ is a cyclic group, $H$ is an arbitrary group, and $\\varphi_1$\nand $\\varphi_2$ are homomorphisms from $K$ into $\\Aut(H)$ such that\n$\\varphi_1(K)$ and $\\varphi_2(K)$ are conjugate subgroups\nof $\\Aut(H)$. Prove by constructing an explicit isomorphism that\n$H\\rtimes_{\\varphi_1}K\\cong H\\rtimes_{\\varphi_2} K$.\n[Suppose $\\sigma_{\\varphi_1}(K)\\sigma\\inv=\\varphi_2(K)$\nso that for some $a\\in\\mathbb Z$ we have $\\sigma\\varphi_1(k)\\sigma\\inv\n=\\varphi_2(k)^a$ for all $k\\in K$. Show that the map $\\psi:H\n\\rtimes_{\\varphi_1}K\\rightarrow H\\rtimes_{\\varphi_2}K$\ndefined by $\\psi((h,k))=(\\sigma(h),k^a)$ is a homomorphism.\nShow $\\psi$ is bijective by construcing a 2-sided inverse.]\n"
+    "question": "Assume that $K$ is a cyclic group, $H$ is an arbitrary group, and $\\varphi_1$\nand $\\varphi_2$ are homomorphisms from $K$ into $\\Aut(H)$ such that\n$\\varphi_1(K)$ and $\\varphi_2(K)$ are conjugate subgroups\nof $\\Aut(H)$. \n\nProve by constructing an explicit isomorphism that\n$H\\rtimes_{\\varphi_1}K\\cong H\\rtimes_{\\varphi_2} K$.\n\n> Suppose $\\sigma_{\\varphi_1}(K)\\sigma\\inv=\\varphi_2(K)$\nso that for some $a\\in\\mathbb Z$ we have $\\sigma\\varphi_1(k)\\sigma\\inv\n=\\varphi_2(k)^a$ for all $k\\in K$. Show that the map $\\psi:H\n\\rtimes_{\\varphi_1}K\\rightarrow H\\rtimes_{\\varphi_2}K$\ndefined by $\\psi((h,k))=(\\sigma(h),k^a)$ is a homomorphism.\nShow $\\psi$ is bijective by construcing a 2-sided inverse.\n"
   },
   {
     "year": 2019,
