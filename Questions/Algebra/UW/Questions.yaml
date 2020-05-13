@@ -54,9 +54,8 @@
   tags:
     - Algebra
   question: |
-    Let $G$ be a finite group and $\pi$, $\pi'$ be two irreducible
-    representations of $G$. Prove or disprove the following assertion:
-    $\pi$ and $\pi'$ are equivalent if and only if $\det\pi(g)=\det\pi'(g)$
+    Let $G$ be a finite group and $\pi_0$, $\pi_1$ be two irreducible representations of $G$. Prove or disprove the following assertion:
+    $\pi_0$ and $\pi_1$ are equivalent if and only if $\det\pi_0(g)=\det\pi_1(g)$
     for all $g\in G$.
 
 - year: 2017
@@ -627,9 +626,9 @@
     - Algebra
   question: |
     Let
-    $$
+    \begin{align*}
     R=\mathbb Z[x]/(x^2+x+1).
-    $$
+    \end{align*}
 
     - Answer the following questions with suitable justification.
         - Is $R$ a Noetherian ring?
@@ -990,14 +989,14 @@
     Let $G$ be a finite group, $k$ an algebraically closed field, and $V$
     an irreducible $k$-linear representation of $G$.
 
-    - Show that $\Hom_{kG}(V,V)$ is a division algebra with $k$
+    - Show that $\hom_{kG}(V,V)$ is a division algebra with $k$
       in its center.
 
     - Show that $V$ is finite-dimensional over $k$, and conclude
-      that $\Hom_{kG}(V,V)$ is also finite dimensional.
+      that $\hom_{kG}(V,V)$ is also finite dimensional.
 
-    - Show the inclusion $k\hookrightarrow\Hom_{kG}(V,V)$ found
-      in (a) is an isomorphism. (For $f\in\Hom_{kG}(V,V)$, view
+    - Show the inclusion $k\hookrightarrow\hom_{kG}(V,V)$ found
+      in (a) is an isomorphism. (For $f\in\hom_{kG}(V,V)$, view
       $f$ as a linear transformation and consider $f-\alpha I$,
       where $\alpha$ is an eigenvalue of $f$).
 
