@@ -50,7 +50,7 @@ $('label[for=AlgebraRadio]').html(`Algebra <small class=text-muted>(${jsonQuesti
 let updateSelectedQuestions = () => {
   let selectedTopics = new Set( $('#selectTopics').val() );
   let selectedYears = new Set( $('#selectYears').val().map(a => a.toString()) );
-  let selectedUniversities = new Set( $('#selectUniversities').val().map(a => a.toString()) );
+  let selectedUniversities = [...new Set( $('#selectUniversities').val().map(a => a.toString()) )];
   let examType = $("input[name='examType']:checked").val()
   let selectedQuestions = window.questions
     .filter(a => a.exam == examType)
