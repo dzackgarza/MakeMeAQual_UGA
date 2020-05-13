@@ -354,7 +354,7 @@
     "tags": [
       "Homological Algebra"
     ],
-    "question": "Let $R = k[x,y]$ where $k$ is a field, and let $I=(x,y)R$.\n    \n  - Show that\n    $$\n    0 \\to R \\mapsvia{\\phi} R \\oplus R \\mapsvia{\\psi} R \\to k \\to 0\n    $$ \n    where $\\phi(a) = (-ya,xa)$, $\\psi((a,b)) = xa+yb$ for $a,b \\in R$, is a projective resolution of the $R$-module $k \\simeq R/I$.\n  \n  - Show that $I$ is not a flat $R$-module by computing $\\Tor_i^R(I,k)$\n"
+    "question": "Let $R = k[x,y]$ where $k$ is a field, and let $I=(x,y)R$.\n    \n  - Show that\n    \\begin{align*}\n    0 \\to R \\mapsvia{\\phi} R \\oplus R \\mapsvia{\\psi} R \\to k \\to 0\n    \\end{align*}\n    where $\\phi(a) = (-ya,xa)$, $\\psi((a,b)) = xa+yb$ for $a,b \\in R$, is a projective resolution of the $R$-module $k \\simeq R/I$.\n  \n  - Show that $I$ is not a flat $R$-module by computing $\\Tor_i^R(I,k)$\n"
   },
   {
     "year": 2015,
