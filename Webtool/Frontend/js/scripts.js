@@ -30,6 +30,7 @@ let parseQuestions = jsonQuestions => {
     items: topics,
     onChange: updateSelectedQuestions
   })
+  $('label[for=AlgebraRadio]').html(`Algebra (${1+1})`)
   window.questions = jsonQuestions;
   updateSelectedQuestions();
 }
