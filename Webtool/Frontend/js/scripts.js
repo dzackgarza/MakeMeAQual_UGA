@@ -41,7 +41,7 @@ let parseQuestions = jsonQuestions => {
 let updateSelectedQuestions = () => {
   let selectedTopics = new Set( $('#selectTopics').val() );
   let selectedYears = new Set( $('#selectYears').val().map(a => a.toString()) );
-  let examType = parseInt($("input[name='examType']:checked").val())
+  let examType = $("input[name='examType']:checked").val()
   let selectedQuestions = window.questions
     .filter(a => a.exam == examType)
     .filter(a => intersect(new Set(a.tags), selectedTopics).size > 0)
