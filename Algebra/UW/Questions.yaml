@@ -612,5 +612,292 @@ Problems:
         \item Any $R$-module is projective.
       \end{enumerate}
 
+  - year: 2010
+    number: 1
+    tags:
+      - Algebra
+    question: |
+      Let $p$ be a positive prime number, $\mathbb F_p$ the field with $p$ elements,
+      and let $G=\text{GL}_2(\mathbb F_p)$.
+      \begin{enumerate}[(a)]
+        \item Compute the order of $G$, $|G|$.
+        \item Write down an explicit isomorphism from $\mathbb Z/p\mathbb Z$ to
+          $$
+          U=\left\{
+          \begin{pmatrix}
+            1 & a\\
+            0 & 1
+          \end{pmatrix}
+          \bigg|a\in\mathbb F_p\right\}.
+          $$
+        \item How many subgroups of order $p$ does $G$ have? Hint:
+          compute $gug\inv$ for $g\in G$ and $u\in U$; use this
+          to find the size of the normalizer of $U$ in $G$.
+      \end{enumerate}
 
 
+  - year: 2010
+    number: 2
+    tags:
+      - Algebra
+    question: |
+      \begin{enumerate}[(a)]
+        \item Give definitions of the following terms:
+          (i) a finite length (left) module, (ii) a
+          composition series for a module, and (iii) the length
+          of a module,
+        \item Let $l(M)$ denote the length of a module $M$. Prove that if
+          $$
+          0\rightarrow M_1\rightarrow M_2\rightarrow\dots\rightarrow
+          M_n\rightarrow 0
+          $$
+          is an exact sequence of modules of finite length, then
+          $$
+          \sum_{i=1}^n(-1)^kl(M_i)=0.
+          $$
+      \end{enumerate}
+
+
+  - year: 2010
+    number: 3
+    tags:
+      - Algebra
+    question: |
+      Let $\mathbb F$ be a field of characteristic $p$, and $G$ a group of
+      order $p^n$. Let $R=\mathbb F[G]$ be the group ring (group algebra)
+      of $G$ over $\mathbb F$, and let $u:=\sum_{x\in G}x$ (so $u$ is an element of
+      $R$).
+      \begin{enumerate}[(a)]
+        \item Prove that $u$ lies in the center of $R$.
+        \item Verify that $Ru$ is a 2-sided ideal of $R$.
+        \item Show there exists a positive integer $k$ such that $u^k=0$.
+          Conclude that for such a $k$, $(Ru)^k=0$.
+        \item Show that $R$ is \textbf{not} a semi-simple ring.
+          (\textbf{Warning:} Please use the definition of a semi-simple
+          ring: do \textbf{not} use the result that a finite length
+          ring fails to be semisimple if and only if it has a non-zero
+          nilpotent ideal.)
+      \end{enumerate}
+
+
+  - year: 2010
+    number: 4
+    tags:
+      - Algebra
+    question: |
+      Let $f(x)=a_nx^n+a_{n-1}x^{n-1}+\dots+a_0\in\mathbb Z[x]$
+      (where $a_n\neq 0$) and let $R=\mathbb Z[x]/(f)$.
+      Prove that $R$ is a finitely generated module over $\mathbb Z$ if and only if
+      $a_n=\pm 1$.
+
+
+  - year: 2010
+    number: 5
+    tags:
+      - Algebra
+    question: |
+      Consider the ring
+      $$
+      S=C[0,1]=\{f:[0,1]\rightarrow\mathbb R:f\text{ is continuous}\}
+      $$
+      with the usual operations of addition and multiplication of functions.
+      \begin{enumerate}[(a)]
+        \item What are the invertible elements of $S$?
+        \item For $a\in[0,1]$, define $I_a=\{f\in S:f(a)=0\}$.
+          Show that $I_a$ is a maximal ideal of $S$.
+        \item Show that the elements of any proper ideal of $S$ have a
+          common zero, i.e., if $I$ is a proper ideal of $S$, then
+          there exists $a\in[0,1]$ such that $f(a)=0$ for all $f\in I$.
+          Conclude that every maximal ideal of $S$ is of the form
+          $I_a$ for some $a\in[0,1]$. \textbf{Hint:} as $[0,1]$
+          is compact, every open cover of $[0,1]$ contains a finite
+          subcover.
+      \end{enumerate}
+
+
+  - year: 2010
+    number: 7
+    tags:
+      - Algebra
+    question: |
+      Let $F$ be a field of characteristic zero, and let $K$
+      be an \textit{algebraic} extension of $F$ that possesses the following
+      property: every polynomial $f\in F[x]$ has a root in $K$.
+      Show that $K$ is algebraically closed.\\
+      \textbf{Hint:} if $K(\theta)/K$ is algebraic, consider $F(\theta)/F$
+      and its normal closure; primitive elements might be of help.
+
+
+  - year: 2010
+    number: 8
+    tags:
+      - Algebra
+    question: |
+      Let $G$ be the unique non-abelian group of order 21.
+      \begin{enumerate}[(a)]
+        \item Describe all 1-dimensional complex representations of $G$.
+        \item How many (non-isomorphic) irreducible complex representations
+          does $G$ have and what are their dimensions?
+        \item Determine the character table of $G$.
+      \end{enumerate}
+
+
+  - year: 2009
+    number: 1
+    tags:
+      - Algebra
+    question: |
+      \begin{enumerate}[(a)]
+        \item Classify all groups of order $2009=7^2\times 41$.
+        \item Suppose that $G$ is a group of order 2009. How many intermediate groups are
+      there—that is, how many groups H are there with $1\subsetneq H\subsetneq G$, where both
+      inclusions are proper? (There may be several cases to consider.)
+      \end{enumerate}
+
+
+  - year: 2009
+    number: 2
+    tags:
+      - Algebra
+    question: |
+      Let $K$ be a field. A discrete valuation on $K$ is a function $\nu:
+      K\setminus\{0\}\rightarrow\mathbb Z$ such that
+      \begin{enumerate}[(i)]
+        \item $\nu(ab)=\nu(a)+\nu(b)$
+        \item $\nu$ is surjective
+        \item $\nu(a+b)\geq\text{min}\{(\nu(a),\nu(b)\}$ for
+          $a,b\in K\setminus\{0\}$ with $a+b\neq 0$.
+      \end{enumerate}
+      Let $R:=\{x\in K\setminus\{0\}:\nu(x)\geq0\}\cup\{0\}$. Then
+      $R$ is called the valuation ring of $\nu$.
+      Prove the following:
+      \begin{enumerate}[(a)]
+        \item $R$ is a subring of $K$ containing the 1 in $K$.
+        \item for all $x\in K\setminus\{0\}$, either $x$ or
+          $x\inv$ is in $R$.
+        \item $x$ is a unit of $R$ if and only if $\nu(x)=0$.
+        \item Let $p$ be a prime number, $K=\mathbb Q$,
+          and $\nu_p:\mathbb Q\setminus\{0\}\rightarrow\mathbb Z$
+          be the function defined by $\nu_p(\frac ab)=n$ where
+          $\frac ab=p^n\frac cd$ and $p$ does not divide $c$ and $d$.
+          Prove that the corresponding valuation ring $R$ is the ring
+          of all rational numbers whose denominators are relatively
+          prime to $p$.
+      \end{enumerate}
+
+
+  - year: 2009
+    number: 3
+    tags:
+      - Algebra
+    question: |
+      Let $F$ be a field of characteristic not equal to 2.
+      \begin{enumerate}[(a)]
+        \item Prove that any extension $K$ of $F$ of degree 2
+          is of the form $F(\sqrt D)$ where $D\in F$
+          is not a square in $F$ and, conversely, that each such
+          extension has degree 2 over $F$.
+        \item Let $D_1,D_2\in F$ neither of which is a square in $F$.
+          Prove that $[F(\sqrt{D_1},\sqrt{D_2}):F]=4$ if
+          $D_1D_2$ is not a square in $F$ and is of degree
+          2 otherwise.
+      \end{enumerate}
+
+
+  - year: 2009
+    number: 4
+    tags:
+      - Algebra
+    question: |
+      Let $F$ be a field and $p(x)\in F[x]$ an irreducible polynomial.
+      \begin{enumerate}[(a)]
+        \item Prove that there exists a field extension $K$ of $F$
+          in which $p(x)$ has a root.
+        \item Determine the dimension of $K$ as a vector space over $F$
+          and exhibit a vector space basis for $K$.
+        \item If $\theta\in K$ denotes a root of $p(x)$, express
+          $\theta\inv$ in terms of the basis found in part (b).
+        \item Suppose $p(x)=x^3+9x+6$. Show $p(x)$ is irreducible over
+          $\mathbb Q$. If $\theta$ is a root of $p(x)$, compute
+          the inverse of $(1+\theta)$ in $\mathbb Q(\theta)$.
+      \end{enumerate}
+
+
+  - year: 2009
+    number: 6
+    tags:
+      - Algebra
+    question: |
+      Fix a ring $R$, an $R$-module $M$, and an $R$-module homomorphism
+      $f:M\rightarrow M$.
+      \begin{enumerate}[(a)]
+        \item If $M$ satisfies the descending chain condition on submodules,
+          show that if $f$ is injective, then $f$ is surjective.
+          (Hint: note that if $f$ is injective, so are
+          $f\circ f$, $f\circ f\circ f$, etc.)
+        \item Give an example of a ring $R$, an $R$-module $M$,
+          and an injective $R$-module homomorphism $f:M\rightarrow M$
+          which is not surjective.
+        \item If $M$ satisfies the ascending chain condition on submodules,
+          show that if $f$ is surjective, then $f$ is injective.
+        \item Give an exampe of a ring $R$, and $R$-module $M$, and
+          a surjective $R$-module homomorphism $f:M\rightarrow M$
+          which is not injective.
+      \end{enumerate}
+
+
+  - year: 2009
+    number: 7
+    tags:
+      - Algebra
+    question: |
+      Let $G$ be a finite group, $k$ an algebraically closed field, and $V$
+      an irreducible $k$-linear representation of $G$.
+      \begin{enumerate}[(a)]
+        \item Show that $\Hom_{kG}(V,V)$ is a division algebra with $k$
+          in its center.
+        \item Show that $V$ is finite-dimensional over $k$, and conclude
+          that $\Hom_{kG}(V,V)$ is also finite dimensional.
+        \item Show the inclusion $k\hookrightarrow\Hom_{kG}(V,V)$ found
+          in (a) is an isomorphism. (For $f\in\Hom_{kG}(V,V)$, view
+          $f$ as a linear transformation and consider $f-\alpha I$,
+          where $\alpha$ is an eigenvalue of $f$).
+      \end{enumerate}
+
+
+  - year: 2009
+    number: 8
+    tags:
+      - Algebra
+    question: |
+
+
+  - year: 2009
+    number: 8
+    tags:
+      - Algebra
+    question: |
+
+
+  - year: 2009
+    number: 8
+    tags:
+      - Algebra
+    question: |
+
+
+  - year: 2009
+    number: 8
+    tags:
+      - Algebra
+    question: |
+
+
+  - year: 2009
+    number: 8
+    tags:
+      - Algebra
+    question: |
+
+
+...
