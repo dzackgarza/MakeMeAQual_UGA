@@ -35,8 +35,9 @@ def example():
 
     # Add all questions to doc
     for i, x in enumerate(questions):
-        out_str = '# Question {q_number} (? {q_year}, {orig_number})\n\n{content}\n\n'.format(
+        out_str = '# Question {q_number} ({q_uni} {q_year} #{orig_number})\n\n{content}\n\n'.format(
                 q_number = i+1,
+                q_uni = x['university'],
                 q_year = x['year'],
                 orig_number = x['number'],
                 content = x['question']
