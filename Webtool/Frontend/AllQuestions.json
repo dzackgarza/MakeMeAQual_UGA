@@ -344,7 +344,7 @@
     "tags": [
       "Algebra"
     ],
-    "question": "Let $A = \\C[x,y]/(y^2-(x-1)^3 - (x-1)^2)$.\n\n- Show that $A$ is an integral domain and sketch the $\\R$-points of $\\text{Spec} A$.\n- Find the integral closure of $A$. Recall that for an integral domain $A$ with fraction field $K$, the integral closure of $A$ in $K$ is the set of all elements of $K$ integral over $A$.\n"
+    "question": "Let $A = \\CC[x,y]/(y^2-(x-1)^3 - (x-1)^2)$.\n\n- Show that $A$ is an integral domain and sketch the $\\RR$-points of $\\text{Spec} A$.\n- Find the integral closure of $A$. Recall that for an integral domain $A$ with fraction field $K$, the integral closure of $A$ in $K$ is the set of all elements of $K$ integral over $A$.\n"
   },
   {
     "year": 2016,
