@@ -4,6 +4,7 @@
     "season": "Fall",
     "number": 1,
     "exam": "Algebra",
+    "university": "UGA",
     "tags": [
       "Groups",
       "Conjugacy"
@@ -15,6 +16,7 @@
     "season": "Fall",
     "number": 2,
     "exam": "Algebra",
+    "university": "UGA",
     "tags": [
       "Group Theory",
       "Sylow Theorems"
@@ -26,6 +28,7 @@
     "season": "Fall",
     "number": 3,
     "exam": "Algebra",
+    "university": "UGA",
     "tags": [
       "Ring"
     ],
@@ -36,6 +39,7 @@
     "season": "Fall",
     "number": 4,
     "exam": "Algebra",
+    "university": "UGA",
     "tags": [
       "Fields"
     ],
@@ -46,6 +50,7 @@
     "season": "Fall",
     "number": 5,
     "exam": "Algebra",
+    "university": "UGA",
     "tags": [
       "Modules"
     ],
@@ -56,6 +61,7 @@
     "season": "Fall",
     "number": 6,
     "exam": "Algebra",
+    "university": "UGA",
     "tags": [
       "Rings"
     ],
@@ -66,6 +72,7 @@
     "season": "Fall",
     "number": 7,
     "exam": "Algebra",
+    "university": "UGA",
     "tags": [
       "Fields",
       "Galois Theory"
@@ -77,6 +84,7 @@
     "season": "Fall",
     "number": 8,
     "exam": "Algebra",
+    "university": "UGA",
     "tags": [
       "Linear Algebra"
     ],
@@ -87,6 +95,7 @@
     "season": "Spring",
     "number": 1,
     "exam": "Algebra",
+    "university": "UGA",
     "tags": [
       "Linear Algebra"
     ],
@@ -97,6 +106,7 @@
     "season": "Spring",
     "number": 2,
     "exam": "Algebra",
+    "university": "UGA",
     "tags": [
       "Fields"
     ],
@@ -107,6 +117,7 @@
     "season": "Spring",
     "number": 3,
     "exam": "Algebra",
+    "university": "UGA",
     "tags": [
       "Groups",
       "Classification of Groups"
@@ -118,6 +129,7 @@
     "season": "Spring",
     "number": 4,
     "exam": "Algebra",
+    "university": "UGA",
     "tags": [
       "Groups",
       "Conjugacy",
@@ -130,6 +142,7 @@
     "season": "Spring",
     "number": 5,
     "exam": "Algebra",
+    "university": "UGA",
     "tags": [
       "Modules",
       "Torsion"
@@ -141,6 +154,7 @@
     "season": "Spring",
     "number": 6,
     "exam": "Algebra",
+    "university": "UGA",
     "tags": [
       "Rings",
       "Ideals",
@@ -153,6 +167,7 @@
     "season": "Spring",
     "number": 7,
     "exam": "Algebra",
+    "university": "UGA",
     "tags": [
       "Linear Algebra",
       "Jordan Canonical Form"
@@ -164,6 +179,7 @@
     "season": "Spring",
     "number": 8,
     "exam": "Algebra",
+    "university": "UGA",
     "tags": [
       "Fields",
       "Galois Theory"
@@ -174,6 +190,7 @@
     "year": 2018,
     "number": 1,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -183,6 +200,7 @@
     "year": 2018,
     "number": 2,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -192,6 +210,7 @@
     "year": 2018,
     "number": 3,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -201,6 +220,7 @@
     "year": 2018,
     "number": 4,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -210,6 +230,7 @@
     "year": 2018,
     "number": 5,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -219,6 +240,7 @@
     "year": 2018,
     "number": 7,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -228,6 +250,7 @@
     "year": 2017,
     "number": 1,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -237,6 +260,7 @@
     "year": 2017,
     "number": 2,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -246,6 +270,7 @@
     "year": 2017,
     "number": 3,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -255,6 +280,7 @@
     "year": 2017,
     "number": 4,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -264,6 +290,7 @@
     "year": 2017,
     "number": 7,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -273,6 +300,7 @@
     "year": 2016,
     "number": 1,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -282,6 +310,7 @@
     "year": 2016,
     "number": 2,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -291,6 +320,7 @@
     "year": 2016,
     "number": 4,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -300,6 +330,7 @@
     "year": 2016,
     "number": 5,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -309,6 +340,7 @@
     "year": 2016,
     "number": 6,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -318,6 +350,7 @@
     "year": 2016,
     "number": 7,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -327,6 +360,7 @@
     "year": 2015,
     "number": 1,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -336,6 +370,7 @@
     "year": 2015,
     "number": 2,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -345,6 +380,7 @@
     "year": 2015,
     "number": 3,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -354,6 +390,7 @@
     "year": 2015,
     "number": 4,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -363,6 +400,7 @@
     "year": 2015,
     "number": 5,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -372,6 +410,7 @@
     "year": 2015,
     "number": 6,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -381,6 +420,7 @@
     "year": 2015,
     "number": 7,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -390,6 +430,7 @@
     "year": 2014,
     "number": 1,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -399,6 +440,7 @@
     "year": 2014,
     "number": 2,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -408,6 +450,7 @@
     "year": 2014,
     "number": 3,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -417,6 +460,7 @@
     "year": 2014,
     "number": 4,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -426,6 +470,7 @@
     "year": 2014,
     "number": 6,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -435,6 +480,7 @@
     "year": 2014,
     "number": 7,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -444,6 +490,7 @@
     "year": 2014,
     "number": 8,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -453,6 +500,7 @@
     "year": 2013,
     "number": 3,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -462,6 +510,7 @@
     "year": 2013,
     "number": 3,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -471,6 +520,7 @@
     "year": 2013,
     "number": 4,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -480,6 +530,7 @@
     "year": 2013,
     "number": 6,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -489,6 +540,7 @@
     "year": 2013,
     "number": 8,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -498,6 +550,7 @@
     "year": 2012,
     "number": 1,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -507,6 +560,7 @@
     "year": 2012,
     "number": 2,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -516,6 +570,7 @@
     "year": 2012,
     "number": 6,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -525,6 +580,7 @@
     "year": 2012,
     "number": 3,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -534,6 +590,7 @@
     "year": 2011,
     "number": 2,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -543,6 +600,7 @@
     "year": 2011,
     "number": 3,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -552,6 +610,7 @@
     "year": 2011,
     "number": 4,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -561,6 +620,7 @@
     "year": 2011,
     "number": 1,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -570,6 +630,7 @@
     "year": 2011,
     "number": 6,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -579,6 +640,7 @@
     "year": 2011,
     "number": 8,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -588,6 +650,7 @@
     "year": 2010,
     "number": 1,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -597,6 +660,7 @@
     "year": 2010,
     "number": 2,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -606,6 +670,7 @@
     "year": 2010,
     "number": 3,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -615,6 +680,7 @@
     "year": 2010,
     "number": 4,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -624,6 +690,7 @@
     "year": 2010,
     "number": 5,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -633,6 +700,7 @@
     "year": 2010,
     "number": 7,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -642,6 +710,7 @@
     "year": 2010,
     "number": 8,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -651,6 +720,7 @@
     "year": 2009,
     "number": 1,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -660,6 +730,7 @@
     "year": 2009,
     "number": 2,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -669,6 +740,7 @@
     "year": 2009,
     "number": 3,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -678,6 +750,7 @@
     "year": 2009,
     "number": 4,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -687,6 +760,7 @@
     "year": 2009,
     "number": 6,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -696,6 +770,7 @@
     "year": 2009,
     "number": 7,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -705,6 +780,7 @@
     "year": 2008,
     "number": 1,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -714,6 +790,7 @@
     "year": 2008,
     "number": 2,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -723,6 +800,7 @@
     "year": 2008,
     "number": 3,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -732,6 +810,7 @@
     "year": 2008,
     "number": 5,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -741,6 +820,7 @@
     "year": 2008,
     "number": 6,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -750,6 +830,7 @@
     "year": 2008,
     "number": 7,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -759,6 +840,7 @@
     "year": 2008,
     "number": 8,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -768,6 +850,7 @@
     "year": 2007,
     "number": 1,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -777,6 +860,7 @@
     "year": 2007,
     "number": 2,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -786,6 +870,7 @@
     "year": 2007,
     "number": 3,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -795,6 +880,7 @@
     "year": 2006,
     "number": 2,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -804,6 +890,7 @@
     "year": 2006,
     "number": 3,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -813,6 +900,7 @@
     "year": 2006,
     "number": 4,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -822,6 +910,7 @@
     "year": 2006,
     "number": 5,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -831,6 +920,7 @@
     "year": 2006,
     "number": 7,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -840,6 +930,7 @@
     "year": 2005,
     "number": 1,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -849,6 +940,7 @@
     "year": 2005,
     "number": 2,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -858,6 +950,7 @@
     "year": 2005,
     "number": 3,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -867,6 +960,7 @@
     "year": 2005,
     "number": 4,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -876,6 +970,7 @@
     "year": 2005,
     "number": 5,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -885,6 +980,7 @@
     "year": 2005,
     "number": 7,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -894,6 +990,7 @@
     "year": 2005,
     "number": 8,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -903,6 +1000,7 @@
     "year": "Extra",
     "number": 1,
     "exam": "Algebra",
+    "university": "UW",
     "tags": [
       "Algebra"
     ],
@@ -913,6 +1011,7 @@
     "season": "Fall",
     "number": 1,
     "exam": "Topology",
+    "university": "UGA",
     "tags": [
       "Topology"
     ],

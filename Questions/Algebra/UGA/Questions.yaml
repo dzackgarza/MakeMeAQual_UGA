@@ -2,6 +2,7 @@
   season: Fall
   number: 1
   exam: Algebra
+  university: UGA
   tags:
     - Groups
     - Conjugacy
@@ -15,6 +16,7 @@
   season: Fall
   number: 2
   exam: Algebra
+  university: UGA
   tags:
     - Group Theory
     - Sylow Theorems
@@ -32,6 +34,7 @@
   season: Fall
   number: 3
   exam: Algebra
+  university: UGA
   tags:
     - Ring
   question: |
@@ -45,6 +48,7 @@
   season: Fall
   number: 4
   exam: Algebra
+  university: UGA
   tags:
     - Fields
   question: |
@@ -65,6 +69,7 @@
   season: Fall
   number: 5
   exam: Algebra
+  university: UGA
   tags:
     - Modules
   question: |
@@ -85,6 +90,7 @@
   season: Fall
   number: 6
   exam: Algebra
+  university: UGA
   tags:
     - Rings
   question: |
@@ -106,6 +112,7 @@
   season: Fall
   number: 7
   exam: Algebra
+  university: UGA
   tags:
     - Fields
     - Galois Theory
@@ -121,6 +128,7 @@
   season: Fall
   number: 8
   exam: Algebra
+  university: UGA
   tags:
     - Linear Algebra
   question: |
@@ -148,6 +156,7 @@
   season: Spring
   number: 1
   exam: Algebra
+  university: UGA
   tags:
     - Linear Algebra
   question: |
@@ -161,6 +170,7 @@
   season: Spring
   number: 2
   exam: Algebra
+  university: UGA
   tags:
     - Fields
   question: |
@@ -176,6 +186,7 @@
   season: Spring
   number: 3
   exam: Algebra
+  university: UGA
   tags:
     - Groups
     - Classification of Groups
@@ -188,6 +199,7 @@
   season: Spring
   number: 4
   exam: Algebra
+  university: UGA
   tags:
     - Groups
     - Conjugacy
@@ -212,6 +224,7 @@
   season: Spring
   number: 5
   exam: Algebra
+  university: UGA
   tags:
     - Modules
     - Torsion
@@ -231,6 +244,7 @@
   season: Spring
   number: 6
   exam: Algebra
+  university: UGA
   tags:
     - Rings
     - Ideals
@@ -254,6 +268,7 @@
   season: Spring
   number: 7
   exam: Algebra
+  university: UGA
   tags:
     - Linear Algebra
     - Jordan Canonical Form
@@ -275,6 +290,7 @@
   season: Spring
   number: 8
   exam: Algebra
+  university: UGA
   tags:
     - Fields
     - Galois Theory
