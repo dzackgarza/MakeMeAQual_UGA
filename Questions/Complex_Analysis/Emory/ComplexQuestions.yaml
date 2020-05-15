@@ -1,5 +1,5 @@
 
-- year: 0 
+- year: 0
   number: 0
   exam: Complex_Analysis
   university: Emory
@@ -7,53 +7,53 @@
     - Integrals
     - Residues
   question: |
-    Use residues to compute the integral 
-    \begin{aligned}
-      \int_{0}^{\infty} \dfrac{\cos x}{(x^2+1)^2} \mathrm{d}x \, .
-    \end{aligned}
+    Use residues to compute the integral
+    \begin{align*}
+    \int_{0}^{\infty} \dfrac{\cos x}{(x^2+1)^2} \mathrm{d}x
+    \end{align*}
 
 
-- year: 0 
+- year: 0
   number: 0
   exam: Complex_Analysis
   university: Emory
   tags:
-    - Cauchy Integral Formula 
+    - Cauchy Integral Formula
   question: |
     State and prove the Cauchy integral formula for holomorphic
     functions.
 
 
-- year: 0 
+- year: 0
   number: 0
   exam: Complex_Analysis
   university: Emory
   tags:
-    - Entire Functions 
+    - Entire Functions
   question: |
     Let $f$ be an entire function and suppose that $|f(z)| \leq A|z|^2$
     for all $z$ and some constant $A$. Show that $f$ is a polynomial of
     degree $\leq 2$.
 
 
-- year: 0 
+- year: 0
   number: 0
   exam: Complex_Analysis
   university: Emory
   tags:
-    - Schwarz Lemma 
+    - Schwarz Lemma
   question: |
     1.  State the Schwarz lemma for analytic functions in the unit disc.
 
     2.  Let $f: \mathbf{D} \to \mathbf{D}$ be an analytic map from the
         unit disc $\mathbf{D}$ into itself. Use the Schwarz lemma to
-        show that for each $a\in \mathbf{D}$ we have 
-        \begin{aligned}
-          \dfrac{|f'(a)|}{1-|f(a)|^2} \leq \dfrac{1}{1-|a|^2} \, .
-        \end{aligned}
+        show that for each $a\in \mathbf{D}$ we have
+        \begin{align*}
+        \dfrac{|f'(a)|}{1-|f(a)|^2} \leq \dfrac{1}{1-|a|^2}
+        \end{align*}
 
 
-- year: 0 
+- year: 0
   number: 0
   exam: Complex_Analysis
   university: Emory
@@ -63,21 +63,21 @@
     State the Riemann mapping theorem and prove the uniqueness part.
 
 
-- year: 0 
+- year: 0
   number: 0
   exam: Complex_Analysis
   university: Emory
   tags:
-    - Integrals 
+    - Integrals
   question: |
-    Compute the integrals 
-    \begin{aligned}
-      \int_{|z-2|=1} \dfrac{e^z}{z(z-1)^2} \, 
-      \mathrm{d}z, \quad \int_0^\infty \dfrac{\cos 2x}{x^2 + 2} \, \mathrm{d}x \, .
-    \end{aligned}
+    Compute the integrals
+    \begin{align*}
+    \int_{|z-2|=1} \dfrac{e^z}{z(z-1)^2} \,
+    \mathrm{d}z, \quad \int_0^\infty \dfrac{\cos 2x}{x^2 + 2} \, \mathrm{d}x
+    \end{align*}
 
 
-- year: 0 
+- year: 0
   number: 0
   exam: Complex_Analysis
   university: Emory
@@ -94,7 +94,7 @@
 
 
 
-- year: 0 
+- year: 0
   number: 0
   exam: Complex_Analysis
   university: Emory
@@ -106,7 +106,7 @@
 
 
 
-- year: 0 
+- year: 0
   number: 0
   exam: Complex_Analysis
   university: Emory
@@ -121,17 +121,17 @@
 
 
 
-- year: 0 
+- year: 0
   number: 0
   exam: Complex_Analysis
   university: Emory
   tags:
-    - Meromorphic Functions 
+    - Meromorphic Functions
   question: |
     Let $f$ be a meromorphic function in the plane such that
-    \begin{aligned}
-           \lim_{|z|\to\infty} |f(z)| = \infty \, .
-    \end{aligned}
+    \begin{align*}
+    \lim_{|z|\to\infty} |f(z)| = \infty
+    \end{align*}
 
     1.  Show that $f$ has only finitely many poles.
 
