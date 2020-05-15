@@ -1,5 +1,5 @@
-#!/bin/bash
+#!/usr/bin/python
 
-find ./Questions -type f -iname "*.yaml" -exec cat {} + | yq -r '.[] | .question' | while read linetext; do
-  echo === $linetext ===
-done
+#find ./Questions -type f -iname "*.yaml" -exec cat {} + | yq '.[] | .question' | while read linetext; do
+  #echo === $linetext ===
+#done
