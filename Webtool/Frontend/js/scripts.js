@@ -3,22 +3,25 @@ $(document).ajaxStart(function() {
 }).ajaxStop(function() {
     $(document.body).css({'cursor' : 'default'});
 });
+
 let intersect = (s1, s2) => {
   let s = new Set( [...s1].filter(x => s2.has(x)) );
   return s;
 }
 
 let parseQuestions = jsonQuestions => {
-  years = Array.from(new Set(jsonQuestions.map(a => a.year))).sort();
-  //years.forEach(j => {
-    //$("#selectYears").append($("<option selected></option>").val(j).html(j));
-  //});
-
-  let topics = Array.from(new Set([].concat(...jsonQuestions.map(a => a.tags)))).sort();
-  let universities = Array.from(new Set([].concat(...jsonQuestions.map(a => a.university)))).sort();
-  //topics.forEach(j => {
-    //$("#selectTopics").append($("<option selected></option>").val(j).html(j));
-  //});
+  debugger;
+  let years = Array.from(
+    new Set(jsonQuestions.map(a => a.year))
+  ).sort();
+  
+  let topics = Array.from(
+    new Set([].concat(...jsonQuestions.map(a => a.tags)))
+  ).sort();
+  
+  let universities = Array.from(
+    new Set([].concat(...jsonQuestions.map(a => a.university)))
+  ).sort();
 
 
   window.selectYears = $('#selectYears').selectize({
