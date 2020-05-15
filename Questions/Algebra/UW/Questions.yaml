@@ -429,9 +429,11 @@
     - Let $\pi:G\rightarrow\GL(V)$ be an irreducible representation
       of $G$ (over $\mathbb C$). Show that $\pi(P_C)$ acts on $V$
       as multiplication by the scalar
-      $$
+      
+      \begin{align*}
       \frac{|C|\chi_{\pi}(C)}{\dim V},
-      $$
+      \end{align*}
+      
       where $\chi_{\pi}(C)$ is the value of the character
       $\chi_{\pi}$ on any element of $C$.
 
@@ -748,14 +750,15 @@
       of a module,
 
     - Let $l(M)$ denote the length of a module $M$. Prove that if
-      $$
+      \begin{align*}
       0\rightarrow M_1\rightarrow M_2\rightarrow\dots\rightarrow
       M_n\rightarrow 0
-      $$
+      .\end{align*}
+      
       is an exact sequence of modules of finite length, then
-      $$
+      \begin{align*}
       \sum_{i=1}^n(-1)^kl(M_i)=0.
-      $$
+      .\end{align*}
 
 
 - year: 2010
