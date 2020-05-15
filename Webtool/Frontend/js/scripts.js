@@ -1,4 +1,4 @@
-const devmode = true;
+const devmode = false;
 
 $(document).ajaxStart(function() {
     $(document.body).css({'cursor' : 'wait'});
