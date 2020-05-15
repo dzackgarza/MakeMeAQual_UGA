@@ -4,6 +4,7 @@
   exam: Complex_Analysis
   university: Emory
   tags:
+    - Integrals
     - Residues
   question: |
     Use residues to compute the integral 
@@ -28,7 +29,7 @@
   exam: Complex_Analysis
   university: Emory
   tags:
-    - Complex 
+    - Entire Functions 
   question: |
     Let $f$ be an entire function and suppose that $|f(z)| \leq A|z|^2$
     for all $z$ and some constant $A$. Show that $f$ is a polynomial of
@@ -40,7 +41,7 @@
   exam: Complex_Analysis
   university: Emory
   tags:
-    - Complex 
+    - Schwarz Lemma 
   question: |
     1.  State the Schwarz lemma for analytic functions in the unit disc.
 
@@ -67,7 +68,7 @@
   exam: Complex_Analysis
   university: Emory
   tags:
-    - Complex 
+    - Integrals 
   question: |
     Compute the integrals 
     \begin{aligned}
@@ -81,7 +82,7 @@
   exam: Complex_Analysis
   university: Emory
   tags:
-    - Complex 
+    - Convergence
   question: |
     Let $(f_n)$ be a sequence of holomorphic functions in a domain $D$.
     Suppose that $f_n \to f$ uniformly on each compact subset of $D$.
@@ -98,7 +99,7 @@
   exam: Complex_Analysis
   university: Emory
   tags:
-    - Complex 
+    - Entire Functions
   question: |
     If $f$ is a non-constant entire function, then $f(\mathbf{C})$ is
     dense in the plane.
@@ -125,7 +126,7 @@
   exam: Complex_Analysis
   university: Emory
   tags:
-    - Complex 
+    - Meromorphic Functions 
   question: |
     Let $f$ be a meromorphic function in the plane such that
     \begin{aligned}

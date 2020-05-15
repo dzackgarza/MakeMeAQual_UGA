@@ -4,6 +4,7 @@
   university: Emory
   tags:
     - Groups
+    - Classification
   question: |
     Classify the groups of order $182 = 2 \cdot 7 \cdot 13$.
 
@@ -76,6 +77,7 @@
   university: Emory
   tags:
     - Groups 
+    - Group Actions
   question: |
     Let $G$ be a finite group.
 
@@ -94,6 +96,7 @@
   university: Emory
   tags:
     - Groups 
+    - Classification 
   question: |
     Classify all groups of order $15$ and of order $30$.
 
@@ -104,6 +107,7 @@
   university: Emory
   tags:
     - Groups 
+    - Sylow Theory
   question: |
     Count the number of $p$-Sylow subgroups of $S_p$.
 
@@ -129,7 +133,6 @@
   university: Emory
   tags:
     - Fields
-    - Galois Theory
   question: |
     Let $K$ and $L$ be finite fields. Show that $K$ is contained in $L$
     if and only if $\# K = p^r$ and $\# L = p^s$ for the same prime $p$,
@@ -153,7 +156,7 @@
   university: Emory
   tags:
     - Fields
-    - Galois Theory
+    - Polynomials
   question: |
     Fix a field $F$, a separable polynomial $f\in F[x]$ of degree
     $n \geq 3$, and a splitting field $L$ for $f$. Prove that if
@@ -174,6 +177,7 @@
   university: Emory
   tags:
     - Fields
+    - Polynomials
     - Galois Theory
   question: |
     1.  Show that $\sqrt{2+\sqrt{2}}$ is a root of
@@ -218,6 +222,7 @@
   university: Emory
   tags:
     - Rings
+    - Polynomials
   question: |
     Let $F$ be a field, and let $R$ be the subring of $F[X]$ of
     polynomials with $X$ coefficient equal to $0$. Prove that $R$ is not
@@ -230,6 +235,7 @@
   university: Emory
   tags:
     - Rings
+    - Ideals
   question: |
     $R$ is a commutative ring with 1. Prove that if $I$ is a maximal
     ideal in $R$, then $R/I$ is a field. Prove that if $R$ is a PID,
@@ -243,6 +249,7 @@
   university: Emory
   tags:
     - Linear Algebra 
+    - Matrices
   question: |
     Prove that any square matrix is conjugate to its transpose matrix.
     (You may prove it over $\mathbf{C}$).
@@ -254,6 +261,7 @@
   university: Emory
   tags:
     - Linear Algebra 
+    - Matrices
   question: |
     Determine the number of conjugacy classes of $16 \times 16$ matrices
     with entries in $\mathbf{Q}$ and minimal polynomial
@@ -267,6 +275,7 @@
   university: Emory
   tags:
     - Linear Algebra 
+    - Vector Spaces
   question: |
     Let $V$ be a vector space over a field $F$. The evaluation map
     $e\colon V \to (V^\vee)^\vee$ is defined by
@@ -283,7 +292,7 @@
   exam: Algebra
   university: Emory
   tags:
-    - Linear Algebra 
+    - Modules
   question: |
     Let $R$ be a principal ideal domain that is not a field, and write
     $F$ for its field of fractions. Prove that $F$ is not a finitely
@@ -296,6 +305,7 @@
   university: Emory
   tags:
     - Linear Algebra 
+    - Vector Spaces
   question: |
     Carefully state Zorn's lemma and use it to prove that every vector
     space has a basis.
