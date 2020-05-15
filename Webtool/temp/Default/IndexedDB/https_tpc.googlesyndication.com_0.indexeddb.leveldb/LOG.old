@@ -1,0 +1,8 @@
+2020/05/15-19:16:15.708 51651 Reusing MANIFEST /home/zack/SparkleShare/github.com/MakeMeAQual UGA/Webtool/temp/Default/IndexedDB/https_tpc.googlesyndication.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/05/15-19:16:15.708 51651 Recovering log #4
+2020/05/15-19:16:15.708 51651 Reusing old log /home/zack/SparkleShare/github.com/MakeMeAQual UGA/Webtool/temp/Default/IndexedDB/https_tpc.googlesyndication.com_0.indexeddb.leveldb/000004.log 
+2020/05/15-19:16:23.365 514bf Level-0 table #8: started
+2020/05/15-19:16:23.365 514bf Level-0 table #8: 0 bytes OK
+2020/05/15-19:16:23.370 514bf Delete type=0 #4
+2020/05/15-19:16:23.370 514bf Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/05/15-19:16:23.370 514bf Manual compaction at level-1 from (begin) .. (end); will stop at (end)
