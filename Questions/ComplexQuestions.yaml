@@ -1,0 +1,151 @@
+
+- year: 0 
+  number: 0
+  exam: Complex_Analysis
+  university: Emory
+  tags:
+    - Residues
+  question: |
+    Use residues to compute the integral 
+    \begin{aligned}
+      \int_{0}^{\infty} \dfrac{\cos x}{(x^2+1)^2} \mathrm{d}x \, .
+    \end{aligned}
+
+
+- year: 0 
+  number: 0
+  exam: Complex_Analysis
+  university: Emory
+  tags:
+    - Cauchy Integral Formula 
+  question: |
+    State and prove the Cauchy integral formula for holomorphic
+    functions.
+
+
+- year: 0 
+  number: 0
+  exam: Complex_Analysis
+  university: Emory
+  tags:
+    - Complex 
+  question: |
+    Let $f$ be an entire function and suppose that $|f(z)| \leq A|z|^2$
+    for all $z$ and some constant $A$. Show that $f$ is a polynomial of
+    degree $\leq 2$.
+
+
+- year: 0 
+  number: 0
+  exam: Complex_Analysis
+  university: Emory
+  tags:
+    - Complex 
+  question: |
+    1.  State the Schwarz lemma for analytic functions in the unit disc.
+
+    2.  Let $f: \mathbf{D} \to \mathbf{D}$ be an analytic map from the
+        unit disc $\mathbf{D}$ into itself. Use the Schwarz lemma to
+        show that for each $a\in \mathbf{D}$ we have 
+        \begin{aligned}
+          \dfrac{|f'(a)|}{1-|f(a)|^2} \leq \dfrac{1}{1-|a|^2} \, .
+        \end{aligned}
+
+
+- year: 0 
+  number: 0
+  exam: Complex_Analysis
+  university: Emory
+  tags:
+    - Riemann Mapping
+  question: |
+    State the Riemann mapping theorem and prove the uniqueness part.
+
+
+- year: 0 
+  number: 0
+  exam: Complex_Analysis
+  university: Emory
+  tags:
+    - Complex 
+  question: |
+    Compute the integrals 
+    \begin{aligned}
+      \int_{|z-2|=1} \dfrac{e^z}{z(z-1)^2} \, 
+      \mathrm{d}z, \quad \int_0^\infty \dfrac{\cos 2x}{x^2 + 2} \, \mathrm{d}x \, .
+    \end{aligned}
+
+
+- year: 0 
+  number: 0
+  exam: Complex_Analysis
+  university: Emory
+  tags:
+    - Complex 
+  question: |
+    Let $(f_n)$ be a sequence of holomorphic functions in a domain $D$.
+    Suppose that $f_n \to f$ uniformly on each compact subset of $D$.
+    Show that
+
+    -   $f$ is holomorphic on $D$.
+
+    -   $f_n' \to f'$ uniformly on each compact subset of $D$.
+
+
+
+- year: 0 
+  number: 0
+  exam: Complex_Analysis
+  university: Emory
+  tags:
+    - Complex 
+  question: |
+    If $f$ is a non-constant entire function, then $f(\mathbf{C})$ is
+    dense in the plane.
+
+
+
+- year: 0 
+  number: 0
+  exam: Complex_Analysis
+  university: Emory
+  tags:
+    - Rouche
+  question: |
+    1.  State Rouche's theorem.
+
+    2.  Let $f$ be analytic in a neighborhood of $0$, and satisfying
+        $f'(0) \neq 0$. Use Rouche's theorem to show that there exists a
+        neighborhood $U$ of $0$ such that $f$ is a bijection in $U$.
+
+
+
+- year: 0 
+  number: 0
+  exam: Complex_Analysis
+  university: Emory
+  tags:
+    - Complex 
+  question: |
+    Let $f$ be a meromorphic function in the plane such that
+    \begin{aligned}
+           \lim_{|z|\to\infty} |f(z)| = \infty \, .
+    \end{aligned}
+
+    1.  Show that $f$ has only finitely many poles.
+
+    2.  Show that $f$ is a rational function.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
