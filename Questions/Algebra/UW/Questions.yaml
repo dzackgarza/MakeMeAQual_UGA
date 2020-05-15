@@ -853,13 +853,14 @@
   exam: Algebra
   university: UW
   tags:
-    - Algebra
+    - Fields 
   question: |
     Let $F$ be a field of characteristic zero, and let $K$
-    be an \textit{algebraic} extension of $F$ that possesses the following
+    be an *algebraic* extension of $F$ that possesses the following
     property: every polynomial $f\in F[x]$ has a root in $K$.
     Show that $K$ is algebraically closed.\\
-    \textbf{Hint:} if $K(\theta)/K$ is algebraic, consider $F(\theta)/F$
+    
+    > **Hint:** if $K(\theta)/K$ is algebraic, consider $F(\theta)/F$
     and its normal closure; primitive elements might be of help.
 
 
@@ -868,7 +869,7 @@
   exam: Algebra
   university: UW
   tags:
-    - Algebra
+    - Representation Theory
   question: |
     Let $G$ be the unique non-abelian group of order 21.
 
@@ -885,7 +886,8 @@
   exam: Algebra
   university: UW
   tags:
-    - Algebra
+    - Groups
+    - Classification
   question: |
 
     - Classify all groups of order $2009=7^2\times 41$.
@@ -900,7 +902,9 @@
   exam: Algebra
   university: UW
   tags:
-    - Algebra
+    - Fields
+    - Rings
+    - Commutative Algebra
   question: |
     Let $K$ be a field. A discrete valuation on $K$ is a function $\nu:
     K\setminus\{0\}\rightarrow\mathbb Z$ such that
@@ -938,7 +942,7 @@
   exam: Algebra
   university: UW
   tags:
-    - Algebra
+    - Fields
   question: |
     Let $F$ be a field of characteristic not equal to 2.
 
@@ -958,7 +962,8 @@
   exam: Algebra
   university: UW
   tags:
-    - Algebra
+    - Fields
+    - Polynomials
   question: |
     Let $F$ be a field and $p(x)\in F[x]$ an irreducible polynomial.
 
@@ -981,7 +986,8 @@
   exam: Algebra
   university: UW
   tags:
-    - Algebra
+    - Modules
+    - Commutative Algebra
   question: |
     Fix a ring $R$, an $R$-module $M$, and an $R$-module homomorphism
     $f:M\rightarrow M$.
@@ -1008,7 +1014,7 @@
   exam: Algebra
   university: UW
   tags:
-    - Algebra
+    - Representation Theory
   question: |
     Let $G$ be a finite group, $k$ an algebraically closed field, and $V$
     an irreducible $k$-linear representation of $G$.
@@ -1030,7 +1036,8 @@
   exam: Algebra
   university: UW
   tags:
-    - Algebra
+    - Galois Theory
+    - Polynomials
   question: |
     Let $f(x)$ be an irreducible polynomial of degree 5 over the field
     $\mathbb Q$ of rational numbers with exactly 3 real roots.
@@ -1048,7 +1055,8 @@
   exam: Algebra
   university: UW
   tags:
-    - Algebra
+    - Fields
+    - Polynomials
   question: |
     Let $F$ be a finite field. Show for any positive integer $n$ that
     there are irreducible polynomials of degree $n$ in $F[x]$.
@@ -1059,7 +1067,8 @@
   exam: Algebra
   university: UW
   tags:
-    - Algebra
+    - Groups
+    - Matrices
   question: |
     Show that the order of the group $\text{GL}_n(\mathbb F_q)$ of invertible
     $n\times n$ matrices over the field $\mathbb F_q$ of $q$ elements is given by
