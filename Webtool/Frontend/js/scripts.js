@@ -4,6 +4,12 @@ $(document).ajaxStart(function() {
     $(document.body).css({'cursor' : 'default'});
 });
 
+Selectize.prototype.selectall = function(){
+    var self = this;
+    self.setValue(Object.keys(self.options));
+    self.focus();
+};
+
 let intersect = (s1, s2) => {
   let s = new Set( [...s1].filter(x => s2.has(x)) );
   return s;
@@ -56,7 +62,6 @@ let updateSelectOptions = exam_name => {
     onChange: updateSelectedQuestions,
     selectOnTab: true
   })
- 
 }
 
 let parseQuestions = jsonQuestions => {
@@ -182,6 +187,7 @@ $('#btnClearAllYears').on('click', function(event) {
 
 $('input[type=radio][name=examType]').change(function () {
   updateSelectOptions( $(this).val() );
+  updateSelectedQuestions();
 })
 
 fetch("AllQuestions.json")
