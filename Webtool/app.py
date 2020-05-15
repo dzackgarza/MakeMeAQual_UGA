@@ -46,7 +46,7 @@ def example():
                 q_year = x['year'],
                 orig_number = x['number'],
                 content = x['question']
-            ).replace("'", r"\textsc{\char13}")
+            )
         print(out_str)
         total_string += out_str
     #print(total_string)
