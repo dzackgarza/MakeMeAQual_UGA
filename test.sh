@@ -7,8 +7,6 @@
 import yaml
 
 with open(r'combined_questions.yaml') as file:
-    # The FullLoader parameter handles the conversion from YAML
-    # scalar values to Python the dictionary format
-    fruits_list = yaml.load(file, Loader=yaml.FullLoader)
+    fruits_list = yaml.load(file)
 
     print(fruits_list)
