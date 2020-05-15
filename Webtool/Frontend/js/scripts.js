@@ -11,6 +11,9 @@ let intersect = (s1, s2) => {
 
 let updateSelectOptions = exam_name => {
   
+  let jsonQuestions = window.questions;
+
+
   let years = Array.from( new Set(
     jsonQuestions
     .filter(a => a.exam == exam_name)
@@ -33,18 +36,21 @@ let updateSelectOptions = exam_name => {
     )
   )).sort();
  
+  window.selectYears[0].selectize.destroy()
   window.selectYears = $('#selectYears').selectize({
     options: years.map(a => ({"text": a, "value": a})),
     items: years,
     onChange: updateSelectedQuestions,
     selectOnTab: true
   })
+  window.selectTopics[0].selectize.destroy()
   window.selectTopics = $('#selectTopics').selectize({
     options: topics.map(a => ({"text": a, "value": a})),
     items: topics,
     onChange: updateSelectedQuestions,
     selectOnTab: true
   })
+  window.selectUniversities[0].selectize.destroy()
   window.selectUniversities = $('#selectUniversities').selectize({
     options: universities.map(a => ({"text": a, "value": a})),
     items: universities,
@@ -68,10 +74,6 @@ let parseQuestions = jsonQuestions => {
   let universities = Array.from(
     new Set([].concat(...jsonQuestions.map(a => a.university)))
   ).sort();
-
-  debugger;
-
-  let initi
 
   window.selectYears = $('#selectYears').selectize({
     options: years.map(a => ({"text": a, "value": a})),
