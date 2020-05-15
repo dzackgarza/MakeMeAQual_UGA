@@ -10,6 +10,8 @@ testpdf:
 	@ find ./Questions -type f -iname "*.yaml" -exec cat {} + > combined_questions.yaml
 	./test.sh
 	latex_preview -f combined_questions.md -v
+	rm combined_questions.md
+	rm combined_questions.pdf
 
 .ONESHELL:
 
