@@ -3,7 +3,7 @@
   exam: Algebra
   university: UW
   tags:
-    - Algebra
+    - Groups 
   question: |
     Show that no finite group is the union of conjugates of a proper subgroup.
 
@@ -12,7 +12,7 @@
   exam: Algebra
   university: UW
   tags:
-    - Algebra
+    - Groups 
   question: |
     Classify all groups of order 18 up to isomorphism.
 
@@ -21,7 +21,8 @@
   exam: Algebra
   university: UW
   tags:
-    - Algebra
+    - Fields
+    - Galois Theory
   question: |
     Let $\alpha,\beta$ denote the unique positive
     real $5^{\text{th}}$ root of 7 and $4^{\text{th}}$ root of 5,
@@ -32,7 +33,8 @@
   exam: Algebra
   university: UW
   tags:
-    - Algebra
+    - Fields
+    - Galois Theory
   question: |
     Show that the field extension $\mathbb Q\subseteq\mathbb Q\left(
     \sqrt{2+\sqrt2}\right)$ is Galois and determine its Galois group.
@@ -42,7 +44,9 @@
   exam: Algebra
   university: UW
   tags:
-    - Algebra
+    - Linear Algebra
+    - Matrices
+    - Canonical Forms
   question: |
     Let $M$ be a square matrix over a field $K$. Use a suitable canonical
     form to show that $M$ is similar to its transpose $M^T$.
@@ -52,7 +56,8 @@
   exam: Algebra
   university: UW
   tags:
-    - Algebra
+    - Groups
+    - Representation Theory
   question: |
     Let $G$ be a finite group and $\pi_0$, $\pi_1$ be two irreducible representations of $G$. Prove or disprove the following assertion:
     $\pi_0$ and $\pi_1$ are equivalent if and only if $\det\pi_0(g)=\det\pi_1(g)$
@@ -63,7 +68,8 @@
   exam: Algebra
   university: UW
   tags:
-    - Algebra
+    - Rings
+    - Commutative Algebra
   question: |
     Let $R$ be a Noetherian ring. Prove that $R[x]$ and $R[[x]]$ are both
     Noetherian. (The first part of the question is asking you to prove the
@@ -74,7 +80,7 @@
   exam: Algebra
   university: UW
   tags:
-    - Algebra
+    - Fields 
   question: |
     Classify (with proof) all fields with finitely many elements.
 
@@ -83,7 +89,7 @@
   exam: Algebra
   university: UW
   tags:
-    - Algebra
+    - Modules 
   question: |
     Suppose $A$ is a commutative ring and $M$ is a finitely presented module.
     Given any surjection $\phi:A^n\rightarrow M$ from a finite free
@@ -94,7 +100,7 @@
   exam: Algebra
   university: UW
   tags:
-    - Algebra
+    - Groups 
   question: |
     Classify all groups of order 57.
 
@@ -103,7 +109,8 @@
   exam: Algebra
   university: UW
   tags:
-    - Algebra
+    - Groups
+    - Representation Theory
   question: |
     Show that a finite simple group cannot have a 2-dimensional irreducible
     representation over $\mathbb C$. (Hint: the determinant might prove useful.)
@@ -113,7 +120,7 @@
   exam: Algebra
   university: UW
   tags:
-    - Algebra
+    - Groups 
   question: |
     Let $G$ be a finite simple group. Assume that every proper subgroup
     of $G$ is abelian. Prove that then $G$ is cyclic of prime order.
@@ -123,7 +130,9 @@
   exam: Algebra
   university: UW
   tags:
-    - Algebra
+    - Fields
+    - Polynomials
+    - Galois Theory
   question: |
     Let $a\in\mathbb N$, $a>0$. Compute the Galois group of the splitting field
     of the polynomial $x^5-5a^4x+a$ over $\mathbb Q$.
@@ -133,7 +142,7 @@
   exam: Algebra
   university: UW
   tags:
-    - Algebra
+    - Groups
   question: |
     Recall that an inner automorphism of a group is an automorphism given by conjugation by an element of the group. An outer automorphism is an automorphism that is not inner.
 
@@ -146,7 +155,10 @@
   exam: Algebra
   university: UW
   tags:
-    - Algebra
+    - Commutative Algebra
+    - Modules
+    - Ideals
+    - Localization
   question: |
     Let $A$ be a commutative ring and $M$ a finitely generated $A$-module.
     Define
@@ -166,7 +178,7 @@
   exam: Algebra
   university: UW
   tags:
-    - Algebra
+    - Commutative Algebra 
   question: |
     Let $A = \CC[x,y]/(y^2-(x-1)^3 - (x-1)^2)$.
 
@@ -178,6 +190,7 @@
   exam: Algebra
   university: UW
   tags:
+    - Modules
     - Homological Algebra
   question: |
     Let $R = k[x,y]$ where $k$ is a field, and let $I=(x,y)R$.
@@ -195,7 +208,10 @@
   exam: Algebra
   university: UW
   tags:
-    - Algebra
+    - Fields
+    - Galois Theory
+    - Linear Algebra
+    - Matrices
   question: |
 
     - Find an irreducible polynomial of degree 5 over the
@@ -211,7 +227,7 @@
   exam: Algebra
   university: UW
   tags:
-    - Algebra
+    - Galois Theory
   question: |
     Find the minimal polynomial of $\sqrt2+\sqrt3$ over $\mathbb Q$.
     Justify your answer.
@@ -221,7 +237,7 @@
   exam: Algebra
   university: UW
   tags:
-    - Algebra
+    - Rings
   question: |
    \hfill
     - Let $R$ be a commutative ring with no nonzero nilpotent
@@ -234,7 +250,7 @@
   exam: Algebra
   university: UW
   tags:
-    - Algebra
+    - Groups 
   question: |
     Let $p$, $q$ be two distinct primes. Prove that there is at most one
     non-abelian group of order $pq$ and describe the pairs $(p,q)$
@@ -245,7 +261,7 @@
   exam: Algebra
   university: UW
   tags:
-    - Algebra
+    - Galois Theory 
   question: |
 
     - Let $L$ be a Galois extension of a field $K$ of degree 4.
@@ -261,7 +277,8 @@
   exam: Algebra
   university: UW
   tags:
-    - Algebra
+    - Algebras
+    - Modules
   question: |
     Let $R$ be a commutative algebra over $\mathbb C$. A derivation of $R$ is a
     $\mathbb C$-linear map $D:R\rightarrow R$ such that (i) $D(1)=0$ and
@@ -281,7 +298,8 @@
   exam: Algebra
   university: UW
   tags:
-    - Algebra
+    - Groups
+    - Representation Theory
   question: |
     Let $G$ be a non-abelian group of order $p^3$ with $p$ a prime.
 
@@ -300,7 +318,7 @@
   exam: Algebra
   university: UW
   tags:
-    - Algebra
+    - Groups 
   question: |
 
     - Let $G$ be a group (not necessarily finite) that contains
@@ -315,7 +333,8 @@
   exam: Algebra
   university: UW
   tags:
-    - Algebra
+    - Fields 
+    - Polynomials
   question: |
     Let $p$ be a prime, let $\mathbb F_p$ be the $p$-element field,
     and let $K=\mathbb F_p(t)$ be the field of rational functions in
@@ -334,7 +353,8 @@
   exam: Algebra
   university: UW
   tags:
-    - Algebra
+    - Rings
+    - Commutative Algebra
   question: |
     Recall that a ring $A$ is called \textit{graded} if it admits a direct
     sum decomposition $A=\oplus_{n=0}^{\infty}A_n$ as abelian groups, with the
@@ -349,7 +369,7 @@
   exam: Algebra
   university: UW
   tags:
-    - Algebra
+    - Rings
   question: |
     Let $R$ be a ring with the property that $a^2=a$ for all $a\in R$.
 
@@ -368,7 +388,7 @@
   exam: Algebra
   university: UW
   tags:
-    - Algebra
+    - Galois Theory
   question: |
     Let $\overline{\mathbb F_p}$ denote the algebraic closure of $\mathbb F_p$. Show that
     the Galois group $\Gal(\overline{\mathbb F_p}/\mathbb F_p)$
@@ -380,7 +400,7 @@
   exam: Algebra
   university: UW
   tags:
-    - Algebra
+    - Representation Theory
   question: |
     Let $C_p$ denote the cyclic group of order $p$.
 
@@ -408,7 +428,7 @@
   exam: Algebra
   university: UW
   tags:
-    - Algebra
+    - Representation Theory
   question: |
     Let $G$ be a finite group and $\mathbb Z[G]$ the internal group algebra.
     Let $\mathcal Z$ be the center of $\mathbb Z[G]$. For each conjugacy class
