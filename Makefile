@@ -9,9 +9,13 @@ json:
 testpdf:
 	@ find ./Questions -type f -iname "*.yaml" -exec cat {} + > combined_questions.yaml
 	./test.sh
-	latex_preview -f combined_questions.md -v
+	bash -c "trap 'trap - SIGINT SIGTERM ERR; latex_preview -f combined_questions.md -v
+' SIGINT SIGTERM ERR; $(MAKE) cleanup"
+
+cleanup:
+	rm combined_questions.*
+
 
 .ONESHELL:
 
 
-.INTERMEDIATE: combined_questions.md combined_questions.pdf
