@@ -1,3 +1,5 @@
+const devmode = true;
+
 $(document).ajaxStart(function() {
     $(document.body).css({'cursor' : 'wait'});
 }).ajaxStop(function() {
@@ -105,8 +107,7 @@ $('#makeQual').on('click', function(event) {
   let num_questions= parseInt($('#numberQuestions').val()) || 0;
   let do_pdf = parseInt($("input[name='outputFormat']:checked").val()) == 1 || false;
   $.ajax({
-    //url: 'http://127.0.0.1:5000/createqual',
-    url: 'https://dzackgarza.com:5000/createqual',
+    url: devmode ? 'http://127.0.0.1:5000/createqual' : 'https://dzackgarza.com:5000/createqual',
     type: 'post',
     data: JSON.stringify({
       questions: window.selectedQuestions,
