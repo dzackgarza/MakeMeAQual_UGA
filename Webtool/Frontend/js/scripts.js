@@ -180,6 +180,10 @@ $('#btnClearAllYears').on('click', function(event) {
   window.selectYears[0].selectize.clear();
 });
 
+$('input[type=radio][name=examType]').change(function () {
+  updateSelectOptions( $(this).val() );
+})
+
 fetch("AllQuestions.json")
   .then(response => response.json())
   .then(json => parseQuestions(json));
