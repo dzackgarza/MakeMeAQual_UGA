@@ -4,6 +4,7 @@ from flask import request, Response, send_file
 import subprocess
 import io
 import random
+from os import path
 
 
 app = Flask(__name__, static_folder="Frontend")
@@ -67,9 +68,10 @@ def example():
         return(output)
 
 if __name__ == '__main__':
-    # app.run(host = '0.0.0.0')
-    app.run(host = '0.0.0.0', ssl_context=('/home/zack/cert.pem', '/home/zack/key.pem'))
-
+    if path.exists("/home/zack/cert.pem") and path.exists("/home/zack/key.pem"):
+        app.run(host = '0.0.0.0', ssl_context=('/home/zack/cert.pem', '/home/zack/key.pem'))
+    else:
+        app.run(host = '0.0.0.0')
 
 
 
