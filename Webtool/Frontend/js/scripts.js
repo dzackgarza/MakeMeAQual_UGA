@@ -68,38 +68,7 @@ let parseQuestions = jsonQuestions => {
   window.questions = jsonQuestions;
 
   updateSelectOptions("Algebra");
-
-  //let years = Array.from(
-    //new Set(jsonQuestions.map(a => a.year))
-  //).sort();
-  
-  //let topics = Array.from(
-    //new Set([].concat(...jsonQuestions.map(a => a.tags)))
-  //).sort();
-  
-  //let universities = Array.from(
-    //new Set([].concat(...jsonQuestions.map(a => a.university)))
-  //).sort();
-
-  //window.selectYears = $('#selectYears').selectize({
-    //options: years.map(a => ({"text": a, "value": a})),
-    //items: years,
-    //onChange: updateSelectedQuestions,
-    //selectOnTab: true
-  //})
-  //window.selectTopics = $('#selectTopics').selectize({
-    //options: topics.map(a => ({"text": a, "value": a})),
-    //items: topics,
-    //onChange: updateSelectedQuestions,
-    //selectOnTab: true
-  //})
-  //window.selectUniversities = $('#selectUniversities').selectize({
-    //options: universities.map(a => ({"text": a, "value": a})),
-    //items: universities,
-    //onChange: updateSelectedQuestions,
-    //selectOnTab: true
-  //})
-  
+ 
   // Labels with numbers of questions
   $('label[for=AlgebraRadio]').html(
     `Algebra <small class=text-muted>(${jsonQuestions.map(a => a.exam).filter(a => a == "Algebra").length})</small>`
@@ -139,13 +108,11 @@ $('#makeQual').on('click', function(event) {
     //url: 'http://127.0.0.1:5000/createqual',
     url: 'https://dzackgarza.com:5000/createqual',
     type: 'post',
-    data: JSON.stringify(
-      {
-        questions: window.selectedQuestions,
-        do_pdf: do_pdf,
-        num_questions: num_questions
-      }
-    ),
+    data: JSON.stringify({
+      questions: window.selectedQuestions,
+      do_pdf: do_pdf,
+      num_questions: num_questions
+    }),
     contentType: "application/json",
     xhr:function(){
       var xhr = new XMLHttpRequest();
@@ -177,6 +144,10 @@ $('#makeQual').on('click', function(event) {
 $('#btnClearAllTopics').on('click', function(event) {
   event.preventDefault();
   window.selectTopics[0].selectize.clear();
+});
+$('#btnSelectAllTopics').on('click', function(event) {
+  event.preventDefault();
+  window.selectTopics[0].selectize.selectall();
 });
 
 
