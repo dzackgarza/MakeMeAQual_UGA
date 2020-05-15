@@ -303,3 +303,91 @@
 
     (c) What is the degree of $\QQ(\zeta, \sqrt[4] 2)$ over $\QQ$?
 
+- year: 2018
+  season: Fall
+  number: 1
+  exam: Algebra
+  university: UGA
+  tags:
+    - Algebra
+  question: |
+    Let $G$ be a finite group whose order is divisible by a prime number $p$.
+    Let $P$ be a normal $p\dash$subgroup of $G$
+    (so $\abs P = p^c$ for some $c$).
+
+    (a) Show that $P$ is contained in every Sylow $p\dash$subgroup of $G$.
+
+    (b) Let $M$ be a maximal proper subgroup of $G$. Show that either $P \subseteq M$ or $|G/M | = p^b$ for some $b \leq c$.
+
+
+- year: 2018
+  season: Fall
+  number: 8
+  exam: Algebra
+  university: UGA
+  tags:
+    - Algebra
+  question: |
+
+
+- year: 2018
+  season: Fall
+  number: 8
+  exam: Algebra
+  university: UGA
+  tags:
+    - Algebra
+  question: |
+
+
+- year: 2018
+  season: Fall
+  number: 8
+  exam: Algebra
+  university: UGA
+  tags:
+    - Algebra
+  question: |
+
+
+- year: 2018
+  season: Fall
+  number: 8
+  exam: Algebra
+  university: UGA
+  tags:
+    - Algebra
+  question: |
+
+
+- year: 2018
+  season: Fall
+  number: 8
+  exam: Algebra
+  university: UGA
+  tags:
+    - Algebra
+  question: |
+
+
+- year: 2018
+  season: Fall
+  number: 8
+  exam: Algebra
+  university: UGA
+  tags:
+    - Algebra
+  question: |
+
+
+- year: 2018
+  season: Fall
+  number: 8
+  exam: Algebra
+  university: UGA
+  tags:
+    - Algebra
+  question: |
+
+
+
