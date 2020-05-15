@@ -113,7 +113,7 @@
   exam: Algebra
   university: Emory
   tags:
-    - Algebra
+    - Groups
   question: |
 
     1.  Let $G$ be a group of order $n$. Suppose that for every divisor
@@ -123,14 +123,196 @@
     2.  Let $F$ be a field. Show that every finite subgroup of the group
         of units $F^\times$ is cyclic.
 
-
-
 - year: 0 
-  number: 0
+  number: 1
   exam: Algebra
   university: Emory
   tags:
-    - Algebra
+    - Fields
+    - Galois Theory
   question: |
-    Classify the groups of order $182 = 2 \cdot 7 \cdot 13$.
+    Let $K$ and $L$ be finite fields. Show that $K$ is contained in $L$
+    if and only if $\# K = p^r$ and $\# L = p^s$ for the same prime $p$,
+    and $r \leq s$.
+
+- year: 0 
+  number: 2
+  exam: Algebra
+  university: Emory
+  tags:
+    - Fields
+    - Galois Theory
+  question: |
+    Let $K$ and $L$ be finite fields with $K \subseteq L$. Prove that
+    $L$ is Galois over $K$ and that $\mathrm{Gal}(L/K)$ is cyclic.
+
+
+- year: 0 
+  number: 3
+  exam: Algebra
+  university: Emory
+  tags:
+    - Fields
+    - Galois Theory
+  question: |
+    Fix a field $F$, a separable polynomial $f\in F[x]$ of degree
+    $n \geq 3$, and a splitting field $L$ for $f$. Prove that if
+    $[L:F] = n!$ then:
+
+    1.  $f$ is irreducible.
+
+    2.  For each root $r$ of $f$, $r$ is the unique root of $f$ in
+        $F(r)$.
+
+    3.  For every root $r$ of $f$, there are no proper intermediate
+        fields $F \subset L \subset F(r)$.
+
+
+- year: 0 
+  number: 4
+  exam: Algebra
+  university: Emory
+  tags:
+    - Fields
+    - Galois Theory
+  question: |
+    1.  Show that $\sqrt{2+\sqrt{2}}$ is a root of
+        $p(x) = x^2 - 4x^2 + 2 \in \mathbf{Q}[x]$.
+
+    2.  Prove that $\mathbf{Q}(\sqrt{2 + \sqrt{2}})$ is a Galois
+        extension of $\mathbf{Q}$ and find its Galois group. (Hint: note
+        that $\sqrt{2 - \sqrt{2}}$ is another root of $p(x)$).
+
+    3.  Let $f(x) = x^3 - 5$. Determine the splitting field $K$ of
+        $f(x)$ over $\mathbf{Q}$ and the Galois group of $f(x)$. Give an
+        example of a proper sub-extension
+        $\mathbf{Q} \subset L \subset K$, such that $L/\mathbf{Q}$ is
+        Galois.
+
+
+
+
+- year: 0 
+  number: 1
+  exam: Algebra
+  university: Emory
+  tags:
+    - Rings
+  question: |
+    An integral domain $R$ is said to be an *Euclidean domain* if there
+    is a function $N: R \to \{n\in\mathbf{Z} \mid n\geq 0\}$ such that
+    $N(0)=0$ and for each $a,b\in R$ with $b\neq 0$, there exist
+    elements $q,r\in R$ with $$\begin{aligned}
+            a = qb + r, \quad \text{and} \quad r = 0 \, \text{ or } \, N(r) < N(b).
+        \end{aligned}$$ Prove:
+
+    1.  The ring $F[[x]]$ of power series over a field $F$ is an
+        Euclidean domain.
+
+    2.  Every Euclidean domain is a PID.
+
+
+- year: 0 
+  number: 2
+  exam: Algebra
+  university: Emory
+  tags:
+    - Rings
+  question: |
+    Let $F$ be a field, and let $R$ be the subring of $F[X]$ of
+    polynomials with $X$ coefficient equal to $0$. Prove that $R$ is not
+    a UFD.
+
+
+- year: 0 
+  number: 3
+  exam: Algebra
+  university: Emory
+  tags:
+    - Rings
+  question: |
+    $R$ is a commutative ring with 1. Prove that if $I$ is a maximal
+    ideal in $R$, then $R/I$ is a field. Prove that if $R$ is a PID,
+    then every nonzero prime ideal in $R$ is maximal. Conclude that if
+    $R$ is a PID and $p\in R$ is prime, then $R/(p)$ is a field.
+
+
+- year: 0 
+  number: 1
+  exam: Algebra
+  university: Emory
+  tags:
+    - Linear Algebra 
+  question: |
+    Prove that any square matrix is conjugate to its transpose matrix.
+    (You may prove it over $\mathbf{C}$).
+
+
+- year: 0 
+  number: 2
+  exam: Algebra
+  university: Emory
+  tags:
+    - Linear Algebra 
+  question: |
+    Determine the number of conjugacy classes of $16 \times 16$ matrices
+    with entries in $\mathbf{Q}$ and minimal polynomial
+    $(x^2+1)^2(x^3+2)^2$.
+
+
+
+- year: 0 
+  number: 3
+  exam: Algebra
+  university: Emory
+  tags:
+    - Linear Algebra 
+  question: |
+    Let $V$ be a vector space over a field $F$. The evaluation map
+    $e\colon V \to (V^\vee)^\vee$ is defined by
+    $e(v)(f) \colonequals f(v)$ for $v\in V$ and $f\in V^\vee$.
+
+    1.  Prove that $e$ is an injection.
+
+    2.  Prove that $e$ is an isomorphism if and only if $V$ is finite
+        dimensional.
+
+
+- year: 0 
+  number: 4
+  exam: Algebra
+  university: Emory
+  tags:
+    - Linear Algebra 
+  question: |
+    Let $R$ be a principal ideal domain that is not a field, and write
+    $F$ for its field of fractions. Prove that $F$ is not a finitely
+    generated $R$-module.
+
+
+- year: 0 
+  number: 5
+  exam: Algebra
+  university: Emory
+  tags:
+    - Linear Algebra 
+  question: |
+    Carefully state Zorn's lemma and use it to prove that every vector
+    space has a basis.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
