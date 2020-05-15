@@ -4,7 +4,8 @@
   exam: Real_Analysis
   university: Emory
   tags:
-    - Real 
+    - Measure Theory
+    - Sigma Algebras
   question: |
     Describe the process that extends a measure on an algebra
     $\mathcal{A}$ of subsets of $X$, to a complete measure defined on a
@@ -17,8 +18,8 @@
   exam: Real_Analysis
   university: Emory
   tags:
-    - Fatou
     - Measure Theory
+    - Fatou
   question: |
     State and prove Fatou's Lemma on a general measurable space.
 
@@ -47,7 +48,7 @@
   exam: Real_Analysis
   university: Emory
   tags:
-    - Complex 
+    - Lp Spaces 
   question: |
     Let $f\in L^1([0,1])$. Show that
 
@@ -61,7 +62,7 @@
   exam: Real_Analysis
   university: Emory
   tags:
-    - Complex 
+    - Absolute Continuity
   question: |
     Let $f$ be a continuous function on $[0,1]$. Show that the following
     statements are equivalent.
