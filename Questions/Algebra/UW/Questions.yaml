@@ -720,14 +720,14 @@
     - Compute the order of $G$, $|G|$.
 
     - Write down an explicit isomorphism from $\mathbb Z/p\mathbb Z$ to
-      $$
+      \begin{align*}
       U=\left\{
       \begin{pmatrix}
         1 & a\\
         0 & 1
       \end{pmatrix}
       \bigg|a\in\mathbb F_p\right\}.
-      $$
+      \end{align*}
 
     - How many subgroups of order $p$ does $G$ have? Hint:
       compute $gug\inv$ for $g\in G$ and $u\in U$; use this
