@@ -141,6 +141,7 @@ $('#makeQual').on('click', function(event) {
   });
 });
 
+// Clear/Select All Topics
 $('#btnClearAllTopics').on('click', function(event) {
   event.preventDefault();
   window.selectTopics[0].selectize.clear();
@@ -150,17 +151,23 @@ $('#btnSelectAllTopics').on('click', function(event) {
   window.selectTopics[0].selectize.selectall();
 });
 
-
+// Clear/Select All Years
 $('#btnClearAllYears').on('click', function(event) {
   event.preventDefault();
   window.selectYears[0].selectize.clear();
 });
+$('#btnSelectAllYears').on('click', function(event) {
+  event.preventDefault();
+  window.selectYears[0].selectize.selectall();
+});
 
+// Update options on exam type change
 $('input[type=radio][name=examType]').change(function () {
   updateSelectOptions( $(this).val() );
   updateSelectedQuestions();
 })
 
+// Start setting up form.
 fetch("AllQuestions.json")
   .then(response => response.json())
   .then(json => parseQuestions(json));
