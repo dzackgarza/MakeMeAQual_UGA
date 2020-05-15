@@ -9,8 +9,54 @@ let intersect = (s1, s2) => {
   return s;
 }
 
+let updateSelectOptions = exam_name => {
+  
+  let years = Array.from( new Set(
+    jsonQuestions
+    .filter(a => a.exam == exam_name)
+    .map(a => a.year)
+  )).sort();
+  
+  let topics = Array.from(new Set(
+    [].concat(
+      ...jsonQuestions
+      .filter(a => a.exam == exam_name)
+      .map(a => a.tags)
+    )
+  )).sort();
+  
+  let universities = Array.from( new Set(
+    [].concat(
+      ...jsonQuestions
+      .filter(a => a.exam == exam_name)
+      .map(a => a.university)
+    )
+  )).sort();
+ 
+  window.selectYears = $('#selectYears').selectize({
+    options: years.map(a => ({"text": a, "value": a})),
+    items: years,
+    onChange: updateSelectedQuestions,
+    selectOnTab: true
+  })
+  window.selectTopics = $('#selectTopics').selectize({
+    options: topics.map(a => ({"text": a, "value": a})),
+    items: topics,
+    onChange: updateSelectedQuestions,
+    selectOnTab: true
+  })
+  window.selectUniversities = $('#selectUniversities').selectize({
+    options: universities.map(a => ({"text": a, "value": a})),
+    items: universities,
+    onChange: updateSelectedQuestions,
+    selectOnTab: true
+  })
+ 
+}
+
 let parseQuestions = jsonQuestions => {
-  debugger;
+  window.questions = jsonQuestions;
+
   let years = Array.from(
     new Set(jsonQuestions.map(a => a.year))
   ).sort();
@@ -23,6 +69,9 @@ let parseQuestions = jsonQuestions => {
     new Set([].concat(...jsonQuestions.map(a => a.university)))
   ).sort();
 
+  debugger;
+
+  let initi
 
   window.selectYears = $('#selectYears').selectize({
     options: years.map(a => ({"text": a, "value": a})),
@@ -42,11 +91,20 @@ let parseQuestions = jsonQuestions => {
     onChange: updateSelectedQuestions,
     selectOnTab: true
   })
-$('label[for=AlgebraRadio]').html(`Algebra <small class=text-muted>(${jsonQuestions.map(a => a.exam).filter(a => a == "Algebra").length})</small>`)
-  $('label[for=RealAnalysisRadio]').html(`Real Analysis <small class=text-muted>(${jsonQuestions.map(a => a.exam).filter(a => a == "Real_Analysis").length})</small>`)
-  $('label[for=TopologyRadio]').html(`Topology <small class=text-muted>(${jsonQuestions.map(a => a.exam).filter(a => a == "Topology").length})</small>`)
-  $('label[for=ComplexAnalysisRadio]').html(`Complex Analysis <small class=text-muted>(${jsonQuestions.map(a => a.exam).filter(a => a == "Complex_Analysis").length})</small>`)
-  window.questions = jsonQuestions;
+  
+  // Labels with numbers of questions
+  $('label[for=AlgebraRadio]').html(
+    `Algebra <small class=text-muted>(${jsonQuestions.map(a => a.exam).filter(a => a == "Algebra").length})</small>`
+  )
+  $('label[for=RealAnalysisRadio]').html(
+    `Real Analysis <small class=text-muted>(${jsonQuestions.map(a => a.exam).filter(a => a == "Real_Analysis").length})</small>`
+  )
+  $('label[for=TopologyRadio]').html(
+    `Topology <small class=text-muted>(${jsonQuestions.map(a => a.exam).filter(a => a == "Topology").length})</small>`
+  )
+  $('label[for=ComplexAnalysisRadio]').html(
+    `Complex Analysis <small class=text-muted>(${jsonQuestions.map(a => a.exam).filter(a => a == "Complex_Analysis").length})</small>`
+  )
   updateSelectedQuestions();
 }
 
