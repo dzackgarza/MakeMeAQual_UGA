@@ -1,7 +1,12 @@
+
+# Question 1
+
 Let $G$ be a finite group with $n$ distinct conjugacy classes.
 Let $g_1 \cdots g_n$ be representatives of the conjugacy classes of $G$.
 
 Prove that if $g_i g_j = g_j g_i$ for all $i, j$ then $G$ is abelian.
+
+# Question 2
 
 Let $G$ be a group of order 105 and let $P, Q, R$ be Sylow 3, 5, 7 subgroups respectively.
 
@@ -13,11 +18,15 @@ Let $G$ be a group of order 105 and let $P, Q, R$ be Sylow 3, 5, 7 subgroups res
 
 (d) Prove that if $P$ is normal in $G$ then $G$ is cyclic.
 
+# Question 3
+
 Let $R$ be a ring with the property that for every $a \in R, a^2 = a$.
 
 (a) Prove that $R$ has characteristic 2.
 
 (b) Prove that $R$ is commutative.
+
+# Question 4
 
 Let $F$ be a finite field with $q$ elements.
 
@@ -32,6 +41,8 @@ Prove that $m$ divides $k$.
 
 (c) Prove that $m = k$.
 
+# Question 5
+
 Let $R$ be a ring and $M$ an $R\dash$module.
 
 > Recall that the set of torsion elements in M is defined by
@@ -44,6 +55,8 @@ $$
 (b) Give an example where $\Tor(M )$ is not a submodule of $M$.
 
 (c) If $R$ has zero-divisors, prove that every non-zero $R\dash$module has non-zero torsion elements.
+
+# Question 6
 
 Let $R$ be a commutative ring with multiplicative identity. Assume Zorn's Lemma.
 
@@ -59,12 +72,16 @@ there is a prime ideal in $S$.
 
 (c) Suppose that $R$ has exactly one prime ideal $P$ . Prove that every element $r$ of $R$ is either nilpotent or a unit.
 
+# Question 7
+
 Let $\zeta_n$ denote a primitive $n$th root of 1 $\in \QQ$.
 You may assume the roots of the minimal polynomial $p_n(x)$ of $\zeta_n$ are exactly the primitive $n$th roots of 1.
 
 Show that the field extension $\QQ(\zeta_n )$ over $\QQ$ is Galois and prove its Galois group is $(\ZZ/n\ZZ)\units$.
 
 How many subfields are there of $\QQ(\zeta_{20} )$?
+
+# Question 8
 
 Let $\{e_1, \cdots, e_n \}$ be a basis of a real vector space $V$ and let
 $$
@@ -86,11 +103,15 @@ $$
 
 (c) Prove that $\det M = |\Lambda\dual /\Lambda|$.
 
+# Question 9
+
 Let $A$ be a square matrix over the complex numbers.
 Suppose that $A$ is nonsingular
 and that $A^{2019}$ is diagonalizable over $\CC$.
 
 Show that $A$ is also diagonalizable over $\CC$.
+
+# Question 10
 
 Let $F = \FF_p$ , where $p$ is a prime number.
 
@@ -100,9 +121,13 @@ Let $F = \FF_p$ , where $p$ is a prime number.
 (b) Show that if $\pi(x) \in F[x]$ is an irreducible polynomial that divides $x^{p^n} - x$,
 then $\deg \pi(x)$ divides $n$.
 
+# Question 11
+
 How many isomorphism classes are there of groups of order 45?
 
 Describe a representative from each class.
+
+# Question 12
 
 For a finite group $G$, let $c(G)$ denote the number of conjugacy classes of $G$.
 
@@ -119,6 +144,8 @@ $$
 
 > Here, as usual, $Z(G)$ denotes the center of $G$.
 
+# Question 13
+
 Let $R$ be an integral domain. Recall that if $M$ is an $R\dash$module, the *rank* of $M$ is
 defined to be the maximum number of $R\dash$linearly independent elements of $M$ .
 
@@ -129,6 +156,8 @@ defined to be the maximum number of $R\dash$linearly independent elements of $M$
 (c) Suppose that M is a non-principal ideal of $R$.
 
 (d) Prove that $M$ is torsion-free of rank 1 but not free.
+
+# Question 14
 
 Let $R$ be a commutative ring with 1.
 
@@ -144,6 +173,8 @@ some positive integer $n$.
 (c) Suppose now that $R$ is finite. Show that in this case $J(R)$ consists precisely
 of the nilpotent elements in R.
 
+# Question 15
+
 Let $p$ be a prime number.
 Let $A$ be a $p \times p$ matrix over a field $F$ with 1 in all
 entries except 0 on the main diagonal.
@@ -157,6 +188,8 @@ Determine the Jordan canonical form (JCF) of $A$
 > Hint: In both cases, all eigenvalues lie in the ground field. In each case find a
 matrix $P$ such that $P\inv AP$ is in JCF.
 
+# Question 16
+
 Let $\zeta = e^{2\pi i/8}$.
 
 (a) What is the degree of $\QQ(\zeta)/\QQ$?
@@ -165,6 +198,8 @@ Let $\zeta = e^{2\pi i/8}$.
 
 (c) What is the degree of $\QQ(\zeta, \sqrt[4] 2)$ over $\QQ$?
 
+# Question 17
+
 Let $G$ be a finite group whose order is divisible by a prime number $p$.
 Let $P$ be a normal $p\dash$subgroup of $G$
 (so $\abs P = p^c$ for some $c$).
@@ -172,6 +207,8 @@ Let $P$ be a normal $p\dash$subgroup of $G$
 (a) Show that $P$ is contained in every Sylow $p\dash$subgroup of $G$.
 
 (b) Let $M$ be a maximal proper subgroup of $G$. Show that either $P \subseteq M$ or $|G/M | = p^b$ for some $b \leq c$.
+
+# Question 18
 
 (a) Suppose the group $G$ acts on the set $X$ . Show that the stabilizers of elements in the same orbit are conjugate.
 
@@ -182,6 +219,8 @@ $$
 
 (c) Suppose $G$ is a finite group acting transitively on a set $S$ with at least 2 elements. Show that there is an element of $G$ with no fixed points in $S$.
 
+# Question 19
+
 Let $F \subset K \subset L$ be finite degree field extensions.
 For each of the following assertions, give a proof or a counterexample.
 
@@ -191,15 +230,21 @@ For each of the following assertions, give a proof or a counterexample.
 
 (c) If $K/F$ and $L/K$ are both Galois, then so is $L/F$.
 
+# Question 20
+
 Let $V$ be a finite dimensional vector space over a field (the field is not necessarily algebraically closed).
 
 Let $\phi : V \to V$ be a linear transformation. Prove that there exists a decomposition of $V$ as $V = U \oplus W$ , where $U$ and $W$ are $\phi\dash$invariant subspaces of $V$ , $\restrictionof{\phi}{U}$ is nilpotent, and $\restrictionof{\phi}{W}$ is nonsingular.
+
+# Question 21
 
 Let $A$ be an $n \times n$ matrix.
 
 (a) Suppose that $v$ is a column vector such that the set $\{v, Av, . . . , A^{n-1} v\}$ is linearly independent. Show that any matrix $B$ that commutes with $A$ is a polynomial in $A$.
 
 (b) Show that there exists a column vector $v$ such that the set $\{v, Av, . . . , A^{n-1} v\}$ is linearly independent $\iff$ the characteristic polynomial of A equals the minimal polynomial of A.
+
+# Question 22
 
 Let $R$ be a commutative ring, and let $M$ be an $R\dash$module. 
 An $R\dash$submodule $N$ of $M$ is maximal if there is no $R\dash$module $P$ with $N \subsetneq P \subsetneq M$.
@@ -210,6 +255,8 @@ An $R\dash$submodule $N$ of $M$ is maximal if there is no $R\dash$module $P$ wit
 
 (c) Let $M$ be the $\ZZ\dash$module of all roots of unity in $\CC$ under multiplication.
 Show that there is no maximal $\ZZ\dash$submodule of $M$.
+
+# Question 23
 
 Let $R$ be a commutative ring.
 
@@ -236,6 +283,8 @@ $$
 \frac{ \frac{ \ZZ}{2\ZZ}[t]}{(t^2 )}
 .$$
 
+# Question 24
+
 (a) Use the Class Equation (equivalently, the conjugation action of a group on itself) to prove that any $p\dash$group (a group whose order is a positive power of a prime integer $p$) has a nontrivial center.
 
 (b) Prove that any group of order $p^2$ (where $p$ is prime) is abelian.
@@ -244,6 +293,8 @@ $$
 
 (d) Write down exactly one representative in each isomorphism class of groups of order $5^2 \cdot 7^2$.
 
+# Question 25
+
 Let $f(x) = x^4 - 4x^2 + 2 \in \QQ[x]$.
 
 (a) Find the splitting field $K$ of $f$, and compute $[K: \QQ]$.
@@ -251,6 +302,8 @@ Let $f(x) = x^4 - 4x^2 + 2 \in \QQ[x]$.
 (b) Find the Galois group $G$ of $f$, both as an explicit group of automorphisms, and as a familiar abstract group to which it is isomorphic.
 
 (c) Exhibit explicitly the correspondence between subgroups of $G$ and intermediate fields between $\QQ$ and $k$.
+
+# Question 26
 
 Let $K$ be a Galois extension of $\QQ$ with Galois group $G$, and let $E_1 , E_2$ be intermediate fields of $K$ which are the splitting fields of irreducible $f_i (x) \in \QQ[x]$. 
 
@@ -267,6 +320,8 @@ $$
 \Gal(K/(E_1 \cap E_2 )) = H_1 H_2
 .$$
 
+# Question 27
+
 Let
 
 $$
@@ -278,6 +333,8 @@ $$
 (b) Find an invertible matrix $P$ such that $P\inv AP = J$. 
 
 > You should not need to compute $P\inv$.
+
+# Question 28
 
 Let 
 $$
@@ -292,6 +349,8 @@ $$
 M N=\left(\begin{array}{ll}{0} & {0} \\ {0} & {*}\end{array}\right)
 \implies MN = 0
 .$$
+
+# Question 29
 
 Let
 $$
@@ -318,12 +377,16 @@ is a free basis for $N$ .
 
 (c) Use the previous part to describe $M/N$ as a direct sum of cyclic $\ZZ\dash$modules.
 
+# Question 30
+
 Let $R$ be a PID and $M$ be an $R\dash$module. Let $p$ be a prime element of $R$. The module $M$ is called *$\generators{p}\dash$primary* if for every $m \in M$ there exists $k > 0$ such that $p^k m = 0$.
 
 (a) Suppose M is $\generators{p}\dash$primary. Show that if $m \in M$ and $t \in R, ~t \not\in \generators{p}$, then there exists $a \in R$ such that
 $atm = m$.
 
 (b) A submodule $S$ of $M$ is said to be *pure* if $S \cap r M = rS$ for all $r \in R$. Show that if $M$ is $\generators{p}\dash$primary, then $S$ is pure if and only if $S \cap p^k M = p^k S$ for all $k \geq 0$.
+
+# Question 31
 
 Let $R = C[0, 1]$ be the ring of continuous real-valued functions on the interval $[0, 1]$. Let I be an ideal of $R$.
 
@@ -332,6 +395,8 @@ Let $R = C[0, 1]$ be the ring of continuous real-valued functions on the interva
 (b) If $I \neq R$, show that the set $Z(I) = \{x \in [0, 1] \suchthat f(x) = 0 \text{ for all } f \in I\}$ is nonempty.
 
 (c) Show that if $I$ is maximal, then there exists $x_0 \in [0, 1]$ such that $I = \{ f \in R \suchthat f (x_0 ) = 0\}$.
+
+# Question 32
 
 Suppose the group $G$ acts on the set $A$. 
 Assume this action is faithful (recall that this means that the kernel of the homomorphism from $G$ to $\sym(A)$ which gives the action is trivial) and transitive (for all $a, b$ in $A$, there exists $g$ in $G$ such that $g \cdot a = b$.)
@@ -343,6 +408,8 @@ $$
 .$$
 
 (b) Suppose that $G$ is abelian. Prove that $|G| = |A|$. Deduce that every abelian transitive subgroup of $S_n$ has order $n$.
+
+# Question 33
 
 (a) Classify the abelian groups of order 36.
 
@@ -356,10 +423,14 @@ For the rest of the problem, assume that $G$ is a non-abelian group of order 36.
 
 (d) Show that the dihedral group of order 36 is a non-abelian group of order 36 whose Sylow-2 subgroup is not normal.
 
+# Question 34
+
 Let $F$ be a field. Let $f(x)$ be an irreducible polynomial in $F[x]$ of degree $n$ and let $g(x)$
 be any polynomial in $F[x]$. Let $p(x)$ be an irreducible factor (of degree $m$) of the polynomial $f(g(x))$.
 
 Prove that $n$ divides $m$. Use this to prove that if $r$ is an integer which is not a perfect square, and $n$ is a positive integer then every irreducible factor of $x^{2n} - r$ over $\QQ[x]$ has even degree.
+
+# Question 35
 
 (a) Let $f (x)$ be an irreducible polynomial of degree 4 in $\QQ[x]$ whose splitting field $K$ over $\QQ$ has Galois group $G = S_4$. 
 
@@ -367,11 +438,15 @@ Prove that $n$ divides $m$. Use this to prove that if $r$ is an integer which is
 
 (b) Prove that if $K$ is a Galois extension of $\QQ$ of degree 4, then there is an intermediate subfield between $K$ and $\QQ$.
 
+# Question 36
+
 A ring R is called *simple* if its only two-sided ideals are $0$ and $R$.
 
 (a) Suppose $R$ is a commutative ring with 1. Prove $R$ is simple if and only if $R$ is a field.
 
 (b) Let $k$ be a field. Show the ring $M_n (k)$, $n \times n$ matrices with entries in $k$, is a simple ring.
+
+# Question 37
 
 For a ring $R$, let $U(R)$ denote the multiplicative group of units in $R$. Recall that in an integral domain $R$, $r \in R$ is called *irreducible* if $r$ is not a unit in R, and the only divisors of $r$ have the form $ru$ with $u$ a unit in $R$. 
 
@@ -388,6 +463,8 @@ Consider the ring $R = \{a + b \sqrt{-5}\suchthat a, b \in Z\}$.
 
 (e) Conclude $R$ is not a PID.
 
+# Question 38
+
 Let $F$ be a field and let $V$ and $W$ be vector spaces over $F$ . 
 
 Make $V$ and $W$ into $F[x]\dash$modules via linear operators $T$ on $V$ and $S$ on $W$ by defining $X \cdot v = T (v)$ for all $v \in V$ and $X \cdot w = S(w)$ for all w $\in$ W . 
@@ -402,53 +479,89 @@ Denote the resulting $F[x]\dash$modules by $V_T$ and $W_S$ respectively.
 
 (d) Assume $F$ is algebraically closed. Prove that if $V$ has dimension 2, then any $V_T$ is not simple.
 
+# Question 39
 
 
+# Question 40
+
+
+# Question 41
+
+
+# Question 42
 
 Show that no finite group is the union of conjugates of a proper subgroup.
 
+# Question 43
+
 Classify all groups of order 18 up to isomorphism.
+
+# Question 44
 
 Let $\alpha,\beta$ denote the unique positive
 real $5^{\text{th}}$ root of 7 and $4^{\text{th}}$ root of 5,
 respectively. Determine the degree of $\mathbb Q(\alpha,\beta)$ over $\mathbb Q$.
 
+# Question 45
+
 Show that the field extension $\mathbb Q\subseteq\mathbb Q\left(
 \sqrt{2+\sqrt2}\right)$ is Galois and determine its Galois group.
 
+# Question 46
+
 Let $M$ be a square matrix over a field $K$. Use a suitable canonical
 form to show that $M$ is similar to its transpose $M^T$.
+
+# Question 47
 
 Let $G$ be a finite group and $\pi_0$, $\pi_1$ be two irreducible representations of $G$. Prove or disprove the following assertion:
 $\pi_0$ and $\pi_1$ are equivalent if and only if $\det\pi_0(g)=\det\pi_1(g)$
 for all $g\in G$.
 
+# Question 48
+
 Let $R$ be a Noetherian ring. Prove that $R[x]$ and $R[[x]]$ are both
 Noetherian. (The first part of the question is asking you to prove the
 Hilbert Basis Theorem, not to use it!)
 
+# Question 49
+
 Classify (with proof) all fields with finitely many elements.
+
+# Question 50
 
 Suppose $A$ is a commutative ring and $M$ is a finitely presented module.
 Given any surjection $\phi:A^n\rightarrow M$ from a finite free
 $A$-module, show that $\ker\phi$ is finitely generated.
 
+# Question 51
+
 Classify all groups of order 57.
+
+# Question 52
 
 Show that a finite simple group cannot have a 2-dimensional irreducible
 representation over $\mathbb C$. (Hint: the determinant might prove useful.)
 
+# Question 53
+
 Let $G$ be a finite simple group. Assume that every proper subgroup
 of $G$ is abelian. Prove that then $G$ is cyclic of prime order.
 
+# Question 54
+
 Let $a\in\mathbb N$, $a>0$. Compute the Galois group of the splitting field
 of the polynomial $x^5-5a^4x+a$ over $\mathbb Q$.
+
+# Question 55
 
 Recall that an inner automorphism of a group is an automorphism given by conjugation by an element of the group. An outer automorphism is an automorphism that is not inner.
 
 - Prove that $S_5$ has a subgroup of order 20.
 - Use the subgroup from (a) to construct a degree 6 permutation representation of $S_5$ (i.e., an embedding $S_5 \hookrightarrow S_6$ as a transitive permutation group on 6 letters).
 - Conclude that $S_6$ has an outer automorphism.
+
+# Question 56
 
 Let $A$ be a commutative ring and $M$ a finitely generated $A$-module.
 Define
@@ -463,10 +576,14 @@ Show that for a prime ideal $\mathfrak p \subset A$, the following are equivalen
 
 - $M \otimes_A k(\mathfrak p) = 0$, where $k(\mathfrak p) = A_{\mathfrak p}/\mathfrak p A_{\mathfrak p}$ is the residue field of $A$ at $\mathfrak p$.
 
+# Question 57
+
 Let $A = \CC[x,y]/(y^2-(x-1)^3 - (x-1)^2)$.
 
 - Show that $A$ is an integral domain and sketch the $\RR$-points of $\text{Spec} A$.
 - Find the integral closure of $A$. Recall that for an integral domain $A$ with fraction field $K$, the integral closure of $A$ in $K$ is the set of all elements of $K$ integral over $A$.
+
+# Question 58
 
 Let $R = k[x,y]$ where $k$ is a field, and let $I=(x,y)R$.
 
@@ -478,6 +595,8 @@ Let $R = k[x,y]$ where $k$ is a field, and let $I=(x,y)R$.
 
   - Show that $I$ is not a flat $R$-module by computing $\Tor_i^R(I,k)$
 
+# Question 59
+
 
 - Find an irreducible polynomial of degree 5 over the
   field $\mathbb Z/2$ of two elements and use it to construct
@@ -487,8 +606,12 @@ Let $R = k[x,y]$ where $k$ is a field, and let $I=(x,y)R$.
   matrix $M$ over $\mathbb Z/2$ of order 31, so that $M^{31}=I$
   but $M\neq I$.
 
+# Question 60
+
 Find the minimal polynomial of $\sqrt2+\sqrt3$ over $\mathbb Q$.
 Justify your answer.
+
+# Question 61
 
 \hfill
  - Let $R$ be a commutative ring with no nonzero nilpotent
@@ -496,9 +619,13 @@ Justify your answer.
    $R[x]$ are the units of $R$, regarded as constant polynomials.
  - Find all units in the polynomial ring $\mathbb Z_4[x]$.
 
+# Question 62
+
 Let $p$, $q$ be two distinct primes. Prove that there is at most one
 non-abelian group of order $pq$ and describe the pairs $(p,q)$
 such that there is no non-abelian group of order $pq$.
+
+# Question 63
 
 
 - Let $L$ be a Galois extension of a field $K$ of degree 4.
@@ -508,6 +635,8 @@ such that there is no non-abelian group of order $pq$.
   bounds are attained.
 - How do these numbers change if we assume only that $L$
   is separable (but not necessarily Galois) over $K$?
+
+# Question 64
 
 Let $R$ be a commutative algebra over $\mathbb C$. A derivation of $R$ is a
 $\mathbb C$-linear map $D:R\rightarrow R$ such that (i) $D(1)=0$ and
@@ -522,6 +651,8 @@ $\mathbb C$-linear map $D:R\rightarrow R$ such that (i) $D(1)=0$ and
   > Note that the inclusion $A\rightarrow\mathrm{End}_{\mathbb C}(\mathbb C[x])$
   defines a natural left $A$-module structure on $\mathbb C[x]$.
 
+# Question 65
+
 Let $G$ be a non-abelian group of order $p^3$ with $p$ a prime.
 
 - Determine the order of the center $Z$ of $G$.
@@ -534,6 +665,8 @@ Let $G$ be a non-abelian group of order $p^3$ with $p$ a prime.
   representations equals the number of conjugacy classes of
   $G$.
 
+# Question 66
+
 
 - Let $G$ be a group (not necessarily finite) that contains
   a subgroup of index $n$. Show that $G$ contains a
@@ -541,6 +674,8 @@ Let $G$ be a non-abelian group of order $p^3$ with $p$ a prime.
 
 - Use part (a) to show that there is no simple group
   of order 36.
+
+# Question 67
 
 Let $p$ be a prime, let $\mathbb F_p$ be the $p$-element field,
 and let $K=\mathbb F_p(t)$ be the field of rational functions in
@@ -554,12 +689,16 @@ x^p-t\in K[x]$.
 
 - Conclude that $f$ is irreducible over $K$.
 
+# Question 68
+
 Recall that a ring $A$ is called \textit{graded} if it admits a direct
 sum decomposition $A=\oplus_{n=0}^{\infty}A_n$ as abelian groups, with the
 property that $A_iA_j\subseteq A_{i+j}$ for all $i,j\geq 0$.
 Prove that a graded commutative ring $A=\oplus_{n=0}^{\infty} A_n$
 is Noetherian if and only if $A_0$ is Noetherian and $A$ is finitely
 generated as an algebra over $A_0$.
+
+# Question 69
 
 Let $R$ be a ring with the property that $a^2=a$ for all $a\in R$.
 
@@ -572,9 +711,13 @@ Let $R$ be a ring with the property that $a^2=a$ for all $a\in R$.
 - Prove that if $R$ is finite, then $R$ is isomorphic
   (as a ring) to $(\mathbb Z/2\mathbb Z)^d$ for some $d$.
 
+# Question 70
+
 Let $\overline{\mathbb F_p}$ denote the algebraic closure of $\mathbb F_p$. Show that
 the Galois group $\Gal(\overline{\mathbb F_p}/\mathbb F_p)$
 has no non-trivial finite subgroups.
+
+# Question 71
 
 Let $C_p$ denote the cyclic group of order $p$.
 
@@ -595,6 +738,8 @@ Let $C_p$ denote the cyclic group of order $p$.
   of $G$ over $\mathbb Q$ is absolutely irreducible. Show that
   $G\cong(C_2)^k$ for some $k$ (i.e., is a product of
   cyclic groups of order 2).
+
+# Question 72
 
 Let $G$ be a finite group and $\mathbb Z[G]$ the internal group algebra.
 Let $\mathcal Z$ be the center of $\mathbb Z[G]$. For each conjugacy class
@@ -624,16 +769,7 @@ $C\subseteq G$, let $P_C=\sum_{g\in C}g$.
 - Conclude that $|C|\chi_{\pi}(C)/\dim V$ is an algebraic
   integer.
 
-
-- Suppose that $G$ is a finitely generated group. Let $n$
-  be a positive integer. Prove that $G$ has only finitely
-  many subgroups of index $n$
-
-- Let $p$ be a prime number. If $G$ is any finitely-generated
-  abelian group, let $t_p(G)$ denote the number of
-  subgroups of $G$ of index $p$. Determine the possible
-  values of $t_p(G)$ as $G$ varies over all
-  finitely-generated abelian groups.
+# Question 73
 
 
 - Suppose that $G$ is a finitely generated group. Let $n$
@@ -645,11 +781,28 @@ $C\subseteq G$, let $P_C=\sum_{g\in C}g$.
   subgroups of $G$ of index $p$. Determine the possible
   values of $t_p(G)$ as $G$ varies over all
   finitely-generated abelian groups.
+
+# Question 74
+
+
+- Suppose that $G$ is a finitely generated group. Let $n$
+  be a positive integer. Prove that $G$ has only finitely
+  many subgroups of index $n$
+
+- Let $p$ be a prime number. If $G$ is any finitely-generated
+  abelian group, let $t_p(G)$ denote the number of
+  subgroups of $G$ of index $p$. Determine the possible
+  values of $t_p(G)$ as $G$ varies over all
+  finitely-generated abelian groups.
+
+# Question 75
 
 Suppose that $G$ is a finite group of order 2013. Prove that $G$ has
 a normal subgroup $N$ of index 3 and that $N$ is a cyclic group.
 Furthermore, prove that the center of $G$ has order divisible by 11.
 (You will need the factorization $2013=3\cdot11\cdot61$.)
+
+# Question 76
 
 This question concerns an extension $K$ of $\mathbb Q$ such that
 $[K:\mathbb Q]=8$. Assume that $K/\mathbb Q$ is Galois and let
@@ -664,6 +817,8 @@ $G=\Gal(K/\mathbb Q)$. Furthermore, assume that $G$ is non-abelian.
 - Suppose that $G$ is the quaternionic group. Prove
   that $d_1$ and $d_2$ are positive integers.
 
+# Question 77
+
 This question concerns the polynomial ring $R=\mathbb Z[x,y]$ and the ideal
 $I=(5,x^2+2)$ in $R$.
 
@@ -676,7 +831,11 @@ $I=(5,x^2+2)$ in $R$.
 - Show that there are infinitely many distinct maximal ideals
   in $R$ which contain $I$.
 
+# Question 78
+
 Classify all groups of order 2012 up to isomorphism. (Hint: 503 is prime).
+
+# Question 79
 
 For any positive integer $n$, let $G_n$ be the group generated by
 $a$ and $b$ subject to the following three relations:
@@ -686,11 +845,15 @@ $$
 
 - Find the order of the group $G_n$
 
+# Question 80
+
 Determine the Galois groups of the following polynomials over $\mathbb Q$.
 
 - $f(x)=x^4+4x^2+1$
 
 - $f(x)=x^4+4x^2-5$.
+
+# Question 81
 
 Let $R$ be a (commutative) principal ideal domain, let $M$ and $N$ be
 finitely generated free $R$-modules, and let $\varphi:M\rightarrow N$ be
@@ -702,6 +865,8 @@ an $R$-module homomorphism.
 - Let $C$ be the image of $\varphi$. Show by example
   (specifying $R$, $M$, $N$, and $\varphi$) that $C$
   need not be a direct summand of $N$.
+
+# Question 82
 
 In this problem, as you apply Sylow's Theorem, state precisely which portions
 you are using.
@@ -717,8 +882,12 @@ you are using.
 You need only show that if there is a simple group of order 60, then
 it must be isomorphic to $A_5$.
 
+# Question 83
+
 Describe the Galois group and the intermediate fields of the cyclotomic
 extension $\mathbb Q(\zeta_{12})/\mathbb Q$.
+
+# Question 84
 
 Let
 \begin{align*}
@@ -730,6 +899,8 @@ R=\mathbb Z[x]/(x^2+x+1).
     - Is $R$ an Artinian ring?
 
 - Prove that $R$ is an integrally closed domain.
+
+# Question 85
 
 Let $R$ be a commutative ring. Recall that an element $r$ of $R$ is
 \textit{nilpotent} if $r^n=0$ for some positive integer $n$ and that
@@ -753,6 +924,8 @@ elements.
   for any complex number $a$, $p(a,a^{3/2})=0$. Prove that
   $p(x,y)$ is divisible by $y^2-x^3$.
 
+# Question 86
+
 Given a finite group $G$, recall that its *regular representation*
 is the representation on the complex group algebra $\mathbb C[G]$ induced by
 left multiplication of $G$ on itself and its \textit{adjoint representation}
@@ -769,6 +942,8 @@ by conjugation of $G$ on itself.
   an $H$-invariant subspace of $\mathbb C[H]$ besides 0 and
   $\mathbb C[H]$.
 
+# Question 87
+
 Let $R$ be a commutative integral domain. Show that the following
 are equivalent:
 
@@ -777,6 +952,8 @@ are equivalent:
 - $R$ is a semi-simple ring;
 
 - Any $R$-module is projective.
+
+# Question 88
 
 Let $p$ be a positive prime number, $\mathbb F_p$ the field with $p$ elements,
 and let $G=\text{GL}_2(\mathbb F_p)$.
@@ -797,6 +974,8 @@ and let $G=\text{GL}_2(\mathbb F_p)$.
   compute $gug\inv$ for $g\in G$ and $u\in U$; use this
   to find the size of the normalizer of $U$ in $G$.
 
+# Question 89
+
 
 - Give definitions of the following terms:
   (i) a finite length (left) module, (ii) a
@@ -812,6 +991,8 @@ and let $G=\text{GL}_2(\mathbb F_p)$.
   $$
   \sum_{i=1}^n(-1)^kl(M_i)=0.
   $$
+
+# Question 90
 
 Let $\mathbb F$ be a field of characteristic $p$, and $G$ a group of
 order $p^n$. Let $R=\mathbb F[G]$ be the group ring (group algebra)
@@ -831,10 +1012,14 @@ $R$).
   ring fails to be semisimple if and only if it has a non-zero
   nilpotent ideal.)
 
+# Question 91
+
 Let $f(x)=a_nx^n+a_{n-1}x^{n-1}+\dots+a_0\in\mathbb Z[x]$
 (where $a_n\neq 0$) and let $R=\mathbb Z[x]/(f)$.
 Prove that $R$ is a finitely generated module over $\mathbb Z$ if and only if
 $a_n=\pm 1$.
+
+# Question 92
 
 Consider the ring
 $$
@@ -855,12 +1040,16 @@ with the usual operations of addition and multiplication of functions.
   is compact, every open cover of $[0,1]$ contains a finite
   subcover.
 
+# Question 93
+
 Let $F$ be a field of characteristic zero, and let $K$
 be an \textit{algebraic} extension of $F$ that possesses the following
 property: every polynomial $f\in F[x]$ has a root in $K$.
 Show that $K$ is algebraically closed.\\
 \textbf{Hint:} if $K(\theta)/K$ is algebraic, consider $F(\theta)/F$
 and its normal closure; primitive elements might be of help.
+
+# Question 94
 
 Let $G$ be the unique non-abelian group of order 21.
 
@@ -871,12 +1060,16 @@ Let $G$ be the unique non-abelian group of order 21.
 
 - Determine the character table of $G$.
 
+# Question 95
+
 
 - Classify all groups of order $2009=7^2\times 41$.
 
 - Suppose that $G$ is a group of order 2009. How many intermediate groups are
   there—that is, how many groups H are there with $1\subsetneq H\subsetneq G$, where both
   inclusions are proper? (There may be several cases to consider.)
+
+# Question 96
 
 Let $K$ be a field. A discrete valuation on $K$ is a function $\nu:
 K\setminus\{0\}\rightarrow\mathbb Z$ such that
@@ -908,6 +1101,8 @@ Prove the following:
   of all rational numbers whose denominators are relatively
   prime to $p$.
 
+# Question 97
+
 Let $F$ be a field of characteristic not equal to 2.
 
 - Prove that any extension $K$ of $F$ of degree 2
@@ -919,6 +1114,8 @@ Let $F$ be a field of characteristic not equal to 2.
   Prove that $[F(\sqrt{D_1},\sqrt{D_2}):F]=4$ if
   $D_1D_2$ is not a square in $F$ and is of degree
   2 otherwise.
+
+# Question 98
 
 Let $F$ be a field and $p(x)\in F[x]$ an irreducible polynomial.
 
@@ -934,6 +1131,8 @@ Let $F$ be a field and $p(x)\in F[x]$ an irreducible polynomial.
 - Suppose $p(x)=x^3+9x+6$. Show $p(x)$ is irreducible over
   $\mathbb Q$. If $\theta$ is a root of $p(x)$, compute
   the inverse of $(1+\theta)$ in $\mathbb Q(\theta)$.
+
+# Question 99
 
 Fix a ring $R$, an $R$-module $M$, and an $R$-module homomorphism
 $f:M\rightarrow M$.
@@ -954,6 +1153,8 @@ $f:M\rightarrow M$.
   a surjective $R$-module homomorphism $f:M\rightarrow M$
   which is not injective.
 
+# Question 100
+
 Let $G$ be a finite group, $k$ an algebraically closed field, and $V$
 an irreducible $k$-linear representation of $G$.
 
@@ -968,6 +1169,8 @@ an irreducible $k$-linear representation of $G$.
   $f$ as a linear transformation and consider $f-\alpha I$,
   where $\alpha$ is an eigenvalue of $f$).
 
+# Question 101
+
 Let $f(x)$ be an irreducible polynomial of degree 5 over the field
 $\mathbb Q$ of rational numbers with exactly 3 real roots.
 
@@ -978,12 +1181,18 @@ $\mathbb Q$ of rational numbers with exactly 3 real roots.
   $\mathbb Q$ lying in $E$ such that \textit{no} field $F$
   strictly between $K$ and $E$ is Galois over $\mathbb Q$.
 
+# Question 102
+
 Let $F$ be a finite field. Show for any positive integer $n$ that
 there are irreducible polynomials of degree $n$ in $F[x]$.
+
+# Question 103
 
 Show that the order of the group $\text{GL}_n(\mathbb F_q)$ of invertible
 $n\times n$ matrices over the field $\mathbb F_q$ of $q$ elements is given by
 $(q^n-1)(q^n-q)\dots(q^n-q^{n-1})$.
+
+# Question 104
 
 
 - Let $R$ be a commutative principal ideal domain. Show that
@@ -993,6 +1202,8 @@ $(q^n-1)(q^n-q)\dots(q^n-q^{n-1})$.
 
 - Give a necessary and sufficient condition for two direct sums
   as in part (a) to be isomorphic as $R$-modules.
+
+# Question 105
 
 Let $G$ be the subgroup of $\text{GL}_3(\mathbb C)$ generated by the three
 matrices
@@ -1026,6 +1237,8 @@ where $i^2=-1$. Here $\mathbb C$ denotes the complex field.
 - Compute the number of elements in $G$ with this largest
   order.
 
+# Question 106
+
 
 - Let $G$ be a group of (finite) order $n$. Show that any
   irreducible left module over the group algebra $\mathbb CG$
@@ -1036,14 +1249,20 @@ where $i^2=-1$. Here $\mathbb C$ denotes the complex field.
   $\lfloor\sqrt n\rfloor$, the greatest integer to
   $\sqrt n$.
 
+# Question 107
+
 Use the rational canonical form to show that any square matrix $M$ over
 a field $k$ is similar to its transpose $M^t$, recalling that $p(M)=0$
 for some $p\in k[t]$ if and only if $p(M^t)=0$.
+
+# Question 108
 
 Let $K$ be a field of characteristic zero and $L$ a Galois extension
 of $K$. Let $f$ be an irreducible polynomial in $K[x]$ of degree 7 and
 suppose $f$ has no zeroes in $L$. Show that $f$ is irreducible
 in $L[x]$.
+
+# Question 109
 
 Let $K$ be a field of characteristic zero and $f\in K[x]$ an
 irreducible polynomial of degree $n$. Let $L$ be a splitting field for
@@ -1058,7 +1277,11 @@ on $K$.
 - What are the possible groups $G$ when $n=3$. Justify
   your answer.
 
+# Question 110
+
 Show there are exactly two groups of order 21 up to isomorphism.
+
+# Question 111
 
 Let $K$ be the field $\mathbb Q(z)$ of rational functions in a variable $z$
 with coeffiecients in the rational field $\mathbb Q$.
@@ -1071,6 +1294,8 @@ Let $n$ be a positive integer. Consider the polynomial $x^n-z\in K[x]$.
 - Determine the Galois group of the splitting field
   of $x^5-z$ over the field $K$.
 
+# Question 112
+
 
 - Let $p<q<r$ be prime integers. Show that a group of order
   $pqr$ cannot be simple.
@@ -1080,6 +1305,8 @@ Let $n$ be a positive integer. Consider the polynomial $x^n-z\in K[x]$.
   of $p$, either display a simple group of order
   $2^2\cdot 3\cdot p$, or show that there cannot
   be a simple group of that order.
+
+# Question 113
 
 Let $K/F$ be a finite Galois extension and let $n=[K:F]$. There is a theorem
 (often referred to as the "normal basis theorem") which states that there
@@ -1111,6 +1338,8 @@ that theorem in this problem.
 - If $a$ has the property stated in (c), show that $K=F(a)$ and
   that $a^n\in F^{\times}$.
 
+# Question 114
+
 Let $G$ be the group of matrices of the form
 $$
 \begin{pmatrix}
@@ -1132,9 +1361,13 @@ $p$ is a prime.
   Assuming this fact without proof, determine which
   of these groups $G$ is isomorphic to.
 
+# Question 115
+
 There are five nonisomorphic groups of order 8. For
 each of those groups $G$, find the smallest positive integer n such that there is an
 injective homomorphism $\varphi: G\rightarrow S_n$.
+
+# Question 116
 
 For any group $G$ we define $\Omega(G)$ to be the image of the group
 homomorphism $\rho:G\rightarrow\Aut(G)$ where $\rho$ maps
@@ -1144,6 +1377,8 @@ $G_{i+1}=\Omega(G_i)$ for all $i\geq 0$. If $G_0$ is of order
 $p^e$ for a prime $p$ and integer $e\geq 2$, prove that $G_{e-1}$
 is the trivial group.
 
+# Question 117
+
 Let $\mathbb F_2$ be the field with two elements.
 
 - What is the order of $\text{GL}_3(\mathbb F_2)$?
@@ -1151,6 +1386,8 @@ Let $\mathbb F_2$ be the field with two elements.
 - Use the fact that $\text{GL}_3(\mathbb F_2)$ is a simple group
   (which you should not prove) to find the number
   of elements of order 7 in $\text{GL}_3(\mathbb F_2)$.
+
+# Question 118
 
 Let $G$ be a finite abelian group. Let $f:\mathbb Z^m\rightarrow G$ be a
 surjection of abelian groups. We may think of $f$ as a homomorphism
@@ -1162,6 +1399,8 @@ of $\mathbb Z$-modules. Let $K$ be the kernel of $f$.
   $K\rightarrow\mathbb Z^m$ as $\mathbb Z^m\rightarrow\mathbb Z^m$
   and represent it by an $m\times m$ integer matrix
   $A$. Prove that $|\det A|=|G|$.
+
+# Question 119
 
 Let $R=C([0,1])$ be the ring of all continuous real-valued functions
 on the closed interval $[0,1]$, and for each $c\in[0,1]$, denote by
@@ -1176,6 +1415,8 @@ $M_c$ the set of all functions $f\in R$ such that $f(c)=0$.
 - Prove that if $M$ is a maximal ideal of $T$, then
   $M=M_c$ for some $c\in[0,1]$. (Hint:
   compactness of $[0,1]$ may be relevant.)
+
+# Question 120
 
 Let $R$ and $S$ be commutative rings, and $f:R\rightarrow S$
 a ring homomorphism.
@@ -1205,6 +1446,8 @@ a ring homomorphism.
   $S=R/N$ and $f:R\rightarrow R/N$ is the quotient map,
   then $f^*$ is a bijection
 
+# Question 121
+
 Consider the polynomial $f(x)=x^{10}+x^5+1\in\mathbb Q[x]$ with
 splitting field $K$ over $\mathbb Q$.
 
@@ -1214,9 +1457,13 @@ splitting field $K$ over $\mathbb Q$.
 - Determine the structure of the Galois group
   $\Gal(K/\mathbb Q)$.
 
+# Question 122
+
 For each prime number $p$ and each positive integer $n$, how many
 elements $\alpha$ are there in $\mathbb F_{p^n}$ such that
 $F_p(\alpha)=F_{p^6}$?
+
+# Question 123
 
 Assume that $K$ is a cyclic group, $H$ is an arbitrary group, and $\varphi_1$
 and $\varphi_2$ are homomorphisms from $K$ into $\Aut(H)$ such that
@@ -1233,14 +1480,22 @@ so that for some $a\in\mathbb Z$ we have $\sigma\varphi_1(k)\sigma\inv
 defined by $\psi((h,k))=(\sigma(h),k^a)$ is a homomorphism.
 Show $\psi$ is bijective by construcing a 2-sided inverse.
 
+# Question 124
+
 Something something $G$.
 
+# Question 125
+
 Classify the groups of order $182 = 2 \cdot 7 \cdot 13$.
+
+# Question 126
 
 Let $G$ be a finite group of order $p^nm$ where $p$ is a prime and
 $m$ is not divisible by $p$. Prove that if $H$ is a subgroup of $G$
 of order $p^k$ for some $k<n$, then the normalizer of $H$ in $G$
 properly contains $H$.
+
+# Question 127
 
 Let $H$ be a subgroup of $S_n$ of index $n$. Prove:
 
@@ -1250,10 +1505,14 @@ Let $H$ be a subgroup of $S_n$ of index $n$. Prove:
 
 2.  The only subgroups of $S_n$ containing $H$ are $S_n$ and $H$.
 
+# Question 128
+
 
 -   Prove that a group of order $351=3^3\cdot 13$ cannot be simple.
 
 -   Prove that a group of order $33$ must be cyclic.
+
+# Question 129
 
 
 1.  Let $G$ be a group, and $Z(G)$ the center of $G$. Prove that if
@@ -1264,6 +1523,8 @@ Let $H$ be a subgroup of $S_n$ of index $n$. Prove:
 
 3.  Prove that a group of order $p^2$ must be abelian.
 
+# Question 130
+
 Let $G$ be a finite group.
 
 1.  Prove that if $H < G$ is a proper subgroup, then $G$ is not the
@@ -1273,9 +1534,15 @@ Let $G$ be a finite group.
     Prove that there exists an element of $G$ with no fixed points
     in $X$.
 
+# Question 131
+
 Classify all groups of order $15$ and of order $30$.
 
+# Question 132
+
 Count the number of $p$-Sylow subgroups of $S_p$.
+
+# Question 133
 
 
 1.  Let $G$ be a group of order $n$. Suppose that for every divisor
@@ -1285,5 +1552,6 @@ Count the number of $p$-Sylow subgroups of $S_p$.
 2.  Let $F$ be a field. Show that every finite subgroup of the group
     of units $F^\times$ is cyclic.
 
-Classify the groups of order $182 = 2 \cdot 7 \cdot 13$.
+# Question 134
 
+Classify the groups of order $182 = 2 \cdot 7 \cdot 13$.
