@@ -8,7 +8,7 @@ json:
 
 testpdf:
 	@ find ./Questions -type f -iname "*.yaml" -exec cat {} + > combined_questions.yaml
-	test.sh
+	./test.sh
 	latex_preview -f combined_questions.md -v
 
 .ONESHELL:
