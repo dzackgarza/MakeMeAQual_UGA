@@ -5,5 +5,9 @@ json:
 	@ echo "JSON file generated: Webtool/Frontend/AllQuestions.json. YAML files found:"
 	find ./Questions -type f -iname "*.yaml"
 
+
+testpdf:
+	@ find ./Questions -type f -iname "*.yaml" -exec cat {} + > combined_questions.yaml
+
 .ONESHELL:
 
