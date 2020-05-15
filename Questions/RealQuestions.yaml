@@ -1,0 +1,75 @@
+
+- year: 0 
+  number: 0
+  exam: Real_Analysis
+  university: Emory
+  tags:
+    - Real 
+  question: |
+    Describe the process that extends a measure on an algebra
+    $\mathcal{A}$ of subsets of $X$, to a complete measure defined on a
+    $\sigma$-algebra $\mathcal{B}$ containing $\mathcal{A}$. State the
+    corresponding definitions and results (without proofs).
+
+
+- year: 0 
+  number: 0
+  exam: Real_Analysis
+  university: Emory
+  tags:
+    - Fatou
+    - Measure Theory
+  question: |
+    State and prove Fatou's Lemma on a general measurable space.
+
+
+- year: 0 
+  number: 0
+  exam: Real_Analysis
+  university: Emory
+  tags:
+    - Convergence 
+    - Lebesgue Integration
+  question: |
+    1.  State the Dominated Convergence Theorem for Lebesgue integrals.
+
+    2.  Let $\{f_n\}$ be a sequence of measurable functions on a
+        Lebesgue measurable set $E$ which converges *in measure* to a
+        function $f$ on $E$. Suppose that for every $n$, $|f_n| \leq g$
+        with $g$ integrable on $E$. Using the above theorem show that
+        \begin{aligned}
+            \int_E |f_n-f| \longrightarrow 0 \, .
+        \end{aligned}
+
+
+- year: 0 
+  number: 0
+  exam: Real_Analysis
+  university: Emory
+  tags:
+    - Complex 
+  question: |
+    Let $f\in L^1([0,1])$. Show that
+
+    1.  The limit $\lim_{p\to 0^+} \| f \|_p$ exists.
+
+    2.  If $m \{x : f(x) = 0\} > 0$, then the above limit is zero.
+
+
+- year: 0 
+  number: 0
+  exam: Real_Analysis
+  university: Emory
+  tags:
+    - Complex 
+  question: |
+    Let $f$ be a continuous function on $[0,1]$. Show that the following
+    statements are equivalent.
+
+    1.  $f$ is absolutely continuous.
+
+    2.  For any $\epsilon > 0$ there exists $\delta > 0$ such that
+        $m(f(E)) < \epsilon$ for any set $E\subseteq [0,1]$ with
+        $m(E) < \delta$.
+
+    3.  $m(f(E)) = 0$ for any set $E \subseteq [0,1]$ with $m(E)=0$.
