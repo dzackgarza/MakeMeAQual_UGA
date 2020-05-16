@@ -641,10 +641,9 @@
 
     (b) Prove that if the 2-Sylow subgroup of $G$ is normal, $G$ has a normal subgroup $N$ such that $G/N$ is isomorphic to $A_4$.
 
-    (c) Show that if $G$ has a normal subgroup $N$ such that $G/N$ is isomorphic to $A_4$ and a subgroup $H isomorphic to $A_4$ it must be the direct product of $N$ and $H$.
+    (c) Show that if $G$ has a normal subgroup $N$ such that $G/N$ is isomorphic to $A_4$ and a subgroup $H$ isomorphic to $A_4$ it must be the direct product of $N$ and $H$.
 
     (d) Show that the dihedral group of order 36 is a non-abelian group of order 36 whose Sylow-2 subgroup is not normal.
-
 
 
 - year: 2017
@@ -734,50 +733,4 @@
     Denote the resulting $F[x]\dash$modules by $V_T$ and $W_S$ respectively.
 
     (a) Show that an $F[x]\dash$module homomorphism from $V_T$ to $W_S$ consists of an $F\dash$linear transformation $R : V \to W$ such that $RT = SR$.
-
-    (b) Show that $VT \cong WS$ as $F[x]\dash$modules $\iff$ there is an $F\dash$linear isomorphism $P : V \to W$ such that $T = P\inv SP$.
-
-    (c) Recall that a module $M$ is *simple* if $M \neq 0$ and any proper submodule of $M$ must be zero. Suppose that $V$ has dimension 2. Give an example of $F$, $T$ with $V_T$ simple.
-
-    (d) Assume $F$ is algebraically closed. Prove that if $V$ has dimension 2, then any $V_T$ is not simple.
-
-- year: 2017
-  season: Fall
-  number: 1
-  exam: Algebra
-  university: UGA
-  tags:
-    - Algebra
-  question: |
-
-
-- year: 2017
-  season: Fall
-  number: 1
-  exam: Algebra
-  university: UGA
-  tags:
-    - Algebra
-  question: |
-
-
-- year: 2017
-  season: Fall
-  number: 1
-  exam: Algebra
-  university: UGA
-  tags:
-    - Algebra
-  question: |
-
-
-
-
-
-
-
-
-
-
-
 
