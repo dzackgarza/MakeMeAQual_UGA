@@ -597,7 +597,7 @@
       "Polynomials",
       "Galois Theory"
     ],
-    "question": "1.  Show that $\\sqrt{2+\\sqrt{2}}$ is a root of\n    $p(x) = x^2 - 4x^2 + 2 \\in \\mathbf{Q}[x]$.\n\n2.  Prove that $\\mathbf{Q}(\\sqrt{2 + \\sqrt{2}})$ is a Galois\n    extension of $\\mathbf{Q}$ and find its Galois group. (Hint: note\n    that $\\sqrt{2 - \\sqrt{2}}$ is another root of $p(x)$).\n\n3.  Let $f(x) = x^3 - 5$. Determine the splitting field $K$ of\n    $f(x)$ over $\\mathbf{Q}$ and the Galois group of $f(x)$. Give an\n    example of a proper sub-extension\n    $\\mathbf{Q} \\subset L \\subset K$, such that $L/\\mathbf{Q}$ is\n    Galois.\n"
+    "question": "1.  Show that $\\sqrt{2+\\sqrt{2}}$ is a root of\n    $p(x) = x^2 - 4x^2 + 2 \\in \\mathbb{Q}[x]$.\n\n2.  Prove that $\\mathbb{Q}(\\sqrt{2 + \\sqrt{2}})$ is a Galois\n    extension of $\\mathbb{Q}$ and find its Galois group. (Hint: note\n    that $\\sqrt{2 - \\sqrt{2}}$ is another root of $p(x)$).\n\n3.  Let $f(x) = x^3 - 5$. Determine the splitting field $K$ of\n    $f(x)$ over $\\mathbb{Q}$ and the Galois group of $f(x)$. Give an\n    example of a proper sub-extension\n    $\\mathbb{Q} \\subset L \\subset K$, such that $L/\\mathbb{Q}$ is\n    Galois.\n"
   },
   {
     "year": 0,
@@ -607,7 +607,7 @@
     "tags": [
       "Rings"
     ],
-    "question": "An integral domain $R$ is said to be an *Euclidean domain* if there\nis a function $N: R \\to \\{n\\in\\mathbf{Z} \\mid n\\geq 0\\}$ such that\n$N(0)=0$ and for each $a,b\\in R$ with $b\\neq 0$, there exist\nelements $q,r\\in R$ with $$\\begin{aligned}\n        a = qb + r, \\quad \\text{and} \\quad r = 0 \\, \\text{ or } \\, N(r) < N(b).\n    \\end{aligned}$$ Prove:\n\n1.  The ring $F[[x]]$ of power series over a field $F$ is an\n    Euclidean domain.\n\n2.  Every Euclidean domain is a PID.\n"
+    "question": "An integral domain $R$ is said to be an *Euclidean domain* if there\nis a function $N: R \\to \\{n\\in\\mathbb{Z} \\mid n\\geq 0\\}$ such that\n$N(0)=0$ and for each $a,b\\in R$ with $b\\neq 0$, there exist\nelements $q,r\\in R$ with $$\\begin{aligned}\n        a = qb + r, \\quad \\text{and} \\quad r = 0 \\, \\text{ or } \\, N(r) < N(b).\n    \\end{aligned}$$ Prove:\n\n1.  The ring $F[[x]]$ of power series over a field $F$ is an\n    Euclidean domain.\n\n2.  Every Euclidean domain is a PID.\n"
   },
   {
     "year": 0,
@@ -640,7 +640,7 @@
       "Linear Algebra",
       "Matrices"
     ],
-    "question": "Prove that any square matrix is conjugate to its transpose matrix.\n(You may prove it over $\\mathbf{C}$).\n"
+    "question": "Prove that any square matrix is conjugate to its transpose matrix.\n(You may prove it over $\\mathbb{C}$).\n"
   },
   {
     "year": 0,
@@ -651,7 +651,7 @@
       "Linear Algebra",
       "Matrices"
     ],
-    "question": "Determine the number of conjugacy classes of $16 \\times 16$ matrices\nwith entries in $\\mathbf{Q}$ and minimal polynomial\n$(x^2+1)^2(x^3+2)^2$.\n"
+    "question": "Determine the number of conjugacy classes of $16 \\times 16$ matrices\nwith entries in $\\mathbb{Q}$ and minimal polynomial\n$(x^2+1)^2(x^3+2)^2$.\n"
   },
   {
     "year": 0,

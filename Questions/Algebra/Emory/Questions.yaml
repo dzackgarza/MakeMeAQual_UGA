@@ -181,16 +181,16 @@
     - Galois Theory
   question: |
     1.  Show that $\sqrt{2+\sqrt{2}}$ is a root of
-        $p(x) = x^2 - 4x^2 + 2 \in \mathbf{Q}[x]$.
+        $p(x) = x^2 - 4x^2 + 2 \in \mathbb{Q}[x]$.
 
-    2.  Prove that $\mathbf{Q}(\sqrt{2 + \sqrt{2}})$ is a Galois
-        extension of $\mathbf{Q}$ and find its Galois group. (Hint: note
+    2.  Prove that $\mathbb{Q}(\sqrt{2 + \sqrt{2}})$ is a Galois
+        extension of $\mathbb{Q}$ and find its Galois group. (Hint: note
         that $\sqrt{2 - \sqrt{2}}$ is another root of $p(x)$).
 
     3.  Let $f(x) = x^3 - 5$. Determine the splitting field $K$ of
-        $f(x)$ over $\mathbf{Q}$ and the Galois group of $f(x)$. Give an
+        $f(x)$ over $\mathbb{Q}$ and the Galois group of $f(x)$. Give an
         example of a proper sub-extension
-        $\mathbf{Q} \subset L \subset K$, such that $L/\mathbf{Q}$ is
+        $\mathbb{Q} \subset L \subset K$, such that $L/\mathbb{Q}$ is
         Galois.
 
 
@@ -204,7 +204,7 @@
     - Rings
   question: |
     An integral domain $R$ is said to be an *Euclidean domain* if there
-    is a function $N: R \to \{n\in\mathbf{Z} \mid n\geq 0\}$ such that
+    is a function $N: R \to \{n\in\mathbb{Z} \mid n\geq 0\}$ such that
     $N(0)=0$ and for each $a,b\in R$ with $b\neq 0$, there exist
     elements $q,r\in R$ with $$\begin{aligned}
             a = qb + r, \quad \text{and} \quad r = 0 \, \text{ or } \, N(r) < N(b).
@@ -252,7 +252,7 @@
     - Matrices
   question: |
     Prove that any square matrix is conjugate to its transpose matrix.
-    (You may prove it over $\mathbf{C}$).
+    (You may prove it over $\mathbb{C}$).
 
 
 - year: 0 
@@ -264,7 +264,7 @@
     - Matrices
   question: |
     Determine the number of conjugacy classes of $16 \times 16$ matrices
-    with entries in $\mathbf{Q}$ and minimal polynomial
+    with entries in $\mathbb{Q}$ and minimal polynomial
     $(x^2+1)^2(x^3+2)^2$.
 
 
