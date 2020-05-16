@@ -1594,7 +1594,7 @@
     "tags": [
       "Schwarz Lemma"
     ],
-    "question": "1.  State the Schwarz lemma for analytic functions in the unit disc.\n\n2.  Let $f: \\mathbf{D} \\to \\mathbf{D}$ be an analytic map from the\n    unit disc $\\mathbf{D}$ into itself. Use the Schwarz lemma to\n    show that for each $a\\in \\mathbf{D}$ we have\n    \\begin{align*}\n    \\dfrac{|f'(a)|}{1-|f(a)|^2} \\leq \\dfrac{1}{1-|a|^2}\n    \\end{align*}\n"
+    "question": "1.  State the Schwarz lemma for analytic functions in the unit disc.\n\n2.  Let $f: \\mathbb{D} \\to \\mathbb{D}$ be an analytic map from the\n    unit disc $\\mathbb{D}$ into itself. Use the Schwarz lemma to\n    show that for each $a\\in \\mathbb{D}$ we have\n    \\begin{align*}\n    \\dfrac{|f'(a)|}{1-|f(a)|^2} \\leq \\dfrac{1}{1-|a|^2}\n    \\end{align*}\n"
   },
   {
     "year": 0,
@@ -1634,7 +1634,7 @@
     "tags": [
       "Entire Functions"
     ],
-    "question": "If $f$ is a non-constant entire function, then $f(\\mathbf{C})$ is\ndense in the plane.\n"
+    "question": "If $f$ is a non-constant entire function, then $f(\\mathbb{C})$ is\ndense in the plane.\n"
   },
   {
     "year": 0,

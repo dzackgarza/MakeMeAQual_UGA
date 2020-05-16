@@ -11,11 +11,11 @@ app = Flask(__name__, static_folder="Frontend")
 CORS(app)
 
 pandoc_cmd_html = """
-pandoc -f markdown -r markdown+tex_math_dollars+simple_tables+table_captions+yaml_metadata_block+smart+blank_before_blockquote+backtick_code_blocks+link_attributes --lua-filter=/home/zack/Notes/Latex/dollar_math.lua -s --mathjax=https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML
+pandoc temp.md -f markdown -r markdown+tex_math_dollars+simple_tables+table_captions+yaml_metadata_block+smart+blank_before_blockquote+backtick_code_blocks+link_attributes --lua-filter=/home/zack/Notes/Latex/dollar_math.lua -s --mathjax=https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML
 """
 
 pandoc_cmd_pdf = """
-pandoc -f markdown -r markdown+tex_math_dollars+simple_tables+table_captions+yaml_metadata_block+smart+blank_before_blockquote+backtick_code_blocks+link_attributes --template=/home/zack/Notes/Latex/pandoc_template.tex  --resource-path="$directory" --pdf-engine=pdflatex --lua-filter=/home/zack/Notes/Latex/dollar_math.lua -t latex -o out.pdf && cat out.pdf
+pandoc temp.md -f markdown -r markdown+tex_math_dollars+simple_tables+table_captions+yaml_metadata_block+smart+blank_before_blockquote+backtick_code_blocks+link_attributes --template=/home/zack/Notes/Latex/pandoc_template.tex  --resource-path="$directory" --pdf-engine=pdflatex --lua-filter=/home/zack/Notes/Latex/dollar_math.lua -t latex -o out.pdf && cat out.pdf
 """
 @app.route("/")
 def hello():
@@ -35,7 +35,6 @@ def example():
         
     # Start building markdown document
     total_string = "" if to_pdf else open('latexmacs.tex', 'r').read() + "\n\n"
-    pandoc_cmd = pandoc_cmd_pdf if to_pdf else pandoc_cmd_html
     total_string += "---\ntitle: Qualifying Exam\n---\n\n"
 
     # Add all questions to doc
@@ -50,15 +49,14 @@ def example():
         print(out_str)
         total_string += out_str
     #print(total_string)
-    final_cmd = "printf \'\\n%s\' \'{total_string}\' | {pandoc_cmd}".format(
-            total_string = total_string,
-            pandoc_cmd = pandoc_cmd
-        )
-    print(final_cmd)
-    p = subprocess.Popen(final_cmd, stdout=subprocess.PIPE, shell=True)
+
+    with open("temp.md", "w") as text_file:
+        text_file.write(total_string)
+    pandoc_cmd = pandoc_cmd_pdf if to_pdf else pandoc_cmd_html
+    p = subprocess.Popen(pandoc_cmd, stdout=subprocess.PIPE, shell=True)
     (output, err) = p.communicate()
     p.wait()
-    print(output)
+    # print(output)
     if (to_pdf):
         response = make_response(bytearray(output))
         response.headers.set('Content-Disposition', 'attachment', filename='qualout.pdf')

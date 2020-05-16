@@ -45,9 +45,9 @@
   question: |
     1.  State the Schwarz lemma for analytic functions in the unit disc.
 
-    2.  Let $f: \mathbf{D} \to \mathbf{D}$ be an analytic map from the
-        unit disc $\mathbf{D}$ into itself. Use the Schwarz lemma to
-        show that for each $a\in \mathbf{D}$ we have
+    2.  Let $f: \mathbb{D} \to \mathbb{D}$ be an analytic map from the
+        unit disc $\mathbb{D}$ into itself. Use the Schwarz lemma to
+        show that for each $a\in \mathbb{D}$ we have
         \begin{align*}
         \dfrac{|f'(a)|}{1-|f(a)|^2} \leq \dfrac{1}{1-|a|^2}
         \end{align*}
@@ -101,7 +101,7 @@
   tags:
     - Entire Functions
   question: |
-    If $f$ is a non-constant entire function, then $f(\mathbf{C})$ is
+    If $f$ is a non-constant entire function, then $f(\mathbb{C})$ is
     dense in the plane.
 
 
