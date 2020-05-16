@@ -113,7 +113,9 @@
     - Representation Theory
   question: |
     Show that a finite simple group cannot have a 2-dimensional irreducible
-    representation over $\mathbb C$. (Hint: the determinant might prove useful.)
+    representation over $\mathbb C$. 
+
+    > Hint: the determinant might prove useful.
 
 - year: 2016
   number: 1
@@ -442,9 +444,10 @@
     - Show that if a ring $R$ is isomorphic to $\mathbb Z^d$ as
       an abelian group, then every element in $R$ satisfies
       a monic integral polynomial.
-      (\textbf{Hint:} Let $\{v_1,\dots,v_d\}$ be a basis of
-      $R$ and for a fixed non-zero $r\in R$, write $rv_i=\sum_j
-      a_{ij}v_j$. Use the Hamilton-Cayley theorem.)
+      
+      > **Hint:** Let $\{v_1,\dots,v_d\}$ be a basis of
+        $R$ and for a fixed non-zero $r\in R$, write $rv_i=\sum_j
+        a_{ij}v_j$. Use the Hamilton-Cayley theorem.
 
     - Let $\pi:G\rightarrow\GL(V)$ be an irreducible representation
       of $G$ (over $\mathbb C$). Show that $\pi(P_C)$ acts on $V$
@@ -542,7 +545,9 @@
     - Groups
     - Sylow Theory
   question: |
-    Classify all groups of order 2012 up to isomorphism. (Hint: 503 is prime).
+    Classify all groups of order 2012 up to isomorphism. 
+
+    > Hint: 503 is prime.
 
 
 - year: 2012
@@ -668,8 +673,8 @@
       .\end{align*}
       
       > Hint: given a non-nilpotent element $r$ of $R$, you may
-      wish to construct a prime ideal that does not
-      contain $r$ or its powers.
+        wish to construct a prime ideal that does not
+        contain $r$ or its powers.
 
     - Given a positive integer $m$, determine the nilradical
       of $\mathbb Z/(m)$.
@@ -843,9 +848,9 @@
       common zero, i.e., if $I$ is a proper ideal of $S$, then
       there exists $a\in[0,1]$ such that $f(a)=0$ for all $f\in I$.
       Conclude that every maximal ideal of $S$ is of the form
-      $I_a$ for some $a\in[0,1]$. \textbf{Hint:} as $[0,1]$
-      is compact, every open cover of $[0,1]$ contains a finite
-      subcover.
+      $I_a$ for some $a\in[0,1]$. 
+
+      > **Hint**: As $[0,1]$ is compact, every open cover of $[0,1]$ contains a finite subcover.
 
 
 - year: 2010
@@ -861,7 +866,7 @@
     Show that $K$ is algebraically closed.\\
     
     > **Hint:** if $K(\theta)/K$ is algebraic, consider $F(\theta)/F$
-    and its normal closure; primitive elements might be of help.
+      and its normal closure; primitive elements might be of help.
 
 
 - year: 2010
@@ -994,8 +999,9 @@
 
     - If $M$ satisfies the descending chain condition on submodules,
       show that if $f$ is injective, then $f$ is surjective.
-      (Hint: note that if $f$ is injective, so are
-      $f\circ f$, $f\circ f\circ f$, etc.)
+      
+      > Hint: note that if $f$ is injective, so are
+        $f\circ f$, $f\circ f\circ f$, etc.
 
     - Give an example of a ring $R$, an $R$-module $M$,
       and an injective $R$-module homomorphism $f:M\rightarrow M$
