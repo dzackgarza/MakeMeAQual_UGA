@@ -827,7 +827,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Analytic Functions
   question: |
     Let $f: {\mathbb C} \rightarrow {\mathbb C}$ be an injective
     analytic (also called univalent) function. Show that there exist
@@ -840,7 +840,9 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Analytic Functions
+    - Analysis
+    - Conformal Maps
   question: |
    Let $g$ be analytic for $|z|\leq 1$ and $|g(z)| < 1$ for $|z| = 1$.
 
@@ -866,7 +868,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Conformal Maps
   question: |
     Find a conformal map from $D = \{z :\  |z| < 1,\ |z - 1/2| > 1/2\}$
     to the unit disk $\Delta=\{z: \ |z|<1\}$.
@@ -878,7 +880,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Analysis
   question: |
     Let $a_n \neq 0$ and assume that $\displaystyle
     \lim_{n \rightarrow \infty} \frac{|a_{n+1}|}{|a_n|} = L$. Show that
@@ -896,7 +898,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Conformal Maps
   question: |
     (a) Let $z, w$ be complex numbers, such that $\bar{z} w \neq 1$.
     Prove that
@@ -926,7 +928,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Analysis
   question: |
     Use $n$-th roots of unity (i.e. solutions of $z^n - 1 =0$) to show
     that
@@ -936,6 +938,13 @@
     
     > Hint: $1 - \cos 2 \theta = 2 \sin^2 \theta,\; \sin 2 \theta = 2 \sin \theta \cos \theta$.
 
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Cauchy-Riemann
+  question: |
     (a) Show that in polar coordinates, the Cauchy-Riemann
     equations take the form
 
@@ -956,12 +965,15 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Analysis
+    - Limits
   question: |
     Assume $f$ is continuous in the region:
     $x \geq x_0, \; 0 \leq y \leq b$ and the limit
     $$\displaystyle \lim_{x \rightarrow + \infty} f(x + iy) = A$$ exists
-    uniformly with respect to $y$ (independent of $y$). Show that
+    uniformly with respect to $y$ (independent of $y$). 
+
+    Show that
     $$\lim_{x \rightarrow + \infty} \int_{\gamma_x} f(z) dz  = iA b \; , \; \;$$
     where $\gamma_x : = \{ z \; | \; z = x + it, \; 0 \leq  t \leq b\}.$
 
@@ -1100,7 +1112,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Rouche 
   question: |
     Find the number of roots of $z^4 - 6z + 3 =0$ in $|z|<1$ and
     $1 < |z| < 2$ respectively.
@@ -1844,7 +1856,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Rouche 
   question: |
     Prove that all the roots of the complex polynomial
     $$z^7 - 5 z^3 +12 =0$$ lie between the circles $|z|=1$ and $|z|=2$.
