@@ -1528,7 +1528,7 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Liouville's Theorem"
     ],
     "question": "(1) Assume $\\displaystyle f(z) = \\sum_{n=0}^\\infty c_n z^n$\nconverges in $|z| < R$. Show that for $r <R$,\n$$\\frac{1}{2 \\pi} \\int_0^{2 \\pi} |f(r e^{i \\theta})|^2 d \\theta =\n\\sum_{n=0}^\\infty |c_n|^2 r^{2n} \\; .$$\n\n(2) Deduce Liouville's theorem from (1).\n"
   },
@@ -1538,7 +1538,7 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Analysis"
     ],
     "question": "Let $f$ be a continuous function in the region\n$$D=\\{z \\suchthat  \\abs{z}>R, 0\\leq \\arg z\\leq \\theta\\}\\quad\\text{where}\\quad\n1\\leq \\theta \\leq 2\\pi.$$ If there exists $k$ such that\n$\\displaystyle{\\lim_{z\\to\\infty} zf(z)=k}$ for $z$ in the region\n$D$. \nShow that $$\\lim_{R'\\to\\infty} \\int_{L} f(z) dz=i\\theta k,$$\nwhere $L$ is the part of the circle $|z|=R'$ which lies in the\nregion $D$.\n"
   },
@@ -1548,7 +1548,8 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Analytic Functions",
+      "Residue Theorem"
     ],
     "question": "Suppose that $f$ is an analytic function in the region $D$ which\ncontains the point $a$. Let\n$$F(z)= z-a-qf(z),\\quad \\text{where}~ q \\ \\text{is a complex\nparameter}.$$ \n\n(1) Let $K\\subset D$ be a circle with the center at\npoint $a$ and also we assume that $f(z)\\not =0$ for $z\\in K$. Prove\nthat the function $F$ has one and only one zero $z=w$ on the closed\ndisc $\\bar{K}$ whose boundary is the circle $K$ if $\\displaystyle{\n|q|<\\min_{z\\in K} \\frac{|z-a|}{|f(z)|}.}$\\\n\n(2) Let $G(z)$ be an analytic function on the disk $\\bar{K}$. Apply\nthe residue theorem to prove that\n$\\displaystyle{ \\frac{G(w)}{F'(w)}=\\frac{1}{2\\pi\ni}\\int_K \\frac{G(z)}{F(z)} dz,}$ where $w$ is the zero from (1).\\\n\n(3) If $z\\in K$, prove that the function\n$\\displaystyle{\\frac{1}{F(z)}}$ can be represented as a convergent\nseries with respect to $q$: $\\displaystyle{\n\\frac{1}{F(z)}=\\sum_{n=0}^{\\infty} \\frac{(qf(z))^n}{(z-a)^{n+1}}.}$\n"
   },
@@ -1558,7 +1559,7 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Integrals"
     ],
     "question": "Evaluate $$\\displaystyle{ \\int_{0}^{\\infty}\\frac{x\\sin x}{x^2+a^2} \\,\ndx }.$$\n"
   },
@@ -1568,7 +1569,7 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Cauchy-Riemann"
     ],
     "question": "Let $f=u+iv$ be differentiable (i.e. $f'(z)$ exists) with continuous\npartial derivatives at a point $z=re^{i\\theta}$, $r\\not= 0$. Show\nthat\n$$\\frac{\\partial u}{\\partial r}=\\frac{1}{r}\\frac{\\partial v}{\\partial \\theta},\\quad\n\\frac{\\partial v}{\\partial r}=-\\frac{1}{r}\\frac{\\partial u}{\\partial \\theta}.$$\n"
   },
@@ -1578,7 +1579,7 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Integrals"
     ],
     "question": "Show that $\\displaystyle \\int_0^\\infty \\frac{x^{a-1}}{1+x^n}\ndx=\\frac{\\pi}{n\\sin \\frac{a\\pi}{n}}$ using complex analysis, $0< a <\nn$. Here $n$ is a positive integer.\n"
   },
@@ -1588,17 +1589,7 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
-    ],
-    "question": ""
-  },
-  {
-    "year": "Extra",
-    "number": 0,
-    "university": "UGA",
-    "exam": "Complex_Analysis",
-    "tags": [
-      "Complex"
+      "Integrals"
     ],
     "question": "For $s>0$, the **gamma function** is defined by\n$\\displaystyle{\\Gamma(s)=\\int_0^{\\infty} e^{-t}t^{s-1} dt}$.\n\n1.  Show that the gamma function is analytic in the half-plane\n    $\\Re (s)>0$, and is still given there by the integral formula\n    above.\n\n2.  Apply the formula in the previous question to show that\n    $$\\Gamma(s)\\Gamma(1-s)=\\frac{\\pi}{\\sin \\pi s}.$$\n\n> Hint: You may need $\\displaystyle{\\Gamma(1-s)=t \\int_0^{\\infty}e^{-vt}(vt)^{-s} dv}$ for $t>0$.\n"
   },
@@ -1608,7 +1599,8 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Rouche",
+      "Polynomials"
     ],
     "question": "Apply Rouché's Theorem to prove the Fundamental Theorem of Algebra: If\n$$P_n(z) = a_0 + a_1z + \\cdots + a_{n-1}z^{n-1} + a_nz^n\\quad  (a_n \\neq 0)$$\nis a polynomial of degree n, then it has n zeros in $\\mathbb C$.\n"
   },
@@ -1618,9 +1610,10 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Entire Functions",
+      "Analysis"
     ],
-    "question": "Suppose $f$ is entire and there exist $A, R >0$ and natural number\n$N$ such that $$|f(z)| \\geq A |z|^N\\ \\text{for}\\ |z| \\geq R.$$ Show\nthat \n(i) $f$ is a polynomial and \n(ii) the degree of $f$ is at least $N$.\n"
+    "question": "Suppose $f$ is entire and there exist $A, R >0$ and natural number\n$N$ such that $$|f(z)| \\geq A |z|^N\\ \\text{for}\\ |z| \\geq R.$$ Show\nthat \n\n(i) $f$ is a polynomial and \n\n(ii) the degree of $f$ is at least $N$.\n"
   },
   {
     "year": "Extra",
@@ -1628,7 +1621,7 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Analytic Functions"
     ],
     "question": "Let $f: {\\mathbb C} \\rightarrow {\\mathbb C}$ be an injective\nanalytic (also called *univalent*) function. Show that there exist\ncomplex numbers $a \\neq 0$ and $b$ such that $f(z) = az + b$.\n"
   },
@@ -1638,7 +1631,9 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Analytic Functions",
+      "Analysis",
+      "Conformal Maps"
     ],
     "question": "Let $g$ be analytic for $|z|\\leq 1$ and $|g(z)| < 1$ for $|z| = 1$.\n\n1.  Show that $g$ has a unique fixed point in $|z| < 1$.\n\n2.  What happens if we replace $|g(z)| < 1$ with $|g(z)|\\leq 1$ for\n    $|z|=1$? Give an example if (a) is not true or give an proof\n    if (a) is still true.\n\n3.  What happens if we simply assume that $f$ is analytic for\n    $|z| < 1$ and $|f(z)| < 1$ for $|z| < 1$? Suppose that $f(z)\n    \\not\\equiv  z$. Can f have more than one fixed point in\n    $|z| < 1$?\n\n> Hint: The map $\\displaystyle{\\psi_{\\alpha}(z)=\\frac{\\alpha-z}{1-\\bar{\\alpha}z}}$ may be useful.\n"
   },
@@ -1648,7 +1643,7 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Conformal Maps"
     ],
     "question": "Find a conformal map from $D = \\{z :\\  |z| < 1,\\ |z - 1/2| > 1/2\\}$\nto the unit disk $\\Delta=\\{z: \\ |z|<1\\}$.\n"
   },
@@ -1658,7 +1653,8 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Entire Functions",
+      "Analysis"
     ],
     "question": "Let $f(z)$ be entire and assume values of $f(z)$ lie outside a *bounded*\nopen set $\\Omega$. Show without using Picard's theorems that $f(z)$ is a\nconstant.\n"
   },
@@ -1668,7 +1664,7 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Liouville's Theorem"
     ],
     "question": "(1) Assume $\\displaystyle f(z) = \\sum_{n=0}^\\infty c_n z^n$ converges\nin $|z| < R$. Show that for $r <R$,\n$$\\frac{1}{2 \\pi} \\int_0^{2 \\pi} |f(r e^{i \\theta})|^2 d \\theta\n= \\sum_{n=0}^\\infty |c_n|^2 r^{2n} \\; .$$\n\n(2) Deduce Liouville's theorem from (1).\n"
   },
@@ -1678,7 +1674,8 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Entire Functions",
+      "Analysis"
     ],
     "question": "Let $f(z)$ be entire and assume that $f(z) \\leq M |z|^2$ outside some\ndisk for some constant $M$. Show that $f(z)$ is a polynomial in $z$ of\ndegree $\\leq 2$.\n"
   },
@@ -1688,7 +1685,8 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Convergence",
+      "Analysis"
     ],
     "question": "Let $a_n(z)$ be an analytic sequence in a domain $D$ such that\n$\\displaystyle \\sum_{n=0}^\\infty |a_n(z)|$ converges uniformly on\nbounded and closed sub-regions of $D$. Show that\n$\\displaystyle \\sum_{n=0}^\\infty |a'_n(z)|$ converges uniformly on\nbounded and closed sub-regions of $D$.\n"
   },
@@ -1698,7 +1696,8 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Analytic Functions",
+      "Analysis"
     ],
     "question": "Let $f(z)$ be analytic in an open set $\\Omega$ except possibly at a\npoint $z_0$ inside $\\Omega$. Show that if $f(z)$ is bounded in near\n$z_0$, then $\\displaystyle \\int_\\Delta f(z) dz = 0$ for all triangles\n$\\Delta$ in $\\Omega$.\n"
   },
@@ -1708,7 +1707,8 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Analysis",
+      "Limits"
     ],
     "question": "Assume $f$ is continuous in the region:\n$0< |z-a| \\leq R, \\; 0 \\leq \\arg(z-a) \\leq \\beta_0$\n($0 < \\beta_0 \\leq 2 \\pi$) and the limit\n$\\displaystyle \\lim_{z \\rightarrow a} (z-a) f(z) = A$ exists. Show that\n$$\\lim_{r \\rightarrow 0} \\int_{\\gamma_r} f(z) dz  = i A \\beta_0 \\; , \\; \\;$$\nwhere\n$$\\gamma_r : = \\{ z \\; | \\; z = a + r e^{it}, \\; 0 \\leq  t \\leq \\beta_0 \\}.$$\n"
   },
@@ -1718,7 +1718,7 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Uniform Continuity"
     ],
     "question": "Show that $f(z) = z^2$ is uniformly continuous in any open disk\n$|z| < R$, where $R>0$ is fixed, but it is not uniformly continuous on\n$\\mathbb C$.\n"
   },
@@ -1728,7 +1728,7 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "PDEs"
     ],
     "question": "(1) Show that the function $u=u(x,y)$ given by\n$$u(x,y)=\\frac{e^{ny}-e^{-ny}}{2n^2}\\sin nx\\quad \\text{for}\\ n\\in {\\mathbf N}$$\nis the solution on $D=\\{(x,y)\\ | x^2+y^2<1\\}$ of the Cauchy problem for\nthe Laplace equation\n$$\\frac{\\partial ^2u}{\\partial x^2}+\\frac{\\partial ^2u}{\\partial y^2}=0,\\quad\nu(x,0)=0,\\quad \\frac{\\partial u}{\\partial y}(x,0)=\\frac{\\sin nx}{n}.$$\n\n(2) Show that there exist points $(x,y)\\in D$ such that\n$\\displaystyle{\\limsup_{n\\to\\infty} |u(x,y)|=\\infty}$.\n"
   },
@@ -1738,7 +1738,7 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Liouville's Theorem"
     ],
     "question": "(1) Assume $\\displaystyle f(z) = \\sum_{n=0}^\\infty c_n z^n$\nconverges in $|z| < R$. Show that for $r <R$,\n$$\\frac{1}{2 \\pi} \\int_0^{2 \\pi} |f(r e^{i \\theta})|^2 d \\theta =\n\\sum_{n=0}^\\infty |c_n|^2 r^{2n} \\; .$$\n\n(2) Deduce Liouville's theorem from (1).\n"
   },
@@ -1748,7 +1748,8 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Analysis",
+      "Limits"
     ],
     "question": "Let $f$ be a continuous function in the region\n$$D=\\{z\\ |  |z|>R, 0\\leq \\arg Z\\leq \\theta\\}\\quad\\text{where}\\quad\n0\\leq \\theta \\leq 2\\pi.$$ If there exists $k$ such that\n$\\displaystyle{\\lim_{z\\to\\infty} zf(z)=k}$ for $z$ in the region\n$D$. Show that $$\\lim_{R'\\to\\infty} \\int_{L} f(z) dz=i\\theta k,$$\nwhere $L$ is the part of the circle $|z|=R'$ which lies in the\nregion $D$.\n"
   },
@@ -1758,7 +1759,8 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Analytic Functions",
+      "Residue Theorem"
     ],
     "question": "Suppose that $f$ is an analytic function in the region $D$ which\ncontains the point $a$. Let\n$$F(z)= z-a-qf(z),\\quad \\text{where}\\quad q \\ \\text{is a complex\nparameter}.$$ \n\n(1) Let $K\\subset D$ be a circle with the center at\npoint $a$ and also we assume that $f(z)\\not =0$ for $z\\in K$. Prove\nthat the function $F$ has one and only one zero $z=w$ on the closed\ndisc $\\bar{K}$ whose boundary is the circle $K$ if $\\displaystyle{\n|q|<\\min_{z\\in K} \\frac{|z-a|}{|f(z)|}.}$\\\n\n(2) Let $G(z)$ be an analytic function on the disk $\\bar{K}$. Apply\nthe residue theorem to prove that\n$\\displaystyle{ \\frac{G(w)}{F'(w)}=\\frac{1}{2\\pi\ni}\\int_K \\frac{G(z)}{F(z)} dz,}$ where $w$ is the zero from (1).\\\n\n(3) If $z\\in K$, prove that the function\n$\\displaystyle{\\frac{1}{F(z)}}$ can be represented as a convergent\nseries with respect to $q$: $\\displaystyle{\n\\frac{1}{F(z)}=\\sum_{n=0}^{\\infty} \\frac{(qf(z))^n}{(z-a)^{n+1}}.}$\n"
   },
@@ -1768,7 +1770,7 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Integrals"
     ],
     "question": "Evaluate $\\displaystyle{ \\int_{0}^{\\infty}\\frac{x\\sin x}{x^2+a^2} \\,dx }$.\n"
   },
@@ -1778,7 +1780,7 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Cauchy-Riemann"
     ],
     "question": "Let $f=u+iv$ be differentiable (i.e. $f'(z)$ exists) with continuous\npartial derivatives at a point $z=re^{i\\theta}$, $r\\not= 0$. Show\nthat\n$$\\frac{\\partial u}{\\partial r}=\\frac{1}{r}\\frac{\\partial v}{\\partial \\theta},\\quad\n\\frac{\\partial v}{\\partial r}=-\\frac{1}{r}\\frac{\\partial u}{\\partial \\theta}.$$\n"
   },
@@ -1788,7 +1790,7 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Integrals"
     ],
     "question": "Show that $\\displaystyle \\int_0^\\infty \\frac{x^{a-1}}{1+x^n}\ndx=\\frac{\\pi}{n\\sin \\frac{a\\pi}{n}}$ using complex analysis, $0< a <\nn$. Here $n$ is a positive integer.\n"
   },
@@ -1798,7 +1800,8 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Analytic Functions",
+      "Integrals"
     ],
     "question": "For $s>0$, the **gamma function** is defined by\n$\\displaystyle{\\Gamma(s)=\\int_0^{\\infty} e^{-t}t^{s-1} dt}$.\n\n1.  Show that the gamma function is analytic in the half-plane\n    $\\Re (s)>0$, and is still given there by the integral formula\n    above.\n\n2.  Apply the formula in the previous question to show that\n    $$\\Gamma(s)\\Gamma(1-s)=\\frac{\\pi}{\\sin \\pi s}.$$\n\n> Hint: You may need $\\displaystyle{\\Gamma(1-s)=t \\int_0^{\\infty}e^{-vt}(vt)^{-s} dv}$ for $t>0$.\n"
   },
@@ -1808,9 +1811,10 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Entire Functions",
+      "Analysis"
     ],
-    "question": "Apply Rouché's Theorem to prove the Fundamental Theorem of Algebra: If\n$$P_n(z) = a_0 + a_1z + \\cdots + a_{n-1}z^{n-1} + a_nz^n\\quad  (a_n \\neq 0)$$\nis a polynomial of degree n, then it has n zeros in $\\mathbb C$.\n"
+    "question": "Suppose $f$ is entire and there exist $A, R >0$ and natural number\n$N$ such that $$|f(z)| \\geq A |z|^N\\ \\text{for}\\ |z| \\geq R.$$ Show\nthat \n\n(i) $f$ is a polynomial and \n\n(ii) the degree of $f$ is at least $N$.\n"
   },
   {
     "year": "Extra",
@@ -1818,17 +1822,7 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
-    ],
-    "question": "Suppose $f$ is entire and there exist $A, R >0$ and natural number\n$N$ such that $$|f(z)| \\geq A |z|^N\\ \\text{for}\\ |z| \\geq R.$$ Show\nthat (i) $f$ is a polynomial and (ii) the degree of $f$ is at least\n$N$.\n"
-  },
-  {
-    "year": "Extra",
-    "number": 0,
-    "university": "UGA",
-    "exam": "Complex_Analysis",
-    "tags": [
-      "Complex"
+      "Analytic Functions"
     ],
     "question": "Let $f: {\\mathbb C} \\rightarrow {\\mathbb C}$ be an injective\nanalytic (also called univalent) function. Show that there exist\ncomplex numbers $a \\neq 0$ and $b$ such that $f(z) = az + b$.\n"
   },
@@ -1838,7 +1832,9 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Analytic Functions",
+      "Analysis",
+      "Conformal Maps"
     ],
     "question": "Let $g$ be analytic for $|z|\\leq 1$ and $|g(z)| < 1$ for $|z| = 1$.\n\n-   Show that $g$ has a unique fixed point in $|z| < 1$.\n\n-   What happens if we replace $|g(z)| < 1$ with $|g(z)|\\leq 1$ for\n    $|z|=1$? Give an example if (a) is not true or give an proof\n    if (a) is still true.\n\n-   What happens if we simply assume that $f$ is analytic for\n    $|z| < 1$ and $|f(z)| < 1$ for $|z| < 1$? Suppose that $f(z)\n    \\not\\equiv  z$. Can f have more than one fixed point in\n    $|z| < 1$?\n\n> Hint: The map\n$\\displaystyle{\\psi_{\\alpha}(z)=\\frac{\\alpha-z}{1-\\bar{\\alpha}z}}$\n> may be useful.\n"
   },
@@ -1848,7 +1844,7 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Conformal Maps"
     ],
     "question": "Find a conformal map from $D = \\{z :\\  |z| < 1,\\ |z - 1/2| > 1/2\\}$\nto the unit disk $\\Delta=\\{z: \\ |z|<1\\}$.\n"
   },
@@ -1858,7 +1854,7 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Entire Functions"
     ],
     "question": "Let $f(z)$ be entire and assume values of $f(z)$ lie outside a\n*bounded* open set $\\Omega$. Show without using Picard's theorems\nthat $f(z)$ is a constant.\n"
   },
@@ -1868,17 +1864,7 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
-    ],
-    "question": "Let $f(z)$ be entire and assume values of $f(z)$ lie outside a *bounded*\nopen set $\\Omega$. Show without using Picard's theorems that $f(z)$ is a\nconstant.\n"
-  },
-  {
-    "year": "Extra",
-    "number": 0,
-    "university": "UGA",
-    "exam": "Complex_Analysis",
-    "tags": [
-      "Complex"
+      "Liouville's Theorem"
     ],
     "question": "(1) Assume $\\displaystyle f(z) = \\sum_{n=0}^\\infty c_n z^n$ converges\nin $|z| < R$. Show that for $r <R$,\n$$\\frac{1}{2 \\pi} \\int_0^{2 \\pi} |f(r e^{i \\theta})|^2 d \\theta\n= \\sum_{n=0}^\\infty |c_n|^2 r^{2n} \\; .$$\n\n(2) Deduce Liouville's theorem from (1).\n"
   },
@@ -1888,7 +1874,8 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Entire Functions",
+      "Analysis"
     ],
     "question": "Let $f(z)$ be entire and assume that $f(z) \\leq M |z|^2$ outside some\ndisk for some constant $M$. Show that $f(z)$ is a polynomial in $z$ of\ndegree $\\leq 2$.\n"
   },
@@ -1898,7 +1885,7 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Convergence"
     ],
     "question": "Let $a_n(z)$ be an analytic sequence in a domain $D$ such that\n$\\displaystyle \\sum_{n=0}^\\infty |a_n(z)|$ converges uniformly on\nbounded and closed sub-regions of $D$. Show that\n$\\displaystyle \\sum_{n=0}^\\infty |a'_n(z)|$ converges uniformly on\nbounded and closed sub-regions of $D$.\n"
   },
@@ -1908,7 +1895,7 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Analytic Functions"
     ],
     "question": "Let $f(z)$ be analytic in an open set $\\Omega$ except possibly at a\npoint $z_0$ inside $\\Omega$. Show that if $f(z)$ is bounded in near\n$z_0$, then $\\displaystyle \\int_\\Delta f(z) dz = 0$ for all triangles\n$\\Delta$ in $\\Omega$.\n"
   },
@@ -1918,7 +1905,8 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Analysis",
+      "Limits"
     ],
     "question": "Assume $f$ is continuous in the region:\n$0< |z-a| \\leq R, \\; 0 \\leq \\arg(z-a) \\leq \\beta_0$\n($0 < \\beta_0 \\leq 2 \\pi$) and the limit\n$\\displaystyle \\lim_{z \\rightarrow a} (z-a) f(z) = A$ exists. Show that\n$$\\lim_{r \\rightarrow 0} \\int_{\\gamma_r} f(z) dz  = i A \\beta_0 \\; , \\; \\;$$\nwhere\n$$\\gamma_r : = \\{ z \\; | \\; z = a + r e^{it}, \\; 0 \\leq  t \\leq \\beta_0 \\}.$$\n"
   },
@@ -1928,7 +1916,7 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "PDEs"
     ],
     "question": "Show that $f(z) = z^2$ is uniformly continuous in any open disk\n$|z| < R$, where $R>0$ is fixed, but it is not uniformly continuous on\n$\\mathbb C$.\n\n(1) Show that the function $u=u(x,y)$ given by\n    $$u(x,y)=\\frac{e^{ny}-e^{-ny}}{2n^2}\\sin nx\\quad \\text{for}\\ n\\in {\\mathbf N}$$\n    is the solution on $D=\\{(x,y)\\ | x^2+y^2<1\\}$ of the Cauchy problem for\n    the Laplace equation\n    $$\\frac{\\partial ^2u}{\\partial x^2}+\\frac{\\partial ^2u}{\\partial y^2}=0,\\quad\n    u(x,0)=0,\\quad \\frac{\\partial u}{\\partial y}(x,0)=\\frac{\\sin nx}{n}.$$\n"
   },
@@ -1938,7 +1926,7 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Integrals"
     ],
     "question": "This question provides some insight into Cauchy's theorem. Solve the\nproblem without using Cauchy's theorem.\n\n1.  Evaluate the integral $\\displaystyle{\\int_{\\gamma} z^n dz}$ for\n    all integers $n$. Here $\\gamma$ is any circle centered at the\n    origin with the positive (counterclockwise) orientation.\n\n2.  Same question as (a), but with $\\gamma$ any circle not\n    containing the origin.\n\n3.  Show that if $|a|<r<|b|$, then\n    $\\displaystyle{\\int_{\\gamma}\\frac{dz}{(z-a)(z-b)} dz=\\frac{2\\pi i}{a-b}}$.\n    Here $\\gamma$ denotes the circle centered at the origin, of\n    radius $r$, with the positive orientation.\n"
   },
@@ -1948,9 +1936,9 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Liouville's Theorem"
     ],
-    "question": "(1) Assume the infinite series\n$\\displaystyle  \\sum_{n=0}^\\infty c_n z^n$ converges in $|z| < R$\nand let $f(z)$ be the limit. Show that for $r <R$,\n$$\\frac{1}{2 \\pi} \\int_0^{2 \\pi} |f(r e^{i \\theta})|^2 d \\theta =\n\\sum_{n=0}^\\infty |c_n|^2 r^{2n} \\; .$$\n\n(2) Deduce Liouville's theorem from (1). Liouville's theorem: If\n$f(z)$ is entire and bounded, then $f$ is constant.\n"
+    "question": "(1) Assume the infinite series\n$\\displaystyle  \\sum_{n=0}^\\infty c_n z^n$ converges in $|z| < R$\nand let $f(z)$ be the limit. Show that for $r <R$,\n$$\\frac{1}{2 \\pi} \\int_0^{2 \\pi} |f(r e^{i \\theta})|^2 d \\theta =\n\\sum_{n=0}^\\infty |c_n|^2 r^{2n} \\; .$$\n\n(2) Deduce Liouville's theorem from (1). \n\n> Liouville's theorem: If $f(z)$ is entire and bounded, then $f$ is constant.\n"
   },
   {
     "year": "Extra",
@@ -1958,9 +1946,10 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Analysis",
+      "Limits"
     ],
-    "question": "Let $f$ be a continuous function in the region\n$$D=\\{z\\ |  |z|>R, 0\\leq \\arg Z\\leq \\theta\\}\\quad\\text{where}\\quad\n0\\leq \\theta \\leq 2\\pi.$$ If there exists $k$ such that\n$\\displaystyle{\\lim_{z\\to\\infty} zf(z)=k}$ for $z$ in the region\n$D$. Show that $$\\lim_{R'\\to\\infty} \\int_{L} f(z) dz=i\\theta k,$$\nwhere $L$ is the part of the circle $|z|=R'$ which lies in the\nregion $D$.\n"
+    "question": "Let $f$ be a continuous function in the region\n$$D=\\{z\\ |  |z|>R, 0\\leq \\arg Z\\leq \\theta\\}\\quad\\text{where}\\quad\n0\\leq \\theta \\leq 2\\pi.$$ \nIf there exists $k$ such that\n$\\displaystyle{\\lim_{z\\to\\infty} zf(z)=k}$ for $z$ in the region\n$D$. \nShow that $$\\lim_{R'\\to\\infty} \\int_{L} f(z) dz=i\\theta k,$$\nwhere $L$ is the part of the circle $|z|=R'$ which lies in the\nregion $D$.\n"
   },
   {
     "year": "Extra",
@@ -1968,7 +1957,7 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Integrals"
     ],
     "question": "Evaluate $\\displaystyle{ \\int_{0}^{\\infty}\\frac{x\\sin x}{x^2+a^2} \\,\ndx }$.\n"
   },
@@ -1978,7 +1967,7 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Cauchy-Riemann"
     ],
     "question": "Let $f=u+iv$ be differentiable (i.e. $f'(z)$ exists) with continuous\npartial derivatives at a point $z=re^{i\\theta}$, $r\\not= 0$. Show\nthat\n$$\\frac{\\partial u}{\\partial r}=\\frac{1}{r}\\frac{\\partial v}{\\partial \\theta},\\quad\n\\frac{\\partial v}{\\partial r}=-\\frac{1}{r}\\frac{\\partial u}{\\partial \\theta}.$$\n"
   },
@@ -1988,7 +1977,7 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Integrals"
     ],
     "question": "Show that $\\displaystyle \\int_0^\\infty \\frac{x^{a-1}}{1+x^n}\ndx=\\frac{\\pi}{n\\sin \\frac{a\\pi}{n}}$ using complex analysis, $0< a <\nn$. Here $n$ is a positive integer.\n"
   },
@@ -1998,7 +1987,7 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Integrals"
     ],
     "question": "For $s>0$, the **gamma function** is defined by\n$\\displaystyle{\\Gamma(s)=\\int_0^{\\infty} e^{-t}t^{s-1} dt}$.\n\n-   Show that the gamma function is analytic in the half-plane\n    $\\Re (s)>0$, and is still given there by the integral formula\n    above.\n\n-   Apply the formula in the previous question to show that\n    $$\\Gamma(s)\\Gamma(1-s)=\\frac{\\pi}{\\sin \\pi s}.$$\n\n> Hint: You may need $\\displaystyle{\\Gamma(1-s)=t \\int_0^{\\infty}e^{-vt}(vt)^{-s} dv}$ for $t>0$.\n"
   },
@@ -2008,9 +1997,10 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Entire Functions",
+      "Analysis"
     ],
-    "question": "Apply Rouché's Theorem to prove the Fundamental Theorem of Algebra: If\n$$P_n(z) = a_0 + a_1z + \\cdots + a_{n-1}z^{n-1} + a_nz^n\\quad  (a_n \\neq 0)$$\nis a polynomial of degree n, then it has n zeros in $\\mathbf C$.\n"
+    "question": "Suppose $f$ is entire and there exist $A, R >0$ and natural number\n$N$ such that $$|f(z)| \\geq A |z|^N\\ \\text{for}\\ |z| \\geq R.$$ Show\nthat \n\n(i) $f$ is a polynomial and \n\n(ii) the degree of $f$ is at least $N$.\n"
   },
   {
     "year": "Extra",
@@ -2018,17 +2008,7 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
-    ],
-    "question": "Suppose $f$ is entire and there exist $A, R >0$ and natural number\n$N$ such that $$|f(z)| \\geq A |z|^N\\ \\text{for}\\ |z| \\geq R.$$ Show\nthat (i) $f$ is a polynomial and (ii) the degree of $f$ is at least\n$N$.\n"
-  },
-  {
-    "year": "Extra",
-    "number": 0,
-    "university": "UGA",
-    "exam": "Complex_Analysis",
-    "tags": [
-      "Complex"
+      "Analytic Functions"
     ],
     "question": "Let $f: {\\mathbb C} \\rightarrow {\\mathbb C}$ be an injective\nanalytic (also called univalent) function. Show that there exist\ncomplex numbers $a \\neq 0$ and $b$ such that $f(z) = az + b$.\n"
   },
@@ -2038,7 +2018,9 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Analytic Functions",
+      "Analysis",
+      "Conformal Maps"
     ],
     "question": "Let $g$ be analytic for $|z|\\leq 1$ and $|g(z)| < 1$ for $|z| = 1$.\n\n -   Show that $g$ has a unique fixed point in $|z| < 1$.\n\n -   What happens if we replace $|g(z)| < 1$ with $|g(z)|\\leq 1$ for\n     $|z|=1$? Give an example if (a) is not true or give an proof\n     if (a) is still true.\n\n -   What happens if we simply assume that $f$ is analytic for\n     $|z| < 1$ and $|f(z)| < 1$ for $|z| < 1$? Suppose that $f(z)\n     \\not\\equiv  z$. Can f have more than one fixed point in\n     $|z| < 1$?\n\n > Hint: The map\n $\\displaystyle{\\psi_{\\alpha}(z)=\\frac{\\alpha-z}{1-\\bar{\\alpha}z}}$\n > may be useful.\n"
   },
@@ -2048,7 +2030,7 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Conformal Maps"
     ],
     "question": "Find a conformal map from $D = \\{z :\\  |z| < 1,\\ |z - 1/2| > 1/2\\}$\nto the unit disk $\\Delta=\\{z: \\ |z|<1\\}$.\n"
   },
@@ -2058,7 +2040,7 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Analysis"
     ],
     "question": "Let $a_n \\neq 0$ and assume that $\\displaystyle\n\\lim_{n \\rightarrow \\infty} \\frac{|a_{n+1}|}{|a_n|} = L$. Show that\n$\\displaystyle\n\\lim_{n \\rightarrow \\infty}\n\\sqrt[n]{|a_n|} = L.\n%p_n^{\\frac{1}{n}} = L.$ In particular, this shows that when\napplicable, the ratio test can be used to calculate the radius of\nconvergence of a power series.\n"
   },
@@ -2068,7 +2050,7 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Conformal Maps"
     ],
     "question": "(a) Let $z, w$ be complex numbers, such that $\\bar{z} w \\neq 1$.\nProve that\n$$\\abs{\\frac{w - z}{1 - \\bar{w} z}} < 1 \\; \\; \\; \\mbox{if} \\; |z| < 1 \\; \\mbox{and}\\; |w| < 1,$$\nand also that\n$$\\abs{\\frac{w - z}{1 - \\bar{w} z}} = 1 \\; \\; \\; \\mbox{if} \\; |z| = 1 \\; \\mbox{or}\\; |w| = 1.$$\n\n(b) Prove that for fixed $w$ in the unit disk $\\mathbb D$, the\nmapping $$F: z \\mapsto \\frac{w - z}{1 - \\bar{w} z}$$ satisfies the\nfollowing conditions:\n\n(i) $F$ maps $\\mathbb D$ to itself and is holomorphic. \n\n(ii) $F$ interchanges $0$ and $w$, namely, $F(0) = w$ and\n$F(w) = 0$.\n\n(iii) $|F(z)| = 1$ if $|z| = 1$.\n\n(iv) $F: {\\mathbb D} \\mapsto {\\mathbb D}$ is bijective. \n\n> Hint: Calculate $F \\circ F$.\n"
   },
@@ -2078,9 +2060,9 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Analysis"
     ],
-    "question": "Use $n$-th roots of unity (i.e. solutions of $z^n - 1 =0$) to show\nthat\n$$2^{n-1} \\sin\\frac{\\pi}{n} \\sin\\frac{2\\pi}{n} \\cdots \\sin\\frac{(n-1)\\pi}{n}\n= n\n\\; .$$ \n\n> Hint: $1 - \\cos 2 \\theta = 2 \\sin^2 \\theta,\\; \\sin 2 \\theta = 2 \\sin \\theta \\cos \\theta$.\n\n(a) Show that in polar coordinates, the Cauchy-Riemann\nequations take the form\n\n$$\\frac{\\partial u}{\\partial r} = \\frac{1}{r} \\frac{\\partial v}{\\partial \\theta}\n\\; \\; \\; \\text{and} \\; \\; \\;\n\\frac{\\partial v}{\\partial r} = - \\frac{1}{r} \\frac{\\partial u}{\\partial \\theta}$$\n\n(b) Use these equations to show that the logarithm function\ndefined by $$\\log z = \\log r + i \\theta \\; \\;\n\\mbox{where} \\; z = r e^{i \\theta } \\; \\mbox{with} \\; - \\pi < \\theta < \\pi$$\nis a holomorphic function in the region\n$r>0, \\; - \\pi < \\theta < \\pi$. Also show that $\\log z$ defined\nabove is not continuous in $r>0$.\n"
+    "question": "Use $n$-th roots of unity (i.e. solutions of $z^n - 1 =0$) to show\nthat\n$$2^{n-1} \\sin\\frac{\\pi}{n} \\sin\\frac{2\\pi}{n} \\cdots \\sin\\frac{(n-1)\\pi}{n}\n= n\n\\; .$$ \n\n> Hint: $1 - \\cos 2 \\theta = 2 \\sin^2 \\theta,\\; \\sin 2 \\theta = 2 \\sin \\theta \\cos \\theta$.\n"
   },
   {
     "year": "Extra",
@@ -2088,9 +2070,9 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Cauchy-Riemann"
     ],
-    "question": "Assume $f$ is continuous in the region:\n$x \\geq x_0, \\; 0 \\leq y \\leq b$ and the limit\n$$\\displaystyle \\lim_{x \\rightarrow + \\infty} f(x + iy) = A$$ exists\nuniformly with respect to $y$ (independent of $y$). Show that\n$$\\lim_{x \\rightarrow + \\infty} \\int_{\\gamma_x} f(z) dz  = iA b \\; , \\; \\;$$\nwhere $\\gamma_x : = \\{ z \\; | \\; z = x + it, \\; 0 \\leq  t \\leq b\\}.$\n"
+    "question": "(a) Show that in polar coordinates, the Cauchy-Riemann\nequations take the form\n\n$$\\frac{\\partial u}{\\partial r} = \\frac{1}{r} \\frac{\\partial v}{\\partial \\theta}\n\\; \\; \\; \\text{and} \\; \\; \\;\n\\frac{\\partial v}{\\partial r} = - \\frac{1}{r} \\frac{\\partial u}{\\partial \\theta}$$\n\n(b) Use these equations to show that the logarithm function\ndefined by $$\\log z = \\log r + i \\theta \\; \\;\n\\mbox{where} \\; z = r e^{i \\theta } \\; \\mbox{with} \\; - \\pi < \\theta < \\pi$$\nis a holomorphic function in the region\n$r>0, \\; - \\pi < \\theta < \\pi$. Also show that $\\log z$ defined\nabove is not continuous in $r>0$.\n"
   },
   {
     "year": "Extra",
@@ -2098,7 +2080,18 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Analysis",
+      "Limits"
+    ],
+    "question": "Assume $f$ is continuous in the region:\n$x \\geq x_0, \\; 0 \\leq y \\leq b$ and the limit\n$$\\displaystyle \\lim_{x \\rightarrow + \\infty} f(x + iy) = A$$ exists\nuniformly with respect to $y$ (independent of $y$). \n\nShow that\n$$\\lim_{x \\rightarrow + \\infty} \\int_{\\gamma_x} f(z) dz  = iA b \\; , \\; \\;$$\nwhere $\\gamma_x : = \\{ z \\; | \\; z = x + it, \\; 0 \\leq  t \\leq b\\}.$\n"
+  },
+  {
+    "year": "Extra",
+    "number": 0,
+    "university": "UGA",
+    "exam": "Complex_Analysis",
+    "tags": [
+      "Cauchy"
     ],
     "question": "(Cauchy's formula for \"exterior\" region) Let $\\gamma$ be piecewise\nsmooth simple closed curve with interior $\\Omega_1$ and exterior\n$\\Omega_2$. Assume $f'(z)$ exists in an open set containing $\\gamma$\nand $\\Omega_2$ and $\\lim_{z \\rightarrow \\infty } f(z) = A$. Show\nthat\n$$\\frac{1}{2 \\pi i} \\int_\\gamma \\frac{f(\\xi)}{\\xi - z} \\, d \\xi =\n\\begin{cases}\nA,          &     \\text{if\\ $z \\in \\Omega_1$}, \\\\\n-f (z) + A, &  \\text{if\\ $z \\in \\Omega_2$}\n\\end{cases}$$\n"
   },
@@ -2108,7 +2101,9 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Analytic Functions",
+      "Limits",
+      "Liouville's Theorem"
     ],
     "question": "Let $f(z)$ be bounded and analytic in $\\mathbb C$. Let $a \\neq b$ be\nany fixed complex numbers. Show that the following limit exists\n$$\\lim_{R \\rightarrow \\infty} \\int_{|z|=R} \\frac{f(z)}{(z-a)(z-b)} dz.$$\nUse this to show that $f(z)$ must be a constant (Liouville's\ntheorem).\n"
   },
@@ -2118,7 +2113,7 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Integrals"
     ],
     "question": "Prove by *justifying all steps* that for all $\\xi \\in {\\mathbb C}$\nwe have $\\displaystyle\ne^{- \\pi \\xi^2} = \\int_{- \\infty}^\\infty e^{- \\pi x^2} e^{2 \\pi i x \\xi} dx \\; .$\n\n> Hint: You may use that fact in Example 1 on p. 42 of the textbook\nwithout proof, i.e., you may assume the above is true for real\nvalues of $\\xi$.\n"
   },
@@ -2128,9 +2123,9 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Holomorphic Functions"
     ],
-    "question": "Suppose that $f$ is holomorphic in an open set containing the closed\nunit disc, except for a pole at $z_0$ on the unit circle. Let\n$\\displaystyle\n%f(z) = \\sum_{n = 1}^\\infty a_n z^n\nf(z) = \\sum_{n = 1}^\\infty c_n z^n$ denote the the power series in\nthe open disc. Show that (1) $c_n \\neq 0$ for all large enough\n$n$'s, and (2)\n$\\displaystyle \\lim_{n \\rightarrow \\infty} \\frac{c_n}{c_{n+1}}= z_0$.\n"
+    "question": "Suppose that $f$ is holomorphic in an open set containing the closed\nunit disc, except for a pole at $z_0$ on the unit circle. Let\n$f(z) = \\sum_{n = 1}^\\infty c_n z^n$ denote the power series in\nthe open disc. Show that \n\n(1) $c_n \\neq 0$ for all large enough $n$'s, and \n\n(2) $\\displaystyle \\lim_{n \\rightarrow \\infty} \\frac{c_n}{c_{n+1}}= z_0$.\n"
   },
   {
     "year": "Extra",
@@ -2138,7 +2133,8 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Analytic Functions",
+      "Singularities"
     ],
     "question": "Let $f(z)$ be a non-constant analytic function in $|z|>0$ such that\n$f(z_n) = 0$ for infinite many points $z_n$ with\n$\\lim_{n \\rightarrow \\infty} z_n =0$. Show that $z=0$ is an\nessential singularity for $f(z)$. (An example of such a function is\n$f(z) = \\sin (1/z)$.)\n"
   },
@@ -2148,7 +2144,8 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Entire Functions",
+      "Limits"
     ],
     "question": "Let $f$ be entire and suppose that\n$\\lim_{z \\rightarrow \\infty} f(z) = \\infty$. Show that $f$ is a\npolynomial.\n"
   },
@@ -2158,7 +2155,7 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Laurent Series"
     ],
     "question": "Expand the following functions into Laurent series in the indicated\nregions:\n\n(a)\n$\\displaystyle f(z) = \\frac{z^2 - 1}{ (z+2)(z+3)}, \\; \\; 2 < |z| < 3$,\n$3 < |z| < + \\infty$.\n\n(b)\n$\\displaystyle f(z) = \\sin \\frac{z}{1-z}, \\; \\; 0 < |z-1| < + \\infty$\n"
   },
@@ -2168,7 +2165,8 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Analytic Functions",
+      "Analysis"
     ],
     "question": "Assume $f(z)$ is analytic in region $D$ and $\\Gamma$ is a\nrectifiable curve in $D$ with interior in $D$. Prove that if $f(z)$\nis real for all $z \\in \\Gamma$, then $f(z)$ is a constant.\n"
   },
@@ -2178,7 +2176,8 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Rouche",
+      "Polynomials"
     ],
     "question": "Find the number of roots of $z^4 - 6z + 3 =0$ in $|z|<1$ and\n$1 < |z| < 2$ respectively.\n"
   },
@@ -2188,7 +2187,8 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Rouche",
+      "Polynomials"
     ],
     "question": "Prove that $z^4 + 2 z^3 - 2z + 10 =0$ has exactly one root in each\nopen quadrant.\n"
   },
@@ -2198,9 +2198,9 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Analysis"
     ],
-    "question": "(1) Let $f(z) \\in H({\\mathbb D})$, $\\text{Re}(f(z)) >0$,\n$f(0)= a>0$. Show that $$|\\frac{f(z)-a}{f(z)+a}| \\leq |z|, \\; \\; \\;\n|f'(0)| \\leq 2a.$$\n\n(2) Show that the above is still true if $\\text{Re}(f(z)) >0$ is\nreplaced with $\\text{Re}(f(z)) \\geq 0$.\n"
+    "question": "(1) Let $f(z) \\in H({\\mathbb D})$, $\\text{Re}(f(z)) >0$,\n$f(0)= a>0$. Show that $$\\abs{ \\frac{f(z)-a}{f(z)+a}} \\leq |z|, \\; \\; \\;\n|f'(0)| \\leq 2a.$$\n\n(2) Show that the above is still true if $\\text{Re}(f(z)) >0$ is\nreplaced with $\\text{Re}(f(z)) \\geq 0$.\n"
   },
   {
     "year": "Extra",
@@ -2208,7 +2208,8 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Analytic Functions",
+      "Convergence"
     ],
     "question": "Assume $f(z)$ is analytic in ${\\mathbb D}$ and $f(0)=0$ and is not a\nrotation (i.e. $f(z) \\neq e^{i \\theta} z$). Show that\n$\\displaystyle \\sum_{n=1}^\\infty f^{n}(z)$ converges uniformly to an\nanalytic function on compact subsets of ${\\mathbb D}$, where\n$f^{n+1}(z) = f(f^{n}(z))$.\n"
   },
@@ -2218,7 +2219,7 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Analytic Functions"
     ],
     "question": "Let $f(z) = \\sum_{n=0}^\\infty c_n z^n$ be analytic and one-to-one in\n$|z| < 1$. For $0<r<1$, let $D_r$ be the disk $|z|<r$. Show that the\narea of $f(D_r)$ is finite and is given by\n$$S = \\pi \\sum_{n=1}^\\infty n |c_n|^2 r^{2n}.$$ (Note that in\ngeneral the area of $f(D_1)$ is infinite.)\n"
   },
@@ -2228,7 +2229,7 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Analytic Functions"
     ],
     "question": "Let $f(z) = \\sum_{n= -\\infty}^\\infty c_n z^n$ be analytic and\none-to-one in $r_0< |z| < R_0$. For $r_0<r<R<R_0$, let $D(r,R)$ be\nthe annulus $r<|z|<R$. Show that the area of $f(D(r,R))$ is finite\nand is given by\n$$S = \\pi \\sum_{n=- \\infty}^\\infty n |c_n|^2 (R^{2n} - r^{2n}).$$\n"
   },
@@ -2238,7 +2239,7 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Convergence"
     ],
     "question": "Let $a_n(z)$ be an analytic sequence in a domain $D$ such that\n$\\displaystyle \\sum_{n=0}^\\infty |a_n(z)|$ converges uniformly on\nbounded and closed sub-regions of $D$. Show that\n$\\displaystyle \\sum_{n=0}^\\infty |a'_n(z)|$ converges uniformly on\nbounded and closed sub-regions of $D$.\n"
   },
@@ -2248,7 +2249,7 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Analytic Functions"
     ],
     "question": "Let $f_n, f$ be analytic functions on the unit disk ${\\mathbb D}$.\nShow that the following are equivalent.\n\n(i) $f_n(z)$ converges to $f(z)$ uniformly on compact subsets in\n$\\mathbb D$.\n\n(ii) $\\int_{|z|= r} |f_n(z) - f(z)| \\, |dz|$ converges to $0$ if\n$0< r<1$.\n"
   },
@@ -2258,7 +2259,7 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Analytic Functions"
     ],
     "question": "Let $f$ and $g$ be non-zero analytic functions on a region $\\Omega$.\nAssume $|f(z)| = |g(z)|$ for all $z$ in $\\Omega$. Show that\n$f(z) = e^{i \\theta} g(z)$ in $\\Omega$ for some\n$0 \\leq \\theta < 2 \\pi$.\n"
   },
@@ -2268,7 +2269,7 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Analytic Functions"
     ],
     "question": "Suppose $f$ is analytic in an open set containing the unit disc\n$\\mathbb D$ and $|f(z)| =1$ when $|z|$=1. Show that either\n$f(z) = e^{i \\theta}$ for some $\\theta \\in \\mathbb R$ or there are\nfinite number of $z_k \\in \\mathbb D$, $k \\leq n$ and\n$\\theta \\in \\mathbb R$ such that\n$\\displaystyle f(z) = e^{i\\theta} \\prod_{k=1}^n \\frac{z-z_k}{1 - \\bar{z}_k z } \\, .$\n\n> Also cf. Stein et al, 1.4.7, 3.8.17\n"
   },
@@ -2278,9 +2279,9 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Analysis"
     ],
-    "question": "(1) Let $p(z)$ be a polynomial, $R>0$ any positive number, and\n$m \\geq 1$ an integer. Let\n$M_R = \\sup \\{ |z^{m} p(z) - 1|: |z| = R  \\}$. Show that $M_R>1$.\n\n(2) Let $m \\geq 1$ be an integer and\n$K = \\{z \\in {\\mathbb C}: r \\leq |z| \\leq R \\}$ where $r<R$.\nShow (i) using (1) as well as, (ii) without using (1) that there\nexists a positive number $\\varepsilon_0>0$ such that for each\npolynomial $p(z)$,\n$$\\sup \\{|p(z) - z^{-m}|: z \\in K  \\} \\geq \\varepsilon_0 \\, .$$\n"
+    "question": "(1) Let $p(z)$ be a polynomial, $R>0$ any positive number, and\n$m \\geq 1$ an integer. Let\n$$M_R = \\sup \\{ |z^{m} p(z) - 1|: |z| = R  \\}.$$ Show that $M_R>1$.\n\n(2) Let $m \\geq 1$ be an integer and\n$K = \\{z \\in {\\mathbb C}: r \\leq |z| \\leq R \\}$ where $r<R$.\nShow (i) using (1) as well as, (ii) without using (1) that there\nexists a positive number $\\varepsilon_0>0$ such that for each\npolynomial $p(z)$,\n$$\\sup \\{|p(z) - z^{-m}|: z \\in K  \\} \\geq \\varepsilon_0 \\, .$$\n"
   },
   {
     "year": "Extra",
@@ -2288,7 +2289,7 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Laurent Series"
     ],
     "question": "Let $\\displaystyle f(z) = \\frac{1}{z} + \\frac{1}{z^2 -1}$. Find all\nthe Laurent series of $f$ and describe the largest annuli in which\nthese series are valid.\n"
   },
@@ -2298,9 +2299,10 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Entire Functions",
+      "Analysis"
     ],
-    "question": "Suppose $f$ is entire and there exist $A, R >0$ and natural number\n$N$ such that $|f(z)| \\leq A |z|^N$ for $|z| \\geq R$. Show that (i)\n$f$ is a polynomial and (ii) the degree of $f$ is at most $N$.\n"
+    "question": "Suppose $f$ is entire and there exist $A, R >0$ and natural number\n$N$ such that $|f(z)| \\leq A |z|^N$ for $|z| \\geq R$. Show that \n\n(i) $f$ is a polynomial and \n\n(ii) the degree of $f$ is at most $N$.\n"
   },
   {
     "year": "Extra",
@@ -2308,17 +2310,7 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
-    ],
-    "question": "Suppose $f$ is entire and there exist $A, R >0$ and natural number\n$N$ such that $|f(z)| \\geq A |z|^N$ for $|z| \\geq R$. Show that (i)\n$f$ is a polynomial and (ii) the degree of $f$ is at least $N$.\n"
-  },
-  {
-    "year": "Extra",
-    "number": 0,
-    "university": "UGA",
-    "exam": "Complex_Analysis",
-    "tags": [
-      "Complex"
+      "Analytic Functions"
     ],
     "question": "(1) Explicitly write down an example of a non-zero analytic\nfunction in $|z|<1$ which has infinitely zeros in $|z|<1$.\n\n(2) Why does not the phenomenon in (1) contradict the uniqueness\ntheorem?\n"
   },
@@ -2328,7 +2320,8 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Harmonic Functions",
+      "Schwarz Reflection"
     ],
     "question": "(1) Assume $u$ is harmonic on open set $O$ and $z_n$ is a sequence\nin $O$ such that $u(z_n) = 0$ and $\\lim z_n \\in O$. Prove or\ndisprove that $u$ is identically zero. What if $O$ is a region?\n\n(2) Assume $u$ is harmonic on open set $O$ and $u(z) = 0$ on a\ndisc in $O$. Prove or disprove that $u$ is identically zero. What if\n$O$ is a region?\n\n(3) Formulate and prove a Schwarz reflection principle for\nharmonic functions \n\n> cf. Theorem 5.6 on p.60 of Stein et al.\n\n> Hint: Verify the mean value property for your new function obtained by\nSchwarz reflection principle.\n"
   },
@@ -2338,7 +2331,8 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Holomorphic Functions",
+      "Analysis"
     ],
     "question": "Let $f$ be holomorphic in a neighborhood of $D_r(z_0)$. Show that\nfor any $s<r$, there exists a constant $c>0$ such that\n$$||f||_{(\\infty, s)} \\leq c ||f||_{(1, r)},$$ where\n$\\displaystyle |f||_{(\\infty, s)} = \\text{sup}_{z \\in D_s(z_0)}|f(z)|$\nand $\\displaystyle ||f||_{(1, r)} = \\int_{D_r(z_0)} |f(z)|dx dy$.\n\n> Note: Exercise 3.8.20 on p.107 in Stein et al is a\nstraightforward consequence of this stronger result using the\nintegral form of the Cauchy-Schwarz inequality in real analysis.\n"
   },
@@ -2348,7 +2342,7 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Casorati-Weierstrass"
     ],
     "question": "(1) Let $f$ be analytic in $\\Omega: 0<|z-a|<r$ except at a\nsequence of poles $a_n \\in \\Omega$ with\n$\\lim_{n \\rightarrow \\infty} a_n = a$. Show that for any\n$w \\in \\mathbb C$, there exists a sequence $z_n \\in \\Omega$ such\nthat $\\lim_{n \\rightarrow \\infty} f(z_n) = w$.\n\n(2) Explain the similarity and difference between the above\nassertion and the Weierstrass-Casorati theorem.\n"
   },
@@ -2358,7 +2352,7 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Integrals"
     ],
     "question": "Compute the following integrals.\n\n\\(i\\) $\\displaystyle \\int_0^\\infty \\frac{1}{(1 + x^n)^2} \\, dx$,\n$n \\geq 1$ (ii)\n$\\displaystyle \\int_0^\\infty \\frac{\\cos x}{(x^2 + a^2)^2} \\, dx$,\n$a \\in \\mathbb R$ (iii)\n$\\displaystyle \\int_0^\\pi \\frac{1}{a + \\sin \\theta} \\, d \\theta$,\n$a>1$\n\n\\(iv\\) $\\displaystyle \\int_0^{\\frac{\\pi}{2}}\n\\frac{d \\theta}{a+ \\sin ^2 \\theta},$ $a >0$. (v)\n$\\displaystyle \\int_{|z|=2} \\frac{1}{(z^{5} -1) (z-3)} \\, dz$ (v)\n$\\displaystyle \\int_{- \\infty}^{\\infty} \\frac{\\sin \\pi a}{\\cosh \\pi x + \\cos \\pi a} e^{- i x \\xi} \\, d x$,\n$0< a <1$, $\\xi \\in \\mathbb R$ (vi)\n$\\displaystyle \\int_{|z| = 1} \\cot^2 z \\, dz$.\n"
   },
@@ -2368,7 +2362,7 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Integrals"
     ],
     "question": "Compute the following integrals.\n\n\\(i\\) $\\displaystyle \\int_0^\\infty \\frac{\\sin x}{x} \\, dx$ (ii)\n$\\displaystyle \\int_0^\\infty (\\frac{\\sin x}{x})^2 \\, dx$ (iii)\n$\\displaystyle \\int_0^\\infty \\frac{x^{a-1}}{(1 + x)^2} \\, dx$,\n$0< a < 2$\n\n\\(i\\)\n$\\displaystyle \\int_0^\\infty \\frac{\\cos a x - \\cos bx}{x^2} dx$,\n$a, b >0$ (ii)\n$\\displaystyle \\int_0^\\infty \\frac{x^{a-1}}{1 + x^n} \\, dx$,\n$0< a < n$\n\n\\(iii\\) $\\displaystyle \\int_0^\\infty \\frac{\\log x}{1 + x^n} \\, dx$,\n$n \\geq 2$ (iv)\n$\\displaystyle \\int_0^\\infty \\frac{\\log x}{(1 + x^2)^2} dx$ (v)\n$\\displaystyle \\int_0^{\\pi} \\log|1 - a \\sin \\theta| d \\theta$,\n$a \\in \\mathbb C$\n"
   },
@@ -2378,7 +2372,7 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Polynomials"
     ],
     "question": "Let $0<r<1$. Show that polynomials\n$P_n(z)  = 1 + 2z + 3 z^2 + \\cdots + n z^{n-1}$ have no zeros in\n$|z|<r$ for all sufficiently large $n$'s.\n"
   },
@@ -2388,7 +2382,7 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Analytic Functions"
     ],
     "question": "Let $f$ be an analytic function on a region $\\Omega$. Show that $f$\nis a constant if there is a simple closed curve $\\gamma$ in $\\Omega$\nsuch that its image $f(\\gamma)$ is contained in the real axis.\n"
   },
@@ -2398,7 +2392,8 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Principal Parts",
+      "Sums"
     ],
     "question": "(1) Show that $\\displaystyle \\frac{\\pi^2}{\\sin^2 \\pi z}$ and\n$\\displaystyle g(z) = \\sum_{n = - \\infty}^{ \\infty} \\frac{1}{(z-n)^2}$\nhave the same principal part at each integer point.\n\n(2) Show that\n$\\displaystyle h(z) = \\frac{\\pi^2}{\\sin^2 \\pi z} - g(z)$ is bounded\non $\\mathbb C$ and conclude that\n$\\displaystyle \\frac{\\pi^2}{\\sin^2 \\pi z} = \\sum_{n = - \\infty}^{ \\infty} \\frac{1}{(z-n)^2} \\, .$\n"
   },
@@ -2408,7 +2403,8 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Analytic Functions",
+      "Fractional Linear Transformations"
     ],
     "question": "Let $f(z)$ be an analytic function on\n${\\mathbb C} \\backslash \\{ z_0 \\}$, where $z_0$ is a fixed point.\nAssume that $f(z)$ is bijective from\n${\\mathbb C} \\backslash \\{ z_0 \\}$ onto its image, and that $f(z)$\nis bounded outside $D_r(z_0)$, where $r$ is some fixed positive\nnumber. Show that there exist $a, b, c, d \\in \\mathbb C$ with\n$ad-bc \\neq 0$, $c \\neq 0$ such that\n$\\displaystyle f(z) = \\frac{az + b}{cz + d}$.\n"
   },
@@ -2418,7 +2414,8 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Analytic Functions",
+      "Convergence"
     ],
     "question": "Assume $f(z)$ is analytic in $\\mathbb D: |z|<1$ and $f(0)=0$ and\nis not a rotation (i.e. $f(z) \\neq e^{i \\theta} z$). Show that\n$\\displaystyle \\sum_{n=1}^\\infty f^{n}(z)$ converges uniformly to an\nanalytic function on compact subsets of ${\\mathbb D}$, where\n$f^{n+1}(z) = f(f^{n}(z))$.\n"
   },
@@ -2428,9 +2425,10 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Analytic Functions",
+      "Analysis"
     ],
-    "question": "Let $f$ be a non-constant analytic function on $\\mathbb D$ with\n$f(\\mathbb D) \\subseteq \\mathbb D$. Use $\\psi_{a} (f(z))$ (where\n$a=f(0)$, $\\displaystyle \\psi_a(z) = \\frac{a - z}{1 - \\bar{a}z}$) to\nprove that $\\displaystyle\n\\frac{|f(0)| - |z|}{1 + |f(0)||z|} \\leq |f(z)| \\leq\n\\frac{|f(0)| + |z|}{1 - |f(0)||z|}$.\n"
+    "question": "Let $f$ be a non-constant analytic function on $\\mathbb D$ with\n$f(\\mathbb D) \\subseteq \\mathbb D$. Use $\\psi_{a} (f(z))$ (where\n$a=f(0)$, $\\displaystyle \\psi_a(z) = \\frac{a - z}{1 - \\bar{a}z}$) to\nprove that $$\\displaystyle\n\\frac{|f(0)| - |z|}{1 + |f(0)||z|} \\leq |f(z)| \\leq\n\\frac{|f(0)| + |z|}{1 - |f(0)||z|}.$$\n"
   },
   {
     "year": "Extra",
@@ -2438,7 +2436,7 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Conformal Maps"
     ],
     "question": "Find a conformal map\n\n1.  from $\\{ z: |z - 1/2| > 1/2, \\text{Re}(z)>0 \\}$ to $\\mathbb H$\n\n2.  from $\\{ z: |z - 1/2| > 1/2, |z| <1  \\}$ to $\\mathbb D$\n\n3.  from the intersection of the disk $|z + i| < \\sqrt{2}$ with\n    ${\\mathbb H}$ to ${\\mathbb D}$.\n\n4.  from ${\\mathbb D}  \\backslash [a, 1)$ to\n    ${\\mathbb D} \\backslash [0, 1)$ ($0<a<1)$. \\[ Short solution\n    possible using Blaschke factor\\]\n\n5.  from $\\{ z: |z| < 1, \\text{Re}(z) > 0 \\} \\backslash (0, 1/2]$ to\n    $\\mathbb H$.\n"
   },
@@ -2448,7 +2446,7 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Fractional Linear Transformations"
     ],
     "question": "Let $C$ and $C'$ be two circles and let $z_1 \\in C$, $z_2 \\notin C$,\n$z'_1 \\in C'$, $z'_2 \\notin C'$. Show that there is a unique\nfractional linear transformation $f$ with $f(C) = C'$ and\n$f(z_1) = z'_1$, $f(z_2) = z'_2$.\n"
   },
@@ -2458,7 +2456,7 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Holomorphic Functions"
     ],
     "question": "Assume $f_n \\in H(\\Omega)$ is a sequence of holomorphic functions on\nthe region $\\Omega$ that are uniformly bounded on compact subsets\nand $f \\in H(\\Omega)$ is such that the set\n$\\displaystyle \\{z \\in \\Omega: \\lim_{n \\rightarrow \\infty} f_n(z) = f(z) \\}$\nhas a limit point in $\\Omega$. Show that $f_n$ converges to $f$\nuniformly on compact subsets of $\\Omega$.\n"
   },
@@ -2468,7 +2466,9 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Conformal Maps",
+      "Integrals",
+      "Analysis"
     ],
     "question": "Let\n$\\displaystyle{\\psi_{\\alpha}(z)=\\frac{\\alpha-z}{1-\\bar{\\alpha}z}}$\nwith $|\\alpha|<1$ and ${\\mathbb D}=\\{z:\\ |z|<1\\}$. Prove that\n\n-   $\\displaystyle{\\frac{1}{\\pi}\\iint_{{\\mathbb D}} |\\psi'_{\\alpha}|^2 dx dy =1}$.\n\n-   $\\displaystyle{\\frac{1}{\\pi}\\iint_{{\\mathbb D}} |\\psi'_{\\alpha}| dx dy =\\frac{1-|\\alpha|^2}{|\\alpha|^2}\n    \\log \\frac{1}{1-|\\alpha|^2}}$.\n"
   },
@@ -2478,7 +2478,7 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Conformal Maps"
     ],
     "question": "Prove that\n$\\displaystyle{f(z)=-\\frac{1}{2}\\left(z+\\frac{1}{z}\\right)}$ is a\nconformal map from half disc $\\{z=x+iy:\\ |z|<1,\\ y>0\\}$ to upper\nhalf plane ${\\mathbb H}=\\{z=x+iy:\\ y>0\\}$.\n"
   },
@@ -2488,7 +2488,8 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Holomorphic Functions",
+      "Analysis"
     ],
     "question": "Let $\\Omega$ be a simply connected open set and let $\\gamma$ be a\nsimple closed contour in $\\Omega$ and enclosing a bounded region $U$\nanticlockwise. Let $f: \\ \\Omega \\to {\\mathbb C}$ be a holomorphic\nfunction and $|f(z)|\\leq M$ for all $z\\in \\gamma$. Prove that\n$|f(z)|\\leq M$ for all $z\\in U$.\n"
   },
@@ -2498,9 +2499,9 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Integrals"
     ],
-    "question": "Compute the following integrals. (i)\n$\\displaystyle \\int_0^\\infty \\frac{x^{a-1}}{1 + x^n} \\, dx$,\n$0< a < n$ (ii)\n$\\displaystyle \\int_0^\\infty \\frac{\\log x}{(1 + x^2)^2}\\, dx$\n"
+    "question": "Compute the following integrals. \n\n(i)\n$\\displaystyle \\int_0^\\infty \\frac{x^{a-1}}{1 + x^n} \\, dx$,\n$0< a < n$ \n\n(ii)\n$\\displaystyle \\int_0^\\infty \\frac{\\log x}{(1 + x^2)^2}\\, dx$\n"
   },
   {
     "year": "Extra",
@@ -2508,7 +2509,7 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Polynomials"
     ],
     "question": "Let $0<r<1$. Show that polynomials\n$P_n(z)  = 1 + 2z + 3 z^2 + \\cdots + n z^{n-1}$ have no zeros in\n$|z|<r$ for all sufficiently large $n$'s.\n"
   },
@@ -2518,7 +2519,9 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Holomorphic Functions",
+      "Integrals",
+      "Analysis"
     ],
     "question": "Let $f$ be holomorphic in a neighborhood of $D_r(z_0)$. Show that\nfor any $s<r$, there exists a constant $c>0$ such that\n$$\\|f\\|_{(\\infty, s)} \\leq c \\|f\\|_{(1, r)},$$ where\n$\\displaystyle \\|f\\|_{(\\infty, s)} = \\text{sup}_{z \\in D_s(z_0)}|f(z)|$\nand $\\displaystyle \\|f\\|_{(1, r)} = \\int_{D_r(z_0)} |f(z)|dx dy$.\n"
   },
@@ -2528,9 +2531,11 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Conformal Map",
+      "Integrals",
+      "Analysis"
     ],
-    "question": "Let $\\displaystyle{\\psi_{\\alpha}(z)=\\frac{\\alpha-z}{1-\\bar{\\alpha}z}}$\nwith $|\\alpha|<1$ and ${\\mathbb D}=\\{z:\\ |z|<1\\}$. Prove that\n\n-   $\\displaystyle{\\frac{1}{\\pi}\\iint_{{\\mathbb D}} |\\psi'_{\\alpha}|^2 dx dy =1}$.\n\n-   $\\displaystyle{\\frac{1}{\\pi}\\iint_{{\\mathbb D}} |\\psi'_{\\alpha}| dx dy =\\frac{1-|\\alpha|^2}{|\\alpha|^2}\n    \\log \\frac{1}{1-|\\alpha|^2}}$.\n\nProve that $\\displaystyle{f(z)=-\\frac{1}{2}\\left(z+\\frac{1}{z}\\right)}$\nis a conformal map from half disc $\\{z=x+iy:\\ |z|<1,\\ y>0\\}$ to upper\nhalf plane $\\mathbb H=\\{z=x+iy:\\ y>0\\}$.\n"
+    "question": "Let $\\displaystyle{\\psi_{\\alpha}(z)=\\frac{\\alpha-z}{1-\\bar{\\alpha}z}}$\nwith $|\\alpha|<1$ and ${\\mathbb D}=\\{z:\\ |z|<1\\}$. Prove that\n\n-   $\\displaystyle{\\frac{1}{\\pi}\\iint_{{\\mathbb D}} |\\psi'_{\\alpha}|^2 dx dy =1}$.\n\n-   $\\displaystyle{\\frac{1}{\\pi}\\iint_{{\\mathbb D}} |\\psi'_{\\alpha}| dx dy =\\frac{1-|\\alpha|^2}{|\\alpha|^2}\n    \\log \\frac{1}{1-|\\alpha|^2}}$.\n"
   },
   {
     "year": "Extra",
@@ -2538,7 +2543,18 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Conformal Map"
+    ],
+    "question": "Prove that $\\displaystyle{f(z)=-\\frac{1}{2}\\left(z+\\frac{1}{z}\\right)}$\nis a conformal map from half disc $\\{z=x+iy:\\ |z|<1,\\ y>0\\}$ to upper\nhalf plane $\\mathbb H=\\{z=x+iy:\\ y>0\\}$.\n"
+  },
+  {
+    "year": "Extra",
+    "number": 0,
+    "university": "UGA",
+    "exam": "Complex_Analysis",
+    "tags": [
+      "Holomorphic Functions",
+      "Analysis"
     ],
     "question": "Let $\\Omega$ be a simply connected open set and let $\\gamma$ be a simple\nclosed contour in $\\Omega$ and enclosing a bounded region $U$\nanticlockwise. Let $f: \\ \\Omega \\to {\\mathbb C}$ be a holomorphic\nfunction and $|f(z)|\\leq M$ for all $z\\in \\gamma$. Prove that\n$|f(z)|\\leq M$ for all $z\\in U$.\n"
   },
@@ -2548,9 +2564,9 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Integrals"
     ],
-    "question": "Compute the following integrals. (i)\n$\\displaystyle \\int_0^\\infty \\frac{x^{a-1}}{1 + x^n} \\, dx$, $0< a < n$\n(ii) $\\displaystyle \\int_0^\\infty \\frac{\\log x}{(1 + x^2)^2}\\, dx$\n"
+    "question": "Compute the following integrals. \n\n(i) $\\displaystyle \\int_0^\\infty \\frac{x^{a-1}}{1 + x^n} \\, dx$, $0< a < n$\n\n(ii) $\\displaystyle \\int_0^\\infty \\frac{\\log x}{(1 + x^2)^2}\\, dx$\n"
   },
   {
     "year": "Extra",
@@ -2558,17 +2574,8 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
-    ],
-    "question": "Let $0<r<1$. Show that polynomials\n$P_n(z)  = 1 + 2z + 3 z^2 + \\cdots + n z^{n-1}$ have no zeros in $|z|<r$\nfor all sufficiently large $n$'s.\n"
-  },
-  {
-    "year": "Extra",
-    "number": 0,
-    "university": "UGA",
-    "exam": "Complex_Analysis",
-    "tags": [
-      "Complex"
+      "Holomorphic Functions",
+      "Analysis"
     ],
     "question": "Let $f$ be holomorphic in a neighborhood of $D_r(z_0)$. Show that for\nany $s<r$, there exists a constant $c>0$ such that\n$$\\|f\\|_{(\\infty, s)} \\leq c \\|f\\|_{(1, r)},$$ where\n$\\displaystyle \\|f\\|_{(\\infty, s)} = \\text{sup}_{z \\in D_s(z_0)}|f(z)|$\nand $\\displaystyle \\|f\\|_{(1, r)} = \\int_{D_r(z_0)} |f(z)|dx dy$.\n"
   },
@@ -2578,7 +2585,8 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Harmonic Functions",
+      "Integrals"
     ],
     "question": "Let $u(x,y)$ be harmonic and have continuous partial derivatives of\norder three in an open disc of radius $R>0$.\n\n(a) Let two points $(a,b), (x,y)$ in this disk be given. Show that\nthe following integral is independent of the path in this disk\njoining these points:\n$$v(x,y) = \\int_{a,b}^{x,y} ( -\\frac{\\partial u}{\\partial y}dx +  \\frac{\\partial u}{\\partial x}dy).$$\\\n\n(b) \\hfill\n\n    (i) Prove that $u(x,y)+i v(x,y)$ is an analytic function in this\ndisc.\n\n    (ii) Prove that $v(x,y)$ is harmonic in this disc.\n"
   },
@@ -2588,7 +2596,8 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Analytic Functions",
+      "Geometry"
     ],
     "question": "(a) $f(z)= u(x,y) +i v(x,y)$ be analytic in a domain\n$D\\subset {\\mathbb C}$. Let $z_0=(x_0,y_0)$ be a point in $D$ which\nis in the intersection of the curves $u(x,y)= c_1$ and $v(x,y)=c_2$,\nwhere $c_1$ and $c_2$ are constants. Suppose that $f'(z_0)\\neq 0$.\nProve that the lines tangent to these curves at $z_0$ are\nperpendicular.\n\n(b) Let $f(z)=z^2$ be defined in ${\\mathbb C}$. \n  (i)   Describe the\n        level curves of $\\mbox{\\textrm Re}{(f)}$ and of $\\mbox{Im}{(f)}$.\n  \n  (ii)  What are the angles of intersections between the level curves\n        $\\mbox{\\textrm Re}{(f)}=0$ and $\\mbox{\\textrm Im}{(f)}$? Is your answer in\n        agreement with part a) of this question?\n"
   },
@@ -2598,9 +2607,10 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Integrals",
+      "Analysis"
     ],
-    "question": "(a) $f: D\\rightarrow {\\mathbb C}$ be a continuous function, where\n$D\\subset {\\mathbb C}$ is a domain.Let $\\alpha:[a,b]\\rightarrow D$\nbe a smooth curve. Give a precise definition of the *complex line\nintegral* $$\\int_{\\alpha} f.$$\n\n(b) Assume that there exists a constant $M$ such that\n$|f(\\tau)|\\leq M$ for all $\\tau\\in \\mbox{\\textrm Image}(\\alpha$). Prove\nthat\n$$\\big | \\int_{\\alpha} f \\big |\\leq M \\times \\mbox{\\textrm length}(\\alpha).$$\n\n(c) Let $C_R$ be the circle $|z|=R$, described in the\ncounterclockwise direction, where $R>1$. Provide an upper bound for\n$\\abs{ \\int_{C_R} \\dfrac{\\log{(z)} }{z^2} }$ which depends\n*only* on $R$ and other constants.\n"
+    "question": "(a) Let $f: D\\rightarrow \\mathbb C$ be a continuous function, where\n$D\\subset \\mathbb C$ is a domain. Let $\\alpha:[a,b]\\rightarrow D$\nbe a smooth curve. Give a precise definition of the *complex line\nintegral* $$\\int_{\\alpha} f.$$\n\n(b) Assume that there exists a constant $M$ such that\n$|f(\\tau)|\\leq M$ for all $\\tau\\in \\mbox{\\textrm Image}(\\alpha$). Prove\nthat\n$$\\big | \\int_{\\alpha} f \\big |\\leq M \\times \\mbox{\\textrm length}(\\alpha).$$\n\n(c) Let $C_R$ be the circle $|z|=R$, described in the\ncounterclockwise direction, where $R>1$. Provide an upper bound for\n$\\abs{ \\int_{C_R} \\dfrac{\\log{(z)} }{z^2} }$ which depends\n*only* on $R$ and other constants.\n"
   },
   {
     "year": "Extra",
@@ -2608,7 +2618,8 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Entire Functions",
+      "Analysis"
     ],
     "question": "(a) Let $f:{\\mathbb C}\\rightarrow {\\mathbb C}$ be an entire\nfunction. Assume the existence of a non-negative integer $m$, and of\npositive constants $L$ and $R$, such that for all $z$ with $|z|>R$\nthe inequality $$|f(z)| \\leq L |z|^m$$ holds. Prove that $f$ is a\npolynomial of degree $\\leq m$.\n\n(b) Let $f:{\\mathbb C}\\rightarrow {\\mathbb C}$ be an entire\nfunction. Suppose that there exists a real number M such that for\nall $z\\in {\\mathbb C}$ $$\\mbox{\\textrm Re} (f) \\leq M.$$ Prove that $f$\nmust be a constant.\n"
   },
@@ -2618,7 +2629,8 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Polynomials",
+      "Rouche"
     ],
     "question": "Prove that all the roots of the complex polynomial\n$$z^7 - 5 z^3 +12 =0$$ lie between the circles $|z|=1$ and $|z|=2$.\n"
   },
@@ -2628,7 +2640,7 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Analytic Functions"
     ],
     "question": "(a) Let $F$ be an analytic function inside and on a simple closed\ncurve $C$, except for a pole of order $m\\geq 1$ at $z=a$ inside $C$.\nProve that\n\n$$\\frac{1}{2 \\pi i}\\oint_{C} F(\\tau) d\\tau = \n\\lim_{\\tau\\rightarrow a} \\frac{d^{m-1}}{d\\tau^{m-1}}\\big((\\tau-a)^m F(\\tau))\\big).$$\n"
   },
@@ -2638,7 +2650,7 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Conformal Maps"
     ],
     "question": "Find the conformal map that takes the upper half-plane comformally\nonto the half-strip $\\{\nw=x+iy:\\ -\\pi/2<x<\\pi/2\\ y>0\\}$.\n"
   },
@@ -2648,7 +2660,7 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Complex"
+      "Integrals"
     ],
     "question": "Compute the integral\n$\\displaystyle{\\int_{-\\infty}^{\\infty} \\frac{e^{-2\\pi ix\\xi}}{\\cosh\\pi x}dx}$\nwhere $\\displaystyle{\\cosh z=\\frac{e^{z}+e^{-z}}{2}}$.\n"
   },

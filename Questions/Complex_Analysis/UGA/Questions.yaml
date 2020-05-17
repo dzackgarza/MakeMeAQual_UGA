@@ -135,6 +135,7 @@
   exam: Complex_Analysis
   tags:
     - Rouche 
+    - Polynomials
   question: |
     Apply Rouché's Theorem to prove the Fundamental Theorem of Algebra: If
     $$P_n(z) = a_0 + a_1z + \cdots + a_{n-1}z^{n-1} + a_nz^n\quad  (a_n \neq 0)$$
@@ -473,20 +474,6 @@
 
 
 
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Rouche
-  question: |
-    Apply Rouché's Theorem to prove the Fundamental Theorem of Algebra: If
-    $$P_n(z) = a_0 + a_1z + \cdots + a_{n-1}z^{n-1} + a_nz^n\quad  (a_n \neq 0)$$
-    is a polynomial of degree n, then it has n zeros in $\mathbb C$.
-
-
-
 - year: Extra 
   number: 0 
   university: UGA
@@ -790,17 +777,6 @@
 
     > Hint: You may need $\displaystyle{\Gamma(1-s)=t \int_0^{\infty}e^{-vt}(vt)^{-s} dv}$ for $t>0$.
 
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Rouche
-  question: |
-    Apply Rouché's Theorem to prove the Fundamental Theorem of Algebra: If
-    $$P_n(z) = a_0 + a_1z + \cdots + a_{n-1}z^{n-1} + a_nz^n\quad  (a_n \neq 0)$$
-    is a polynomial of degree n, then it has n zeros in $\mathbf C$.
 
 
 
@@ -1118,6 +1094,7 @@
   exam: Complex_Analysis
   tags:
     - Rouche 
+    - Polynomials
   question: |
     Find the number of roots of $z^4 - 6z + 3 =0$ in $|z|<1$ and
     $1 < |z| < 2$ respectively.
@@ -1130,6 +1107,7 @@
   exam: Complex_Analysis
   tags:
     - Rouche
+    - Polynomials
   question: |
     Prove that $z^4 + 2 z^3 - 2z + 10 =0$ has exactly one root in each
     open quadrant.
@@ -1760,20 +1738,8 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
-  question: |
-    Let $0<r<1$. Show that polynomials
-    $P_n(z)  = 1 + 2z + 3 z^2 + \cdots + n z^{n-1}$ have no zeros in $|z|<r$
-    for all sufficiently large $n$'s.
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Complex
+    - Holomorphic Functions
+    - Analysis
   question: |
     Let $f$ be holomorphic in a neighborhood of $D_r(z_0)$. Show that for
     any $s<r$, there exists a constant $c>0$ such that
@@ -1788,7 +1754,8 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Harmonic Functions
+    - Integrals
   question: |
     Let $u(x,y)$ be harmonic and have continuous partial derivatives of
     order three in an open disc of radius $R>0$.
@@ -1812,7 +1779,8 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Analytic Functions
+    - Geometry
   question: |
     (a) $f(z)= u(x,y) +i v(x,y)$ be analytic in a domain
     $D\subset {\mathbb C}$. Let $z_0=(x_0,y_0)$ be a point in $D$ which
@@ -1836,10 +1804,11 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Integrals
+    - Analysis
   question: |
-    (a) $f: D\rightarrow {\mathbb C}$ be a continuous function, where
-    $D\subset {\mathbb C}$ is a domain.Let $\alpha:[a,b]\rightarrow D$
+    (a) Let $f: D\rightarrow \mathbb C$ be a continuous function, where
+    $D\subset \mathbb C$ is a domain. Let $\alpha:[a,b]\rightarrow D$
     be a smooth curve. Give a precise definition of the *complex line
     integral* $$\int_{\alpha} f.$$
 
@@ -1860,7 +1829,8 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Entire Functions
+    - Analysis
   question: |
     (a) Let $f:{\mathbb C}\rightarrow {\mathbb C}$ be an entire
     function. Assume the existence of a non-negative integer $m$, and of
@@ -1881,7 +1851,8 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Rouche 
+    - Polynomials
+    - Rouche
   question: |
     Prove that all the roots of the complex polynomial
     $$z^7 - 5 z^3 +12 =0$$ lie between the circles $|z|=1$ and $|z|=2$.
@@ -1893,7 +1864,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Analytic Functions
   question: |
     (a) Let $F$ be an analytic function inside and on a simple closed
     curve $C$, except for a pole of order $m\geq 1$ at $z=a$ inside $C$.
@@ -1910,7 +1881,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Conformal Maps
   question: |
     Find the conformal map that takes the upper half-plane comformally
     onto the half-strip $\{
@@ -1922,7 +1893,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Integrals
   question: |
     Compute the integral
     $\displaystyle{\int_{-\infty}^{\infty} \frac{e^{-2\pi ix\xi}}{\cosh\pi x}dx}$

@@ -2579,7 +2579,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Liouville's Theorem 
   question: |
     (1) Assume $\displaystyle f(z) = \sum_{n=0}^\infty c_n z^n$
     converges in $|z| < R$. Show that for $r <R$,
@@ -2595,7 +2595,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Analysis
   question: |
     Let $f$ be a continuous function in the region
     $$D=\{z \suchthat  \abs{z}>R, 0\leq \arg z\leq \theta\}\quad\text{where}\quad
@@ -2614,7 +2614,8 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Analytic Functions
+    - Residue Theorem
   question: |
     Suppose that $f$ is an analytic function in the region $D$ which
     contains the point $a$. Let
@@ -2645,7 +2646,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Integrals 
   question: |
     Evaluate $$\displaystyle{ \int_{0}^{\infty}\frac{x\sin x}{x^2+a^2} \,
     dx }.$$
@@ -2657,7 +2658,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Cauchy-Riemann 
   question: |
     Let $f=u+iv$ be differentiable (i.e. $f'(z)$ exists) with continuous
     partial derivatives at a point $z=re^{i\theta}$, $r\not= 0$. Show
@@ -2673,7 +2674,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Integrals 
   question: |
     Show that $\displaystyle \int_0^\infty \frac{x^{a-1}}{1+x^n}
     dx=\frac{\pi}{n\sin \frac{a\pi}{n}}$ using complex analysis, $0< a <
@@ -2687,17 +2688,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
-  question: |
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Complex
+    - Integrals 
   question: |
     For $s>0$, the **gamma function** is defined by
     $\displaystyle{\Gamma(s)=\int_0^{\infty} e^{-t}t^{s-1} dt}$.
@@ -2719,7 +2710,8 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Rouche 
+    - Polynomials
   question: |
     Apply Rouché's Theorem to prove the Fundamental Theorem of Algebra: If
     $$P_n(z) = a_0 + a_1z + \cdots + a_{n-1}z^{n-1} + a_nz^n\quad  (a_n \neq 0)$$
@@ -2732,12 +2724,15 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Entire Functions
+    - Analysis
   question: |
     Suppose $f$ is entire and there exist $A, R >0$ and natural number
     $N$ such that $$|f(z)| \geq A |z|^N\ \text{for}\ |z| \geq R.$$ Show
     that 
+    
     (i) $f$ is a polynomial and 
+    
     (ii) the degree of $f$ is at least $N$.
 
 
@@ -2747,7 +2742,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Analytic Functions
   question: |
     Let $f: {\mathbb C} \rightarrow {\mathbb C}$ be an injective
     analytic (also called *univalent*) function. Show that there exist
@@ -2761,7 +2756,9 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Analytic Functions
+    - Analysis
+    - Conformal Maps
   question: |
     Let $g$ be analytic for $|z|\leq 1$ and $|g(z)| < 1$ for $|z| = 1$.
 
@@ -2786,7 +2783,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Conformal Maps
   question: |
     Find a conformal map from $D = \{z :\  |z| < 1,\ |z - 1/2| > 1/2\}$
     to the unit disk $\Delta=\{z: \ |z|<1\}$.
@@ -2798,7 +2795,8 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Entire Functions
+    - Analysis
   question: |
     Let $f(z)$ be entire and assume values of $f(z)$ lie outside a *bounded*
     open set $\Omega$. Show without using Picard's theorems that $f(z)$ is a
@@ -2811,7 +2809,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Liouville's Theorem
   question: |
     (1) Assume $\displaystyle f(z) = \sum_{n=0}^\infty c_n z^n$ converges
     in $|z| < R$. Show that for $r <R$,
@@ -2828,7 +2826,8 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Entire Functions
+    - Analysis
   question: |
     Let $f(z)$ be entire and assume that $f(z) \leq M |z|^2$ outside some
     disk for some constant $M$. Show that $f(z)$ is a polynomial in $z$ of
@@ -2841,7 +2840,8 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Convergence
+    - Analysis
   question: |
     Let $a_n(z)$ be an analytic sequence in a domain $D$ such that
     $\displaystyle \sum_{n=0}^\infty |a_n(z)|$ converges uniformly on
@@ -2857,7 +2857,8 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Analytic Functions
+    - Analysis
   question: |
     Let $f(z)$ be analytic in an open set $\Omega$ except possibly at a
     point $z_0$ inside $\Omega$. Show that if $f(z)$ is bounded in near
@@ -2871,7 +2872,8 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Analysis
+    - Limits
   question: |
     Assume $f$ is continuous in the region:
     $0< |z-a| \leq R, \; 0 \leq \arg(z-a) \leq \beta_0$
@@ -2890,7 +2892,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Uniform Continuity 
   question: |
     Show that $f(z) = z^2$ is uniformly continuous in any open disk
     $|z| < R$, where $R>0$ is fixed, but it is not uniformly continuous on
@@ -2904,7 +2906,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - PDEs
   question: |
     (1) Show that the function $u=u(x,y)$ given by
     $$u(x,y)=\frac{e^{ny}-e^{-ny}}{2n^2}\sin nx\quad \text{for}\ n\in {\mathbf N}$$
@@ -2924,7 +2926,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Liouville's Theorem 
   question: |
     (1) Assume $\displaystyle f(z) = \sum_{n=0}^\infty c_n z^n$
     converges in $|z| < R$. Show that for $r <R$,
@@ -2941,7 +2943,8 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Analysis
+    - Limits
   question: |
     Let $f$ be a continuous function in the region
     $$D=\{z\ |  |z|>R, 0\leq \arg Z\leq \theta\}\quad\text{where}\quad
@@ -2959,7 +2962,8 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Analytic Functions
+    - Residue Theorem
   question: |
     Suppose that $f$ is an analytic function in the region $D$ which
     contains the point $a$. Let
@@ -2990,7 +2994,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Integrals
   question: |
     Evaluate $\displaystyle{ \int_{0}^{\infty}\frac{x\sin x}{x^2+a^2} \,dx }$.
 
@@ -3001,7 +3005,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Cauchy-Riemann
   question: |
     Let $f=u+iv$ be differentiable (i.e. $f'(z)$ exists) with continuous
     partial derivatives at a point $z=re^{i\theta}$, $r\not= 0$. Show
@@ -3016,7 +3020,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Integrals
   question: |
     Show that $\displaystyle \int_0^\infty \frac{x^{a-1}}{1+x^n}
     dx=\frac{\pi}{n\sin \frac{a\pi}{n}}$ using complex analysis, $0< a <
@@ -3029,7 +3033,8 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Analytic Functions
+    - Integrals
   question: |
     For $s>0$, the **gamma function** is defined by
     $\displaystyle{\Gamma(s)=\int_0^{\infty} e^{-t}t^{s-1} dt}$.
@@ -3045,31 +3050,21 @@
 
 
 
-
 - year: Extra 
   number: 0 
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
-  question: |
-    Apply Rouché's Theorem to prove the Fundamental Theorem of Algebra: If
-    $$P_n(z) = a_0 + a_1z + \cdots + a_{n-1}z^{n-1} + a_nz^n\quad  (a_n \neq 0)$$
-    is a polynomial of degree n, then it has n zeros in $\mathbb C$.
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Complex
+    - Entire Functions
+    - Analysis
   question: |
     Suppose $f$ is entire and there exist $A, R >0$ and natural number
     $N$ such that $$|f(z)| \geq A |z|^N\ \text{for}\ |z| \geq R.$$ Show
-    that (i) $f$ is a polynomial and (ii) the degree of $f$ is at least
-    $N$.
+    that 
+
+    (i) $f$ is a polynomial and 
+
+    (ii) the degree of $f$ is at least $N$.
 
 
 
@@ -3078,7 +3073,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Analytic Functions
   question: |
     Let $f: {\mathbb C} \rightarrow {\mathbb C}$ be an injective
     analytic (also called univalent) function. Show that there exist
@@ -3091,7 +3086,9 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Analytic Functions
+    - Analysis
+    - Conformal Maps
   question: |
     Let $g$ be analytic for $|z|\leq 1$ and $|g(z)| < 1$ for $|z| = 1$.
 
@@ -3118,7 +3115,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Conformal Maps
   question: |
     Find a conformal map from $D = \{z :\  |z| < 1,\ |z - 1/2| > 1/2\}$
     to the unit disk $\Delta=\{z: \ |z|<1\}$.
@@ -3130,33 +3127,19 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Entire Functions
   question: |
     Let $f(z)$ be entire and assume values of $f(z)$ lie outside a
     *bounded* open set $\Omega$. Show without using Picard's theorems
     that $f(z)$ is a constant.
 
 
-
 - year: Extra 
   number: 0 
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
-  question: |
-    Let $f(z)$ be entire and assume values of $f(z)$ lie outside a *bounded*
-    open set $\Omega$. Show without using Picard's theorems that $f(z)$ is a
-    constant.
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Complex
+    - Liouville's Theorem
   question: |
     (1) Assume $\displaystyle f(z) = \sum_{n=0}^\infty c_n z^n$ converges
     in $|z| < R$. Show that for $r <R$,
@@ -3172,7 +3155,8 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Entire Functions
+    - Analysis
   question: |
     Let $f(z)$ be entire and assume that $f(z) \leq M |z|^2$ outside some
     disk for some constant $M$. Show that $f(z)$ is a polynomial in $z$ of
@@ -3185,7 +3169,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Convergence
   question: |
     Let $a_n(z)$ be an analytic sequence in a domain $D$ such that
     $\displaystyle \sum_{n=0}^\infty |a_n(z)|$ converges uniformly on
@@ -3201,7 +3185,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Analytic Functions
   question: |
     Let $f(z)$ be analytic in an open set $\Omega$ except possibly at a
     point $z_0$ inside $\Omega$. Show that if $f(z)$ is bounded in near
@@ -3215,7 +3199,8 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Analysis
+    - Limits
   question: |
     Assume $f$ is continuous in the region:
     $0< |z-a| \leq R, \; 0 \leq \arg(z-a) \leq \beta_0$
@@ -3231,7 +3216,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - PDEs
   question: |
     Show that $f(z) = z^2$ is uniformly continuous in any open disk
     $|z| < R$, where $R>0$ is fixed, but it is not uniformly continuous on
@@ -3251,7 +3236,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Integrals
   question: |
     This question provides some insight into Cauchy's theorem. Solve the
     problem without using Cauchy's theorem.
@@ -3275,7 +3260,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Liouville's Theorem
   question: |
     (1) Assume the infinite series
     $\displaystyle  \sum_{n=0}^\infty c_n z^n$ converges in $|z| < R$
@@ -3283,8 +3268,9 @@
     $$\frac{1}{2 \pi} \int_0^{2 \pi} |f(r e^{i \theta})|^2 d \theta =
     \sum_{n=0}^\infty |c_n|^2 r^{2n} \; .$$
 
-    (2) Deduce Liouville's theorem from (1). Liouville's theorem: If
-    $f(z)$ is entire and bounded, then $f$ is constant.
+    (2) Deduce Liouville's theorem from (1). 
+
+    > Liouville's theorem: If $f(z)$ is entire and bounded, then $f$ is constant.
 
 
 
@@ -3293,13 +3279,16 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Analysis
+    - Limits
   question: |
     Let $f$ be a continuous function in the region
     $$D=\{z\ |  |z|>R, 0\leq \arg Z\leq \theta\}\quad\text{where}\quad
-    0\leq \theta \leq 2\pi.$$ If there exists $k$ such that
+    0\leq \theta \leq 2\pi.$$ 
+    If there exists $k$ such that
     $\displaystyle{\lim_{z\to\infty} zf(z)=k}$ for $z$ in the region
-    $D$. Show that $$\lim_{R'\to\infty} \int_{L} f(z) dz=i\theta k,$$
+    $D$. 
+    Show that $$\lim_{R'\to\infty} \int_{L} f(z) dz=i\theta k,$$
     where $L$ is the part of the circle $|z|=R'$ which lies in the
     region $D$.
 
@@ -3310,7 +3299,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Integrals
   question: |
     Evaluate $\displaystyle{ \int_{0}^{\infty}\frac{x\sin x}{x^2+a^2} \,
     dx }$.
@@ -3322,7 +3311,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Cauchy-Riemann
   question: |
     Let $f=u+iv$ be differentiable (i.e. $f'(z)$ exists) with continuous
     partial derivatives at a point $z=re^{i\theta}$, $r\not= 0$. Show
@@ -3337,7 +3326,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Integrals
   question: |
     Show that $\displaystyle \int_0^\infty \frac{x^{a-1}}{1+x^n}
     dx=\frac{\pi}{n\sin \frac{a\pi}{n}}$ using complex analysis, $0< a <
@@ -3350,7 +3339,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Integrals
   question: |
     For $s>0$, the **gamma function** is defined by
     $\displaystyle{\Gamma(s)=\int_0^{\infty} e^{-t}t^{s-1} dt}$.
@@ -3365,17 +3354,6 @@
     > Hint: You may need $\displaystyle{\Gamma(1-s)=t \int_0^{\infty}e^{-vt}(vt)^{-s} dv}$ for $t>0$.
 
 
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Complex
-  question: |
-    Apply Rouché's Theorem to prove the Fundamental Theorem of Algebra: If
-    $$P_n(z) = a_0 + a_1z + \cdots + a_{n-1}z^{n-1} + a_nz^n\quad  (a_n \neq 0)$$
-    is a polynomial of degree n, then it has n zeros in $\mathbf C$.
-
 
 
 - year: Extra 
@@ -3383,12 +3361,16 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Entire Functions
+    - Analysis
   question: |
     Suppose $f$ is entire and there exist $A, R >0$ and natural number
     $N$ such that $$|f(z)| \geq A |z|^N\ \text{for}\ |z| \geq R.$$ Show
-    that (i) $f$ is a polynomial and (ii) the degree of $f$ is at least
-    $N$.
+    that 
+    
+    (i) $f$ is a polynomial and 
+    
+    (ii) the degree of $f$ is at least $N$.
 
 
 
@@ -3397,7 +3379,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Analytic Functions
   question: |
     Let $f: {\mathbb C} \rightarrow {\mathbb C}$ be an injective
     analytic (also called univalent) function. Show that there exist
@@ -3410,7 +3392,9 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Analytic Functions
+    - Analysis
+    - Conformal Maps
   question: |
    Let $g$ be analytic for $|z|\leq 1$ and $|g(z)| < 1$ for $|z| = 1$.
 
@@ -3436,7 +3420,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Conformal Maps
   question: |
     Find a conformal map from $D = \{z :\  |z| < 1,\ |z - 1/2| > 1/2\}$
     to the unit disk $\Delta=\{z: \ |z|<1\}$.
@@ -3448,7 +3432,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Analysis
   question: |
     Let $a_n \neq 0$ and assume that $\displaystyle
     \lim_{n \rightarrow \infty} \frac{|a_{n+1}|}{|a_n|} = L$. Show that
@@ -3466,7 +3450,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Conformal Maps
   question: |
     (a) Let $z, w$ be complex numbers, such that $\bar{z} w \neq 1$.
     Prove that
@@ -3496,7 +3480,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Analysis
   question: |
     Use $n$-th roots of unity (i.e. solutions of $z^n - 1 =0$) to show
     that
@@ -3506,6 +3490,13 @@
     
     > Hint: $1 - \cos 2 \theta = 2 \sin^2 \theta,\; \sin 2 \theta = 2 \sin \theta \cos \theta$.
 
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Cauchy-Riemann
+  question: |
     (a) Show that in polar coordinates, the Cauchy-Riemann
     equations take the form
 
@@ -3526,12 +3517,15 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Analysis
+    - Limits
   question: |
     Assume $f$ is continuous in the region:
     $x \geq x_0, \; 0 \leq y \leq b$ and the limit
     $$\displaystyle \lim_{x \rightarrow + \infty} f(x + iy) = A$$ exists
-    uniformly with respect to $y$ (independent of $y$). Show that
+    uniformly with respect to $y$ (independent of $y$). 
+
+    Show that
     $$\lim_{x \rightarrow + \infty} \int_{\gamma_x} f(z) dz  = iA b \; , \; \;$$
     where $\gamma_x : = \{ z \; | \; z = x + it, \; 0 \leq  t \leq b\}.$
 
@@ -3541,7 +3535,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Cauchy 
   question: |
     (Cauchy's formula for "exterior" region) Let $\gamma$ be piecewise
     smooth simple closed curve with interior $\Omega_1$ and exterior
@@ -3561,7 +3555,9 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Analytic Functions
+    - Limits
+    - Liouville's Theorem
   question: |
     Let $f(z)$ be bounded and analytic in $\mathbb C$. Let $a \neq b$ be
     any fixed complex numbers. Show that the following limit exists
@@ -3576,7 +3572,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Integrals
   question: |
     Prove by *justifying all steps* that for all $\xi \in {\mathbb C}$
     we have $\displaystyle
@@ -3593,16 +3589,16 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Holomorphic Functions
   question: |
     Suppose that $f$ is holomorphic in an open set containing the closed
     unit disc, except for a pole at $z_0$ on the unit circle. Let
-    $\displaystyle
-    %f(z) = \sum_{n = 1}^\infty a_n z^n
-    f(z) = \sum_{n = 1}^\infty c_n z^n$ denote the the power series in
-    the open disc. Show that (1) $c_n \neq 0$ for all large enough
-    $n$'s, and (2)
-    $\displaystyle \lim_{n \rightarrow \infty} \frac{c_n}{c_{n+1}}= z_0$.
+    $f(z) = \sum_{n = 1}^\infty c_n z^n$ denote the power series in
+    the open disc. Show that 
+
+    (1) $c_n \neq 0$ for all large enough $n$'s, and 
+    
+    (2) $\displaystyle \lim_{n \rightarrow \infty} \frac{c_n}{c_{n+1}}= z_0$.
 
 
 
@@ -3612,7 +3608,8 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Analytic Functions
+    - Singularities
   question: |
     Let $f(z)$ be a non-constant analytic function in $|z|>0$ such that
     $f(z_n) = 0$ for infinite many points $z_n$ with
@@ -3627,7 +3624,8 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Entire Functions
+    - Limits
   question: |
     Let $f$ be entire and suppose that
     $\lim_{z \rightarrow \infty} f(z) = \infty$. Show that $f$ is a
@@ -3639,7 +3637,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Laurent Series
   question: |
     Expand the following functions into Laurent series in the indicated
     regions:
@@ -3657,7 +3655,8 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Analytic Functions
+    - Analysis
   question: |
     Assume $f(z)$ is analytic in region $D$ and $\Gamma$ is a
     rectifiable curve in $D$ with interior in $D$. Prove that if $f(z)$
@@ -3670,7 +3669,8 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Rouche 
+    - Polynomials
   question: |
     Find the number of roots of $z^4 - 6z + 3 =0$ in $|z|<1$ and
     $1 < |z| < 2$ respectively.
@@ -3682,7 +3682,8 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Rouche
+    - Polynomials
   question: |
     Prove that $z^4 + 2 z^3 - 2z + 10 =0$ has exactly one root in each
     open quadrant.
@@ -3694,10 +3695,10 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Analysis 
   question: |
     (1) Let $f(z) \in H({\mathbb D})$, $\text{Re}(f(z)) >0$,
-    $f(0)= a>0$. Show that $$|\frac{f(z)-a}{f(z)+a}| \leq |z|, \; \; \;
+    $f(0)= a>0$. Show that $$\abs{ \frac{f(z)-a}{f(z)+a}} \leq |z|, \; \; \;
     |f'(0)| \leq 2a.$$
 
     (2) Show that the above is still true if $\text{Re}(f(z)) >0$ is
@@ -3710,7 +3711,8 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Analytic Functions
+    - Convergence
   question: |
     Assume $f(z)$ is analytic in ${\mathbb D}$ and $f(0)=0$ and is not a
     rotation (i.e. $f(z) \neq e^{i \theta} z$). Show that
@@ -3725,7 +3727,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Analytic Functions
   question: |
     Let $f(z) = \sum_{n=0}^\infty c_n z^n$ be analytic and one-to-one in
     $|z| < 1$. For $0<r<1$, let $D_r$ be the disk $|z|<r$. Show that the
@@ -3740,7 +3742,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Analytic Functions
   question: |
     Let $f(z) = \sum_{n= -\infty}^\infty c_n z^n$ be analytic and
     one-to-one in $r_0< |z| < R_0$. For $r_0<r<R<R_0$, let $D(r,R)$ be
@@ -3755,7 +3757,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Convergence
   question: |
     Let $a_n(z)$ be an analytic sequence in a domain $D$ such that
     $\displaystyle \sum_{n=0}^\infty |a_n(z)|$ converges uniformly on
@@ -3770,7 +3772,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Analytic Functions
   question: |
     Let $f_n, f$ be analytic functions on the unit disk ${\mathbb D}$.
     Show that the following are equivalent.
@@ -3788,7 +3790,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Analytic Functions
   question: |
     Let $f$ and $g$ be non-zero analytic functions on a region $\Omega$.
     Assume $|f(z)| = |g(z)|$ for all $z$ in $\Omega$. Show that
@@ -3803,7 +3805,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Analytic Functions
   question: |
     Suppose $f$ is analytic in an open set containing the unit disc
     $\mathbb D$ and $|f(z)| =1$ when $|z|$=1. Show that either
@@ -3821,11 +3823,11 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Analysis 
   question: |
     (1) Let $p(z)$ be a polynomial, $R>0$ any positive number, and
     $m \geq 1$ an integer. Let
-    $M_R = \sup \{ |z^{m} p(z) - 1|: |z| = R  \}$. Show that $M_R>1$.
+    $$M_R = \sup \{ |z^{m} p(z) - 1|: |z| = R  \}.$$ Show that $M_R>1$.
 
     (2) Let $m \geq 1$ be an integer and
     $K = \{z \in {\mathbb C}: r \leq |z| \leq R \}$ where $r<R$.
@@ -3841,7 +3843,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Laurent Series
   question: |
     Let $\displaystyle f(z) = \frac{1}{z} + \frac{1}{z^2 -1}$. Find all
     the Laurent series of $f$ and describe the largest annuli in which
@@ -3854,11 +3856,16 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Entire Functions
+    - Analysis
   question: |
     Suppose $f$ is entire and there exist $A, R >0$ and natural number
-    $N$ such that $|f(z)| \leq A |z|^N$ for $|z| \geq R$. Show that (i)
-    $f$ is a polynomial and (ii) the degree of $f$ is at most $N$.
+    $N$ such that $|f(z)| \leq A |z|^N$ for $|z| \geq R$. Show that 
+    
+    (i) $f$ is a polynomial and 
+
+    (ii) the degree of $f$ is at most $N$.
+
 
 
 
@@ -3867,20 +3874,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
-  question: |
-    Suppose $f$ is entire and there exist $A, R >0$ and natural number
-    $N$ such that $|f(z)| \geq A |z|^N$ for $|z| \geq R$. Show that (i)
-    $f$ is a polynomial and (ii) the degree of $f$ is at least $N$.
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Complex
+    - Analytic Functions
   question: |
     (1) Explicitly write down an example of a non-zero analytic
     function in $|z|<1$ which has infinitely zeros in $|z|<1$.
@@ -3894,7 +3888,8 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Harmonic Functions
+    - Schwarz Reflection
   question: |
     (1) Assume $u$ is harmonic on open set $O$ and $z_n$ is a sequence
     in $O$ such that $u(z_n) = 0$ and $\lim z_n \in O$. Prove or
@@ -3919,7 +3914,8 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Holomorphic Functions
+    - Analysis
   question: |
     Let $f$ be holomorphic in a neighborhood of $D_r(z_0)$. Show that
     for any $s<r$, there exists a constant $c>0$ such that
@@ -3938,7 +3934,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Casorati-Weierstrass
   question: |
     (1) Let $f$ be analytic in $\Omega: 0<|z-a|<r$ except at a
     sequence of poles $a_n \in \Omega$ with
@@ -3956,7 +3952,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Integrals
   question: |
     Compute the following integrals.
 
@@ -3981,7 +3977,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Integrals
   question: |
     Compute the following integrals.
 
@@ -4009,7 +4005,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Polynomials
   question: |
     Let $0<r<1$. Show that polynomials
     $P_n(z)  = 1 + 2z + 3 z^2 + \cdots + n z^{n-1}$ have no zeros in
@@ -4022,7 +4018,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Analytic Functions
   question: |
     Let $f$ be an analytic function on a region $\Omega$. Show that $f$
     is a constant if there is a simple closed curve $\gamma$ in $\Omega$
@@ -4035,7 +4031,8 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Principal Parts
+    - Sums
   question: |
     (1) Show that $\displaystyle \frac{\pi^2}{\sin^2 \pi z}$ and
     $\displaystyle g(z) = \sum_{n = - \infty}^{ \infty} \frac{1}{(z-n)^2}$
@@ -4053,7 +4050,8 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Analytic Functions
+    - Fractional Linear Transformations
   question: |
     Let $f(z)$ be an analytic function on
     ${\mathbb C} \backslash \{ z_0 \}$, where $z_0$ is a fixed point.
@@ -4071,7 +4069,8 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Analytic Functions
+    - Convergence
   question: |
     Assume $f(z)$ is analytic in $\mathbb D: |z|<1$ and $f(0)=0$ and
     is not a rotation (i.e. $f(z) \neq e^{i \theta} z$). Show that
@@ -4086,14 +4085,15 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Analytic Functions
+    - Analysis
   question: |
     Let $f$ be a non-constant analytic function on $\mathbb D$ with
     $f(\mathbb D) \subseteq \mathbb D$. Use $\psi_{a} (f(z))$ (where
     $a=f(0)$, $\displaystyle \psi_a(z) = \frac{a - z}{1 - \bar{a}z}$) to
-    prove that $\displaystyle
+    prove that $$\displaystyle
     \frac{|f(0)| - |z|}{1 + |f(0)||z|} \leq |f(z)| \leq
-    \frac{|f(0)| + |z|}{1 - |f(0)||z|}$.
+    \frac{|f(0)| + |z|}{1 - |f(0)||z|}.$$
 
 
 
@@ -4102,7 +4102,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Conformal Maps
   question: |
     Find a conformal map
 
@@ -4127,7 +4127,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Fractional Linear Transformations
   question: |
     Let $C$ and $C'$ be two circles and let $z_1 \in C$, $z_2 \notin C$,
     $z'_1 \in C'$, $z'_2 \notin C'$. Show that there is a unique
@@ -4141,7 +4141,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Holomorphic Functions
   question: |
     Assume $f_n \in H(\Omega)$ is a sequence of holomorphic functions on
     the region $\Omega$ that are uniformly bounded on compact subsets
@@ -4157,7 +4157,9 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Conformal Maps
+    - Integrals
+    - Analysis
   question: |
     Let
     $\displaystyle{\psi_{\alpha}(z)=\frac{\alpha-z}{1-\bar{\alpha}z}}$
@@ -4175,7 +4177,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Conformal Maps
   question: |
     Prove that
     $\displaystyle{f(z)=-\frac{1}{2}\left(z+\frac{1}{z}\right)}$ is a
@@ -4189,7 +4191,8 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Holomorphic Functions
+    - Analysis
   question: |
     Let $\Omega$ be a simply connected open set and let $\gamma$ be a
     simple closed contour in $\Omega$ and enclosing a bounded region $U$
@@ -4203,11 +4206,15 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Integrals
   question: |
-    Compute the following integrals. (i)
+    Compute the following integrals. 
+    
+    (i)
     $\displaystyle \int_0^\infty \frac{x^{a-1}}{1 + x^n} \, dx$,
-    $0< a < n$ (ii)
+    $0< a < n$ 
+
+    (ii)
     $\displaystyle \int_0^\infty \frac{\log x}{(1 + x^2)^2}\, dx$
 
 
@@ -4217,7 +4224,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Polynomials
   question: |
     Let $0<r<1$. Show that polynomials
     $P_n(z)  = 1 + 2z + 3 z^2 + \cdots + n z^{n-1}$ have no zeros in
@@ -4230,7 +4237,9 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Holomorphic Functions
+    - Integrals
+    - Analysis
   question: |
     Let $f$ be holomorphic in a neighborhood of $D_r(z_0)$. Show that
     for any $s<r$, there exists a constant $c>0$ such that
@@ -4245,7 +4254,9 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Conformal Map
+    - Integrals
+    - Analysis
   question: |
     Let $\displaystyle{\psi_{\alpha}(z)=\frac{\alpha-z}{1-\bar{\alpha}z}}$
     with $|\alpha|<1$ and ${\mathbb D}=\{z:\ |z|<1\}$. Prove that
@@ -4255,6 +4266,13 @@
     -   $\displaystyle{\frac{1}{\pi}\iint_{{\mathbb D}} |\psi'_{\alpha}| dx dy =\frac{1-|\alpha|^2}{|\alpha|^2}
         \log \frac{1}{1-|\alpha|^2}}$.
 
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Conformal Map
+  question: |
     Prove that $\displaystyle{f(z)=-\frac{1}{2}\left(z+\frac{1}{z}\right)}$
     is a conformal map from half disc $\{z=x+iy:\ |z|<1,\ y>0\}$ to upper
     half plane $\mathbb H=\{z=x+iy:\ y>0\}$.
@@ -4266,7 +4284,8 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Holomorphic Functions
+    - Analysis
   question: |
     Let $\Omega$ be a simply connected open set and let $\gamma$ be a simple
     closed contour in $\Omega$ and enclosing a bounded region $U$
@@ -4280,10 +4299,12 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Integrals
   question: |
-    Compute the following integrals. (i)
-    $\displaystyle \int_0^\infty \frac{x^{a-1}}{1 + x^n} \, dx$, $0< a < n$
+    Compute the following integrals. 
+    
+    (i) $\displaystyle \int_0^\infty \frac{x^{a-1}}{1 + x^n} \, dx$, $0< a < n$
+    
     (ii) $\displaystyle \int_0^\infty \frac{\log x}{(1 + x^2)^2}\, dx$
 
 
@@ -4293,20 +4314,8 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
-  question: |
-    Let $0<r<1$. Show that polynomials
-    $P_n(z)  = 1 + 2z + 3 z^2 + \cdots + n z^{n-1}$ have no zeros in $|z|<r$
-    for all sufficiently large $n$'s.
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Complex
+    - Holomorphic Functions
+    - Analysis
   question: |
     Let $f$ be holomorphic in a neighborhood of $D_r(z_0)$. Show that for
     any $s<r$, there exists a constant $c>0$ such that
@@ -4321,7 +4330,8 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Harmonic Functions
+    - Integrals
   question: |
     Let $u(x,y)$ be harmonic and have continuous partial derivatives of
     order three in an open disc of radius $R>0$.
@@ -4345,7 +4355,8 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Analytic Functions
+    - Geometry
   question: |
     (a) $f(z)= u(x,y) +i v(x,y)$ be analytic in a domain
     $D\subset {\mathbb C}$. Let $z_0=(x_0,y_0)$ be a point in $D$ which
@@ -4369,10 +4380,11 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Integrals
+    - Analysis
   question: |
-    (a) $f: D\rightarrow {\mathbb C}$ be a continuous function, where
-    $D\subset {\mathbb C}$ is a domain.Let $\alpha:[a,b]\rightarrow D$
+    (a) Let $f: D\rightarrow \mathbb C$ be a continuous function, where
+    $D\subset \mathbb C$ is a domain. Let $\alpha:[a,b]\rightarrow D$
     be a smooth curve. Give a precise definition of the *complex line
     integral* $$\int_{\alpha} f.$$
 
@@ -4393,7 +4405,8 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Entire Functions
+    - Analysis
   question: |
     (a) Let $f:{\mathbb C}\rightarrow {\mathbb C}$ be an entire
     function. Assume the existence of a non-negative integer $m$, and of
@@ -4414,7 +4427,8 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Polynomials
+    - Rouche
   question: |
     Prove that all the roots of the complex polynomial
     $$z^7 - 5 z^3 +12 =0$$ lie between the circles $|z|=1$ and $|z|=2$.
@@ -4426,7 +4440,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Analytic Functions
   question: |
     (a) Let $F$ be an analytic function inside and on a simple closed
     curve $C$, except for a pole of order $m\geq 1$ at $z=a$ inside $C$.
@@ -4443,7 +4457,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Conformal Maps
   question: |
     Find the conformal map that takes the upper half-plane comformally
     onto the half-strip $\{
@@ -4455,7 +4469,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Integrals
   question: |
     Compute the integral
     $\displaystyle{\int_{-\infty}^{\infty} \frac{e^{-2\pi ix\xi}}{\cosh\pi x}dx}$
