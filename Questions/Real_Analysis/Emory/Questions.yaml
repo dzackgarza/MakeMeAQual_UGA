@@ -38,9 +38,9 @@
         Lebesgue measurable set $E$ which converges *in measure* to a
         function $f$ on $E$. Suppose that for every $n$, $|f_n| \leq g$
         with $g$ integrable on $E$. Using the above theorem show that
-        \begin{aligned}
+        \begin{align*}
             \int_E |f_n-f| \longrightarrow 0 \, .
-        \end{aligned}
+        \end{align*}
 
 
 - year: 0 

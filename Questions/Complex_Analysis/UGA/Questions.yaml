@@ -127,7 +127,7 @@
   tags:
     - Complex
   question: |
-	  Apply Rouché's Theorem to prove the Fundamental Theorem of Algebra: If
+    Apply Rouché's Theorem to prove the Fundamental Theorem of Algebra: If
     $$P_n(z) = a_0 + a_1z + \cdots + a_{n-1}z^{n-1} + a_nz^n\quad  (a_n \neq 0)$$
     is a polynomial of degree n, then it has n zeros in $\mathbb C$.
 
@@ -366,8 +366,7 @@
   tags:
     - Complex
   question: |
-	  Evaluate $\displaystyle{ \int_{0}^{\infty}\frac{x\sin x}{x^2+a^2} \,
-    dx }$.
+    Evaluate $\displaystyle{ \int_{0}^{\infty}\frac{x\sin x}{x^2+a^2} \,dx }$.
 
 
 
@@ -420,7 +419,7 @@
   tags:
     - Complex
   question: |
-	  Apply Rouché's Theorem to prove the Fundamental Theorem of Algebra: If
+    Apply Rouché's Theorem to prove the Fundamental Theorem of Algebra: If
     $$P_n(z) = a_0 + a_1z + \cdots + a_{n-1}z^{n-1} + a_nz^n\quad  (a_n \neq 0)$$
     is a polynomial of degree n, then it has n zeros in $\mathbb C$.
 
@@ -431,7 +430,7 @@
   tags:
     - Complex
   question: |
-	  Suppose $f$ is entire and there exist $A, R >0$ and natural number
+    Suppose $f$ is entire and there exist $A, R >0$ and natural number
     $N$ such that $$|f(z)| \geq A |z|^N\ \text{for}\ |z| \geq R.$$ Show
     that (i) $f$ is a polynomial and (ii) the degree of $f$ is at least
     $N$.
@@ -500,7 +499,7 @@
   tags:
     - Complex
   question: |
-	  Let $f(z)$ be entire and assume values of $f(z)$ lie outside a *bounded*
+    Let $f(z)$ be entire and assume values of $f(z)$ lie outside a *bounded*
     open set $\Omega$. Show without using Picard's theorems that $f(z)$ is a
     constant.
 
@@ -525,7 +524,7 @@
   tags:
     - Complex
   question: |
-	  Let $f(z)$ be entire and assume that $f(z) \leq M |z|^2$ outside some
+    Let $f(z)$ be entire and assume that $f(z) \leq M |z|^2$ outside some
     disk for some constant $M$. Show that $f(z)$ is a polynomial in $z$ of
     degree $\leq 2$.
 
@@ -550,7 +549,7 @@
   tags:
     - Complex
   question: |
-	  Let $f(z)$ be analytic in an open set $\Omega$ except possibly at a
+    Let $f(z)$ be analytic in an open set $\Omega$ except possibly at a
     point $z_0$ inside $\Omega$. Show that if $f(z)$ is bounded in near
     $z_0$, then $\displaystyle \int_\Delta f(z) dz = 0$ for all triangles
     $\Delta$ in $\Omega$.
@@ -562,7 +561,7 @@
   tags:
     - Complex
   question: |
-	  Assume $f$ is continuous in the region:
+    Assume $f$ is continuous in the region:
     $0< |z-a| \leq R, \; 0 \leq \arg(z-a) \leq \beta_0$
     ($0 < \beta_0 \leq 2 \pi$) and the limit
     $\displaystyle \lim_{z \rightarrow a} (z-a) f(z) = A$ exists. Show that
@@ -576,7 +575,7 @@
   tags:
     - Complex
   question: |
-	  Show that $f(z) = z^2$ is uniformly continuous in any open disk
+    Show that $f(z) = z^2$ is uniformly continuous in any open disk
     $|z| < R$, where $R>0$ is fixed, but it is not uniformly continuous on
     $\mathbb C$.
 
@@ -594,7 +593,7 @@
   tags:
     - Complex
   question: |
-	  This question provides some insight into Cauchy's theorem. Solve the
+    This question provides some insight into Cauchy's theorem. Solve the
     problem without using Cauchy's theorem.
 
     1.  Evaluate the integral $\displaystyle{\int_{\gamma} z^n dz}$ for
@@ -616,7 +615,7 @@
   tags:
     - Complex
   question: |
-	  (1) Assume the infinite series
+    (1) Assume the infinite series
     $\displaystyle  \sum_{n=0}^\infty c_n z^n$ converges in $|z| < R$
     and let $f(z)$ be the limit. Show that for $r <R$,
     $$\frac{1}{2 \pi} \int_0^{2 \pi} |f(r e^{i \theta})|^2 d \theta =
@@ -632,7 +631,7 @@
   tags:
     - Complex
   question: |
-	  Let $f$ be a continuous function in the region
+    Let $f$ be a continuous function in the region
     $$D=\{z\ |  |z|>R, 0\leq \arg Z\leq \theta\}\quad\text{where}\quad
     0\leq \theta \leq 2\pi.$$ If there exists $k$ such that
     $\displaystyle{\lim_{z\to\infty} zf(z)=k}$ for $z$ in the region
@@ -647,7 +646,7 @@
   tags:
     - Complex
   question: |
-	  Evaluate $\displaystyle{ \int_{0}^{\infty}\frac{x\sin x}{x^2+a^2} \,
+    Evaluate $\displaystyle{ \int_{0}^{\infty}\frac{x\sin x}{x^2+a^2} \,
     dx }$.
 
 
@@ -657,7 +656,7 @@
   tags:
     - Complex
   question: |
-	  Let $f=u+iv$ be differentiable (i.e. $f'(z)$ exists) with continuous
+    Let $f=u+iv$ be differentiable (i.e. $f'(z)$ exists) with continuous
     partial derivatives at a point $z=re^{i\theta}$, $r\not= 0$. Show
     that
     $$\frac{\partial u}{\partial r}=\frac{1}{r}\frac{\partial v}{\partial \theta},\quad
@@ -670,7 +669,7 @@
   tags:
     - Complex
   question: |
-	  Show that $\displaystyle \int_0^\infty \frac{x^{a-1}}{1+x^n}
+    Show that $\displaystyle \int_0^\infty \frac{x^{a-1}}{1+x^n}
     dx=\frac{\pi}{n\sin \frac{a\pi}{n}}$ using complex analysis, $0< a <
     n$. Here $n$ is a positive integer.
 
@@ -681,7 +680,7 @@
   tags:
     - Complex
   question: |
-	  For $s>0$, the **gamma function** is defined by
+    For $s>0$, the **gamma function** is defined by
     $\displaystyle{\Gamma(s)=\int_0^{\infty} e^{-t}t^{s-1} dt}$.
 
     -   Show that the gamma function is analytic in the half-plane
@@ -699,7 +698,7 @@
   tags:
     - Complex
   question: |
-	  Apply Rouché's Theorem to prove the Fundamental Theorem of Algebra: If
+    Apply Rouché's Theorem to prove the Fundamental Theorem of Algebra: If
     $$P_n(z) = a_0 + a_1z + \cdots + a_{n-1}z^{n-1} + a_nz^n\quad  (a_n \neq 0)$$
     is a polynomial of degree n, then it has n zeros in $\mathbf C$.
 
@@ -710,7 +709,7 @@
   tags:
     - Complex
   question: |
-	  Suppose $f$ is entire and there exist $A, R >0$ and natural number
+    Suppose $f$ is entire and there exist $A, R >0$ and natural number
     $N$ such that $$|f(z)| \geq A |z|^N\ \text{for}\ |z| \geq R.$$ Show
     that (i) $f$ is a polynomial and (ii) the degree of $f$ is at least
     $N$.
@@ -733,7 +732,7 @@
   tags:
     - Complex
   question: |
-	 Let $g$ be analytic for $|z|\leq 1$ and $|g(z)| < 1$ for $|z| = 1$.
+   Let $g$ be analytic for $|z|\leq 1$ and $|g(z)| < 1$ for $|z| = 1$.
 
     -   Show that $g$ has a unique fixed point in $|z| < 1$.
 
@@ -767,7 +766,7 @@
   tags:
     - Complex
   question: |
-	  Let $a_n \neq 0$ and assume that $\displaystyle
+    Let $a_n \neq 0$ and assume that $\displaystyle
     \lim_{n \rightarrow \infty} \frac{|a_{n+1}|}{|a_n|} = L$. Show that
     $\displaystyle
     \lim_{n \rightarrow \infty}
@@ -783,7 +782,7 @@
   tags:
     - Complex
   question: |
-	  (a) Let $z, w$ be complex numbers, such that $\bar{z} w \neq 1$.
+    (a) Let $z, w$ be complex numbers, such that $\bar{z} w \neq 1$.
     Prove that
     $$\abs{\frac{w - z}{1 - \bar{w} z}} < 1 \; \; \; \mbox{if} \; |z| < 1 \; \mbox{and}\; |w| < 1,$$
     and also that
@@ -811,7 +810,7 @@
   tags:
     - Complex
   question: |
-	  Use $n$-th roots of unity (i.e. solutions of $z^n - 1 =0$) to show
+    Use $n$-th roots of unity (i.e. solutions of $z^n - 1 =0$) to show
     that
     $$2^{n-1} \sin\frac{\pi}{n} \sin\frac{2\pi}{n} \cdots \sin\frac{(n-1)\pi}{n}
     = n
@@ -839,7 +838,7 @@
   tags:
     - Complex
   question: |
-	  Assume $f$ is continuous in the region:
+    Assume $f$ is continuous in the region:
     $x \geq x_0, \; 0 \leq y \leq b$ and the limit
     $$\displaystyle \lim_{x \rightarrow + \infty} f(x + iy) = A$$ exists
     uniformly with respect to $y$ (independent of $y$). Show that
@@ -852,7 +851,7 @@
   tags:
     - Complex
   question: |
-	  (Cauchy's formula for "exterior" region) Let $\gamma$ be piecewise
+    (Cauchy's formula for "exterior" region) Let $\gamma$ be piecewise
     smooth simple closed curve with interior $\Omega_1$ and exterior
     $\Omega_2$. Assume $f'(z)$ exists in an open set containing $\gamma$
     and $\Omega_2$ and $\lim_{z \rightarrow \infty } f(z) = A$. Show
@@ -870,7 +869,7 @@
   tags:
     - Complex
   question: |
-	  Let $f(z)$ be bounded and analytic in $\mathbb C$. Let $a \neq b$ be
+    Let $f(z)$ be bounded and analytic in $\mathbb C$. Let $a \neq b$ be
     any fixed complex numbers. Show that the following limit exists
     $$\lim_{R \rightarrow \infty} \int_{|z|=R} \frac{f(z)}{(z-a)(z-b)} dz.$$
     Use this to show that $f(z)$ must be a constant (Liouville's
@@ -883,7 +882,7 @@
   tags:
     - Complex
   question: |
-	  Prove by *justifying all steps* that for all $\xi \in {\mathbb C}$
+    Prove by *justifying all steps* that for all $\xi \in {\mathbb C}$
     we have $\displaystyle
     e^{- \pi \xi^2} = \int_{- \infty}^\infty e^{- \pi x^2} e^{2 \pi i x \xi} dx \; .$
 
@@ -898,7 +897,7 @@
   tags:
     - Complex
   question: |
-	  Suppose that $f$ is holomorphic in an open set containing the closed
+    Suppose that $f$ is holomorphic in an open set containing the closed
     unit disc, except for a pole at $z_0$ on the unit circle. Let
     $\displaystyle
     %f(z) = \sum_{n = 1}^\infty a_n z^n
@@ -915,7 +914,7 @@
   tags:
     - Complex
   question: |
-	  Let $f(z)$ be a non-constant analytic function in $|z|>0$ such that
+    Let $f(z)$ be a non-constant analytic function in $|z|>0$ such that
     $f(z_n) = 0$ for infinite many points $z_n$ with
     $\lim_{n \rightarrow \infty} z_n =0$. Show that $z=0$ is an
     essential singularity for $f(z)$. (An example of such a function is
@@ -1038,7 +1037,7 @@
   tags:
     - Complex
   question: |
-	  Let $a_n(z)$ be an analytic sequence in a domain $D$ such that
+    Let $a_n(z)$ be an analytic sequence in a domain $D$ such that
     $\displaystyle \sum_{n=0}^\infty |a_n(z)|$ converges uniformly on
     bounded and closed sub-regions of $D$. Show that
     $\displaystyle \sum_{n=0}^\infty |a'_n(z)|$ converges uniformly on
@@ -1051,7 +1050,7 @@
   tags:
     - Complex
   question: |
-	  Let $f_n, f$ be analytic functions on the unit disk ${\mathbb D}$.
+    Let $f_n, f$ be analytic functions on the unit disk ${\mathbb D}$.
     Show that the following are equivalent.
 
     (i) $f_n(z)$ converges to $f(z)$ uniformly on compact subsets in
@@ -1067,7 +1066,7 @@
   tags:
     - Complex
   question: |
-	  Let $f$ and $g$ be non-zero analytic functions on a region $\Omega$.
+    Let $f$ and $g$ be non-zero analytic functions on a region $\Omega$.
     Assume $|f(z)| = |g(z)|$ for all $z$ in $\Omega$. Show that
     $f(z) = e^{i \theta} g(z)$ in $\Omega$ for some
     $0 \leq \theta < 2 \pi$.
@@ -1080,7 +1079,7 @@
   tags:
     - Complex
   question: |
-	  Suppose $f$ is analytic in an open set containing the unit disc
+    Suppose $f$ is analytic in an open set containing the unit disc
     $\mathbb D$ and $|f(z)| =1$ when $|z|$=1. Show that either
     $f(z) = e^{i \theta}$ for some $\theta \in \mathbb R$ or there are
     finite number of $z_k \in \mathbb D$, $k \leq n$ and
@@ -1096,7 +1095,7 @@
   tags:
     - Complex
   question: |
-	  (1) Let $p(z)$ be a polynomial, $R>0$ any positive number, and
+    (1) Let $p(z)$ be a polynomial, $R>0$ any positive number, and
     $m \geq 1$ an integer. Let
     $M_R = \sup \{ |z^{m} p(z) - 1|: |z| = R  \}$. Show that $M_R>1$.
 
@@ -1114,7 +1113,7 @@
   tags:
     - Complex
   question: |
-	  Let $\displaystyle f(z) = \frac{1}{z} + \frac{1}{z^2 -1}$. Find all
+    Let $\displaystyle f(z) = \frac{1}{z} + \frac{1}{z^2 -1}$. Find all
     the Laurent series of $f$ and describe the largest annuli in which
     these series are valid.
 
@@ -1125,7 +1124,7 @@
   tags:
     - Complex
   question: |
-	  Suppose $f$ is entire and there exist $A, R >0$ and natural number
+    Suppose $f$ is entire and there exist $A, R >0$ and natural number
     $N$ such that $|f(z)| \leq A |z|^N$ for $|z| \geq R$. Show that (i)
     $f$ is a polynomial and (ii) the degree of $f$ is at most $N$.
 
@@ -1136,7 +1135,7 @@
   tags:
     - Complex
   question: |
-	  Suppose $f$ is entire and there exist $A, R >0$ and natural number
+    Suppose $f$ is entire and there exist $A, R >0$ and natural number
     $N$ such that $|f(z)| \geq A |z|^N$ for $|z| \geq R$. Show that (i)
     $f$ is a polynomial and (ii) the degree of $f$ is at least $N$.
 
@@ -1147,7 +1146,7 @@
   tags:
     - Complex
   question: |
-	  (1) Explicitly write down an example of a non-zero analytic
+    (1) Explicitly write down an example of a non-zero analytic
     function in $|z|<1$ which has infinitely zeros in $|z|<1$.
 
     (2) Why does not the phenomenon in (1) contradict the uniqueness
@@ -1489,7 +1488,7 @@
   tags:
     - Complex
   question: |
-	  Let $\Omega$ be a simply connected open set and let $\gamma$ be a simple
+    Let $\Omega$ be a simply connected open set and let $\gamma$ be a simple
     closed contour in $\Omega$ and enclosing a bounded region $U$
     anticlockwise. Let $f: \ \Omega \to {\mathbb C}$ be a holomorphic
     function and $|f(z)|\leq M$ for all $z\in \gamma$. Prove that
@@ -1501,7 +1500,7 @@
   tags:
     - Complex
   question: |
-	  Compute the following integrals. (i)
+    Compute the following integrals. (i)
     $\displaystyle \int_0^\infty \frac{x^{a-1}}{1 + x^n} \, dx$, $0< a < n$
     (ii) $\displaystyle \int_0^\infty \frac{\log x}{(1 + x^2)^2}\, dx$
 
@@ -1512,7 +1511,7 @@
   tags:
     - Complex
   question: |
-	  Let $0<r<1$. Show that polynomials
+    Let $0<r<1$. Show that polynomials
     $P_n(z)  = 1 + 2z + 3 z^2 + \cdots + n z^{n-1}$ have no zeros in $|z|<r$
     for all sufficiently large $n$'s.
 
@@ -1523,7 +1522,7 @@
   tags:
     - Complex
   question: |
-	  Let $f$ be holomorphic in a neighborhood of $D_r(z_0)$. Show that for
+    Let $f$ be holomorphic in a neighborhood of $D_r(z_0)$. Show that for
     any $s<r$, there exists a constant $c>0$ such that
     $$\|f\|_{(\infty, s)} \leq c \|f\|_{(1, r)},$$ where
     $\displaystyle \|f\|_{(\infty, s)} = \text{sup}_{z \in D_s(z_0)}|f(z)|$
@@ -1536,7 +1535,7 @@
   tags:
     - Complex
   question: |
-	  Let $u(x,y)$ be harmonic and have continuous partial derivatives of
+    Let $u(x,y)$ be harmonic and have continuous partial derivatives of
     order three in an open disc of radius $R>0$.
 
     (a) Let two points $(a,b), (x,y)$ in this disk be given. Show that
@@ -1558,7 +1557,7 @@
   tags:
     - Complex
   question: |
-	  (a) $f(z)= u(x,y) +i v(x,y)$ be analytic in a domain
+    (a) $f(z)= u(x,y) +i v(x,y)$ be analytic in a domain
     $D\subset {\mathbb C}$. Let $z_0=(x_0,y_0)$ be a point in $D$ which
     is in the intersection of the curves $u(x,y)= c_1$ and $v(x,y)=c_2$,
     where $c_1$ and $c_2$ are constants. Suppose that $f'(z_0)\neq 0$.
@@ -1580,7 +1579,7 @@
   tags:
     - Complex
   question: |
-	  (a) $f: D\rightarrow {\mathbb C}$ be a continuous function, where
+    (a) $f: D\rightarrow {\mathbb C}$ be a continuous function, where
     $D\subset {\mathbb C}$ is a domain.Let $\alpha:[a,b]\rightarrow D$
     be a smooth curve. Give a precise definition of the *complex line
     integral* $$\int_{\alpha} f.$$
@@ -1602,7 +1601,7 @@
   tags:
     - Complex
   question: |
-	  (a) Let $f:{\mathbb C}\rightarrow {\mathbb C}$ be an entire
+    (a) Let $f:{\mathbb C}\rightarrow {\mathbb C}$ be an entire
     function. Assume the existence of a non-negative integer $m$, and of
     positive constants $L$ and $R$, such that for all $z$ with $|z|>R$
     the inequality $$|f(z)| \leq L |z|^m$$ holds. Prove that $f$ is a
@@ -1621,7 +1620,7 @@
   tags:
     - Complex
   question: |
-	  Prove that all the roots of the complex polynomial
+    Prove that all the roots of the complex polynomial
     $$z^7 - 5 z^3 +12 =0$$ lie between the circles $|z|=1$ and $|z|=2$.
 
 
@@ -1631,7 +1630,7 @@
   tags:
     - Complex
   question: |
-	  (a) Let $F$ be an analytic function inside and on a simple closed
+    (a) Let $F$ be an analytic function inside and on a simple closed
     curve $C$, except for a pole of order $m\geq 1$ at $z=a$ inside $C$.
     Prove that
 
@@ -1646,7 +1645,7 @@
   tags:
     - Complex
   question: |
-	  Find the conformal map that takes the upper half-plane comformally
+    Find the conformal map that takes the upper half-plane comformally
     onto the half-strip $\{
     w=x+iy:\ -\pi/2<x<\pi/2\ y>0\}$.
 
@@ -1656,7 +1655,7 @@
   tags:
     - Complex
   question: |
-	  Compute the integral
+    Compute the integral
     $\displaystyle{\int_{-\infty}^{\infty} \frac{e^{-2\pi ix\xi}}{\cosh\pi x}dx}$
     where $\displaystyle{\cosh z=\frac{e^{z}+e^{-z}}{2}}$.
 
