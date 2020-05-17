@@ -1289,7 +1289,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Laurent Series
   question: |
     Let $\displaystyle f(z) = \frac{1}{z} + \frac{1}{z^2 -1}$. Find all
     the Laurent series of $f$ and describe the largest annuli in which
@@ -1302,11 +1302,16 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Entire Functions
+    - Analysis
   question: |
     Suppose $f$ is entire and there exist $A, R >0$ and natural number
-    $N$ such that $|f(z)| \leq A |z|^N$ for $|z| \geq R$. Show that (i)
-    $f$ is a polynomial and (ii) the degree of $f$ is at most $N$.
+    $N$ such that $|f(z)| \leq A |z|^N$ for $|z| \geq R$. Show that 
+    
+    (i) $f$ is a polynomial and 
+
+    (ii) the degree of $f$ is at most $N$.
+
 
 
 
@@ -1315,20 +1320,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
-  question: |
-    Suppose $f$ is entire and there exist $A, R >0$ and natural number
-    $N$ such that $|f(z)| \geq A |z|^N$ for $|z| \geq R$. Show that (i)
-    $f$ is a polynomial and (ii) the degree of $f$ is at least $N$.
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Complex
+    - Analytic Functions
   question: |
     (1) Explicitly write down an example of a non-zero analytic
     function in $|z|<1$ which has infinitely zeros in $|z|<1$.
@@ -1342,7 +1334,8 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Harmonic Functions
+    - Schwarz Reflection
   question: |
     (1) Assume $u$ is harmonic on open set $O$ and $z_n$ is a sequence
     in $O$ such that $u(z_n) = 0$ and $\lim z_n \in O$. Prove or
@@ -1367,7 +1360,8 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Holomorphic Functions
+    - Analysis
   question: |
     Let $f$ be holomorphic in a neighborhood of $D_r(z_0)$. Show that
     for any $s<r$, there exists a constant $c>0$ such that
@@ -1386,7 +1380,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Casorati-Weierstrass
   question: |
     (1) Let $f$ be analytic in $\Omega: 0<|z-a|<r$ except at a
     sequence of poles $a_n \in \Omega$ with
@@ -1404,7 +1398,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Integrals
   question: |
     Compute the following integrals.
 
@@ -1429,7 +1423,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Integrals
   question: |
     Compute the following integrals.
 
@@ -1457,7 +1451,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Polynomials
   question: |
     Let $0<r<1$. Show that polynomials
     $P_n(z)  = 1 + 2z + 3 z^2 + \cdots + n z^{n-1}$ have no zeros in
@@ -1470,7 +1464,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Analytic Functions
   question: |
     Let $f$ be an analytic function on a region $\Omega$. Show that $f$
     is a constant if there is a simple closed curve $\gamma$ in $\Omega$
@@ -1483,7 +1477,8 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Principal Parts
+    - Sums
   question: |
     (1) Show that $\displaystyle \frac{\pi^2}{\sin^2 \pi z}$ and
     $\displaystyle g(z) = \sum_{n = - \infty}^{ \infty} \frac{1}{(z-n)^2}$
@@ -1501,7 +1496,8 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Analytic Functions
+    - Fractional Linear Transformations
   question: |
     Let $f(z)$ be an analytic function on
     ${\mathbb C} \backslash \{ z_0 \}$, where $z_0$ is a fixed point.
@@ -1519,7 +1515,8 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Analytic Functions
+    - Convergence
   question: |
     Assume $f(z)$ is analytic in $\mathbb D: |z|<1$ and $f(0)=0$ and
     is not a rotation (i.e. $f(z) \neq e^{i \theta} z$). Show that
@@ -1534,14 +1531,15 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Analytic Functions
+    - Analysis
   question: |
     Let $f$ be a non-constant analytic function on $\mathbb D$ with
     $f(\mathbb D) \subseteq \mathbb D$. Use $\psi_{a} (f(z))$ (where
     $a=f(0)$, $\displaystyle \psi_a(z) = \frac{a - z}{1 - \bar{a}z}$) to
-    prove that $\displaystyle
+    prove that $$\displaystyle
     \frac{|f(0)| - |z|}{1 + |f(0)||z|} \leq |f(z)| \leq
-    \frac{|f(0)| + |z|}{1 - |f(0)||z|}$.
+    \frac{|f(0)| + |z|}{1 - |f(0)||z|}.$$
 
 
 
@@ -1550,7 +1548,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Conformal Maps
   question: |
     Find a conformal map
 
@@ -1575,7 +1573,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Fractional Linear Transformations
   question: |
     Let $C$ and $C'$ be two circles and let $z_1 \in C$, $z_2 \notin C$,
     $z'_1 \in C'$, $z'_2 \notin C'$. Show that there is a unique
@@ -1589,7 +1587,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Holomorphic Functions
   question: |
     Assume $f_n \in H(\Omega)$ is a sequence of holomorphic functions on
     the region $\Omega$ that are uniformly bounded on compact subsets
@@ -1605,7 +1603,9 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Conformal Maps
+    - Integrals
+    - Analysis
   question: |
     Let
     $\displaystyle{\psi_{\alpha}(z)=\frac{\alpha-z}{1-\bar{\alpha}z}}$
@@ -1623,7 +1623,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Conformal Maps
   question: |
     Prove that
     $\displaystyle{f(z)=-\frac{1}{2}\left(z+\frac{1}{z}\right)}$ is a
@@ -1637,7 +1637,8 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Holomorphic Functions
+    - Analysis
   question: |
     Let $\Omega$ be a simply connected open set and let $\gamma$ be a
     simple closed contour in $\Omega$ and enclosing a bounded region $U$
@@ -1651,11 +1652,15 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Integrals
   question: |
-    Compute the following integrals. (i)
+    Compute the following integrals. 
+    
+    (i)
     $\displaystyle \int_0^\infty \frac{x^{a-1}}{1 + x^n} \, dx$,
-    $0< a < n$ (ii)
+    $0< a < n$ 
+
+    (ii)
     $\displaystyle \int_0^\infty \frac{\log x}{(1 + x^2)^2}\, dx$
 
 
