@@ -2,11 +2,9 @@
 title: Question Database
 ---
 
-\setcounter{tocdepth}{-1}
+# Algebra (140 Questions)
 
-# Algebra
-
-## Question 1
+**Question 1**
 
 Let $G$ be a finite group with $n$ distinct conjugacy classes.
 Let $g_1 \cdots g_n$ be representatives of the conjugacy classes of $G$.
@@ -14,7 +12,7 @@ Let $g_1 \cdots g_n$ be representatives of the conjugacy classes of $G$.
 Prove that if $g_i g_j = g_j g_i$ for all $i, j$ then $G$ is abelian.
 
 
-## Question 2
+**Question 2**
 
 Let $G$ be a group of order 105 and let $P, Q, R$ be Sylow 3, 5, 7 subgroups respectively.
 
@@ -27,7 +25,7 @@ Let $G$ be a group of order 105 and let $P, Q, R$ be Sylow 3, 5, 7 subgroups res
 (d) Prove that if $P$ is normal in $G$ then $G$ is cyclic.
 
 
-## Question 3
+**Question 3**
 
 Let $R$ be a ring with the property that for every $a \in R, a^2 = a$.
 
@@ -36,7 +34,7 @@ Let $R$ be a ring with the property that for every $a \in R, a^2 = a$.
 (b) Prove that $R$ is commutative.
 
 
-## Question 4
+**Question 4**
 
 Let $F$ be a finite field with $q$ elements.
 
@@ -52,7 +50,7 @@ Prove that $m$ divides $k$.
 (c) Prove that $m = k$.
 
 
-## Question 5
+**Question 5**
 
 Let $R$ be a ring and $M$ an $R\dash$module.
 
@@ -68,7 +66,7 @@ $$
 (c) If $R$ has zero-divisors, prove that every non-zero $R\dash$module has non-zero torsion elements.
 
 
-## Question 6
+**Question 6**
 
 Let $R$ be a commutative ring with multiplicative identity. Assume Zorn's Lemma.
 
@@ -85,7 +83,7 @@ there is a prime ideal in $S$.
 (c) Suppose that $R$ has exactly one prime ideal $P$ . Prove that every element $r$ of $R$ is either nilpotent or a unit.
 
 
-## Question 7
+**Question 7**
 
 Let $\zeta_n$ denote a primitive $n$th root of 1 $\in \QQ$.
 You may assume the roots of the minimal polynomial $p_n(x)$ of $\zeta_n$ are exactly the primitive $n$th roots of 1.
@@ -95,7 +93,7 @@ Show that the field extension $\QQ(\zeta_n )$ over $\QQ$ is Galois and prove its
 How many subfields are there of $\QQ(\zeta_{20} )$?
 
 
-## Question 8
+**Question 8**
 
 Let $\{e_1, \cdots, e_n \}$ be a basis of a real vector space $V$ and let
 $$
@@ -118,7 +116,7 @@ $$
 (c) Prove that $\det M = |\Lambda\dual /\Lambda|$.
 
 
-## Question 9
+**Question 9**
 
 Let $A$ be a square matrix over the complex numbers.
 Suppose that $A$ is nonsingular
@@ -127,7 +125,7 @@ and that $A^{2019}$ is diagonalizable over $\CC$.
 Show that $A$ is also diagonalizable over $\CC$.
 
 
-## Question 10
+**Question 10**
 
 Let $F = \FF_p$ , where $p$ is a prime number.
 
@@ -138,14 +136,14 @@ Let $F = \FF_p$ , where $p$ is a prime number.
 then $\deg \pi(x)$ divides $n$.
 
 
-## Question 11
+**Question 11**
 
 How many isomorphism classes are there of groups of order 45?
 
 Describe a representative from each class.
 
 
-## Question 12
+**Question 12**
 
 For a finite group $G$, let $c(G)$ denote the number of conjugacy classes of $G$.
 
@@ -163,7 +161,7 @@ $$
 > Here, as usual, $Z(G)$ denotes the center of $G$.
 
 
-## Question 13
+**Question 13**
 
 Let $R$ be an integral domain. Recall that if $M$ is an $R\dash$module, the *rank* of $M$ is
 defined to be the maximum number of $R\dash$linearly independent elements of $M$ .
@@ -177,7 +175,7 @@ defined to be the maximum number of $R\dash$linearly independent elements of $M$
 (d) Prove that $M$ is torsion-free of rank 1 but not free.
 
 
-## Question 14
+**Question 14**
 
 Let $R$ be a commutative ring with 1.
 
@@ -194,7 +192,7 @@ some positive integer $n$.
 of the nilpotent elements in R.
 
 
-## Question 15
+**Question 15**
 
 Let $p$ be a prime number.
 Let $A$ be a $p \times p$ matrix over a field $F$ with 1 in all
@@ -210,7 +208,7 @@ Determine the Jordan canonical form (JCF) of $A$
 matrix $P$ such that $P\inv AP$ is in JCF.
 
 
-## Question 16
+**Question 16**
 
 Let $\zeta = e^{2\pi i/8}$.
 
@@ -221,7 +219,7 @@ Let $\zeta = e^{2\pi i/8}$.
 (c) What is the degree of $\QQ(\zeta, \sqrt[4] 2)$ over $\QQ$?
 
 
-## Question 17
+**Question 17**
 
 Let $G$ be a finite group whose order is divisible by a prime number $p$.
 Let $P$ be a normal $p\dash$subgroup of $G$
@@ -232,7 +230,7 @@ Let $P$ be a normal $p\dash$subgroup of $G$
 (b) Let $M$ be a maximal proper subgroup of $G$. Show that either $P \subseteq M$ or $|G/M | = p^b$ for some $b \leq c$.
 
 
-## Question 18
+**Question 18**
 
 (a) Suppose the group $G$ acts on the set $X$ . Show that the stabilizers of elements in the same orbit are conjugate.
 
@@ -244,7 +242,7 @@ $$
 (c) Suppose $G$ is a finite group acting transitively on a set $S$ with at least 2 elements. Show that there is an element of $G$ with no fixed points in $S$.
 
 
-## Question 19
+**Question 19**
 
 Let $F \subset K \subset L$ be finite degree field extensions.
 For each of the following assertions, give a proof or a counterexample.
@@ -256,14 +254,14 @@ For each of the following assertions, give a proof or a counterexample.
 (c) If $K/F$ and $L/K$ are both Galois, then so is $L/F$.
 
 
-## Question 20
+**Question 20**
 
 Let $V$ be a finite dimensional vector space over a field (the field is not necessarily algebraically closed).
 
 Let $\phi : V \to V$ be a linear transformation. Prove that there exists a decomposition of $V$ as $V = U \oplus W$ , where $U$ and $W$ are $\phi\dash$invariant subspaces of $V$ , $\restrictionof{\phi}{U}$ is nilpotent, and $\restrictionof{\phi}{W}$ is nonsingular.
 
 
-## Question 21
+**Question 21**
 
 Let $A$ be an $n \times n$ matrix.
 
@@ -272,7 +270,7 @@ Let $A$ be an $n \times n$ matrix.
 (b) Show that there exists a column vector $v$ such that the set $\{v, Av, . . . , A^{n-1} v\}$ is linearly independent $\iff$ the characteristic polynomial of A equals the minimal polynomial of A.
 
 
-## Question 22
+**Question 22**
 
 Let $R$ be a commutative ring, and let $M$ be an $R\dash$module. 
 An $R\dash$submodule $N$ of $M$ is maximal if there is no $R\dash$module $P$ with $N \subsetneq P \subsetneq M$.
@@ -285,7 +283,7 @@ An $R\dash$submodule $N$ of $M$ is maximal if there is no $R\dash$module $P$ wit
 Show that there is no maximal $\ZZ\dash$submodule of $M$.
 
 
-## Question 23
+**Question 23**
 
 Let $R$ be a commutative ring.
 
@@ -313,7 +311,7 @@ $$
 .$$
 
 
-## Question 24
+**Question 24**
 
 (a) Use the Class Equation (equivalently, the conjugation action of a group on itself) to prove that any $p\dash$group (a group whose order is a positive power of a prime integer $p$) has a nontrivial center.
 
@@ -324,7 +322,7 @@ $$
 (d) Write down exactly one representative in each isomorphism class of groups of order $5^2 \cdot 7^2$.
 
 
-## Question 25
+**Question 25**
 
 Let $f(x) = x^4 - 4x^2 + 2 \in \QQ[x]$.
 
@@ -335,7 +333,7 @@ Let $f(x) = x^4 - 4x^2 + 2 \in \QQ[x]$.
 (c) Exhibit explicitly the correspondence between subgroups of $G$ and intermediate fields between $\QQ$ and $k$.
 
 
-## Question 26
+**Question 26**
 
 Let $K$ be a Galois extension of $\QQ$ with Galois group $G$, and let $E_1 , E_2$ be intermediate fields of $K$ which are the splitting fields of irreducible $f_i (x) \in \QQ[x]$. 
 
@@ -353,7 +351,7 @@ $$
 .$$
 
 
-## Question 27
+**Question 27**
 
 Let
 
@@ -368,7 +366,7 @@ $$
 > You should not need to compute $P\inv$.
 
 
-## Question 28
+**Question 28**
 
 Let 
 $$
@@ -385,7 +383,7 @@ M N=\left(\begin{array}{ll}{0} & {0} \\ {0} & {*}\end{array}\right)
 .$$
 
 
-## Question 29
+**Question 29**
 
 Let
 $$
@@ -413,7 +411,7 @@ is a free basis for $N$ .
 (c) Use the previous part to describe $M/N$ as a direct sum of cyclic $\ZZ\dash$modules.
 
 
-## Question 30
+**Question 30**
 
 Let $R$ be a PID and $M$ be an $R\dash$module. Let $p$ be a prime element of $R$. The module $M$ is called *$\generators{p}\dash$primary* if for every $m \in M$ there exists $k > 0$ such that $p^k m = 0$.
 
@@ -423,7 +421,7 @@ $atm = m$.
 (b) A submodule $S$ of $M$ is said to be *pure* if $S \cap r M = rS$ for all $r \in R$. Show that if $M$ is $\generators{p}\dash$primary, then $S$ is pure if and only if $S \cap p^k M = p^k S$ for all $k \geq 0$.
 
 
-## Question 31
+**Question 31**
 
 Let $R = C[0, 1]$ be the ring of continuous real-valued functions on the interval $[0, 1]$. Let I be an ideal of $R$.
 
@@ -434,7 +432,7 @@ Let $R = C[0, 1]$ be the ring of continuous real-valued functions on the interva
 (c) Show that if $I$ is maximal, then there exists $x_0 \in [0, 1]$ such that $I = \{ f \in R \suchthat f (x_0 ) = 0\}$.
 
 
-## Question 32
+**Question 32**
 
 Suppose the group $G$ acts on the set $A$. 
 Assume this action is faithful (recall that this means that the kernel of the homomorphism from $G$ to $\sym(A)$ which gives the action is trivial) and transitive (for all $a, b$ in $A$, there exists $g$ in $G$ such that $g \cdot a = b$.)
@@ -448,7 +446,7 @@ $$
 (b) Suppose that $G$ is abelian. Prove that $|G| = |A|$. Deduce that every abelian transitive subgroup of $S_n$ has order $n$.
 
 
-## Question 33
+**Question 33**
 
 (a) Classify the abelian groups of order 36.
 
@@ -463,7 +461,7 @@ For the rest of the problem, assume that $G$ is a non-abelian group of order 36.
 (d) Show that the dihedral group of order 36 is a non-abelian group of order 36 whose Sylow-2 subgroup is not normal.
 
 
-## Question 34
+**Question 34**
 
 Let $F$ be a field. Let $f(x)$ be an irreducible polynomial in $F[x]$ of degree $n$ and let $g(x)$
 be any polynomial in $F[x]$. Let $p(x)$ be an irreducible factor (of degree $m$) of the polynomial $f(g(x))$.
@@ -471,7 +469,7 @@ be any polynomial in $F[x]$. Let $p(x)$ be an irreducible factor (of degree $m$)
 Prove that $n$ divides $m$. Use this to prove that if $r$ is an integer which is not a perfect square, and $n$ is a positive integer then every irreducible factor of $x^{2n} - r$ over $\QQ[x]$ has even degree.
 
 
-## Question 35
+**Question 35**
 
 (a) Let $f (x)$ be an irreducible polynomial of degree 4 in $\QQ[x]$ whose splitting field $K$ over $\QQ$ has Galois group $G = S_4$. 
 
@@ -480,7 +478,7 @@ Prove that $n$ divides $m$. Use this to prove that if $r$ is an integer which is
 (b) Prove that if $K$ is a Galois extension of $\QQ$ of degree 4, then there is an intermediate subfield between $K$ and $\QQ$.
 
 
-## Question 36
+**Question 36**
 
 A ring R is called *simple* if its only two-sided ideals are $0$ and $R$.
 
@@ -489,7 +487,7 @@ A ring R is called *simple* if its only two-sided ideals are $0$ and $R$.
 (b) Let $k$ be a field. Show the ring $M_n (k)$, $n \times n$ matrices with entries in $k$, is a simple ring.
 
 
-## Question 37
+**Question 37**
 
 For a ring $R$, let $U(R)$ denote the multiplicative group of units in $R$. Recall that in an integral domain $R$, $r \in R$ is called *irreducible* if $r$ is not a unit in R, and the only divisors of $r$ have the form $ru$ with $u$ a unit in $R$. 
 
@@ -507,7 +505,7 @@ Consider the ring $R = \{a + b \sqrt{-5}\suchthat a, b \in Z\}$.
 (e) Conclude $R$ is not a PID.
 
 
-## Question 38
+**Question 38**
 
 Let $F$ be a field and let $V$ and $W$ be vector spaces over $F$ . 
 
@@ -518,12 +516,12 @@ Denote the resulting $F[x]\dash$modules by $V_T$ and $W_S$ respectively.
 (a) Show that an $F[x]\dash$module homomorphism from $V_T$ to $W_S$ consists of an $F\dash$linear transformation $R : V \to W$ such that $RT = SR$.
 
 
-## Question 39
+**Question 39**
 
 Classify the groups of order $182 = 2 \cdot 7 \cdot 13$.
 
 
-## Question 40
+**Question 40**
 
 Let $G$ be a finite group of order $p^nm$ where $p$ is a prime and
 $m$ is not divisible by $p$. Prove that if $H$ is a subgroup of $G$
@@ -531,7 +529,7 @@ of order $p^k$ for some $k<n$, then the normalizer of $H$ in $G$
 properly contains $H$.
 
 
-## Question 41
+**Question 41**
 
 Let $H$ be a subgroup of $S_n$ of index $n$. Prove:
 
@@ -542,7 +540,7 @@ Let $H$ be a subgroup of $S_n$ of index $n$. Prove:
 2.  The only subgroups of $S_n$ containing $H$ are $S_n$ and $H$.
 
 
-## Question 42
+**Question 42**
 
 
 -   Prove that a group of order $351=3^3\cdot 13$ cannot be simple.
@@ -550,7 +548,7 @@ Let $H$ be a subgroup of $S_n$ of index $n$. Prove:
 -   Prove that a group of order $33$ must be cyclic.
 
 
-## Question 43
+**Question 43**
 
 
 1.  Let $G$ be a group, and $Z(G)$ the center of $G$. Prove that if
@@ -562,7 +560,7 @@ Let $H$ be a subgroup of $S_n$ of index $n$. Prove:
 3.  Prove that a group of order $p^2$ must be abelian.
 
 
-## Question 44
+**Question 44**
 
 Let $G$ be a finite group.
 
@@ -574,17 +572,17 @@ Let $G$ be a finite group.
     in $X$.
 
 
-## Question 45
+**Question 45**
 
 Classify all groups of order $15$ and of order $30$.
 
 
-## Question 46
+**Question 46**
 
 Count the number of $p$-Sylow subgroups of $S_p$.
 
 
-## Question 47
+**Question 47**
 
 
 1.  Let $G$ be a group of order $n$. Suppose that for every divisor
@@ -595,20 +593,20 @@ Count the number of $p$-Sylow subgroups of $S_p$.
     of units $F^\times$ is cyclic.
 
 
-## Question 48
+**Question 48**
 
 Let $K$ and $L$ be finite fields. Show that $K$ is contained in $L$
 if and only if $\# K = p^r$ and $\# L = p^s$ for the same prime $p$,
 and $r \leq s$.
 
 
-## Question 49
+**Question 49**
 
 Let $K$ and $L$ be finite fields with $K \subseteq L$. Prove that
 $L$ is Galois over $K$ and that $\mathrm{Gal}(L/K)$ is cyclic.
 
 
-## Question 50
+**Question 50**
 
 Fix a field $F$, a separable polynomial $f\in F[x]$ of degree
 $n \geq 3$, and a splitting field $L$ for $f$. Prove that if
@@ -623,7 +621,7 @@ $[L:F] = n!$ then:
     fields $F \subset L \subset F(r)$.
 
 
-## Question 51
+**Question 51**
 
 1.  Show that $\sqrt{2+\sqrt{2}}$ is a root of
     $p(x) = x^2 - 4x^2 + 2 \in \mathbb{Q}[x]$.
@@ -639,7 +637,7 @@ $[L:F] = n!$ then:
     Galois.
 
 
-## Question 52
+**Question 52**
 
 An integral domain $R$ is said to be an *Euclidean domain* if there
 is a function $N: R \to \{n\in\mathbb{Z} \mid n\geq 0\}$ such that
@@ -657,14 +655,14 @@ Prove:
 2.  Every Euclidean domain is a PID.
 
 
-## Question 53
+**Question 53**
 
 Let $F$ be a field, and let $R$ be the subring of $F[X]$ of
 polynomials with $X$ coefficient equal to $0$. Prove that $R$ is not
 a UFD.
 
 
-## Question 54
+**Question 54**
 
 $R$ is a commutative ring with 1. Prove that if $I$ is a maximal
 ideal in $R$, then $R/I$ is a field. Prove that if $R$ is a PID,
@@ -672,20 +670,20 @@ then every nonzero prime ideal in $R$ is maximal. Conclude that if
 $R$ is a PID and $p\in R$ is prime, then $R/(p)$ is a field.
 
 
-## Question 55
+**Question 55**
 
 Prove that any square matrix is conjugate to its transpose matrix.
 (You may prove it over $\mathbb{C}$).
 
 
-## Question 56
+**Question 56**
 
 Determine the number of conjugacy classes of $16 \times 16$ matrices
 with entries in $\mathbb{Q}$ and minimal polynomial
 $(x^2+1)^2(x^3+2)^2$.
 
 
-## Question 57
+**Question 57**
 
 Let $V$ be a vector space over a field $F$. The evaluation map
 $e\colon V \to (V^\vee)^\vee$ is defined by
@@ -697,80 +695,80 @@ $e(v)(f) \colonequals f(v)$ for $v\in V$ and $f\in V^\vee$.
     dimensional.
 
 
-## Question 58
+**Question 58**
 
 Let $R$ be a principal ideal domain that is not a field, and write
 $F$ for its field of fractions. Prove that $F$ is not a finitely
 generated $R$-module.
 
 
-## Question 59
+**Question 59**
 
 Carefully state Zorn's lemma and use it to prove that every vector
 space has a basis.
 
 
-## Question 60
+**Question 60**
 
 Show that no finite group is the union of conjugates of a proper subgroup.
 
 
-## Question 61
+**Question 61**
 
 Classify all groups of order 18 up to isomorphism.
 
 
-## Question 62
+**Question 62**
 
 Let $\alpha,\beta$ denote the unique positive
 real $5^{\text{th}}$ root of 7 and $4^{\text{th}}$ root of 5,
 respectively. Determine the degree of $\mathbb Q(\alpha,\beta)$ over $\mathbb Q$.
 
 
-## Question 63
+**Question 63**
 
 Show that the field extension $\mathbb Q\subseteq\mathbb Q\left(
 \sqrt{2+\sqrt2}\right)$ is Galois and determine its Galois group.
 
 
-## Question 64
+**Question 64**
 
 Let $M$ be a square matrix over a field $K$. Use a suitable canonical
 form to show that $M$ is similar to its transpose $M^T$.
 
 
-## Question 65
+**Question 65**
 
 Let $G$ be a finite group and $\pi_0$, $\pi_1$ be two irreducible representations of $G$. Prove or disprove the following assertion:
 $\pi_0$ and $\pi_1$ are equivalent if and only if $\det\pi_0(g)=\det\pi_1(g)$
 for all $g\in G$.
 
 
-## Question 66
+**Question 66**
 
 Let $R$ be a Noetherian ring. Prove that $R[x]$ and $R[[x]]$ are both
 Noetherian. (The first part of the question is asking you to prove the
 Hilbert Basis Theorem, not to use it!)
 
 
-## Question 67
+**Question 67**
 
 Classify (with proof) all fields with finitely many elements.
 
 
-## Question 68
+**Question 68**
 
 Suppose $A$ is a commutative ring and $M$ is a finitely presented module.
 Given any surjection $\phi:A^n\rightarrow M$ from a finite free
 $A$-module, show that $\ker\phi$ is finitely generated.
 
 
-## Question 69
+**Question 69**
 
 Classify all groups of order 57.
 
 
-## Question 70
+**Question 70**
 
 Show that a finite simple group cannot have a 2-dimensional irreducible
 representation over $\mathbb C$. 
@@ -778,19 +776,19 @@ representation over $\mathbb C$.
 > Hint: the determinant might prove useful.
 
 
-## Question 71
+**Question 71**
 
 Let $G$ be a finite simple group. Assume that every proper subgroup
 of $G$ is abelian. Prove that then $G$ is cyclic of prime order.
 
 
-## Question 72
+**Question 72**
 
 Let $a\in\mathbb N$, $a>0$. Compute the Galois group of the splitting field
 of the polynomial $x^5-5a^4x+a$ over $\mathbb Q$.
 
 
-## Question 73
+**Question 73**
 
 Recall that an inner automorphism of a group is an automorphism given by conjugation by an element of the group. An outer automorphism is an automorphism that is not inner.
 
@@ -799,7 +797,7 @@ Recall that an inner automorphism of a group is an automorphism given by conjuga
 - Conclude that $S_6$ has an outer automorphism.
 
 
-## Question 74
+**Question 74**
 
 Let $A$ be a commutative ring and $M$ a finitely generated $A$-module.
 Define
@@ -815,7 +813,7 @@ Show that for a prime ideal $\mathfrak p \subset A$, the following are equivalen
 - $M \otimes_A k(\mathfrak p) = 0$, where $k(\mathfrak p) = A_{\mathfrak p}/\mathfrak p A_{\mathfrak p}$ is the residue field of $A$ at $\mathfrak p$.
 
 
-## Question 75
+**Question 75**
 
 Let $A = \CC[x,y]/(y^2-(x-1)^3 - (x-1)^2)$.
 
@@ -823,7 +821,7 @@ Let $A = \CC[x,y]/(y^2-(x-1)^3 - (x-1)^2)$.
 - Find the integral closure of $A$. Recall that for an integral domain $A$ with fraction field $K$, the integral closure of $A$ in $K$ is the set of all elements of $K$ integral over $A$.
 
 
-## Question 76
+**Question 76**
 
 Let $R = k[x,y]$ where $k$ is a field, and let $I=(x,y)R$.
 
@@ -836,7 +834,7 @@ Let $R = k[x,y]$ where $k$ is a field, and let $I=(x,y)R$.
   - Show that $I$ is not a flat $R$-module by computing $\Tor_i^R(I,k)$
 
 
-## Question 77
+**Question 77**
 
 
 - Find an irreducible polynomial of degree 5 over the
@@ -848,13 +846,13 @@ Let $R = k[x,y]$ where $k$ is a field, and let $I=(x,y)R$.
   but $M\neq I$.
 
 
-## Question 78
+**Question 78**
 
 Find the minimal polynomial of $\sqrt2+\sqrt3$ over $\mathbb Q$.
 Justify your answer.
 
 
-## Question 79
+**Question 79**
 
 \hfill
  - Let $R$ be a commutative ring with no nonzero nilpotent
@@ -863,14 +861,14 @@ Justify your answer.
  - Find all units in the polynomial ring $\mathbb Z_4[x]$.
 
 
-## Question 80
+**Question 80**
 
 Let $p$, $q$ be two distinct primes. Prove that there is at most one
 non-abelian group of order $pq$ and describe the pairs $(p,q)$
 such that there is no non-abelian group of order $pq$.
 
 
-## Question 81
+**Question 81**
 
 
 - Let $L$ be a Galois extension of a field $K$ of degree 4.
@@ -882,7 +880,7 @@ such that there is no non-abelian group of order $pq$.
   is separable (but not necessarily Galois) over $K$?
 
 
-## Question 82
+**Question 82**
 
 Let $R$ be a commutative algebra over $\mathbb C$. A derivation of $R$ is a
 $\mathbb C$-linear map $D:R\rightarrow R$ such that (i) $D(1)=0$ and
@@ -898,7 +896,7 @@ $\mathbb C$-linear map $D:R\rightarrow R$ such that (i) $D(1)=0$ and
   defines a natural left $A$-module structure on $\mathbb C[x]$.
 
 
-## Question 83
+**Question 83**
 
 Let $G$ be a non-abelian group of order $p^3$ with $p$ a prime.
 
@@ -913,7 +911,7 @@ Let $G$ be a non-abelian group of order $p^3$ with $p$ a prime.
   $G$.
 
 
-## Question 84
+**Question 84**
 
 
 - Let $G$ be a group (not necessarily finite) that contains
@@ -924,7 +922,7 @@ Let $G$ be a non-abelian group of order $p^3$ with $p$ a prime.
   of order 36.
 
 
-## Question 85
+**Question 85**
 
 Let $p$ be a prime, let $\mathbb F_p$ be the $p$-element field,
 and let $K=\mathbb F_p(t)$ be the field of rational functions in
@@ -939,7 +937,7 @@ x^p-t\in K[x]$.
 - Conclude that $f$ is irreducible over $K$.
 
 
-## Question 86
+**Question 86**
 
 Recall that a ring $A$ is called \textit{graded} if it admits a direct
 sum decomposition $A=\oplus_{n=0}^{\infty}A_n$ as abelian groups, with the
@@ -949,7 +947,7 @@ is Noetherian if and only if $A_0$ is Noetherian and $A$ is finitely
 generated as an algebra over $A_0$.
 
 
-## Question 87
+**Question 87**
 
 Let $R$ be a ring with the property that $a^2=a$ for all $a\in R$.
 
@@ -963,14 +961,14 @@ Let $R$ be a ring with the property that $a^2=a$ for all $a\in R$.
   (as a ring) to $(\mathbb Z/2\mathbb Z)^d$ for some $d$.
 
 
-## Question 88
+**Question 88**
 
 Let $\overline{\mathbb F_p}$ denote the algebraic closure of $\mathbb F_p$. Show that
 the Galois group $\Gal(\overline{\mathbb F_p}/\mathbb F_p)$
 has no non-trivial finite subgroups.
 
 
-## Question 89
+**Question 89**
 
 Let $C_p$ denote the cyclic group of order $p$.
 
@@ -993,7 +991,7 @@ Let $C_p$ denote the cyclic group of order $p$.
   cyclic groups of order 2).
 
 
-## Question 90
+**Question 90**
 
 Let $G$ be a finite group and $\mathbb Z[G]$ the internal group algebra.
 Let $\mathcal Z$ be the center of $\mathbb Z[G]$. For each conjugacy class
@@ -1027,7 +1025,7 @@ $C\subseteq G$, let $P_C=\sum_{g\in C}g$.
   integer.
 
 
-## Question 91
+**Question 91**
 
 
 - Suppose that $G$ is a finitely generated group. Let $n$
@@ -1041,7 +1039,7 @@ $C\subseteq G$, let $P_C=\sum_{g\in C}g$.
   finitely-generated abelian groups.
 
 
-## Question 92
+**Question 92**
 
 Suppose that $G$ is a finite group of order 2013. Prove that $G$ has
 a normal subgroup $N$ of index 3 and that $N$ is a cyclic group.
@@ -1049,7 +1047,7 @@ Furthermore, prove that the center of $G$ has order divisible by 11.
 (You will need the factorization $2013=3\cdot11\cdot61$.)
 
 
-## Question 93
+**Question 93**
 
 This question concerns an extension $K$ of $\mathbb Q$ such that
 $[K:\mathbb Q]=8$. Assume that $K/\mathbb Q$ is Galois and let
@@ -1065,7 +1063,7 @@ $G=\Gal(K/\mathbb Q)$. Furthermore, assume that $G$ is non-abelian.
   that $d_1$ and $d_2$ are positive integers.
 
 
-## Question 94
+**Question 94**
 
 This question concerns the polynomial ring $R=\mathbb Z[x,y]$ and the ideal
 $I=(5,x^2+2)$ in $R$.
@@ -1080,14 +1078,14 @@ $I=(5,x^2+2)$ in $R$.
   in $R$ which contain $I$.
 
 
-## Question 95
+**Question 95**
 
 Classify all groups of order 2012 up to isomorphism. 
 
 > Hint: 503 is prime.
 
 
-## Question 96
+**Question 96**
 
 For any positive integer $n$, let $G_n$ be the group generated by
 $a$ and $b$ subject to the following three relations:
@@ -1098,7 +1096,7 @@ a^2=1, \quad b^2=1, \quad \text{and} \quad (ab)^n=1.
 - Find the order of the group $G_n$
 
 
-## Question 97
+**Question 97**
 
 Determine the Galois groups of the following polynomials over $\mathbb Q$.
 
@@ -1107,7 +1105,7 @@ Determine the Galois groups of the following polynomials over $\mathbb Q$.
 - $f(x)=x^4+4x^2-5$.
 
 
-## Question 98
+**Question 98**
 
 Let $R$ be a (commutative) principal ideal domain, let $M$ and $N$ be
 finitely generated free $R$-modules, and let $\varphi:M\rightarrow N$ be
@@ -1121,7 +1119,7 @@ an $R$-module homomorphism.
   need not be a direct summand of $N$.
 
 
-## Question 99
+**Question 99**
 
 In this problem, as you apply Sylow's Theorem, state precisely which portions
 you are using.
@@ -1138,13 +1136,13 @@ You need only show that if there is a simple group of order 60, then
 it must be isomorphic to $A_5$.
 
 
-## Question 100
+**Question 100**
 
 Describe the Galois group and the intermediate fields of the cyclotomic
 extension $\mathbb Q(\zeta_{12})/\mathbb Q$.
 
 
-## Question 101
+**Question 101**
 
 Let
 \begin{align*}
@@ -1158,7 +1156,7 @@ R=\mathbb Z[x]/(x^2+x+1).
 - Prove that $R$ is an integrally closed domain.
 
 
-## Question 102
+**Question 102**
 
 Let $R$ be a commutative ring. Recall that an element $r$ of $R$ is
 \textit{nilpotent} if $r^n=0$ for some positive integer $n$ and that
@@ -1184,7 +1182,7 @@ elements.
   $p(x,y)$ is divisible by $y^2-x^3$.
 
 
-## Question 103
+**Question 103**
 
 Given a finite group $G$, recall that its *regular representation*
 is the representation on the complex group algebra $\mathbb C[G]$ induced by
@@ -1203,7 +1201,7 @@ by conjugation of $G$ on itself.
   $\mathbb C[H]$.
 
 
-## Question 104
+**Question 104**
 
 Let $R$ be a commutative integral domain. Show that the following
 are equivalent:
@@ -1215,7 +1213,7 @@ are equivalent:
 - Any $R$-module is projective.
 
 
-## Question 105
+**Question 105**
 
 Let $p$ be a positive prime number, $\mathbb F_p$ the field with $p$ elements,
 and let $G=\text{GL}_2(\mathbb F_p)$.
@@ -1237,7 +1235,7 @@ and let $G=\text{GL}_2(\mathbb F_p)$.
   > Hint: compute $gug\inv$ for $g\in G$ and $u\in U$; use this to find the size of the normalizer of $U$ in $G$.
 
 
-## Question 106
+**Question 106**
 
 
 - Give definitions of the following terms:
@@ -1257,7 +1255,7 @@ and let $G=\text{GL}_2(\mathbb F_p)$.
   .\end{align*}
 
 
-## Question 107
+**Question 107**
 
 Let $\mathbb F$ be a field of characteristic $p$, and $G$ a group of
 order $p^n$. Let $R=\mathbb F[G]$ be the group ring (group algebra)
@@ -1279,7 +1277,7 @@ $R$).
   nilpotent ideal.
 
 
-## Question 108
+**Question 108**
 
 Let $f(x)=a_nx^n+a_{n-1}x^{n-1}+\dots+a_0\in\mathbb Z[x]$
 (where $a_n\neq 0$) and let $R=\mathbb Z[x]/(f)$.
@@ -1287,7 +1285,7 @@ Prove that $R$ is a finitely generated module over $\mathbb Z$ if and only if
 $a_n=\pm 1$.
 
 
-## Question 109
+**Question 109**
 
 Consider the ring
 \begin{align*}
@@ -1310,7 +1308,7 @@ with the usual operations of addition and multiplication of functions.
   > **Hint**: As $[0,1]$ is compact, every open cover of $[0,1]$ contains a finite subcover.
 
 
-## Question 110
+**Question 110**
 
 Let $F$ be a field of characteristic zero, and let $K$
 be an *algebraic* extension of $F$ that possesses the following
@@ -1321,7 +1319,7 @@ Show that $K$ is algebraically closed.\\
   and its normal closure; primitive elements might be of help.
 
 
-## Question 111
+**Question 111**
 
 Let $G$ be the unique non-abelian group of order 21.
 
@@ -1333,7 +1331,7 @@ Let $G$ be the unique non-abelian group of order 21.
 - Determine the character table of $G$.
 
 
-## Question 112
+**Question 112**
 
 
 - Classify all groups of order $2009=7^2\times 41$.
@@ -1343,7 +1341,7 @@ Let $G$ be the unique non-abelian group of order 21.
   inclusions are proper? (There may be several cases to consider.)
 
 
-## Question 113
+**Question 113**
 
 Let $K$ be a field. A discrete valuation on $K$ is a function $\nu:
 K\setminus\{0\}\rightarrow\mathbb Z$ such that
@@ -1376,7 +1374,7 @@ Prove the following:
   prime to $p$.
 
 
-## Question 114
+**Question 114**
 
 Let $F$ be a field of characteristic not equal to 2.
 
@@ -1391,7 +1389,7 @@ Let $F$ be a field of characteristic not equal to 2.
   2 otherwise.
 
 
-## Question 115
+**Question 115**
 
 Let $F$ be a field and $p(x)\in F[x]$ an irreducible polynomial.
 
@@ -1409,7 +1407,7 @@ Let $F$ be a field and $p(x)\in F[x]$ an irreducible polynomial.
   the inverse of $(1+\theta)$ in $\mathbb Q(\theta)$.
 
 
-## Question 116
+**Question 116**
 
 Fix a ring $R$, an $R$-module $M$, and an $R$-module homomorphism
 $f:M\rightarrow M$.
@@ -1432,7 +1430,7 @@ $f:M\rightarrow M$.
   which is not injective.
 
 
-## Question 117
+**Question 117**
 
 Let $G$ be a finite group, $k$ an algebraically closed field, and $V$
 an irreducible $k$-linear representation of $G$.
@@ -1449,7 +1447,7 @@ an irreducible $k$-linear representation of $G$.
   where $\alpha$ is an eigenvalue of $f$).
 
 
-## Question 118
+**Question 118**
 
 Let $f(x)$ be an irreducible polynomial of degree 5 over the field
 $\mathbb Q$ of rational numbers with exactly 3 real roots.
@@ -1462,20 +1460,20 @@ $\mathbb Q$ of rational numbers with exactly 3 real roots.
   strictly between $K$ and $E$ is Galois over $\mathbb Q$.
 
 
-## Question 119
+**Question 119**
 
 Let $F$ be a finite field. Show for any positive integer $n$ that
 there are irreducible polynomials of degree $n$ in $F[x]$.
 
 
-## Question 120
+**Question 120**
 
 Show that the order of the group $\text{GL}_n(\mathbb F_q)$ of invertible
 $n\times n$ matrices over the field $\mathbb F_q$ of $q$ elements is given by
 $(q^n-1)(q^n-q)\dots(q^n-q^{n-1})$.
 
 
-## Question 121
+**Question 121**
 
 
 - Let $R$ be a commutative principal ideal domain. Show that
@@ -1487,7 +1485,7 @@ $(q^n-1)(q^n-q)\dots(q^n-q^{n-1})$.
   as in part (a) to be isomorphic as $R$-modules.
 
 
-## Question 122
+**Question 122**
 
 Let $G$ be the subgroup of $\text{GL}_3(\mathbb C)$ generated by the three
 matrices
@@ -1523,7 +1521,7 @@ where $i^2=-1$. Here $\mathbb C$ denotes the complex field.
   order.
 
 
-## Question 123
+**Question 123**
 
 
 - Let $G$ be a group of (finite) order $n$. Show that any
@@ -1536,14 +1534,14 @@ where $i^2=-1$. Here $\mathbb C$ denotes the complex field.
   $\sqrt n$.
 
 
-## Question 124
+**Question 124**
 
 Use the rational canonical form to show that any square matrix $M$ over
 a field $k$ is similar to its transpose $M^t$, recalling that $p(M)=0$
 for some $p\in k[t]$ if and only if $p(M^t)=0$.
 
 
-## Question 125
+**Question 125**
 
 Let $K$ be a field of characteristic zero and $L$ a Galois extension
 of $K$. Let $f$ be an irreducible polynomial in $K[x]$ of degree 7 and
@@ -1551,7 +1549,7 @@ suppose $f$ has no zeroes in $L$. Show that $f$ is irreducible
 in $L[x]$.
 
 
-## Question 126
+**Question 126**
 
 Let $K$ be a field of characteristic zero and $f\in K[x]$ an
 irreducible polynomial of degree $n$. Let $L$ be a splitting field for
@@ -1567,12 +1565,12 @@ on $K$.
   your answer.
 
 
-## Question 127
+**Question 127**
 
 Show there are exactly two groups of order 21 up to isomorphism.
 
 
-## Question 128
+**Question 128**
 
 Let $K$ be the field $\mathbb Q(z)$ of rational functions in a variable $z$
 with coeffiecients in the rational field $\mathbb Q$.
@@ -1586,7 +1584,7 @@ Let $n$ be a positive integer. Consider the polynomial $x^n-z\in K[x]$.
   of $x^5-z$ over the field $K$.
 
 
-## Question 129
+**Question 129**
 
 
 - Let $p<q<r$ be prime integers. Show that a group of order
@@ -1599,7 +1597,7 @@ Let $n$ be a positive integer. Consider the polynomial $x^n-z\in K[x]$.
   be a simple group of that order.
 
 
-## Question 130
+**Question 130**
 
 Let $K/F$ be a finite Galois extension and let $n=[K:F]$. There is a theorem
 (often referred to as the "normal basis theorem") which states that there
@@ -1633,7 +1631,7 @@ that theorem in this problem.
   that $a^n\in F^{\times}$.
 
 
-## Question 131
+**Question 131**
 
 Let $G$ be the group of matrices of the form
 \begin{align*}
@@ -1658,14 +1656,14 @@ $p$ is a prime.
   of these groups $G$ is isomorphic to.
 
 
-## Question 132
+**Question 132**
 
 There are five nonisomorphic groups of order 8. For
 each of those groups $G$, find the smallest positive integer n such that there is an
 injective homomorphism $\varphi: G\rightarrow S_n$.
 
 
-## Question 133
+**Question 133**
 
 For any group $G$ we define $\Omega(G)$ to be the image of the group
 homomorphism $\rho:G\rightarrow\Aut(G)$ where $\rho$ maps
@@ -1676,7 +1674,7 @@ $p^e$ for a prime $p$ and integer $e\geq 2$, prove that $G_{e-1}$
 is the trivial group.
 
 
-## Question 134
+**Question 134**
 
 Let $\mathbb F_2$ be the field with two elements.
 
@@ -1687,7 +1685,7 @@ Let $\mathbb F_2$ be the field with two elements.
   of elements of order 7 in $\text{GL}_3(\mathbb F_2)$.
 
 
-## Question 135
+**Question 135**
 
 Let $G$ be a finite abelian group. Let $f:\mathbb Z^m\rightarrow G$ be a
 surjection of abelian groups. We may think of $f$ as a homomorphism
@@ -1701,7 +1699,7 @@ of $\mathbb Z$-modules. Let $K$ be the kernel of $f$.
   $A$. Prove that $|\det A|=|G|$.
 
 
-## Question 136
+**Question 136**
 
 Let $R=C([0,1])$ be the ring of all continuous real-valued functions
 on the closed interval $[0,1]$, and for each $c\in[0,1]$, denote by
@@ -1719,7 +1717,7 @@ $M_c$ the set of all functions $f\in R$ such that $f(c)=0$.
   > Hint: compactness of $[0,1]$ may be relevant.
 
 
-## Question 137
+**Question 137**
 
 Let $R$ and $S$ be commutative rings, and $f:R\rightarrow S$
 a ring homomorphism.
@@ -1751,7 +1749,7 @@ a ring homomorphism.
   then $f^*$ is a bijection
 
 
-## Question 138
+**Question 138**
 
 Consider the polynomial $f(x)=x^{10}+x^5+1\in\mathbb Q[x]$ with
 splitting field $K$ over $\mathbb Q$.
@@ -1763,14 +1761,14 @@ splitting field $K$ over $\mathbb Q$.
   $\Gal(K/\mathbb Q)$.
 
 
-## Question 139
+**Question 139**
 
 For each prime number $p$ and each positive integer $n$, how many
 elements $\alpha$ are there in $\mathbb F_{p^n}$ such that
 $F_p(\alpha)=F_{p^6}$?
 
 
-## Question 140
+**Question 140**
 
 Assume that $K$ is a cyclic group, $H$ is an arbitrary group, and $\varphi_1$
 and $\varphi_2$ are homomorphisms from $K$ into $\Aut(H)$ such that
@@ -1786,3 +1784,1287 @@ so that for some $a\in\mathbb Z$ we have $\sigma\varphi_1(k)\sigma\inv
 \rtimes_{\varphi_1}K\rightarrow H\rtimes_{\varphi_2}K$
 defined by $\psi((h,k))=(\sigma(h),k^a)$ is a homomorphism.
 Show $\psi$ is bijective by construcing a 2-sided inverse.
+# Real Analysis (0 Questions)
+# Complex Analysis (123 Questions)
+
+**Question 1**
+
+(1) Assume $\displaystyle f(z) = \sum_{n=0}^\infty c_n z^n$
+converges in $|z| < R$. Show that for $r <R$,
+$$\frac{1}{2 \pi} \int_0^{2 \pi} |f(r e^{i \theta})|^2 d \theta =
+\sum_{n=0}^\infty |c_n|^2 r^{2n} \; .$$
+
+(2) Deduce Liouville's theorem from (1).
+
+
+**Question 2**
+
+Let $f$ be a continuous function in the region
+$$D=\{z \suchthat  \abs{z}>R, 0\leq \arg z\leq \theta\}\quad\text{where}\quad
+1\leq \theta \leq 2\pi.$$ If there exists $k$ such that
+$\displaystyle{\lim_{z\to\infty} zf(z)=k}$ for $z$ in the region
+$D$. 
+Show that $$\lim_{R'\to\infty} \int_{L} f(z) dz=i\theta k,$$
+where $L$ is the part of the circle $|z|=R'$ which lies in the
+region $D$.
+
+
+**Question 3**
+
+Suppose that $f$ is an analytic function in the region $D$ which
+contains the point $a$. Let
+$$F(z)= z-a-qf(z),\quad \text{where}~ q \ \text{is a complex
+parameter}.$$ 
+
+(1) Let $K\subset D$ be a circle with the center at
+point $a$ and also we assume that $f(z)\not =0$ for $z\in K$. Prove
+that the function $F$ has one and only one zero $z=w$ on the closed
+disc $\bar{K}$ whose boundary is the circle $K$ if $\displaystyle{
+|q|<\min_{z\in K} \frac{|z-a|}{|f(z)|}.}$\
+
+(2) Let $G(z)$ be an analytic function on the disk $\bar{K}$. Apply
+the residue theorem to prove that
+$\displaystyle{ \frac{G(w)}{F'(w)}=\frac{1}{2\pi
+i}\int_K \frac{G(z)}{F(z)} dz,}$ where $w$ is the zero from (1).\
+
+(3) If $z\in K$, prove that the function
+$\displaystyle{\frac{1}{F(z)}}$ can be represented as a convergent
+series with respect to $q$: $\displaystyle{
+\frac{1}{F(z)}=\sum_{n=0}^{\infty} \frac{(qf(z))^n}{(z-a)^{n+1}}.}$
+
+
+**Question 4**
+
+Evaluate $$\displaystyle{ \int_{0}^{\infty}\frac{x\sin x}{x^2+a^2} \,
+dx }.$$
+
+
+**Question 5**
+
+Let $f=u+iv$ be differentiable (i.e. $f'(z)$ exists) with continuous
+partial derivatives at a point $z=re^{i\theta}$, $r\not= 0$. Show
+that
+$$\frac{\partial u}{\partial r}=\frac{1}{r}\frac{\partial v}{\partial \theta},\quad
+\frac{\partial v}{\partial r}=-\frac{1}{r}\frac{\partial u}{\partial \theta}.$$
+
+
+**Question 6**
+
+Show that $\displaystyle \int_0^\infty \frac{x^{a-1}}{1+x^n}
+dx=\frac{\pi}{n\sin \frac{a\pi}{n}}$ using complex analysis, $0< a <
+n$. Here $n$ is a positive integer.
+
+
+**Question 7**
+
+
+
+**Question 8**
+
+For $s>0$, the **gamma function** is defined by
+$\displaystyle{\Gamma(s)=\int_0^{\infty} e^{-t}t^{s-1} dt}$.
+
+1.  Show that the gamma function is analytic in the half-plane
+    $\Re (s)>0$, and is still given there by the integral formula
+    above.
+
+2.  Apply the formula in the previous question to show that
+    $$\Gamma(s)\Gamma(1-s)=\frac{\pi}{\sin \pi s}.$$
+
+> Hint: You may need $\displaystyle{\Gamma(1-s)=t \int_0^{\infty}e^{-vt}(vt)^{-s} dv}$ for $t>0$.
+
+
+**Question 9**
+
+Apply Rouché's Theorem to prove the Fundamental Theorem of Algebra: If
+$$P_n(z) = a_0 + a_1z + \cdots + a_{n-1}z^{n-1} + a_nz^n\quad  (a_n \neq 0)$$
+is a polynomial of degree n, then it has n zeros in $\mathbb C$.
+
+
+**Question 10**
+
+Suppose $f$ is entire and there exist $A, R >0$ and natural number
+$N$ such that $$|f(z)| \geq A |z|^N\ \text{for}\ |z| \geq R.$$ Show
+that 
+(i) $f$ is a polynomial and 
+(ii) the degree of $f$ is at least $N$.
+
+
+**Question 11**
+
+Let $f: {\mathbb C} \rightarrow {\mathbb C}$ be an injective
+analytic (also called *univalent*) function. Show that there exist
+complex numbers $a \neq 0$ and $b$ such that $f(z) = az + b$.
+
+
+**Question 12**
+
+Let $g$ be analytic for $|z|\leq 1$ and $|g(z)| < 1$ for $|z| = 1$.
+
+1.  Show that $g$ has a unique fixed point in $|z| < 1$.
+
+2.  What happens if we replace $|g(z)| < 1$ with $|g(z)|\leq 1$ for
+    $|z|=1$? Give an example if (a) is not true or give an proof
+    if (a) is still true.
+
+3.  What happens if we simply assume that $f$ is analytic for
+    $|z| < 1$ and $|f(z)| < 1$ for $|z| < 1$? Suppose that $f(z)
+    \not\equiv  z$. Can f have more than one fixed point in
+    $|z| < 1$?
+
+> Hint: The map $\displaystyle{\psi_{\alpha}(z)=\frac{\alpha-z}{1-\bar{\alpha}z}}$ may be useful.
+
+
+**Question 13**
+
+Find a conformal map from $D = \{z :\  |z| < 1,\ |z - 1/2| > 1/2\}$
+to the unit disk $\Delta=\{z: \ |z|<1\}$.
+
+
+**Question 14**
+
+Let $f(z)$ be entire and assume values of $f(z)$ lie outside a *bounded*
+open set $\Omega$. Show without using Picard's theorems that $f(z)$ is a
+constant.
+
+
+**Question 15**
+
+(1) Assume $\displaystyle f(z) = \sum_{n=0}^\infty c_n z^n$ converges
+in $|z| < R$. Show that for $r <R$,
+$$\frac{1}{2 \pi} \int_0^{2 \pi} |f(r e^{i \theta})|^2 d \theta
+= \sum_{n=0}^\infty |c_n|^2 r^{2n} \; .$$
+
+(2) Deduce Liouville's theorem from (1).
+
+
+**Question 16**
+
+Let $f(z)$ be entire and assume that $f(z) \leq M |z|^2$ outside some
+disk for some constant $M$. Show that $f(z)$ is a polynomial in $z$ of
+degree $\leq 2$.
+
+
+**Question 17**
+
+Let $a_n(z)$ be an analytic sequence in a domain $D$ such that
+$\displaystyle \sum_{n=0}^\infty |a_n(z)|$ converges uniformly on
+bounded and closed sub-regions of $D$. Show that
+$\displaystyle \sum_{n=0}^\infty |a'_n(z)|$ converges uniformly on
+bounded and closed sub-regions of $D$.
+
+
+**Question 18**
+
+Let $f(z)$ be analytic in an open set $\Omega$ except possibly at a
+point $z_0$ inside $\Omega$. Show that if $f(z)$ is bounded in near
+$z_0$, then $\displaystyle \int_\Delta f(z) dz = 0$ for all triangles
+$\Delta$ in $\Omega$.
+
+
+**Question 19**
+
+Assume $f$ is continuous in the region:
+$0< |z-a| \leq R, \; 0 \leq \arg(z-a) \leq \beta_0$
+($0 < \beta_0 \leq 2 \pi$) and the limit
+$\displaystyle \lim_{z \rightarrow a} (z-a) f(z) = A$ exists. Show that
+$$\lim_{r \rightarrow 0} \int_{\gamma_r} f(z) dz  = i A \beta_0 \; , \; \;$$
+where
+$$\gamma_r : = \{ z \; | \; z = a + r e^{it}, \; 0 \leq  t \leq \beta_0 \}.$$
+
+
+**Question 20**
+
+Show that $f(z) = z^2$ is uniformly continuous in any open disk
+$|z| < R$, where $R>0$ is fixed, but it is not uniformly continuous on
+$\mathbb C$.
+
+
+**Question 21**
+
+(1) Show that the function $u=u(x,y)$ given by
+$$u(x,y)=\frac{e^{ny}-e^{-ny}}{2n^2}\sin nx\quad \text{for}\ n\in {\mathbf N}$$
+is the solution on $D=\{(x,y)\ | x^2+y^2<1\}$ of the Cauchy problem for
+the Laplace equation
+$$\frac{\partial ^2u}{\partial x^2}+\frac{\partial ^2u}{\partial y^2}=0,\quad
+u(x,0)=0,\quad \frac{\partial u}{\partial y}(x,0)=\frac{\sin nx}{n}.$$
+
+(2) Show that there exist points $(x,y)\in D$ such that
+$\displaystyle{\limsup_{n\to\infty} |u(x,y)|=\infty}$.
+
+
+**Question 22**
+
+(1) Assume $\displaystyle f(z) = \sum_{n=0}^\infty c_n z^n$
+converges in $|z| < R$. Show that for $r <R$,
+$$\frac{1}{2 \pi} \int_0^{2 \pi} |f(r e^{i \theta})|^2 d \theta =
+\sum_{n=0}^\infty |c_n|^2 r^{2n} \; .$$
+
+(2) Deduce Liouville's theorem from (1).
+
+
+**Question 23**
+
+Let $f$ be a continuous function in the region
+$$D=\{z\ |  |z|>R, 0\leq \arg Z\leq \theta\}\quad\text{where}\quad
+0\leq \theta \leq 2\pi.$$ If there exists $k$ such that
+$\displaystyle{\lim_{z\to\infty} zf(z)=k}$ for $z$ in the region
+$D$. Show that $$\lim_{R'\to\infty} \int_{L} f(z) dz=i\theta k,$$
+where $L$ is the part of the circle $|z|=R'$ which lies in the
+region $D$.
+
+
+**Question 24**
+
+Suppose that $f$ is an analytic function in the region $D$ which
+contains the point $a$. Let
+$$F(z)= z-a-qf(z),\quad \text{where}\quad q \ \text{is a complex
+parameter}.$$ 
+
+(1) Let $K\subset D$ be a circle with the center at
+point $a$ and also we assume that $f(z)\not =0$ for $z\in K$. Prove
+that the function $F$ has one and only one zero $z=w$ on the closed
+disc $\bar{K}$ whose boundary is the circle $K$ if $\displaystyle{
+|q|<\min_{z\in K} \frac{|z-a|}{|f(z)|}.}$\
+
+(2) Let $G(z)$ be an analytic function on the disk $\bar{K}$. Apply
+the residue theorem to prove that
+$\displaystyle{ \frac{G(w)}{F'(w)}=\frac{1}{2\pi
+i}\int_K \frac{G(z)}{F(z)} dz,}$ where $w$ is the zero from (1).\
+
+(3) If $z\in K$, prove that the function
+$\displaystyle{\frac{1}{F(z)}}$ can be represented as a convergent
+series with respect to $q$: $\displaystyle{
+\frac{1}{F(z)}=\sum_{n=0}^{\infty} \frac{(qf(z))^n}{(z-a)^{n+1}}.}$
+
+
+**Question 25**
+
+Evaluate $\displaystyle{ \int_{0}^{\infty}\frac{x\sin x}{x^2+a^2} \,dx }$.
+
+
+**Question 26**
+
+Let $f=u+iv$ be differentiable (i.e. $f'(z)$ exists) with continuous
+partial derivatives at a point $z=re^{i\theta}$, $r\not= 0$. Show
+that
+$$\frac{\partial u}{\partial r}=\frac{1}{r}\frac{\partial v}{\partial \theta},\quad
+\frac{\partial v}{\partial r}=-\frac{1}{r}\frac{\partial u}{\partial \theta}.$$
+
+
+**Question 27**
+
+Show that $\displaystyle \int_0^\infty \frac{x^{a-1}}{1+x^n}
+dx=\frac{\pi}{n\sin \frac{a\pi}{n}}$ using complex analysis, $0< a <
+n$. Here $n$ is a positive integer.
+
+
+**Question 28**
+
+For $s>0$, the **gamma function** is defined by
+$\displaystyle{\Gamma(s)=\int_0^{\infty} e^{-t}t^{s-1} dt}$.
+
+1.  Show that the gamma function is analytic in the half-plane
+    $\Re (s)>0$, and is still given there by the integral formula
+    above.
+
+2.  Apply the formula in the previous question to show that
+    $$\Gamma(s)\Gamma(1-s)=\frac{\pi}{\sin \pi s}.$$
+
+> Hint: You may need $\displaystyle{\Gamma(1-s)=t \int_0^{\infty}e^{-vt}(vt)^{-s} dv}$ for $t>0$.
+
+
+**Question 29**
+
+Apply Rouché's Theorem to prove the Fundamental Theorem of Algebra: If
+$$P_n(z) = a_0 + a_1z + \cdots + a_{n-1}z^{n-1} + a_nz^n\quad  (a_n \neq 0)$$
+is a polynomial of degree n, then it has n zeros in $\mathbb C$.
+
+
+**Question 30**
+
+Suppose $f$ is entire and there exist $A, R >0$ and natural number
+$N$ such that $$|f(z)| \geq A |z|^N\ \text{for}\ |z| \geq R.$$ Show
+that (i) $f$ is a polynomial and (ii) the degree of $f$ is at least
+$N$.
+
+
+**Question 31**
+
+Let $f: {\mathbb C} \rightarrow {\mathbb C}$ be an injective
+analytic (also called univalent) function. Show that there exist
+complex numbers $a \neq 0$ and $b$ such that $f(z) = az + b$.
+
+
+**Question 32**
+
+Let $g$ be analytic for $|z|\leq 1$ and $|g(z)| < 1$ for $|z| = 1$.
+
+-   Show that $g$ has a unique fixed point in $|z| < 1$.
+
+-   What happens if we replace $|g(z)| < 1$ with $|g(z)|\leq 1$ for
+    $|z|=1$? Give an example if (a) is not true or give an proof
+    if (a) is still true.
+
+-   What happens if we simply assume that $f$ is analytic for
+    $|z| < 1$ and $|f(z)| < 1$ for $|z| < 1$? Suppose that $f(z)
+    \not\equiv  z$. Can f have more than one fixed point in
+    $|z| < 1$?
+
+> Hint: The map
+$\displaystyle{\psi_{\alpha}(z)=\frac{\alpha-z}{1-\bar{\alpha}z}}$
+> may be useful.
+
+
+**Question 33**
+
+Find a conformal map from $D = \{z :\  |z| < 1,\ |z - 1/2| > 1/2\}$
+to the unit disk $\Delta=\{z: \ |z|<1\}$.
+
+
+**Question 34**
+
+Let $f(z)$ be entire and assume values of $f(z)$ lie outside a
+*bounded* open set $\Omega$. Show without using Picard's theorems
+that $f(z)$ is a constant.
+
+
+**Question 35**
+
+Let $f(z)$ be entire and assume values of $f(z)$ lie outside a *bounded*
+open set $\Omega$. Show without using Picard's theorems that $f(z)$ is a
+constant.
+
+
+**Question 36**
+
+(1) Assume $\displaystyle f(z) = \sum_{n=0}^\infty c_n z^n$ converges
+in $|z| < R$. Show that for $r <R$,
+$$\frac{1}{2 \pi} \int_0^{2 \pi} |f(r e^{i \theta})|^2 d \theta
+= \sum_{n=0}^\infty |c_n|^2 r^{2n} \; .$$
+
+(2) Deduce Liouville's theorem from (1).
+
+
+**Question 37**
+
+Let $f(z)$ be entire and assume that $f(z) \leq M |z|^2$ outside some
+disk for some constant $M$. Show that $f(z)$ is a polynomial in $z$ of
+degree $\leq 2$.
+
+
+**Question 38**
+
+Let $a_n(z)$ be an analytic sequence in a domain $D$ such that
+$\displaystyle \sum_{n=0}^\infty |a_n(z)|$ converges uniformly on
+bounded and closed sub-regions of $D$. Show that
+$\displaystyle \sum_{n=0}^\infty |a'_n(z)|$ converges uniformly on
+bounded and closed sub-regions of $D$.
+
+
+**Question 39**
+
+Let $f(z)$ be analytic in an open set $\Omega$ except possibly at a
+point $z_0$ inside $\Omega$. Show that if $f(z)$ is bounded in near
+$z_0$, then $\displaystyle \int_\Delta f(z) dz = 0$ for all triangles
+$\Delta$ in $\Omega$.
+
+
+**Question 40**
+
+Assume $f$ is continuous in the region:
+$0< |z-a| \leq R, \; 0 \leq \arg(z-a) \leq \beta_0$
+($0 < \beta_0 \leq 2 \pi$) and the limit
+$\displaystyle \lim_{z \rightarrow a} (z-a) f(z) = A$ exists. Show that
+$$\lim_{r \rightarrow 0} \int_{\gamma_r} f(z) dz  = i A \beta_0 \; , \; \;$$
+where
+$$\gamma_r : = \{ z \; | \; z = a + r e^{it}, \; 0 \leq  t \leq \beta_0 \}.$$
+
+
+**Question 41**
+
+Show that $f(z) = z^2$ is uniformly continuous in any open disk
+$|z| < R$, where $R>0$ is fixed, but it is not uniformly continuous on
+$\mathbb C$.
+
+(1) Show that the function $u=u(x,y)$ given by
+    $$u(x,y)=\frac{e^{ny}-e^{-ny}}{2n^2}\sin nx\quad \text{for}\ n\in {\mathbf N}$$
+    is the solution on $D=\{(x,y)\ | x^2+y^2<1\}$ of the Cauchy problem for
+    the Laplace equation
+    $$\frac{\partial ^2u}{\partial x^2}+\frac{\partial ^2u}{\partial y^2}=0,\quad
+    u(x,0)=0,\quad \frac{\partial u}{\partial y}(x,0)=\frac{\sin nx}{n}.$$
+
+
+**Question 42**
+
+This question provides some insight into Cauchy's theorem. Solve the
+problem without using Cauchy's theorem.
+
+1.  Evaluate the integral $\displaystyle{\int_{\gamma} z^n dz}$ for
+    all integers $n$. Here $\gamma$ is any circle centered at the
+    origin with the positive (counterclockwise) orientation.
+
+2.  Same question as (a), but with $\gamma$ any circle not
+    containing the origin.
+
+3.  Show that if $|a|<r<|b|$, then
+    $\displaystyle{\int_{\gamma}\frac{dz}{(z-a)(z-b)} dz=\frac{2\pi i}{a-b}}$.
+    Here $\gamma$ denotes the circle centered at the origin, of
+    radius $r$, with the positive orientation.
+
+
+**Question 43**
+
+(1) Assume the infinite series
+$\displaystyle  \sum_{n=0}^\infty c_n z^n$ converges in $|z| < R$
+and let $f(z)$ be the limit. Show that for $r <R$,
+$$\frac{1}{2 \pi} \int_0^{2 \pi} |f(r e^{i \theta})|^2 d \theta =
+\sum_{n=0}^\infty |c_n|^2 r^{2n} \; .$$
+
+(2) Deduce Liouville's theorem from (1). Liouville's theorem: If
+$f(z)$ is entire and bounded, then $f$ is constant.
+
+
+**Question 44**
+
+Let $f$ be a continuous function in the region
+$$D=\{z\ |  |z|>R, 0\leq \arg Z\leq \theta\}\quad\text{where}\quad
+0\leq \theta \leq 2\pi.$$ If there exists $k$ such that
+$\displaystyle{\lim_{z\to\infty} zf(z)=k}$ for $z$ in the region
+$D$. Show that $$\lim_{R'\to\infty} \int_{L} f(z) dz=i\theta k,$$
+where $L$ is the part of the circle $|z|=R'$ which lies in the
+region $D$.
+
+
+**Question 45**
+
+Evaluate $\displaystyle{ \int_{0}^{\infty}\frac{x\sin x}{x^2+a^2} \,
+dx }$.
+
+
+**Question 46**
+
+Let $f=u+iv$ be differentiable (i.e. $f'(z)$ exists) with continuous
+partial derivatives at a point $z=re^{i\theta}$, $r\not= 0$. Show
+that
+$$\frac{\partial u}{\partial r}=\frac{1}{r}\frac{\partial v}{\partial \theta},\quad
+\frac{\partial v}{\partial r}=-\frac{1}{r}\frac{\partial u}{\partial \theta}.$$
+
+
+**Question 47**
+
+Show that $\displaystyle \int_0^\infty \frac{x^{a-1}}{1+x^n}
+dx=\frac{\pi}{n\sin \frac{a\pi}{n}}$ using complex analysis, $0< a <
+n$. Here $n$ is a positive integer.
+
+
+**Question 48**
+
+For $s>0$, the **gamma function** is defined by
+$\displaystyle{\Gamma(s)=\int_0^{\infty} e^{-t}t^{s-1} dt}$.
+
+-   Show that the gamma function is analytic in the half-plane
+    $\Re (s)>0$, and is still given there by the integral formula
+    above.
+
+-   Apply the formula in the previous question to show that
+    $$\Gamma(s)\Gamma(1-s)=\frac{\pi}{\sin \pi s}.$$
+
+> Hint: You may need $\displaystyle{\Gamma(1-s)=t \int_0^{\infty}e^{-vt}(vt)^{-s} dv}$ for $t>0$.
+
+
+**Question 49**
+
+Apply Rouché's Theorem to prove the Fundamental Theorem of Algebra: If
+$$P_n(z) = a_0 + a_1z + \cdots + a_{n-1}z^{n-1} + a_nz^n\quad  (a_n \neq 0)$$
+is a polynomial of degree n, then it has n zeros in $\mathbf C$.
+
+
+**Question 50**
+
+Suppose $f$ is entire and there exist $A, R >0$ and natural number
+$N$ such that $$|f(z)| \geq A |z|^N\ \text{for}\ |z| \geq R.$$ Show
+that (i) $f$ is a polynomial and (ii) the degree of $f$ is at least
+$N$.
+
+
+**Question 51**
+
+Let $f: {\mathbb C} \rightarrow {\mathbb C}$ be an injective
+analytic (also called univalent) function. Show that there exist
+complex numbers $a \neq 0$ and $b$ such that $f(z) = az + b$.
+
+
+**Question 52**
+
+Let $g$ be analytic for $|z|\leq 1$ and $|g(z)| < 1$ for $|z| = 1$.
+
+ -   Show that $g$ has a unique fixed point in $|z| < 1$.
+
+ -   What happens if we replace $|g(z)| < 1$ with $|g(z)|\leq 1$ for
+     $|z|=1$? Give an example if (a) is not true or give an proof
+     if (a) is still true.
+
+ -   What happens if we simply assume that $f$ is analytic for
+     $|z| < 1$ and $|f(z)| < 1$ for $|z| < 1$? Suppose that $f(z)
+     \not\equiv  z$. Can f have more than one fixed point in
+     $|z| < 1$?
+
+ > Hint: The map
+ $\displaystyle{\psi_{\alpha}(z)=\frac{\alpha-z}{1-\bar{\alpha}z}}$
+ > may be useful.
+
+
+**Question 53**
+
+Find a conformal map from $D = \{z :\  |z| < 1,\ |z - 1/2| > 1/2\}$
+to the unit disk $\Delta=\{z: \ |z|<1\}$.
+
+
+**Question 54**
+
+Let $a_n \neq 0$ and assume that $\displaystyle
+\lim_{n \rightarrow \infty} \frac{|a_{n+1}|}{|a_n|} = L$. Show that
+$\displaystyle
+\lim_{n \rightarrow \infty}
+\sqrt[n]{|a_n|} = L.
+%p_n^{\frac{1}{n}} = L.$ In particular, this shows that when
+applicable, the ratio test can be used to calculate the radius of
+convergence of a power series.
+
+
+**Question 55**
+
+(a) Let $z, w$ be complex numbers, such that $\bar{z} w \neq 1$.
+Prove that
+$$\abs{\frac{w - z}{1 - \bar{w} z}} < 1 \; \; \; \mbox{if} \; |z| < 1 \; \mbox{and}\; |w| < 1,$$
+and also that
+$$\abs{\frac{w - z}{1 - \bar{w} z}} = 1 \; \; \; \mbox{if} \; |z| = 1 \; \mbox{or}\; |w| = 1.$$
+
+(b) Prove that for fixed $w$ in the unit disk $\mathbb D$, the
+mapping $$F: z \mapsto \frac{w - z}{1 - \bar{w} z}$$ satisfies the
+following conditions:
+
+(i) $F$ maps $\mathbb D$ to itself and is holomorphic. 
+
+(ii) $F$ interchanges $0$ and $w$, namely, $F(0) = w$ and
+$F(w) = 0$.
+
+(iii) $|F(z)| = 1$ if $|z| = 1$.
+
+(iv) $F: {\mathbb D} \mapsto {\mathbb D}$ is bijective. 
+
+> Hint: Calculate $F \circ F$.
+
+
+**Question 56**
+
+Use $n$-th roots of unity (i.e. solutions of $z^n - 1 =0$) to show
+that
+$$2^{n-1} \sin\frac{\pi}{n} \sin\frac{2\pi}{n} \cdots \sin\frac{(n-1)\pi}{n}
+= n
+\; .$$ 
+
+> Hint: $1 - \cos 2 \theta = 2 \sin^2 \theta,\; \sin 2 \theta = 2 \sin \theta \cos \theta$.
+
+(a) Show that in polar coordinates, the Cauchy-Riemann
+equations take the form
+
+$$\frac{\partial u}{\partial r} = \frac{1}{r} \frac{\partial v}{\partial \theta}
+\; \; \; \text{and} \; \; \;
+\frac{\partial v}{\partial r} = - \frac{1}{r} \frac{\partial u}{\partial \theta}$$
+
+(b) Use these equations to show that the logarithm function
+defined by $$\log z = \log r + i \theta \; \;
+\mbox{where} \; z = r e^{i \theta } \; \mbox{with} \; - \pi < \theta < \pi$$
+is a holomorphic function in the region
+$r>0, \; - \pi < \theta < \pi$. Also show that $\log z$ defined
+above is not continuous in $r>0$.
+
+
+**Question 57**
+
+Assume $f$ is continuous in the region:
+$x \geq x_0, \; 0 \leq y \leq b$ and the limit
+$$\displaystyle \lim_{x \rightarrow + \infty} f(x + iy) = A$$ exists
+uniformly with respect to $y$ (independent of $y$). Show that
+$$\lim_{x \rightarrow + \infty} \int_{\gamma_x} f(z) dz  = iA b \; , \; \;$$
+where $\gamma_x : = \{ z \; | \; z = x + it, \; 0 \leq  t \leq b\}.$
+
+
+**Question 58**
+
+(Cauchy's formula for "exterior" region) Let $\gamma$ be piecewise
+smooth simple closed curve with interior $\Omega_1$ and exterior
+$\Omega_2$. Assume $f'(z)$ exists in an open set containing $\gamma$
+and $\Omega_2$ and $\lim_{z \rightarrow \infty } f(z) = A$. Show
+that
+$$\frac{1}{2 \pi i} \int_\gamma \frac{f(\xi)}{\xi - z} \, d \xi =
+\begin{cases}
+A,          &     \text{if\ $z \in \Omega_1$}, \\
+-f (z) + A, &  \text{if\ $z \in \Omega_2$}
+\end{cases}$$
+
+
+**Question 59**
+
+Let $f(z)$ be bounded and analytic in $\mathbb C$. Let $a \neq b$ be
+any fixed complex numbers. Show that the following limit exists
+$$\lim_{R \rightarrow \infty} \int_{|z|=R} \frac{f(z)}{(z-a)(z-b)} dz.$$
+Use this to show that $f(z)$ must be a constant (Liouville's
+theorem).
+
+
+**Question 60**
+
+Prove by *justifying all steps* that for all $\xi \in {\mathbb C}$
+we have $\displaystyle
+e^{- \pi \xi^2} = \int_{- \infty}^\infty e^{- \pi x^2} e^{2 \pi i x \xi} dx \; .$
+
+> Hint: You may use that fact in Example 1 on p. 42 of the textbook
+without proof, i.e., you may assume the above is true for real
+values of $\xi$.
+
+
+**Question 61**
+
+Suppose that $f$ is holomorphic in an open set containing the closed
+unit disc, except for a pole at $z_0$ on the unit circle. Let
+$\displaystyle
+%f(z) = \sum_{n = 1}^\infty a_n z^n
+f(z) = \sum_{n = 1}^\infty c_n z^n$ denote the the power series in
+the open disc. Show that (1) $c_n \neq 0$ for all large enough
+$n$'s, and (2)
+$\displaystyle \lim_{n \rightarrow \infty} \frac{c_n}{c_{n+1}}= z_0$.
+
+
+**Question 62**
+
+Let $f(z)$ be a non-constant analytic function in $|z|>0$ such that
+$f(z_n) = 0$ for infinite many points $z_n$ with
+$\lim_{n \rightarrow \infty} z_n =0$. Show that $z=0$ is an
+essential singularity for $f(z)$. (An example of such a function is
+$f(z) = \sin (1/z)$.)
+
+
+**Question 63**
+
+Let $f$ be entire and suppose that
+$\lim_{z \rightarrow \infty} f(z) = \infty$. Show that $f$ is a
+polynomial.
+
+
+**Question 64**
+
+Expand the following functions into Laurent series in the indicated
+regions:
+
+(a)
+$\displaystyle f(z) = \frac{z^2 - 1}{ (z+2)(z+3)}, \; \; 2 < |z| < 3$,
+$3 < |z| < + \infty$.
+
+(b)
+$\displaystyle f(z) = \sin \frac{z}{1-z}, \; \; 0 < |z-1| < + \infty$
+
+
+**Question 65**
+
+Assume $f(z)$ is analytic in region $D$ and $\Gamma$ is a
+rectifiable curve in $D$ with interior in $D$. Prove that if $f(z)$
+is real for all $z \in \Gamma$, then $f(z)$ is a constant.
+
+
+**Question 66**
+
+Find the number of roots of $z^4 - 6z + 3 =0$ in $|z|<1$ and
+$1 < |z| < 2$ respectively.
+
+
+**Question 67**
+
+Prove that $z^4 + 2 z^3 - 2z + 10 =0$ has exactly one root in each
+open quadrant.
+
+
+**Question 68**
+
+(1) Let $f(z) \in H({\mathbb D})$, $\text{Re}(f(z)) >0$,
+$f(0)= a>0$. Show that $$|\frac{f(z)-a}{f(z)+a}| \leq |z|, \; \; \;
+|f'(0)| \leq 2a.$$
+
+(2) Show that the above is still true if $\text{Re}(f(z)) >0$ is
+replaced with $\text{Re}(f(z)) \geq 0$.
+
+
+**Question 69**
+
+Assume $f(z)$ is analytic in ${\mathbb D}$ and $f(0)=0$ and is not a
+rotation (i.e. $f(z) \neq e^{i \theta} z$). Show that
+$\displaystyle \sum_{n=1}^\infty f^{n}(z)$ converges uniformly to an
+analytic function on compact subsets of ${\mathbb D}$, where
+$f^{n+1}(z) = f(f^{n}(z))$.
+
+
+**Question 70**
+
+Let $f(z) = \sum_{n=0}^\infty c_n z^n$ be analytic and one-to-one in
+$|z| < 1$. For $0<r<1$, let $D_r$ be the disk $|z|<r$. Show that the
+area of $f(D_r)$ is finite and is given by
+$$S = \pi \sum_{n=1}^\infty n |c_n|^2 r^{2n}.$$ (Note that in
+general the area of $f(D_1)$ is infinite.)
+
+
+**Question 71**
+
+Let $f(z) = \sum_{n= -\infty}^\infty c_n z^n$ be analytic and
+one-to-one in $r_0< |z| < R_0$. For $r_0<r<R<R_0$, let $D(r,R)$ be
+the annulus $r<|z|<R$. Show that the area of $f(D(r,R))$ is finite
+and is given by
+$$S = \pi \sum_{n=- \infty}^\infty n |c_n|^2 (R^{2n} - r^{2n}).$$
+
+
+**Question 72**
+
+Let $a_n(z)$ be an analytic sequence in a domain $D$ such that
+$\displaystyle \sum_{n=0}^\infty |a_n(z)|$ converges uniformly on
+bounded and closed sub-regions of $D$. Show that
+$\displaystyle \sum_{n=0}^\infty |a'_n(z)|$ converges uniformly on
+bounded and closed sub-regions of $D$.
+
+
+**Question 73**
+
+Let $f_n, f$ be analytic functions on the unit disk ${\mathbb D}$.
+Show that the following are equivalent.
+
+(i) $f_n(z)$ converges to $f(z)$ uniformly on compact subsets in
+$\mathbb D$.
+
+(ii) $\int_{|z|= r} |f_n(z) - f(z)| \, |dz|$ converges to $0$ if
+$0< r<1$.
+
+
+**Question 74**
+
+Let $f$ and $g$ be non-zero analytic functions on a region $\Omega$.
+Assume $|f(z)| = |g(z)|$ for all $z$ in $\Omega$. Show that
+$f(z) = e^{i \theta} g(z)$ in $\Omega$ for some
+$0 \leq \theta < 2 \pi$.
+
+
+**Question 75**
+
+Suppose $f$ is analytic in an open set containing the unit disc
+$\mathbb D$ and $|f(z)| =1$ when $|z|$=1. Show that either
+$f(z) = e^{i \theta}$ for some $\theta \in \mathbb R$ or there are
+finite number of $z_k \in \mathbb D$, $k \leq n$ and
+$\theta \in \mathbb R$ such that
+$\displaystyle f(z) = e^{i\theta} \prod_{k=1}^n \frac{z-z_k}{1 - \bar{z}_k z } \, .$
+
+> Also cf. Stein et al, 1.4.7, 3.8.17
+
+
+**Question 76**
+
+(1) Let $p(z)$ be a polynomial, $R>0$ any positive number, and
+$m \geq 1$ an integer. Let
+$M_R = \sup \{ |z^{m} p(z) - 1|: |z| = R  \}$. Show that $M_R>1$.
+
+(2) Let $m \geq 1$ be an integer and
+$K = \{z \in {\mathbb C}: r \leq |z| \leq R \}$ where $r<R$.
+Show (i) using (1) as well as, (ii) without using (1) that there
+exists a positive number $\varepsilon_0>0$ such that for each
+polynomial $p(z)$,
+$$\sup \{|p(z) - z^{-m}|: z \in K  \} \geq \varepsilon_0 \, .$$
+
+
+**Question 77**
+
+Let $\displaystyle f(z) = \frac{1}{z} + \frac{1}{z^2 -1}$. Find all
+the Laurent series of $f$ and describe the largest annuli in which
+these series are valid.
+
+
+**Question 78**
+
+Suppose $f$ is entire and there exist $A, R >0$ and natural number
+$N$ such that $|f(z)| \leq A |z|^N$ for $|z| \geq R$. Show that (i)
+$f$ is a polynomial and (ii) the degree of $f$ is at most $N$.
+
+
+**Question 79**
+
+Suppose $f$ is entire and there exist $A, R >0$ and natural number
+$N$ such that $|f(z)| \geq A |z|^N$ for $|z| \geq R$. Show that (i)
+$f$ is a polynomial and (ii) the degree of $f$ is at least $N$.
+
+
+**Question 80**
+
+(1) Explicitly write down an example of a non-zero analytic
+function in $|z|<1$ which has infinitely zeros in $|z|<1$.
+
+(2) Why does not the phenomenon in (1) contradict the uniqueness
+theorem?
+
+
+**Question 81**
+
+(1) Assume $u$ is harmonic on open set $O$ and $z_n$ is a sequence
+in $O$ such that $u(z_n) = 0$ and $\lim z_n \in O$. Prove or
+disprove that $u$ is identically zero. What if $O$ is a region?
+
+(2) Assume $u$ is harmonic on open set $O$ and $u(z) = 0$ on a
+disc in $O$. Prove or disprove that $u$ is identically zero. What if
+$O$ is a region?
+
+(3) Formulate and prove a Schwarz reflection principle for
+harmonic functions 
+
+> cf. Theorem 5.6 on p.60 of Stein et al.
+
+> Hint: Verify the mean value property for your new function obtained by
+Schwarz reflection principle.
+
+
+**Question 82**
+
+Let $f$ be holomorphic in a neighborhood of $D_r(z_0)$. Show that
+for any $s<r$, there exists a constant $c>0$ such that
+$$||f||_{(\infty, s)} \leq c ||f||_{(1, r)},$$ where
+$\displaystyle |f||_{(\infty, s)} = \text{sup}_{z \in D_s(z_0)}|f(z)|$
+and $\displaystyle ||f||_{(1, r)} = \int_{D_r(z_0)} |f(z)|dx dy$.
+
+> Note: Exercise 3.8.20 on p.107 in Stein et al is a
+straightforward consequence of this stronger result using the
+integral form of the Cauchy-Schwarz inequality in real analysis.
+
+
+**Question 83**
+
+(1) Let $f$ be analytic in $\Omega: 0<|z-a|<r$ except at a
+sequence of poles $a_n \in \Omega$ with
+$\lim_{n \rightarrow \infty} a_n = a$. Show that for any
+$w \in \mathbb C$, there exists a sequence $z_n \in \Omega$ such
+that $\lim_{n \rightarrow \infty} f(z_n) = w$.
+
+(2) Explain the similarity and difference between the above
+assertion and the Weierstrass-Casorati theorem.
+
+
+**Question 84**
+
+Compute the following integrals.
+
+\(i\) $\displaystyle \int_0^\infty \frac{1}{(1 + x^n)^2} \, dx$,
+$n \geq 1$ (ii)
+$\displaystyle \int_0^\infty \frac{\cos x}{(x^2 + a^2)^2} \, dx$,
+$a \in \mathbb R$ (iii)
+$\displaystyle \int_0^\pi \frac{1}{a + \sin \theta} \, d \theta$,
+$a>1$
+
+\(iv\) $\displaystyle \int_0^{\frac{\pi}{2}}
+\frac{d \theta}{a+ \sin ^2 \theta},$ $a >0$. (v)
+$\displaystyle \int_{|z|=2} \frac{1}{(z^{5} -1) (z-3)} \, dz$ (v)
+$\displaystyle \int_{- \infty}^{\infty} \frac{\sin \pi a}{\cosh \pi x + \cos \pi a} e^{- i x \xi} \, d x$,
+$0< a <1$, $\xi \in \mathbb R$ (vi)
+$\displaystyle \int_{|z| = 1} \cot^2 z \, dz$.
+
+
+**Question 85**
+
+Compute the following integrals.
+
+\(i\) $\displaystyle \int_0^\infty \frac{\sin x}{x} \, dx$ (ii)
+$\displaystyle \int_0^\infty (\frac{\sin x}{x})^2 \, dx$ (iii)
+$\displaystyle \int_0^\infty \frac{x^{a-1}}{(1 + x)^2} \, dx$,
+$0< a < 2$
+
+\(i\)
+$\displaystyle \int_0^\infty \frac{\cos a x - \cos bx}{x^2} dx$,
+$a, b >0$ (ii)
+$\displaystyle \int_0^\infty \frac{x^{a-1}}{1 + x^n} \, dx$,
+$0< a < n$
+
+\(iii\) $\displaystyle \int_0^\infty \frac{\log x}{1 + x^n} \, dx$,
+$n \geq 2$ (iv)
+$\displaystyle \int_0^\infty \frac{\log x}{(1 + x^2)^2} dx$ (v)
+$\displaystyle \int_0^{\pi} \log|1 - a \sin \theta| d \theta$,
+$a \in \mathbb C$
+
+
+**Question 86**
+
+Let $0<r<1$. Show that polynomials
+$P_n(z)  = 1 + 2z + 3 z^2 + \cdots + n z^{n-1}$ have no zeros in
+$|z|<r$ for all sufficiently large $n$'s.
+
+
+**Question 87**
+
+Let $f$ be an analytic function on a region $\Omega$. Show that $f$
+is a constant if there is a simple closed curve $\gamma$ in $\Omega$
+such that its image $f(\gamma)$ is contained in the real axis.
+
+
+**Question 88**
+
+(1) Show that $\displaystyle \frac{\pi^2}{\sin^2 \pi z}$ and
+$\displaystyle g(z) = \sum_{n = - \infty}^{ \infty} \frac{1}{(z-n)^2}$
+have the same principal part at each integer point.
+
+(2) Show that
+$\displaystyle h(z) = \frac{\pi^2}{\sin^2 \pi z} - g(z)$ is bounded
+on $\mathbb C$ and conclude that
+$\displaystyle \frac{\pi^2}{\sin^2 \pi z} = \sum_{n = - \infty}^{ \infty} \frac{1}{(z-n)^2} \, .$
+
+
+**Question 89**
+
+Let $f(z)$ be an analytic function on
+${\mathbb C} \backslash \{ z_0 \}$, where $z_0$ is a fixed point.
+Assume that $f(z)$ is bijective from
+${\mathbb C} \backslash \{ z_0 \}$ onto its image, and that $f(z)$
+is bounded outside $D_r(z_0)$, where $r$ is some fixed positive
+number. Show that there exist $a, b, c, d \in \mathbb C$ with
+$ad-bc \neq 0$, $c \neq 0$ such that
+$\displaystyle f(z) = \frac{az + b}{cz + d}$.
+
+
+**Question 90**
+
+Assume $f(z)$ is analytic in $\mathbb D: |z|<1$ and $f(0)=0$ and
+is not a rotation (i.e. $f(z) \neq e^{i \theta} z$). Show that
+$\displaystyle \sum_{n=1}^\infty f^{n}(z)$ converges uniformly to an
+analytic function on compact subsets of ${\mathbb D}$, where
+$f^{n+1}(z) = f(f^{n}(z))$.
+
+
+**Question 91**
+
+Let $f$ be a non-constant analytic function on $\mathbb D$ with
+$f(\mathbb D) \subseteq \mathbb D$. Use $\psi_{a} (f(z))$ (where
+$a=f(0)$, $\displaystyle \psi_a(z) = \frac{a - z}{1 - \bar{a}z}$) to
+prove that $\displaystyle
+\frac{|f(0)| - |z|}{1 + |f(0)||z|} \leq |f(z)| \leq
+\frac{|f(0)| + |z|}{1 - |f(0)||z|}$.
+
+
+**Question 92**
+
+Find a conformal map
+
+1.  from $\{ z: |z - 1/2| > 1/2, \text{Re}(z)>0 \}$ to $\mathbb H$
+
+2.  from $\{ z: |z - 1/2| > 1/2, |z| <1  \}$ to $\mathbb D$
+
+3.  from the intersection of the disk $|z + i| < \sqrt{2}$ with
+    ${\mathbb H}$ to ${\mathbb D}$.
+
+4.  from ${\mathbb D}  \backslash [a, 1)$ to
+    ${\mathbb D} \backslash [0, 1)$ ($0<a<1)$. \[ Short solution
+    possible using Blaschke factor\]
+
+5.  from $\{ z: |z| < 1, \text{Re}(z) > 0 \} \backslash (0, 1/2]$ to
+    $\mathbb H$.
+
+
+**Question 93**
+
+Let $C$ and $C'$ be two circles and let $z_1 \in C$, $z_2 \notin C$,
+$z'_1 \in C'$, $z'_2 \notin C'$. Show that there is a unique
+fractional linear transformation $f$ with $f(C) = C'$ and
+$f(z_1) = z'_1$, $f(z_2) = z'_2$.
+
+
+**Question 94**
+
+Assume $f_n \in H(\Omega)$ is a sequence of holomorphic functions on
+the region $\Omega$ that are uniformly bounded on compact subsets
+and $f \in H(\Omega)$ is such that the set
+$\displaystyle \{z \in \Omega: \lim_{n \rightarrow \infty} f_n(z) = f(z) \}$
+has a limit point in $\Omega$. Show that $f_n$ converges to $f$
+uniformly on compact subsets of $\Omega$.
+
+
+**Question 95**
+
+Let
+$\displaystyle{\psi_{\alpha}(z)=\frac{\alpha-z}{1-\bar{\alpha}z}}$
+with $|\alpha|<1$ and ${\mathbb D}=\{z:\ |z|<1\}$. Prove that
+
+-   $\displaystyle{\frac{1}{\pi}\iint_{{\mathbb D}} |\psi'_{\alpha}|^2 dx dy =1}$.
+
+-   $\displaystyle{\frac{1}{\pi}\iint_{{\mathbb D}} |\psi'_{\alpha}| dx dy =\frac{1-|\alpha|^2}{|\alpha|^2}
+    \log \frac{1}{1-|\alpha|^2}}$.
+
+
+**Question 96**
+
+Prove that
+$\displaystyle{f(z)=-\frac{1}{2}\left(z+\frac{1}{z}\right)}$ is a
+conformal map from half disc $\{z=x+iy:\ |z|<1,\ y>0\}$ to upper
+half plane ${\mathbb H}=\{z=x+iy:\ y>0\}$.
+
+
+**Question 97**
+
+Let $\Omega$ be a simply connected open set and let $\gamma$ be a
+simple closed contour in $\Omega$ and enclosing a bounded region $U$
+anticlockwise. Let $f: \ \Omega \to {\mathbb C}$ be a holomorphic
+function and $|f(z)|\leq M$ for all $z\in \gamma$. Prove that
+$|f(z)|\leq M$ for all $z\in U$.
+
+
+**Question 98**
+
+Compute the following integrals. (i)
+$\displaystyle \int_0^\infty \frac{x^{a-1}}{1 + x^n} \, dx$,
+$0< a < n$ (ii)
+$\displaystyle \int_0^\infty \frac{\log x}{(1 + x^2)^2}\, dx$
+
+
+**Question 99**
+
+Let $0<r<1$. Show that polynomials
+$P_n(z)  = 1 + 2z + 3 z^2 + \cdots + n z^{n-1}$ have no zeros in
+$|z|<r$ for all sufficiently large $n$'s.
+
+
+**Question 100**
+
+Let $f$ be holomorphic in a neighborhood of $D_r(z_0)$. Show that
+for any $s<r$, there exists a constant $c>0$ such that
+$$\|f\|_{(\infty, s)} \leq c \|f\|_{(1, r)},$$ where
+$\displaystyle \|f\|_{(\infty, s)} = \text{sup}_{z \in D_s(z_0)}|f(z)|$
+and $\displaystyle \|f\|_{(1, r)} = \int_{D_r(z_0)} |f(z)|dx dy$.
+
+
+**Question 101**
+
+Let $\displaystyle{\psi_{\alpha}(z)=\frac{\alpha-z}{1-\bar{\alpha}z}}$
+with $|\alpha|<1$ and ${\mathbb D}=\{z:\ |z|<1\}$. Prove that
+
+-   $\displaystyle{\frac{1}{\pi}\iint_{{\mathbb D}} |\psi'_{\alpha}|^2 dx dy =1}$.
+
+-   $\displaystyle{\frac{1}{\pi}\iint_{{\mathbb D}} |\psi'_{\alpha}| dx dy =\frac{1-|\alpha|^2}{|\alpha|^2}
+    \log \frac{1}{1-|\alpha|^2}}$.
+
+Prove that $\displaystyle{f(z)=-\frac{1}{2}\left(z+\frac{1}{z}\right)}$
+is a conformal map from half disc $\{z=x+iy:\ |z|<1,\ y>0\}$ to upper
+half plane $\mathbb H=\{z=x+iy:\ y>0\}$.
+
+
+**Question 102**
+
+Let $\Omega$ be a simply connected open set and let $\gamma$ be a simple
+closed contour in $\Omega$ and enclosing a bounded region $U$
+anticlockwise. Let $f: \ \Omega \to {\mathbb C}$ be a holomorphic
+function and $|f(z)|\leq M$ for all $z\in \gamma$. Prove that
+$|f(z)|\leq M$ for all $z\in U$.
+
+
+**Question 103**
+
+Compute the following integrals. (i)
+$\displaystyle \int_0^\infty \frac{x^{a-1}}{1 + x^n} \, dx$, $0< a < n$
+(ii) $\displaystyle \int_0^\infty \frac{\log x}{(1 + x^2)^2}\, dx$
+
+
+**Question 104**
+
+Let $0<r<1$. Show that polynomials
+$P_n(z)  = 1 + 2z + 3 z^2 + \cdots + n z^{n-1}$ have no zeros in $|z|<r$
+for all sufficiently large $n$'s.
+
+
+**Question 105**
+
+Let $f$ be holomorphic in a neighborhood of $D_r(z_0)$. Show that for
+any $s<r$, there exists a constant $c>0$ such that
+$$\|f\|_{(\infty, s)} \leq c \|f\|_{(1, r)},$$ where
+$\displaystyle \|f\|_{(\infty, s)} = \text{sup}_{z \in D_s(z_0)}|f(z)|$
+and $\displaystyle \|f\|_{(1, r)} = \int_{D_r(z_0)} |f(z)|dx dy$.
+
+
+**Question 106**
+
+Let $u(x,y)$ be harmonic and have continuous partial derivatives of
+order three in an open disc of radius $R>0$.
+
+(a) Let two points $(a,b), (x,y)$ in this disk be given. Show that
+the following integral is independent of the path in this disk
+joining these points:
+$$v(x,y) = \int_{a,b}^{x,y} ( -\frac{\partial u}{\partial y}dx +  \frac{\partial u}{\partial x}dy).$$\
+
+(b) \hfill
+
+    (i) Prove that $u(x,y)+i v(x,y)$ is an analytic function in this
+disc.
+
+    (ii) Prove that $v(x,y)$ is harmonic in this disc.
+
+
+**Question 107**
+
+(a) $f(z)= u(x,y) +i v(x,y)$ be analytic in a domain
+$D\subset {\mathbb C}$. Let $z_0=(x_0,y_0)$ be a point in $D$ which
+is in the intersection of the curves $u(x,y)= c_1$ and $v(x,y)=c_2$,
+where $c_1$ and $c_2$ are constants. Suppose that $f'(z_0)\neq 0$.
+Prove that the lines tangent to these curves at $z_0$ are
+perpendicular.
+
+(b) Let $f(z)=z^2$ be defined in ${\mathbb C}$. 
+  (i)   Describe the
+        level curves of $\mbox{\textrm Re}{(f)}$ and of $\mbox{Im}{(f)}$.
+  
+  (ii)  What are the angles of intersections between the level curves
+        $\mbox{\textrm Re}{(f)}=0$ and $\mbox{\textrm Im}{(f)}$? Is your answer in
+        agreement with part a) of this question?
+
+
+**Question 108**
+
+(a) $f: D\rightarrow {\mathbb C}$ be a continuous function, where
+$D\subset {\mathbb C}$ is a domain.Let $\alpha:[a,b]\rightarrow D$
+be a smooth curve. Give a precise definition of the *complex line
+integral* $$\int_{\alpha} f.$$
+
+(b) Assume that there exists a constant $M$ such that
+$|f(\tau)|\leq M$ for all $\tau\in \mbox{\textrm Image}(\alpha$). Prove
+that
+$$\big | \int_{\alpha} f \big |\leq M \times \mbox{\textrm length}(\alpha).$$
+
+(c) Let $C_R$ be the circle $|z|=R$, described in the
+counterclockwise direction, where $R>1$. Provide an upper bound for
+$\abs{ \int_{C_R} \dfrac{\log{(z)} }{z^2} }$ which depends
+*only* on $R$ and other constants.
+
+
+**Question 109**
+
+(a) Let $f:{\mathbb C}\rightarrow {\mathbb C}$ be an entire
+function. Assume the existence of a non-negative integer $m$, and of
+positive constants $L$ and $R$, such that for all $z$ with $|z|>R$
+the inequality $$|f(z)| \leq L |z|^m$$ holds. Prove that $f$ is a
+polynomial of degree $\leq m$.
+
+(b) Let $f:{\mathbb C}\rightarrow {\mathbb C}$ be an entire
+function. Suppose that there exists a real number M such that for
+all $z\in {\mathbb C}$ $$\mbox{\textrm Re} (f) \leq M.$$ Prove that $f$
+must be a constant.
+
+
+**Question 110**
+
+Prove that all the roots of the complex polynomial
+$$z^7 - 5 z^3 +12 =0$$ lie between the circles $|z|=1$ and $|z|=2$.
+
+
+**Question 111**
+
+(a) Let $F$ be an analytic function inside and on a simple closed
+curve $C$, except for a pole of order $m\geq 1$ at $z=a$ inside $C$.
+Prove that
+
+$$\frac{1}{2 \pi i}\oint_{C} F(\tau) d\tau = 
+\lim_{\tau\rightarrow a} \frac{d^{m-1}}{d\tau^{m-1}}\big((\tau-a)^m F(\tau))\big).$$
+
+
+**Question 112**
+
+Find the conformal map that takes the upper half-plane comformally
+onto the half-strip $\{
+w=x+iy:\ -\pi/2<x<\pi/2\ y>0\}$.
+
+
+**Question 113**
+
+Compute the integral
+$\displaystyle{\int_{-\infty}^{\infty} \frac{e^{-2\pi ix\xi}}{\cosh\pi x}dx}$
+where $\displaystyle{\cosh z=\frac{e^{z}+e^{-z}}{2}}$.
+
+
+**Question 114**
+
+Use residues to compute the integral
+\begin{align*}
+\int_{0}^{\infty} \dfrac{\cos x}{(x^2+1)^2} \mathrm{d}x
+\end{align*}
+
+
+**Question 115**
+
+State and prove the Cauchy integral formula for holomorphic
+functions.
+
+
+**Question 116**
+
+Let $f$ be an entire function and suppose that $|f(z)| \leq A|z|^2$
+for all $z$ and some constant $A$. Show that $f$ is a polynomial of
+degree $\leq 2$.
+
+
+**Question 117**
+
+1.  State the Schwarz lemma for analytic functions in the unit disc.
+
+2.  Let $f: \mathbb{D} \to \mathbb{D}$ be an analytic map from the
+    unit disc $\mathbb{D}$ into itself. Use the Schwarz lemma to
+    show that for each $a\in \mathbb{D}$ we have
+    \begin{align*}
+    \dfrac{|f'(a)|}{1-|f(a)|^2} \leq \dfrac{1}{1-|a|^2}
+    \end{align*}
+
+
+**Question 118**
+
+State the Riemann mapping theorem and prove the uniqueness part.
+
+
+**Question 119**
+
+Compute the integrals
+\begin{align*}
+\int_{|z-2|=1} \dfrac{e^z}{z(z-1)^2} \,
+\mathrm{d}z, \quad \int_0^\infty \dfrac{\cos 2x}{x^2 + 2} \, \mathrm{d}x
+\end{align*}
+
+
+**Question 120**
+
+Let $(f_n)$ be a sequence of holomorphic functions in a domain $D$.
+Suppose that $f_n \to f$ uniformly on each compact subset of $D$.
+Show that
+
+-   $f$ is holomorphic on $D$.
+
+-   $f_n' \to f'$ uniformly on each compact subset of $D$.
+
+
+**Question 121**
+
+If $f$ is a non-constant entire function, then $f(\mathbb{C})$ is
+dense in the plane.
+
+
+**Question 122**
+
+1.  State Rouche's theorem.
+
+2.  Let $f$ be analytic in a neighborhood of $0$, and satisfying
+    $f'(0) \neq 0$. Use Rouche's theorem to show that there exists a
+    neighborhood $U$ of $0$ such that $f$ is a bijection in $U$.
+
+
+**Question 123**
+
+Let $f$ be a meromorphic function in the plane such that
+\begin{align*}
+\lim_{|z|\to\infty} |f(z)| = \infty
+\end{align*}
+
+1.  Show that $f$ has only finitely many poles.
+
+2.  Show that $f$ is a rational function.
