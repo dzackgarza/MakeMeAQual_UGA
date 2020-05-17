@@ -2091,7 +2091,7 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Cauchy"
+      "Cauchy Integral Formula"
     ],
     "question": "(Cauchy's formula for \"exterior\" region) Let $\\gamma$ be piecewise\nsmooth simple closed curve with interior $\\Omega_1$ and exterior\n$\\Omega_2$. Assume $f'(z)$ exists in an open set containing $\\gamma$\nand $\\Omega_2$ and $\\lim_{z \\rightarrow \\infty } f(z) = A$. Show\nthat\n$$\\frac{1}{2 \\pi i} \\int_\\gamma \\frac{f(\\xi)}{\\xi - z} \\, d \\xi =\n\\begin{cases}\nA,          &     \\text{if\\ $z \\in \\Omega_1$}, \\\\\n-f (z) + A, &  \\text{if\\ $z \\in \\Omega_2$}\n\\end{cases}$$\n"
   },
@@ -2531,7 +2531,7 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Conformal Map",
+      "Conformal Maps",
       "Integrals",
       "Analysis"
     ],

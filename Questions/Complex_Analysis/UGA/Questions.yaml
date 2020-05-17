@@ -959,7 +959,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Cauchy 
+    - Cauchy Integral Formula
   question: |
     (Cauchy's formula for "exterior" region) Let $\gamma$ be piecewise
     smooth simple closed curve with interior $\Omega_1$ and exterior
@@ -1678,7 +1678,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Conformal Map
+    - Conformal Maps
     - Integrals
     - Analysis
   question: |
