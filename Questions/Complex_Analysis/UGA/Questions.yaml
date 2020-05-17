@@ -510,7 +510,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Analytic Functions
   question: |
     Let $f: {\mathbb C} \rightarrow {\mathbb C}$ be an injective
     analytic (also called univalent) function. Show that there exist
@@ -523,7 +523,9 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Analytic Functions
+    - Analysis
+    - Conformal Maps
   question: |
     Let $g$ be analytic for $|z|\leq 1$ and $|g(z)| < 1$ for $|z| = 1$.
 
@@ -550,7 +552,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Conformal Maps
   question: |
     Find a conformal map from $D = \{z :\  |z| < 1,\ |z - 1/2| > 1/2\}$
     to the unit disk $\Delta=\{z: \ |z|<1\}$.
@@ -562,33 +564,19 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Entire Functions
   question: |
     Let $f(z)$ be entire and assume values of $f(z)$ lie outside a
     *bounded* open set $\Omega$. Show without using Picard's theorems
     that $f(z)$ is a constant.
 
 
-
 - year: Extra 
   number: 0 
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
-  question: |
-    Let $f(z)$ be entire and assume values of $f(z)$ lie outside a *bounded*
-    open set $\Omega$. Show without using Picard's theorems that $f(z)$ is a
-    constant.
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Complex
+    - Liouville's Theorem
   question: |
     (1) Assume $\displaystyle f(z) = \sum_{n=0}^\infty c_n z^n$ converges
     in $|z| < R$. Show that for $r <R$,
@@ -604,7 +592,8 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Entire Functions
+    - Analysis
   question: |
     Let $f(z)$ be entire and assume that $f(z) \leq M |z|^2$ outside some
     disk for some constant $M$. Show that $f(z)$ is a polynomial in $z$ of
@@ -617,7 +606,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Convergence
   question: |
     Let $a_n(z)$ be an analytic sequence in a domain $D$ such that
     $\displaystyle \sum_{n=0}^\infty |a_n(z)|$ converges uniformly on
@@ -633,7 +622,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Analytic Functions
   question: |
     Let $f(z)$ be analytic in an open set $\Omega$ except possibly at a
     point $z_0$ inside $\Omega$. Show that if $f(z)$ is bounded in near
@@ -647,7 +636,8 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Analysis
+    - Limits
   question: |
     Assume $f$ is continuous in the region:
     $0< |z-a| \leq R, \; 0 \leq \arg(z-a) \leq \beta_0$
@@ -663,7 +653,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - PDEs
   question: |
     Show that $f(z) = z^2$ is uniformly continuous in any open disk
     $|z| < R$, where $R>0$ is fixed, but it is not uniformly continuous on
@@ -683,7 +673,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Integrals
   question: |
     This question provides some insight into Cauchy's theorem. Solve the
     problem without using Cauchy's theorem.
@@ -707,7 +697,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Liouville's Theorem
   question: |
     (1) Assume the infinite series
     $\displaystyle  \sum_{n=0}^\infty c_n z^n$ converges in $|z| < R$
@@ -715,8 +705,9 @@
     $$\frac{1}{2 \pi} \int_0^{2 \pi} |f(r e^{i \theta})|^2 d \theta =
     \sum_{n=0}^\infty |c_n|^2 r^{2n} \; .$$
 
-    (2) Deduce Liouville's theorem from (1). Liouville's theorem: If
-    $f(z)$ is entire and bounded, then $f$ is constant.
+    (2) Deduce Liouville's theorem from (1). 
+
+    > Liouville's theorem: If $f(z)$ is entire and bounded, then $f$ is constant.
 
 
 
@@ -725,13 +716,16 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Analysis
+    - Limits
   question: |
     Let $f$ be a continuous function in the region
     $$D=\{z\ |  |z|>R, 0\leq \arg Z\leq \theta\}\quad\text{where}\quad
-    0\leq \theta \leq 2\pi.$$ If there exists $k$ such that
+    0\leq \theta \leq 2\pi.$$ 
+    If there exists $k$ such that
     $\displaystyle{\lim_{z\to\infty} zf(z)=k}$ for $z$ in the region
-    $D$. Show that $$\lim_{R'\to\infty} \int_{L} f(z) dz=i\theta k,$$
+    $D$. 
+    Show that $$\lim_{R'\to\infty} \int_{L} f(z) dz=i\theta k,$$
     where $L$ is the part of the circle $|z|=R'$ which lies in the
     region $D$.
 
@@ -742,7 +736,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Integrals
   question: |
     Evaluate $\displaystyle{ \int_{0}^{\infty}\frac{x\sin x}{x^2+a^2} \,
     dx }$.
@@ -754,7 +748,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Cauchy-Riemann
   question: |
     Let $f=u+iv$ be differentiable (i.e. $f'(z)$ exists) with continuous
     partial derivatives at a point $z=re^{i\theta}$, $r\not= 0$. Show
@@ -769,7 +763,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Integrals
   question: |
     Show that $\displaystyle \int_0^\infty \frac{x^{a-1}}{1+x^n}
     dx=\frac{\pi}{n\sin \frac{a\pi}{n}}$ using complex analysis, $0< a <
@@ -782,7 +776,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Integrals
   question: |
     For $s>0$, the **gamma function** is defined by
     $\displaystyle{\Gamma(s)=\int_0^{\infty} e^{-t}t^{s-1} dt}$.
@@ -802,7 +796,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Rouche
   question: |
     Apply Rouché's Theorem to prove the Fundamental Theorem of Algebra: If
     $$P_n(z) = a_0 + a_1z + \cdots + a_{n-1}z^{n-1} + a_nz^n\quad  (a_n \neq 0)$$
@@ -815,12 +809,16 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Entire Functions
+    - Analysis
   question: |
     Suppose $f$ is entire and there exist $A, R >0$ and natural number
     $N$ such that $$|f(z)| \geq A |z|^N\ \text{for}\ |z| \geq R.$$ Show
-    that (i) $f$ is a polynomial and (ii) the degree of $f$ is at least
-    $N$.
+    that 
+    
+    (i) $f$ is a polynomial and 
+    
+    (ii) the degree of $f$ is at least $N$.
 
 
 
