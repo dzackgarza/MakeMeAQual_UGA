@@ -8,7 +8,7 @@ with open(r'combined_questions.yaml') as file:
 print("Read YAML questions")
 
 Algebra_qs = [q for q in qs if q['exam'] == "Algebra"]
-Real_qs = [q for q in qs if q['exam'] == "Real Analysis"]
+Real_qs = [q for q in qs if q['exam'] == "Real_Analysis"]
 Complex_qs = [q for q in qs if q['exam'] == "Complex_Analysis"]
 Topology_qs = [q for q in qs if q['exam'] == "Topology"]
 
