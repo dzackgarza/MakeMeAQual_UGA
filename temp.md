@@ -2,6 +2,8 @@
 title: Question Database
 ---
 
+\setcounter{tocdepth}{-1}
+
 # Algebra
 
 ## Question 1
