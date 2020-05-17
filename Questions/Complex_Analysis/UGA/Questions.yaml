@@ -1056,7 +1056,8 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Analytic Functions
+    - Singularities
   question: |
     Let $f(z)$ be a non-constant analytic function in $|z|>0$ such that
     $f(z_n) = 0$ for infinite many points $z_n$ with
@@ -1071,7 +1072,8 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Entire Functions
+    - Limits
   question: |
     Let $f$ be entire and suppose that
     $\lim_{z \rightarrow \infty} f(z) = \infty$. Show that $f$ is a
@@ -1083,7 +1085,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Laurent Series
   question: |
     Expand the following functions into Laurent series in the indicated
     regions:
@@ -1101,7 +1103,8 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Analytic Functions
+    - Analysis
   question: |
     Assume $f(z)$ is analytic in region $D$ and $\Gamma$ is a
     rectifiable curve in $D$ with interior in $D$. Prove that if $f(z)$
@@ -1126,7 +1129,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Rouche
   question: |
     Prove that $z^4 + 2 z^3 - 2z + 10 =0$ has exactly one root in each
     open quadrant.
@@ -1141,7 +1144,7 @@
     - Complex
   question: |
     (1) Let $f(z) \in H({\mathbb D})$, $\text{Re}(f(z)) >0$,
-    $f(0)= a>0$. Show that $$|\frac{f(z)-a}{f(z)+a}| \leq |z|, \; \; \;
+    $f(0)= a>0$. Show that $$\abs{ \frac{f(z)-a}{f(z)+a}} \leq |z|, \; \; \;
     |f'(0)| \leq 2a.$$
 
     (2) Show that the above is still true if $\text{Re}(f(z)) >0$ is
