@@ -10,10 +10,10 @@ json:
 testpdf:
 	@ find ./Questions -type f -iname "*.yaml" -exec cat {} + > combined_questions.yaml
 	./make_md_doc.py
-	latex_preview -f combined_questions.md -v
+	latex_preview -f Combined_Questions.md -v
 
 
-cleanup:
+clean:
 	rm combined_questions.*
 
 .ONESHELL:

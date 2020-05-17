@@ -12,6 +12,12 @@ Real_qs = [q for q in qs if q['exam'] == "Real Analysis"]
 Complex_qs = [q for q in qs if q['exam'] == "Complex_Analysis"]
 Topology_qs = [q for q in qs if q['exam'] == "Topology"]
 
+out_str = """---
+title: Combined Qual Questions
+---
+
+"""
+
 out_str += f"# Algebra ({len(Algebra_qs)} Questions)\n"
 out_str += "\n".join([f"\n**Question {i+1}**\n\n" + q['question'] for i, q in enumerate(Algebra_qs)])
 
