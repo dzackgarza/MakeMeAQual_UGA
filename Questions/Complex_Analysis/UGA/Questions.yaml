@@ -983,7 +983,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Cauchy 
   question: |
     (Cauchy's formula for "exterior" region) Let $\gamma$ be piecewise
     smooth simple closed curve with interior $\Omega_1$ and exterior
@@ -1003,7 +1003,9 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Analytic Functions
+    - Limits
+    - Liouville's Theorem
   question: |
     Let $f(z)$ be bounded and analytic in $\mathbb C$. Let $a \neq b$ be
     any fixed complex numbers. Show that the following limit exists
@@ -1018,7 +1020,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Integrals
   question: |
     Prove by *justifying all steps* that for all $\xi \in {\mathbb C}$
     we have $\displaystyle
@@ -1035,16 +1037,16 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Holomorphic Functions
   question: |
     Suppose that $f$ is holomorphic in an open set containing the closed
     unit disc, except for a pole at $z_0$ on the unit circle. Let
-    $\displaystyle
-    %f(z) = \sum_{n = 1}^\infty a_n z^n
-    f(z) = \sum_{n = 1}^\infty c_n z^n$ denote the the power series in
-    the open disc. Show that (1) $c_n \neq 0$ for all large enough
-    $n$'s, and (2)
-    $\displaystyle \lim_{n \rightarrow \infty} \frac{c_n}{c_{n+1}}= z_0$.
+    $f(z) = \sum_{n = 1}^\infty c_n z^n$ denote the power series in
+    the open disc. Show that 
+
+    (1) $c_n \neq 0$ for all large enough $n$'s, and 
+    
+    (2) $\displaystyle \lim_{n \rightarrow \infty} \frac{c_n}{c_{n+1}}= z_0$.
 
 
 
