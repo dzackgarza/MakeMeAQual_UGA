@@ -1141,7 +1141,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Analysis 
   question: |
     (1) Let $f(z) \in H({\mathbb D})$, $\text{Re}(f(z)) >0$,
     $f(0)= a>0$. Show that $$\abs{ \frac{f(z)-a}{f(z)+a}} \leq |z|, \; \; \;
@@ -1157,7 +1157,8 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Analytic Functions
+    - Convergence
   question: |
     Assume $f(z)$ is analytic in ${\mathbb D}$ and $f(0)=0$ and is not a
     rotation (i.e. $f(z) \neq e^{i \theta} z$). Show that
@@ -1172,7 +1173,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Analytic Functions
   question: |
     Let $f(z) = \sum_{n=0}^\infty c_n z^n$ be analytic and one-to-one in
     $|z| < 1$. For $0<r<1$, let $D_r$ be the disk $|z|<r$. Show that the
@@ -1187,7 +1188,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Analytic Functions
   question: |
     Let $f(z) = \sum_{n= -\infty}^\infty c_n z^n$ be analytic and
     one-to-one in $r_0< |z| < R_0$. For $r_0<r<R<R_0$, let $D(r,R)$ be
@@ -1202,7 +1203,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Convergence
   question: |
     Let $a_n(z)$ be an analytic sequence in a domain $D$ such that
     $\displaystyle \sum_{n=0}^\infty |a_n(z)|$ converges uniformly on
@@ -1217,7 +1218,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Analytic Functions
   question: |
     Let $f_n, f$ be analytic functions on the unit disk ${\mathbb D}$.
     Show that the following are equivalent.
@@ -1235,7 +1236,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Analytic Functions
   question: |
     Let $f$ and $g$ be non-zero analytic functions on a region $\Omega$.
     Assume $|f(z)| = |g(z)|$ for all $z$ in $\Omega$. Show that
@@ -1250,7 +1251,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Analytic Functions
   question: |
     Suppose $f$ is analytic in an open set containing the unit disc
     $\mathbb D$ and $|f(z)| =1$ when $|z|$=1. Show that either
@@ -1268,11 +1269,11 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Complex
+    - Analysis 
   question: |
     (1) Let $p(z)$ be a polynomial, $R>0$ any positive number, and
     $m \geq 1$ an integer. Let
-    $M_R = \sup \{ |z^{m} p(z) - 1|: |z| = R  \}$. Show that $M_R>1$.
+    $$M_R = \sup \{ |z^{m} p(z) - 1|: |z| = R  \}.$$ Show that $M_R>1$.
 
     (2) Let $m \geq 1$ be an integer and
     $K = \{z \in {\mathbb C}: r \leq |z| \leq R \}$ where $r<R$.
