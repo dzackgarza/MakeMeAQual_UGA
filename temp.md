@@ -1784,7 +1784,9 @@ so that for some $a\in\mathbb Z$ we have $\sigma\varphi_1(k)\sigma\inv
 \rtimes_{\varphi_1}K\rightarrow H\rtimes_{\varphi_2}K$
 defined by $\psi((h,k))=(\sigma(h),k^a)$ is a homomorphism.
 Show $\psi$ is bijective by construcing a 2-sided inverse.
+
 # Real Analysis (0 Questions)
+
 # Complex Analysis (123 Questions)
 
 **Question 1**
@@ -3068,3 +3070,9 @@ Let $f$ be a meromorphic function in the plane such that
 1.  Show that $f$ has only finitely many poles.
 
 2.  Show that $f$ is a rational function.
+
+# Topology (1 Questions)
+
+**Question 1**
+
+Something something $G$.
