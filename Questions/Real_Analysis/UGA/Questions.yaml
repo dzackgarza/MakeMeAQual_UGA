@@ -996,4 +996,93 @@
     $$
 
 
+- year: 2015
+  season: Fall
+  exam: Real_Analysis
+  number: 1
+  tags:
+    - Analysis
+  question: |
+    Define
+    $$
+    f(x)=c_{0}+c_{1} x^{1}+c_{2} x^{2}+\ldots+c_{n} x^{n} \text { with } n \text { even and } c_{n}>0.
+    $$
+
+    Show that there is a number $x_m$ such that $f(x_m) \leq f(x)$ for all $x\in \RR$.
+
+
+- year: 2015
+  season: Fall
+  exam: Real_Analysis
+  number: 2
+  tags:
+    - Analysis
+  question: |
+    Let $f: \RR \to \RR$ be Lebesgue measurable.
+
+    1. Show that there is a sequence of simple functions $s_n(x)$ such that $s_n(x) \to f(x)$ for all $x\in \RR$.
+    2. Show that there is a Borel measurable function $g$ such that $g = f$ almost everywhere.
+
+
+- year: 2015
+  season: Fall
+  exam: Real_Analysis
+  number: 3
+  tags:
+    - Analysis
+  question: |
+    Compute the following limit:
+    $$
+    \lim _{n \rightarrow \infty} \int_{1}^{n} \frac{n e^{-x}}{1+n x^{2}} ~\sin \left(\frac x n\right) ~d x
+    $$
+
+
+- year: 2015
+  season: Fall
+  exam: Real_Analysis
+  number: 4
+  tags:
+    - Analysis
+  question: |
+    Let $f: [1, \infty) \to \RR$ such that $f(1) = 1$ and
+    $$
+    f^{\prime}(x)= \frac{1} {x^{2}+f(x)^{2}}
+    $$
+
+    Show that the following limit exists and satisfies the equality
+    $$
+    \lim _{x \rightarrow \infty} f(x) \leq 1 + \frac \pi 4
+    $$
+
+
+- year: 2015
+  season: Fall
+  exam: Real_Analysis
+  number: 5
+  tags:
+    - Analysis
+  question: |
+    Let $f, g \in L^1(\RR)$ be Borel measurable.
+
+    1. Show that 
+      - The function $$F(x, y) \definedas f(x-y) g(y)$$ is Borel measurable on $\RR^2$, and
+      - For almost every $y\in \RR$, $$F_y(x) \definedas f(x-y)g(y)$$ is integrable with respect to $y$.
+    2. Show that $f\ast g \in L^1(\RR)$ and
+    $$
+    \|f * g\|_{1} \leq\|f\|_{1}\|g\|_{1}
+    $$
+
+
+- year: 2015
+  season: Fall
+  exam: Real_Analysis
+  number: 6
+  tags:
+    - Analysis
+  question: |
+    Let $f: [0, 1] \to \RR$ be continuous.
+    Show that
+    $$
+    \sup \left\{\|f g\|_{1} \suchthat g \in L^{1}[0,1],~~ \|g\|_{1} \leq 1\right\}=\|f\|_{\infty}
+
 
