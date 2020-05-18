@@ -1,10 +1,10 @@
 - year: 2019
-  season: Fall
+  season: Spring
   exam: Real_Analysis
   number: 1
   tags:
     - Function Spaces
-    - Normed Spaces
+    - Norms 
     - Completeness
   question: |
     Let $C([0, 1])$ denote the space of all continuous real-valued functions on $[0, 1]$.
@@ -13,7 +13,7 @@
     b. Prove that $C([0, 1])$ is not complete under the $L^1\dash$norm $\norm{f}_1 = \displaystyle\int_0^1 |f (x)| ~dx$.
 
 - year: 2019
-  season: Fall
+  season: Spring
   exam: Real_Analysis
   number: 2
   tags:
@@ -33,7 +33,7 @@
 
 
 - year: 2019
-  season: Fall
+  season: Spring
   exam: Real_Analysis
   number: 3
   tags:
@@ -54,7 +54,7 @@
 
 
 - year: 2019
-  season: Fall
+  season: Spring
   exam: Real_Analysis
   number: 4
   tags:
@@ -74,7 +74,7 @@
 
 
 - year: 2019
-  season: Fall
+  season: Spring
   exam: Real_Analysis
   number: 5
   tags:
@@ -108,7 +108,7 @@
 
 
 - year: 2019
-  season: Spring
+  season: Fall
   exam: Real_Analysis
   number: 1
   tags:
@@ -130,7 +130,7 @@
 
 
 - year: 2019
-  season: Spring
+  season: Fall
   exam: Real_Analysis
   number: 2
   tags:
@@ -148,7 +148,7 @@
 
 
 - year: 2019
-  season: Spring
+  season: Fall
   exam: Real_Analysis
   number: 3
   tags:
@@ -175,21 +175,154 @@
 
 
 - year: 2019
+  season: Fall
+  exam: Real_Analysis
+  number: 4
+  tags:
+    - Functional Analysis
+    - Hilbert Spaces
+    - Norms
+  question: |
+    Let $\{u_n\}_{n=1}^∞$ be an orthonormal sequence in a Hilbert space $\mathcal{H}$.
+
+    a. Prove that for every $x ∈ \mathcal H$ one has 
+    $$
+    \displaystyle\sum_{n=1}^{\infty}\left|\left\langle x, u_{n}\right\rangle\right|^{2} \leq\|x\|^{2}
+    $$
+
+    b. Prove that for any sequence $\{a_n\}_{n=1}^\infty \in \ell^2(\NN)$ there exists an element $x\in\mathcal H$ such that 
+    $$
+    a_n = \inner{x}{u_n} \text{ for all } n\in \NN
+    $$
+    and
+    $$
+    \norm{x}^2 = \sum_{n=1}^{\infty}\left|\left\langle x, u_{n}\right\rangle\right|^{2}
+    $$
+
+
+
+- year: 2019
+  season: Fall
+  exam: Real_Analysis
+  number: 5
+  tags:
+    - Integrals
+    - Norms
+  question: |
+    a. Show that if $f$ is continuous with compact support on $\RR$, then 
+    $$
+    \lim _{y \rightarrow 0} \int_{\mathbb{R}}|f(x-y)-f(x)| d x=0
+    $$
+
+    b. Let $f\in L^1(\RR)$ and for each $h > 0$ let 
+    $$
+    \mathcal{A}_{h} f(x):=\frac{1}{2 h} \int_{|y| \leq h} f(x-y) d y
+    $$
+
+    i. Prove that $\left\|\mathcal{A}_{h} f\right\|_{1} \leq\|f\|_{1}$ for all $h > 0$.
+
+    ii. Prove that $\mathcal{A}_h f → f$ in $L^1(\RR)$ as $h → 0^+$.
+
+- year: 2018
+  season: Spring
+  exam: Real_Analysis
+  number: 1
+  tags:
+    - Borel-Cantelli
+  question: |
+    Define
+    $$
+    E:=\left\{x \in \mathbb{R}:\left|x-\frac{p}{q}\right|<q^{-3} \text { for infinitely many } p, q \in \mathbb{N}\right\}.
+    $$
+
+    Prove that $m(E) = 0$.
+
+
+
+- year: 2018
+  season: Spring
+  exam: Real_Analysis
+  number: 2
+  tags:
+    - Uniform Convergence
+    - Integrals
+    - Convergence of Integrals
+  question: |
+    Let
+    $$
+    f_{n}(x):=\frac{x}{1+x^{n}}, \quad x \geq 0.
+    $$
+
+    a. Show that this sequence converges pointwise and find its limit. Is the convergence uniform on $[0, \infty)$?
+
+    b. Compute 
+    $$
+    \lim _{n \rightarrow \infty} \int_{0}^{\infty} f_{n}(x) d x
+    $$
+
+
+
+- year: 2018
+  season: Spring
+  exam: Real_Analysis
+  number: 3
+  tags:
+    - Integrals
+    - Convergence of Integrals
+    - Lp Spaces
+    - Norms
+  question: |
+    Let $f$ be a non-negative measurable function on $[0, 1]$. 
+
+    Show that
+    $$
+    \lim _{p \rightarrow \infty}\left(\int_{[0,1]} f(x)^{p} d x\right)^{\frac{1}{p}}=\|f\|_{\infty}.
+    $$
+
+
+
+- year: 2018
   season: Spring
   exam: Real_Analysis
   number: 4
   tags:
-    - Analysis
+    - Lp Spaces
+    - Integrals
   question: |
+    Let $f\in L^2([0, 1])$ and suppose
+    $$
+    \int_{[0,1]} f(x) x^{n} d x=0 \text { for all integers } n \geq 0.
+    $$
+    Show that $f = 0$ almost everywhere.
 
 
-- year: 2019
+- year: 2018
   season: Spring
   exam: Real_Analysis
   number: 5
   tags:
+    - Convergence of Integrals
+    - Convergence of Functions
+    - Lp Spaces
+  question: |
+    Suppose that
+
+    - $f_n, f \in L^1$,
+    - $f_n \to f$ almost everywhere, and
+    - $\int\left|f_{n}\right| \rightarrow \int|f|$.
+
+    Show that $\int f_{n} \rightarrow \int f$
+
+- year: 2018
+  season: Fall
+  exam: Real_Analysis
+  number: 1
+  tags:
     - Analysis
   question: |
+
+
+
 
 
 
