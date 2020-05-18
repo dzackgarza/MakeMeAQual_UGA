@@ -1,7 +1,7 @@
 SHELL:=/bin/zsh
 
 define renew_md = 
-{echo "---\n title: UGA Qualifying Exam Questions\n book: true\n---\n\n" && fd --full-path ./sections | sort -nr | sed 'N;s/\(.*\)\n\(.*\)/\2\n\1/' | grep "md" | sort -n | awk -F ":" '{print "!include " $$1 "\n";}' } > CombinedQuestions.md 2>&1
+{echo "---\n title: UGA Qualifying Exam Questions\n book: true\n---\n\n" && fd --full-path ./sections | sort -n | sed 'N;s/\(.*\)\n\(.*\)/\2\n\1/' | grep "md" | sort -nr | awk -F ":" '{print "!include " $$1 "\n";}' } > CombinedQuestions.md 2>&1
 endef
 
 renew: 
