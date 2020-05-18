@@ -318,7 +318,7 @@
   exam: Real_Analysis
   number: 1
   tags:
-    - Analysis
+    - Uniform Continuity
   question: |
     Let $f(x) = \frac 1 x$.
     Show that $f$ is uniformly continuous on $(1, \infty)$ but not on $(0,\infty)$.
@@ -329,7 +329,8 @@
   exam: Real_Analysis
   number: 2
   tags:
-    - Analysis
+    - Measure Theory
+    - Lebesgue Measure
   question: |
     Let $E\subset \RR$ be a Lebesgue measurable set.
     Show that there is a Borel set $B \subset E$ such that $m(E\setminus B) = 0$.
@@ -340,7 +341,7 @@
   exam: Real_Analysis
   number: 3
   tags:
-    - Analysis
+    - Integrals
   question: |
     Suppose $f(x)$ and $xf(x)$ are integrable on $\RR$.
     Define $F$ by
@@ -359,7 +360,8 @@
   exam: Real_Analysis
   number: 4
   tags:
-    - Analysis
+    - Lp Spaces
+    - Integrals
   question: |
     Let $f\in L^1([0, 1])$.
     Prove that
@@ -376,7 +378,7 @@
   exam: Real_Analysis
   number: 5
   tags:
-    - Analysis
+    - Fubini-Tonelli 
   question: |
     Let $f \geq 0$ be a measurable function on $\RR$.
     Show that
@@ -388,7 +390,8 @@
   exam: Real_Analysis
   number: 1
   tags:
-    - Analysis
+    - Integrals
+    - Convergence of Integrals
   question: |
     Compute the following limit and justify your calculations:
     $$
