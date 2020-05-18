@@ -786,7 +786,8 @@
   exam: Real_Analysis
   number: 1
   tags:
-    - Analysis
+    - Uniform Convergence
+    - Series of Numbers
   question: |
     Define
     $$
@@ -809,7 +810,7 @@
   exam: Real_Analysis
   number: 2
   tags:
-    - Analysis
+    - Measure Theory
   question: |
     Let $f, g: [a, b] \to \RR$ be measurable with
     $$
@@ -830,7 +831,9 @@
   exam: Real_Analysis
   number: 3
   tags:
-    - Analysis
+    - L1
+    - Norms
+    - Convergence of Integrals
   question: |
     Let $f\in L^1(\RR)$.
     Show that
@@ -844,7 +847,8 @@
   exam: Real_Analysis
   number: 4
   tags:
-    - Analysis
+    - Measure Theory
+    - Borel-Cantelli
   question: |
     Let $(X, \mathcal M, \mu)$ be a measure space and suppose $\theset{E_n} \subset \mathcal M$ satisfies
     $$
@@ -864,7 +868,9 @@
   exam: Real_Analysis
   number: 5
   tags:
-    - Analysis
+    - Lp Spaces
+    - Integrals
+    - Sequences of Functions
   question: |
     Let $\phi\in L^\infty(\RR)$. Show that the following limit exists and satisfies the equality
     $$
@@ -877,7 +883,8 @@
   exam: Real_Analysis
   number: 6
   tags:
-    - Analysis
+    - L2
+    - Convergence of Integrals
   question: |
     Let $f, g \in L^2(\RR)$. Show that
     $$
