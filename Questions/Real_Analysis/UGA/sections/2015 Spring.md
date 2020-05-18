@@ -43,7 +43,7 @@ Carefully show that $f \in L^1(\RR^2)$.
 Let $\mathcal H$ be a Hilbert space.
 
 1. Let $x\in \mathcal H$ and $\theset{u_n}_{n=1}^N$ be an orthonormal set.
-  Prove that the best approximation to $x$ in $\mathcal H$ by an element in $\spanof_CC\theset{u_n}$ is given by
+  Prove that the best approximation to $x$ in $\mathcal H$ by an element in $\spanof_\CC\theset{u_n}$ is given by
   $$
   \hat x \definedas \sum_{n=1}^N \inner{x}{u_n}u_n.
   $$
