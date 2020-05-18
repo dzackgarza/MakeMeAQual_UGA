@@ -320,6 +320,89 @@
   tags:
     - Analysis
   question: |
+    Let $f(x) = \frac 1 x$.
+    Show that $f$ is uniformly continuous on $(1, \infty)$ but not on $(0,\infty)$.
+
+
+- year: 2018
+  season: Fall
+  exam: Real_Analysis
+  number: 2
+  tags:
+    - Analysis
+  question: |
+    Let $E\subset \RR$ be a Lebesgue measurable set.
+    Show that there is a Borel set $B \subset E$ such that $m(E\setminus B) = 0$.
+
+
+- year: 2018
+  season: Fall
+  exam: Real_Analysis
+  number: 3
+  tags:
+    - Analysis
+  question: |
+    Suppose $f(x)$ and $xf(x)$ are integrable on $\RR$.
+    Define $F$ by
+    $$
+    F(t):=\int_{-\infty}^{\infty} f(x) \cos (x t) d x
+    $$
+    Show that 
+    $$
+    F'(t)=-\int_{-\infty}^{\infty} x f(x) \sin (x t) d x.
+    $$
+
+
+
+- year: 2018
+  season: Fall
+  exam: Real_Analysis
+  number: 4
+  tags:
+    - Analysis
+  question: |
+    Let $f\in L^1([0, 1])$.
+    Prove that
+    $$
+    \lim_{n \to \infty} \int_{0}^{1} f(x) \abs{\sin n x} ~d x= \frac{2}{\pi} \int_{0}^{1} f(x) ~d x
+    $$
+
+    > Hint: Begin with the case that $f$ is the characteristic function of an interval.
+
+
+
+- year: 2018
+  season: Fall
+  exam: Real_Analysis
+  number: 5
+  tags:
+    - Analysis
+  question: |
+    Let $f \geq 0$ be a measurable function on $\RR$.
+    Show that
+    $$
+    \int_{\mathbb{R}} f=\int_{0}^{\infty} m(\{x: f(x)>t\}) d t
+
+- year: 2018
+  season: Fall
+  exam: Real_Analysis
+  number: 1
+  tags:
+    - Analysis
+  question: |
+    Compute the following limit and justify your calculations:
+    $$
+    \lim_{n \rightarrow \infty} \int_{1}^{n} \frac{d x}{\left(1+\frac{x}{n}\right)^{n} \sqrt[n]{x}}
+    $$
+
+
+- year: 2018
+  season: Fall
+  exam: Real_Analysis
+  number: 1
+  tags:
+    - Analysis
+  question: |
 
 
 
