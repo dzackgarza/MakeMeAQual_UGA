@@ -1,5 +1,5 @@
 - year: 2019
-  season: Spring
+  season: Fall
   exam: Real_Analysis
   number: 1
   tags:
@@ -13,7 +13,7 @@
     b. Prove that $C([0, 1])$ is not complete under the $L^1\dash$norm $\norm{f}_1 = \displaystyle\int_0^1 |f (x)| ~dx$.
 
 - year: 2019
-  season: Spring
+  season: Fall
   exam: Real_Analysis
   number: 2
   tags:
@@ -33,12 +33,12 @@
 
 
 - year: 2019
-  season: Spring
+  season: Fall
   exam: Real_Analysis
   number: 3
   tags:
     - Lp Spaces
-    - Convergence
+    - Convergence of Functions
     - Fatou's Lemma
     - Egorov's Theorem
   question: |
@@ -54,7 +54,7 @@
 
 
 - year: 2019
-  season: Spring
+  season: Fall
   exam: Real_Analysis
   number: 4
   tags:
@@ -74,7 +74,7 @@
 
 
 - year: 2019
-  season: Spring
+  season: Fall
   exam: Real_Analysis
   number: 5
   tags:
@@ -105,6 +105,91 @@
         $$
         \|g\|_{L^{\infty}([0,1])}=\|\Lambda\|_{L^{1}([0,1])\dual}
         $$
+
+
+- year: 2019
+  season: Spring
+  exam: Real_Analysis
+  number: 1
+  tags:
+    - Analysis
+    - Convergence of Numbers
+  question: |
+    Let $\{a_n\}_{n=1}^\infty$ be a sequence of real numbers.
+
+    a. Prove that if $\displaystyle\lim_{n→∞} a_n = 0$, then $\displaystyle\lim_{n→∞} a_1 + \cdots + a_n = 0$.
+    $$
+    \lim _{n \rightarrow \infty} \frac{a_{1}+\cdots+a_{n}}{n}=0
+    $$
+
+    b. Prove that if $\displaystyle\sum_{n=1}^{\infty} \frac{a_{n}}{n}$ converges, then 
+    $$
+    \lim _{n \rightarrow \infty} \frac{a_{1}+\cdots+a_{n}}{n}=0
+    $$
+
+
+
+- year: 2019
+  season: Spring
+  exam: Real_Analysis
+  number: 2
+  tags:
+    - Analysis
+    - Integrals
+  question: |
+    Prove that
+    $$
+    \left|\frac{d^{n}}{d x^{n}} \frac{\sin x}{x}\right| \leq \frac{1}{n}
+    $$
+
+    for all $x \neq 0$ and positive integers $n$.
+
+    > Hint: Consider $\displaystyle\int_0^1 \cos(tx) dt$
+
+
+- year: 2019
+  season: Spring
+  exam: Real_Analysis
+  number: 3
+  tags:
+    - Measure Theory
+    - Borel-Cantelli
+  question: |
+    Let $(X, \mathcal B, µ)$ be a measure space with $µ(X) = 1$ and $\{B_n\}_{n=1}^\infty$ be a sequence of $\mathcal B$-measurable subsets of $X$, and
+    $$
+    B \definedas \theset{x\in X \suchthat x\in B_n \text{ for infinitely many } n}.
+    $$
+
+    a. Argue that $B$ is also a $\mathcal{B} \dash$measurable subset of $X$.
+
+    b. Prove that if $\sum_{n=1}^\infty \mu(B_n) < \infty$ then $\mu(B)= 0$.
+
+    c. Prove that if  $\sum_{n=1}^\infty \mu(B_n) = \infty$ **and** the sequence of set complements $\theset{B_n^c}_{n=1}^\infty$ satisfies
+    $$
+    \mu\left(\bigcap_{n=k}^{K} B_{n}^{c}\right)=\prod_{n=k}^{K}\left(1-\mu\left(B_{n}\right)\right)
+    $$
+    for all positive integers $k$ and $K$ with $k < K$, then $µ(B) = 1$.
+
+    > Hint: Use the fact that $1 - x ≤ e^{-x}$ for all $x$.
+
+
+
+- year: 2019
+  season: Spring
+  exam: Real_Analysis
+  number: 4
+  tags:
+    - Analysis
+  question: |
+
+
+- year: 2019
+  season: Spring
+  exam: Real_Analysis
+  number: 5
+  tags:
+    - Analysis
+  question: |
 
 
 
