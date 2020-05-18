@@ -662,7 +662,8 @@
   exam: Real_Analysis
   number: 1
   tags:
-    - Analysis
+    - Bernoulli
+    - Sequences of Numbers
   question: |
     For $n\in \NN$, define
     $$
@@ -689,7 +690,7 @@
   exam: Real_Analysis
   number: 2
   tags:
-    - Analysis
+    - Cantor Set
   question: |
     Let $0 < \lambda < 1$ and construct a Cantor set $C_\lambda$ by successively removing middle intervals of length $\lambda$.
 
@@ -701,7 +702,8 @@
   exam: Real_Analysis
   number: 3
   tags:
-    - Analysis
+    - Measure Theory
+    - Continuity
   question: |
     Let $f$ be Lebesgue measurable on $\RR$ and $E \subset \RR$ be measurable such that
     $$
@@ -719,7 +721,10 @@
   exam: Real_Analysis
   number: 4
   tags:
-    - Analysis
+    - Uniform Continuity
+    - Measure Theory
+    - L1
+    - Integrability
   question: |
     Let $E \subset \RR$ be measurable with $m(E) < \infty$. 
     Define
