@@ -18,7 +18,6 @@
   number: 2
   tags:
     - Measure Theory 
-    - Lebesgue Measure
   question: |
     Let $\mathcal B$ denote the set of all Borel subsets of $\RR$ and $\mu : \mathcal B → [0, \infty)$ denote a finite Borel measure on $\RR$.
     
@@ -59,7 +58,6 @@
   number: 4
   tags:
     - Measure Theory
-    - Lebesgue Measure
   question: |
     Let $f$ be a non-negative function on $\RR^n$ and $\mathcal A = \{(x, t) ∈ \RR^n × \RR : 0 ≤ t ≤ f (x)\}$.
 
@@ -330,7 +328,6 @@
   number: 2
   tags:
     - Measure Theory
-    - Lebesgue Measure
   question: |
     Let $E\subset \RR$ be a Lebesgue measurable set.
     Show that there is a Borel set $B \subset E$ such that $m(E\setminus B) = 0$.
@@ -404,7 +401,8 @@
   exam: Real_Analysis
   number: 1
   tags:
-    - Analysis
+    - Cantor Set
+    - Measure Theory
   question: |
     Let $K$ be the set of numbers in $[0, 1]$ whose decimal expansions do not use the digit $4$.
 
@@ -420,7 +418,8 @@
   exam: Real_Analysis
   number: 2
   tags:
-    - Analysis
+    - Radon Nikodym Theorem
+    - Measure Theory
   question: |
 
     a. Let $\mu$ be a measure on a measurable space $(X, \mathcal M)$ and $f$ a positive measurable function.
@@ -447,7 +446,11 @@
   exam: Real_Analysis
   number: 3
   tags:
-    - Analysis
+    - Integrability
+    - Series of Functions
+    - Integrals
+    - Convergence of Functions
+    - L1
   question: |
     Let
     $$
@@ -473,7 +476,7 @@
   exam: Real_Analysis
   number: 4
   tags:
-    - Analysis
+    - Integrability
   question: |
     Let $f(x, y)$ on $[-1, 1]^2$ be defined by 
     $$
@@ -490,7 +493,9 @@
   exam: Real_Analysis
   number: 5
   tags:
-    - Analysis
+    - Uniform Continuity
+    - Integrals
+    - L2
   question: |
     Let $f, g \in L^2(\RR)$. 
     Prove that the formula
@@ -505,7 +510,9 @@
   exam: Real_Analysis
   number: 6
   tags:
-    - Analysis
+    - Function Spaces
+    - Norms 
+    - Completeness 
   question: |
     Show that the space $C^1([a, b])$ is a Banach space when equipped with the norm
     $$
