@@ -13,6 +13,7 @@ testpdf:
 	latex_preview -f Combined_Questions.md -v
 
 update:
+	make json
 	git add *; git commit -am "Save"; git push && ssh zack@dzackgarza.com 'cd MakeMeAQual && git pull'
 
 clean:
