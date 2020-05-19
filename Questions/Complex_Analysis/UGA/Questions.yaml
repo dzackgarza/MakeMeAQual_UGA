@@ -39,7 +39,8 @@
   exam: Complex_Analysis
   tags:
     - Analytic Functions
-    - Residue Theorem
+    - Residues
+    - Series of Functions
   question: |
     Suppose that $f$ is an analytic function in the region $D$ which
     contains the point $a$. Let
@@ -136,6 +137,7 @@
   tags:
     - Rouche 
     - Polynomials
+    - Holomorphic Functions
   question: |
     Apply Rouché's Theorem to prove the Fundamental Theorem of Algebra: If
     $$P_n(z) = a_0 + a_1z + \cdots + a_{n-1}z^{n-1} + a_nz^n\quad  (a_n \neq 0)$$
@@ -378,37 +380,6 @@
     where $L$ is the part of the circle $|z|=R'$ which lies in the
     region $D$.
 
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Analytic Functions
-    - Residue Theorem
-  question: |
-    Suppose that $f$ is an analytic function in the region $D$ which
-    contains the point $a$. Let
-    $$F(z)= z-a-qf(z),\quad \text{where}\quad q \ \text{is a complex
-    parameter}.$$ 
-
-    (1) Let $K\subset D$ be a circle with the center at
-    point $a$ and also we assume that $f(z)\not =0$ for $z\in K$. Prove
-    that the function $F$ has one and only one zero $z=w$ on the closed
-    disc $\bar{K}$ whose boundary is the circle $K$ if $\displaystyle{
-    |q|<\min_{z\in K} \frac{|z-a|}{|f(z)|}.}$\
-    
-    (2) Let $G(z)$ be an analytic function on the disk $\bar{K}$. Apply
-    the residue theorem to prove that
-    $\displaystyle{ \frac{G(w)}{F'(w)}=\frac{1}{2\pi
-    i}\int_K \frac{G(z)}{F(z)} dz,}$ where $w$ is the zero from (1).\
-    
-    (3) If $z\in K$, prove that the function
-    $\displaystyle{\frac{1}{F(z)}}$ can be represented as a convergent
-    series with respect to $q$: $\displaystyle{
-    \frac{1}{F(z)}=\sum_{n=0}^{\infty} \frac{(qf(z))^n}{(z-a)^{n+1}}.}$
 
 
 
@@ -1013,7 +984,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Holomorphic Functions
+    - Meromorphic Functions
   question: |
     Suppose that $f$ is holomorphic in an open set containing the closed
     unit disc, except for a pole at $z_0$ on the unit circle. Let
@@ -1095,6 +1066,7 @@
   tags:
     - Rouche 
     - Polynomials
+    - Holomorphic Functions
   question: |
     Find the number of roots of $z^4 - 6z + 3 =0$ in $|z|<1$ and
     $1 < |z| < 2$ respectively.
@@ -1108,6 +1080,7 @@
   tags:
     - Rouche
     - Polynomials
+    - Holomorphic Functions
   question: |
     Prove that $z^4 + 2 z^3 - 2z + 10 =0$ has exactly one root in each
     open quadrant.
@@ -1430,6 +1403,7 @@
   exam: Complex_Analysis
   tags:
     - Polynomials
+    - Holomorphic Functions
   question: |
     Let $0<r<1$. Show that polynomials
     $P_n(z)  = 1 + 2z + 3 z^2 + \cdots + n z^{n-1}$ have no zeros in
@@ -1609,7 +1583,6 @@
     half plane ${\mathbb H}=\{z=x+iy:\ y>0\}$.
 
 
-
 - year: Extra 
   number: 0 
   university: UGA
@@ -1649,8 +1622,10 @@
   exam: Complex_Analysis
   tags:
     - Polynomials
+    - Holomorphic Functions
   question: |
     Let $0<r<1$. Show that polynomials
+    - Holomorphic Functions
     $P_n(z)  = 1 + 2z + 3 z^2 + \cdots + n z^{n-1}$ have no zeros in
     $|z|<r$ for all sufficiently large $n$'s.
 
@@ -1690,16 +1665,6 @@
     -   $\displaystyle{\frac{1}{\pi}\iint_{{\mathbb D}} |\psi'_{\alpha}| dx dy =\frac{1-|\alpha|^2}{|\alpha|^2}
         \log \frac{1}{1-|\alpha|^2}}$.
 
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Conformal Map
-  question: |
-    Prove that $\displaystyle{f(z)=-\frac{1}{2}\left(z+\frac{1}{z}\right)}$
-    is a conformal map from half disc $\{z=x+iy:\ |z|<1,\ y>0\}$ to upper
-    half plane $\mathbb H=\{z=x+iy:\ y>0\}$.
 
 
 
@@ -1767,8 +1732,7 @@
     
     (b) \hfill
 
-        (i) Prove that $u(x,y)+i v(x,y)$ is an analytic function in this
-    disc.
+        (i) Prove that $u(x,y)+i v(x,y)$ is an analytic function in this disc.
 
         (ii) Prove that $v(x,y)$ is harmonic in this disc.
 
@@ -1853,6 +1817,7 @@
   tags:
     - Polynomials
     - Rouche
+    - Holomorphic Functions
   question: |
     Prove that all the roots of the complex polynomial
     $$z^7 - 5 z^3 +12 =0$$ lie between the circles $|z|=1$ and $|z|=2$.
@@ -1866,12 +1831,14 @@
   tags:
     - Analytic Functions
   question: |
-    (a) Let $F$ be an analytic function inside and on a simple closed
+    Let $F$ be an analytic function inside and on a simple closed
     curve $C$, except for a pole of order $m\geq 1$ at $z=a$ inside $C$.
     Prove that
 
-    $$\frac{1}{2 \pi i}\oint_{C} F(\tau) d\tau = 
-    \lim_{\tau\rightarrow a} \frac{d^{m-1}}{d\tau^{m-1}}\big((\tau-a)^m F(\tau))\big).$$
+    $$
+    \frac{1}{2 \pi i}\oint_{C} F(\tau) d\tau = 
+    \lim_{\tau\rightarrow a} \frac{d^{m-1}}{d\tau^{m-1}}\big((\tau-a)^m F(\tau))\big)
+    .$$
 
 
 

@@ -1,0 +1,93 @@
+- year: 1970
+  season: Spring
+  exam: Analysis
+  number: 4
+  tags:
+    - Holomorphic Functions
+    - Polynomials
+    - Rouche
+  question: |
+    Find the number of zeroes, counting multiplicities, of the polynomial 
+
+    $f(z) = 2z^5 − 6z^2 − z + 1 = 0$
+
+    in the annulus $1 ≤ |z| ≤ 2$.
+
+- year: 1970
+  season: Spring
+  exam: Analysis
+  number: 5
+  tags:
+    - Biholomorphisms
+  question: |
+    Find an analytic isomorphism from the open region between $|z| = 1$ and $|z −\frac 1 2| =\frac 1 2$ to the upper half plane $\Im z > 0$. (You may leave your result as a composition of functions).
+
+- year: 1970
+  season: Spring
+  exam: Analysis
+  number: 6
+  tags:
+    - Holomorphic Functions
+    - Cauchy Integral Theorem
+    - Green's Theorem
+  question: |
+    Use Green theorem or otherwise to prove the Cauchy theorem.
+
+
+- year: 1970
+  season: spring
+  exam: Analysis
+  number: 8
+  tags:
+    - Green's Theorem
+  question: |
+    State and prove the divergence theorem on any rectangle in $\mathbb{R}^2$.
+
+
+- year: 1970
+  season: Spring
+  exam: Analysis
+  number: 6
+  tags:
+    - Biholomorphism
+  question: |
+    Find an analytic isomorphism from the open region between $x = 1$ and $x = 3$ to the upper half unit disk $\{|z| < 1,\Im z > 0\}$. (You may leave your result as a composition of functions)
+
+- year: 1970
+  season: Spring
+  exam: Analysis
+  number: 7
+  tags:
+    - Integrals
+    - Argument Principle
+      Cauchy's Integral Theorem
+    - Meromorphic Functions
+  question: |
+    Use Cauchy's theorem to prove the argument principle.
+
+- year: 1970
+  season: spring
+  exam: Analysis
+  number: 8
+  tags:
+    - Integrals
+    - Residues
+    - Meromorphic Functions
+  question: |
+    Evaluate the following by the method of residues:
+    $\int_0^{π/2} \frac{1}{3+\sin^2x}dx$
+
+
+- year: 1970
+  season: Spring
+  exam: Analysis
+  number: 7
+  tags:
+    - Integrals
+    - Residues
+    - Meromorphic Functions
+  question: |
+    Evaluate the improper integral 
+
+    $\int_0^\infty \frac{x^2~dx}{(x^2+1)(x^2+4)}$
+

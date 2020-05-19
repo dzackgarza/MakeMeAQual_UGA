@@ -1523,6 +1523,96 @@
     "question": "Assume that $K$ is a cyclic group, $H$ is an arbitrary group, and $\\varphi_1$\nand $\\varphi_2$ are homomorphisms from $K$ into $\\Aut(H)$ such that\n$\\varphi_1(K)$ and $\\varphi_2(K)$ are conjugate subgroups\nof $\\Aut(H)$.\n\nProve by constructing an explicit isomorphism that\n$H\\rtimes_{\\varphi_1}K\\cong H\\rtimes_{\\varphi_2} K$.\n\n> Suppose $\\sigma_{\\varphi_1}(K)\\sigma\\inv=\\varphi_2(K)$\nso that for some $a\\in\\mathbb Z$ we have $\\sigma\\varphi_1(k)\\sigma\\inv\n=\\varphi_2(k)^a$ for all $k\\in K$. Show that the map $\\psi:H\n\\rtimes_{\\varphi_1}K\\rightarrow H\\rtimes_{\\varphi_2}K$\ndefined by $\\psi((h,k))=(\\sigma(h),k^a)$ is a homomorphism.\nShow $\\psi$ is bijective by construcing a 2-sided inverse.\n"
   },
   {
+    "year": 1970,
+    "season": "Spring",
+    "exam": "Analysis",
+    "number": 4,
+    "tags": [
+      "Holomorphic Functions",
+      "Polynomials",
+      "Rouche"
+    ],
+    "question": "Find the number of zeroes, counting multiplicities, of the polynomial \n\n$f(z) = 2z^5 − 6z^2 − z + 1 = 0$\n\nin the annulus $1 ≤ |z| ≤ 2$.\n"
+  },
+  {
+    "year": 1970,
+    "season": "Spring",
+    "exam": "Analysis",
+    "number": 5,
+    "tags": [
+      "Biholomorphisms"
+    ],
+    "question": "Find an analytic isomorphism from the open region between $|z| = 1$ and $|z −\\frac 1 2| =\\frac 1 2$ to the upper half plane $\\Im z > 0$. (You may leave your result as a composition of functions).\n"
+  },
+  {
+    "year": 1970,
+    "season": "Spring",
+    "exam": "Analysis",
+    "number": 6,
+    "tags": [
+      "Holomorphic Functions",
+      "Cauchy Integral Theorem",
+      "Green's Theorem"
+    ],
+    "question": "Use Green theorem or otherwise to prove the Cauchy theorem.\n"
+  },
+  {
+    "year": 1970,
+    "season": "spring",
+    "exam": "Analysis",
+    "number": 8,
+    "tags": [
+      "Green's Theorem"
+    ],
+    "question": "State and prove the divergence theorem on any rectangle in $\\mathbb{R}^2$.\n"
+  },
+  {
+    "year": 1970,
+    "season": "Spring",
+    "exam": "Analysis",
+    "number": 6,
+    "tags": [
+      "Biholomorphism"
+    ],
+    "question": "Find an analytic isomorphism from the open region between $x = 1$ and $x = 3$ to the upper half unit disk $\\{|z| < 1,\\Im z > 0\\}$. (You may leave your result as a composition of functions)\n"
+  },
+  {
+    "year": 1970,
+    "season": "Spring",
+    "exam": "Analysis",
+    "number": 7,
+    "tags": [
+      "Integrals",
+      "Argument Principle Cauchy's Integral Theorem",
+      "Meromorphic Functions"
+    ],
+    "question": "Use Cauchy's theorem to prove the argument principle.\n"
+  },
+  {
+    "year": 1970,
+    "season": "spring",
+    "exam": "Analysis",
+    "number": 8,
+    "tags": [
+      "Integrals",
+      "Residues",
+      "Meromorphic Functions"
+    ],
+    "question": "Evaluate the following by the method of residues:\n$\\int_0^{π/2} \\frac{1}{3+\\sin^2x}dx$\n"
+  },
+  {
+    "year": 1970,
+    "season": "Spring",
+    "exam": "Analysis",
+    "number": 7,
+    "tags": [
+      "Integrals",
+      "Residues",
+      "Meromorphic Functions"
+    ],
+    "question": "Evaluate the improper integral \n\n$\\int_0^\\infty \\frac{x^2~dx}{(x^2+1)(x^2+4)}$\n"
+  },
+  {
     "year": "Extra",
     "number": 0,
     "university": "UGA",
@@ -1549,7 +1639,8 @@
     "exam": "Complex_Analysis",
     "tags": [
       "Analytic Functions",
-      "Residue Theorem"
+      "Residues",
+      "Series of Functions"
     ],
     "question": "Suppose that $f$ is an analytic function in the region $D$ which\ncontains the point $a$. Let\n$$F(z)= z-a-qf(z),\\quad \\text{where}~ q \\ \\text{is a complex\nparameter}.$$ \n\n(1) Let $K\\subset D$ be a circle with the center at\npoint $a$ and also we assume that $f(z)\\not =0$ for $z\\in K$. Prove\nthat the function $F$ has one and only one zero $z=w$ on the closed\ndisc $\\bar{K}$ whose boundary is the circle $K$ if $\\displaystyle{\n|q|<\\min_{z\\in K} \\frac{|z-a|}{|f(z)|}.}$\\\n\n(2) Let $G(z)$ be an analytic function on the disk $\\bar{K}$. Apply\nthe residue theorem to prove that\n$\\displaystyle{ \\frac{G(w)}{F'(w)}=\\frac{1}{2\\pi\ni}\\int_K \\frac{G(z)}{F(z)} dz,}$ where $w$ is the zero from (1).\\\n\n(3) If $z\\in K$, prove that the function\n$\\displaystyle{\\frac{1}{F(z)}}$ can be represented as a convergent\nseries with respect to $q$: $\\displaystyle{\n\\frac{1}{F(z)}=\\sum_{n=0}^{\\infty} \\frac{(qf(z))^n}{(z-a)^{n+1}}.}$\n"
   },
@@ -1600,7 +1691,8 @@
     "exam": "Complex_Analysis",
     "tags": [
       "Rouche",
-      "Polynomials"
+      "Polynomials",
+      "Holomorphic Functions"
     ],
     "question": "Apply Rouché's Theorem to prove the Fundamental Theorem of Algebra: If\n$$P_n(z) = a_0 + a_1z + \\cdots + a_{n-1}z^{n-1} + a_nz^n\\quad  (a_n \\neq 0)$$\nis a polynomial of degree n, then it has n zeros in $\\mathbb C$.\n"
   },
@@ -1752,17 +1844,6 @@
       "Limits"
     ],
     "question": "Let $f$ be a continuous function in the region\n$$D=\\{z\\ |  |z|>R, 0\\leq \\arg Z\\leq \\theta\\}\\quad\\text{where}\\quad\n0\\leq \\theta \\leq 2\\pi.$$ If there exists $k$ such that\n$\\displaystyle{\\lim_{z\\to\\infty} zf(z)=k}$ for $z$ in the region\n$D$. Show that $$\\lim_{R'\\to\\infty} \\int_{L} f(z) dz=i\\theta k,$$\nwhere $L$ is the part of the circle $|z|=R'$ which lies in the\nregion $D$.\n"
-  },
-  {
-    "year": "Extra",
-    "number": 0,
-    "university": "UGA",
-    "exam": "Complex_Analysis",
-    "tags": [
-      "Analytic Functions",
-      "Residue Theorem"
-    ],
-    "question": "Suppose that $f$ is an analytic function in the region $D$ which\ncontains the point $a$. Let\n$$F(z)= z-a-qf(z),\\quad \\text{where}\\quad q \\ \\text{is a complex\nparameter}.$$ \n\n(1) Let $K\\subset D$ be a circle with the center at\npoint $a$ and also we assume that $f(z)\\not =0$ for $z\\in K$. Prove\nthat the function $F$ has one and only one zero $z=w$ on the closed\ndisc $\\bar{K}$ whose boundary is the circle $K$ if $\\displaystyle{\n|q|<\\min_{z\\in K} \\frac{|z-a|}{|f(z)|}.}$\\\n\n(2) Let $G(z)$ be an analytic function on the disk $\\bar{K}$. Apply\nthe residue theorem to prove that\n$\\displaystyle{ \\frac{G(w)}{F'(w)}=\\frac{1}{2\\pi\ni}\\int_K \\frac{G(z)}{F(z)} dz,}$ where $w$ is the zero from (1).\\\n\n(3) If $z\\in K$, prove that the function\n$\\displaystyle{\\frac{1}{F(z)}}$ can be represented as a convergent\nseries with respect to $q$: $\\displaystyle{\n\\frac{1}{F(z)}=\\sum_{n=0}^{\\infty} \\frac{(qf(z))^n}{(z-a)^{n+1}}.}$\n"
   },
   {
     "year": "Extra",
@@ -2123,7 +2204,7 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Holomorphic Functions"
+      "Meromorphic Functions"
     ],
     "question": "Suppose that $f$ is holomorphic in an open set containing the closed\nunit disc, except for a pole at $z_0$ on the unit circle. Let\n$f(z) = \\sum_{n = 1}^\\infty c_n z^n$ denote the power series in\nthe open disc. Show that \n\n(1) $c_n \\neq 0$ for all large enough $n$'s, and \n\n(2) $\\displaystyle \\lim_{n \\rightarrow \\infty} \\frac{c_n}{c_{n+1}}= z_0$.\n"
   },
@@ -2177,7 +2258,8 @@
     "exam": "Complex_Analysis",
     "tags": [
       "Rouche",
-      "Polynomials"
+      "Polynomials",
+      "Holomorphic Functions"
     ],
     "question": "Find the number of roots of $z^4 - 6z + 3 =0$ in $|z|<1$ and\n$1 < |z| < 2$ respectively.\n"
   },
@@ -2188,7 +2270,8 @@
     "exam": "Complex_Analysis",
     "tags": [
       "Rouche",
-      "Polynomials"
+      "Polynomials",
+      "Holomorphic Functions"
     ],
     "question": "Prove that $z^4 + 2 z^3 - 2z + 10 =0$ has exactly one root in each\nopen quadrant.\n"
   },
@@ -2372,7 +2455,8 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Polynomials"
+      "Polynomials",
+      "Holomorphic Functions"
     ],
     "question": "Let $0<r<1$. Show that polynomials\n$P_n(z)  = 1 + 2z + 3 z^2 + \\cdots + n z^{n-1}$ have no zeros in\n$|z|<r$ for all sufficiently large $n$'s.\n"
   },
@@ -2509,9 +2593,10 @@
     "university": "UGA",
     "exam": "Complex_Analysis",
     "tags": [
-      "Polynomials"
+      "Polynomials",
+      "Holomorphic Functions"
     ],
-    "question": "Let $0<r<1$. Show that polynomials\n$P_n(z)  = 1 + 2z + 3 z^2 + \\cdots + n z^{n-1}$ have no zeros in\n$|z|<r$ for all sufficiently large $n$'s.\n"
+    "question": "Let $0<r<1$. Show that polynomials\n- Holomorphic Functions\n$P_n(z)  = 1 + 2z + 3 z^2 + \\cdots + n z^{n-1}$ have no zeros in\n$|z|<r$ for all sufficiently large $n$'s.\n"
   },
   {
     "year": "Extra",
@@ -2536,16 +2621,6 @@
       "Analysis"
     ],
     "question": "Let $\\displaystyle{\\psi_{\\alpha}(z)=\\frac{\\alpha-z}{1-\\bar{\\alpha}z}}$\nwith $|\\alpha|<1$ and ${\\mathbb D}=\\{z:\\ |z|<1\\}$. Prove that\n\n-   $\\displaystyle{\\frac{1}{\\pi}\\iint_{{\\mathbb D}} |\\psi'_{\\alpha}|^2 dx dy =1}$.\n\n-   $\\displaystyle{\\frac{1}{\\pi}\\iint_{{\\mathbb D}} |\\psi'_{\\alpha}| dx dy =\\frac{1-|\\alpha|^2}{|\\alpha|^2}\n    \\log \\frac{1}{1-|\\alpha|^2}}$.\n"
-  },
-  {
-    "year": "Extra",
-    "number": 0,
-    "university": "UGA",
-    "exam": "Complex_Analysis",
-    "tags": [
-      "Conformal Map"
-    ],
-    "question": "Prove that $\\displaystyle{f(z)=-\\frac{1}{2}\\left(z+\\frac{1}{z}\\right)}$\nis a conformal map from half disc $\\{z=x+iy:\\ |z|<1,\\ y>0\\}$ to upper\nhalf plane $\\mathbb H=\\{z=x+iy:\\ y>0\\}$.\n"
   },
   {
     "year": "Extra",
@@ -2588,7 +2663,7 @@
       "Harmonic Functions",
       "Integrals"
     ],
-    "question": "Let $u(x,y)$ be harmonic and have continuous partial derivatives of\norder three in an open disc of radius $R>0$.\n\n(a) Let two points $(a,b), (x,y)$ in this disk be given. Show that\nthe following integral is independent of the path in this disk\njoining these points:\n$$v(x,y) = \\int_{a,b}^{x,y} ( -\\frac{\\partial u}{\\partial y}dx +  \\frac{\\partial u}{\\partial x}dy).$$\\\n\n(b) \\hfill\n\n    (i) Prove that $u(x,y)+i v(x,y)$ is an analytic function in this\ndisc.\n\n    (ii) Prove that $v(x,y)$ is harmonic in this disc.\n"
+    "question": "Let $u(x,y)$ be harmonic and have continuous partial derivatives of\norder three in an open disc of radius $R>0$.\n\n(a) Let two points $(a,b), (x,y)$ in this disk be given. Show that\nthe following integral is independent of the path in this disk\njoining these points:\n$$v(x,y) = \\int_{a,b}^{x,y} ( -\\frac{\\partial u}{\\partial y}dx +  \\frac{\\partial u}{\\partial x}dy).$$\\\n\n(b) \\hfill\n\n    (i) Prove that $u(x,y)+i v(x,y)$ is an analytic function in this disc.\n\n    (ii) Prove that $v(x,y)$ is harmonic in this disc.\n"
   },
   {
     "year": "Extra",
@@ -2630,7 +2705,8 @@
     "exam": "Complex_Analysis",
     "tags": [
       "Polynomials",
-      "Rouche"
+      "Rouche",
+      "Holomorphic Functions"
     ],
     "question": "Prove that all the roots of the complex polynomial\n$$z^7 - 5 z^3 +12 =0$$ lie between the circles $|z|=1$ and $|z|=2$.\n"
   },
@@ -2642,7 +2718,7 @@
     "tags": [
       "Analytic Functions"
     ],
-    "question": "(a) Let $F$ be an analytic function inside and on a simple closed\ncurve $C$, except for a pole of order $m\\geq 1$ at $z=a$ inside $C$.\nProve that\n\n$$\\frac{1}{2 \\pi i}\\oint_{C} F(\\tau) d\\tau = \n\\lim_{\\tau\\rightarrow a} \\frac{d^{m-1}}{d\\tau^{m-1}}\\big((\\tau-a)^m F(\\tau))\\big).$$\n"
+    "question": "Let $F$ be an analytic function inside and on a simple closed\ncurve $C$, except for a pole of order $m\\geq 1$ at $z=a$ inside $C$.\nProve that\n\n$$\n\\frac{1}{2 \\pi i}\\oint_{C} F(\\tau) d\\tau = \n\\lim_{\\tau\\rightarrow a} \\frac{d^{m-1}}{d\\tau^{m-1}}\\big((\\tau-a)^m F(\\tau))\\big)\n.$$\n"
   },
   {
     "year": "Extra",
@@ -2775,6 +2851,140 @@
       "Topology"
     ],
     "question": "Something something $G$.\n"
+  },
+  {
+    "year": 1970,
+    "season": "Spring",
+    "exam": "Analysis",
+    "number": "1abch",
+    "tags": [
+      "Convergence of Functions",
+      "Uniform Continuity",
+      "Mean Value Theorem",
+      "Variation"
+    ],
+    "question": "Prove or disprove each of the following statements.\n\n(a) If $f$ is of bounded variation on $[0,1]$, then it is continuous on $[0,1]$.\n\n(b) If $f : [0, 1] → [0, 1]$ is a continuous function, then there exists $x_0 ∈ [0, 1]$ such that $f(x_0) = x_0$.\n\n(c) Let $\\{f_n\\}$ be a sequence of uniformly continuous functions on an interval $I$. If $\\{f_n\\}$ converges uniformly to a function $f$ on $I$, then $f$ is also uniformly continuous on $I$.\n\n(h) If $f$ is differentiable on a connected set $E ⊂ \\mathbb{R}^n$, then for any $x, y ∈ E$, there exists $z ∈ E$ such that $f(x) − f(y) = ∇f(z)[x − y]$.  \n"
+  },
+  {
+    "year": 1970,
+    "season": "Spring",
+    "exam": "Analysis",
+    "number": "1de",
+    "tags": [
+      "Convergence of Numbers",
+      "Series of Numbers",
+      "Uniform Continuity"
+    ],
+    "question": "Prove or disprove each of the following statements.\n\n(d) If $\\lim_{n→∞} |a_n+1/a_n|$ exists, then $\\lim_{n→∞} |a_n|^{1/n}$ exists and the two limits are equal.\n\n(e) If $\\sum_{n=1}^∞ a_n x^n$ converges for all $x ∈ [0, 1]$, then $\\lim_{x→1−} \\sum_{n=1}^∞ a_n x^n=\\sum_{n=1}^∞ a_n$\n"
+  },
+  {
+    "year": 1970,
+    "season": "Spring",
+    "exam": "Analysis",
+    "number": "1fg",
+    "tags": [
+      "Measure Theory"
+    ],
+    "question": "Prove or disprove each of the following statements.\n\n(f) If $E ⊂ \\mathbb{R}$ and \n\n    $μ(E) = \\inf\\{\\sum_{I_i∈S} |I_i| : S = \\{I_i\\}_{i=1}^n \\text{ such that } E ⊂ ∪_{i=1}^n I_i \\text{ for some } n ∈ \\mathbb{N}\\}$\n\n    then $μ$ coincides with the outer measure of $E$.\n\n(g) If $E$ is a Borel set and $f$ is a measurable function, then $f^{−1}(E)$ is also measurable.\n"
+  },
+  {
+    "year": 1970,
+    "season": "Spring",
+    "exam": "Analysis",
+    "number": 2,
+    "tags": [
+      "Measure Theory"
+    ],
+    "question": "If $f$ is a finite real valued measurable function on a measurable set $E ⊂ \\mathbb{R}$, show that the set $\\{(x, f(x)) : x ∈ E\\}$ is measurable.\n"
+  },
+  {
+    "year": 1970,
+    "season": "Spring",
+    "exam": "Analysis",
+    "number": 3,
+    "tags": [
+      "Sequences of Functions",
+      "Arzela-Ascoli"
+    ],
+    "question": "Let g : $[0, 1] × [0, 1] → [0, 1]$ be a continuous function and let $\\{f_n\\}$ be a sequence of functions such that \n\n$f_n(x)=\\begin{cases}{0,   0\\leq x\\leq 1/n},\\\\{\\int_0^{x-\\frac1n} g(t,f_n(t))dt, 1/n\\leq x \\leq 1.}\\end{cases}$\n\nWith the help of the Arzela-Ascoli theorem or otherwise, show that there exists a continuous function $f : [0, 1] → \\mathbb{R}$ such that \n\n$f(x) = \\int_0^x g(t, f(t))dt$\n\nfor all $x ∈ [0, 1]$. \n\n> Hint: first show that $|f_n(x_1) − f_n(x_2)| ≤ |x_1 − x_2|$.\n"
+  },
+  {
+    "year": 1970,
+    "season": "Spring",
+    "exam": "Analysis",
+    "number": 1,
+    "tags": [
+      "Convergence of Numbers"
+    ],
+    "question": "If $\\limsup_{n\\rightarrow \\infty}a_n\\leq l$, show that $\\limsup_{n\\rightarrow \\infty}\\sum_{i=1}^n{a_i/n}\\leq l$.  \n"
+  },
+  {
+    "year": 1970,
+    "season": "Spring",
+    "exam": "Analysis",
+    "number": 2,
+    "tags": [
+      "Integrals",
+      "Measure Theory"
+    ],
+    "question": "If $f$ is a nonnegative measurable function on $\\mathbb{R}$ and $p > 0$, show that\n\n$\\int f^p ~dx = \\int_0^{\\infty} p t^{p-1} \\abs{\\{x : f(x) > t\\}} ~dt$ \n\nwhere $\\abs{\\{x : f(x) > t\\}}$ is the Lebesgue measure of the set $\\{x : f(x) > t\\}$.\n"
+  },
+  {
+    "year": 1970,
+    "season": "Spring",
+    "exam": "Analysis",
+    "number": 3,
+    "tags": [
+      "Integrals"
+    ],
+    "question": "If $f$ is a nonnegative measurable function on $[0, \\pi]$ and $\\int_0^\\pi f(x)^3~dx < \\infty$, show that\n\n$$\\lim_{\\alpha\\to\\infty} \\int_{ \\{x:f(x)>\\alpha\\}} f(x)^2 ~dx=0.$$\n"
+  },
+  {
+    "year": 1970,
+    "season": "Spring",
+    "exam": "Analysis",
+    "number": 4,
+    "tags": [
+      "Measure Theory"
+    ],
+    "question": "Prove or disprove each of the following statements.\n\n(a) If $f : [0, 1] → \\mathbb{R}$ is a measurable function, then given any $ε > 0$, there exists a compact set $K ⊂ [0, 1]$ such that $f$ is continuous on $K$ relative to $K$.\n\n(c) If f is Borel measurable on $\\mathbb{R} × \\mathbb{R}$, then for any $x ∈ \\mathbb{R}$, the function $g(y) = f(x, y)$ is also Borel measurable on $\\mathbb{R}$.\n\n(d) If $E ⊂ \\mathbb{R}$, then $E$ is measurable if and only if given any $ε > 0$, there exist a closed set $F$ and an open set $G$ such that $F ⊂ E ⊂ G$ and the measure of $G-F$ is less than $ε$.\n"
+  },
+  {
+    "year": 1970,
+    "season": "Spring",
+    "exam": "Analysis",
+    "number": 4,
+    "tags": [
+      "Integrals",
+      "Convergence of Functions",
+      "Lp Spaces"
+    ],
+    "question": "Prove or disprove each of the following statements.\n\n(b) If ${f_n}$ is a sequence of measurable functions that converges uniformly to $f$ on $\\mathbb{R}$, then $\\int{f}=\\lim_{k\\to \\infty} \\int f_k$\n\n(e) If $\\{f_k\\}$ is a sequence of function in $L_p[0,\\infty)$ that converges to a function $f ∈ L_p [0,∞)$, then $\\{f_k\\}$ has a subsequence that converges to $f$ almost everywhere.\n"
+  },
+  {
+    "year": 1970,
+    "season": "Spring",
+    "exam": "Analysis",
+    "number": 4,
+    "tags": [
+      "Riemann Integrability",
+      "Integrals",
+      "Convergence of Functions",
+      "L1",
+      "Variation"
+    ],
+    "question": "Prove or disprove each of the following statements.\n\n(f) If $f$ is Riemann integrable on $[ε, 1]$ for all $0 < ε < 1$, then $f$ is Lebesgue integrable on $[0,1]$ if $f$ is nonnegative and the following limit exists $\\lim_{ε→0+} \\int_ε^1 f dx$.\n\n(g) If $f$ is integrable on $[0,1]$, then $\\lim_{n→∞} \\int_0^1 f(x)\\sin(nπx)dx = 0$.\n\n(h) If $f$ is continuous on $[0, 1]$, then it is of bounded variation on [0, 1]$.\n"
+  },
+  {
+    "year": 1970,
+    "season": "Spring",
+    "exam": "Analysis",
+    "number": 5,
+    "tags": [
+      "Mean Value Theorem",
+      "Sequences of Functions"
+    ],
+    "question": "(a) Let $f : \\mathbb{R} → \\mathbb{R}$ be a differentiable function. \n    If $f'(−1) < 2$ and $f'(1) > 2$, show that there exists $x_0 ∈ (−1, 1)$ such that $f'(x_0) = 2$.\n\n    > Hint: consider the function $f(x) − 2x$ and recall the proof of Rolle’s theorem.)\n\n(b) Let $f : (−1, 1) → \\mathbb{R}$ be a differentiable function on $(−1, 0) ∪ (0, 1)$ such that $\\lim_{x→0} f'(x) = L$. \n    If $f$ is continuous on $(−1, 1)$, show that $f$ is indeed differentiable at $0$ and $f'(0) = L$.\n"
   },
   {
     "year": 2019,

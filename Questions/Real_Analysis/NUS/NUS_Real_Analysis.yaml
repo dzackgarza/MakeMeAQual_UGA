@@ -1,0 +1,186 @@
+- year: 1970
+  season: Spring
+  exam: Analysis
+  number: 1abch
+  tags:
+    - Convergence of Functions
+    - Uniform Continuity
+    - Mean Value Theorem
+    - Variation
+  question: |
+    Prove or disprove each of the following statements.
+
+    (a) If $f$ is of bounded variation on $[0,1]$, then it is continuous on $[0,1]$.
+
+    (b) If $f : [0, 1] → [0, 1]$ is a continuous function, then there exists $x_0 ∈ [0, 1]$ such that $f(x_0) = x_0$.
+
+    (c) Let $\{f_n\}$ be a sequence of uniformly continuous functions on an interval $I$. If $\{f_n\}$ converges uniformly to a function $f$ on $I$, then $f$ is also uniformly continuous on $I$.
+    
+    (h) If $f$ is differentiable on a connected set $E ⊂ \mathbb{R}^n$, then for any $x, y ∈ E$, there exists $z ∈ E$ such that $f(x) − f(y) = ∇f(z)[x − y]$.  
+
+- year: 1970
+  season: Spring
+  exam: Analysis
+  number: 1de
+  tags:
+    - Convergence of Numbers
+    - Series of Numbers
+    - Uniform Continuity
+  question: |
+    Prove or disprove each of the following statements.
+    
+    (d) If $\lim_{n→∞} |a_n+1/a_n|$ exists, then $\lim_{n→∞} |a_n|^{1/n}$ exists and the two limits are equal.
+
+    (e) If $\sum_{n=1}^∞ a_n x^n$ converges for all $x ∈ [0, 1]$, then $\lim_{x→1−} \sum_{n=1}^∞ a_n x^n=\sum_{n=1}^∞ a_n$
+
+- year: 1970
+  season: Spring
+  exam: Analysis
+  number: 1fg
+  tags:
+    - Measure Theory
+  question: |
+    Prove or disprove each of the following statements.
+    
+    (f) If $E ⊂ \mathbb{R}$ and 
+
+        $μ(E) = \inf\{\sum_{I_i∈S} |I_i| : S = \{I_i\}_{i=1}^n \text{ such that } E ⊂ ∪_{i=1}^n I_i \text{ for some } n ∈ \mathbb{N}\}$
+
+        then $μ$ coincides with the outer measure of $E$.
+
+    (g) If $E$ is a Borel set and $f$ is a measurable function, then $f^{−1}(E)$ is also measurable.
+
+
+- year: 1970
+  season: Spring
+  exam: Analysis
+  number: 2
+  tags:
+    - Measure Theory 
+  question: |
+    If $f$ is a finite real valued measurable function on a measurable set $E ⊂ \mathbb{R}$, show that the set $\{(x, f(x)) : x ∈ E\}$ is measurable.
+
+- year: 1970
+  season: Spring
+  exam: Analysis
+  number: 3
+  tags:
+    - Sequences of Functions
+    - Arzela-Ascoli
+  question: |
+    Let g : $[0, 1] × [0, 1] → [0, 1]$ be a continuous function and let $\{f_n\}$ be a sequence of functions such that 
+
+    $f_n(x)=\begin{cases}{0,   0\leq x\leq 1/n},\\{\int_0^{x-\frac1n} g(t,f_n(t))dt, 1/n\leq x \leq 1.}\end{cases}$
+
+    With the help of the Arzela-Ascoli theorem or otherwise, show that there exists a continuous function $f : [0, 1] → \mathbb{R}$ such that 
+
+    $f(x) = \int_0^x g(t, f(t))dt$
+
+    for all $x ∈ [0, 1]$. 
+
+    > Hint: first show that $|f_n(x_1) − f_n(x_2)| ≤ |x_1 − x_2|$.
+
+
+- year: 1970
+  season: Spring
+  exam: Analysis
+  number: 1
+  tags:
+    - Convergence of Numbers
+  question: |
+    If $\limsup_{n\rightarrow \infty}a_n\leq l$, show that $\limsup_{n\rightarrow \infty}\sum_{i=1}^n{a_i/n}\leq l$.  
+
+- year: 1970
+  season: Spring
+  exam: Analysis
+  number: 2
+  tags:
+    - Integrals
+    - Measure Theory
+  question: |
+    If $f$ is a nonnegative measurable function on $\mathbb{R}$ and $p > 0$, show that
+    
+    $\int f^p ~dx = \int_0^{\infty} p t^{p-1} \abs{\{x : f(x) > t\}} ~dt$ 
+    
+    where $\abs{\{x : f(x) > t\}}$ is the Lebesgue measure of the set $\{x : f(x) > t\}$.
+
+- year: 1970
+  season: Spring
+  exam: Analysis
+  number: 3
+  tags:
+    - Integrals
+  question: |
+    If $f$ is a nonnegative measurable function on $[0, \pi]$ and $\int_0^\pi f(x)^3~dx < \infty$, show that
+    
+    $$\lim_{\alpha\to\infty} \int_{ \{x:f(x)>\alpha\}} f(x)^2 ~dx=0.$$
+
+
+- year: 1970
+  season: Spring
+  exam: Analysis
+  number: 4
+  tags:
+    - Measure Theory
+  question: |
+    Prove or disprove each of the following statements.
+
+    (a) If $f : [0, 1] → \mathbb{R}$ is a measurable function, then given any $ε > 0$, there exists a compact set $K ⊂ [0, 1]$ such that $f$ is continuous on $K$ relative to $K$.
+
+    (c) If f is Borel measurable on $\mathbb{R} × \mathbb{R}$, then for any $x ∈ \mathbb{R}$, the function $g(y) = f(x, y)$ is also Borel measurable on $\mathbb{R}$.
+
+    (d) If $E ⊂ \mathbb{R}$, then $E$ is measurable if and only if given any $ε > 0$, there exist a closed set $F$ and an open set $G$ such that $F ⊂ E ⊂ G$ and the measure of $G-F$ is less than $ε$.
+
+   
+- year: 1970
+  season: Spring
+  exam: Analysis
+  number: 4
+  tags:
+    - Integrals
+    - Convergence of Functions
+    - Lp Spaces
+  question: |
+    Prove or disprove each of the following statements.
+    
+    (b) If ${f_n}$ is a sequence of measurable functions that converges uniformly to $f$ on $\mathbb{R}$, then $\int{f}=\lim_{k\to \infty} \int f_k$
+    
+    (e) If $\{f_k\}$ is a sequence of function in $L_p[0,\infty)$ that converges to a function $f ∈ L_p [0,∞)$, then $\{f_k\}$ has a subsequence that converges to $f$ almost everywhere.
+    
+
+- year: 1970
+  season: Spring
+  exam: Analysis
+  number: 4
+  tags:
+    - Riemann Integrability
+    - Integrals
+    - Convergence of Functions
+    - L1
+    - Variation
+  question: |
+    Prove or disprove each of the following statements.
+    
+    (f) If $f$ is Riemann integrable on $[ε, 1]$ for all $0 < ε < 1$, then $f$ is Lebesgue integrable on $[0,1]$ if $f$ is nonnegative and the following limit exists $\lim_{ε→0+} \int_ε^1 f dx$.
+
+    (g) If $f$ is integrable on $[0,1]$, then $\lim_{n→∞} \int_0^1 f(x)\sin(nπx)dx = 0$.
+
+    (h) If $f$ is continuous on $[0, 1]$, then it is of bounded variation on [0, 1]$.
+
+
+- year: 1970
+  season: Spring
+  exam: Analysis
+  number: 5
+  tags:
+    - Mean Value Theorem 
+    - Sequences of Functions
+  question: |
+    (a) Let $f : \mathbb{R} → \mathbb{R}$ be a differentiable function. 
+        If $f'(−1) < 2$ and $f'(1) > 2$, show that there exists $x_0 ∈ (−1, 1)$ such that $f'(x_0) = 2$.
+
+        > Hint: consider the function $f(x) − 2x$ and recall the proof of Rolle’s theorem.)
+
+    (b) Let $f : (−1, 1) → \mathbb{R}$ be a differentiable function on $(−1, 0) ∪ (0, 1)$ such that $\lim_{x→0} f'(x) = L$. 
+        If $f$ is continuous on $(−1, 1)$, show that $f$ is indeed differentiable at $0$ and $f'(0) = L$.
+
