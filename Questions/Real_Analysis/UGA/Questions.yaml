@@ -38,8 +38,8 @@
   tags:
     - Lp Spaces
     - Convergence of Functions
-    - Fatou's Lemma
-    - Egorov's Theorem
+    - Fatou
+    - Egorov
   question: |
     Let $\{f_k\}$ be any sequence of functions in $L^2([0, 1])$ satisfying $\norm{f_k}_2 ≤ M$ for all $k ∈ \NN$.
       
@@ -110,7 +110,6 @@
   exam: Real_Analysis
   number: 1
   tags:
-    - Analysis
     - Convergence of Numbers
   question: |
     Let $\{a_n\}_{n=1}^\infty$ be a sequence of real numbers.
@@ -447,7 +446,6 @@
   exam: Real_Analysis
   number: 3
   tags:
-    - Integrability
     - Series of Functions
     - Integrals
     - Convergence of Functions
@@ -477,7 +475,7 @@
   exam: Real_Analysis
   number: 4
   tags:
-    - Integrability
+    - L1 
   question: |
     Let $f(x, y)$ on $[-1, 1]^2$ be defined by 
     $$
@@ -722,7 +720,6 @@
     - Uniform Continuity
     - Measure Theory
     - L1
-    - Integrability
   question: |
     Let $E \subset \RR$ be measurable with $m(E) < \infty$. 
     Define
@@ -894,7 +891,6 @@
   exam: Real_Analysis
   number: 1
   tags:
-    - Metric Spaces
     - Completeness
   question: |
     Let $(X, d)$ and $(Y, \rho)$ be metric spaces, $f: X\to Y$, and $x_0 \in X$.
@@ -946,8 +942,7 @@
   exam: Real_Analysis
   number: 4
   tags:
-    - Integrability
-    - 
+    - L1 
   question: |
     Define
     $$
@@ -1015,7 +1010,6 @@
   number: 2
   tags:
     - Convergence of Functions
-    - Integration
     - Density
   question: |
     Let $f: \RR \to \RR$ be Lebesgue measurable.
@@ -1031,7 +1025,6 @@
   tags:
     - Integrals
     - Convergence of Functions
-    - Convergence Theorems 
   question: |
     Compute the following limit:
     $$
@@ -1044,7 +1037,7 @@
   exam: Real_Analysis
   number: 4
   tags:
-    - Convergence 
+    - Convergence of Numbers
     - Calculus
   question: |
     Let $f: [1, \infty) \to \RR$ such that $f(1) = 1$ and
@@ -1064,7 +1057,7 @@
   number: 5
   tags:
     - Measure Theory
-    - Integrability
+    - L1 
     - Convolution
     - Norms
   question: |
