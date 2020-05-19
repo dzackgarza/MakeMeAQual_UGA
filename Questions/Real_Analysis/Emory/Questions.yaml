@@ -5,7 +5,6 @@
   university: Emory
   tags:
     - Measure Theory
-    - Sigma Algebras
   question: |
     Describe the process that extends a measure on an algebra
     $\mathcal{A}$ of subsets of $X$, to a complete measure defined on a
@@ -30,7 +29,6 @@
   university: Emory
   tags:
     - Convergence 
-    - Lebesgue Integration
   question: |
     1.  State the Dominated Convergence Theorem for Lebesgue integrals.
 
