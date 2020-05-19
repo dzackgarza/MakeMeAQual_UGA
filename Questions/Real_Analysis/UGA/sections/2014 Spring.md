@@ -6,7 +6,7 @@
 
 2. Show that if $f$ is *uniformly* continuous, then
 $$
-\lim{\abs x \to \infty} f(x) = 0.
+\lim_{\abs x \to \infty} f(x) = 0.
 $$
 
 ## 2

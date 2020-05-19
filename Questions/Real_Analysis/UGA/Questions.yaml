@@ -1065,7 +1065,10 @@
   exam: Real_Analysis
   number: 5
   tags:
-    - Analysis
+    - Measure Theory
+    - Integrability
+    - Convolution
+    - Norms
   question: |
     Let $f, g \in L^1(\RR)$ be Borel measurable.
 
@@ -1083,11 +1086,91 @@
   exam: Real_Analysis
   number: 6
   tags:
-    - Analysis
+    - Norms
+    - L1
   question: |
     Let $f: [0, 1] \to \RR$ be continuous.
     Show that
     $$
     \sup \left\{\|f g\|_{1} \suchthat g \in L^{1}[0,1],~~ \|g\|_{1} \leq 1\right\}=\|f\|_{\infty}
+
+- year: 2014
+  season: Spring
+  exam: Real_Analysis
+  number: 1
+  tags:
+    - Analysis
+  question: |
+    1. Give an example of a continuous $f\in L^1(\RR)$ such that $f(x) \not\to 0$ as$\abs x \to \infty$.
+
+    2. Show that if $f$ is *uniformly* continuous, then
+    $$
+    \lim{\abs x \to \infty} f(x) = 0.
+    $$
+
+- year: 2014
+  season: Spring
+  exam: Real_Analysis
+  number: 2
+  tags:
+    - Analysis
+  question: |
+    Let $\theset{a_n}$ be a sequence of real numbers such that
+    $$
+    \theset{b_n} \in \ell^2(\NN) \implies \sum a_n b_n < \infty.
+    $$
+    Show that $\sum a_n^2 < \infty$.
+
+    > Note: Assume $a_n, b_n$ are all non-negative.
+
+
+- year: 2014
+  season: Spring
+  exam: Real_Analysis
+  number: 3
+  tags:
+    - Analysis
+  question: |
+    Let $f: \RR \to \RR$ and suppose
+    $$
+    \forall x\in \RR,\quad f(x) \geq \limsup _{y \rightarrow x} f(y)
+    $$
+    Prove that $f$ is Borel measurable.
+
+
+- year: 2014
+  season: Spring
+  exam: Real_Analysis
+  number: 4
+  tags:
+    - Analysis
+  question: |
+    Let $(X, \mathcal M, \mu)$ be a measure space and suppose $f$ is a measurable function on $X$.
+    Show that
+    $$
+    \lim _{n \rightarrow \infty} \int_{X} f^{n} ~d \mu =
+    \begin{cases}
+    \infty & or \\
+    \mu(f\inv(1)),
+    \end{cases}
+    $$
+    and characterize the collection of functions of each type.
+
+- year: 2014
+  season: Spring
+  exam: Real_Analysis
+  number: 5
+  tags:
+    - Analysis
+  question: |
+    Let $f, g \in L^1([0, 1])$ and for all $x\in [0, 1]$ define
+    $$
+    F(x):=\int_{0}^{x} f(y) d y \quad \text { and } \quad G(x):=\int_{0}^{x} g(y) d y.
+    $$
+
+    Prove that
+    $$
+    \int_{0}^{1} F(x) g(x) d x=F(1) G(1)-\int_{0}^{1} f(x) G(x) d x
+    $$
 
 
