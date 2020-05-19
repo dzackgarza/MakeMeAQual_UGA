@@ -2145,9 +2145,6 @@ $$
 
 Describe the intervals on which $f$ does and does not converge uniformly.
 
-## 2
-Let $f(x) = x^2$ and $E \subset [0, \infty) \definedas \RR^+$.
-
 
 **Question 29**
 
@@ -2516,6 +2513,7 @@ Let $f: [0, 1] \to \RR$ be continuous.
 Show that
 $$
 \sup \left\{\|f g\|_{1} \suchthat g \in L^{1}[0,1],~~ \|g\|_{1} \leq 1\right\}=\|f\|_{\infty}
+$$
 
 
 **Question 58**

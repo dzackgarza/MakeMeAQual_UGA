@@ -2777,6 +2777,779 @@
     "question": "Something something $G$.\n"
   },
   {
+    "year": 2019,
+    "season": "Spring",
+    "exam": "Real_Analysis",
+    "number": 1,
+    "tags": [
+      "Function Spaces",
+      "Norms",
+      "Completeness"
+    ],
+    "question": "Let $C([0, 1])$ denote the space of all continuous real-valued functions on $[0, 1]$.\n  \na. Prove that $C([0, 1])$ is complete under the uniform norm $\\norm{f}_u := \\displaystyle\\sup_{x\\in [0,1]} |f (x)|$.\nb. Prove that $C([0, 1])$ is not complete under the $L^1\\dash$norm $\\norm{f}_1 = \\displaystyle\\int_0^1 |f (x)| ~dx$.\n"
+  },
+  {
+    "year": 2019,
+    "season": "Spring",
+    "exam": "Real_Analysis",
+    "number": 2,
+    "tags": [
+      "Measure Theory"
+    ],
+    "question": "Let $\\mathcal B$ denote the set of all Borel subsets of $\\RR$ and $\\mu : \\mathcal B → [0, \\infty)$ denote a finite Borel measure on $\\RR$.\n\na. Prove that if $\\{F_k\\}$ is a sequence of Borel sets for which $F_k \\supseteq  F_{k+1}$ for all $k$, then\n$$\n\\lim _{k \\rightarrow \\infty} \\mu\\left(F_{k}\\right)=\\mu\\left(\\bigcap_{k=1}^{\\infty} F_{k}\\right)\n$$\n\nb. Suppose $µ$ has the property that $µ(E) = 0$ for every $E \\in \\mathcal B$ with Lebesgue measure $m(E) = 0$.\n  Prove that for every $ε > 0$ there exists $δ > 0$ so that if $E \\in \\mathcal B$ with $m(E) < δ$, then $µ(E) < ε$.\n"
+  },
+  {
+    "year": 2019,
+    "season": "Spring",
+    "exam": "Real_Analysis",
+    "number": 3,
+    "tags": [
+      "Lp Spaces",
+      "Convergence of Functions",
+      "Fatou's Lemma",
+      "Egorov's Theorem"
+    ],
+    "question": "Let $\\{f_k\\}$ be any sequence of functions in $L^2([0, 1])$ satisfying $\\norm{f_k}_2 ≤ M$ for all $k ∈ \\NN$.\n  \nProve that if $f_k → f$ almost everywhere, then $f ∈ L^2([0, 1])$ with $\\norm{f}_2 ≤ M$ and\n$$\n\\lim _{k \\rightarrow \\infty} \\int_{0}^{1} f_{k}(x) dx = \\int_{0}^{1} f(x) d x\n$$\n\n> Hint: Try using Fatou’s Lemma to show that $\\norm{f}_2 ≤ M$ and then try applying Egorov’s Theorem.\n"
+  },
+  {
+    "year": 2019,
+    "season": "Spring",
+    "exam": "Real_Analysis",
+    "number": 4,
+    "tags": [
+      "Measure Theory"
+    ],
+    "question": "Let $f$ be a non-negative function on $\\RR^n$ and $\\mathcal A = \\{(x, t) ∈ \\RR^n × \\RR : 0 ≤ t ≤ f (x)\\}$.\n\nProve the validity of the following two statements:\n\na. $f$ is a Lebesgue measurable function on $\\RR^n \\iff  \\mathcal A$ is a Lebesgue measurable subset of $\\RR^{n+1}$\n\nb. If $f$ is a Lebesgue measurable function on $\\RR^n$, then\n$$\nm(\\mathcal{A})=\\int_{\\mathbb{R}^{n}} f(x) d x=\\int_{0}^{\\infty} m\\left(\\left\\{x \\in \\mathbb{R}^{n}: f(x) \\geq t\\right\\}\\right) d t\n$$\n"
+  },
+  {
+    "year": 2019,
+    "season": "Spring",
+    "exam": "Real_Analysis",
+    "number": 5,
+    "tags": [
+      "Lp Spaces",
+      "Functional Analysis",
+      "Riesz Representation"
+    ],
+    "question": "a.  Show that $L^2([0, 1]) ⊆ L^1([0, 1])$ and argue that $L^2([0, 1])$ in fact \n    forms a dense subset of $L^1([0, 1])$.\n\nb.  Let $Λ$ be a continuous linear functional on $L^1([0, 1])$.\n  \n    Prove the Riesz Representation Theorem for $L^1([0, 1])$ by following the steps below:\n\n\n    i. Establish the existence of a function $g ∈ L^2([0, 1])$ which represents $Λ$ in the sense that\n    $$\n    Λ(f ) = f (x)g(x) dx \\text{ for all } f ∈ L^2([0, 1]).\n    $$\n\n    > Hint: You may use, without proof, the Riesz Representation Theorem for $L^2([0, 1])$.\n\n    ii. Argue that the $g$ obtained above must in fact belong to $L^∞([0, 1])$ and represent $Λ$ in the sense that\n    $$\n    \\Lambda(f)=\\int_{0}^{1} f(x) \\overline{g(x)} d x \\quad \\text { for all } f \\in L^{1}([0,1])\n    $$\n    with\n    $$\n    \\|g\\|_{L^{\\infty}([0,1])}=\\|\\Lambda\\|_{L^{1}([0,1])\\dual}\n    $$\n"
+  },
+  {
+    "year": 2019,
+    "season": "Fall",
+    "exam": "Real_Analysis",
+    "number": 1,
+    "tags": [
+      "Analysis",
+      "Convergence of Numbers"
+    ],
+    "question": "Let $\\{a_n\\}_{n=1}^\\infty$ be a sequence of real numbers.\n\na. Prove that if $\\displaystyle\\lim_{n→∞} a_n = 0$, then $\\displaystyle\\lim_{n→∞} a_1 + \\cdots + a_n = 0$.\n$$\n\\lim _{n \\rightarrow \\infty} \\frac{a_{1}+\\cdots+a_{n}}{n}=0\n$$\n\nb. Prove that if $\\displaystyle\\sum_{n=1}^{\\infty} \\frac{a_{n}}{n}$ converges, then \n$$\n\\lim _{n \\rightarrow \\infty} \\frac{a_{1}+\\cdots+a_{n}}{n}=0\n$$\n"
+  },
+  {
+    "year": 2019,
+    "season": "Fall",
+    "exam": "Real_Analysis",
+    "number": 2,
+    "tags": [
+      "Analysis",
+      "Integrals"
+    ],
+    "question": "Prove that\n$$\n\\left|\\frac{d^{n}}{d x^{n}} \\frac{\\sin x}{x}\\right| \\leq \\frac{1}{n}\n$$\n\nfor all $x \\neq 0$ and positive integers $n$.\n\n> Hint: Consider $\\displaystyle\\int_0^1 \\cos(tx) dt$\n"
+  },
+  {
+    "year": 2019,
+    "season": "Fall",
+    "exam": "Real_Analysis",
+    "number": 3,
+    "tags": [
+      "Measure Theory",
+      "Borel-Cantelli"
+    ],
+    "question": "Let $(X, \\mathcal B, µ)$ be a measure space with $µ(X) = 1$ and $\\{B_n\\}_{n=1}^\\infty$ be a sequence of $\\mathcal B$-measurable subsets of $X$, and\n$$\nB \\definedas \\theset{x\\in X \\suchthat x\\in B_n \\text{ for infinitely many } n}.\n$$\n\na. Argue that $B$ is also a $\\mathcal{B} \\dash$measurable subset of $X$.\n\nb. Prove that if $\\sum_{n=1}^\\infty \\mu(B_n) < \\infty$ then $\\mu(B)= 0$.\n\nc. Prove that if  $\\sum_{n=1}^\\infty \\mu(B_n) = \\infty$ **and** the sequence of set complements $\\theset{B_n^c}_{n=1}^\\infty$ satisfies\n$$\n\\mu\\left(\\bigcap_{n=k}^{K} B_{n}^{c}\\right)=\\prod_{n=k}^{K}\\left(1-\\mu\\left(B_{n}\\right)\\right)\n$$\nfor all positive integers $k$ and $K$ with $k < K$, then $µ(B) = 1$.\n\n> Hint: Use the fact that $1 - x ≤ e^{-x}$ for all $x$.\n"
+  },
+  {
+    "year": 2019,
+    "season": "Fall",
+    "exam": "Real_Analysis",
+    "number": 4,
+    "tags": [
+      "Functional Analysis",
+      "Hilbert Spaces",
+      "Norms"
+    ],
+    "question": "Let $\\{u_n\\}_{n=1}^∞$ be an orthonormal sequence in a Hilbert space $\\mathcal{H}$.\n\na. Prove that for every $x \\in \\mathcal H$ one has \n$$\n\\displaystyle\\sum_{n=1}^{\\infty}\\left|\\left\\langle x, u_{n}\\right\\rangle\\right|^{2} \\leq\\|x\\|^{2}\n$$\n\nb. Prove that for any sequence $\\{a_n\\}_{n=1}^\\infty \\in \\ell^2(\\NN)$ there exists an element $x\\in\\mathcal H$ such that \n$$\na_n = \\inner{x}{u_n} \\text{ for all } n\\in \\NN\n$$\nand\n$$\n\\norm{x}^2 = \\sum_{n=1}^{\\infty}\\left|\\left\\langle x, u_{n}\\right\\rangle\\right|^{2}\n$$\n"
+  },
+  {
+    "year": 2019,
+    "season": "Fall",
+    "exam": "Real_Analysis",
+    "number": 5,
+    "tags": [
+      "Integrals",
+      "Norms"
+    ],
+    "question": "a. Show that if $f$ is continuous with compact support on $\\RR$, then \n$$\n\\lim _{y \\rightarrow 0} \\int_{\\mathbb{R}}|f(x-y)-f(x)| d x=0\n$$\n\nb. Let $f\\in L^1(\\RR)$ and for each $h > 0$ let \n$$\n\\mathcal{A}_{h} f(x):=\\frac{1}{2 h} \\int_{|y| \\leq h} f(x-y) d y\n$$\n\ni. Prove that $\\left\\|\\mathcal{A}_{h} f\\right\\|_{1} \\leq\\|f\\|_{1}$ for all $h > 0$.\n\nii. Prove that $\\mathcal{A}_h f → f$ in $L^1(\\RR)$ as $h → 0^+$.\n"
+  },
+  {
+    "year": 2018,
+    "season": "Spring",
+    "exam": "Real_Analysis",
+    "number": 1,
+    "tags": [
+      "Borel-Cantelli"
+    ],
+    "question": "Define\n$$\nE:=\\left\\{x \\in \\mathbb{R}:\\left|x-\\frac{p}{q}\\right|<q^{-3} \\text { for infinitely many } p, q \\in \\mathbb{N}\\right\\}.\n$$\n\nProve that $m(E) = 0$.\n"
+  },
+  {
+    "year": 2018,
+    "season": "Spring",
+    "exam": "Real_Analysis",
+    "number": 2,
+    "tags": [
+      "Uniform Convergence",
+      "Integrals",
+      "Convergence of Integrals"
+    ],
+    "question": "Let\n$$\nf_{n}(x):=\\frac{x}{1+x^{n}}, \\quad x \\geq 0.\n$$\n\na. Show that this sequence converges pointwise and find its limit. Is the convergence uniform on $[0, \\infty)$?\n\nb. Compute \n$$\n\\lim _{n \\rightarrow \\infty} \\int_{0}^{\\infty} f_{n}(x) d x\n$$\n"
+  },
+  {
+    "year": 2018,
+    "season": "Spring",
+    "exam": "Real_Analysis",
+    "number": 3,
+    "tags": [
+      "Integrals",
+      "Convergence of Integrals",
+      "Lp Spaces",
+      "Norms"
+    ],
+    "question": "Let $f$ be a non-negative measurable function on $[0, 1]$. \n\nShow that\n$$\n\\lim _{p \\rightarrow \\infty}\\left(\\int_{[0,1]} f(x)^{p} d x\\right)^{\\frac{1}{p}}=\\|f\\|_{\\infty}.\n$$\n"
+  },
+  {
+    "year": 2018,
+    "season": "Spring",
+    "exam": "Real_Analysis",
+    "number": 4,
+    "tags": [
+      "Lp Spaces",
+      "Integrals"
+    ],
+    "question": "Let $f\\in L^2([0, 1])$ and suppose\n$$\n\\int_{[0,1]} f(x) x^{n} d x=0 \\text { for all integers } n \\geq 0.\n$$\nShow that $f = 0$ almost everywhere.\n"
+  },
+  {
+    "year": 2018,
+    "season": "Spring",
+    "exam": "Real_Analysis",
+    "number": 5,
+    "tags": [
+      "Convergence of Integrals",
+      "Convergence of Functions",
+      "Lp Spaces"
+    ],
+    "question": "Suppose that\n\n- $f_n, f \\in L^1$,\n- $f_n \\to f$ almost everywhere, and\n- $\\int\\left|f_{n}\\right| \\rightarrow \\int|f|$.\n\nShow that $\\int f_{n} \\rightarrow \\int f$\n"
+  },
+  {
+    "year": 2018,
+    "season": "Fall",
+    "exam": "Real_Analysis",
+    "number": 1,
+    "tags": [
+      "Uniform Continuity"
+    ],
+    "question": "Let $f(x) = \\frac 1 x$.\nShow that $f$ is uniformly continuous on $(1, \\infty)$ but not on $(0,\\infty)$.\n"
+  },
+  {
+    "year": 2018,
+    "season": "Fall",
+    "exam": "Real_Analysis",
+    "number": 2,
+    "tags": [
+      "Measure Theory"
+    ],
+    "question": "Let $E\\subset \\RR$ be a Lebesgue measurable set.\nShow that there is a Borel set $B \\subset E$ such that $m(E\\setminus B) = 0$.\n"
+  },
+  {
+    "year": 2018,
+    "season": "Fall",
+    "exam": "Real_Analysis",
+    "number": 3,
+    "tags": [
+      "Integrals"
+    ],
+    "question": "Suppose $f(x)$ and $xf(x)$ are integrable on $\\RR$.\nDefine $F$ by\n$$\nF(t):=\\int_{-\\infty}^{\\infty} f(x) \\cos (x t) d x\n$$\nShow that \n$$\nF'(t)=-\\int_{-\\infty}^{\\infty} x f(x) \\sin (x t) d x.\n$$\n"
+  },
+  {
+    "year": 2018,
+    "season": "Fall",
+    "exam": "Real_Analysis",
+    "number": 4,
+    "tags": [
+      "Lp Spaces",
+      "Integrals"
+    ],
+    "question": "Let $f\\in L^1([0, 1])$.\nProve that\n$$\n\\lim_{n \\to \\infty} \\int_{0}^{1} f(x) \\abs{\\sin n x} ~d x= \\frac{2}{\\pi} \\int_{0}^{1} f(x) ~d x\n$$\n\n> Hint: Begin with the case that $f$ is the characteristic function of an interval.\n"
+  },
+  {
+    "year": 2018,
+    "season": "Fall",
+    "exam": "Real_Analysis",
+    "number": 5,
+    "tags": [
+      "Fubini-Tonelli"
+    ],
+    "question": "Let $f \\geq 0$ be a measurable function on $\\RR$.\nShow that\n$$\n\\int_{\\mathbb{R}} f=\\int_{0}^{\\infty} m(\\{x: f(x)>t\\}) d t\n$$\n"
+  },
+  {
+    "year": 2018,
+    "season": "Fall",
+    "exam": "Real_Analysis",
+    "number": 1,
+    "tags": [
+      "Integrals",
+      "Convergence of Integrals"
+    ],
+    "question": "Compute the following limit and justify your calculations:\n$$\n\\lim_{n \\rightarrow \\infty} \\int_{1}^{n} \\frac{d x}{\\left(1+\\frac{x}{n}\\right)^{n} \\sqrt[n]{x}}\n$$\n"
+  },
+  {
+    "year": 2017,
+    "season": "Spring",
+    "exam": "Real_Analysis",
+    "number": 1,
+    "tags": [
+      "Cantor Set",
+      "Measure Theory"
+    ],
+    "question": "Let $K$ be the set of numbers in $[0, 1]$ whose decimal expansions do not use the digit $4$.\n\n> We use the convention that when a decimal number ends with 4 but all other digits are\ndifferent from 4, we replace the digit $4$ with $399\\cdots$. For example, $0.8754 = 0.8753999\\cdots$.\n\nShow that $K$ is a compact, nowhere dense set without isolated points, and find the\nLebesgue measure $m(K)$.\n"
+  },
+  {
+    "year": 2017,
+    "season": "Spring",
+    "exam": "Real_Analysis",
+    "number": 2,
+    "tags": [
+      "Radon Nikodym Theorem",
+      "Measure Theory"
+    ],
+    "question": "\na. Let $\\mu$ be a measure on a measurable space $(X, \\mathcal M)$ and $f$ a positive measurable function.\n\nDefine a measure $\\lambda$ by\n$$\n\\lambda(E):=\\int_{E} f ~d \\mu, \\quad E \\in \\mathcal{M}\n$$\n\nShow that for $g$ any positive measurable function, \n$$\n\\int_{X} g ~d \\lambda=\\int_{X} f g ~d \\mu\n$$\n\nb. Let $E \\subset \\RR$ be a measurable set such that \n$$\n\\int_{E} x^{2} ~d m=0.\n$$\nShow that $m(E) = 0$.\n"
+  },
+  {
+    "year": 2017,
+    "season": "Spring",
+    "exam": "Real_Analysis",
+    "number": 3,
+    "tags": [
+      "Integrability",
+      "Series of Functions",
+      "Integrals",
+      "Convergence of Functions",
+      "L1"
+    ],
+    "question": "Let\n$$\nf_{n}(x)=a e^{-n a x}-b e^{-n b x} \\quad \\text{ where } 0 < a < b.\n$$\n\nShow that \n\na. $\\sum_{n=1}^{\\infty}\\left|f_{n}\\right| \\text { is not in } L^{1}([0, \\infty), m)$\n\n  > Hint: $f_n(x)$ has a root $x_n$.\n\nb. \n$$\n\\sum_{n=1}^{\\infty} f_{n} \\text { is in } L^{1}([0, \\infty), m) \n\\quad \\text { and } \\quad \n\\int_{0}^{\\infty} \\sum_{n=1}^{\\infty} f_{n}(x) ~d m=\\ln \\frac{b}{a}\n$$\n"
+  },
+  {
+    "year": 2017,
+    "season": "Spring",
+    "exam": "Real_Analysis",
+    "number": 4,
+    "tags": [
+      "Integrability"
+    ],
+    "question": "Let $f(x, y)$ on $[-1, 1]^2$ be defined by \n$$\nf(x, y) = \\begin{cases}\n\\frac{x y}{\\left(x^{2}+y^{2}\\right)^{2}} & (x, y) \\neq (0, 0) \\\\\n0 & (x, y) = (0, 0)\n\\end{cases}\n$$\nDetermine if $f$ is integrable.\n"
+  },
+  {
+    "year": 2017,
+    "season": "Spring",
+    "exam": "Real_Analysis",
+    "number": 5,
+    "tags": [
+      "Uniform Continuity",
+      "Integrals",
+      "L2"
+    ],
+    "question": "Let $f, g \\in L^2(\\RR)$. \nProve that the formula\n$$\nh(x):=\\int_{-\\infty}^{\\infty} f(t) g(x-t) d t\n$$\ndefines a uniformly continuous function $h$ on $\\RR$.\n"
+  },
+  {
+    "year": 2017,
+    "season": "Spring",
+    "exam": "Real_Analysis",
+    "number": 6,
+    "tags": [
+      "Function Spaces",
+      "Norms",
+      "Completeness"
+    ],
+    "question": "Show that the space $C^1([a, b])$ is a Banach space when equipped with the norm\n$$\n\\|f\\|:=\\sup _{x \\in[a, b]}|f(x)|+\\sup _{x \\in[a, b]}\\left|f^{\\prime}(x)\\right|.\n$$\n"
+  },
+  {
+    "year": 2017,
+    "season": "Fall",
+    "exam": "Real_Analysis",
+    "number": 1,
+    "tags": [
+      "Uniform Convergence"
+    ],
+    "question": "Let \n$$\nf(x) = s \\sum_{n=0}^{\\infty} \\frac{x^{n}}{n !}.\n$$\n\nDescribe the intervals on which $f$ does and does not converge uniformly.\n"
+  },
+  {
+    "year": 2017,
+    "season": "Fall",
+    "exam": "Real_Analysis",
+    "number": 2,
+    "tags": [
+      "Measure Theory"
+    ],
+    "question": "Let $f(x) = x^2$ and $E \\subset [0, \\infty) \\definedas \\RR^+$.\n\n1. Show that\n$$\nm^*(E) = 0 \\iff m^*(f(E)) = 0.\n$$\n\n2. Deduce that the map\n\n\\begin{align*}\n\\phi: \\mathcal{L}(\\RR^+) &\\to \\mathcal{L}(\\RR^+) \\\\\nE &\\mapsto f(E)\n\\end{align*}\n  is a bijection from the class of Lebesgue measurable sets of $[0, \\infty)$ to itself.\n"
+  },
+  {
+    "year": 2017,
+    "season": "Fall",
+    "exam": "Real_Analysis",
+    "number": 3,
+    "tags": [
+      "Sequences of Functions",
+      "Convergence of Functions",
+      "L1",
+      "Density"
+    ],
+    "question": "Let \n$$\nS = \\spanof_\\CC\\theset{\\chi_{(a, b)} \\suchthat a, b \\in \\RR},\n$$\nthe complex linear span of characteristic functions of intervals of the form $(a, b)$.\n\nShow that for every $f\\in L^1(\\RR)$, there exists a sequence of functions $\\theset{f_n} \\subset S$ such that \n$$\n\\lim _{n \\rightarrow \\infty}\\left\\|f_{n}-f\\right\\|_{1}=0\n$$\n"
+  },
+  {
+    "year": 2017,
+    "season": "Fall",
+    "exam": "Real_Analysis",
+    "number": 4,
+    "tags": [
+      "Convergence of Functions",
+      "Convergence of Integrals",
+      "Integrals",
+      "Uniform Convergence"
+    ],
+    "question": "Let\n$$\nf_{n}(x)=n x(1-x)^{n}, \\quad n \\in \\mathbb{N}.\n$$\n\n1. Show that $f_n \\to 0$ pointwise but not uniformly on $[0, 1]$.\n    \n    > Hint: Consider the maximum of $f_n$.\n\n2. \n$$\n\\lim _{n \\rightarrow \\infty} \\int_{0}^{1} n(1-x)^{n} \\sin x d x=0\n$$\n"
+  },
+  {
+    "year": 2017,
+    "season": "Fall",
+    "exam": "Real_Analysis",
+    "number": 5,
+    "tags": [
+      "Approximations to the Identity",
+      "Convergence of Functions",
+      "Convergence of Integrals",
+      "L1"
+    ],
+    "question": "Let $\\phi$ be a compactly supported smooth function that vanishes outside of an interval $[-N, N]$ such that $\\int_{\\mathrm{R}} \\phi(x) d x=1$.\n\nFor $f\\in L^1(\\RR)$, define\n$$\nK_{j}(x):=j \\phi(j x), \\quad \\quad f \\ast K_{j}(x):=\\int_{\\mathbb{R}} f(x-y) K_{j}(y) ~d y\n$$\nand prove the following:\n\n1. Each $f\\ast K_j$ is smooth and compactly supported.\n\n2. \n$$\n\\lim _{j \\rightarrow \\infty}\\left\\|f * K_{j}-f\\right\\|_{1}=0\n$$\n\n> Hint:\n$$\n\\lim _{y \\rightarrow 0} \\int_{\\mathbb{R}}|f(x-y)-f(x)| d y=0\n$$\n"
+  },
+  {
+    "year": 2017,
+    "season": "Fall",
+    "exam": "Real_Analysis",
+    "number": 6,
+    "tags": [
+      "Function Spaces",
+      "Norms",
+      "Completeness"
+    ],
+    "question": "Let $X$ be a complete metric space and define a norm\n$$\n\\|f\\|:=\\max \\{|f(x)|: x \\in X\\}.\n$$\n\nShow that $(C^0(\\RR), \\norm{\\wait} )$ (the space of continuous functions $f: X\\to \\RR$) is complete.\n"
+  },
+  {
+    "year": 2016,
+    "season": "Spring",
+    "exam": "Real_Analysis",
+    "number": 1,
+    "tags": [
+      "Bernoulli",
+      "Sequences of Numbers"
+    ],
+    "question": "For $n\\in \\NN$, define\n$$\ne_{n}=\\left(1+\\frac{1}{n}\\right)^{n} \n\\quad \\text { and } \\quad \nE_{n}=\\left(1+\\frac{1}{n}\\right)^{n+1}\n$$\n\nShow that $e_n < E_n$, and prove Bernoulli's inequality:\n$$\n(1+x)^{n} \\geq 1+n x \\text { for }-1<x<\\infty \\text { and } n \\in \\mathbb{N}\n$$\n\nUse this to show the following:\n\n1. The sequence $e_n$ is increasing.\n2. The sequence $E_n$ is decreasing.\n3. $2 < e_n < E_n < 4$.\n4. $\\lim _{n \\rightarrow \\infty} e_{n}=\\lim _{n \\rightarrow \\infty} E_{n}$.\n"
+  },
+  {
+    "year": 2016,
+    "season": "Spring",
+    "exam": "Real_Analysis",
+    "number": 2,
+    "tags": [
+      "Cantor Set"
+    ],
+    "question": "Let $0 < \\lambda < 1$ and construct a Cantor set $C_\\lambda$ by successively removing middle intervals of length $\\lambda$.\n\nProve that $m(C_\\lambda) = 0$.\n"
+  },
+  {
+    "year": 2016,
+    "season": "Spring",
+    "exam": "Real_Analysis",
+    "number": 3,
+    "tags": [
+      "Measure Theory",
+      "Continuity"
+    ],
+    "question": "Let $f$ be Lebesgue measurable on $\\RR$ and $E \\subset \\RR$ be measurable such that\n$$\n0<A=\\int_{E} f(x) d x<\\infty.\n$$\n\nShow that for every $0 < t < 1$, there exists a measurable set $E_t \\subset E$ such that\n$$\n\\int_{E_{t}} f(x) d x=t A.\n$$\n"
+  },
+  {
+    "year": 2016,
+    "season": "Spring",
+    "exam": "Real_Analysis",
+    "number": 4,
+    "tags": [
+      "Uniform Continuity",
+      "Measure Theory",
+      "L1",
+      "Integrability"
+    ],
+    "question": "Let $E \\subset \\RR$ be measurable with $m(E) < \\infty$. \nDefine\n$$\nf(x)=m(E \\cap(E+x)).\n$$\n\nShow that\n\n1. $f\\in L^1(\\RR)$.\n2. $f$ is uniformly continuous.\n3. $\\lim _{|x| \\rightarrow \\infty} f(x)=0$\n\n> Hint: \n$$\n\\chi_{E \\cap(E+x)}(y)=\\chi_{E}(y) \\chi_{E}(y-x)\n$$\n"
+  },
+  {
+    "year": 2016,
+    "season": "Spring",
+    "exam": "Real_Analysis",
+    "number": 5,
+    "tags": [
+      "Measure Theory",
+      "Integrals",
+      "L1"
+    ],
+    "question": "Let $(X, \\mathcal M, \\mu)$ be a measure space. For $f\\in L^1(\\mu)$ and $\\lambda > 0$, define\n$$\n\\phi(\\lambda)=\\mu(\\{x \\in X | f(x)>\\lambda\\}) \n\\quad \\text { and } \\quad \n\\psi(\\lambda)=\\mu(\\{x \\in X | f(x)<-\\lambda\\})\n$$\n\nShow that $\\phi, \\psi$ are Borel measurable and\n$$\n\\int_{X}|f| ~d \\mu=\\int_{0}^{\\infty}[\\phi(\\lambda)+\\psi(\\lambda)] ~d \\lambda\n$$\n"
+  },
+  {
+    "year": 2016,
+    "season": "Spring",
+    "exam": "Real_Analysis",
+    "number": 6,
+    "tags": [
+      "Functional Analysis",
+      "Norms",
+      "L2",
+      "Riesz Representation"
+    ],
+    "question": "Without using the Riesz Representation Theorem, compute\n$$\n\\sup \\left\\{\\left|\\int_{0}^{1} f(x) e^{x} d x\\right| \\suchthat f \\in L^{2}([0,1], m),~~ \\|f\\|_{2} \\leq 1\\right\\}\n$$\n"
+  },
+  {
+    "year": 2016,
+    "season": "Fall",
+    "exam": "Real_Analysis",
+    "number": 1,
+    "tags": [
+      "Uniform Convergence",
+      "Series of Numbers"
+    ],
+    "question": "Define\n$$\nf(x) = \\sum_{n=1}^{\\infty} \\frac{1}{n^{x}}.\n$$ \n\nShow that $f$ converges to a differentiable function on $(1, \\infty)$ and that\n$$\nf'(x)  =\\sum_{n=1}^{\\infty}\\left(\\frac{1}{n^{x}}\\right)^{\\prime}.\n$$\n\n> Hint:\n$$\n\\left(\\frac{1}{n^{x}}\\right)^{\\prime}=-\\frac{1}{n^{x}} \\ln n\n$$\n"
+  },
+  {
+    "year": 2016,
+    "season": "Fall",
+    "exam": "Real_Analysis",
+    "number": 2,
+    "tags": [
+      "Measure Theory"
+    ],
+    "question": "Let $f, g: [a, b] \\to \\RR$ be measurable with\n$$\n\\int_{a}^{b} f(x) ~d x=\\int_{a}^{b} g(x) ~d x.\n$$\n\nShow that either\n\n1. $f(x) = g(x)$ almost everywhere, or\n2. There exists a measurable set $E \\subset [a, b]$ such that\n$$\n\\int_{E} f(x) ~d x>\\int_{E} g(x) ~d x\n$$\n"
+  },
+  {
+    "year": 2016,
+    "season": "Fall",
+    "exam": "Real_Analysis",
+    "number": 3,
+    "tags": [
+      "L1",
+      "Norms",
+      "Convergence of Integrals"
+    ],
+    "question": "Let $f\\in L^1(\\RR)$.\nShow that\n$$\n\\lim _{x \\rightarrow 0} \\int_{\\mathbb{R}}|f(y-x)-f(y)| d y=0\n$$\n"
+  },
+  {
+    "year": 2016,
+    "season": "Fall",
+    "exam": "Real_Analysis",
+    "number": 4,
+    "tags": [
+      "Measure Theory",
+      "Borel-Cantelli"
+    ],
+    "question": "Let $(X, \\mathcal M, \\mu)$ be a measure space and suppose $\\theset{E_n} \\subset \\mathcal M$ satisfies\n$$\n\\lim _{n \\rightarrow \\infty} \\mu\\left(X \\backslash E_{n}\\right)=0.\n$$\n\nDefine\n$$\nG \\definedas \\theset{x\\in X \\suchthat x\\in E_n \\text{ for only finitely many  } n}.\n$$\n\nShow that $G \\in \\mathcal M$ and $\\mu(G) = 0$.\n"
+  },
+  {
+    "year": 2016,
+    "season": "Fall",
+    "exam": "Real_Analysis",
+    "number": 5,
+    "tags": [
+      "Lp Spaces",
+      "Integrals",
+      "Sequences of Functions"
+    ],
+    "question": "Let $\\phi\\in L^\\infty(\\RR)$. Show that the following limit exists and satisfies the equality\n$$\n\\lim _{n \\rightarrow \\infty}\\left(\\int_{\\mathbb{R}} \\frac{|\\phi(x)|^{n}}{1+x^{2}} d x\\right)^{\\frac{1}{n}} = \\norm{\\phi}_\\infty.\n$$\n"
+  },
+  {
+    "year": 2016,
+    "season": "Fall",
+    "exam": "Real_Analysis",
+    "number": 6,
+    "tags": [
+      "L2",
+      "Convergence of Integrals"
+    ],
+    "question": "Let $f, g \\in L^2(\\RR)$. Show that\n$$\n\\lim _{n \\rightarrow \\infty} \\int_{\\mathbb{R}} f(x) g(x+n) d x=0\n$$\n"
+  },
+  {
+    "year": 2015,
+    "season": "Spring",
+    "exam": "Real_Analysis",
+    "number": 1,
+    "tags": [
+      "Metric Spaces",
+      "Completeness"
+    ],
+    "question": "Let $(X, d)$ and $(Y, \\rho)$ be metric spaces, $f: X\\to Y$, and $x_0 \\in X$.\n\nProve that the following statements are equivalent:\n\n1. For every $\\varepsilon > 0 \\quad \\exists \\delta > 0$ such that $\\rho( f(x), f(x_0)  ) < \\varepsilon$ whenever $d(x, x_0) < \\delta$.\n2. The sequence $\\theset{f(x_n)}_{n=1}^\\infty \\to f(x_0)$ for every sequence $\\theset{x_n} \\to x_0$ in $X$.\n"
+  },
+  {
+    "year": 2015,
+    "season": "Spring",
+    "exam": "Real_Analysis",
+    "number": 2,
+    "tags": [
+      "Series of Functions",
+      "Integrals"
+    ],
+    "question": "Let $f: \\RR \\to \\CC$ be continuous with period 1. Prove that\n$$\n\\lim _{N \\rightarrow \\infty} \\frac{1}{N} \\sum_{n=1}^{N} f(n \\alpha)=\\int_{0}^{1} f(t) d t \\quad \\forall \\alpha \\in \\RR\\setminus\\QQ.\n$$\n\n> Hint: show this first for the functions $f(t) = e^{2\\pi i k t}$ for $k\\in \\ZZ$.\n"
+  },
+  {
+    "year": 2015,
+    "season": "Spring",
+    "exam": "Real_Analysis",
+    "number": 3,
+    "tags": [
+      "Measure Theory"
+    ],
+    "question": "Let $\\mu$ be a finite Borel measure on $\\RR$ and $E \\subset \\RR$ Borel. \nProve that the following statements are equivalent:\n\n1. $\\forall \\varepsilon > 0$ there exists $G$ open and $F$ closed such that \n$$\nF \\subseteq E \\subseteq G \\quad \\text{and} \\quad \\mu(G\\setminus F) < \\varepsilon.\n$$\n2. There exists a $V \\in G_\\delta$ and $H \\in F_\\sigma$ such that \n$$\nH \\subseteq E \\subseteq V \\quad \\text{and}\\quad \\mu(V\\setminus H) = 0\n$$\n"
+  },
+  {
+    "year": 2015,
+    "season": "Spring",
+    "exam": "Real_Analysis",
+    "number": 4,
+    "tags": [
+      "Integrability",
+      null
+    ],
+    "question": "Define\n$$\nf(x, y):=\\left\\{\\begin{array}{ll}{\\frac{x^{1 / 3}}{(1+x y)^{3 / 2}}} & {\\text { if } 0 \\leq x \\leq y} \\\\ {0} & {\\text { otherwise }}\\end{array}\\right.\n$$\n\nCarefully show that $f \\in L^1(\\RR^2)$.\n"
+  },
+  {
+    "year": 2015,
+    "season": "Spring",
+    "exam": "Real_Analysis",
+    "number": 5,
+    "tags": [
+      "Functional Analysis",
+      "Hilbert Spaces"
+    ],
+    "question": "Let $\\mathcal H$ be a Hilbert space.\n\n1. Let $x\\in \\mathcal H$ and $\\theset{u_n}_{n=1}^N$ be an orthonormal set.\n  Prove that the best approximation to $x$ in $\\mathcal H$ by an element in $\\spanof_\\CC\\theset{u_n}$ is given by\n  $$\n  \\hat x \\definedas \\sum_{n=1}^N \\inner{x}{u_n}u_n.\n  $$\n2. Conclude that finite dimensional subspaces of $\\mathcal H$ are always closed.\n"
+  },
+  {
+    "year": 2015,
+    "season": "Spring",
+    "exam": "Real_Analysis",
+    "number": 6,
+    "tags": [
+      "Convolution",
+      "Uniform Continuity",
+      "L1"
+    ],
+    "question": "Let $f \\in L^1(\\RR)$ and $g$ be a bounded measurable function on $\\RR$.\n\n1. Show that the convolution $f\\ast g$ is well-defined, bounded, and uniformly continuous on $\\RR$.\n2. Prove that one further assumes that $g \\in C^1(\\RR)$ with bounded derivative, then $f\\ast g \\in C^1(\\RR)$ and\n$$\n\\frac{d}{d x}(f * g)=f *\\left(\\frac{d}{d x} g\\right)\n$$\n"
+  },
+  {
+    "year": 2015,
+    "season": "Fall",
+    "exam": "Real_Analysis",
+    "number": 1,
+    "tags": [
+      "Calculus"
+    ],
+    "question": "Define\n$$\nf(x)=c_{0}+c_{1} x^{1}+c_{2} x^{2}+\\ldots+c_{n} x^{n} \\text { with } n \\text { even and } c_{n}>0.\n$$\n\nShow that there is a number $x_m$ such that $f(x_m) \\leq f(x)$ for all $x\\in \\RR$.\n"
+  },
+  {
+    "year": 2015,
+    "season": "Fall",
+    "exam": "Real_Analysis",
+    "number": 2,
+    "tags": [
+      "Convergence of Functions",
+      "Integration",
+      "Density"
+    ],
+    "question": "Let $f: \\RR \\to \\RR$ be Lebesgue measurable.\n\n1. Show that there is a sequence of simple functions $s_n(x)$ such that $s_n(x) \\to f(x)$ for all $x\\in \\RR$.\n2. Show that there is a Borel measurable function $g$ such that $g = f$ almost everywhere.\n"
+  },
+  {
+    "year": 2015,
+    "season": "Fall",
+    "exam": "Real_Analysis",
+    "number": 3,
+    "tags": [
+      "Integrals",
+      "Convergence of Functions",
+      "Convergence Theorems"
+    ],
+    "question": "Compute the following limit:\n$$\n\\lim _{n \\rightarrow \\infty} \\int_{1}^{n} \\frac{n e^{-x}}{1+n x^{2}} ~\\sin \\left(\\frac x n\\right) ~d x\n$$\n"
+  },
+  {
+    "year": 2015,
+    "season": "Fall",
+    "exam": "Real_Analysis",
+    "number": 4,
+    "tags": [
+      "Convergence",
+      "Calculus"
+    ],
+    "question": "Let $f: [1, \\infty) \\to \\RR$ such that $f(1) = 1$ and\n$$\nf^{\\prime}(x)= \\frac{1} {x^{2}+f(x)^{2}}\n$$\n\nShow that the following limit exists and satisfies the equality\n$$\n\\lim _{x \\rightarrow \\infty} f(x) \\leq 1 + \\frac \\pi 4\n$$\n"
+  },
+  {
+    "year": 2015,
+    "season": "Fall",
+    "exam": "Real_Analysis",
+    "number": 5,
+    "tags": [
+      "Measure Theory",
+      "Integrability",
+      "Convolution",
+      "Norms"
+    ],
+    "question": "Let $f, g \\in L^1(\\RR)$ be Borel measurable.\n\n1. Show that \n  - The function $$F(x, y) \\definedas f(x-y) g(y)$$ is Borel measurable on $\\RR^2$, and\n  - For almost every $y\\in \\RR$, $$F_y(x) \\definedas f(x-y)g(y)$$ is integrable with respect to $y$.\n2. Show that $f\\ast g \\in L^1(\\RR)$ and\n$$\n\\|f * g\\|_{1} \\leq\\|f\\|_{1}\\|g\\|_{1}\n$$\n"
+  },
+  {
+    "year": 2015,
+    "season": "Fall",
+    "exam": "Real_Analysis",
+    "number": 6,
+    "tags": [
+      "Norms",
+      "L1"
+    ],
+    "question": "Let $f: [0, 1] \\to \\RR$ be continuous.\nShow that\n$$\n\\sup \\left\\{\\|f g\\|_{1} \\suchthat g \\in L^{1}[0,1],~~ \\|g\\|_{1} \\leq 1\\right\\}=\\|f\\|_{\\infty}\n$$\n"
+  },
+  {
+    "year": 2014,
+    "season": "Spring",
+    "exam": "Real_Analysis",
+    "number": 1,
+    "tags": [
+      "L1",
+      "Uniform Continuity",
+      "Small Tails"
+    ],
+    "question": "1. Give an example of a continuous $f\\in L^1(\\RR)$ such that $f(x) \\not\\to 0$ as$\\abs x \\to \\infty$.\n\n2. Show that if $f$ is *uniformly* continuous, then\n$$\n\\lim_{\\abs x \\to \\infty} f(x) = 0.\n$$\n"
+  },
+  {
+    "year": 2014,
+    "season": "Spring",
+    "exam": "Real_Analysis",
+    "number": 2,
+    "tags": [
+      "Sequences of Numbers",
+      "Series of Numbers",
+      "Lp Spaces"
+    ],
+    "question": "Let $\\theset{a_n}$ be a sequence of real numbers such that\n$$\n\\theset{b_n} \\in \\ell^2(\\NN) \\implies \\sum a_n b_n < \\infty.\n$$\nShow that $\\sum a_n^2 < \\infty$.\n\n> Note: Assume $a_n, b_n$ are all non-negative.\n"
+  },
+  {
+    "year": 2014,
+    "season": "Spring",
+    "exam": "Real_Analysis",
+    "number": 3,
+    "tags": [
+      "Measure Theory"
+    ],
+    "question": "Let $f: \\RR \\to \\RR$ and suppose\n$$\n\\forall x\\in \\RR,\\quad f(x) \\geq \\limsup _{y \\rightarrow x} f(y)\n$$\nProve that $f$ is Borel measurable.\n"
+  },
+  {
+    "year": 2014,
+    "season": "Spring",
+    "exam": "Real_Analysis",
+    "number": 4,
+    "tags": [
+      "Measure Theory",
+      "Convergence of Integrals"
+    ],
+    "question": "Let $(X, \\mathcal M, \\mu)$ be a measure space and suppose $f$ is a measurable function on $X$.\nShow that\n$$\n\\lim _{n \\rightarrow \\infty} \\int_{X} f^{n} ~d \\mu =\n\\begin{cases}\n\\infty & or \\\\\n\\mu(f\\inv(1)),\n\\end{cases}\n$$\nand characterize the collection of functions of each type.\n"
+  },
+  {
+    "year": 2014,
+    "season": "Spring",
+    "exam": "Real_Analysis",
+    "number": 5,
+    "tags": [
+      "Integrals",
+      "Fubini-Tonelli",
+      "L1"
+    ],
+    "question": "Let $f, g \\in L^1([0, 1])$ and for all $x\\in [0, 1]$ define\n$$\nF(x):=\\int_{0}^{x} f(y) d y \\quad \\text { and } \\quad G(x):=\\int_{0}^{x} g(y) d y.\n$$\n\nProve that\n$$\n\\int_{0}^{1} F(x) g(x) d x=F(1) G(1)-\\int_{0}^{1} f(x) G(x) d x\n$$\n"
+  },
+  {
+    "year": 2014,
+    "season": "Fall",
+    "exam": "Real_Analysis",
+    "number": 1,
+    "tags": [
+      "Analysis"
+    ],
+    "question": "Let $\\theset{f_n}$ be a sequence of continuous functions such that $\\sum f_n$ converges uniformly.\n\nProve that $\\sum f_n$ is also continuous.\n"
+  },
+  {
+    "year": 2014,
+    "season": "Fall",
+    "exam": "Real_Analysis",
+    "number": 2,
+    "tags": [
+      "Analysis"
+    ],
+    "question": "Let $I$ be an index set and $\\alpha: I \\to (0, \\infty)$.\n\n1.  Show that\n    $$\n    \\sum_{i \\in I} a(i):=\\sup _{\\substack{ J \\subset I \\\\ J \\text { finite }}} \\sum_{i \\in J} a(i)<\\infty \\implies I \\text{ is countable.}\n    $$\n\n2.  Suppose $I = \\QQ$ and $\\sum_{q \\in \\mathbb{Q}} a(q)<\\infty$.\n    Define\n    $$\n    f(x):=\\sum_{\\substack{q \\in \\mathbb{Q}\\\\ q \\leq x}} a(q).\n    $$\n    Show that $f$ is continuous at $x \\iff x\\not\\in \\QQ$.\n"
+  },
+  {
+    "year": 2014,
+    "season": "Fall",
+    "exam": "Real_Analysis",
+    "number": 3,
+    "tags": [
+      "L1",
+      "Continuity of Measure",
+      "Measure Theory"
+    ],
+    "question": "Let $f\\in L^1(\\RR)$. Show that\n$$\n\\forall\\varepsilon > 0 ~~\\exists \\delta > 0 \\text{ such that } m(E) < \\delta \\implies \\int_{E}|f(x)| d x<\\varepsilon\n$$\n"
+  },
+  {
+    "year": 2014,
+    "season": "Fall",
+    "exam": "Real_Analysis",
+    "number": 4,
+    "tags": [
+      "L infty",
+      "Integrals"
+    ],
+    "question": "Let $g\\in L^\\infty([0, 1])$\nProve that\n$$\n\\int_{[0,1]} f(x) g(x) d x=0 \\quad\\text{for all continuous } f:[0, 1] \\to \\RR \\implies g(x) = 0 \\text{ almost everywhere. }\n$$\n"
+  },
+  {
+    "year": 2014,
+    "season": "Fall",
+    "exam": "Real_Analysis",
+    "number": 5,
+    "tags": [
+      "Convolution",
+      "Integrals",
+      "Convergence of Integrals",
+      "L1",
+      "Uniform Continuity"
+    ],
+    "question": "1. Let $f \\in C_c^0(\\RR^n)$, and show\n$$\n\\lim _{t \\rightarrow 0} \\int_{\\mathbb{R}^{n}}|f(x+t)-f(x)| d x=0.\n$$\n\n2. Extend the above result to $f\\in L^1(\\RR^n)$ and show that\n$$\nf\\in L^1(\\RR^n),~ g\\in L^\\infty(\\RR^n) \\implies f \\ast g \\text{ is bounded and uniformly continuous. }\n$$\n"
+  },
+  {
+    "year": 2014,
+    "season": "Fall",
+    "exam": "Real_Analysis",
+    "number": 6,
+    "tags": [
+      "Lp Spaces",
+      "Norms",
+      "Functional Analysis",
+      "Riesz Representation"
+    ],
+    "question": "Let $1 \\leq p,q \\leq \\infty$ be conjugate exponents, and show that\n$$\nf \\in L^p(\\RR^n) \\implies \\|f\\|_{p}=\\sup _{\\|g\\|_{q}=1}\\left|\\int f(x) g(x) d x\\right|\n$$\n"
+  },
+  {
     "year": 0,
     "number": 0,
     "exam": "Real_Analysis",
