@@ -1831,6 +1831,7 @@ a. $f$ is a Lebesgue measurable function on $\RR^n \iff  \mathcal A$ is a Lebesg
 b. If $f$ is a Lebesgue measurable function on $\RR^n$, then
 $$
 m(\mathcal{A})=\int_{\mathbb{R}^{n}} f(x) d x=\int_{0}^{\infty} m\left(\left\{x \in \mathbb{R}^{n}: f(x) \geq t\right\}\right) d t
+$$
 
 
 **Question 5**
@@ -1911,7 +1912,7 @@ for all positive integers $k$ and $K$ with $k < K$, then $µ(B) = 1$.
 
 Let $\{u_n\}_{n=1}^∞$ be an orthonormal sequence in a Hilbert space $\mathcal{H}$.
 
-a. Prove that for every $x ∈ \mathcal H$ one has 
+a. Prove that for every $x \in \mathcal H$ one has 
 $$
 \displaystyle\sum_{n=1}^{\infty}\left|\left\langle x, u_{n}\right\rangle\right|^{2} \leq\|x\|^{2}
 $$

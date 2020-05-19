@@ -68,7 +68,7 @@
     b. If $f$ is a Lebesgue measurable function on $\RR^n$, then
     $$
     m(\mathcal{A})=\int_{\mathbb{R}^{n}} f(x) d x=\int_{0}^{\infty} m\left(\left\{x \in \mathbb{R}^{n}: f(x) \geq t\right\}\right) d t
-
+    $$
 
 
 - year: 2019
@@ -183,7 +183,7 @@
   question: |
     Let $\{u_n\}_{n=1}^∞$ be an orthonormal sequence in a Hilbert space $\mathcal{H}$.
 
-    a. Prove that for every $x ∈ \mathcal H$ one has 
+    a. Prove that for every $x \in \mathcal H$ one has 
     $$
     \displaystyle\sum_{n=1}^{\infty}\left|\left\langle x, u_{n}\right\rangle\right|^{2} \leq\|x\|^{2}
     $$
