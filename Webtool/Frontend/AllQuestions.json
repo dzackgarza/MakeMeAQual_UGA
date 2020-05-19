@@ -1527,6 +1527,7 @@
     "season": "Spring",
     "exam": "Analysis",
     "number": 4,
+    "university": "NUS",
     "tags": [
       "Holomorphic Functions",
       "Polynomials",
@@ -1539,6 +1540,7 @@
     "season": "Spring",
     "exam": "Analysis",
     "number": 5,
+    "university": "NUS",
     "tags": [
       "Biholomorphisms"
     ],
@@ -1549,6 +1551,7 @@
     "season": "Spring",
     "exam": "Analysis",
     "number": 6,
+    "university": "NUS",
     "tags": [
       "Holomorphic Functions",
       "Cauchy Integral Theorem",
@@ -1561,6 +1564,7 @@
     "season": "spring",
     "exam": "Analysis",
     "number": 8,
+    "university": "NUS",
     "tags": [
       "Green's Theorem"
     ],
@@ -1571,6 +1575,7 @@
     "season": "Spring",
     "exam": "Analysis",
     "number": 6,
+    "university": "NUS",
     "tags": [
       "Biholomorphism"
     ],
@@ -1581,6 +1586,7 @@
     "season": "Spring",
     "exam": "Analysis",
     "number": 7,
+    "university": "NUS",
     "tags": [
       "Integrals",
       "Argument Principle Cauchy's Integral Theorem",
@@ -1593,6 +1599,7 @@
     "season": "spring",
     "exam": "Analysis",
     "number": 8,
+    "university": "NUS",
     "tags": [
       "Integrals",
       "Residues",
@@ -1605,6 +1612,7 @@
     "season": "Spring",
     "exam": "Analysis",
     "number": 7,
+    "university": "NUS",
     "tags": [
       "Integrals",
       "Residues",
@@ -2857,6 +2865,7 @@
     "season": "Spring",
     "exam": "Analysis",
     "number": "1abch",
+    "university": "NUS",
     "tags": [
       "Convergence of Functions",
       "Uniform Continuity",
@@ -2870,6 +2879,7 @@
     "season": "Spring",
     "exam": "Analysis",
     "number": "1de",
+    "university": "NUS",
     "tags": [
       "Convergence of Numbers",
       "Series of Numbers",
@@ -2882,6 +2892,7 @@
     "season": "Spring",
     "exam": "Analysis",
     "number": "1fg",
+    "university": "NUS",
     "tags": [
       "Measure Theory"
     ],
@@ -2892,6 +2903,7 @@
     "season": "Spring",
     "exam": "Analysis",
     "number": 2,
+    "university": "NUS",
     "tags": [
       "Measure Theory"
     ],
@@ -2902,6 +2914,7 @@
     "season": "Spring",
     "exam": "Analysis",
     "number": 3,
+    "university": "NUS",
     "tags": [
       "Sequences of Functions",
       "Arzela-Ascoli"
@@ -2913,6 +2926,7 @@
     "season": "Spring",
     "exam": "Analysis",
     "number": 1,
+    "university": "NUS",
     "tags": [
       "Convergence of Numbers"
     ],
@@ -2923,6 +2937,7 @@
     "season": "Spring",
     "exam": "Analysis",
     "number": 2,
+    "university": "NUS",
     "tags": [
       "Integrals",
       "Measure Theory"
@@ -2934,6 +2949,7 @@
     "season": "Spring",
     "exam": "Analysis",
     "number": 3,
+    "university": "NUS",
     "tags": [
       "Integrals"
     ],
@@ -2944,6 +2960,7 @@
     "season": "Spring",
     "exam": "Analysis",
     "number": 4,
+    "university": "NUS",
     "tags": [
       "Measure Theory"
     ],
@@ -2954,6 +2971,7 @@
     "season": "Spring",
     "exam": "Analysis",
     "number": 4,
+    "university": "NUS",
     "tags": [
       "Integrals",
       "Convergence of Functions",
@@ -2966,6 +2984,7 @@
     "season": "Spring",
     "exam": "Analysis",
     "number": 4,
+    "university": "NUS",
     "tags": [
       "Riemann Integrability",
       "Integrals",
@@ -2980,6 +2999,7 @@
     "season": "Spring",
     "exam": "Analysis",
     "number": 5,
+    "university": "NUS",
     "tags": [
       "Mean Value Theorem",
       "Sequences of Functions"
@@ -2991,6 +3011,7 @@
     "season": "Spring",
     "exam": "Real_Analysis",
     "number": 1,
+    "university": "UGA",
     "tags": [
       "Function Spaces",
       "Norms",
@@ -3003,6 +3024,7 @@
     "season": "Spring",
     "exam": "Real_Analysis",
     "number": 2,
+    "university": "UGA",
     "tags": [
       "Measure Theory"
     ],
@@ -3013,6 +3035,7 @@
     "season": "Spring",
     "exam": "Real_Analysis",
     "number": 3,
+    "university": "UGA",
     "tags": [
       "Lp Spaces",
       "Convergence of Functions",
@@ -3026,6 +3049,7 @@
     "season": "Spring",
     "exam": "Real_Analysis",
     "number": 4,
+    "university": "UGA",
     "tags": [
       "Measure Theory"
     ],
@@ -3036,6 +3060,7 @@
     "season": "Spring",
     "exam": "Real_Analysis",
     "number": 5,
+    "university": "UGA",
     "tags": [
       "Lp Spaces",
       "Functional Analysis",
@@ -3048,6 +3073,7 @@
     "season": "Fall",
     "exam": "Real_Analysis",
     "number": 1,
+    "university": "UGA",
     "tags": [
       "Convergence of Numbers"
     ],
@@ -3058,6 +3084,7 @@
     "season": "Fall",
     "exam": "Real_Analysis",
     "number": 2,
+    "university": "UGA",
     "tags": [
       "Analysis",
       "Integrals"
@@ -3069,6 +3096,7 @@
     "season": "Fall",
     "exam": "Real_Analysis",
     "number": 3,
+    "university": "UGA",
     "tags": [
       "Measure Theory",
       "Borel-Cantelli"
@@ -3080,6 +3108,7 @@
     "season": "Fall",
     "exam": "Real_Analysis",
     "number": 4,
+    "university": "UGA",
     "tags": [
       "Functional Analysis",
       "Hilbert Spaces",
@@ -3092,6 +3121,7 @@
     "season": "Fall",
     "exam": "Real_Analysis",
     "number": 5,
+    "university": "UGA",
     "tags": [
       "Integrals",
       "Norms"
@@ -3103,6 +3133,7 @@
     "season": "Spring",
     "exam": "Real_Analysis",
     "number": 1,
+    "university": "UGA",
     "tags": [
       "Borel-Cantelli"
     ],
@@ -3113,6 +3144,7 @@
     "season": "Spring",
     "exam": "Real_Analysis",
     "number": 2,
+    "university": "UGA",
     "tags": [
       "Uniform Convergence",
       "Integrals",
@@ -3125,6 +3157,7 @@
     "season": "Spring",
     "exam": "Real_Analysis",
     "number": 3,
+    "university": "UGA",
     "tags": [
       "Integrals",
       "Convergence of Integrals",
@@ -3138,6 +3171,7 @@
     "season": "Spring",
     "exam": "Real_Analysis",
     "number": 4,
+    "university": "UGA",
     "tags": [
       "Lp Spaces",
       "Integrals"
@@ -3149,6 +3183,7 @@
     "season": "Spring",
     "exam": "Real_Analysis",
     "number": 5,
+    "university": "UGA",
     "tags": [
       "Convergence of Integrals",
       "Convergence of Functions",
@@ -3161,6 +3196,7 @@
     "season": "Fall",
     "exam": "Real_Analysis",
     "number": 1,
+    "university": "UGA",
     "tags": [
       "Uniform Continuity"
     ],
@@ -3171,6 +3207,7 @@
     "season": "Fall",
     "exam": "Real_Analysis",
     "number": 2,
+    "university": "UGA",
     "tags": [
       "Measure Theory"
     ],
@@ -3181,6 +3218,7 @@
     "season": "Fall",
     "exam": "Real_Analysis",
     "number": 3,
+    "university": "UGA",
     "tags": [
       "Integrals"
     ],
@@ -3191,6 +3229,7 @@
     "season": "Fall",
     "exam": "Real_Analysis",
     "number": 4,
+    "university": "UGA",
     "tags": [
       "Lp Spaces",
       "Integrals"
@@ -3202,6 +3241,7 @@
     "season": "Fall",
     "exam": "Real_Analysis",
     "number": 5,
+    "university": "UGA",
     "tags": [
       "Fubini-Tonelli"
     ],
@@ -3212,6 +3252,7 @@
     "season": "Fall",
     "exam": "Real_Analysis",
     "number": 1,
+    "university": "UGA",
     "tags": [
       "Integrals",
       "Convergence of Integrals"
@@ -3223,6 +3264,7 @@
     "season": "Spring",
     "exam": "Real_Analysis",
     "number": 1,
+    "university": "UGA",
     "tags": [
       "Cantor Set",
       "Measure Theory"
@@ -3234,6 +3276,7 @@
     "season": "Spring",
     "exam": "Real_Analysis",
     "number": 2,
+    "university": "UGA",
     "tags": [
       "Radon Nikodym",
       "Measure Theory"
@@ -3245,6 +3288,7 @@
     "season": "Spring",
     "exam": "Real_Analysis",
     "number": 3,
+    "university": "UGA",
     "tags": [
       "Series of Functions",
       "Integrals",
@@ -3258,6 +3302,7 @@
     "season": "Spring",
     "exam": "Real_Analysis",
     "number": 4,
+    "university": "UGA",
     "tags": [
       "L1"
     ],
@@ -3268,6 +3313,7 @@
     "season": "Spring",
     "exam": "Real_Analysis",
     "number": 5,
+    "university": "UGA",
     "tags": [
       "Uniform Continuity",
       "Integrals",
@@ -3280,6 +3326,7 @@
     "season": "Spring",
     "exam": "Real_Analysis",
     "number": 6,
+    "university": "UGA",
     "tags": [
       "Function Spaces",
       "Norms",
@@ -3292,6 +3339,7 @@
     "season": "Fall",
     "exam": "Real_Analysis",
     "number": 1,
+    "university": "UGA",
     "tags": [
       "Uniform Convergence"
     ],
@@ -3302,6 +3350,7 @@
     "season": "Fall",
     "exam": "Real_Analysis",
     "number": 2,
+    "university": "UGA",
     "tags": [
       "Measure Theory"
     ],
@@ -3312,6 +3361,7 @@
     "season": "Fall",
     "exam": "Real_Analysis",
     "number": 3,
+    "university": "UGA",
     "tags": [
       "Sequences of Functions",
       "Convergence of Functions",
@@ -3325,6 +3375,7 @@
     "season": "Fall",
     "exam": "Real_Analysis",
     "number": 4,
+    "university": "UGA",
     "tags": [
       "Convergence of Functions",
       "Convergence of Integrals",
@@ -3338,6 +3389,7 @@
     "season": "Fall",
     "exam": "Real_Analysis",
     "number": 5,
+    "university": "UGA",
     "tags": [
       "Approximations to the Identity",
       "Convergence of Functions",
@@ -3351,6 +3403,7 @@
     "season": "Fall",
     "exam": "Real_Analysis",
     "number": 6,
+    "university": "UGA",
     "tags": [
       "Function Spaces",
       "Norms",
@@ -3363,6 +3416,7 @@
     "season": "Spring",
     "exam": "Real_Analysis",
     "number": 1,
+    "university": "UGA",
     "tags": [
       "Bernoulli",
       "Sequences of Numbers"
@@ -3374,6 +3428,7 @@
     "season": "Spring",
     "exam": "Real_Analysis",
     "number": 2,
+    "university": "UGA",
     "tags": [
       "Cantor Set"
     ],
@@ -3384,6 +3439,7 @@
     "season": "Spring",
     "exam": "Real_Analysis",
     "number": 3,
+    "university": "UGA",
     "tags": [
       "Measure Theory",
       "Continuity"
@@ -3395,6 +3451,7 @@
     "season": "Spring",
     "exam": "Real_Analysis",
     "number": 4,
+    "university": "UGA",
     "tags": [
       "Uniform Continuity",
       "Measure Theory",
@@ -3407,6 +3464,7 @@
     "season": "Spring",
     "exam": "Real_Analysis",
     "number": 5,
+    "university": "UGA",
     "tags": [
       "Measure Theory",
       "Integrals",
@@ -3419,6 +3477,7 @@
     "season": "Spring",
     "exam": "Real_Analysis",
     "number": 6,
+    "university": "UGA",
     "tags": [
       "Functional Analysis",
       "Norms",
@@ -3432,6 +3491,7 @@
     "season": "Fall",
     "exam": "Real_Analysis",
     "number": 1,
+    "university": "UGA",
     "tags": [
       "Uniform Convergence",
       "Series of Numbers"
@@ -3443,6 +3503,7 @@
     "season": "Fall",
     "exam": "Real_Analysis",
     "number": 2,
+    "university": "UGA",
     "tags": [
       "Measure Theory"
     ],
@@ -3453,6 +3514,7 @@
     "season": "Fall",
     "exam": "Real_Analysis",
     "number": 3,
+    "university": "UGA",
     "tags": [
       "L1",
       "Norms",
@@ -3465,6 +3527,7 @@
     "season": "Fall",
     "exam": "Real_Analysis",
     "number": 4,
+    "university": "UGA",
     "tags": [
       "Measure Theory",
       "Borel-Cantelli"
@@ -3476,6 +3539,7 @@
     "season": "Fall",
     "exam": "Real_Analysis",
     "number": 5,
+    "university": "UGA",
     "tags": [
       "Lp Spaces",
       "Integrals",
@@ -3488,6 +3552,7 @@
     "season": "Fall",
     "exam": "Real_Analysis",
     "number": 6,
+    "university": "UGA",
     "tags": [
       "L2",
       "Convergence of Integrals"
@@ -3499,6 +3564,7 @@
     "season": "Spring",
     "exam": "Real_Analysis",
     "number": 1,
+    "university": "UGA",
     "tags": [
       "Completeness"
     ],
@@ -3509,6 +3575,7 @@
     "season": "Spring",
     "exam": "Real_Analysis",
     "number": 2,
+    "university": "UGA",
     "tags": [
       "Series of Functions",
       "Integrals"
@@ -3520,6 +3587,7 @@
     "season": "Spring",
     "exam": "Real_Analysis",
     "number": 3,
+    "university": "UGA",
     "tags": [
       "Measure Theory"
     ],
@@ -3530,6 +3598,7 @@
     "season": "Spring",
     "exam": "Real_Analysis",
     "number": 4,
+    "university": "UGA",
     "tags": [
       "L1"
     ],
@@ -3540,6 +3609,7 @@
     "season": "Spring",
     "exam": "Real_Analysis",
     "number": 5,
+    "university": "UGA",
     "tags": [
       "Functional Analysis",
       "Hilbert Spaces"
@@ -3551,6 +3621,7 @@
     "season": "Spring",
     "exam": "Real_Analysis",
     "number": 6,
+    "university": "UGA",
     "tags": [
       "Convolution",
       "Uniform Continuity",
@@ -3563,6 +3634,7 @@
     "season": "Fall",
     "exam": "Real_Analysis",
     "number": 1,
+    "university": "UGA",
     "tags": [
       "Calculus"
     ],
@@ -3573,6 +3645,7 @@
     "season": "Fall",
     "exam": "Real_Analysis",
     "number": 2,
+    "university": "UGA",
     "tags": [
       "Convergence of Functions",
       "Density"
@@ -3584,6 +3657,7 @@
     "season": "Fall",
     "exam": "Real_Analysis",
     "number": 3,
+    "university": "UGA",
     "tags": [
       "Integrals",
       "Convergence of Functions"
@@ -3595,6 +3669,7 @@
     "season": "Fall",
     "exam": "Real_Analysis",
     "number": 4,
+    "university": "UGA",
     "tags": [
       "Convergence of Numbers",
       "Calculus"
@@ -3606,6 +3681,7 @@
     "season": "Fall",
     "exam": "Real_Analysis",
     "number": 5,
+    "university": "UGA",
     "tags": [
       "Measure Theory",
       "L1",
@@ -3619,6 +3695,7 @@
     "season": "Fall",
     "exam": "Real_Analysis",
     "number": 6,
+    "university": "UGA",
     "tags": [
       "Norms",
       "L1"
@@ -3630,6 +3707,7 @@
     "season": "Spring",
     "exam": "Real_Analysis",
     "number": 1,
+    "university": "UGA",
     "tags": [
       "L1",
       "Uniform Continuity",
@@ -3642,6 +3720,7 @@
     "season": "Spring",
     "exam": "Real_Analysis",
     "number": 2,
+    "university": "UGA",
     "tags": [
       "Sequences of Numbers",
       "Series of Numbers",
@@ -3654,6 +3733,7 @@
     "season": "Spring",
     "exam": "Real_Analysis",
     "number": 3,
+    "university": "UGA",
     "tags": [
       "Measure Theory"
     ],
@@ -3664,6 +3744,7 @@
     "season": "Spring",
     "exam": "Real_Analysis",
     "number": 4,
+    "university": "UGA",
     "tags": [
       "Measure Theory",
       "Convergence of Integrals"
@@ -3675,6 +3756,7 @@
     "season": "Spring",
     "exam": "Real_Analysis",
     "number": 5,
+    "university": "UGA",
     "tags": [
       "Integrals",
       "Fubini-Tonelli",
@@ -3687,6 +3769,7 @@
     "season": "Fall",
     "exam": "Real_Analysis",
     "number": 1,
+    "university": "UGA",
     "tags": [
       "Analysis"
     ],
@@ -3697,6 +3780,7 @@
     "season": "Fall",
     "exam": "Real_Analysis",
     "number": 2,
+    "university": "UGA",
     "tags": [
       "Analysis"
     ],
@@ -3707,6 +3791,7 @@
     "season": "Fall",
     "exam": "Real_Analysis",
     "number": 3,
+    "university": "UGA",
     "tags": [
       "L1",
       "Continuity of Measure",
@@ -3719,6 +3804,7 @@
     "season": "Fall",
     "exam": "Real_Analysis",
     "number": 4,
+    "university": "UGA",
     "tags": [
       "L infty",
       "Integrals"
@@ -3730,6 +3816,7 @@
     "season": "Fall",
     "exam": "Real_Analysis",
     "number": 5,
+    "university": "UGA",
     "tags": [
       "Convolution",
       "Integrals",
@@ -3744,6 +3831,7 @@
     "season": "Fall",
     "exam": "Real_Analysis",
     "number": 6,
+    "university": "UGA",
     "tags": [
       "Lp Spaces",
       "Norms",

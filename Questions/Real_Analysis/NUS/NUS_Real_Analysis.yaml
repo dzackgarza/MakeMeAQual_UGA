@@ -2,6 +2,7 @@
   season: Spring
   exam: Analysis
   number: 1abch
+  university: NUS
   tags:
     - Convergence of Functions
     - Uniform Continuity
@@ -22,6 +23,7 @@
   season: Spring
   exam: Analysis
   number: 1de
+  university: NUS
   tags:
     - Convergence of Numbers
     - Series of Numbers
@@ -37,6 +39,7 @@
   season: Spring
   exam: Analysis
   number: 1fg
+  university: NUS
   tags:
     - Measure Theory
   question: |
@@ -55,6 +58,7 @@
   season: Spring
   exam: Analysis
   number: 2
+  university: NUS
   tags:
     - Measure Theory 
   question: |
@@ -64,6 +68,7 @@
   season: Spring
   exam: Analysis
   number: 3
+  university: NUS
   tags:
     - Sequences of Functions
     - Arzela-Ascoli
@@ -85,6 +90,7 @@
   season: Spring
   exam: Analysis
   number: 1
+  university: NUS
   tags:
     - Convergence of Numbers
   question: |
@@ -94,6 +100,7 @@
   season: Spring
   exam: Analysis
   number: 2
+  university: NUS
   tags:
     - Integrals
     - Measure Theory
@@ -108,6 +115,7 @@
   season: Spring
   exam: Analysis
   number: 3
+  university: NUS
   tags:
     - Integrals
   question: |
@@ -120,6 +128,7 @@
   season: Spring
   exam: Analysis
   number: 4
+  university: NUS
   tags:
     - Measure Theory
   question: |
@@ -136,6 +145,7 @@
   season: Spring
   exam: Analysis
   number: 4
+  university: NUS
   tags:
     - Integrals
     - Convergence of Functions
@@ -152,6 +162,7 @@
   season: Spring
   exam: Analysis
   number: 4
+  university: NUS
   tags:
     - Riemann Integrability
     - Integrals
@@ -172,6 +183,7 @@
   season: Spring
   exam: Analysis
   number: 5
+  university: NUS
   tags:
     - Mean Value Theorem 
     - Sequences of Functions
