@@ -3569,7 +3569,7 @@
     "exam": "Real_Analysis",
     "university": "Emory",
     "tags": [
-      "Convergence"
+      "Convergence of Functions"
     ],
     "question": "1.  State the Dominated Convergence Theorem for Lebesgue integrals.\n\n2.  Let $\\{f_n\\}$ be a sequence of measurable functions on a\n    Lebesgue measurable set $E$ which converges *in measure* to a\n    function $f$ on $E$. Suppose that for every $n$, $|f_n| \\leq g$\n    with $g$ integrable on $E$. Using the above theorem show that\n    \\begin{align*}\n        \\int_E |f_n-f| \\longrightarrow 0 \\, .\n    \\end{align*}\n"
   },
