@@ -12,6 +12,8 @@ testpdf:
 	./make_md_doc.py
 	latex_preview -f Combined_Questions.md -v
 
+update:
+	git add *; git commit -am "Save"; git push && ssh zack@dzackgarza.com 'cd MakeMeAQual && git pull'
 
 clean:
 	rm combined_questions.*
