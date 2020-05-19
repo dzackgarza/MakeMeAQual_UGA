@@ -1133,7 +1133,7 @@
   exam: Real_Analysis
   number: 3
   tags:
-    - Analysis
+    - Measure Theory
   question: |
     Let $f: \RR \to \RR$ and suppose
     $$
@@ -1147,7 +1147,8 @@
   exam: Real_Analysis
   number: 4
   tags:
-    - Analysis
+    - Measure Theory
+    - Convergence of Integrals
   question: |
     Let $(X, \mathcal M, \mu)$ be a measure space and suppose $f$ is a measurable function on $X$.
     Show that
@@ -1165,7 +1166,9 @@
   exam: Real_Analysis
   number: 5
   tags:
-    - Analysis
+    - Integrals
+    - Fubini-Tonelli
+    - L1
   question: |
     Let $f, g \in L^1([0, 1])$ and for all $x\in [0, 1]$ define
     $$
