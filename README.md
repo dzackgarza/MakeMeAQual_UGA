@@ -9,8 +9,27 @@ For those that already know what this tool is, there are a number of ways you ca
   - Additional information such as the source university, what year each question is from, and other metadata is all useful and can be incorporated into the tool.
   - You can also [submit a pull request](https://yangsu.github.io/pull-request-tutorial/), i.e. clone the repository to your computer, add or modify whatever files you'd like, then merge your changes back into the main project. 
 
-- Moving tex'd questions into `.yaml` data files
-  - See e.g. [the Algebra yaml file](Algebra/QualQuestions.yaml), these are (essentially) what the tool actually uses.
+- Contributing questions directly:
+  - Using Algebra as an example subject, either modify or create a new folder for the university under the `Questions/Algebra` directory.
+  - (Optional) Add original tex or markdown files to the folder.
+  - Add a `Questions.yaml` file, and populate it in plain text with entries similar to this example:
+```{yaml}
+- year: 2019
+  season: Spring 
+  exam: Real_Analysis
+  number: 3
+  tags:
+    - Algbra
+  question: |
+    Let $R$ be a ring and $M, M'$ be modules over...
+    Then define
+    $$
+    \varphi: M \to M' \\
+    x \mapsto \varphi(x)
+    $$
+    where ...
+```
+  - Submit a pull request with your additions!
 
 # MakeMeAQual UGA
 An adaptation of Jonathan Love's [Make Me a Qual](http://stanford.edu/~jonlove/qual/makeit.html) tool for the University of Georgia qualifying exams.
