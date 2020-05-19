@@ -12,14 +12,16 @@ For those that already know what this tool is, there are a number of ways you ca
 - Contributing questions directly:
   - Using Algebra as an example subject, either modify or create a new folder for the university under the `Questions/Algebra` directory.
   - (Optional) Add original tex or markdown files to the folder.
-  - Add a `Questions.yaml` file, and populate it in plain text with entries similar to this example:
+  - Add a `Questions.yaml` file, and populate it in plain text with entries similar to this example.
+    Note that the only *required* fields are year, exam, and question, and you can enter 0 for the year if it's not applicable.
 ```{yaml}
 - year: 2019
   season: Spring 
-  exam: Real_Analysis
+  exam: Algebra
   number: 3
   tags:
-    - Algbra
+    - Modules
+    - Homomorphisms
   question: |
     Let $R$ be a ring and $M, M'$ be modules over...
     Then define
@@ -29,6 +31,7 @@ For those that already know what this tool is, there are a number of ways you ca
     $$
     where ...
 ```
+  
   - Submit a pull request with your additions!
 
 # MakeMeAQual UGA
