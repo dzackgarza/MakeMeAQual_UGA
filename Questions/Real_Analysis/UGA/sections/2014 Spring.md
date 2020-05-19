@@ -33,7 +33,7 @@ Show that
 $$
 \lim _{n \rightarrow \infty} \int_{X} f^{n} ~d \mu =
 \begin{cases}
-\infty & or \\
+\infty & \text{or} \\
 \mu(f\inv(1)),
 \end{cases}
 $$

@@ -1099,13 +1099,15 @@
   exam: Real_Analysis
   number: 1
   tags:
-    - Analysis
+    - L1
+    - Uniform Continuity
+    - Small Tails
   question: |
     1. Give an example of a continuous $f\in L^1(\RR)$ such that $f(x) \not\to 0$ as$\abs x \to \infty$.
 
     2. Show that if $f$ is *uniformly* continuous, then
     $$
-    \lim{\abs x \to \infty} f(x) = 0.
+    \lim_{\abs x \to \infty} f(x) = 0.
     $$
 
 - year: 2014
@@ -1113,7 +1115,9 @@
   exam: Real_Analysis
   number: 2
   tags:
-    - Analysis
+    - Sequences of Numbers
+    - Series of Numbers
+    - Lp Spaces
   question: |
     Let $\theset{a_n}$ be a sequence of real numbers such that
     $$
