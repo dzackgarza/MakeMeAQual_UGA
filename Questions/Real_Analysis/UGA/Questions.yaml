@@ -1001,7 +1001,7 @@
   exam: Real_Analysis
   number: 1
   tags:
-    - Analysis
+    - Calculus
   question: |
     Define
     $$
@@ -1016,7 +1016,9 @@
   exam: Real_Analysis
   number: 2
   tags:
-    - Analysis
+    - Convergence of Functions
+    - Integration
+    - Density
   question: |
     Let $f: \RR \to \RR$ be Lebesgue measurable.
 
@@ -1029,7 +1031,9 @@
   exam: Real_Analysis
   number: 3
   tags:
-    - Analysis
+    - Integrals
+    - Convergence of Functions
+    - Convergence Theorems 
   question: |
     Compute the following limit:
     $$
@@ -1042,7 +1046,8 @@
   exam: Real_Analysis
   number: 4
   tags:
-    - Analysis
+    - Convergence 
+    - Calculus
   question: |
     Let $f: [1, \infty) \to \RR$ such that $f(1) = 1$ and
     $$
