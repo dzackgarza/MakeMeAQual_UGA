@@ -1525,7 +1525,7 @@
   {
     "year": 1970,
     "season": "Spring",
-    "exam": "Analysis",
+    "exam": "Complex_Analysis",
     "number": 4,
     "university": "NUS",
     "tags": [
@@ -1533,23 +1533,23 @@
       "Polynomials",
       "Rouche"
     ],
-    "question": "Find the number of zeroes, counting multiplicities, of the polynomial \n\n$f(z) = 2z^5 − 6z^2 − z + 1 = 0$\n\nin the annulus $1 ≤ |z| ≤ 2$.\n"
+    "question": "Find the number of zeroes, counting multiplicities, of the polynomial \n\n$f(z) = 2z^5 - 6z^2 - z + 1 = 0$\n\nin the annulus $1 ≤ |z| ≤ 2$.\n"
   },
   {
     "year": 1970,
     "season": "Spring",
-    "exam": "Analysis",
+    "exam": "Complex_Analysis",
     "number": 5,
     "university": "NUS",
     "tags": [
       "Biholomorphisms"
     ],
-    "question": "Find an analytic isomorphism from the open region between $|z| = 1$ and $|z −\\frac 1 2| =\\frac 1 2$ to the upper half plane $\\Im z > 0$. (You may leave your result as a composition of functions).\n"
+    "question": "Find an analytic isomorphism from the open region between $|z| = 1$ and $|z -\\frac 1 2| =\\frac 1 2$ to the upper half plane $\\Im z > 0$. (You may leave your result as a composition of functions).\n"
   },
   {
     "year": 1970,
     "season": "Spring",
-    "exam": "Analysis",
+    "exam": "Complex_Analysis",
     "number": 6,
     "university": "NUS",
     "tags": [
@@ -1562,7 +1562,7 @@
   {
     "year": 1970,
     "season": "spring",
-    "exam": "Analysis",
+    "exam": "Complex_Analysis",
     "number": 8,
     "university": "NUS",
     "tags": [
@@ -1573,7 +1573,7 @@
   {
     "year": 1970,
     "season": "Spring",
-    "exam": "Analysis",
+    "exam": "Complex_Analysis",
     "number": 6,
     "university": "NUS",
     "tags": [
@@ -1584,7 +1584,7 @@
   {
     "year": 1970,
     "season": "Spring",
-    "exam": "Analysis",
+    "exam": "Complex_Analysis",
     "number": 7,
     "university": "NUS",
     "tags": [
@@ -1597,7 +1597,7 @@
   {
     "year": 1970,
     "season": "spring",
-    "exam": "Analysis",
+    "exam": "Complex_Analysis",
     "number": 8,
     "university": "NUS",
     "tags": [
@@ -1605,12 +1605,12 @@
       "Residues",
       "Meromorphic Functions"
     ],
-    "question": "Evaluate the following by the method of residues:\n$\\int_0^{π/2} \\frac{1}{3+\\sin^2x}dx$\n"
+    "question": "Evaluate the following by the method of residues:\n$\\int_0^{\\pi /2} \\frac{1}{3+\\sin^2x}dx$\n"
   },
   {
     "year": 1970,
     "season": "Spring",
-    "exam": "Analysis",
+    "exam": "Complex_Analysis",
     "number": 7,
     "university": "NUS",
     "tags": [
@@ -2863,7 +2863,7 @@
   {
     "year": 1970,
     "season": "Spring",
-    "exam": "Analysis",
+    "exam": "Real_Analysis",
     "number": "1abch",
     "university": "NUS",
     "tags": [
@@ -2872,12 +2872,12 @@
       "Mean Value Theorem",
       "Variation"
     ],
-    "question": "Prove or disprove each of the following statements.\n\n(a) If $f$ is of bounded variation on $[0,1]$, then it is continuous on $[0,1]$.\n\n(b) If $f : [0, 1] → [0, 1]$ is a continuous function, then there exists $x_0 ∈ [0, 1]$ such that $f(x_0) = x_0$.\n\n(c) Let $\\{f_n\\}$ be a sequence of uniformly continuous functions on an interval $I$. If $\\{f_n\\}$ converges uniformly to a function $f$ on $I$, then $f$ is also uniformly continuous on $I$.\n\n(h) If $f$ is differentiable on a connected set $E ⊂ \\mathbb{R}^n$, then for any $x, y ∈ E$, there exists $z ∈ E$ such that $f(x) − f(y) = ∇f(z)[x − y]$.  \n"
+    "question": "Prove or disprove each of the following statements.\n\n(a) If $f$ is of bounded variation on $[0,1]$, then it is continuous on $[0,1]$.\n\n(b) If $f : [0, 1] → [0, 1]$ is a continuous function, then there exists $x_0 \\in [0, 1]$ such that $f(x_0) = x_0$.\n\n(c) Let $\\{f_n\\}$ be a sequence of uniformly continuous functions on an interval $I$. If $\\{f_n\\}$ converges uniformly to a function $f$ on $I$, then $f$ is also uniformly continuous on $I$.\n\n(h) If $f$ is differentiable on a connected set $E \\subset \\mathbb{R}^n$, then for any $x, y \\in E$, there exists $z \\in E$ such that $f(x) - f(y) = \\nabla f(z)(x - y)$.  \n"
   },
   {
     "year": 1970,
     "season": "Spring",
-    "exam": "Analysis",
+    "exam": "Real_Analysis",
     "number": "1de",
     "university": "NUS",
     "tags": [
@@ -2885,57 +2885,57 @@
       "Series of Numbers",
       "Uniform Continuity"
     ],
-    "question": "Prove or disprove each of the following statements.\n\n(d) If $\\lim_{n→∞} |a_n+1/a_n|$ exists, then $\\lim_{n→∞} |a_n|^{1/n}$ exists and the two limits are equal.\n\n(e) If $\\sum_{n=1}^∞ a_n x^n$ converges for all $x ∈ [0, 1]$, then $\\lim_{x→1−} \\sum_{n=1}^∞ a_n x^n=\\sum_{n=1}^∞ a_n$\n"
+    "question": "Prove or disprove each of the following statements.\n\n(d) If $\\lim_{n\\to\\infty} |a_n+1/a_n|$ exists, then $\\lim_{n\\to \\infty} |a_n|^{1/n}$ exists and the two limits are equal.\n\n(e) If $\\sum_{n=1}^\\infty a_n x^n$ converges for all $x ∈ [0, 1]$, then $\\lim_{x\\to 1^-} \\sum_{n=1}^\\infty a_n x^n=\\sum_{n=1}^\\infty a_n$\n"
   },
   {
     "year": 1970,
     "season": "Spring",
-    "exam": "Analysis",
+    "exam": "Real_Analysis",
     "number": "1fg",
     "university": "NUS",
     "tags": [
       "Measure Theory"
     ],
-    "question": "Prove or disprove each of the following statements.\n\n(f) If $E ⊂ \\mathbb{R}$ and \n\n    $μ(E) = \\inf\\{\\sum_{I_i∈S} |I_i| : S = \\{I_i\\}_{i=1}^n \\text{ such that } E ⊂ ∪_{i=1}^n I_i \\text{ for some } n ∈ \\mathbb{N}\\}$\n\n    then $μ$ coincides with the outer measure of $E$.\n\n(g) If $E$ is a Borel set and $f$ is a measurable function, then $f^{−1}(E)$ is also measurable.\n"
+    "question": "Prove or disprove each of the following statements.\n\n(f) If $E \\subset \\mathbb{R}$ and \n\n    $\\mu(E) = \\inf\\{\\sum_{I_i \\in S} |I_i| : S = \\{I_i\\}_{i=1}^n \\text{ such that } E \\subset \\union_{i=1}^n I_i \\text{ for some } n \\in \\mathbb{N}\\}$\n\n    then $\\mu$ coincides with the outer measure of $E$.\n\n(g) If $E$ is a Borel set and $f$ is a measurable function, then $f^{-1}(E)$ is also measurable.\n"
   },
   {
     "year": 1970,
     "season": "Spring",
-    "exam": "Analysis",
+    "exam": "Real_Analysis",
     "number": 2,
     "university": "NUS",
     "tags": [
       "Measure Theory"
     ],
-    "question": "If $f$ is a finite real valued measurable function on a measurable set $E ⊂ \\mathbb{R}$, show that the set $\\{(x, f(x)) : x ∈ E\\}$ is measurable.\n"
+    "question": "If $f$ is a finite real valued measurable function on a measurable set $E \\subset \\mathbb{R}$, show that the set $\\{(x, f(x)) : x ∈ E\\}$ is measurable.\n"
   },
   {
     "year": 1970,
     "season": "Spring",
-    "exam": "Analysis",
+    "exam": "Real_Analysis",
     "number": 3,
     "university": "NUS",
     "tags": [
       "Sequences of Functions",
       "Arzela-Ascoli"
     ],
-    "question": "Let g : $[0, 1] × [0, 1] → [0, 1]$ be a continuous function and let $\\{f_n\\}$ be a sequence of functions such that \n\n$f_n(x)=\\begin{cases}{0,   0\\leq x\\leq 1/n},\\\\{\\int_0^{x-\\frac1n} g(t,f_n(t))dt, 1/n\\leq x \\leq 1.}\\end{cases}$\n\nWith the help of the Arzela-Ascoli theorem or otherwise, show that there exists a continuous function $f : [0, 1] → \\mathbb{R}$ such that \n\n$f(x) = \\int_0^x g(t, f(t))dt$\n\nfor all $x ∈ [0, 1]$. \n\n> Hint: first show that $|f_n(x_1) − f_n(x_2)| ≤ |x_1 − x_2|$.\n"
+    "question": "Let g : $[0, 1] × [0, 1] → [0, 1]$ be a continuous function and let $\\{f_n\\}$ be a sequence of functions such that \n\n$$f_n(x)=\\begin{cases}{0,   0\\leq x\\leq 1/n},\\\\{\\int_0^{x-\\frac1n} g(t,f_n(t))dt, 1/n\\leq x \\leq 1.}\\end{cases}$$\n\nWith the help of the Arzela-Ascoli theorem or otherwise, show that there exists a continuous function $f : [0, 1] → \\mathbb{R}$ such that \n\n$f(x) = \\int_0^x g(t, f(t))dt$\n\nfor all $x \\in [0, 1]$. \n\n> Hint: first show that $|f_n(x_1) - f_n(x_2)| ≤ |x_1 - x_2|$.\n"
   },
   {
     "year": 1970,
     "season": "Spring",
-    "exam": "Analysis",
+    "exam": "Real_Analysis",
     "number": 1,
     "university": "NUS",
     "tags": [
       "Convergence of Numbers"
     ],
-    "question": "If $\\limsup_{n\\rightarrow \\infty}a_n\\leq l$, show that $\\limsup_{n\\rightarrow \\infty}\\sum_{i=1}^n{a_i/n}\\leq l$.  \n"
+    "question": "If $\\limsup_{n\\rightarrow \\infty} a_n\\leq l$, show that $\\limsup_{n\\rightarrow \\infty}\\sum_{i=1}^n{a_i/n}\\leq l$.  \n"
   },
   {
     "year": 1970,
     "season": "Spring",
-    "exam": "Analysis",
+    "exam": "Real_Analysis",
     "number": 2,
     "university": "NUS",
     "tags": [
@@ -2947,7 +2947,7 @@
   {
     "year": 1970,
     "season": "Spring",
-    "exam": "Analysis",
+    "exam": "Real_Analysis",
     "number": 3,
     "university": "NUS",
     "tags": [
@@ -2958,18 +2958,18 @@
   {
     "year": 1970,
     "season": "Spring",
-    "exam": "Analysis",
+    "exam": "Real_Analysis",
     "number": 4,
     "university": "NUS",
     "tags": [
       "Measure Theory"
     ],
-    "question": "Prove or disprove each of the following statements.\n\n(a) If $f : [0, 1] → \\mathbb{R}$ is a measurable function, then given any $ε > 0$, there exists a compact set $K ⊂ [0, 1]$ such that $f$ is continuous on $K$ relative to $K$.\n\n(c) If f is Borel measurable on $\\mathbb{R} × \\mathbb{R}$, then for any $x ∈ \\mathbb{R}$, the function $g(y) = f(x, y)$ is also Borel measurable on $\\mathbb{R}$.\n\n(d) If $E ⊂ \\mathbb{R}$, then $E$ is measurable if and only if given any $ε > 0$, there exist a closed set $F$ and an open set $G$ such that $F ⊂ E ⊂ G$ and the measure of $G-F$ is less than $ε$.\n"
+    "question": "Prove or disprove each of the following statements.\n\n(a) If $f : [0, 1] → \\mathbb{R}$ is a measurable function, then given any $\\varepsilon > 0$, there exists a compact set $K \\subset [0, 1]$ such that $f$ is continuous on $K$ relative to $K$.\n\n(c) If f is Borel measurable on $\\mathbb{R} × \\mathbb{R}$, then for any $x \\in \\mathbb{R}$, the function $g(y) = f(x, y)$ is also Borel measurable on $\\mathbb{R}$.\n\n(d) If $E \\subset \\mathbb{R}$, then $E$ is measurable if and only if given any $\\varepsilon > 0$, there exist a closed set $F$ and an open set $G$ such that $F \\subset E \\subset G$ and the measure of $G-F$ is less than $\\varepsilon$.\n"
   },
   {
     "year": 1970,
     "season": "Spring",
-    "exam": "Analysis",
+    "exam": "Real_Analysis",
     "number": 4,
     "university": "NUS",
     "tags": [
@@ -2982,7 +2982,7 @@
   {
     "year": 1970,
     "season": "Spring",
-    "exam": "Analysis",
+    "exam": "Real_Analysis",
     "number": 4,
     "university": "NUS",
     "tags": [
@@ -2992,19 +2992,19 @@
       "L1",
       "Variation"
     ],
-    "question": "Prove or disprove each of the following statements.\n\n(f) If $f$ is Riemann integrable on $[ε, 1]$ for all $0 < ε < 1$, then $f$ is Lebesgue integrable on $[0,1]$ if $f$ is nonnegative and the following limit exists $\\lim_{ε→0+} \\int_ε^1 f dx$.\n\n(g) If $f$ is integrable on $[0,1]$, then $\\lim_{n→∞} \\int_0^1 f(x)\\sin(nπx)dx = 0$.\n\n(h) If $f$ is continuous on $[0, 1]$, then it is of bounded variation on [0, 1]$.\n"
+    "question": "Prove or disprove each of the following statements.\n\n(f) If $f$ is Riemann integrable on $[ε, 1]$ for all $0 < ε < 1$, then $f$ is Lebesgue integrable on $[0,1]$ if $f$ is nonnegative and the following limit exists $\\lim_{\\varepsilon\\to 0^+} \\int_\\varepsilon^1 f dx$.\n\n(g) If $f$ is integrable on $[0,1]$, then $\\lim_{n\\to\\infty} \\int_0^1 f(x)\\sin(n\\pi x)dx = 0$.\n\n(h) If $f$ is continuous on $[0, 1]$, then it is of bounded variation on [0, 1]$.\n"
   },
   {
     "year": 1970,
     "season": "Spring",
-    "exam": "Analysis",
+    "exam": "Real_Analysis",
     "number": 5,
     "university": "NUS",
     "tags": [
       "Mean Value Theorem",
       "Sequences of Functions"
     ],
-    "question": "(a) Let $f : \\mathbb{R} → \\mathbb{R}$ be a differentiable function. \n    If $f'(−1) < 2$ and $f'(1) > 2$, show that there exists $x_0 ∈ (−1, 1)$ such that $f'(x_0) = 2$.\n\n    > Hint: consider the function $f(x) − 2x$ and recall the proof of Rolle’s theorem.)\n\n(b) Let $f : (−1, 1) → \\mathbb{R}$ be a differentiable function on $(−1, 0) ∪ (0, 1)$ such that $\\lim_{x→0} f'(x) = L$. \n    If $f$ is continuous on $(−1, 1)$, show that $f$ is indeed differentiable at $0$ and $f'(0) = L$.\n"
+    "question": "(a) Let $f : \\mathbb{R} → \\mathbb{R}$ be a differentiable function. \n    If $f'(-1) < 2$ and $f'(1) > 2$, show that there exists $x_0 \\in (i1, 1)$ such that $f'(x_0) = 2$.\n\n    > Hint: consider the function $f(x) - 2x$ and recall the proof of Rolle’s theorem.)\n\n(b) Let $f : (-1, 1) → \\mathbb{R}$ be a differentiable function on $(-1, 0) \\union (0, 1)$ such that $\\lim_{x\\to 0} f'(x) = L$. \n    If $f$ is continuous on $(-1, 1)$, show that $f$ is indeed differentiable at $0$ and $f'(0) = L$.\n"
   },
   {
     "year": 2019,

@@ -1785,9 +1785,127 @@ so that for some $a\in\mathbb Z$ we have $\sigma\varphi_1(k)\sigma\inv
 defined by $\psi((h,k))=(\sigma(h),k^a)$ is a homomorphism.
 Show $\psi$ is bijective by construcing a 2-sided inverse.
 
-# Real Analysis (73 Questions)
+# Real Analysis (85 Questions)
 
 **Question 1**
+
+Prove or disprove each of the following statements.
+
+(a) If $f$ is of bounded variation on $[0,1]$, then it is continuous on $[0,1]$.
+
+(b) If $f : [0, 1] → [0, 1]$ is a continuous function, then there exists $x_0 \in [0, 1]$ such that $f(x_0) = x_0$.
+
+(c) Let $\{f_n\}$ be a sequence of uniformly continuous functions on an interval $I$. If $\{f_n\}$ converges uniformly to a function $f$ on $I$, then $f$ is also uniformly continuous on $I$.
+
+(h) If $f$ is differentiable on a connected set $E \subset \mathbb{R}^n$, then for any $x, y \in E$, there exists $z \in E$ such that $f(x) - f(y) = \nabla f(z)(x - y)$.  
+
+
+**Question 2**
+
+Prove or disprove each of the following statements.
+
+(d) If $\lim_{n\to\infty} |a_n+1/a_n|$ exists, then $\lim_{n\to \infty} |a_n|^{1/n}$ exists and the two limits are equal.
+
+(e) If $\sum_{n=1}^\infty a_n x^n$ converges for all $x ∈ [0, 1]$, then $\lim_{x\to 1^-} \sum_{n=1}^\infty a_n x^n=\sum_{n=1}^\infty a_n$
+
+
+**Question 3**
+
+Prove or disprove each of the following statements.
+
+(f) If $E \subset \mathbb{R}$ and 
+
+    $\mu(E) = \inf\{\sum_{I_i \in S} |I_i| : S = \{I_i\}_{i=1}^n \text{ such that } E \subset \union_{i=1}^n I_i \text{ for some } n \in \mathbb{N}\}$
+
+    then $\mu$ coincides with the outer measure of $E$.
+
+(g) If $E$ is a Borel set and $f$ is a measurable function, then $f^{-1}(E)$ is also measurable.
+
+
+**Question 4**
+
+If $f$ is a finite real valued measurable function on a measurable set $E \subset \mathbb{R}$, show that the set $\{(x, f(x)) : x ∈ E\}$ is measurable.
+
+
+**Question 5**
+
+Let g : $[0, 1] × [0, 1] → [0, 1]$ be a continuous function and let $\{f_n\}$ be a sequence of functions such that 
+
+$$f_n(x)=\begin{cases}{0,   0\leq x\leq 1/n},\\{\int_0^{x-\frac1n} g(t,f_n(t))dt, 1/n\leq x \leq 1.}\end{cases}$$
+
+With the help of the Arzela-Ascoli theorem or otherwise, show that there exists a continuous function $f : [0, 1] → \mathbb{R}$ such that 
+
+$f(x) = \int_0^x g(t, f(t))dt$
+
+for all $x \in [0, 1]$. 
+
+> Hint: first show that $|f_n(x_1) - f_n(x_2)| ≤ |x_1 - x_2|$.
+
+
+**Question 6**
+
+If $\limsup_{n\rightarrow \infty} a_n\leq l$, show that $\limsup_{n\rightarrow \infty}\sum_{i=1}^n{a_i/n}\leq l$.  
+
+
+**Question 7**
+
+If $f$ is a nonnegative measurable function on $\mathbb{R}$ and $p > 0$, show that
+
+$\int f^p ~dx = \int_0^{\infty} p t^{p-1} \abs{\{x : f(x) > t\}} ~dt$ 
+
+where $\abs{\{x : f(x) > t\}}$ is the Lebesgue measure of the set $\{x : f(x) > t\}$.
+
+
+**Question 8**
+
+If $f$ is a nonnegative measurable function on $[0, \pi]$ and $\int_0^\pi f(x)^3~dx < \infty$, show that
+
+$$\lim_{\alpha\to\infty} \int_{ \{x:f(x)>\alpha\}} f(x)^2 ~dx=0.$$
+
+
+**Question 9**
+
+Prove or disprove each of the following statements.
+
+(a) If $f : [0, 1] → \mathbb{R}$ is a measurable function, then given any $\varepsilon > 0$, there exists a compact set $K \subset [0, 1]$ such that $f$ is continuous on $K$ relative to $K$.
+
+(c) If f is Borel measurable on $\mathbb{R} × \mathbb{R}$, then for any $x \in \mathbb{R}$, the function $g(y) = f(x, y)$ is also Borel measurable on $\mathbb{R}$.
+
+(d) If $E \subset \mathbb{R}$, then $E$ is measurable if and only if given any $\varepsilon > 0$, there exist a closed set $F$ and an open set $G$ such that $F \subset E \subset G$ and the measure of $G-F$ is less than $\varepsilon$.
+
+
+**Question 10**
+
+Prove or disprove each of the following statements.
+
+(b) If ${f_n}$ is a sequence of measurable functions that converges uniformly to $f$ on $\mathbb{R}$, then $\int{f}=\lim_{k\to \infty} \int f_k$
+
+(e) If $\{f_k\}$ is a sequence of function in $L_p[0,\infty)$ that converges to a function $f ∈ L_p [0,∞)$, then $\{f_k\}$ has a subsequence that converges to $f$ almost everywhere.
+
+
+**Question 11**
+
+Prove or disprove each of the following statements.
+
+(f) If $f$ is Riemann integrable on $[ε, 1]$ for all $0 < ε < 1$, then $f$ is Lebesgue integrable on $[0,1]$ if $f$ is nonnegative and the following limit exists $\lim_{\varepsilon\to 0^+} \int_\varepsilon^1 f dx$.
+
+(g) If $f$ is integrable on $[0,1]$, then $\lim_{n\to\infty} \int_0^1 f(x)\sin(n\pi x)dx = 0$.
+
+(h) If $f$ is continuous on $[0, 1]$, then it is of bounded variation on [0, 1]$.
+
+
+**Question 12**
+
+(a) Let $f : \mathbb{R} → \mathbb{R}$ be a differentiable function. 
+    If $f'(-1) < 2$ and $f'(1) > 2$, show that there exists $x_0 \in (i1, 1)$ such that $f'(x_0) = 2$.
+
+    > Hint: consider the function $f(x) - 2x$ and recall the proof of Rolle’s theorem.)
+
+(b) Let $f : (-1, 1) → \mathbb{R}$ be a differentiable function on $(-1, 0) \union (0, 1)$ such that $\lim_{x\to 0} f'(x) = L$. 
+    If $f$ is continuous on $(-1, 1)$, show that $f$ is indeed differentiable at $0$ and $f'(0) = L$.
+
+
+**Question 13**
 
 Let $C([0, 1])$ denote the space of all continuous real-valued functions on $[0, 1]$.
   
@@ -1795,7 +1913,7 @@ a. Prove that $C([0, 1])$ is complete under the uniform norm $\norm{f}_u := \dis
 b. Prove that $C([0, 1])$ is not complete under the $L^1\dash$norm $\norm{f}_1 = \displaystyle\int_0^1 |f (x)| ~dx$.
 
 
-**Question 2**
+**Question 14**
 
 Let $\mathcal B$ denote the set of all Borel subsets of $\RR$ and $\mu : \mathcal B → [0, \infty)$ denote a finite Borel measure on $\RR$.
 
@@ -1808,7 +1926,7 @@ b. Suppose $µ$ has the property that $µ(E) = 0$ for every $E \in \mathcal B$ w
   Prove that for every $ε > 0$ there exists $δ > 0$ so that if $E \in \mathcal B$ with $m(E) < δ$, then $µ(E) < ε$.
 
 
-**Question 3**
+**Question 15**
 
 Let $\{f_k\}$ be any sequence of functions in $L^2([0, 1])$ satisfying $\norm{f_k}_2 ≤ M$ for all $k ∈ \NN$.
   
@@ -1820,7 +1938,7 @@ $$
 > Hint: Try using Fatou’s Lemma to show that $\norm{f}_2 ≤ M$ and then try applying Egorov’s Theorem.
 
 
-**Question 4**
+**Question 16**
 
 Let $f$ be a non-negative function on $\RR^n$ and $\mathcal A = \{(x, t) ∈ \RR^n × \RR : 0 ≤ t ≤ f (x)\}$.
 
@@ -1834,7 +1952,7 @@ m(\mathcal{A})=\int_{\mathbb{R}^{n}} f(x) d x=\int_{0}^{\infty} m\left(\left\{x 
 $$
 
 
-**Question 5**
+**Question 17**
 
 a.  Show that $L^2([0, 1]) ⊆ L^1([0, 1])$ and argue that $L^2([0, 1])$ in fact 
     forms a dense subset of $L^1([0, 1])$.
@@ -1861,7 +1979,7 @@ b.  Let $Λ$ be a continuous linear functional on $L^1([0, 1])$.
     $$
 
 
-**Question 6**
+**Question 18**
 
 Let $\{a_n\}_{n=1}^\infty$ be a sequence of real numbers.
 
@@ -1876,7 +1994,7 @@ $$
 $$
 
 
-**Question 7**
+**Question 19**
 
 Prove that
 $$
@@ -1888,7 +2006,7 @@ for all $x \neq 0$ and positive integers $n$.
 > Hint: Consider $\displaystyle\int_0^1 \cos(tx) dt$
 
 
-**Question 8**
+**Question 20**
 
 Let $(X, \mathcal B, µ)$ be a measure space with $µ(X) = 1$ and $\{B_n\}_{n=1}^\infty$ be a sequence of $\mathcal B$-measurable subsets of $X$, and
 $$
@@ -1908,7 +2026,7 @@ for all positive integers $k$ and $K$ with $k < K$, then $µ(B) = 1$.
 > Hint: Use the fact that $1 - x ≤ e^{-x}$ for all $x$.
 
 
-**Question 9**
+**Question 21**
 
 Let $\{u_n\}_{n=1}^∞$ be an orthonormal sequence in a Hilbert space $\mathcal{H}$.
 
@@ -1927,7 +2045,7 @@ $$
 $$
 
 
-**Question 10**
+**Question 22**
 
 a. Show that if $f$ is continuous with compact support on $\RR$, then 
 $$
@@ -1944,7 +2062,7 @@ i. Prove that $\left\|\mathcal{A}_{h} f\right\|_{1} \leq\|f\|_{1}$ for all $h > 
 ii. Prove that $\mathcal{A}_h f → f$ in $L^1(\RR)$ as $h → 0^+$.
 
 
-**Question 11**
+**Question 23**
 
 Define
 $$
@@ -1954,7 +2072,7 @@ $$
 Prove that $m(E) = 0$.
 
 
-**Question 12**
+**Question 24**
 
 Let
 $$
@@ -1969,7 +2087,7 @@ $$
 $$
 
 
-**Question 13**
+**Question 25**
 
 Let $f$ be a non-negative measurable function on $[0, 1]$. 
 
@@ -1979,7 +2097,7 @@ $$
 $$
 
 
-**Question 14**
+**Question 26**
 
 Let $f\in L^2([0, 1])$ and suppose
 $$
@@ -1988,7 +2106,7 @@ $$
 Show that $f = 0$ almost everywhere.
 
 
-**Question 15**
+**Question 27**
 
 Suppose that
 
@@ -1999,19 +2117,19 @@ Suppose that
 Show that $\int f_{n} \rightarrow \int f$
 
 
-**Question 16**
+**Question 28**
 
 Let $f(x) = \frac 1 x$.
 Show that $f$ is uniformly continuous on $(1, \infty)$ but not on $(0,\infty)$.
 
 
-**Question 17**
+**Question 29**
 
 Let $E\subset \RR$ be a Lebesgue measurable set.
 Show that there is a Borel set $B \subset E$ such that $m(E\setminus B) = 0$.
 
 
-**Question 18**
+**Question 30**
 
 Suppose $f(x)$ and $xf(x)$ are integrable on $\RR$.
 Define $F$ by
@@ -2024,7 +2142,7 @@ F'(t)=-\int_{-\infty}^{\infty} x f(x) \sin (x t) d x.
 $$
 
 
-**Question 19**
+**Question 31**
 
 Let $f\in L^1([0, 1])$.
 Prove that
@@ -2035,7 +2153,7 @@ $$
 > Hint: Begin with the case that $f$ is the characteristic function of an interval.
 
 
-**Question 20**
+**Question 32**
 
 Let $f \geq 0$ be a measurable function on $\RR$.
 Show that
@@ -2044,7 +2162,7 @@ $$
 $$
 
 
-**Question 21**
+**Question 33**
 
 Compute the following limit and justify your calculations:
 $$
@@ -2052,7 +2170,7 @@ $$
 $$
 
 
-**Question 22**
+**Question 34**
 
 Let $K$ be the set of numbers in $[0, 1]$ whose decimal expansions do not use the digit $4$.
 
@@ -2063,7 +2181,7 @@ Show that $K$ is a compact, nowhere dense set without isolated points, and find 
 Lebesgue measure $m(K)$.
 
 
-**Question 23**
+**Question 35**
 
 
 a. Let $\mu$ be a measure on a measurable space $(X, \mathcal M)$ and $f$ a positive measurable function.
@@ -2085,7 +2203,7 @@ $$
 Show that $m(E) = 0$.
 
 
-**Question 24**
+**Question 36**
 
 Let
 $$
@@ -2106,7 +2224,7 @@ $$
 $$
 
 
-**Question 25**
+**Question 37**
 
 Let $f(x, y)$ on $[-1, 1]^2$ be defined by 
 $$
@@ -2118,7 +2236,7 @@ $$
 Determine if $f$ is integrable.
 
 
-**Question 26**
+**Question 38**
 
 Let $f, g \in L^2(\RR)$. 
 Prove that the formula
@@ -2128,7 +2246,7 @@ $$
 defines a uniformly continuous function $h$ on $\RR$.
 
 
-**Question 27**
+**Question 39**
 
 Show that the space $C^1([a, b])$ is a Banach space when equipped with the norm
 $$
@@ -2136,7 +2254,7 @@ $$
 $$
 
 
-**Question 28**
+**Question 40**
 
 Let 
 $$
@@ -2146,7 +2264,7 @@ $$
 Describe the intervals on which $f$ does and does not converge uniformly.
 
 
-**Question 29**
+**Question 41**
 
 Let $f(x) = x^2$ and $E \subset [0, \infty) \definedas \RR^+$.
 
@@ -2164,7 +2282,7 @@ E &\mapsto f(E)
   is a bijection from the class of Lebesgue measurable sets of $[0, \infty)$ to itself.
 
 
-**Question 30**
+**Question 42**
 
 Let 
 $$
@@ -2178,7 +2296,7 @@ $$
 $$
 
 
-**Question 31**
+**Question 43**
 
 Let
 $$
@@ -2195,7 +2313,7 @@ $$
 $$
 
 
-**Question 32**
+**Question 44**
 
 Let $\phi$ be a compactly supported smooth function that vanishes outside of an interval $[-N, N]$ such that $\int_{\mathrm{R}} \phi(x) d x=1$.
 
@@ -2218,7 +2336,7 @@ $$
 $$
 
 
-**Question 33**
+**Question 45**
 
 Let $X$ be a complete metric space and define a norm
 $$
@@ -2228,7 +2346,7 @@ $$
 Show that $(C^0(\RR), \norm{\wait} )$ (the space of continuous functions $f: X\to \RR$) is complete.
 
 
-**Question 34**
+**Question 46**
 
 For $n\in \NN$, define
 $$
@@ -2250,14 +2368,14 @@ Use this to show the following:
 4. $\lim _{n \rightarrow \infty} e_{n}=\lim _{n \rightarrow \infty} E_{n}$.
 
 
-**Question 35**
+**Question 47**
 
 Let $0 < \lambda < 1$ and construct a Cantor set $C_\lambda$ by successively removing middle intervals of length $\lambda$.
 
 Prove that $m(C_\lambda) = 0$.
 
 
-**Question 36**
+**Question 48**
 
 Let $f$ be Lebesgue measurable on $\RR$ and $E \subset \RR$ be measurable such that
 $$
@@ -2270,7 +2388,7 @@ $$
 $$
 
 
-**Question 37**
+**Question 49**
 
 Let $E \subset \RR$ be measurable with $m(E) < \infty$. 
 Define
@@ -2290,7 +2408,7 @@ $$
 $$
 
 
-**Question 38**
+**Question 50**
 
 Let $(X, \mathcal M, \mu)$ be a measure space. For $f\in L^1(\mu)$ and $\lambda > 0$, define
 $$
@@ -2305,7 +2423,7 @@ $$
 $$
 
 
-**Question 39**
+**Question 51**
 
 Without using the Riesz Representation Theorem, compute
 $$
@@ -2313,7 +2431,7 @@ $$
 $$
 
 
-**Question 40**
+**Question 52**
 
 Define
 $$
@@ -2331,7 +2449,7 @@ $$
 $$
 
 
-**Question 41**
+**Question 53**
 
 Let $f, g: [a, b] \to \RR$ be measurable with
 $$
@@ -2347,7 +2465,7 @@ $$
 $$
 
 
-**Question 42**
+**Question 54**
 
 Let $f\in L^1(\RR)$.
 Show that
@@ -2356,7 +2474,7 @@ $$
 $$
 
 
-**Question 43**
+**Question 55**
 
 Let $(X, \mathcal M, \mu)$ be a measure space and suppose $\theset{E_n} \subset \mathcal M$ satisfies
 $$
@@ -2371,7 +2489,7 @@ $$
 Show that $G \in \mathcal M$ and $\mu(G) = 0$.
 
 
-**Question 44**
+**Question 56**
 
 Let $\phi\in L^\infty(\RR)$. Show that the following limit exists and satisfies the equality
 $$
@@ -2379,7 +2497,7 @@ $$
 $$
 
 
-**Question 45**
+**Question 57**
 
 Let $f, g \in L^2(\RR)$. Show that
 $$
@@ -2387,7 +2505,7 @@ $$
 $$
 
 
-**Question 46**
+**Question 58**
 
 Let $(X, d)$ and $(Y, \rho)$ be metric spaces, $f: X\to Y$, and $x_0 \in X$.
 
@@ -2397,7 +2515,7 @@ Prove that the following statements are equivalent:
 2. The sequence $\theset{f(x_n)}_{n=1}^\infty \to f(x_0)$ for every sequence $\theset{x_n} \to x_0$ in $X$.
 
 
-**Question 47**
+**Question 59**
 
 Let $f: \RR \to \CC$ be continuous with period 1. Prove that
 $$
@@ -2407,7 +2525,7 @@ $$
 > Hint: show this first for the functions $f(t) = e^{2\pi i k t}$ for $k\in \ZZ$.
 
 
-**Question 48**
+**Question 60**
 
 Let $\mu$ be a finite Borel measure on $\RR$ and $E \subset \RR$ Borel. 
 Prove that the following statements are equivalent:
@@ -2422,7 +2540,7 @@ H \subseteq E \subseteq V \quad \text{and}\quad \mu(V\setminus H) = 0
 $$
 
 
-**Question 49**
+**Question 61**
 
 Define
 $$
@@ -2432,7 +2550,7 @@ $$
 Carefully show that $f \in L^1(\RR^2)$.
 
 
-**Question 50**
+**Question 62**
 
 Let $\mathcal H$ be a Hilbert space.
 
@@ -2444,7 +2562,7 @@ Let $\mathcal H$ be a Hilbert space.
 2. Conclude that finite dimensional subspaces of $\mathcal H$ are always closed.
 
 
-**Question 51**
+**Question 63**
 
 Let $f \in L^1(\RR)$ and $g$ be a bounded measurable function on $\RR$.
 
@@ -2455,7 +2573,7 @@ $$
 $$
 
 
-**Question 52**
+**Question 64**
 
 Define
 $$
@@ -2465,7 +2583,7 @@ $$
 Show that there is a number $x_m$ such that $f(x_m) \leq f(x)$ for all $x\in \RR$.
 
 
-**Question 53**
+**Question 65**
 
 Let $f: \RR \to \RR$ be Lebesgue measurable.
 
@@ -2473,7 +2591,7 @@ Let $f: \RR \to \RR$ be Lebesgue measurable.
 2. Show that there is a Borel measurable function $g$ such that $g = f$ almost everywhere.
 
 
-**Question 54**
+**Question 66**
 
 Compute the following limit:
 $$
@@ -2481,7 +2599,7 @@ $$
 $$
 
 
-**Question 55**
+**Question 67**
 
 Let $f: [1, \infty) \to \RR$ such that $f(1) = 1$ and
 $$
@@ -2494,7 +2612,7 @@ $$
 $$
 
 
-**Question 56**
+**Question 68**
 
 Let $f, g \in L^1(\RR)$ be Borel measurable.
 
@@ -2507,7 +2625,7 @@ $$
 $$
 
 
-**Question 57**
+**Question 69**
 
 Let $f: [0, 1] \to \RR$ be continuous.
 Show that
@@ -2516,7 +2634,7 @@ $$
 $$
 
 
-**Question 58**
+**Question 70**
 
 1. Give an example of a continuous $f\in L^1(\RR)$ such that $f(x) \not\to 0$ as$\abs x \to \infty$.
 
@@ -2526,7 +2644,7 @@ $$
 $$
 
 
-**Question 59**
+**Question 71**
 
 Let $\theset{a_n}$ be a sequence of real numbers such that
 $$
@@ -2537,7 +2655,7 @@ Show that $\sum a_n^2 < \infty$.
 > Note: Assume $a_n, b_n$ are all non-negative.
 
 
-**Question 60**
+**Question 72**
 
 Let $f: \RR \to \RR$ and suppose
 $$
@@ -2546,7 +2664,7 @@ $$
 Prove that $f$ is Borel measurable.
 
 
-**Question 61**
+**Question 73**
 
 Let $(X, \mathcal M, \mu)$ be a measure space and suppose $f$ is a measurable function on $X$.
 Show that
@@ -2560,7 +2678,7 @@ $$
 and characterize the collection of functions of each type.
 
 
-**Question 62**
+**Question 74**
 
 Let $f, g \in L^1([0, 1])$ and for all $x\in [0, 1]$ define
 $$
@@ -2573,14 +2691,14 @@ $$
 $$
 
 
-**Question 63**
+**Question 75**
 
 Let $\theset{f_n}$ be a sequence of continuous functions such that $\sum f_n$ converges uniformly.
 
 Prove that $\sum f_n$ is also continuous.
 
 
-**Question 64**
+**Question 76**
 
 Let $I$ be an index set and $\alpha: I \to (0, \infty)$.
 
@@ -2597,7 +2715,7 @@ Let $I$ be an index set and $\alpha: I \to (0, \infty)$.
     Show that $f$ is continuous at $x \iff x\not\in \QQ$.
 
 
-**Question 65**
+**Question 77**
 
 Let $f\in L^1(\RR)$. Show that
 $$
@@ -2605,7 +2723,7 @@ $$
 $$
 
 
-**Question 66**
+**Question 78**
 
 Let $g\in L^\infty([0, 1])$
 Prove that
@@ -2614,7 +2732,7 @@ $$
 $$
 
 
-**Question 67**
+**Question 79**
 
 1. Let $f \in C_c^0(\RR^n)$, and show
 $$
@@ -2627,7 +2745,7 @@ f\in L^1(\RR^n),~ g\in L^\infty(\RR^n) \implies f \ast g \text{ is bounded and u
 $$
 
 
-**Question 68**
+**Question 80**
 
 Let $1 \leq p,q \leq \infty$ be conjugate exponents, and show that
 $$
@@ -2635,7 +2753,7 @@ f \in L^p(\RR^n) \implies \|f\|_{p}=\sup _{\|g\|_{q}=1}\left|\int f(x) g(x) d x\
 $$
 
 
-**Question 69**
+**Question 81**
 
 Describe the process that extends a measure on an algebra
 $\mathcal{A}$ of subsets of $X$, to a complete measure defined on a
@@ -2643,12 +2761,12 @@ $\sigma$-algebra $\mathcal{B}$ containing $\mathcal{A}$. State the
 corresponding definitions and results (without proofs).
 
 
-**Question 70**
+**Question 82**
 
 State and prove Fatou's Lemma on a general measurable space.
 
 
-**Question 71**
+**Question 83**
 
 1.  State the Dominated Convergence Theorem for Lebesgue integrals.
 
@@ -2661,7 +2779,7 @@ State and prove Fatou's Lemma on a general measurable space.
     \end{align*}
 
 
-**Question 72**
+**Question 84**
 
 Let $f\in L^1([0,1])$. Show that
 
@@ -2670,7 +2788,7 @@ Let $f\in L^1([0,1])$. Show that
 2.  If $m \{x : f(x) = 0\} > 0$, then the above limit is zero.
 
 
-**Question 73**
+**Question 85**
 
 Let $f$ be a continuous function on $[0,1]$. Show that the following
 statements are equivalent.
@@ -2683,9 +2801,56 @@ statements are equivalent.
 
 3.  $m(f(E)) = 0$ for any set $E \subseteq [0,1]$ with $m(E)=0$.
 
-# Complex Analysis (119 Questions)
+# Complex Analysis (125 Questions)
 
 **Question 1**
+
+Find the number of zeroes, counting multiplicities, of the polynomial 
+
+$f(z) = 2z^5 - 6z^2 - z + 1 = 0$
+
+in the annulus $1 ≤ |z| ≤ 2$.
+
+
+**Question 2**
+
+Find an analytic isomorphism from the open region between $|z| = 1$ and $|z -\frac 1 2| =\frac 1 2$ to the upper half plane $\Im z > 0$. (You may leave your result as a composition of functions).
+
+
+**Question 3**
+
+Use Green theorem or otherwise to prove the Cauchy theorem.
+
+
+**Question 4**
+
+State and prove the divergence theorem on any rectangle in $\mathbb{R}^2$.
+
+
+**Question 5**
+
+Find an analytic isomorphism from the open region between $x = 1$ and $x = 3$ to the upper half unit disk $\{|z| < 1,\Im z > 0\}$. (You may leave your result as a composition of functions)
+
+
+**Question 6**
+
+Use Cauchy's theorem to prove the argument principle.
+
+
+**Question 7**
+
+Evaluate the following by the method of residues:
+$\int_0^{\pi /2} \frac{1}{3+\sin^2x}dx$
+
+
+**Question 8**
+
+Evaluate the improper integral 
+
+$\int_0^\infty \frac{x^2~dx}{(x^2+1)(x^2+4)}$
+
+
+**Question 9**
 
 (1) Assume $\displaystyle f(z) = \sum_{n=0}^\infty c_n z^n$
 converges in $|z| < R$. Show that for $r <R$,
@@ -2695,7 +2860,7 @@ $$\frac{1}{2 \pi} \int_0^{2 \pi} |f(r e^{i \theta})|^2 d \theta =
 (2) Deduce Liouville's theorem from (1).
 
 
-**Question 2**
+**Question 10**
 
 Let $f$ be a continuous function in the region
 $$D=\{z \suchthat  \abs{z}>R, 0\leq \arg z\leq \theta\}\quad\text{where}\quad
@@ -2707,7 +2872,7 @@ where $L$ is the part of the circle $|z|=R'$ which lies in the
 region $D$.
 
 
-**Question 3**
+**Question 11**
 
 Suppose that $f$ is an analytic function in the region $D$ which
 contains the point $a$. Let
@@ -2731,13 +2896,13 @@ series with respect to $q$: $\displaystyle{
 \frac{1}{F(z)}=\sum_{n=0}^{\infty} \frac{(qf(z))^n}{(z-a)^{n+1}}.}$
 
 
-**Question 4**
+**Question 12**
 
 Evaluate $$\displaystyle{ \int_{0}^{\infty}\frac{x\sin x}{x^2+a^2} \,
 dx }.$$
 
 
-**Question 5**
+**Question 13**
 
 Let $f=u+iv$ be differentiable (i.e. $f'(z)$ exists) with continuous
 partial derivatives at a point $z=re^{i\theta}$, $r\not= 0$. Show
@@ -2746,14 +2911,14 @@ $$\frac{\partial u}{\partial r}=\frac{1}{r}\frac{\partial v}{\partial \theta},\q
 \frac{\partial v}{\partial r}=-\frac{1}{r}\frac{\partial u}{\partial \theta}.$$
 
 
-**Question 6**
+**Question 14**
 
 Show that $\displaystyle \int_0^\infty \frac{x^{a-1}}{1+x^n}
 dx=\frac{\pi}{n\sin \frac{a\pi}{n}}$ using complex analysis, $0< a <
 n$. Here $n$ is a positive integer.
 
 
-**Question 7**
+**Question 15**
 
 For $s>0$, the **gamma function** is defined by
 $\displaystyle{\Gamma(s)=\int_0^{\infty} e^{-t}t^{s-1} dt}$.
@@ -2768,14 +2933,14 @@ $\displaystyle{\Gamma(s)=\int_0^{\infty} e^{-t}t^{s-1} dt}$.
 > Hint: You may need $\displaystyle{\Gamma(1-s)=t \int_0^{\infty}e^{-vt}(vt)^{-s} dv}$ for $t>0$.
 
 
-**Question 8**
+**Question 16**
 
 Apply Rouché's Theorem to prove the Fundamental Theorem of Algebra: If
 $$P_n(z) = a_0 + a_1z + \cdots + a_{n-1}z^{n-1} + a_nz^n\quad  (a_n \neq 0)$$
 is a polynomial of degree n, then it has n zeros in $\mathbb C$.
 
 
-**Question 9**
+**Question 17**
 
 Suppose $f$ is entire and there exist $A, R >0$ and natural number
 $N$ such that $$|f(z)| \geq A |z|^N\ \text{for}\ |z| \geq R.$$ Show
@@ -2786,14 +2951,14 @@ that
 (ii) the degree of $f$ is at least $N$.
 
 
-**Question 10**
+**Question 18**
 
 Let $f: {\mathbb C} \rightarrow {\mathbb C}$ be an injective
 analytic (also called *univalent*) function. Show that there exist
 complex numbers $a \neq 0$ and $b$ such that $f(z) = az + b$.
 
 
-**Question 11**
+**Question 19**
 
 Let $g$ be analytic for $|z|\leq 1$ and $|g(z)| < 1$ for $|z| = 1$.
 
@@ -2811,20 +2976,20 @@ Let $g$ be analytic for $|z|\leq 1$ and $|g(z)| < 1$ for $|z| = 1$.
 > Hint: The map $\displaystyle{\psi_{\alpha}(z)=\frac{\alpha-z}{1-\bar{\alpha}z}}$ may be useful.
 
 
-**Question 12**
+**Question 20**
 
 Find a conformal map from $D = \{z :\  |z| < 1,\ |z - 1/2| > 1/2\}$
 to the unit disk $\Delta=\{z: \ |z|<1\}$.
 
 
-**Question 13**
+**Question 21**
 
 Let $f(z)$ be entire and assume values of $f(z)$ lie outside a *bounded*
 open set $\Omega$. Show without using Picard's theorems that $f(z)$ is a
 constant.
 
 
-**Question 14**
+**Question 22**
 
 (1) Assume $\displaystyle f(z) = \sum_{n=0}^\infty c_n z^n$ converges
 in $|z| < R$. Show that for $r <R$,
@@ -2834,14 +2999,14 @@ $$\frac{1}{2 \pi} \int_0^{2 \pi} |f(r e^{i \theta})|^2 d \theta
 (2) Deduce Liouville's theorem from (1).
 
 
-**Question 15**
+**Question 23**
 
 Let $f(z)$ be entire and assume that $f(z) \leq M |z|^2$ outside some
 disk for some constant $M$. Show that $f(z)$ is a polynomial in $z$ of
 degree $\leq 2$.
 
 
-**Question 16**
+**Question 24**
 
 Let $a_n(z)$ be an analytic sequence in a domain $D$ such that
 $\displaystyle \sum_{n=0}^\infty |a_n(z)|$ converges uniformly on
@@ -2850,7 +3015,7 @@ $\displaystyle \sum_{n=0}^\infty |a'_n(z)|$ converges uniformly on
 bounded and closed sub-regions of $D$.
 
 
-**Question 17**
+**Question 25**
 
 Let $f(z)$ be analytic in an open set $\Omega$ except possibly at a
 point $z_0$ inside $\Omega$. Show that if $f(z)$ is bounded in near
@@ -2858,7 +3023,7 @@ $z_0$, then $\displaystyle \int_\Delta f(z) dz = 0$ for all triangles
 $\Delta$ in $\Omega$.
 
 
-**Question 18**
+**Question 26**
 
 Assume $f$ is continuous in the region:
 $0< |z-a| \leq R, \; 0 \leq \arg(z-a) \leq \beta_0$
@@ -2869,14 +3034,14 @@ where
 $$\gamma_r : = \{ z \; | \; z = a + r e^{it}, \; 0 \leq  t \leq \beta_0 \}.$$
 
 
-**Question 19**
+**Question 27**
 
 Show that $f(z) = z^2$ is uniformly continuous in any open disk
 $|z| < R$, where $R>0$ is fixed, but it is not uniformly continuous on
 $\mathbb C$.
 
 
-**Question 20**
+**Question 28**
 
 (1) Show that the function $u=u(x,y)$ given by
 $$u(x,y)=\frac{e^{ny}-e^{-ny}}{2n^2}\sin nx\quad \text{for}\ n\in {\mathbf N}$$
@@ -2889,7 +3054,7 @@ u(x,0)=0,\quad \frac{\partial u}{\partial y}(x,0)=\frac{\sin nx}{n}.$$
 $\displaystyle{\limsup_{n\to\infty} |u(x,y)|=\infty}$.
 
 
-**Question 21**
+**Question 29**
 
 (1) Assume $\displaystyle f(z) = \sum_{n=0}^\infty c_n z^n$
 converges in $|z| < R$. Show that for $r <R$,
@@ -2899,7 +3064,7 @@ $$\frac{1}{2 \pi} \int_0^{2 \pi} |f(r e^{i \theta})|^2 d \theta =
 (2) Deduce Liouville's theorem from (1).
 
 
-**Question 22**
+**Question 30**
 
 Let $f$ be a continuous function in the region
 $$D=\{z\ |  |z|>R, 0\leq \arg Z\leq \theta\}\quad\text{where}\quad
@@ -2910,36 +3075,12 @@ where $L$ is the part of the circle $|z|=R'$ which lies in the
 region $D$.
 
 
-**Question 23**
-
-Suppose that $f$ is an analytic function in the region $D$ which
-contains the point $a$. Let
-$$F(z)= z-a-qf(z),\quad \text{where}\quad q \ \text{is a complex
-parameter}.$$ 
-
-(1) Let $K\subset D$ be a circle with the center at
-point $a$ and also we assume that $f(z)\not =0$ for $z\in K$. Prove
-that the function $F$ has one and only one zero $z=w$ on the closed
-disc $\bar{K}$ whose boundary is the circle $K$ if $\displaystyle{
-|q|<\min_{z\in K} \frac{|z-a|}{|f(z)|}.}$\
-
-(2) Let $G(z)$ be an analytic function on the disk $\bar{K}$. Apply
-the residue theorem to prove that
-$\displaystyle{ \frac{G(w)}{F'(w)}=\frac{1}{2\pi
-i}\int_K \frac{G(z)}{F(z)} dz,}$ where $w$ is the zero from (1).\
-
-(3) If $z\in K$, prove that the function
-$\displaystyle{\frac{1}{F(z)}}$ can be represented as a convergent
-series with respect to $q$: $\displaystyle{
-\frac{1}{F(z)}=\sum_{n=0}^{\infty} \frac{(qf(z))^n}{(z-a)^{n+1}}.}$
-
-
-**Question 24**
+**Question 31**
 
 Evaluate $\displaystyle{ \int_{0}^{\infty}\frac{x\sin x}{x^2+a^2} \,dx }$.
 
 
-**Question 25**
+**Question 32**
 
 Let $f=u+iv$ be differentiable (i.e. $f'(z)$ exists) with continuous
 partial derivatives at a point $z=re^{i\theta}$, $r\not= 0$. Show
@@ -2948,14 +3089,14 @@ $$\frac{\partial u}{\partial r}=\frac{1}{r}\frac{\partial v}{\partial \theta},\q
 \frac{\partial v}{\partial r}=-\frac{1}{r}\frac{\partial u}{\partial \theta}.$$
 
 
-**Question 26**
+**Question 33**
 
 Show that $\displaystyle \int_0^\infty \frac{x^{a-1}}{1+x^n}
 dx=\frac{\pi}{n\sin \frac{a\pi}{n}}$ using complex analysis, $0< a <
 n$. Here $n$ is a positive integer.
 
 
-**Question 27**
+**Question 34**
 
 For $s>0$, the **gamma function** is defined by
 $\displaystyle{\Gamma(s)=\int_0^{\infty} e^{-t}t^{s-1} dt}$.
@@ -2970,7 +3111,7 @@ $\displaystyle{\Gamma(s)=\int_0^{\infty} e^{-t}t^{s-1} dt}$.
 > Hint: You may need $\displaystyle{\Gamma(1-s)=t \int_0^{\infty}e^{-vt}(vt)^{-s} dv}$ for $t>0$.
 
 
-**Question 28**
+**Question 35**
 
 Suppose $f$ is entire and there exist $A, R >0$ and natural number
 $N$ such that $$|f(z)| \geq A |z|^N\ \text{for}\ |z| \geq R.$$ Show
@@ -2981,14 +3122,14 @@ that
 (ii) the degree of $f$ is at least $N$.
 
 
-**Question 29**
+**Question 36**
 
 Let $f: {\mathbb C} \rightarrow {\mathbb C}$ be an injective
 analytic (also called univalent) function. Show that there exist
 complex numbers $a \neq 0$ and $b$ such that $f(z) = az + b$.
 
 
-**Question 30**
+**Question 37**
 
 Let $g$ be analytic for $|z|\leq 1$ and $|g(z)| < 1$ for $|z| = 1$.
 
@@ -3008,20 +3149,20 @@ $\displaystyle{\psi_{\alpha}(z)=\frac{\alpha-z}{1-\bar{\alpha}z}}$
 > may be useful.
 
 
-**Question 31**
+**Question 38**
 
 Find a conformal map from $D = \{z :\  |z| < 1,\ |z - 1/2| > 1/2\}$
 to the unit disk $\Delta=\{z: \ |z|<1\}$.
 
 
-**Question 32**
+**Question 39**
 
 Let $f(z)$ be entire and assume values of $f(z)$ lie outside a
 *bounded* open set $\Omega$. Show without using Picard's theorems
 that $f(z)$ is a constant.
 
 
-**Question 33**
+**Question 40**
 
 (1) Assume $\displaystyle f(z) = \sum_{n=0}^\infty c_n z^n$ converges
 in $|z| < R$. Show that for $r <R$,
@@ -3031,14 +3172,14 @@ $$\frac{1}{2 \pi} \int_0^{2 \pi} |f(r e^{i \theta})|^2 d \theta
 (2) Deduce Liouville's theorem from (1).
 
 
-**Question 34**
+**Question 41**
 
 Let $f(z)$ be entire and assume that $f(z) \leq M |z|^2$ outside some
 disk for some constant $M$. Show that $f(z)$ is a polynomial in $z$ of
 degree $\leq 2$.
 
 
-**Question 35**
+**Question 42**
 
 Let $a_n(z)$ be an analytic sequence in a domain $D$ such that
 $\displaystyle \sum_{n=0}^\infty |a_n(z)|$ converges uniformly on
@@ -3047,7 +3188,7 @@ $\displaystyle \sum_{n=0}^\infty |a'_n(z)|$ converges uniformly on
 bounded and closed sub-regions of $D$.
 
 
-**Question 36**
+**Question 43**
 
 Let $f(z)$ be analytic in an open set $\Omega$ except possibly at a
 point $z_0$ inside $\Omega$. Show that if $f(z)$ is bounded in near
@@ -3055,7 +3196,7 @@ $z_0$, then $\displaystyle \int_\Delta f(z) dz = 0$ for all triangles
 $\Delta$ in $\Omega$.
 
 
-**Question 37**
+**Question 44**
 
 Assume $f$ is continuous in the region:
 $0< |z-a| \leq R, \; 0 \leq \arg(z-a) \leq \beta_0$
@@ -3066,7 +3207,7 @@ where
 $$\gamma_r : = \{ z \; | \; z = a + r e^{it}, \; 0 \leq  t \leq \beta_0 \}.$$
 
 
-**Question 38**
+**Question 45**
 
 Show that $f(z) = z^2$ is uniformly continuous in any open disk
 $|z| < R$, where $R>0$ is fixed, but it is not uniformly continuous on
@@ -3080,7 +3221,7 @@ $\mathbb C$.
     u(x,0)=0,\quad \frac{\partial u}{\partial y}(x,0)=\frac{\sin nx}{n}.$$
 
 
-**Question 39**
+**Question 46**
 
 This question provides some insight into Cauchy's theorem. Solve the
 problem without using Cauchy's theorem.
@@ -3098,7 +3239,7 @@ problem without using Cauchy's theorem.
     radius $r$, with the positive orientation.
 
 
-**Question 40**
+**Question 47**
 
 (1) Assume the infinite series
 $\displaystyle  \sum_{n=0}^\infty c_n z^n$ converges in $|z| < R$
@@ -3111,7 +3252,7 @@ $$\frac{1}{2 \pi} \int_0^{2 \pi} |f(r e^{i \theta})|^2 d \theta =
 > Liouville's theorem: If $f(z)$ is entire and bounded, then $f$ is constant.
 
 
-**Question 41**
+**Question 48**
 
 Let $f$ be a continuous function in the region
 $$D=\{z\ |  |z|>R, 0\leq \arg Z\leq \theta\}\quad\text{where}\quad
@@ -3124,13 +3265,13 @@ where $L$ is the part of the circle $|z|=R'$ which lies in the
 region $D$.
 
 
-**Question 42**
+**Question 49**
 
 Evaluate $\displaystyle{ \int_{0}^{\infty}\frac{x\sin x}{x^2+a^2} \,
 dx }$.
 
 
-**Question 43**
+**Question 50**
 
 Let $f=u+iv$ be differentiable (i.e. $f'(z)$ exists) with continuous
 partial derivatives at a point $z=re^{i\theta}$, $r\not= 0$. Show
@@ -3139,14 +3280,14 @@ $$\frac{\partial u}{\partial r}=\frac{1}{r}\frac{\partial v}{\partial \theta},\q
 \frac{\partial v}{\partial r}=-\frac{1}{r}\frac{\partial u}{\partial \theta}.$$
 
 
-**Question 44**
+**Question 51**
 
 Show that $\displaystyle \int_0^\infty \frac{x^{a-1}}{1+x^n}
 dx=\frac{\pi}{n\sin \frac{a\pi}{n}}$ using complex analysis, $0< a <
 n$. Here $n$ is a positive integer.
 
 
-**Question 45**
+**Question 52**
 
 For $s>0$, the **gamma function** is defined by
 $\displaystyle{\Gamma(s)=\int_0^{\infty} e^{-t}t^{s-1} dt}$.
@@ -3161,7 +3302,7 @@ $\displaystyle{\Gamma(s)=\int_0^{\infty} e^{-t}t^{s-1} dt}$.
 > Hint: You may need $\displaystyle{\Gamma(1-s)=t \int_0^{\infty}e^{-vt}(vt)^{-s} dv}$ for $t>0$.
 
 
-**Question 46**
+**Question 53**
 
 Suppose $f$ is entire and there exist $A, R >0$ and natural number
 $N$ such that $$|f(z)| \geq A |z|^N\ \text{for}\ |z| \geq R.$$ Show
@@ -3172,14 +3313,14 @@ that
 (ii) the degree of $f$ is at least $N$.
 
 
-**Question 47**
+**Question 54**
 
 Let $f: {\mathbb C} \rightarrow {\mathbb C}$ be an injective
 analytic (also called univalent) function. Show that there exist
 complex numbers $a \neq 0$ and $b$ such that $f(z) = az + b$.
 
 
-**Question 48**
+**Question 55**
 
 Let $g$ be analytic for $|z|\leq 1$ and $|g(z)| < 1$ for $|z| = 1$.
 
@@ -3199,13 +3340,13 @@ Let $g$ be analytic for $|z|\leq 1$ and $|g(z)| < 1$ for $|z| = 1$.
  > may be useful.
 
 
-**Question 49**
+**Question 56**
 
 Find a conformal map from $D = \{z :\  |z| < 1,\ |z - 1/2| > 1/2\}$
 to the unit disk $\Delta=\{z: \ |z|<1\}$.
 
 
-**Question 50**
+**Question 57**
 
 Let $a_n \neq 0$ and assume that $\displaystyle
 \lim_{n \rightarrow \infty} \frac{|a_{n+1}|}{|a_n|} = L$. Show that
@@ -3217,7 +3358,7 @@ applicable, the ratio test can be used to calculate the radius of
 convergence of a power series.
 
 
-**Question 51**
+**Question 58**
 
 (a) Let $z, w$ be complex numbers, such that $\bar{z} w \neq 1$.
 Prove that
@@ -3241,7 +3382,7 @@ $F(w) = 0$.
 > Hint: Calculate $F \circ F$.
 
 
-**Question 52**
+**Question 59**
 
 Use $n$-th roots of unity (i.e. solutions of $z^n - 1 =0$) to show
 that
@@ -3252,7 +3393,7 @@ $$2^{n-1} \sin\frac{\pi}{n} \sin\frac{2\pi}{n} \cdots \sin\frac{(n-1)\pi}{n}
 > Hint: $1 - \cos 2 \theta = 2 \sin^2 \theta,\; \sin 2 \theta = 2 \sin \theta \cos \theta$.
 
 
-**Question 53**
+**Question 60**
 
 (a) Show that in polar coordinates, the Cauchy-Riemann
 equations take the form
@@ -3269,7 +3410,7 @@ $r>0, \; - \pi < \theta < \pi$. Also show that $\log z$ defined
 above is not continuous in $r>0$.
 
 
-**Question 54**
+**Question 61**
 
 Assume $f$ is continuous in the region:
 $x \geq x_0, \; 0 \leq y \leq b$ and the limit
@@ -3281,7 +3422,7 @@ $$\lim_{x \rightarrow + \infty} \int_{\gamma_x} f(z) dz  = iA b \; , \; \;$$
 where $\gamma_x : = \{ z \; | \; z = x + it, \; 0 \leq  t \leq b\}.$
 
 
-**Question 55**
+**Question 62**
 
 (Cauchy's formula for "exterior" region) Let $\gamma$ be piecewise
 smooth simple closed curve with interior $\Omega_1$ and exterior
@@ -3295,7 +3436,7 @@ A,          &     \text{if\ $z \in \Omega_1$}, \\
 \end{cases}$$
 
 
-**Question 56**
+**Question 63**
 
 Let $f(z)$ be bounded and analytic in $\mathbb C$. Let $a \neq b$ be
 any fixed complex numbers. Show that the following limit exists
@@ -3304,7 +3445,7 @@ Use this to show that $f(z)$ must be a constant (Liouville's
 theorem).
 
 
-**Question 57**
+**Question 64**
 
 Prove by *justifying all steps* that for all $\xi \in {\mathbb C}$
 we have $\displaystyle
@@ -3315,7 +3456,7 @@ without proof, i.e., you may assume the above is true for real
 values of $\xi$.
 
 
-**Question 58**
+**Question 65**
 
 Suppose that $f$ is holomorphic in an open set containing the closed
 unit disc, except for a pole at $z_0$ on the unit circle. Let
@@ -3327,7 +3468,7 @@ the open disc. Show that
 (2) $\displaystyle \lim_{n \rightarrow \infty} \frac{c_n}{c_{n+1}}= z_0$.
 
 
-**Question 59**
+**Question 66**
 
 Let $f(z)$ be a non-constant analytic function in $|z|>0$ such that
 $f(z_n) = 0$ for infinite many points $z_n$ with
@@ -3336,14 +3477,14 @@ essential singularity for $f(z)$. (An example of such a function is
 $f(z) = \sin (1/z)$.)
 
 
-**Question 60**
+**Question 67**
 
 Let $f$ be entire and suppose that
 $\lim_{z \rightarrow \infty} f(z) = \infty$. Show that $f$ is a
 polynomial.
 
 
-**Question 61**
+**Question 68**
 
 Expand the following functions into Laurent series in the indicated
 regions:
@@ -3356,26 +3497,26 @@ $3 < |z| < + \infty$.
 $\displaystyle f(z) = \sin \frac{z}{1-z}, \; \; 0 < |z-1| < + \infty$
 
 
-**Question 62**
+**Question 69**
 
 Assume $f(z)$ is analytic in region $D$ and $\Gamma$ is a
 rectifiable curve in $D$ with interior in $D$. Prove that if $f(z)$
 is real for all $z \in \Gamma$, then $f(z)$ is a constant.
 
 
-**Question 63**
+**Question 70**
 
 Find the number of roots of $z^4 - 6z + 3 =0$ in $|z|<1$ and
 $1 < |z| < 2$ respectively.
 
 
-**Question 64**
+**Question 71**
 
 Prove that $z^4 + 2 z^3 - 2z + 10 =0$ has exactly one root in each
 open quadrant.
 
 
-**Question 65**
+**Question 72**
 
 (1) Let $f(z) \in H({\mathbb D})$, $\text{Re}(f(z)) >0$,
 $f(0)= a>0$. Show that $$\abs{ \frac{f(z)-a}{f(z)+a}} \leq |z|, \; \; \;
@@ -3385,7 +3526,7 @@ $f(0)= a>0$. Show that $$\abs{ \frac{f(z)-a}{f(z)+a}} \leq |z|, \; \; \;
 replaced with $\text{Re}(f(z)) \geq 0$.
 
 
-**Question 66**
+**Question 73**
 
 Assume $f(z)$ is analytic in ${\mathbb D}$ and $f(0)=0$ and is not a
 rotation (i.e. $f(z) \neq e^{i \theta} z$). Show that
@@ -3394,7 +3535,7 @@ analytic function on compact subsets of ${\mathbb D}$, where
 $f^{n+1}(z) = f(f^{n}(z))$.
 
 
-**Question 67**
+**Question 74**
 
 Let $f(z) = \sum_{n=0}^\infty c_n z^n$ be analytic and one-to-one in
 $|z| < 1$. For $0<r<1$, let $D_r$ be the disk $|z|<r$. Show that the
@@ -3403,7 +3544,7 @@ $$S = \pi \sum_{n=1}^\infty n |c_n|^2 r^{2n}.$$ (Note that in
 general the area of $f(D_1)$ is infinite.)
 
 
-**Question 68**
+**Question 75**
 
 Let $f(z) = \sum_{n= -\infty}^\infty c_n z^n$ be analytic and
 one-to-one in $r_0< |z| < R_0$. For $r_0<r<R<R_0$, let $D(r,R)$ be
@@ -3412,7 +3553,7 @@ and is given by
 $$S = \pi \sum_{n=- \infty}^\infty n |c_n|^2 (R^{2n} - r^{2n}).$$
 
 
-**Question 69**
+**Question 76**
 
 Let $a_n(z)$ be an analytic sequence in a domain $D$ such that
 $\displaystyle \sum_{n=0}^\infty |a_n(z)|$ converges uniformly on
@@ -3421,7 +3562,7 @@ $\displaystyle \sum_{n=0}^\infty |a'_n(z)|$ converges uniformly on
 bounded and closed sub-regions of $D$.
 
 
-**Question 70**
+**Question 77**
 
 Let $f_n, f$ be analytic functions on the unit disk ${\mathbb D}$.
 Show that the following are equivalent.
@@ -3433,7 +3574,7 @@ $\mathbb D$.
 $0< r<1$.
 
 
-**Question 71**
+**Question 78**
 
 Let $f$ and $g$ be non-zero analytic functions on a region $\Omega$.
 Assume $|f(z)| = |g(z)|$ for all $z$ in $\Omega$. Show that
@@ -3441,7 +3582,7 @@ $f(z) = e^{i \theta} g(z)$ in $\Omega$ for some
 $0 \leq \theta < 2 \pi$.
 
 
-**Question 72**
+**Question 79**
 
 Suppose $f$ is analytic in an open set containing the unit disc
 $\mathbb D$ and $|f(z)| =1$ when $|z|$=1. Show that either
@@ -3453,7 +3594,7 @@ $\displaystyle f(z) = e^{i\theta} \prod_{k=1}^n \frac{z-z_k}{1 - \bar{z}_k z } \
 > Also cf. Stein et al, 1.4.7, 3.8.17
 
 
-**Question 73**
+**Question 80**
 
 (1) Let $p(z)$ be a polynomial, $R>0$ any positive number, and
 $m \geq 1$ an integer. Let
@@ -3467,14 +3608,14 @@ polynomial $p(z)$,
 $$\sup \{|p(z) - z^{-m}|: z \in K  \} \geq \varepsilon_0 \, .$$
 
 
-**Question 74**
+**Question 81**
 
 Let $\displaystyle f(z) = \frac{1}{z} + \frac{1}{z^2 -1}$. Find all
 the Laurent series of $f$ and describe the largest annuli in which
 these series are valid.
 
 
-**Question 75**
+**Question 82**
 
 Suppose $f$ is entire and there exist $A, R >0$ and natural number
 $N$ such that $|f(z)| \leq A |z|^N$ for $|z| \geq R$. Show that 
@@ -3484,7 +3625,7 @@ $N$ such that $|f(z)| \leq A |z|^N$ for $|z| \geq R$. Show that
 (ii) the degree of $f$ is at most $N$.
 
 
-**Question 76**
+**Question 83**
 
 (1) Explicitly write down an example of a non-zero analytic
 function in $|z|<1$ which has infinitely zeros in $|z|<1$.
@@ -3493,7 +3634,7 @@ function in $|z|<1$ which has infinitely zeros in $|z|<1$.
 theorem?
 
 
-**Question 77**
+**Question 84**
 
 (1) Assume $u$ is harmonic on open set $O$ and $z_n$ is a sequence
 in $O$ such that $u(z_n) = 0$ and $\lim z_n \in O$. Prove or
@@ -3512,7 +3653,7 @@ harmonic functions
 Schwarz reflection principle.
 
 
-**Question 78**
+**Question 85**
 
 Let $f$ be holomorphic in a neighborhood of $D_r(z_0)$. Show that
 for any $s<r$, there exists a constant $c>0$ such that
@@ -3525,7 +3666,7 @@ straightforward consequence of this stronger result using the
 integral form of the Cauchy-Schwarz inequality in real analysis.
 
 
-**Question 79**
+**Question 86**
 
 (1) Let $f$ be analytic in $\Omega: 0<|z-a|<r$ except at a
 sequence of poles $a_n \in \Omega$ with
@@ -3537,7 +3678,7 @@ that $\lim_{n \rightarrow \infty} f(z_n) = w$.
 assertion and the Weierstrass-Casorati theorem.
 
 
-**Question 80**
+**Question 87**
 
 Compute the following integrals.
 
@@ -3556,7 +3697,7 @@ $0< a <1$, $\xi \in \mathbb R$ (vi)
 $\displaystyle \int_{|z| = 1} \cot^2 z \, dz$.
 
 
-**Question 81**
+**Question 88**
 
 Compute the following integrals.
 
@@ -3578,21 +3719,21 @@ $\displaystyle \int_0^{\pi} \log|1 - a \sin \theta| d \theta$,
 $a \in \mathbb C$
 
 
-**Question 82**
+**Question 89**
 
 Let $0<r<1$. Show that polynomials
 $P_n(z)  = 1 + 2z + 3 z^2 + \cdots + n z^{n-1}$ have no zeros in
 $|z|<r$ for all sufficiently large $n$'s.
 
 
-**Question 83**
+**Question 90**
 
 Let $f$ be an analytic function on a region $\Omega$. Show that $f$
 is a constant if there is a simple closed curve $\gamma$ in $\Omega$
 such that its image $f(\gamma)$ is contained in the real axis.
 
 
-**Question 84**
+**Question 91**
 
 (1) Show that $\displaystyle \frac{\pi^2}{\sin^2 \pi z}$ and
 $\displaystyle g(z) = \sum_{n = - \infty}^{ \infty} \frac{1}{(z-n)^2}$
@@ -3604,7 +3745,7 @@ on $\mathbb C$ and conclude that
 $\displaystyle \frac{\pi^2}{\sin^2 \pi z} = \sum_{n = - \infty}^{ \infty} \frac{1}{(z-n)^2} \, .$
 
 
-**Question 85**
+**Question 92**
 
 Let $f(z)$ be an analytic function on
 ${\mathbb C} \backslash \{ z_0 \}$, where $z_0$ is a fixed point.
@@ -3616,7 +3757,7 @@ $ad-bc \neq 0$, $c \neq 0$ such that
 $\displaystyle f(z) = \frac{az + b}{cz + d}$.
 
 
-**Question 86**
+**Question 93**
 
 Assume $f(z)$ is analytic in $\mathbb D: |z|<1$ and $f(0)=0$ and
 is not a rotation (i.e. $f(z) \neq e^{i \theta} z$). Show that
@@ -3625,7 +3766,7 @@ analytic function on compact subsets of ${\mathbb D}$, where
 $f^{n+1}(z) = f(f^{n}(z))$.
 
 
-**Question 87**
+**Question 94**
 
 Let $f$ be a non-constant analytic function on $\mathbb D$ with
 $f(\mathbb D) \subseteq \mathbb D$. Use $\psi_{a} (f(z))$ (where
@@ -3635,7 +3776,7 @@ prove that $$\displaystyle
 \frac{|f(0)| + |z|}{1 - |f(0)||z|}.$$
 
 
-**Question 88**
+**Question 95**
 
 Find a conformal map
 
@@ -3654,7 +3795,7 @@ Find a conformal map
     $\mathbb H$.
 
 
-**Question 89**
+**Question 96**
 
 Let $C$ and $C'$ be two circles and let $z_1 \in C$, $z_2 \notin C$,
 $z'_1 \in C'$, $z'_2 \notin C'$. Show that there is a unique
@@ -3662,7 +3803,7 @@ fractional linear transformation $f$ with $f(C) = C'$ and
 $f(z_1) = z'_1$, $f(z_2) = z'_2$.
 
 
-**Question 90**
+**Question 97**
 
 Assume $f_n \in H(\Omega)$ is a sequence of holomorphic functions on
 the region $\Omega$ that are uniformly bounded on compact subsets
@@ -3672,7 +3813,7 @@ has a limit point in $\Omega$. Show that $f_n$ converges to $f$
 uniformly on compact subsets of $\Omega$.
 
 
-**Question 91**
+**Question 98**
 
 Let
 $\displaystyle{\psi_{\alpha}(z)=\frac{\alpha-z}{1-\bar{\alpha}z}}$
@@ -3684,7 +3825,7 @@ with $|\alpha|<1$ and ${\mathbb D}=\{z:\ |z|<1\}$. Prove that
     \log \frac{1}{1-|\alpha|^2}}$.
 
 
-**Question 92**
+**Question 99**
 
 Prove that
 $\displaystyle{f(z)=-\frac{1}{2}\left(z+\frac{1}{z}\right)}$ is a
@@ -3692,7 +3833,7 @@ conformal map from half disc $\{z=x+iy:\ |z|<1,\ y>0\}$ to upper
 half plane ${\mathbb H}=\{z=x+iy:\ y>0\}$.
 
 
-**Question 93**
+**Question 100**
 
 Let $\Omega$ be a simply connected open set and let $\gamma$ be a
 simple closed contour in $\Omega$ and enclosing a bounded region $U$
@@ -3701,7 +3842,7 @@ function and $|f(z)|\leq M$ for all $z\in \gamma$. Prove that
 $|f(z)|\leq M$ for all $z\in U$.
 
 
-**Question 94**
+**Question 101**
 
 Compute the following integrals. 
 
@@ -3713,14 +3854,15 @@ $0< a < n$
 $\displaystyle \int_0^\infty \frac{\log x}{(1 + x^2)^2}\, dx$
 
 
-**Question 95**
+**Question 102**
 
 Let $0<r<1$. Show that polynomials
+- Holomorphic Functions
 $P_n(z)  = 1 + 2z + 3 z^2 + \cdots + n z^{n-1}$ have no zeros in
 $|z|<r$ for all sufficiently large $n$'s.
 
 
-**Question 96**
+**Question 103**
 
 Let $f$ be holomorphic in a neighborhood of $D_r(z_0)$. Show that
 for any $s<r$, there exists a constant $c>0$ such that
@@ -3729,7 +3871,7 @@ $\displaystyle \|f\|_{(\infty, s)} = \text{sup}_{z \in D_s(z_0)}|f(z)|$
 and $\displaystyle \|f\|_{(1, r)} = \int_{D_r(z_0)} |f(z)|dx dy$.
 
 
-**Question 97**
+**Question 104**
 
 Let $\displaystyle{\psi_{\alpha}(z)=\frac{\alpha-z}{1-\bar{\alpha}z}}$
 with $|\alpha|<1$ and ${\mathbb D}=\{z:\ |z|<1\}$. Prove that
@@ -3740,14 +3882,7 @@ with $|\alpha|<1$ and ${\mathbb D}=\{z:\ |z|<1\}$. Prove that
     \log \frac{1}{1-|\alpha|^2}}$.
 
 
-**Question 98**
-
-Prove that $\displaystyle{f(z)=-\frac{1}{2}\left(z+\frac{1}{z}\right)}$
-is a conformal map from half disc $\{z=x+iy:\ |z|<1,\ y>0\}$ to upper
-half plane $\mathbb H=\{z=x+iy:\ y>0\}$.
-
-
-**Question 99**
+**Question 105**
 
 Let $\Omega$ be a simply connected open set and let $\gamma$ be a simple
 closed contour in $\Omega$ and enclosing a bounded region $U$
@@ -3756,7 +3891,7 @@ function and $|f(z)|\leq M$ for all $z\in \gamma$. Prove that
 $|f(z)|\leq M$ for all $z\in U$.
 
 
-**Question 100**
+**Question 106**
 
 Compute the following integrals. 
 
@@ -3765,7 +3900,7 @@ Compute the following integrals.
 (ii) $\displaystyle \int_0^\infty \frac{\log x}{(1 + x^2)^2}\, dx$
 
 
-**Question 101**
+**Question 107**
 
 Let $f$ be holomorphic in a neighborhood of $D_r(z_0)$. Show that for
 any $s<r$, there exists a constant $c>0$ such that
@@ -3774,7 +3909,7 @@ $\displaystyle \|f\|_{(\infty, s)} = \text{sup}_{z \in D_s(z_0)}|f(z)|$
 and $\displaystyle \|f\|_{(1, r)} = \int_{D_r(z_0)} |f(z)|dx dy$.
 
 
-**Question 102**
+**Question 108**
 
 Let $u(x,y)$ be harmonic and have continuous partial derivatives of
 order three in an open disc of radius $R>0$.
@@ -3786,13 +3921,12 @@ $$v(x,y) = \int_{a,b}^{x,y} ( -\frac{\partial u}{\partial y}dx +  \frac{\partial
 
 (b) \hfill
 
-    (i) Prove that $u(x,y)+i v(x,y)$ is an analytic function in this
-disc.
+    (i) Prove that $u(x,y)+i v(x,y)$ is an analytic function in this disc.
 
     (ii) Prove that $v(x,y)$ is harmonic in this disc.
 
 
-**Question 103**
+**Question 109**
 
 (a) $f(z)= u(x,y) +i v(x,y)$ be analytic in a domain
 $D\subset {\mathbb C}$. Let $z_0=(x_0,y_0)$ be a point in $D$ which
@@ -3810,7 +3944,7 @@ perpendicular.
         agreement with part a) of this question?
 
 
-**Question 104**
+**Question 110**
 
 (a) Let $f: D\rightarrow \mathbb C$ be a continuous function, where
 $D\subset \mathbb C$ is a domain. Let $\alpha:[a,b]\rightarrow D$
@@ -3828,7 +3962,7 @@ $\abs{ \int_{C_R} \dfrac{\log{(z)} }{z^2} }$ which depends
 *only* on $R$ and other constants.
 
 
-**Question 105**
+**Question 111**
 
 (a) Let $f:{\mathbb C}\rightarrow {\mathbb C}$ be an entire
 function. Assume the existence of a non-negative integer $m$, and of
@@ -3842,37 +3976,39 @@ all $z\in {\mathbb C}$ $$\mbox{\textrm Re} (f) \leq M.$$ Prove that $f$
 must be a constant.
 
 
-**Question 106**
+**Question 112**
 
 Prove that all the roots of the complex polynomial
 $$z^7 - 5 z^3 +12 =0$$ lie between the circles $|z|=1$ and $|z|=2$.
 
 
-**Question 107**
+**Question 113**
 
-(a) Let $F$ be an analytic function inside and on a simple closed
+Let $F$ be an analytic function inside and on a simple closed
 curve $C$, except for a pole of order $m\geq 1$ at $z=a$ inside $C$.
 Prove that
 
-$$\frac{1}{2 \pi i}\oint_{C} F(\tau) d\tau = 
-\lim_{\tau\rightarrow a} \frac{d^{m-1}}{d\tau^{m-1}}\big((\tau-a)^m F(\tau))\big).$$
+$$
+\frac{1}{2 \pi i}\oint_{C} F(\tau) d\tau = 
+\lim_{\tau\rightarrow a} \frac{d^{m-1}}{d\tau^{m-1}}\big((\tau-a)^m F(\tau))\big)
+.$$
 
 
-**Question 108**
+**Question 114**
 
 Find the conformal map that takes the upper half-plane comformally
 onto the half-strip $\{
 w=x+iy:\ -\pi/2<x<\pi/2\ y>0\}$.
 
 
-**Question 109**
+**Question 115**
 
 Compute the integral
 $\displaystyle{\int_{-\infty}^{\infty} \frac{e^{-2\pi ix\xi}}{\cosh\pi x}dx}$
 where $\displaystyle{\cosh z=\frac{e^{z}+e^{-z}}{2}}$.
 
 
-**Question 110**
+**Question 116**
 
 Use residues to compute the integral
 \begin{align*}
@@ -3880,20 +4016,20 @@ Use residues to compute the integral
 \end{align*}
 
 
-**Question 111**
+**Question 117**
 
 State and prove the Cauchy integral formula for holomorphic
 functions.
 
 
-**Question 112**
+**Question 118**
 
 Let $f$ be an entire function and suppose that $|f(z)| \leq A|z|^2$
 for all $z$ and some constant $A$. Show that $f$ is a polynomial of
 degree $\leq 2$.
 
 
-**Question 113**
+**Question 119**
 
 1.  State the Schwarz lemma for analytic functions in the unit disc.
 
@@ -3905,12 +4041,12 @@ degree $\leq 2$.
     \end{align*}
 
 
-**Question 114**
+**Question 120**
 
 State the Riemann mapping theorem and prove the uniqueness part.
 
 
-**Question 115**
+**Question 121**
 
 Compute the integrals
 \begin{align*}
@@ -3919,7 +4055,7 @@ Compute the integrals
 \end{align*}
 
 
-**Question 116**
+**Question 122**
 
 Let $(f_n)$ be a sequence of holomorphic functions in a domain $D$.
 Suppose that $f_n \to f$ uniformly on each compact subset of $D$.
@@ -3930,13 +4066,13 @@ Show that
 -   $f_n' \to f'$ uniformly on each compact subset of $D$.
 
 
-**Question 117**
+**Question 123**
 
 If $f$ is a non-constant entire function, then $f(\mathbb{C})$ is
 dense in the plane.
 
 
-**Question 118**
+**Question 124**
 
 1.  State Rouche's theorem.
 
@@ -3945,7 +4081,7 @@ dense in the plane.
     neighborhood $U$ of $0$ such that $f$ is a bijection in $U$.
 
 
-**Question 119**
+**Question 125**
 
 Let $f$ be a meromorphic function in the plane such that
 \begin{align*}

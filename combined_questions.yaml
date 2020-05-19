@@ -2574,6 +2574,107 @@
     \rtimes_{\varphi_1}K\rightarrow H\rtimes_{\varphi_2}K$
     defined by $\psi((h,k))=(\sigma(h),k^a)$ is a homomorphism.
     Show $\psi$ is bijective by construcing a 2-sided inverse.
+- year: 1970
+  season: Spring
+  exam: Complex_Analysis
+  number: 4
+  university: NUS
+  tags:
+    - Holomorphic Functions
+    - Polynomials
+    - Rouche
+  question: |
+    Find the number of zeroes, counting multiplicities, of the polynomial 
+
+    $f(z) = 2z^5 - 6z^2 - z + 1 = 0$
+
+    in the annulus $1 ≤ |z| ≤ 2$.
+
+- year: 1970
+  season: Spring
+  exam: Complex_Analysis
+  number: 5
+  university: NUS
+  tags:
+    - Biholomorphisms
+  question: |
+    Find an analytic isomorphism from the open region between $|z| = 1$ and $|z -\frac 1 2| =\frac 1 2$ to the upper half plane $\Im z > 0$. (You may leave your result as a composition of functions).
+
+- year: 1970
+  season: Spring
+  exam: Complex_Analysis
+  number: 6
+  university: NUS
+  tags:
+    - Holomorphic Functions
+    - Cauchy Integral Theorem
+    - Green's Theorem
+  question: |
+    Use Green theorem or otherwise to prove the Cauchy theorem.
+
+
+- year: 1970
+  season: spring
+  exam: Complex_Analysis
+  number: 8
+  university: NUS
+  tags:
+    - Green's Theorem
+  question: |
+    State and prove the divergence theorem on any rectangle in $\mathbb{R}^2$.
+
+
+- year: 1970
+  season: Spring
+  exam: Complex_Analysis
+  number: 6
+  university: NUS
+  tags:
+    - Biholomorphism
+  question: |
+    Find an analytic isomorphism from the open region between $x = 1$ and $x = 3$ to the upper half unit disk $\{|z| < 1,\Im z > 0\}$. (You may leave your result as a composition of functions)
+
+- year: 1970
+  season: Spring
+  exam: Complex_Analysis
+  number: 7
+  university: NUS
+  tags:
+    - Integrals
+    - Argument Principle
+      Cauchy's Integral Theorem
+    - Meromorphic Functions
+  question: |
+    Use Cauchy's theorem to prove the argument principle.
+
+- year: 1970
+  season: spring
+  exam: Complex_Analysis
+  number: 8
+  university: NUS
+  tags:
+    - Integrals
+    - Residues
+    - Meromorphic Functions
+  question: |
+    Evaluate the following by the method of residues:
+    $\int_0^{\pi /2} \frac{1}{3+\sin^2x}dx$
+
+
+- year: 1970
+  season: Spring
+  exam: Complex_Analysis
+  number: 7
+  university: NUS
+  tags:
+    - Integrals
+    - Residues
+    - Meromorphic Functions
+  question: |
+    Evaluate the improper integral 
+
+    $\int_0^\infty \frac{x^2~dx}{(x^2+1)(x^2+4)}$
+
 - year: Extra 
   number: 0 
   university: UGA
@@ -2615,7 +2716,8 @@
   exam: Complex_Analysis
   tags:
     - Analytic Functions
-    - Residue Theorem
+    - Residues
+    - Series of Functions
   question: |
     Suppose that $f$ is an analytic function in the region $D$ which
     contains the point $a$. Let
@@ -2712,6 +2814,7 @@
   tags:
     - Rouche 
     - Polynomials
+    - Holomorphic Functions
   question: |
     Apply Rouché's Theorem to prove the Fundamental Theorem of Algebra: If
     $$P_n(z) = a_0 + a_1z + \cdots + a_{n-1}z^{n-1} + a_nz^n\quad  (a_n \neq 0)$$
@@ -2954,37 +3057,6 @@
     where $L$ is the part of the circle $|z|=R'$ which lies in the
     region $D$.
 
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Analytic Functions
-    - Residue Theorem
-  question: |
-    Suppose that $f$ is an analytic function in the region $D$ which
-    contains the point $a$. Let
-    $$F(z)= z-a-qf(z),\quad \text{where}\quad q \ \text{is a complex
-    parameter}.$$ 
-
-    (1) Let $K\subset D$ be a circle with the center at
-    point $a$ and also we assume that $f(z)\not =0$ for $z\in K$. Prove
-    that the function $F$ has one and only one zero $z=w$ on the closed
-    disc $\bar{K}$ whose boundary is the circle $K$ if $\displaystyle{
-    |q|<\min_{z\in K} \frac{|z-a|}{|f(z)|}.}$\
-    
-    (2) Let $G(z)$ be an analytic function on the disk $\bar{K}$. Apply
-    the residue theorem to prove that
-    $\displaystyle{ \frac{G(w)}{F'(w)}=\frac{1}{2\pi
-    i}\int_K \frac{G(z)}{F(z)} dz,}$ where $w$ is the zero from (1).\
-    
-    (3) If $z\in K$, prove that the function
-    $\displaystyle{\frac{1}{F(z)}}$ can be represented as a convergent
-    series with respect to $q$: $\displaystyle{
-    \frac{1}{F(z)}=\sum_{n=0}^{\infty} \frac{(qf(z))^n}{(z-a)^{n+1}}.}$
 
 
 
@@ -3589,7 +3661,7 @@
   university: UGA
   exam: Complex_Analysis
   tags:
-    - Holomorphic Functions
+    - Meromorphic Functions
   question: |
     Suppose that $f$ is holomorphic in an open set containing the closed
     unit disc, except for a pole at $z_0$ on the unit circle. Let
@@ -3671,6 +3743,7 @@
   tags:
     - Rouche 
     - Polynomials
+    - Holomorphic Functions
   question: |
     Find the number of roots of $z^4 - 6z + 3 =0$ in $|z|<1$ and
     $1 < |z| < 2$ respectively.
@@ -3684,6 +3757,7 @@
   tags:
     - Rouche
     - Polynomials
+    - Holomorphic Functions
   question: |
     Prove that $z^4 + 2 z^3 - 2z + 10 =0$ has exactly one root in each
     open quadrant.
@@ -4006,6 +4080,7 @@
   exam: Complex_Analysis
   tags:
     - Polynomials
+    - Holomorphic Functions
   question: |
     Let $0<r<1$. Show that polynomials
     $P_n(z)  = 1 + 2z + 3 z^2 + \cdots + n z^{n-1}$ have no zeros in
@@ -4185,7 +4260,6 @@
     half plane ${\mathbb H}=\{z=x+iy:\ y>0\}$.
 
 
-
 - year: Extra 
   number: 0 
   university: UGA
@@ -4225,8 +4299,10 @@
   exam: Complex_Analysis
   tags:
     - Polynomials
+    - Holomorphic Functions
   question: |
     Let $0<r<1$. Show that polynomials
+    - Holomorphic Functions
     $P_n(z)  = 1 + 2z + 3 z^2 + \cdots + n z^{n-1}$ have no zeros in
     $|z|<r$ for all sufficiently large $n$'s.
 
@@ -4266,16 +4342,6 @@
     -   $\displaystyle{\frac{1}{\pi}\iint_{{\mathbb D}} |\psi'_{\alpha}| dx dy =\frac{1-|\alpha|^2}{|\alpha|^2}
         \log \frac{1}{1-|\alpha|^2}}$.
 
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Conformal Map
-  question: |
-    Prove that $\displaystyle{f(z)=-\frac{1}{2}\left(z+\frac{1}{z}\right)}$
-    is a conformal map from half disc $\{z=x+iy:\ |z|<1,\ y>0\}$ to upper
-    half plane $\mathbb H=\{z=x+iy:\ y>0\}$.
 
 
 
@@ -4343,8 +4409,7 @@
     
     (b) \hfill
 
-        (i) Prove that $u(x,y)+i v(x,y)$ is an analytic function in this
-    disc.
+        (i) Prove that $u(x,y)+i v(x,y)$ is an analytic function in this disc.
 
         (ii) Prove that $v(x,y)$ is harmonic in this disc.
 
@@ -4429,6 +4494,7 @@
   tags:
     - Polynomials
     - Rouche
+    - Holomorphic Functions
   question: |
     Prove that all the roots of the complex polynomial
     $$z^7 - 5 z^3 +12 =0$$ lie between the circles $|z|=1$ and $|z|=2$.
@@ -4442,12 +4508,14 @@
   tags:
     - Analytic Functions
   question: |
-    (a) Let $F$ be an analytic function inside and on a simple closed
+    Let $F$ be an analytic function inside and on a simple closed
     curve $C$, except for a pole of order $m\geq 1$ at $z=a$ inside $C$.
     Prove that
 
-    $$\frac{1}{2 \pi i}\oint_{C} F(\tau) d\tau = 
-    \lim_{\tau\rightarrow a} \frac{d^{m-1}}{d\tau^{m-1}}\big((\tau-a)^m F(\tau))\big).$$
+    $$
+    \frac{1}{2 \pi i}\oint_{C} F(\tau) d\tau = 
+    \lim_{\tau\rightarrow a} \frac{d^{m-1}}{d\tau^{m-1}}\big((\tau-a)^m F(\tau))\big)
+    .$$
 
 
 
@@ -4637,10 +4705,209 @@
   question: |
     Something something $G$.
 
+- year: 1970
+  season: Spring
+  exam: Real_Analysis
+  number: 1abch
+  university: NUS
+  tags:
+    - Convergence of Functions
+    - Uniform Continuity
+    - Mean Value Theorem
+    - Variation
+  question: |
+    Prove or disprove each of the following statements.
+
+    (a) If $f$ is of bounded variation on $[0,1]$, then it is continuous on $[0,1]$.
+
+    (b) If $f : [0, 1] → [0, 1]$ is a continuous function, then there exists $x_0 \in [0, 1]$ such that $f(x_0) = x_0$.
+
+    (c) Let $\{f_n\}$ be a sequence of uniformly continuous functions on an interval $I$. If $\{f_n\}$ converges uniformly to a function $f$ on $I$, then $f$ is also uniformly continuous on $I$.
+    
+    (h) If $f$ is differentiable on a connected set $E \subset \mathbb{R}^n$, then for any $x, y \in E$, there exists $z \in E$ such that $f(x) - f(y) = \nabla f(z)(x - y)$.  
+
+- year: 1970
+  season: Spring
+  exam: Real_Analysis
+  number: 1de
+  university: NUS
+  tags:
+    - Convergence of Numbers
+    - Series of Numbers
+    - Uniform Continuity
+  question: |
+    Prove or disprove each of the following statements.
+    
+    (d) If $\lim_{n\to\infty} |a_n+1/a_n|$ exists, then $\lim_{n\to \infty} |a_n|^{1/n}$ exists and the two limits are equal.
+
+    (e) If $\sum_{n=1}^\infty a_n x^n$ converges for all $x ∈ [0, 1]$, then $\lim_{x\to 1^-} \sum_{n=1}^\infty a_n x^n=\sum_{n=1}^\infty a_n$
+
+- year: 1970
+  season: Spring
+  exam: Real_Analysis
+  number: 1fg
+  university: NUS
+  tags:
+    - Measure Theory
+  question: |
+    Prove or disprove each of the following statements.
+    
+    (f) If $E \subset \mathbb{R}$ and 
+
+        $\mu(E) = \inf\{\sum_{I_i \in S} |I_i| : S = \{I_i\}_{i=1}^n \text{ such that } E \subset \union_{i=1}^n I_i \text{ for some } n \in \mathbb{N}\}$
+
+        then $\mu$ coincides with the outer measure of $E$.
+
+    (g) If $E$ is a Borel set and $f$ is a measurable function, then $f^{-1}(E)$ is also measurable.
+
+
+- year: 1970
+  season: Spring
+  exam: Real_Analysis
+  number: 2
+  university: NUS
+  tags:
+    - Measure Theory 
+  question: |
+    If $f$ is a finite real valued measurable function on a measurable set $E \subset \mathbb{R}$, show that the set $\{(x, f(x)) : x ∈ E\}$ is measurable.
+
+- year: 1970
+  season: Spring
+  exam: Real_Analysis
+  number: 3
+  university: NUS
+  tags:
+    - Sequences of Functions
+    - Arzela-Ascoli
+  question: |
+    Let g : $[0, 1] × [0, 1] → [0, 1]$ be a continuous function and let $\{f_n\}$ be a sequence of functions such that 
+
+    $$f_n(x)=\begin{cases}{0,   0\leq x\leq 1/n},\\{\int_0^{x-\frac1n} g(t,f_n(t))dt, 1/n\leq x \leq 1.}\end{cases}$$
+
+    With the help of the Arzela-Ascoli theorem or otherwise, show that there exists a continuous function $f : [0, 1] → \mathbb{R}$ such that 
+
+    $f(x) = \int_0^x g(t, f(t))dt$
+
+    for all $x \in [0, 1]$. 
+
+    > Hint: first show that $|f_n(x_1) - f_n(x_2)| ≤ |x_1 - x_2|$.
+
+
+- year: 1970
+  season: Spring
+  exam: Real_Analysis
+  number: 1
+  university: NUS
+  tags:
+    - Convergence of Numbers
+  question: |
+    If $\limsup_{n\rightarrow \infty} a_n\leq l$, show that $\limsup_{n\rightarrow \infty}\sum_{i=1}^n{a_i/n}\leq l$.  
+
+- year: 1970
+  season: Spring
+  exam: Real_Analysis
+  number: 2
+  university: NUS
+  tags:
+    - Integrals
+    - Measure Theory
+  question: |
+    If $f$ is a nonnegative measurable function on $\mathbb{R}$ and $p > 0$, show that
+    
+    $\int f^p ~dx = \int_0^{\infty} p t^{p-1} \abs{\{x : f(x) > t\}} ~dt$ 
+    
+    where $\abs{\{x : f(x) > t\}}$ is the Lebesgue measure of the set $\{x : f(x) > t\}$.
+
+- year: 1970
+  season: Spring
+  exam: Real_Analysis
+  number: 3
+  university: NUS
+  tags:
+    - Integrals
+  question: |
+    If $f$ is a nonnegative measurable function on $[0, \pi]$ and $\int_0^\pi f(x)^3~dx < \infty$, show that
+    
+    $$\lim_{\alpha\to\infty} \int_{ \{x:f(x)>\alpha\}} f(x)^2 ~dx=0.$$
+
+
+- year: 1970
+  season: Spring
+  exam: Real_Analysis
+  number: 4
+  university: NUS
+  tags:
+    - Measure Theory
+  question: |
+    Prove or disprove each of the following statements.
+
+    (a) If $f : [0, 1] → \mathbb{R}$ is a measurable function, then given any $\varepsilon > 0$, there exists a compact set $K \subset [0, 1]$ such that $f$ is continuous on $K$ relative to $K$.
+
+    (c) If f is Borel measurable on $\mathbb{R} × \mathbb{R}$, then for any $x \in \mathbb{R}$, the function $g(y) = f(x, y)$ is also Borel measurable on $\mathbb{R}$.
+
+    (d) If $E \subset \mathbb{R}$, then $E$ is measurable if and only if given any $\varepsilon > 0$, there exist a closed set $F$ and an open set $G$ such that $F \subset E \subset G$ and the measure of $G-F$ is less than $\varepsilon$.
+
+   
+- year: 1970
+  season: Spring
+  exam: Real_Analysis
+  number: 4
+  university: NUS
+  tags:
+    - Integrals
+    - Convergence of Functions
+    - Lp Spaces
+  question: |
+    Prove or disprove each of the following statements.
+    
+    (b) If ${f_n}$ is a sequence of measurable functions that converges uniformly to $f$ on $\mathbb{R}$, then $\int{f}=\lim_{k\to \infty} \int f_k$
+    
+    (e) If $\{f_k\}$ is a sequence of function in $L_p[0,\infty)$ that converges to a function $f ∈ L_p [0,∞)$, then $\{f_k\}$ has a subsequence that converges to $f$ almost everywhere.
+    
+
+- year: 1970
+  season: Spring
+  exam: Real_Analysis
+  number: 4
+  university: NUS
+  tags:
+    - Riemann Integrability
+    - Integrals
+    - Convergence of Functions
+    - L1
+    - Variation
+  question: |
+    Prove or disprove each of the following statements.
+    
+    (f) If $f$ is Riemann integrable on $[ε, 1]$ for all $0 < ε < 1$, then $f$ is Lebesgue integrable on $[0,1]$ if $f$ is nonnegative and the following limit exists $\lim_{\varepsilon\to 0^+} \int_\varepsilon^1 f dx$.
+
+    (g) If $f$ is integrable on $[0,1]$, then $\lim_{n\to\infty} \int_0^1 f(x)\sin(n\pi x)dx = 0$.
+
+    (h) If $f$ is continuous on $[0, 1]$, then it is of bounded variation on [0, 1]$.
+
+
+- year: 1970
+  season: Spring
+  exam: Real_Analysis
+  number: 5
+  university: NUS
+  tags:
+    - Mean Value Theorem 
+    - Sequences of Functions
+  question: |
+    (a) Let $f : \mathbb{R} → \mathbb{R}$ be a differentiable function. 
+        If $f'(-1) < 2$ and $f'(1) > 2$, show that there exists $x_0 \in (i1, 1)$ such that $f'(x_0) = 2$.
+
+        > Hint: consider the function $f(x) - 2x$ and recall the proof of Rolle’s theorem.)
+
+    (b) Let $f : (-1, 1) → \mathbb{R}$ be a differentiable function on $(-1, 0) \union (0, 1)$ such that $\lim_{x\to 0} f'(x) = L$. 
+        If $f$ is continuous on $(-1, 1)$, show that $f$ is indeed differentiable at $0$ and $f'(0) = L$.
+
 - year: 2019
   season: Spring
   exam: Real_Analysis
   number: 1
+  university: UGA
   tags:
     - Function Spaces
     - Norms 
@@ -4655,6 +4922,7 @@
   season: Spring
   exam: Real_Analysis
   number: 2
+  university: UGA
   tags:
     - Measure Theory 
   question: |
@@ -4674,6 +4942,7 @@
   season: Spring
   exam: Real_Analysis
   number: 3
+  university: UGA
   tags:
     - Lp Spaces
     - Convergence of Functions
@@ -4695,6 +4964,7 @@
   season: Spring
   exam: Real_Analysis
   number: 4
+  university: UGA
   tags:
     - Measure Theory
   question: |
@@ -4714,6 +4984,7 @@
   season: Spring
   exam: Real_Analysis
   number: 5
+  university: UGA
   tags:
     - Lp Spaces
     - Functional Analysis
@@ -4748,6 +5019,7 @@
   season: Fall
   exam: Real_Analysis
   number: 1
+  university: UGA
   tags:
     - Convergence of Numbers
   question: |
@@ -4769,6 +5041,7 @@
   season: Fall
   exam: Real_Analysis
   number: 2
+  university: UGA
   tags:
     - Analysis
     - Integrals
@@ -4787,6 +5060,7 @@
   season: Fall
   exam: Real_Analysis
   number: 3
+  university: UGA
   tags:
     - Measure Theory
     - Borel-Cantelli
@@ -4814,6 +5088,7 @@
   season: Fall
   exam: Real_Analysis
   number: 4
+  university: UGA
   tags:
     - Functional Analysis
     - Hilbert Spaces
@@ -4841,6 +5116,7 @@
   season: Fall
   exam: Real_Analysis
   number: 5
+  university: UGA
   tags:
     - Integrals
     - Norms
@@ -4863,6 +5139,7 @@
   season: Spring
   exam: Real_Analysis
   number: 1
+  university: UGA
   tags:
     - Borel-Cantelli
   question: |
@@ -4879,6 +5156,7 @@
   season: Spring
   exam: Real_Analysis
   number: 2
+  university: UGA
   tags:
     - Uniform Convergence
     - Integrals
@@ -4902,6 +5180,7 @@
   season: Spring
   exam: Real_Analysis
   number: 3
+  university: UGA
   tags:
     - Integrals
     - Convergence of Integrals
@@ -4921,6 +5200,7 @@
   season: Spring
   exam: Real_Analysis
   number: 4
+  university: UGA
   tags:
     - Lp Spaces
     - Integrals
@@ -4936,6 +5216,7 @@
   season: Spring
   exam: Real_Analysis
   number: 5
+  university: UGA
   tags:
     - Convergence of Integrals
     - Convergence of Functions
@@ -4953,6 +5234,7 @@
   season: Fall
   exam: Real_Analysis
   number: 1
+  university: UGA
   tags:
     - Uniform Continuity
   question: |
@@ -4964,6 +5246,7 @@
   season: Fall
   exam: Real_Analysis
   number: 2
+  university: UGA
   tags:
     - Measure Theory
   question: |
@@ -4975,6 +5258,7 @@
   season: Fall
   exam: Real_Analysis
   number: 3
+  university: UGA
   tags:
     - Integrals
   question: |
@@ -4994,6 +5278,7 @@
   season: Fall
   exam: Real_Analysis
   number: 4
+  university: UGA
   tags:
     - Lp Spaces
     - Integrals
@@ -5012,6 +5297,7 @@
   season: Fall
   exam: Real_Analysis
   number: 5
+  university: UGA
   tags:
     - Fubini-Tonelli 
   question: |
@@ -5025,6 +5311,7 @@
   season: Fall
   exam: Real_Analysis
   number: 1
+  university: UGA
   tags:
     - Integrals
     - Convergence of Integrals
@@ -5039,6 +5326,7 @@
   season: Spring 
   exam: Real_Analysis
   number: 1
+  university: UGA
   tags:
     - Cantor Set
     - Measure Theory
@@ -5056,6 +5344,7 @@
   season: Spring 
   exam: Real_Analysis
   number: 2
+  university: UGA
   tags:
     - Radon Nikodym
     - Measure Theory
@@ -5084,6 +5373,7 @@
   season: Spring 
   exam: Real_Analysis
   number: 3
+  university: UGA
   tags:
     - Series of Functions
     - Integrals
@@ -5113,6 +5403,7 @@
   season: Spring 
   exam: Real_Analysis
   number: 4
+  university: UGA
   tags:
     - L1 
   question: |
@@ -5130,6 +5421,7 @@
   season: Spring 
   exam: Real_Analysis
   number: 5
+  university: UGA
   tags:
     - Uniform Continuity
     - Integrals
@@ -5147,6 +5439,7 @@
   season: Spring 
   exam: Real_Analysis
   number: 6
+  university: UGA
   tags:
     - Function Spaces
     - Norms 
@@ -5161,6 +5454,7 @@
   season: Fall
   exam: Real_Analysis
   number: 1
+  university: UGA
   tags:
     - Uniform Convergence 
   question: |
@@ -5176,6 +5470,7 @@
   season: Fall
   exam: Real_Analysis
   number: 2
+  university: UGA
   tags:
     - Measure Theory 
   question: |
@@ -5199,6 +5494,7 @@
   season: Fall
   exam: Real_Analysis
   number: 3
+  university: UGA
   tags:
     - Sequences of Functions
     - Convergence of Functions
@@ -5221,6 +5517,7 @@
   season: Fall
   exam: Real_Analysis
   number: 4
+  university: UGA
   tags:
     - Convergence of Functions
     - Convergence of Integrals
@@ -5246,6 +5543,7 @@
   season: Fall
   exam: Real_Analysis
   number: 5
+  university: UGA
   tags:
     - Approximations to the Identity
     - Convergence of Functions
@@ -5279,6 +5577,7 @@
   season: Fall
   exam: Real_Analysis
   number: 6
+  university: UGA
   tags:
     - Function Spaces
     - Norms 
@@ -5296,6 +5595,7 @@
   season: Spring 
   exam: Real_Analysis
   number: 1
+  university: UGA
   tags:
     - Bernoulli
     - Sequences of Numbers
@@ -5324,6 +5624,7 @@
   season: Spring 
   exam: Real_Analysis
   number: 2
+  university: UGA
   tags:
     - Cantor Set
   question: |
@@ -5336,6 +5637,7 @@
   season: Spring 
   exam: Real_Analysis
   number: 3
+  university: UGA
   tags:
     - Measure Theory
     - Continuity
@@ -5355,6 +5657,7 @@
   season: Spring 
   exam: Real_Analysis
   number: 4
+  university: UGA
   tags:
     - Uniform Continuity
     - Measure Theory
@@ -5382,6 +5685,7 @@
   season: Spring 
   exam: Real_Analysis
   number: 5
+  university: UGA
   tags:
     - Measure Theory
     - Integrals
@@ -5404,6 +5708,7 @@
   season: Spring 
   exam: Real_Analysis
   number: 6
+  university: UGA
   tags:
     - Functional Analysis
     - Norms
@@ -5419,6 +5724,7 @@
   season: Fall
   exam: Real_Analysis
   number: 1
+  university: UGA
   tags:
     - Uniform Convergence
     - Series of Numbers
@@ -5443,6 +5749,7 @@
   season: Fall
   exam: Real_Analysis
   number: 2
+  university: UGA
   tags:
     - Measure Theory
   question: |
@@ -5464,6 +5771,7 @@
   season: Fall
   exam: Real_Analysis
   number: 3
+  university: UGA
   tags:
     - L1
     - Norms
@@ -5480,6 +5788,7 @@
   season: Fall
   exam: Real_Analysis
   number: 4
+  university: UGA
   tags:
     - Measure Theory
     - Borel-Cantelli
@@ -5501,6 +5810,7 @@
   season: Fall
   exam: Real_Analysis
   number: 5
+  university: UGA
   tags:
     - Lp Spaces
     - Integrals
@@ -5516,6 +5826,7 @@
   season: Fall
   exam: Real_Analysis
   number: 6
+  university: UGA
   tags:
     - L2
     - Convergence of Integrals
@@ -5529,6 +5840,7 @@
   season: Spring
   exam: Real_Analysis
   number: 1
+  university: UGA
   tags:
     - Completeness
   question: |
@@ -5544,6 +5856,7 @@
   season: Spring
   exam: Real_Analysis
   number: 2
+  university: UGA
   tags:
     - Series of Functions
     - Integrals
@@ -5560,6 +5873,7 @@
   season: Spring
   exam: Real_Analysis
   number: 3
+  university: UGA
   tags:
     - Measure Theory
   question: |
@@ -5580,6 +5894,7 @@
   season: Spring
   exam: Real_Analysis
   number: 4
+  university: UGA
   tags:
     - L1 
   question: |
@@ -5596,6 +5911,7 @@
   season: Spring
   exam: Real_Analysis
   number: 5
+  university: UGA
   tags:
     - Functional Analysis
     - Hilbert Spaces
@@ -5614,6 +5930,7 @@
   season: Spring
   exam: Real_Analysis
   number: 6
+  university: UGA
   tags:
     - Convolution
     - Uniform Continuity
@@ -5632,6 +5949,7 @@
   season: Fall
   exam: Real_Analysis
   number: 1
+  university: UGA
   tags:
     - Calculus
   question: |
@@ -5647,6 +5965,7 @@
   season: Fall
   exam: Real_Analysis
   number: 2
+  university: UGA
   tags:
     - Convergence of Functions
     - Density
@@ -5661,6 +5980,7 @@
   season: Fall
   exam: Real_Analysis
   number: 3
+  university: UGA
   tags:
     - Integrals
     - Convergence of Functions
@@ -5675,6 +5995,7 @@
   season: Fall
   exam: Real_Analysis
   number: 4
+  university: UGA
   tags:
     - Convergence of Numbers
     - Calculus
@@ -5694,6 +6015,7 @@
   season: Fall
   exam: Real_Analysis
   number: 5
+  university: UGA
   tags:
     - Measure Theory
     - L1 
@@ -5715,6 +6037,7 @@
   season: Fall
   exam: Real_Analysis
   number: 6
+  university: UGA
   tags:
     - Norms
     - L1
@@ -5729,6 +6052,7 @@
   season: Spring
   exam: Real_Analysis
   number: 1
+  university: UGA
   tags:
     - L1
     - Uniform Continuity
@@ -5745,6 +6069,7 @@
   season: Spring
   exam: Real_Analysis
   number: 2
+  university: UGA
   tags:
     - Sequences of Numbers
     - Series of Numbers
@@ -5763,6 +6088,7 @@
   season: Spring
   exam: Real_Analysis
   number: 3
+  university: UGA
   tags:
     - Measure Theory
   question: |
@@ -5777,6 +6103,7 @@
   season: Spring
   exam: Real_Analysis
   number: 4
+  university: UGA
   tags:
     - Measure Theory
     - Convergence of Integrals
@@ -5796,6 +6123,7 @@
   season: Spring
   exam: Real_Analysis
   number: 5
+  university: UGA
   tags:
     - Integrals
     - Fubini-Tonelli
@@ -5815,6 +6143,7 @@
   season: Fall
   exam: Real_Analysis
   number: 1
+  university: UGA
   tags:
     - Analysis
   question: |
@@ -5827,6 +6156,7 @@
   season: Fall
   exam: Real_Analysis
   number: 2
+  university: UGA
   tags:
     - Analysis
   question: |
@@ -5848,6 +6178,7 @@
   season: Fall
   exam: Real_Analysis
   number: 3
+  university: UGA
   tags:
     - L1
     - Continuity of Measure
@@ -5862,6 +6193,7 @@
   season: Fall
   exam: Real_Analysis
   number: 4
+  university: UGA
   tags:
     - L infty
     - Integrals
@@ -5876,6 +6208,7 @@
   season: Fall
   exam: Real_Analysis
   number: 5
+  university: UGA
   tags:
     - Convolution
     - Integrals
@@ -5897,6 +6230,7 @@
   season: Fall
   exam: Real_Analysis
   number: 6
+  university: UGA
   tags:
     - Lp Spaces
     - Norms
@@ -5939,7 +6273,7 @@
   exam: Real_Analysis
   university: Emory
   tags:
-    - Convergence 
+    - Convergence of Functions
   question: |
     1.  State the Dominated Convergence Theorem for Lebesgue integrals.
 
