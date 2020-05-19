@@ -5020,6 +5020,7 @@
     Show that
     $$
     \int_{\mathbb{R}} f=\int_{0}^{\infty} m(\{x: f(x)>t\}) d t
+    $$
 
 - year: 2018
   season: Fall
@@ -5402,7 +5403,7 @@
     Show that $\phi, \psi$ are Borel measurable and
     $$
     \int_{X}|f| ~d \mu=\int_{0}^{\infty}[\phi(\lambda)+\psi(\lambda)] ~d \lambda
-
+    $$
 
 
 - year: 2016

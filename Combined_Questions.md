@@ -2041,6 +2041,7 @@ Let $f \geq 0$ be a measurable function on $\RR$.
 Show that
 $$
 \int_{\mathbb{R}} f=\int_{0}^{\infty} m(\{x: f(x)>t\}) d t
+$$
 
 
 **Question 21**
@@ -2304,6 +2305,7 @@ $$
 Show that $\phi, \psi$ are Borel measurable and
 $$
 \int_{X}|f| ~d \mu=\int_{0}^{\infty}[\phi(\lambda)+\psi(\lambda)] ~d \lambda
+$$
 
 
 **Question 39**

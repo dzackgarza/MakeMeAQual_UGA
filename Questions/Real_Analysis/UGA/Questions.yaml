@@ -381,6 +381,7 @@
     Show that
     $$
     \int_{\mathbb{R}} f=\int_{0}^{\infty} m(\{x: f(x)>t\}) d t
+    $$
 
 - year: 2018
   season: Fall
@@ -763,7 +764,7 @@
     Show that $\phi, \psi$ are Borel measurable and
     $$
     \int_{X}|f| ~d \mu=\int_{0}^{\infty}[\phi(\lambda)+\psi(\lambda)] ~d \lambda
-
+    $$
 
 
 - year: 2016
@@ -1093,6 +1094,7 @@
     Show that
     $$
     \sup \left\{\|f g\|_{1} \suchthat g \in L^{1}[0,1],~~ \|g\|_{1} \leq 1\right\}=\|f\|_{\infty}
+    $$
 
 - year: 2014
   season: Spring
