@@ -2942,7 +2942,7 @@
       "Integrals",
       "Measure Theory"
     ],
-    "question": "If $f$ is a nonnegative measurable function on $\\mathbb{R}$ and $p > 0$, show that\n\n$\\int f^p ~dx = \\int_0^{\\infty} p t^{p-1} \\abs{\\{x : f(x) > t\\}} ~dt$ \n\nwhere $\\abs{\\{x : f(x) > t\\}}$ is the Lebesgue measure of the set $\\{x : f(x) > t\\}$.\n"
+    "question": "If $f$ is a nonnegative measurable function on $\\mathbb{R}$ and $p > 0$, show that\n$$\\int f^p ~dx = \\int_0^{\\infty} p t^{p-1} \\abs{\\{x : f(x) > t\\}} ~dt$$ \nwhere $\\abs{\\{x : f(x) > t\\}}$ is the Lebesgue measure of the set $\\{x : f(x) > t\\}$.\n"
   },
   {
     "year": 1970,
@@ -2953,7 +2953,7 @@
     "tags": [
       "Integrals"
     ],
-    "question": "If $f$ is a nonnegative measurable function on $[0, \\pi]$ and $\\int_0^\\pi f(x)^3~dx < \\infty$, show that\n\n$$\\lim_{\\alpha\\to\\infty} \\int_{ \\{x:f(x)>\\alpha\\}} f(x)^2 ~dx=0.$$\n"
+    "question": "If $f$ is a nonnegative measurable function on $[0, \\pi]$ and $\\int_0^\\pi f(x)^3~dx < \\infty$, show that\n$$\\lim_{\\alpha\\to\\infty} \\int_{ \\{x \\suchthat f(x) > \\alpha \\} } f(x)^2 ~dx=0.$$\n"
   },
   {
     "year": 1970,
