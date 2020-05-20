@@ -1850,17 +1850,14 @@ If $\limsup_{n\rightarrow \infty} a_n\leq l$, show that $\limsup_{n\rightarrow \
 **Question 7**
 
 If $f$ is a nonnegative measurable function on $\mathbb{R}$ and $p > 0$, show that
-
-$\int f^p ~dx = \int_0^{\infty} p t^{p-1} \abs{\{x : f(x) > t\}} ~dt$ 
-
+$$\int f^p ~dx = \int_0^{\infty} p t^{p-1} \abs{\{x : f(x) > t\}} ~dt$$ 
 where $\abs{\{x : f(x) > t\}}$ is the Lebesgue measure of the set $\{x : f(x) > t\}$.
 
 
 **Question 8**
 
 If $f$ is a nonnegative measurable function on $[0, \pi]$ and $\int_0^\pi f(x)^3~dx < \infty$, show that
-
-$$\lim_{\alpha\to\infty} \int_{ \{x:f(x)>\alpha\}} f(x)^2 ~dx=0.$$
+$$\lim_{\alpha\to\infty} \int_{ \{x \suchthat f(x) > \alpha \} } f(x)^2 ~dx=0.$$
 
 
 **Question 9**
