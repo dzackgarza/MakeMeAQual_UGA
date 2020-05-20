@@ -233,88 +233,118 @@
 title: Qualifying Exam
 ---
 
-# Question 1 (Emory 0 #0)
+# Question 1 (NUS 1970 #3)
 
-If $f$ is a non-constant entire function, then $f(\mathbb{C})$ is
-dense in the plane.
+Let g : $[0, 1] × [0, 1] → [0, 1]$ be a continuous function and let $\{f_n\}$ be a sequence of functions such that 
 
+$$f_n(x)=\begin{cases}{0,   0\leq x\leq 1/n},\\{\int_0^{x-\frac1n} g(t,f_n(t))dt, 1/n\leq x \leq 1.}\end{cases}$$
 
-# Question 2 (Emory 0 #0)
+With the help of the Arzela-Ascoli theorem or otherwise, show that there exists a continuous function $f : [0, 1] → \mathbb{R}$ such that 
 
-Let $f$ be an entire function and suppose that $|f(z)| \leq A|z|^2$
-for all $z$ and some constant $A$. Show that $f$ is a polynomial of
-degree $\leq 2$.
+$f(x) = \int_0^x g(t, f(t))dt$
 
+for all $x \in [0, 1]$. 
 
-# Question 3 (Emory 0 #0)
-
-1.  State the Schwarz lemma for analytic functions in the unit disc.
-
-2.  Let $f: \mathbb{D} \to \mathbb{D}$ be an analytic map from the
-    unit disc $\mathbb{D}$ into itself. Use the Schwarz lemma to
-    show that for each $a\in \mathbb{D}$ we have
-    \begin{align*}
-    \dfrac{|f'(a)|}{1-|f(a)|^2} \leq \dfrac{1}{1-|a|^2}
-    \end{align*}
+> Hint: first show that $|f_n(x_1) - f_n(x_2)| ≤ |x_1 - x_2|$.
 
 
-# Question 4 (Emory 0 #0)
+# Question 2 (NUS 1970 #2)
 
-Use residues to compute the integral
-\begin{align*}
-\int_{0}^{\infty} \dfrac{\cos x}{(x^2+1)^2} \mathrm{d}x
-\end{align*}
+If $f$ is a finite real valued measurable function on a measurable set $E \subset \mathbb{R}$, show that the set $\{(x, f(x)) : x ∈ E\}$ is measurable.
 
 
-# Question 5 (Emory 0 #0)
+# Question 3 (NUS 1970 #1fg)
 
-State and prove the Cauchy integral formula for holomorphic
-functions.
+Prove or disprove each of the following statements.
 
+(f) If $E \subset \mathbb{R}$ and 
 
-# Question 6 (Emory 0 #0)
+    $\mu(E) = \inf\{\sum_{I_i \in S} |I_i| : S = \{I_i\}_{i=1}^n \text{ such that } E \subset \union_{i=1}^n I_i \text{ for some } n \in \mathbb{N}\}$
 
-1.  State Rouche's theorem.
+    then $\mu$ coincides with the outer measure of $E$.
 
-2.  Let $f$ be analytic in a neighborhood of $0$, and satisfying
-    $f'(0) \neq 0$. Use Rouche's theorem to show that there exists a
-    neighborhood $U$ of $0$ such that $f$ is a bijection in $U$.
+(g) If $E$ is a Borel set and $f$ is a measurable function, then $f^{-1}(E)$ is also measurable.
 
 
-# Question 7 (Emory 0 #0)
+# Question 4 (NUS 1970 #4)
 
-Let $f$ be a meromorphic function in the plane such that
-\begin{align*}
-\lim_{|z|\to\infty} |f(z)| = \infty
-\end{align*}
+Prove or disprove each of the following statements.
 
-1.  Show that $f$ has only finitely many poles.
+(b) If ${f_n}$ is a sequence of measurable functions that converges uniformly to $f$ on $\mathbb{R}$, then $\int{f}=\lim_{k\to \infty} \int f_k$
 
-2.  Show that $f$ is a rational function.
+(e) If $\{f_k\}$ is a sequence of function in $L_p[0,\infty)$ that converges to a function $f ∈ L_p [0,∞)$, then $\{f_k\}$ has a subsequence that converges to $f$ almost everywhere.
 
 
-# Question 8 (Emory 0 #0)
+# Question 5 (NUS 1970 #3)
 
-Let $(f_n)$ be a sequence of holomorphic functions in a domain $D$.
-Suppose that $f_n \to f$ uniformly on each compact subset of $D$.
-Show that
-
--   $f$ is holomorphic on $D$.
-
--   $f_n' \to f'$ uniformly on each compact subset of $D$.
+If $f$ is a nonnegative measurable function on $[0, \pi]$ and $\int_0^\pi f(x)^3~dx < \infty$, show that
+$$\lim_{\alpha\to\infty} \int_{ \theset{x :f(x) > \alpha} } f(x)^2 ~dx=0.$$
 
 
-# Question 9 (Emory 0 #0)
+# Question 6 (NUS 1970 #5)
 
-Compute the integrals
-\begin{align*}
-\int_{|z-2|=1} \dfrac{e^z}{z(z-1)^2} \,
-\mathrm{d}z, \quad \int_0^\infty \dfrac{\cos 2x}{x^2 + 2} \, \mathrm{d}x
-\end{align*}
+(a) Let $f : \mathbb{R} → \mathbb{R}$ be a differentiable function. 
+    If $f'(-1) < 2$ and $f'(1) > 2$, show that there exists $x_0 \in (i1, 1)$ such that $f'(x_0) = 2$.
+
+    > Hint: consider the function $f(x) - 2x$ and recall the proof of Rolle’s theorem.)
+
+(b) Let $f : (-1, 1) → \mathbb{R}$ be a differentiable function on $(-1, 0) \union (0, 1)$ such that $\lim_{x\to 0} f'(x) = L$. 
+    If $f$ is continuous on $(-1, 1)$, show that $f$ is indeed differentiable at $0$ and $f'(0) = L$.
 
 
-# Question 10 (Emory 0 #0)
+# Question 7 (NUS 1970 #2)
 
-State the Riemann mapping theorem and prove the uniqueness part.
+If $f$ is a nonnegative measurable function on $\mathbb{R}$ and $p > 0$, show that
+$$\int f^p ~dx = \int_0^{\infty} p t^{p-1} \abs{\{x : f(x) > t\}} ~dt$$ 
+where $\abs{\{x : f(x) > t\}}$ is the Lebesgue measure of the set $\{x : f(x) > t\}$.
+
+
+# Question 8 (NUS 1970 #1abch)
+
+Prove or disprove each of the following statements.
+
+(a) If $f$ is of bounded variation on $[0,1]$, then it is continuous on $[0,1]$.
+
+(b) If $f : [0, 1] → [0, 1]$ is a continuous function, then there exists $x_0 \in [0, 1]$ such that $f(x_0) = x_0$.
+
+(c) Let $\{f_n\}$ be a sequence of uniformly continuous functions on an interval $I$. If $\{f_n\}$ converges uniformly to a function $f$ on $I$, then $f$ is also uniformly continuous on $I$.
+
+(h) If $f$ is differentiable on a connected set $E \subset \mathbb{R}^n$, then for any $x, y \in E$, there exists $z \in E$ such that $f(x) - f(y) = \nabla f(z)(x - y)$.  
+
+
+# Question 9 (NUS 1970 #1de)
+
+Prove or disprove each of the following statements.
+
+(d) If $\lim_{n\to\infty} |a_n+1/a_n|$ exists, then $\lim_{n\to \infty} |a_n|^{1/n}$ exists and the two limits are equal.
+
+(e) If $\sum_{n=1}^\infty a_n x^n$ converges for all $x ∈ [0, 1]$, then $\lim_{x\to 1^-} \sum_{n=1}^\infty a_n x^n=\sum_{n=1}^\infty a_n$
+
+
+# Question 10 (NUS 1970 #1)
+
+If $\limsup_{n\rightarrow \infty} a_n\leq l$, show that $\limsup_{n\rightarrow \infty}\sum_{i=1}^n{a_i/n}\leq l$.  
+
+
+# Question 11 (NUS 1970 #4)
+
+Prove or disprove each of the following statements.
+
+(f) If $f$ is Riemann integrable on $[ε, 1]$ for all $0 < ε < 1$, then $f$ is Lebesgue integrable on $[0,1]$ if $f$ is nonnegative and the following limit exists $\lim_{\varepsilon\to 0^+} \int_\varepsilon^1 f dx$.
+
+(g) If $f$ is integrable on $[0,1]$, then $\lim_{n\to\infty} \int_0^1 f(x)\sin(n\pi x)dx = 0$.
+
+(h) If $f$ is continuous on $[0, 1]$, then it is of bounded variation on [0, 1]$.
+
+
+# Question 12 (NUS 1970 #4)
+
+Prove or disprove each of the following statements.
+
+(a) If $f : [0, 1] → \mathbb{R}$ is a measurable function, then given any $\varepsilon > 0$, there exists a compact set $K \subset [0, 1]$ such that $f$ is continuous on $K$ relative to $K$.
+
+(c) If f is Borel measurable on $\mathbb{R} × \mathbb{R}$, then for any $x \in \mathbb{R}$, the function $g(y) = f(x, y)$ is also Borel measurable on $\mathbb{R}$.
+
+(d) If $E \subset \mathbb{R}$, then $E$ is measurable if and only if given any $\varepsilon > 0$, there exist a closed set $F$ and an open set $G$ such that $F \subset E \subset G$ and the measure of $G-F$ is less than $\varepsilon$.
 
 
