@@ -2953,7 +2953,7 @@
     "tags": [
       "Integrals"
     ],
-    "question": "If $f$ is a nonnegative measurable function on $[0, \\pi]$ and $\\int_0^\\pi f(x)^3~dx < \\infty$, show that\n$$\\lim_{\\alpha\\to\\infty} \\int_{ \\theset{x :f(x) > \\alpha} } f(x)^2 ~dx=0.$$\n"
+    "question": "If $f$ is a nonnegative measurable function on $[0, \\pi]$ and $\\int_0^\\pi f(x)^3~dx < \\infty$, show that\n\\begin{align*}\n\\lim_{\\alpha\\to\\infty} \\int_{ \\theset{x :f(x) > \\alpha} } f(x)^2 ~dx=0\n.\\end{align*}\n"
   },
   {
     "year": 1970,
