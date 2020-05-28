@@ -1,10 +1,696 @@
-- year: 2019
-  season: Fall
+- year: 0
+  season: NA 
+  exam: Topology 
   number: 1
-  exam: Topology
-  university: UGA
   tags:
-    - Topology
+    - Point-Set 
+    - Continuity
   question: |
-    Something something $G$.
+    Suppose $(X, d)$ is a metric space. State criteria for continuity of a function $f : X \to X$ in terms of:
 
+    i. open sets;
+
+    ii. $\eps$'s and $\delta$'s; and
+
+    iii. convergent sequences.
+
+    Then prove that (iii) implies (i).
+
+
+  - year: 0
+  season: NA 
+  exam: Topology 
+  number: 2
+  tags:
+    - Point-Set 
+    - Compactness
+  question: |
+    Let $X$ be a topological space.
+
+    i. State what it means for $X$ to be compact.
+
+    ii. Let $X = \theset{0} \cup \theset{{1\over n} \mid n \in \ZZ^+ }$. Is $X$ compact?
+
+    iii. Let $X = (0, 1]$. Is $X$ compact?
+
+
+ - year: 0
+  season: NA 
+  exam: Topology 
+  number: 3
+  tags:
+    - Point-Set 
+    - Compact Spaces
+    - Analysis
+  question: |
+    Let $(X, d)$ be a compact metric space, and let $f : X \to X$ be an isometry: 
+    $$\forall~ x, y \in X, \qquad d(f (x), f (y)) = d(x, y).$$
+    Prove that $f$ is a bijection.
+
+
+ - year: 0
+  season: NA 
+  exam: Topology 
+  number: 4
+  tags:
+    - Point-Set 
+    - Compact Spaces
+    - Metric Spaces
+  question: |
+    Suppose $(X, d)$ is a compact metric space and $U$ is an open covering of $X$. 
+
+    Prove that there is a number $\delta > 0$ such that for every $x \in X$, the ball of radius $\delta$ centered at $x$ is contained in some element of $U$.
+
+
+ - year: 0
+  season: NA 
+  exam: Topology 
+  number: 5
+  tags:
+    - Point-Set 
+    - Closure
+  question: |
+    Let $X$ be a topological space, and $B \subset A \subset X$. 
+    Equip $A$ with the subspace topology, and write $\cl_X (B)$ or $\cl_A (B)$ for the closure of $B$ as a subset of, respectively, $X$ or $A$. 
+
+    Determine, with proof, the general relationship between $\cl_X (B) \cap A$ and $\cl_A (B)$ 
+
+    > I.e., are they always equal? Is one always contained in the other but not conversely? Neither?
+
+
+ - year: 0
+  season: NA 
+  exam: Topology 
+  number: 6
+  tags:
+    - Point-Set 
+    - Compactness
+    - Euclidean Spaces
+  question: |
+    Prove that the unit interval $I$ is compact. Be sure to explicitly state any properties of $\RR$ that you use.
+
+
+ - year: 0
+  season: NA 
+  exam: Topology 
+  number: 7
+  tags:
+    - Point-Set 
+    - Compactness
+  question: |
+    A topological space is **sequentially compact** if every infinite sequence in $X$ has a convergent subsequence. 
+
+    Prove that every compact metric space is sequentially compact.
+
+
+ - year: 0
+  season: NA 
+  exam: Topology 
+  number: 8
+  tags:
+    - Point-Set 
+    - Compactness
+    - Tube Lemma
+  question: |
+    Show that for any two topological spaces $X$ and $Y$ , $X \cross Y$ is compact if and only if both $X$ and $Y$ are compact.
+
+
+ - year: 0
+  season: NA 
+  exam: Topology 
+  number: 9
+  tags:
+    - Point-Set 
+    - Connectedness
+  question: |
+    Recall that a topological space is said to be **connected** if there
+    does not exist a pair $U, V$ of disjoint nonempty subsets whose union is $X$.
+
+    i.  Prove that $X$ is connected if and only if the only subsets of $X$ that are both open and closed are $X$ and the empty set.
+
+    ii. Suppose that $X$ is connected and let $f : X \to \RR$ be a continuous map. 
+        If $a$ and $b$ are two points of $X$ and $r$ is a point of $\RR$ lying between $f (a)$ and $f (b)$ show that there exists a point $c$ of $X$ such that $f (c) = r$.
+
+
+ - year: 0
+  season: NA 
+  exam: Topology 
+  number: 10
+  tags:
+    - Point-Set 
+    - Connectedness
+    - Counterexamples
+    - Euclidean Spaces
+  question: |
+    Let 
+    $$
+    X = \theset{(0, y) \mid - 1 \leq y \leq 1} \cup \theset{\qty{x, s = \sin\qty{1 \over x}} \mid 0 < x \leq 1}
+    .$$
+
+    Prove that $X$ is connected but not path connected.
+
+- year: 2019
+  season: NA
+  exam: Topology 
+  number: 11
+  tags:
+    - Connectedness
+    - Point-Set 
+    - Euclidean Spaces
+  question: |
+    Let
+    \begin{align*}
+    X=\left\{(x, y) \in \mathbb{R}^{2} | x>0, y \geq 0, \text { and } \frac{y}{x} \text { is rational }\right\}
+    \end{align*}
+    and equip $X$ with the subspace topology induced by the usual topology on $\RR^2$.
+
+    Prove or disprove that $X$ is connected.
+    
+
+
+ - year: 0
+  season: NA 
+  exam: Topology 
+  number: 12
+  tags:
+    - Point-Set 
+    - Euclidean Spaces
+  question: |
+    Write $Y$ for the interval $[0, \infty)$, equipped with the usual topology. 
+
+    Find, with proof, all subspaces $Z$ of $Y$ which are retracts of $Y$.
+
+
+ - year: 0
+  season: NA 
+  exam: Topology 
+  number: 13
+  tags:
+    - Point-Set 
+    - Connectedness
+    - Counterexamples
+  question: |
+    a. Prove that if the space $X$ is connected and locally path connected then $X$ is path connected.
+
+    b. Is the converse true? Prove or give a counterexample.
+
+
+ - year: 0
+  season: NA 
+  exam: Topology 
+  number: 14
+  tags:
+    - Point-Set 
+    - Connectedness
+  question: |
+    Let $\theset{X_\alpha \mid \alpha \in A}$ be a family of connected subspaces of a space $X$ such that there is a point $p \in X$ which is in each of the $X_\alpha$.
+
+    Show that the union of the $X_\alpha$ is connected.
+
+
+ - year: 0
+  season: NA 
+  exam: Topology 
+  number: 15
+  tags:
+    - Point-Set 
+    - Connectedness
+    - Compact spaces
+    - Counterexamples
+  question: |
+    Let $X$ be a topological space.
+
+    a.  Prove that $X$ is connected if and only if there is no continuous
+        nonconstant map to the discrete two-point space $\theset{0, 1}$.
+
+    b.  Suppose in addition that $X$ is compact and $Y$ is a connected Hausdorff space. 
+        Suppose further that there is a continuous map $f : X \to Y$ such that 
+        every preimage $f\inv (y)$ for $y \in Y$, is a connected subset of $X$. 
+
+        Show that $X$ is connected.
+
+    c.  Give an example showing that the conclusion of (b) may be false if
+        $X$ is not compact.
+
+
+ - year: 0
+  season: NA 
+  exam: Topology 
+  number: 16
+  tags:
+    - Point-Set 
+    - Connectedness
+  question: |
+    If $X$ is a topological space and $S \subset X$, define in terms of
+    open subsets of $X$ what it means for $S$ **not** to be connected. 
+
+    Show that if $S$ is not connected there are nonempty subsets $A, B \subset X$ 
+    such that 
+    $$
+    A \cup B = S \qtext{and} A \cap \bar B = \bar A \cap B = \emptyset
+    $$ 
+
+    > Here $\bar A$ and $\bar B$ denote closure with respect to the topology on the ambient space $X$.
+
+
+ - year: 0
+  season: NA 
+  exam: Topology 
+  number: 17
+  tags:
+    - Point-Set 
+    - Connectedness
+  question: |
+    A topological space is **totally disconnected** if its only connected subsets are one-point sets. 
+
+    Is it true that if $X$ has the discrete topology, it is totally disconnected? 
+
+    Is the converse true? Justify your answers.
+
+
+ - year: 0
+  season: NA 
+  exam: Topology 
+  number: 17
+  tags:
+    - Point-Set 
+    - Compact Spaces
+    - Metric Spaces
+    - Analysis
+  question: |
+    Prove that if $(X, d)$ is a compact metric space, $f : X \to X$ is a
+    continuous map, and $C$ is a constant with $0 < C < 1$ such that 
+    $$
+    d(f (x), f (y)) \leq C \cdot d(x, y) \quad \forall x, y
+    ,$$ 
+    then $f$ has a fixed point.
+
+
+ - year: 0
+  season: NA 
+  exam: Topology 
+  number: 19
+  tags:
+    - Point-Set 
+    - Connectedness
+  question: |
+    Prove that the product of two connected topological spaces is connected.
+
+
+ - year: 0
+  season: NA 
+  exam: Topology 
+  number: 20
+  tags:
+    - Point-Set 
+    - Connectedness
+    - Counterexamples
+  question: |
+    a. Define what it means for a topological space to be:
+
+        i. **Connected**
+
+        ii. **Locally connected**
+
+    b. Give, with proof, an example of a space that is connected but not locally connected.
+
+
+ - year: 0
+  season: NA 
+  exam: Topology 
+  number: 21
+  tags:
+    - Point-Set 
+  question: |
+    Let $X$ and $Y$ be topological spaces and let $f : X \to Y$ be a function. 
+
+    Suppose that $X = A \cup B$ where $A$ and $B$ are closed subsets, and that
+    the restrictions $f \mid_A$ and $f \mid_B$ are continuous (where $A$ and $B$ have the subspace topology). 
+
+    Prove that $f$ is continuous.
+
+
+ - year: 0
+  season: NA 
+  exam: Topology 
+  number: 24
+  tags:
+    - Point-Set 
+  question: |
+    Let $X$ be a compact space and let $f : X \times R \to R$ be a continuous function such that $f (x, 0) > 0$ for all $x \in X$. 
+
+    Prove that there is $\eps > 0$ such  that $f (x, t) > 0$ whenever $\abs t < \eps$. 
+
+    Moreover give an example showing that this conclusion may not hold if $X$ is not assumed compact.
+
+
+ - year: 0
+  season: NA 
+  exam: Topology 
+  number: 25
+  tags:
+    - Point-Set 
+    - Compactness
+  question: |
+    Define a family $\mct$ of subsets of $\RR$ by saying that $A \in T$ is $\iff A = \emptyset$ or $\RR \setminus A$ is a finite set. 
+
+    Prove that $\mct$ is a topology on $\RR$, and that $\RR$ is compact with respect to this topology.
+
+
+ - year: 0
+  season: NA 
+  exam: Topology 
+  number: 26
+  tags:
+    - Point-Set 
+    - Compact Spaces
+    - Counterexamples
+    - Analysis
+  question: |
+    In each part of this problem $X$ is a compact topological space.
+
+    Give a proof or a counterexample for each statement.
+
+    a. If $\theset{F_n }_{n=1}^\infty$ is a sequence of nonempty *closed* subsets of $X$ such that $F_{n+1} \subset F_{n}$ for all $n$ then $$\intersect^\infty_{n=1} F_n\neq \emptyset.$$
+
+    b. If $\theset{O_n}_{n=1}^\infty$ is a sequence of nonempty *open* subsets of $X$ such that $O_{n+1} \subset O_n$ for all $n$ then $$\intersect_{n=1}^\infty O_{n}\neq \emptyset.$$
+
+
+ - year: 0
+  season: NA 
+  exam: Topology 
+  number: 27
+  tags:
+    - Point-Set 
+    - Counterexamples
+  question: |
+    Let $\mcs, \mct$ be topologies on a set $X$.
+    Show that $\mcs \cap \mct$ is a topology on $X$. 
+
+    Give an example to show that $\mcs \cup \mct$ need not be a topology.
+
+
+ - year: 0
+  season: NA 
+  exam: Topology 
+  number: 28
+  tags:
+    - Point-Set 
+    - Compactness
+  question: |
+    Let $f : X \to Y$ be a continuous function between topological spaces. 
+
+    Let $A$ be a subset of $X$ and let $f (A)$ be its image in $Y$ . 
+
+    One of the following statements is true and one is false. 
+    Decide which is which, prove the true statement, and provide a counterexample to the false statement:
+
+    1. If $A$ is closed then $f (A)$ is closed.
+
+    2. If $A$ is compact then $f (A)$ is compact.
+
+
+ - year: 0
+  season: NA 
+  exam: Topology 
+  number: 29
+  tags:
+    - Point-Set 
+    - Metric spaces
+    - Analysis
+  question: |
+  A metric space is said to be **totally bounded** if for every $\eps > 0$ there exists a finite cover of $X$ by open balls of radius $\eps$.
+
+  a. Show: a metric space $X$ is totally bounded iff every sequence in $X$ has a Cauchy subsequence.
+
+  b. Exhibit a complete metric space $X$ and a closed subset $A$ of $X$ that is bounded but not totally bounded. 
+
+  > You are not required to prove that your example has the stated properties.
+
+
+ - year: 0
+  season: NA 
+  exam: Topology 
+  number: 30
+  tags:
+    - Point-Set 
+    - Compactness
+  question: |
+    Suppose that $X$ is a Hausdorff topological space and that $A \subset X$. 
+
+    Prove that if $A$ is compact in the subspace topology then $A$ is closed as a subset of X.
+
+
+ - year: 0
+  season: NA 
+  exam: Topology 
+  number: 31
+  tags:
+    - Point-Set 
+    - Hausdorff spaces
+  question: |
+    a. Show that a continuous bijection from a compact space to a Hausdorff space is a homeomorphism.
+
+    b. Give an example that shows that the "Hausdorff" hypothesis in part (a) is necessary.
+
+
+ - year: 0
+  season: NA 
+  exam: Topology 
+  number: 32
+  tags:
+    - Point-Set 
+    - Hausdorff spaces
+  question: |
+    Let $X$ be a topological space and let
+    $$
+    \Delta = \theset{(x, y) \in X \times X \mid x = y}
+    .$$
+
+    Show that $X$ is a Hausdorff space if and only if $\Delta$ is closed in $X \times X$.
+
+
+ - year: 0
+  season: NA 
+  exam: Topology 
+  number: 33
+  tags:
+    - Point-Set 
+    - Hausdorff spaces
+    - Compactness
+  question: |
+    If $f$ is a function from $X$ to $Y$ , consider the graph 
+    $$
+    G = \theset{(x, y) \in X \times Y \mid f (x) = y}
+    .$$
+
+    a. Prove that if $f$ is continuous and $Y$ is Hausdorff, then $G$ is a closed subset of $X \times Y$.
+
+    b. Prove that if $G$ is closed and $Y$ is compact, then $f$ is continuous.
+
+
+ - year: 0
+  season: NA 
+  exam: Topology 
+  number: 34
+  tags:
+    - Point-Set 
+    - Hausdorff spaces
+    - Compactness
+  question: |
+    Let X be a noncompact locally compact Hausdorff space, with topology $\mct$. 
+    Let $\tilde X = X \cup \theset{\infty}$ ($X$ with one point adjoined), and consider the family $\mcb$ of subsets of $\tilde X$ defined by
+    $$
+    \mcb = T \cup \theset{S \cup \theset{\infty}\mid S \subset X,~~ X \backslash S \text{ is compact}}
+    .$$
+
+    a. Prove that $\mcb$ is a topology on $\tilde X$, that the resulting space is compact, and that $X$ is dense in $\tilde X$.
+
+    b. Prove that if $Y \supset X$ is a compact space such that $X$ is dense in $Y$ and $Y \backslash X$ is a singleton, 
+      then Y is homeomorphic to $\tilde X$. 
+
+      > The space $\tilde X$ is called the **one-point compactification** of $X$.
+
+    c. Find familiar spaces that are homeomorphic to the one point compactifications of 
+
+        i. $X = (0, 1)$ and 
+
+
+ - year: 0
+  season: NA 
+  exam: Topology 
+  number: 35
+  tags:
+    - Point-Set 
+    - Metric spaces
+  question: |
+    Prove that a metric space $X$ is **normal**, i.e. if $A, B \subset X$ are closed and disjoint then there exist open sets $A \subset U \subset X, ~B \subset V \subset X$ such that
+    $U \cap V = \emptyset$.
+
+
+ - year: 0
+  season: NA 
+  exam: Topology 
+  number: 36
+  tags:
+    - Point-Set 
+    - Compact spaces
+    - Hausdorff spaces
+  question: |
+    Prove that every compact, Hausdorff topological space is normal.
+
+
+ - year: 0
+  season: NA 
+  exam: Topology 
+  number: 37
+  tags:
+    - Point-Set 
+    - Connected spaces
+  question: |
+    Show that a connected, normal topological space with more than a single point is uncountable.
+
+
+ - year: 0
+  season: NA 
+  exam: Topology 
+  number: 38
+  tags:
+    - Point-Set 
+    - Hausdorff Spaces
+    - Counterexamples
+    - Quotient Space
+  question: |
+    Give an example of a quotient map in which the domain is Hausdorff, but the quotient is not.
+
+
+ - year: 0
+  season: NA 
+  exam: Topology 
+  number: 39
+  tags:
+    - Point-Set 
+    - Hausdorff Spaces
+    - Quotient Spaces
+  question: |
+    Let $X$ be a compact Hausdorff space and suppose $R \subset X \times X$ is a closed equivalence relation. 
+
+    Show that the quotient space $X/R$ is Hausdorff.
+
+
+ - year: 0
+  season: NA 
+  exam: Topology 
+  number: 40
+  tags:
+    - Point-Set 
+    - Euclidean Spaces
+    - Hausdorff Spaces
+    - Quotient Spaces
+  question: |
+    Let $U \subset \RR^n$ be an open set which is bounded in the standard Euclidean metric. 
+
+    Prove that the quotient space $\RR^n / U$ is not Hausdorff.
+
+
+ - year: 0
+  season: NA 
+  exam: Topology 
+  number: 41
+  tags:
+    - Point-Set 
+    - Quotient Spaces
+  question: |
+    Let $A$ be a closed subset of a normal topological space $X$.
+
+    Show that both $A$ and the quotient $X/A$ are normal.
+
+
+ - year: 0
+  season: NA 
+  exam: Topology 
+  number: 42
+  tags:
+    - Point-Set 
+    - Quotient Spaces
+  question: |
+    Define an equivalence relation $\sim$ on $\RR$ by $x \sim y$ if and only if $x - y \in Q$. 
+    Let $X$ be the set of equivalence classes, endowed with the quotient topology induced by the canonical projection $\pi : \RR \to X$.
+
+    Describe, with proof, all open subsets of $X$ with respect to this topology.
+
+
+ - year: 0
+  season: NA 
+  exam: Topology 
+  number: 43
+  tags:
+    - Point-Set 
+    - Quotient Spaces 
+  question: |
+    Let $A$ denote a subset of points of $S^2$ that looks exactly like the capital letter A. 
+    Let $Q$ be the quotient of $S^2$ given by identifying all points of $A$ to a single point. 
+
+    Show that $Q$ is homeomorphic to a familiar topological space and identify that space.
+
+
+ - year: 0
+  season: NA 
+  exam: Topology 
+  number: 44
+  tags:
+    - Point-Set 
+    - Density
+    - Metric Spaces
+    - Bases
+  question: |
+    a. Prove that a topological space that has a countable base for its topology also contains a countable dense subset.
+
+    b. Prove that the converse to (a) holds if the space is a metric space.
+
+
+ - year: 0
+  season: NA 
+  exam: Topology 
+  number: 45
+  tags:
+    - Point-Set 
+    - Bases
+  question: |
+    Recall that a topological space is **regular** if for every point $p \in X$ and for every closed subset $F \subset X$ not containing $p$, there exist disjoint open sets $U, V \subset X$ with $p \in U$ and $F \subset V$. 
+
+    Let $X$ be a regular space that has a countable basis for its topology, and let $U$ be an open subset of $X$.
+
+    a. Show that $U$ is a countable union of closed subsets of $X$.
+
+    b. Show that there is a continuous function $f : X \to [0,1]$ such that $f (x) > 0$ for $x \in U$ and $f (x) = 0$ for $x \in U$.
+
+
+ - year: 0
+  season: NA 
+  exam: Topology 
+  number: 0
+  tags:
+    - Point-Set 
+  question: |
+
+
+ - year: 0
+  season: NA 
+  exam: Topology 
+  number: 0
+  tags:
+    - Point-Set 
+  question: |
+
+
+ - year: 0
+  season: NA 
+  exam: Topology 
+  number: 0
+  tags:
+    - Point-Set 
+  question: |
+
+
+   
