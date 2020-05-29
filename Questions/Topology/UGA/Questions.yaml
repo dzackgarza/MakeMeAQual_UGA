@@ -34,7 +34,7 @@
     iii. Let $X = (0, 1]$. Is $X$ compact?
 
 
- - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 3
@@ -48,7 +48,7 @@
     Prove that $f$ is a bijection.
 
 
- - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 4
@@ -62,7 +62,7 @@
     Prove that there is a number $\delta > 0$ such that for every $x \in X$, the ball of radius $\delta$ centered at $x$ is contained in some element of $U$.
 
 
- - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 5
@@ -78,7 +78,7 @@
     > I.e., are they always equal? Is one always contained in the other but not conversely? Neither?
 
 
- - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 6
@@ -90,7 +90,7 @@
     Prove that the unit interval $I$ is compact. Be sure to explicitly state any properties of $\RR$ that you use.
 
 
- - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 7
@@ -103,7 +103,7 @@
     Prove that every compact metric space is sequentially compact.
 
 
- - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 8
@@ -115,7 +115,7 @@
     Show that for any two topological spaces $X$ and $Y$ , $X \cross Y$ is compact if and only if both $X$ and $Y$ are compact.
 
 
- - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 9
@@ -132,7 +132,7 @@
         If $a$ and $b$ are two points of $X$ and $r$ is a point of $\RR$ lying between $f (a)$ and $f (b)$ show that there exists a point $c$ of $X$ such that $f (c) = r$.
 
 
- - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 10
@@ -168,7 +168,7 @@
     
 
 
- - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 12
@@ -181,7 +181,7 @@
     Find, with proof, all subspaces $Z$ of $Y$ which are retracts of $Y$.
 
 
- - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 13
@@ -195,7 +195,7 @@
     b. Is the converse true? Prove or give a counterexample.
 
 
- - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 14
@@ -208,7 +208,7 @@
     Show that the union of the $X_\alpha$ is connected.
 
 
- - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 15
@@ -233,7 +233,7 @@
         $X$ is not compact.
 
 
- - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 16
@@ -253,7 +253,7 @@
     > Here $\bar A$ and $\bar B$ denote closure with respect to the topology on the ambient space $X$.
 
 
- - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 17
@@ -268,7 +268,7 @@
     Is the converse true? Justify your answers.
 
 
- - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 17
@@ -286,7 +286,7 @@
     then $f$ has a fixed point.
 
 
- - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 19
@@ -297,7 +297,7 @@
     Prove that the product of two connected topological spaces is connected.
 
 
- - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 20
@@ -315,7 +315,7 @@
     b. Give, with proof, an example of a space that is connected but not locally connected.
 
 
- - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 21
@@ -330,7 +330,7 @@
     Prove that $f$ is continuous.
 
 
- - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 24
@@ -344,7 +344,7 @@
     Moreover give an example showing that this conclusion may not hold if $X$ is not assumed compact.
 
 
- - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 25
@@ -357,7 +357,7 @@
     Prove that $\mct$ is a topology on $\RR$, and that $\RR$ is compact with respect to this topology.
 
 
- - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 26
@@ -376,7 +376,7 @@
     b. If $\theset{O_n}_{n=1}^\infty$ is a sequence of nonempty *open* subsets of $X$ such that $O_{n+1} \subset O_n$ for all $n$ then $$\intersect_{n=1}^\infty O_{n}\neq \emptyset.$$
 
 
- - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 27
@@ -390,7 +390,7 @@
     Give an example to show that $\mcs \cup \mct$ need not be a topology.
 
 
- - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 28
@@ -410,7 +410,7 @@
     2. If $A$ is compact then $f (A)$ is compact.
 
 
- - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 29
@@ -428,7 +428,7 @@
   > You are not required to prove that your example has the stated properties.
 
 
- - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 30
@@ -441,7 +441,7 @@
     Prove that if $A$ is compact in the subspace topology then $A$ is closed as a subset of X.
 
 
- - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 31
@@ -454,7 +454,7 @@
     b. Give an example that shows that the "Hausdorff" hypothesis in part (a) is necessary.
 
 
- - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 32
@@ -470,7 +470,7 @@
     Show that $X$ is a Hausdorff space if and only if $\Delta$ is closed in $X \times X$.
 
 
- - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 33
@@ -489,7 +489,7 @@
     b. Prove that if $G$ is closed and $Y$ is compact, then $f$ is continuous.
 
 
- - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 34
@@ -516,7 +516,7 @@
         i. $X = (0, 1)$ and 
 
 
- - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 35
@@ -528,7 +528,7 @@
     $U \cap V = \emptyset$.
 
 
- - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 36
@@ -540,7 +540,7 @@
     Prove that every compact, Hausdorff topological space is normal.
 
 
- - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 37
@@ -551,7 +551,7 @@
     Show that a connected, normal topological space with more than a single point is uncountable.
 
 
- - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 38
@@ -564,7 +564,7 @@
     Give an example of a quotient map in which the domain is Hausdorff, but the quotient is not.
 
 
- - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 39
@@ -578,7 +578,7 @@
     Show that the quotient space $X/R$ is Hausdorff.
 
 
- - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 40
@@ -593,7 +593,7 @@
     Prove that the quotient space $\RR^n / U$ is not Hausdorff.
 
 
- - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 41
@@ -606,7 +606,7 @@
     Show that both $A$ and the quotient $X/A$ are normal.
 
 
- - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 42
@@ -620,7 +620,7 @@
     Describe, with proof, all open subsets of $X$ with respect to this topology.
 
 
- - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 43
@@ -634,7 +634,7 @@
     Show that $Q$ is homeomorphic to a familiar topological space and identify that space.
 
 
- - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 44
@@ -649,7 +649,7 @@
     b. Prove that the converse to (a) holds if the space is a metric space.
 
 
- - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 45
@@ -666,7 +666,7 @@
     b. Show that there is a continuous function $f : X \to [0,1]$ such that $f (x) > 0$ for $x \in U$ and $f (x) = 0$ for $x \in U$.
 
 
- - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -677,7 +677,7 @@
 
     Prove that $\gamma_0$ is homotopic to $\gamma_1$ if and only if the elements represented by $\gamma_0$ and $\gamma_1$ in $\pi_1 (X, x_0 )$ are conjugate.
 
- - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
