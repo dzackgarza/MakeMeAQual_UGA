@@ -671,26 +671,944 @@
   exam: Topology 
   number: 0
   tags:
-    - Point-Set 
+    - Fundamental Group
   question: |
+    Let $S^1$ denote the unit circle in $C$, $X$ be any topological space, $x_0 \in X$, and $$\gamma_0, \gamma_1 : S^1 \to X$$ be two continuous maps such that $\gamma_0 (1) = \gamma_1 (1) = x_0$.
 
+    Prove that $\gamma_0$ is homotopic to $\gamma_1$ if and only if the elements represented by $\gamma_0$ and $\gamma_1$ in $\pi_1 (X, x_0 )$ are conjugate.
 
  - year: 0
   season: NA 
   exam: Topology 
   number: 0
   tags:
-    - Point-Set 
+    - Fundamental Group
   question: |
+    a. State van Kampen's theorem.
+
+    b. Calculate the fundamental group of the space obtained by taking two copies of the torus $T = S^1 \times S^1$ and gluing them along a circle $S^1 \times {p}$ where $p$ is a point in $S^1$.
+
+    c. Calculate the fundamental group of the Klein bottle.
+
+    d. Calculate the fundamental group of the one-point union of $S^1 \times S^1$ and $S^1$.
+
+    e. Calculate the fundamental group of the one-point union of $S^1 \times S^1$ and $\RP^2$.
+
+    > **Note: multiple appearances!!**
 
 
- - year: 0
+  - year: 0
   season: NA 
   exam: Topology 
   number: 0
   tags:
-    - Point-Set 
+    - Fundamental Group
+  question: |
+    Prove the following portion of van Kampen's theorem. 
+    If $X = A\cup B$ and $A$, $B$, and $A \cap B$ are nonempty and path connected with $\pt \in A \cap B$, then there is a surjection 
+    $$
+    \pi_1 (A, \pt) \ast \pi_1 (B, \pt) \to \pi_1 (X, \pt)
+    .$$
+
+
+  - year: 0
+  season: NA 
+  exam: Topology 
+  number: 0
+  tags:
+    - Fundamental Group
+  question: |
+    Let $X$ denote the quotient space formed from the sphere $S^2$ by identifying two distinct points. 
+
+    Compute the fundamental group and the homology groups of $X$.
+
+
+  - year: 0
+  season: NA 
+  exam: Topology 
+  number: 0
+  tags:
+    - Fundamental Group
+  question: |
+    Start with the unit disk $\DD^2$ and identify points on the boundary if their angles, thought of in polar coordinates, differ a multiple of $\pi/2$. 
+
+    Let $X$ be the resulting space. Use van Kampen's theorem to compute $\pi_1 (X, \ast)$.
+
+
+  - year: 0
+  season: NA 
+  exam: Topology 
+  number: 0
+  tags:
+    - Fundamental Group
+  question: |
+    Let $L$ be the union of the $z$-axis and the unit circle in the $xy\dash$plane. 
+    Compute $\pi_1 (\RR^3 \backslash L, \ast)$.
+
+
+  - year: 0
+  season: NA 
+  exam: Topology 
+  number: 0
+  tags:
+    - Fundamental Group
+  question: |
+    Let $A$ be the union of the unit sphere in $\RR^3$ and the interval $\theset {(t, 0, 0) : -1 \leq t \leq 1} \subset \RR^3$. 
+
+    Compute $\pi_1 (A)$ and give an explicit description of the universal cover of $X$.
+
+
+  - year: 0
+  season: NA 
+  exam: Topology 
+  number: 0
+  tags:
+    - Fundamental Group
+  question: |
+    a. Let $S_1$ and $S_2$ be disjoint surfaces. 
+        Give the definition of their connected sum $S^1 \#S^2$.
+
+    b. Compute the fundamental group of the connected sum of the projective plane and the two-torus.
+
+
+  - year: 0
+  season: NA 
+  exam: Topology 
+  number: 0
+  tags:
+    - Fundamental Group
+  question: |
+    Compute the fundamental group, using any technique you like, of $\RP^2 \#\RP^2 \#\RP^2$.
+
+
+  - year: 0
+  season: NA 
+  exam: Topology 
+  number: 0
+  tags:
+    - Fundamental Group
+  question: |
+    Let 
+    $$
+    V = \DD^2 \times S^1 = \theset{ (z, e^{it}) \suchthat \norm z \leq 1,~~ 0 \leq t < 2\pi}
+    $$ 
+    be the "solid torus" with boundary given by the torus $T = S^1 \times S^1$ . 
+
+    For $n \in Z$ define 
+    \begin{align*}
+    \phi_n : T &\to T \\
+    (e^{is} , e^{it} ) &\mapsto (e^{is} , e^{i(ns+t)})
+    .\end{align*}
+
+    Find the fundamental group of the identification space
+    $$
+    V_n = {V\disjoint V \over \sim n}
+    $$
+    where the equivalence relation $\sim_n$ identifies a point $x$ on the boundary $T$ of the first copy of $V$ with the point $\phi_n (x)$ on the boundary of the second copy of $V$.
+
+
+  - year: 0
+  season: NA 
+  exam: Topology 
+  number: 0
+  tags:
+    - Fundamental Group
+  question: |
+    Let $S_k$ be the space obtained by removing $k$ disjoint open disks from the sphere $S^2$. 
+    Form $X_k$ by gluing $k$ Möbius bands onto $S_k$ , one for each circle boundary component of $S_k$ (by identifying the boundary circle of a Möbius band homeomorphically with a given boundary component circle). 
+
+    Use van Kampen's theorem to calculate $\pi_1 (X_k)$ for each $k > 0$ and identify $X_k$ in terms of the classification of surfaces.
+
+
+
+  - year: 0
+  season: NA 
+  exam: Topology 
+  number: 0
+  tags:
+    - Fundamental Group
+  question: |
+    i.  Let $A$ be a subspace of a topological space $X$. 
+        Define what it means for $A$ to be a **deformation retract** of $X$.
+
+    ii. Consider $X_1$ the "planar figure eight" and $$X_2 = S^1 \cup ({0} \times [-1, 1])$$ (the "theta space"). 
+        Show that $X_1$ and $X_2$ have isomorphic fundamental groups.
+
+    iii. Prove that the fundamental group of $X_2$ is a free group on two generators.
+
+
+  - year: 0
+  season: NA 
+  exam: Topology 
+  number: 0
+  tags:
+    - Covering Spaces
+  question: |
+    a.  Give the definition of a **covering space** $\hat{X}$
+        (and **covering map** $p : \hat{X} \to X$) for a topological space $X$.
+
+    b.  State the homotopy lifting property of covering spaces. 
+        Use it to show that a covering map $p : \hat{X} \to X$ induces an injection 
+        $$
+        p^\ast : \pi_1 (\hat{X}, \hat{x}) \to \pi_1 (X, p(\hat{x}))
+        $$ 
+        on fundamental groups.
+
+    c.  Let $p : \hat{X} \to X$ be a covering map with $Y$ and $X$ path-connected. 
+        Suppose that the induced map $p^\ast$ on $\pi_1$ is an isomorphism. 
+        Prove that $p$ is a homeomorphism.
+
+
+  - year: 0
+  season: NA 
+  exam: Topology 
+  number: 0
+  tags:
+    - Covering Spaces
+  question: |
+    a. Give the definitions of **covering space** and **deck transformation** (or covering transformation).
+
+    b. Describe the universal cover of the Klein bottle and its group of deck transformations.
+
+    c. Explicitly give a collection of deck transformations on $$\theset{(x, y) \mid -1 \leq x \leq 1, -\infty < y < \infty}$$ such that the quotient is a Möbius band.
+
+    d. Find the universal cover of $\RP^2 \times S^1$ and explicitly describe its group of deck transformations.
+
+
+  - year: 0
+  season: NA 
+  exam: Topology 
+  number: 0
+  tags:
+    - Covering Spaces
+  question: |
+    a.  What is the definition of a **regular** (or Galois) covering space?
+
+    b.  State, without proof, a criterion in terms of the fundamental group for a covering map $p : \tilde X \to X$ to be regular.
+
+    c.  Let $\Theta$ be the topological space formed as the union of a circle and its diameter (so this space looks exactly like the letter $\Theta$). 
+        Give an example of a covering space of $\Theta$ that is not regular.
+
+
+  - year: 0
+  season: NA 
+  exam: Topology 
+  number: 0
+  tags:
+    - Covering Spaces
+  question: |
+    Let $S$ be the closed orientable surface of genus 2 and let $C$ be the commutator subgroup of $\pi_1 (S, \ast)$. Let $\tilde S$ be the cover corresponding to $C$. 
+    Is the covering map $\tilde S \to S$ regular? 
+
+    > The term "normal" is sometimes used as a synonym for regular in this context.
+
+    What is the group of deck transformations?
+
+    Give an example of a nontrivial element of $\pi_1 (S, \ast)$ which lifts to a trivial deck transformation.
+
+
+  - year: 0
+  season: NA 
+  exam: Topology 
+  number: 0
+  tags:
+    - Covering Spaces
+  question: |
+    Describe the 3-fold connected covering spaces of $S^1 \lor S^1$.
+
+
+  - year: 0
+  season: NA 
+  exam: Topology 
+  number: 0
+  tags:
+    - Covering Spaces
+  question: |
+    Find all three-fold covers of the wedge of two copies of $\RP^2$ .
+    Justify your answer.
+
+
+  - year: 0
+  season: NA 
+  exam: Topology 
+  number: 0
+  tags:
+    - Covering Spaces
+  question: |
+    Describe, as explicitly as you can, two different (non-homeomorphic) connected two-sheeted covering spaces of $\RP^2 \lor \RP^3$, and prove that they are not homeomorphic.
+
+
+  - year: 0
+  season: NA 
+  exam: Topology 
+  number: 0
+  tags:
+    - Covering Spaces
+  question: |
+    Is there a covering map from
+    $$
+    X_3 = \theset{x^2 + y^2 = 1} \cup \theset{(x - 2)^2 + y^2 = 1} \cup \theset{(x + 2)^2 + y^2 = 1} \subset \RR^2
+    $$ 
+    to the wedge of two $S^1$'s? 
+    If there is, give an example; if not, give a proof.
+
+
+  - year: 0
+  season: NA 
+  exam: Topology 
+  number: 0
+  tags:
+    - Covering Spaces
+  question: |
+
+    a.  Suppose $Y$ is an $n$-fold connected covering space of the torus $S^1 \times S^1$. 
+        Up to homeomorphism, what is $Y$? Justify your answer.
+
+    b.  Let $X$ be the topological space obtained by deleting a disk from a torus.
+        Suppose $Y$ is a 3-fold covering space of $X$. 
+        
+        What surfaces could $Y$ be?
+        Justify your answer, but you need not exhibit the covering maps explicitly.
+
+
+  - year: 0
+  season: NA 
+  exam: Topology 
+  number: 0
+  tags:
+    - Covering Spaces
+  question: |
+    Let $S$ be a connected surface, and let $U$ be a connected open subset of $S$. 
+    Let $p : \tilde S \to  S$ be the universal cover of $S$. 
+    Show that $p\inv (U )$ is connected if and only if the homeomorphism $i_\ast : \pi_1 (U ) \to \pi_1 (S)$ induced by the inclusion $i : U \to S$ is onto.
+
+
+  - year: 0
+  season: NA 
+  exam: Topology 
+  number: 0
+  tags:
+    - Covering Spaces
+  question: |
+    Suppose that X has universal cover $p : \tilde X \to X$ and let $A \subset X$ be a subspace with $p(\tilde a) = a \in A$. 
+    Show that there is a group isomorphism 
+    $$
+    \ker(\pi_1 (A, a) \to \pi_1 (X, a)) \cong \pi_1 (p\inv A, \bar a)
+    .$$
+
+
+  - year: 0
+  season: NA 
+  exam: Topology 
+  number: 0
+  tags:
+    - Covering Spaces
+  question: |
+    Prove that every continuous map $f : \RP^2 \to S^1$ is homotopic to a constant. 
+
+    > Hint: think about covering spaces.
+
+
+  - year: 0
+  season: NA 
+  exam: Topology 
+  number: 0
+  tags:
+    - Covering Spaces
+  question: |
+    Prove that the free group on two generators contains a subgroup isomorphic to the free group on five generators by constructing an appropriate covering space of $S^1 \lor S^1$.
+
+
+  - year: 0
+  season: NA 
+  exam: Topology 
+  number: 0
+  tags:
+    - Covering Spaces
+  question: |
+    Use covering space theory to show that $\ZZ_2 \ast \ZZ$  (that is, the free product of $\ZZ_2$ and $\ZZ$)  has two subgroups of index 2 which are not isomorphic to each other.
+
+
+  - year: 0
+  season: NA 
+  exam: Topology 
+  number: 0
+  tags:
+    - Covering Spaces
+  question: |
+    a.  Show that any finite index subgroup of a finitely generated free group is free. 
+        State clearly any facts you use about the fundamental groups of graphs.
+
+    b.  Prove that if $N$ is a nontrivial normal subgroup of infinite index in a finitely generated free group $F$ , then $N$ is not finitely generated.
+
+
+  - year: 0
+  season: NA 
+  exam: Topology 
+  number: 0
+  tags:
+    - Covering Spaces
+  question: |
+    Let $p : X \to Y$ be a covering space, where $X$ is compact, path-connected, and locally path-connected. 
+
+    Prove that for each $x \in X$ the set $p\inv (\theset{p(x)})$ is finite, and has cardinality equal to the index of $p_* (\pi_1 (X, x))$ in $\pi_1 (Y, p(x))$.
+
+
+  - year: 0
+  season: NA 
+  exam: Topology 
+  number: 0
+  tags:
+    - Homology 
+  question: |
+    Compute the homology of the one-point union of $S^1 \times S^1$ and $S^1$.
+
+  - year: 0
+  season: NA 
+  exam: Topology 
+  number: 0
+  tags:
+    - Homology 
+  question: |
+    a.  State the **Mayer-Vietoris theorem**.
+
+    b.  Use it to compute the homology of the space $X$ obtained by gluing two solid tori along their boundary as follows. 
+        Let $\DD^2$ be the unit disk and let $S^1$ be the unit circle in the complex plane $\CC$. 
+        Let $A = S^1 \times \DD^2$ and $B = \DD^2 \times S^1$. 
+        
+        Then $X$ is the quotient space of the disjoint union $A \disjoint B$ obtained by identifying $(z, w) \in A$ with $(zw^3 , w) \in B$ for all $(z, w) \in S^1 \times S^1$.
+
+  - year: 0
+  season: NA 
+  exam: Topology 
+  number: 0
+  tags:
+    - Homology 
+  question: |
+    Let $A$ and $B$ be circles bounding disjoint disks in the plane $z = 0$ in $\RR^3$. 
+    Let $X$ be the subset of the upper half-space of $\RR^3$ that is the union of the plane $z = 0$ and a (topological) cylinder that intersects the plane in $\partial C = A \cup B$.
+
+    Compute $H_* (X)$ using the Mayer--Vietoris sequence.
+
+  - year: 0
+  season: NA 
+  exam: Topology 
+  number: 0
+  tags:
+    - Homology 
+  question: |
+    Compute the integral homology groups of the space $X = Y \cup Z$ which is the union of the sphere 
+    $$
+    Y = \theset{x^2 + y^2 + z^2 = 1}
+    $$ 
+    and the ellipsoid 
+    $$
+    Z =  \theset{x^2 + y^2 + {z^2 \over 4} = 1}
+    .$$
+
+  - year: 0
+  season: NA 
+  exam: Topology 
+  number: 0
+  tags:
+    - Homology 
+  question: |
+    Let $X$ consist of two copies of the solid torus $\DD^2 \times S^1$, glued together by the identity map along the boundary torus $S^1 \times S^1$.
+    Compute the homology groups of $X$.
+
+  - year: 0
+  season: NA 
+  exam: Topology 
+  number: 0
+  tags:
+    - Homology 
+  question: |
+    Use the circle along which the connected sum is performed and the Mayer-Vietoris long exact sequence to compute the homology of $\RP^2 \# \RP^2$.
+
+  - year: 0
+  season: NA 
+  exam: Topology 
+  number: 0
+  tags:
+    - Homology 
+  question: |
+    Express a Klein bottle as the union of two annuli. 
+
+    Use the Mayer Vietoris sequence and this decomposition to compute its homology.
+
+  - year: 0
+  season: NA 
+  exam: Topology 
+  number: 0
+  tags:
+    - Homology 
+  question: |
+    Let $X$ be the topological space obtained by identifying three distinct points on $S^2$. 
+    Calculate $H_* (X; Z)$.
+
+  - year: 0
+  season: NA 
+  exam: Topology 
+  number: 0
+  tags:
+    - Homology 
+  question: |
+    Compute $H_0$ and $H_1$ of the complete graph $K_5$ formed by taking five points and joining each pair with an edge.
+
+  - year: 0
+  season: NA 
+  exam: Topology 
+  number: 0
+  tags:
+    - Homology 
+  question: |
+    Compute the homology of the subset $X \subset \RR^3$ formed as the union of the unit sphere, the $z\dash$axis, and the $xy\dash$plane.
+
+  - year: 0
+  season: NA 
+  exam: Topology 
+  number: 0
+  tags:
+    - Homology 
+  question: |
+    Let $X$ be the topological space formed by filling in two circles $S^1 \times \theset{p_1 }$ and $S^1 \times \theset{p_2 }$ in the torus $S^1 \times S^1$ with disks.
+
+    Calculate the fundamental group and the homology groups of $X$.
+
+  - year: 0
+  season: NA 
+  exam: Topology 
+  number: 0
+  tags:
+    - Homology 
+  question: |
+    a.  Consider the quotient space 
+        $$
+        T^2 = \RR^2 / \sim \qtext{where} (x, y) \sim (x + m, y + n) \text{ for } m, n \in \ZZ
+        ,$$ 
+        and let $A$ be any $2 \times 2$ matrix whose entries are integers such that $\det A = 1$. 
+        
+        Prove that the action of $A$ on $\RR^2$ descends via the quotient $\RR^2 \to T^2$ to induce a homeomorphism $T^2 \to T^2$.
+
+    b.  Using this homeomorphism of $T^2$, we define a new quotient space 
+        $$
+        T_A^3 \definedas {T^2\cross \RR \over \sim} \qtext{where} ((x, y), t) \sim (A(x, y), t + 1)
+        $$
+        Compute $H_1 (T_A^3 )$ if $A=\left(\begin{array}{ll} 1 & 1 \\ 0 & 1 \end{array}\right).$
+
+  - year: 0
+  season: NA 
+  exam: Topology 
+  number: 0
+  tags:
+    - Homology 
+  question: |
+    Give a self-contained proof that the zeroth homology $H_0 (X)$ is isomorphic to $\ZZ$ for every path-connected space $X$.
+
+  - year: 0
+  season: NA 
+  exam: Topology 
+  number: 0
+  tags:
+    - Homology 
+  question: |
+    Give a self-contained proof that the zeroth homology $H_0 (X)$ is isomorphic to $\ZZ$ for every path-connected space $X$.
+
+    ## 14 (Fall '18). 
+    It is a fact that if $X$ is a single point then $H_1 (X) = \theset{0}$. 
+
+    One of the following is the correct justification of this fact in terms of the singular chain complex. 
+
+    Which one is correct and why is it correct?
+
+    a. $C_1 (X) = \theset{0}$.
+
+    b. $C_1 (X) \neq \theset{0}$ but $\ker \partial_1 = 0$ with $\partial_1 : C_1 (X) \to C_0 (X)$.
+
+    c. $\ker \partial_1 \neq 0$ but $\ker \partial_1 = \im\partial_2$ with $\partial_2 : C_2 (X) \to C_1 (X)$.
+
+  - year: 0
+  season: NA 
+  exam: Topology 
+  number: 0
+  tags:
+    - Homology 
+  question: |
+    Compute the homology groups of $S^2 \times S^2$.
+
+  - year: 0
+  season: NA 
+  exam: Topology 
+  number: 0
+  tags:
+    - Homology 
+  question: |
+    Let $\Sigma$ be a closed orientable surface of genus $g$.
+    Compute $H_i(S^1 \times \Sigma; Z)$ for $i = 0, 1, 2, 3$.
+
+  - year: 0
+  season: NA 
+  exam: Topology 
+  number: 0
+  tags:
+    - Homology 
+  question: |
+    Prove that if $A$ is a retract of the topological space $X$, then for all nonnegative integers $n$ there is a group $G_n$ such that $H_{n} (X) \cong H_{n} (A) \oplus G_n$.
+
+    > Here $H_{n}$ denotes the $n$th singular homology group with integer coefficients.
+
+  - year: 0
+  season: NA 
+  exam: Topology 
+  number: 0
+  tags:
+    - Homology 
+  question: |
+    Does there exist a map of degree 2013 from $S^2 \to S^2$.
+
+  - year: 0
+  season: NA 
+  exam: Topology 
+  number: 0
+  tags:
+    - Homology 
+  question: |
+    For each $n \in \ZZ$ give an example of a map $f_n : S^2 \to S^2$. 
+
+    For which $n$ must any such map have a fixed point?
+
+  - year: 0
+  season: NA 
+  exam: Topology 
+  number: 0
+  tags:
+    - Homology 
+  question: |
+    a.  What is the degree of the antipodal map on the $n$-sphere? 
+        (No justification required)
+
+    b.  Define a CW complex homeomorphic to the real projective $n\dash$space $\RP^n$.
+
+    c.  Let $\pi : \RP^n \to X$ be a covering map. Show that if $n$ is even, $\pi$ is a homeomorphism.
+
+  - year: 0
+  season: NA 
+  exam: Topology 
+  number: 0
+  tags:
+    - Homology 
+  question: |
+    Let $A \subset X$. 
+    Prove that the relative homology group $H_0 (X, A)$ is trivial if and only if $A$ intersects every path component of $X$.
+
+  - year: 0
+  season: NA 
+  exam: Topology 
+  number: 0
+  tags:
+    - Homology 
+  question: |
+    Let $\DD$ be a closed disk embedded in the torus $T = S^1 \times S^1$ and let $X$ be the result of removing the interior of $\DD$ from $T$ . 
+    Let $B$ be the boundary of $X$, i.e. the circle boundary of the original closed disk $\DD$. 
+
+  - year: 0
+  season: NA 
+  exam: Topology 
+  number: 0
+  tags:
+    - Homology 
+  question: |
+    Let $\DD$ be a closed disk embedded in the torus $T = S^1 \times S^1$ and let $X$ be the result of removing the interior of $\DD$ from $T$ . 
+    Let $B$ be the boundary of $X$, i.e. the circle boundary of the original closed disk $\DD$. 
+
+    Compute $H_i (T, B)$ for all $i$.
+
+  - year: 0
+  season: NA 
+  exam: Topology 
+  number: 0
+  tags:
+    - Homology 
+  question: |
+    For any $n \geq 1$ let $S^n = \theset{(x_0 , \cdots , x_n )\mid \sum x_i^2 =1}$ denote the $n$ dimensional unit sphere and let $$E = \theset{(x_0 , . . . , x_n )\mid x_n = 0}$$ denote the "equator".
+
+    Find, for all $k$, the relative homology $H_k (S^n , E)$.
+
+  - year: 0
+  season: NA 
+  exam: Topology 
+  number: 0
+  tags:
+    - Cell Complexes
+  question: |
+    Suppose that $U$ and $V$ are open subsets of a space $X$, with $X = U \cup V$. 
+    Find, with proof, a general formula relating the Euler characteristics of $X, U, V$, and $U \cap V$. 
+
+    > You may assume that the homologies of $U, V, U \cap V, X$ are finite-dimensional so that their Euler characteristics are well defined.
+
+  - year: 0
+  season: NA 
+  exam: Topology 
+  number: 0
+  tags:
+    - Cell Complexes
+  question: |
+    Describe a cell complex structure on the torus $T = S^1 \times S^1$ and use
+    this to compute the homology groups of $T$. 
+
+    > To justify your answer you will need to consider the attaching maps in detail.
+
+  - year: 0
+  season: NA 
+  exam: Topology 
+  number: 0
+  tags:
+    - Cell Complexes
+  question: |
+    Let $X$ be the space formed by identifying the boundary of a
+    Möbius band with a meridian of the torus $T^2$. 
+
+    Compute $\pi_1 (X)$ and $H_* (X)$.
+
+  - year: 0
+  season: NA 
+  exam: Topology 
+  number: 0
+  tags:
+    - Cell Complexes
+  question: |
+    Compute the homology of the space $X$ obtained by attaching a Möbius band to $\RP^2$ via a homeomorphism of its boundary circle to the standard $\RP^1$ in $\RP^2$.
+
+  - year: 0
+  season: NA 
+  exam: Topology 
+  number: 0
+  tags:
+    - Cell Complexes
+  question: |
+    Let $X$ be a space obtained by attaching two 2-cells to the torus $S^1 \times S^1$, one along a simple closed curve $\theset{x} \times S^1$ and the other along $\theset{y} \times S^1$ for two points $x \neq y$ in $S^1$ .
+
+    a. Draw an embedding of $X$ in $\RR^3$ and calculate its fundamental group.
+
+    b. Calculate the homology groups of $X$.
+
+  - year: 0
+  season: NA 
+  exam: Topology 
+  number: 0
+  tags:
+    - Cell Complexes
+  question: |
+    Let $X$ be the space obtained as the quotient of a disjoint union of a 2-sphere $S^2$ and a torus $T = S^1 \times S^1$ by identifying the equator in $S^2$ with a circle $S^1 \times \theset{p}$ in $T$. 
+
+    Compute the homology groups of $X$.
+
+  - year: 0
+  season: NA 
+  exam: Topology 
+  number: 0
+  tags:
+    - Cell Complexes
+  question: |
+    Let $X = S^2 / \theset{p_1 = \cdots = p_k }$ be the topological space obtained from the 2-sphere by identifying $k$ distinct points on it ($k \geq 2$).
+
+    Find:
+
+    a. The fundamental group of $X$.
+
+    b. The Euler characteristic of $X$.
+
+    c. The homology groups of $X$.
+
+  - year: 0
+  season: NA 
+  exam: Topology 
+  number: 0
+  tags:
+    - Cell Complexes
+  question: |
+    Let $X$ be the topological space obtained as the quotient of the sphere $S^2 = \theset{\vector x \in \RR^3 \suchthat \norm{\vector x} = 1}$ under the equivalence relation $\vector x \sim -\vector x$ for $\vector x$ in the equatorial circle, i.e. for $\vector x = (x_1, x_2, 0)$. 
+
+    Calculate $H_* (X; \ZZ)$ from a CW complex description of $X$.
+
+  - year: 0
+  season: NA 
+  exam: Topology 
+  number: 0
+  tags:
+    - Cell Complexes
+  question: |
+    Compute, by any means available, the fundamental group and all the homology groups of the space obtained by gluing one copy $A$ of $S^2$ to another copy $B$ of $S^2$ via a two-sheeted covering space map from the equator of $A$ onto the equator of $B$.
+
+  - year: 0
+  season: NA 
+  exam: Topology 
+  number: 0
+  tags:
+    - Cell Complexes
+  question: |
+    Use cellular homology to calculate the homology groups of $S^n \times S^m$.
+
+  - year: 0
+  season: NA 
+  exam: Topology 
+  number: 0
+  tags:
+    - Cell Complexes
+  question: |
+    Denote the points of $S^1 \times I$ by $(z, t)$ where $z$ is a unit complex number and $0 \leq t \leq 1$. 
+    Let $X$ denote the quotient of $S^1 \times I$ given by identifying $(z, 1)$ and $(z_2 , 0)$ for all $z \in S^1$. 
+
+    Give a cell structure, with attaching maps, for $X$, and use it to compute $\pi_1 (X, \ast)$ and $H_1 (X)$.
+
+  - year: 0
+  season: NA 
+  exam: Topology 
+  number: 0
+  tags:
+    - Cell Complexes
+  question: |
+    Let $X = S_1 \cup S_2 \subset \RR^3$ be the union of two spheres of radius 2, one about $(1, 0, 0)$ and the other about $(-1, 0, 0)$, i.e. 
+    \begin{align*}
+    S_1 &= \theset{(x, y,z) \mid (x-1)^2 + y^2 +z^2 = 4} \\
+    S_2 &= \theset{(x, y, z) \mid (x + 1)^2 + y^2 + z^2 = 4}
+    .\end{align*}
+
+    a. Give a description of $X$ as a CW complex.
+
+    b. Write out the cellular chain complex of $X$.
+
+    c. Calculate $H_* (X; Z)$.
+
+  - year: 0
+  season: NA 
+  exam: Topology 
+  number: 0
+  tags:
+    - Cell Complexes
+  question: |
+    Let $M$ and $N$ be finite CW complexes.
+
+    a. Describe a cellular structure of $M \times N$ in terms of the cellular structures of $M$ and $N$.
+
+    b. Show that the Euler characteristic of $M \times N$ is the product of the Euler characteristics of $M$ and $N$.
+
+  - year: 0
+  season: NA 
+  exam: Topology 
+  number: 0
+  tags:
+    - Cell Complexes
+  question: |
+    Suppose the space $X$ is obtained by attaching a 2-cell to the torus $S^1 \times S^1$.
+
+    In other words, $X$ is the quotient space of the disjoint union of the closed disc $\DD^2$ and the torus $S^1 \times S^1$ by the identification $x \sim f(x)$ where $S^1$ is the boundary of the unit disc and $f : S^1 \to S^1 \times S^1$ is a continuous map.
+
+    What are the possible homology groups of $X$? 
+    Justify your answer.
+
+  - year: 0
+  season: NA 
+  exam: Topology 
+  number: 0
+  tags:
+    - Cell Complexes
+  question: |
+    Let $X$ be the topological space constructed by attaching a closed 2-disk $\DD^2$ to the circle $S^1$ by a continuous map $\partial\DD^2 \to S^1$ of degree $d > 0$ on the boundary circle.
+
+    a.  Show that every continuous map $X \to X$ has a fixed point.
+
+    b.  Explain how to obtain all the connected covering spaces of $X$.
+
+  - year: 0
+  season: NA 
+  exam: Topology 
+  number: 0
+  tags:
+    - Cell Complexes
+  question: |
+    Let $X$ be a topological space obtained by attaching a 2-cell to $\RP^2$ via some map $f: S^1 \to \RP^2$ . 
+
+    What are the possibilities for the homology $H_* (X; Z)$?
+
+  - year: 0
+  season: NA 
+  exam: Topology 
+  number: 0
+  tags:
+    - Cell Complexes
+  question: |
+    For any integer $n \geq 2$ let $X_n$ denote the space formed by attaching a 2-cell to the circle $S^1$ via the attaching map 
+    \begin{align*}
+    a_n: S^1 &\to S^1 \\
+    e^{i\theta} &\mapsto e^{in\theta}
+    .\end{align*}
+
+    a.  Compute the fundamental group and the homology of $X_n$.
+
+    b.  Exactly one of the $X_n$ (for $n \geq 2$) is homeomorphic to a surface. 
+        Identify, with proof, both this value of $n$ and the surface that $X_n$ is homeomorphic to (including a description of the homeomorphism).
+
+  - year: 0
+  season: NA 
+  exam: Topology 
+  number: 0
+  tags:
+    - Cell Complexes
+  question: |
+    Let $X$ be a CW complex and let $\pi : Y \to X$ be a covering space.
+
+    a. Show that $Y$ is compact iff $X$ is compact and $\pi$ has finite degree.
+
+    b.  Assume that $\pi$ has finite degree $d$. 
+        Show show that $\chi (Y ) = d \chi (X)$.
+
+    c.  Let $\pi :\RP^N \to X$ be a covering map. 
+        Show that if $N$ is even, $\pi$ is a homeomorphism.
+
+  - year: 0
+  season: NA 
+  exam: Topology 
+  number: 0
+  tags:
+    - Cell Complexes
+  question: |
+    For topological spaces $X, Y$ the **mapping cone** $C(f )$ of a map $f : X \to Y$ is defined to be the quotient space 
+    \begin{align*}
+    (X \times [0, 1])\disjoint Y / \sim &\qtext{where}  \\ 
+    (x, 0) &\sim (x', 0) \qtext{for all} x, x' \in X \text{ and } \\ 
+    (x, 1) &\sim f (x) \qtext{for all } x \in X
+    .\end{align*}
+
+
+    Let $\phi_k : S^n \to S^n$ be a degree $k$ map for some integer $k$. 
+
+    Find $H_i(C(\phi_k ))$ for all $i$.
+
+  - year: 0
+  season: NA 
+  exam: Topology 
+  number: 0
+  tags:
+    - Cell Complexes
+  question: |
+    Prove that a finite CW complex must be Hausdorff.
+
+  - year: 0
+  season: NA 
+  exam: Topology 
+  number: 0
+  tags:
+    - Cell Complexes
+  question: |
+
+  - year: 0
+  season: NA 
+  exam: Topology 
+  number: 0
+  tags:
+    - Cell Complexes
   question: |
 
 
-   
+

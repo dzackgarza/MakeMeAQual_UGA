@@ -662,6 +662,9 @@ Find, with proof, a general formula relating the Euler characteristics of $X, U,
 
 > You may assume that the homologies of $U, V, U \cap V, X$ are finite-dimensional so that their Euler characteristics are well defined.
 
+
+
+
 # Cell Complexes and "Attaching Map" Spaces
 
 ## 1 (Fall '07). 
