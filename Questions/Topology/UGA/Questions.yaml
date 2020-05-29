@@ -17,7 +17,7 @@
     Then prove that (iii) implies (i).
 
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 2
@@ -697,7 +697,7 @@
     > **Note: multiple appearances!!**
 
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -711,7 +711,7 @@
     .$$
 
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -723,7 +723,7 @@
     Compute the fundamental group and the homology groups of $X$.
 
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -735,7 +735,7 @@
     Let $X$ be the resulting space. Use van Kampen's theorem to compute $\pi_1 (X, \ast)$.
 
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -746,7 +746,7 @@
     Compute $\pi_1 (\RR^3 \backslash L, \ast)$.
 
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -758,7 +758,7 @@
     Compute $\pi_1 (A)$ and give an explicit description of the universal cover of $X$.
 
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -771,7 +771,7 @@
     b. Compute the fundamental group of the connected sum of the projective plane and the two-torus.
 
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -781,7 +781,7 @@
     Compute the fundamental group, using any technique you like, of $\RP^2 \#\RP^2 \#\RP^2$.
 
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -807,7 +807,7 @@
     where the equivalence relation $\sim_n$ identifies a point $x$ on the boundary $T$ of the first copy of $V$ with the point $\phi_n (x)$ on the boundary of the second copy of $V$.
 
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -821,7 +821,7 @@
 
 
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -837,7 +837,7 @@
     iii. Prove that the fundamental group of $X_2$ is a free group on two generators.
 
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -859,7 +859,7 @@
         Prove that $p$ is a homeomorphism.
 
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -875,7 +875,7 @@
     d. Find the universal cover of $\RP^2 \times S^1$ and explicitly describe its group of deck transformations.
 
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -890,7 +890,7 @@
         Give an example of a covering space of $\Theta$ that is not regular.
 
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -907,7 +907,7 @@
     Give an example of a nontrivial element of $\pi_1 (S, \ast)$ which lifts to a trivial deck transformation.
 
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -917,7 +917,7 @@
     Describe the 3-fold connected covering spaces of $S^1 \lor S^1$.
 
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -928,7 +928,7 @@
     Justify your answer.
 
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -938,7 +938,7 @@
     Describe, as explicitly as you can, two different (non-homeomorphic) connected two-sheeted covering spaces of $\RP^2 \lor \RP^3$, and prove that they are not homeomorphic.
 
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -953,7 +953,7 @@
     If there is, give an example; if not, give a proof.
 
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -971,7 +971,7 @@
         Justify your answer, but you need not exhibit the covering maps explicitly.
 
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -983,7 +983,7 @@
     Show that $p\inv (U )$ is connected if and only if the homeomorphism $i_\ast : \pi_1 (U ) \to \pi_1 (S)$ induced by the inclusion $i : U \to S$ is onto.
 
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -997,7 +997,7 @@
     .$$
 
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1009,7 +1009,7 @@
     > Hint: think about covering spaces.
 
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1019,7 +1019,7 @@
     Prove that the free group on two generators contains a subgroup isomorphic to the free group on five generators by constructing an appropriate covering space of $S^1 \lor S^1$.
 
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1029,7 +1029,7 @@
     Use covering space theory to show that $\ZZ_2 \ast \ZZ$  (that is, the free product of $\ZZ_2$ and $\ZZ$)  has two subgroups of index 2 which are not isomorphic to each other.
 
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1042,7 +1042,7 @@
     b.  Prove that if $N$ is a nontrivial normal subgroup of infinite index in a finitely generated free group $F$ , then $N$ is not finitely generated.
 
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1054,7 +1054,7 @@
     Prove that for each $x \in X$ the set $p\inv (\theset{p(x)})$ is finite, and has cardinality equal to the index of $p_* (\pi_1 (X, x))$ in $\pi_1 (Y, p(x))$.
 
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1063,7 +1063,7 @@
   question: |
     Compute the homology of the one-point union of $S^1 \times S^1$ and $S^1$.
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1078,7 +1078,7 @@
         
         Then $X$ is the quotient space of the disjoint union $A \disjoint B$ obtained by identifying $(z, w) \in A$ with $(zw^3 , w) \in B$ for all $(z, w) \in S^1 \times S^1$.
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1090,7 +1090,7 @@
 
     Compute $H_* (X)$ using the Mayer--Vietoris sequence.
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1106,7 +1106,7 @@
     Z =  \theset{x^2 + y^2 + {z^2 \over 4} = 1}
     .$$
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1116,7 +1116,7 @@
     Let $X$ consist of two copies of the solid torus $\DD^2 \times S^1$, glued together by the identity map along the boundary torus $S^1 \times S^1$.
     Compute the homology groups of $X$.
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1125,7 +1125,7 @@
   question: |
     Use the circle along which the connected sum is performed and the Mayer-Vietoris long exact sequence to compute the homology of $\RP^2 \# \RP^2$.
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1136,7 +1136,7 @@
 
     Use the Mayer Vietoris sequence and this decomposition to compute its homology.
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1146,7 +1146,7 @@
     Let $X$ be the topological space obtained by identifying three distinct points on $S^2$. 
     Calculate $H_* (X; Z)$.
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1155,7 +1155,7 @@
   question: |
     Compute $H_0$ and $H_1$ of the complete graph $K_5$ formed by taking five points and joining each pair with an edge.
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1164,7 +1164,7 @@
   question: |
     Compute the homology of the subset $X \subset \RR^3$ formed as the union of the unit sphere, the $z\dash$axis, and the $xy\dash$plane.
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1175,7 +1175,7 @@
 
     Calculate the fundamental group and the homology groups of $X$.
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1196,7 +1196,7 @@
         $$
         Compute $H_1 (T_A^3 )$ if $A=\left(\begin{array}{ll} 1 & 1 \\ 0 & 1 \end{array}\right).$
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1205,7 +1205,7 @@
   question: |
     Give a self-contained proof that the zeroth homology $H_0 (X)$ is isomorphic to $\ZZ$ for every path-connected space $X$.
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1227,7 +1227,7 @@
 
     c. $\ker \partial_1 \neq 0$ but $\ker \partial_1 = \im\partial_2$ with $\partial_2 : C_2 (X) \to C_1 (X)$.
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1236,7 +1236,7 @@
   question: |
     Compute the homology groups of $S^2 \times S^2$.
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1246,7 +1246,7 @@
     Let $\Sigma$ be a closed orientable surface of genus $g$.
     Compute $H_i(S^1 \times \Sigma; Z)$ for $i = 0, 1, 2, 3$.
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1257,7 +1257,7 @@
 
     > Here $H_{n}$ denotes the $n$th singular homology group with integer coefficients.
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1266,7 +1266,7 @@
   question: |
     Does there exist a map of degree 2013 from $S^2 \to S^2$.
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1277,7 +1277,7 @@
 
     For which $n$ must any such map have a fixed point?
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1291,7 +1291,7 @@
 
     c.  Let $\pi : \RP^n \to X$ be a covering map. Show that if $n$ is even, $\pi$ is a homeomorphism.
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1301,7 +1301,7 @@
     Let $A \subset X$. 
     Prove that the relative homology group $H_0 (X, A)$ is trivial if and only if $A$ intersects every path component of $X$.
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1311,7 +1311,7 @@
     Let $\DD$ be a closed disk embedded in the torus $T = S^1 \times S^1$ and let $X$ be the result of removing the interior of $\DD$ from $T$ . 
     Let $B$ be the boundary of $X$, i.e. the circle boundary of the original closed disk $\DD$. 
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1323,7 +1323,7 @@
 
     Compute $H_i (T, B)$ for all $i$.
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1334,7 +1334,7 @@
 
     Find, for all $k$, the relative homology $H_k (S^n , E)$.
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1346,7 +1346,7 @@
 
     > You may assume that the homologies of $U, V, U \cap V, X$ are finite-dimensional so that their Euler characteristics are well defined.
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1358,7 +1358,7 @@
 
     > To justify your answer you will need to consider the attaching maps in detail.
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1370,7 +1370,7 @@
 
     Compute $\pi_1 (X)$ and $H_* (X)$.
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1379,7 +1379,7 @@
   question: |
     Compute the homology of the space $X$ obtained by attaching a Möbius band to $\RP^2$ via a homeomorphism of its boundary circle to the standard $\RP^1$ in $\RP^2$.
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1392,7 +1392,7 @@
 
     b. Calculate the homology groups of $X$.
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1403,7 +1403,7 @@
 
     Compute the homology groups of $X$.
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1420,7 +1420,7 @@
 
     c. The homology groups of $X$.
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1431,7 +1431,7 @@
 
     Calculate $H_* (X; \ZZ)$ from a CW complex description of $X$.
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1440,7 +1440,7 @@
   question: |
     Compute, by any means available, the fundamental group and all the homology groups of the space obtained by gluing one copy $A$ of $S^2$ to another copy $B$ of $S^2$ via a two-sheeted covering space map from the equator of $A$ onto the equator of $B$.
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1449,7 +1449,7 @@
   question: |
     Use cellular homology to calculate the homology groups of $S^n \times S^m$.
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1461,7 +1461,7 @@
 
     Give a cell structure, with attaching maps, for $X$, and use it to compute $\pi_1 (X, \ast)$ and $H_1 (X)$.
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1480,7 +1480,7 @@
 
     c. Calculate $H_* (X; Z)$.
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1493,7 +1493,7 @@
 
     b. Show that the Euler characteristic of $M \times N$ is the product of the Euler characteristics of $M$ and $N$.
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1507,7 +1507,7 @@
     What are the possible homology groups of $X$? 
     Justify your answer.
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1520,7 +1520,7 @@
 
     b.  Explain how to obtain all the connected covering spaces of $X$.
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1531,7 +1531,7 @@
 
     What are the possibilities for the homology $H_* (X; Z)$?
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1549,7 +1549,7 @@
     b.  Exactly one of the $X_n$ (for $n \geq 2$) is homeomorphic to a surface. 
         Identify, with proof, both this value of $n$ and the surface that $X_n$ is homeomorphic to (including a description of the homeomorphism).
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1566,7 +1566,7 @@
     c.  Let $\pi :\RP^N \to X$ be a covering map. 
         Show that if $N$ is even, $\pi$ is a homeomorphism.
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1585,7 +1585,7 @@
 
     Find $H_i(C(\phi_k ))$ for all $i$.
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1594,7 +1594,7 @@
   question: |
     Prove that a finite CW complex must be Hausdorff.
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1606,7 +1606,7 @@
 
     Also, explain briefly how the 2-holed torus and the connected sum $\RP^2 \# \RP^2$ fit into the classification.
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1617,7 +1617,7 @@
 
     Explain why there are no repetitions on your list.
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1628,7 +1628,7 @@
 
     No proof is required.
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1645,7 +1645,7 @@
 
     Describe one representative from each class.
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1654,7 +1654,7 @@
   question: |
     Prove that the Euler characteristic of a compact surface with boundary which has $k$ boundary components is less than or equal to $2 - k$.
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1665,7 +1665,7 @@
 
     First show that X is a compact, orientable surface without boundary, and then identify its genus as a function of $n$.
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1680,7 +1680,7 @@
 
         > Hint: you should be able to do this even if you have not done part (a).
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1691,7 +1691,7 @@
 
     Show that there exists a continuous map $f : M_g^2 \to S^2$ which is not homotopic to a constant map.
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1700,7 +1700,7 @@
   question: |
     Show that $\RP^2 \lor S^1$ is *not* homotopy equivalent to a compact surface (possibly with boundary).
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1709,7 +1709,7 @@
   question: |
     Identify (with proof, but of course you can appeal to the classification of surfaces) all of the compact surfaces without boundary that have a cell decomposition having exactly one 0-cell and exactly two 1-cells (with no restriction on the number of cells of dimension larger than 1).
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1722,7 +1722,7 @@
 
     > Hint: How does the Euler characteristic behave for covering spaces?
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1732,7 +1732,7 @@
     Find *all* surfaces, orientable and non-orientable, which can be covered by a closed surface (i.e. compact with empty boundary) of genus 2. 
     Prove that your answer is correct.
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1746,7 +1746,7 @@
     c.  Show that there is no covering space map from $\Sigma_2$ to $S^1 \times S^1$ . 
         You may use the fact that $\pi_1 (S^1 \times S^1 ) \cong \ZZ^2$ together with the result in part (b) above.
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1755,7 +1755,7 @@
   question: |
     Give an example, with explanation, of a closed curve in a surfaces which is not nullhomotopic but is nullhomologous.
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1772,7 +1772,7 @@
 
     (You are not required to prove that your example satisfies the stated property.)
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1786,7 +1786,7 @@
 
     Can all surface with nonempty boundary and with this Euler characteristic be obtained from this construction?
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1797,7 +1797,7 @@
 
     Prove that $H_2 \qty{\Sigma \setminus \union_{i=1}^k {p_i} } = 0$.
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1808,7 +1808,7 @@
 
     Every continuous map from $S^2$ to $S^2$ has a fixed point.
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1819,7 +1819,7 @@
 
     b. Use degree theory to prove this theorem in case $X = S^n$.
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1834,7 +1834,7 @@
 
     > Hint: It might help to first think about how you could do this for a map from $S^1$ to $S^1$.
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1843,7 +1843,7 @@
   question: |
     Show that a map $S^n \to S^n$ has a fixed point unless its degree is equal to the degree of the antipodal map $a : x \to -x$.
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1852,7 +1852,7 @@
   question: |
     Give an example of a homotopy class of maps of $S^1 \lor  S^1$ each member of which must have a fixed point, and also an example of a map of $S^1 \lor S^1$ which doesn't have a fixed point.
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1863,7 +1863,7 @@
 
     Every map from $\RP^2 \lor \RP^2$ to itself has a fixed point.
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1872,7 +1872,7 @@
   question: |
     Find all homotopy classes of maps from $S^1 \times \DD^2$ to itself such that every element of the homotopy class has a fixed point.
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1883,7 +1883,7 @@
 
     Show that no matter how you homotope $f \lor g : X \lor Y \to X \lor Y$, there will always be a fixed point.
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1894,7 +1894,7 @@
 
     Show that one map is homotopic to a map with no fixed points, while the other is not.
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1913,7 +1913,7 @@
 
     d. Find a necessary and sufficient condition on $A$ for $\mca$ to be homotopic to a map with no fixed points.
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1926,7 +1926,7 @@
 
     c. Give an example of a degree-one map $f : S^2 \to S^2$ having exactly one fixed point.
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1937,7 +1937,7 @@
 
     Explain your answer fully.
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1946,7 +1946,7 @@
   question: |
     Use the Brouwer fixed point theorem to show that an $n \times n$ matrix with nonnegative entries has a real eigenvalue.
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1955,7 +1955,7 @@
   question: |
     Prove that $\RR^2$ is not homeomorphic to $\RR^n$ for $n > 2$.
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1964,7 +1964,7 @@
   question: |
     Prove that any finite tree is contractible, where a **tree** is a connected graph that contains no closed edge paths.
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1973,7 +1973,7 @@
   question: |
     Show that any continuous map $f : \RP^2 \to S^1 \times S^1$ is necessarily null-homotopic.
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1982,7 +1982,7 @@
   question: |
     Prove that, for $n \geq 2$, every continuous map $f: \RP^n \to S^1$ is null-homotopic.
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -1994,7 +1994,7 @@
     Is this map null-homotopic? 
     Give a proof of your answer.
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -2005,7 +2005,7 @@
 
     Prove that $f$ is homotopic to a constant function.
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -2026,7 +2026,7 @@
 
     > Hint: Consider what $f$ does to the path $s \mapsto (e^{i\theta_0} , s)$ for fixed $e^{i\theta_0} \in S^1$.
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -2035,7 +2035,7 @@
   question: |
     Show that $S^1 \times S^1$ is not the union of two disks (where there is no assumption that the disks intersect along their boundaries).
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -2046,7 +2046,7 @@
 
     Show that if $X$ is a path connected space, then $Y$ is path connected.
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
@@ -2059,7 +2059,7 @@
 
     b. Give (with justification) two topological spaces that have the same homology groups but that are not homotopy equivalent.
 
-  - year: 0
+- year: 0
   season: NA 
   exam: Topology 
   number: 0
