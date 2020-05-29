@@ -313,6 +313,13 @@ a. Show that $U$ is a countable union of closed subsets of $X$.
 
 b. Show that there is a continuous function $f : X \to [0,1]$ such that $f (x) > 0$ for $x \in U$ and $f (x) = 0$ for $x \in U$.
 
+
+
+
+
+
+
+
 # The Fundamental Group
 
 ## 1 (Spring '15). 
@@ -402,6 +409,9 @@ ii. Consider $X_1$ the "planar figure eight" and $$X_2 = S^1 \cup ({0} \times [-
     Show that $X_1$ and $X_2$ have isomorphic fundamental groups.
 
 iii. Prove that the fundamental group of $X_2$ is a free group on two generators.
+
+
+
 
 # Covering spaces
 
