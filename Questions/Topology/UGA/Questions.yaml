@@ -419,13 +419,13 @@
     - Metric spaces
     - Analysis
   question: |
-  A metric space is said to be **totally bounded** if for every $\eps > 0$ there exists a finite cover of $X$ by open balls of radius $\eps$.
+    A metric space is said to be **totally bounded** if for every $\eps > 0$ there exists a finite cover of $X$ by open balls of radius $\eps$.
 
-  a. Show: a metric space $X$ is totally bounded iff every sequence in $X$ has a Cauchy subsequence.
+    a. Show: a metric space $X$ is totally bounded iff every sequence in $X$ has a Cauchy subsequence.
 
-  b. Exhibit a complete metric space $X$ and a closed subset $A$ of $X$ that is bounded but not totally bounded. 
+    b. Exhibit a complete metric space $X$ and a closed subset $A$ of $X$ that is bounded but not totally bounded. 
 
-  > You are not required to prove that your example has the stated properties.
+    > You are not required to prove that your example has the stated properties.
 
 
 - year: 0
@@ -1214,7 +1214,13 @@
   question: |
     Give a self-contained proof that the zeroth homology $H_0 (X)$ is isomorphic to $\ZZ$ for every path-connected space $X$.
 
-    ## 14 (Fall '18). 
+- year: 2018
+  season: Fall 
+  exam: Topology 
+  number: 14
+  tags:
+    - Homology 
+  question: |
     It is a fact that if $X$ is a single point then $H_1 (X) = \theset{0}$. 
 
     One of the following is the correct justification of this fact in terms of the singular chain complex. 
@@ -2015,7 +2021,13 @@
     Prove that there does not exist a continuous map $f : S^2 \to S^2$ from the unit sphere in $\RR^3$ to itself such that $f (\vector x) \perp \vector x$ 
     (as vectors in $\RR^3$ for all $\vector x \in S^2$).
 
-    ## 8 (Spring '08). 
+- year: 2008
+  season: Spring 
+  exam: Topology 
+  number: 8
+  tags:
+    - Misc
+  question: |
     Let $f$ be the map of $S^1 \times [0, 1]$ to itself defined by
     $$
     f (e^{i\theta} , s) = (e^{i(\theta+2\pi s)} , s)
