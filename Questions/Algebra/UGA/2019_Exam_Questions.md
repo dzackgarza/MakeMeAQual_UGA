@@ -22,4 +22,12 @@ title: Midterm and Final Exam Questions, Fall 2019
 
 1. Let $A$ be an abelian group, and show $A$ is a $\ZZ\dash$module in a unique way.
 2. Consider the $\ZZ\dash$submodule $N$ of $\ZZ^3$ spanned by $f_1 = [-1, 0, 1], f_2 = [2,-3,1], f_3 = [0, 3, 1], f_4 = [3,1,5]$. Find a basis for $N$ and describe $\ZZ^3/N$.
-
+3. Let $R = k[x]$ for $k$ a field and let $M$ be the $R\dash$module given by
+  \begin{align*}
+  M=\frac{k[x]}{(x-1)^{3}} \oplus \frac{k[x]}{\left(x^{2}+1\right)^{2}} \oplus \frac{k[x]}{(x-1)\left(x^{2}+1\right)^{4}} \oplus \frac{k[x]}{(x+2)\left(x^{2}+1\right)^{2}}
+  .\end{align*}
+  Describe the elementary divisors and invariant factors of $M$.
+4. Let $I = (2, x)$ be an ideal in $R = \ZZ[x]$, and show that $I$ is not a direct sum of nontrivial cyclic $R\dash$modules.
+5. Let $R$ be a PID. 
+  - Classify irreducible $R\dash$modules up to isomorphism.
+  - Classify indecomposable $R\dash$modules up to isomorphism.
