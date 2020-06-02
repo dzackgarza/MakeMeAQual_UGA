@@ -31,3 +31,9 @@ title: Midterm and Final Exam Questions, Fall 2019
 5. Let $R$ be a PID. 
   - Classify irreducible $R\dash$modules up to isomorphism.
   - Classify indecomposable $R\dash$modules up to isomorphism.
+6. Let $V$ be a finite-dimensional $k\dash$vector space and $T:V\to V$ a non-invertible $k\dash$linear map. Show that there exists a $k\dash$linear map $S:V\to V$ with $T\circ S = 0$ but $S\circ T\neq 0$. 
+7. Let $A\in M_n(\CC)$ with $A^2 = A$. Show that $A$ is similar to a diagonal matrix, and exhibit an explicit diagonal matrix similar to $A$.
+8. Exhibit the rational canonical form for
+  - $A\in M_6(\QQ)$ with minimal polynomial $(x-1)(x^2 + 1)^2$.
+  - $A\in M_{10}(\QQ)$ with minimal polynomial $(x^2+1)^2(x^3 + 1)$.
+
