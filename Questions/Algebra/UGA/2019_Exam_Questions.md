@@ -2,7 +2,6 @@
 title: Midterm and Final Exam Questions, Fall 2019
 ---
 
-
 # Midterm
 
 1. Let $G$ be a group of order $p^2q$ for $p, q$ prime. Show that $G$ has a nontrivial normal subgroup.
@@ -17,6 +16,8 @@ title: Midterm and Final Exam Questions, Fall 2019
 10. Let $L/K$ be a finite normal extension
   - Show that if $L/K$ is cyclic and $E/K$ is normal with $L/E/K$ then $L/E$ and $E/K$ are cyclic.
   - Show that if $L/K$ is cyclic then there exists exactly one extension $E/K$ of degree $n$ with $L/E/K$ for each divisor $n$ of $[L:K]$.
+
+\newpage
 
 # Final
 
@@ -36,4 +37,14 @@ title: Midterm and Final Exam Questions, Fall 2019
 8. Exhibit the rational canonical form for
   - $A\in M_6(\QQ)$ with minimal polynomial $(x-1)(x^2 + 1)^2$.
   - $A\in M_{10}(\QQ)$ with minimal polynomial $(x^2+1)^2(x^3 + 1)$.
+9. Exhibit the rational and Jordan canonical forms for the following matrix $A\in M_4(\CC)$:
+  \begin{align*}
+  A=\left(\begin{array}{cccc}
+  2 & 0 & 0 & 0 \\
+  1 & 1 & 0 & 0 \\
+  -2 & -2 & 0 & 1 \\
+  -2 & 0 & -1 & -2
+  \end{array}\right)
+  .\end{align*}
+10. Show that the eigenvalues of a Hermitian matrix $A$ are real and that $A = PDP\inv$ where $P$ is an invertible matrix with orthogonal columns.
 
