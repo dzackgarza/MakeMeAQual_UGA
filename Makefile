@@ -9,8 +9,9 @@ json:
 
 testpdf:
 	@ find ./Questions -type f -iname "*.yaml" -exec cat {} + > combined_questions.yaml
-	./make_md_doc.py
-	latex_preview -f Combined_Questions.md -v
+	./make_md_doc.py # --> Combined_Questions.md
+	latex_preview -f Combined_Questions.md 
+	echo "Output written at Combined_Questions.pdf"
 
 update:
 	make json
