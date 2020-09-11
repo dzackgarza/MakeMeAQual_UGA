@@ -46,7 +46,7 @@ def example():
                 orig_number = x['number'],
                 content = x['question']
             )
-        print(out_str)
+        #print(out_str)
         total_string += out_str
     #print(total_string)
 
