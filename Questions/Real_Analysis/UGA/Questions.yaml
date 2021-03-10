@@ -32,7 +32,6 @@
       Prove that for every $ε > 0$ there exists $δ > 0$ so that if $E \in \mathcal B$ with $m(E) < δ$, then $µ(E) < ε$.
 
 
-
 - year: 2019
   season: Spring
   exam: Real_Analysis
@@ -44,9 +43,9 @@
     - Fatou
     - Egorov
   question: |
-    Let $\{f_k\}$ be any sequence of functions in $L^2([0, 1])$ satisfying $\norm{f_k}_2 ≤ M$ for all $k ∈ \NN$.
+    Let $\{f_k\}$ be any sequence of functions in $L^2([0, 1])$ satisfying $\norm{f_k}_2 ≤ M$ for all $k \in \NN$.
       
-    Prove that if $f_k → f$ almost everywhere, then $f ∈ L^2([0, 1])$ with $\norm{f}_2 ≤ M$ and
+    Prove that if $f_k → f$ almost everywhere, then $f \in L^2([0, 1])$ with $\norm{f}_2 ≤ M$ and
     $$
     \lim _{k \rightarrow \infty} \int_{0}^{1} f_{k}(x) dx = \int_{0}^{1} f(x) d x
     $$
@@ -63,7 +62,7 @@
   tags:
     - Measure Theory
   question: |
-    Let $f$ be a non-negative function on $\RR^n$ and $\mathcal A = \{(x, t) ∈ \RR^n × \RR : 0 ≤ t ≤ f (x)\}$.
+    Let $f$ be a non-negative function on $\RR^n$ and $\mathcal A = \{(x, t) \in \RR^n × \RR : 0 ≤ t ≤ f (x)\}$.
 
     Prove the validity of the following two statements:
 
@@ -93,14 +92,14 @@
         Prove the Riesz Representation Theorem for $L^1([0, 1])$ by following the steps below:
 
 
-        i. Establish the existence of a function $g ∈ L^2([0, 1])$ which represents $Λ$ in the sense that
+        i. Establish the existence of a function $g \in L^2([0, 1])$ which represents $Λ$ in the sense that
         $$
-        Λ(f ) = f (x)g(x) dx \text{ for all } f ∈ L^2([0, 1]).
+        Λ(f ) = f (x)g(x) dx \text{ for all } f \in L^2([0, 1]).
         $$
 
         > Hint: You may use, without proof, the Riesz Representation Theorem for $L^2([0, 1])$.
 
-        ii. Argue that the $g$ obtained above must in fact belong to $L^∞([0, 1])$ and represent $Λ$ in the sense that
+        ii. Argue that the $g$ obtained above must in fact belong to $L^\infty([0, 1])$ and represent $Λ$ in the sense that
         $$
         \Lambda(f)=\int_{0}^{1} f(x) \overline{g(x)} d x \quad \text { for all } f \in L^{1}([0,1])
         $$
@@ -120,7 +119,7 @@
   question: |
     Let $\{a_n\}_{n=1}^\infty$ be a sequence of real numbers.
 
-    a. Prove that if $\displaystyle\lim_{n→∞} a_n = 0$, then $\displaystyle\lim_{n→∞} a_1 + \cdots + a_n = 0$.
+    a. Prove that if $\displaystyle\lim_{n→\infty} a_n = 0$, then $\displaystyle\lim_{n→\infty} a_1 + \cdots + a_n = 0$.
     $$
     \lim _{n \rightarrow \infty} \frac{a_{1}+\cdots+a_{n}}{n}=0
     $$
@@ -189,7 +188,7 @@
     - Hilbert Spaces
     - Norms
   question: |
-    Let $\{u_n\}_{n=1}^∞$ be an orthonormal sequence in a Hilbert space $\mathcal{H}$.
+    Let $\{u_n\}_{n=1}^\infty$ be an orthonormal sequence in a Hilbert space $\mathcal{H}$.
 
     a. Prove that for every $x \in \mathcal H$ one has 
     $$
@@ -1156,9 +1155,9 @@
     1. Give an example of a continuous $f\in L^1(\RR)$ such that $f(x) \not\to 0$ as$\abs x \to \infty$.
 
     2. Show that if $f$ is *uniformly* continuous, then
-    $$
-    \lim_{\abs x \to \infty} f(x) = 0.
-    $$
+    \[
+    \lim_{\abs{x} \to \infty} f(x) = 0.
+    \]
 
 - year: 2014
   season: Spring
@@ -1336,5 +1335,3 @@
     $$
     f \in L^p(\RR^n) \implies \|f\|_{p}=\sup _{\|g\|_{q}=1}\left|\int f(x) g(x) d x\right|
     $$
-
-
