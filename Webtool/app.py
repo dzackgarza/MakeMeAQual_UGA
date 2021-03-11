@@ -15,7 +15,7 @@ pandoc temp.md -f markdown -r markdown+tex_math_dollars+simple_tables+table_capt
 """
 
 pandoc_cmd_pdf = """
-pandoc temp.md -f markdown -r markdown+tex_math_dollars+simple_tables+table_captions+yaml_metadata_block+smart+blank_before_blockquote+backtick_code_blocks+link_attributes --template=pandoc_template.tex  --pdf-engine=pdflatex --lua-filter=dollar_math.lua -t latex -o out.pdf && cat out.pdf
+pandoc temp.md -f markdown -r markdown+tex_math_dollars+simple_tables+table_captions+yaml_metadata_block+smart+blank_before_blockquote+backtick_code_blocks+link_attributes --template=/home/zack/dotfiles/.pandoc/pandoc-templates/MakeMeAQual_template.tex  --pdf-engine=pdflatex --lua-filter=dollar_math.lua -t latex -o out.pdf && cat out.pdf
 """
 @app.route("/")
 def hello():
@@ -34,7 +34,7 @@ def example():
     questions = random.sample(all_questions, num_questions)
         
     # Start building markdown document
-    total_string = "" if to_pdf else open('~/dotfiles/.pandoc/latexmacs.tex', 'r').read() + "\n\n"
+    total_string = "" if to_pdf else open('/home/zack/dotfiles/.pandoc/custom/latexmacs.tex', 'r').read() + "\n\n"
     total_string += "---\ntitle: Qualifying Exam\n---\n\n"
 
     # Add all questions to doc
