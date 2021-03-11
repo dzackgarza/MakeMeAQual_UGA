@@ -1,3 +1,3732 @@
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Liouville's Theorem 
+  question: |
+    (1) Assume $\displaystyle f(z) = \sum_{n=0}^\infty c_n z^n$
+    converges in $|z| < R$. Show that for $r <R$,
+    $$\frac{1}{2 \pi} \int_0^{2 \pi} |f(r e^{i \theta})|^2 d \theta =
+    \sum_{n=0}^\infty |c_n|^2 r^{2n} \; .$$
+
+    (2) Deduce Liouville's theorem from (1).
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Analysis
+  question: |
+    Let $f$ be a continuous function in the region
+    $$D=\{z \suchthat  \abs{z}>R, 0\leq \arg z\leq \theta\}\quad\text{where}\quad
+    1\leq \theta \leq 2\pi.$$ If there exists $k$ such that
+    $\displaystyle{\lim_{z\to\infty} zf(z)=k}$ for $z$ in the region
+    $D$. 
+    Show that $$\lim_{R'\to\infty} \int_{L} f(z) dz=i\theta k,$$
+    where $L$ is the part of the circle $|z|=R'$ which lies in the
+    region $D$.
+
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Analytic Functions
+    - Residues
+    - Series of Functions
+  question: |
+    Suppose that $f$ is an analytic function in the region $D$ which
+    contains the point $a$. Let
+    $$F(z)= z-a-qf(z),\quad \text{where}~ q \ \text{is a complex
+    parameter}.$$ 
+
+    (1) Let $K\subset D$ be a circle with the center at
+    point $a$ and also we assume that $f(z)\not =0$ for $z\in K$. Prove
+    that the function $F$ has one and only one zero $z=w$ on the closed
+    disc $\bar{K}$ whose boundary is the circle $K$ if $\displaystyle{
+    |q|<\min_{z\in K} \frac{|z-a|}{|f(z)|}.}$\
+    
+    (2) Let $G(z)$ be an analytic function on the disk $\bar{K}$. Apply
+    the residue theorem to prove that
+    $\displaystyle{ \frac{G(w)}{F'(w)}=\frac{1}{2\pi
+    i}\int_K \frac{G(z)}{F(z)} dz,}$ where $w$ is the zero from (1).\
+    
+    (3) If $z\in K$, prove that the function
+    $\displaystyle{\frac{1}{F(z)}}$ can be represented as a convergent
+    series with respect to $q$: $\displaystyle{
+    \frac{1}{F(z)}=\sum_{n=0}^{\infty} \frac{(qf(z))^n}{(z-a)^{n+1}}.}$
+
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Integrals 
+  question: |
+    Evaluate $$\displaystyle{ \int_{0}^{\infty}\frac{x\sin x}{x^2+a^2} \,
+    dx }.$$
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Cauchy-Riemann 
+  question: |
+    Let $f=u+iv$ be differentiable (i.e. $f'(z)$ exists) with continuous
+    partial derivatives at a point $z=re^{i\theta}$, $r\not= 0$. Show
+    that
+    $$\frac{\partial u}{\partial r}=\frac{1}{r}\frac{\partial v}{\partial \theta},\quad
+    \frac{\partial v}{\partial r}=-\frac{1}{r}\frac{\partial u}{\partial \theta}.$$
+
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Integrals 
+  question: |
+    Show that $\displaystyle \int_0^\infty \frac{x^{a-1}}{1+x^n}
+    dx=\frac{\pi}{n\sin \frac{a\pi}{n}}$ using complex analysis, $0< a <
+    n$. Here $n$ is a positive integer.
+
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Integrals 
+  question: |
+    For $s>0$, the **gamma function** is defined by
+    $\displaystyle{\Gamma(s)=\int_0^{\infty} e^{-t}t^{s-1} dt}$.
+
+    1.  Show that the gamma function is analytic in the half-plane
+        $\Re (s)>0$, and is still given there by the integral formula
+        above.
+
+    2.  Apply the formula in the previous question to show that
+        $$\Gamma(s)\Gamma(1-s)=\frac{\pi}{\sin \pi s}.$$
+
+    > Hint: You may need $\displaystyle{\Gamma(1-s)=t \int_0^{\infty}e^{-vt}(vt)^{-s} dv}$ for $t>0$.
+
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Rouche 
+    - Polynomials
+    - Holomorphic Functions
+  question: |
+    Apply Rouché's Theorem to prove the Fundamental Theorem of Algebra: If
+    $$P_n(z) = a_0 + a_1z + \cdots + a_{n-1}z^{n-1} + a_nz^n\quad  (a_n \neq 0)$$
+    is a polynomial of degree n, then it has n zeros in $\mathbb C$.
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Entire Functions
+    - Analysis
+  question: |
+    Suppose $f$ is entire and there exist $A, R >0$ and natural number
+    $N$ such that $$|f(z)| \geq A |z|^N\ \text{for}\ |z| \geq R.$$ Show
+    that 
+    
+    (i) $f$ is a polynomial and 
+    
+    (ii) the degree of $f$ is at least $N$.
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Analytic Functions
+  question: |
+    Let $f: {\mathbb C} \rightarrow {\mathbb C}$ be an injective
+    analytic (also called *univalent*) function. Show that there exist
+    complex numbers $a \neq 0$ and $b$ such that $f(z) = az + b$.
+
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Analytic Functions
+    - Analysis
+    - Conformal Maps
+  question: |
+    Let $g$ be analytic for $|z|\leq 1$ and $|g(z)| < 1$ for $|z| = 1$.
+
+    1.  Show that $g$ has a unique fixed point in $|z| < 1$.
+
+    2.  What happens if we replace $|g(z)| < 1$ with $|g(z)|\leq 1$ for
+        $|z|=1$? Give an example if (a) is not true or give an proof
+        if (a) is still true.
+
+    3.  What happens if we simply assume that $f$ is analytic for
+        $|z| < 1$ and $|f(z)| < 1$ for $|z| < 1$? Suppose that $f(z)
+        \not\equiv  z$. Can f have more than one fixed point in
+        $|z| < 1$?
+
+    > Hint: The map $\displaystyle{\psi_{\alpha}(z)=\frac{\alpha-z}{1-\bar{\alpha}z}}$ may be useful.
+
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Conformal Maps
+  question: |
+    Find a conformal map from $D = \{z :\  |z| < 1,\ |z - 1/2| > 1/2\}$
+    to the unit disk $\Delta=\{z: \ |z|<1\}$.
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Entire Functions
+    - Analysis
+  question: |
+    Let $f(z)$ be entire and assume values of $f(z)$ lie outside a *bounded*
+    open set $\Omega$. Show without using Picard's theorems that $f(z)$ is a
+    constant.
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Liouville's Theorem
+  question: |
+    (1) Assume $\displaystyle f(z) = \sum_{n=0}^\infty c_n z^n$ converges
+    in $|z| < R$. Show that for $r <R$,
+    $$\frac{1}{2 \pi} \int_0^{2 \pi} |f(r e^{i \theta})|^2 d \theta
+    = \sum_{n=0}^\infty |c_n|^2 r^{2n} \; .$$
+
+    (2) Deduce Liouville's theorem from (1).
+
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Entire Functions
+    - Analysis
+  question: |
+    Let $f(z)$ be entire and assume that $f(z) \leq M |z|^2$ outside some
+    disk for some constant $M$. Show that $f(z)$ is a polynomial in $z$ of
+    degree $\leq 2$.
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Convergence
+    - Analysis
+  question: |
+    Let $a_n(z)$ be an analytic sequence in a domain $D$ such that
+    $\displaystyle \sum_{n=0}^\infty |a_n(z)|$ converges uniformly on
+    bounded and closed sub-regions of $D$. Show that
+    $\displaystyle \sum_{n=0}^\infty |a'_n(z)|$ converges uniformly on
+    bounded and closed sub-regions of $D$.
+
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Analytic Functions
+    - Analysis
+  question: |
+    Let $f(z)$ be analytic in an open set $\Omega$ except possibly at a
+    point $z_0$ inside $\Omega$. Show that if $f(z)$ is bounded in near
+    $z_0$, then $\displaystyle \int_\Delta f(z) dz = 0$ for all triangles
+    $\Delta$ in $\Omega$.
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Analysis
+    - Limits
+  question: |
+    Assume $f$ is continuous in the region:
+    $0< |z-a| \leq R, \; 0 \leq \arg(z-a) \leq \beta_0$
+    ($0 < \beta_0 \leq 2 \pi$) and the limit
+    $\displaystyle \lim_{z \rightarrow a} (z-a) f(z) = A$ exists. Show that
+    $$\lim_{r \rightarrow 0} \int_{\gamma_r} f(z) dz  = i A \beta_0 \; , \; \;$$
+    where
+    $$\gamma_r : = \{ z \; | \; z = a + r e^{it}, \; 0 \leq  t \leq \beta_0 \}.$$
+
+
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Uniform Continuity 
+  question: |
+    Show that $f(z) = z^2$ is uniformly continuous in any open disk
+    $|z| < R$, where $R>0$ is fixed, but it is not uniformly continuous on
+    $\mathbb C$.
+
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - PDEs
+  question: |
+    (1) Show that the function $u=u(x,y)$ given by
+    $$u(x,y)=\frac{e^{ny}-e^{-ny}}{2n^2}\sin nx\quad \text{for}\ n\in {\mathbf N}$$
+    is the solution on $D=\{(x,y)\ | x^2+y^2<1\}$ of the Cauchy problem for
+    the Laplace equation
+    $$\frac{\partial ^2u}{\partial x^2}+\frac{\partial ^2u}{\partial y^2}=0,\quad
+    u(x,0)=0,\quad \frac{\partial u}{\partial y}(x,0)=\frac{\sin nx}{n}.$$
+
+    (2) Show that there exist points $(x,y)\in D$ such that
+    $\displaystyle{\limsup_{n\to\infty} |u(x,y)|=\infty}$.
+   
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Liouville's Theorem 
+  question: |
+    (1) Assume $\displaystyle f(z) = \sum_{n=0}^\infty c_n z^n$
+    converges in $|z| < R$. Show that for $r <R$,
+    $$\frac{1}{2 \pi} \int_0^{2 \pi} |f(r e^{i \theta})|^2 d \theta =
+    \sum_{n=0}^\infty |c_n|^2 r^{2n} \; .$$
+
+    (2) Deduce Liouville's theorem from (1).
+
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Analysis
+    - Limits
+  question: |
+    Let $f$ be a continuous function in the region
+    $$D=\{z\ |  |z|>R, 0\leq \arg Z\leq \theta\}\quad\text{where}\quad
+    0\leq \theta \leq 2\pi.$$ If there exists $k$ such that
+    $\displaystyle{\lim_{z\to\infty} zf(z)=k}$ for $z$ in the region
+    $D$. Show that $$\lim_{R'\to\infty} \int_{L} f(z) dz=i\theta k,$$
+    where $L$ is the part of the circle $|z|=R'$ which lies in the
+    region $D$.
+
+
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Integrals
+  question: |
+    Evaluate $\displaystyle{ \int_{0}^{\infty}\frac{x\sin x}{x^2+a^2} \,dx }$.
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Cauchy-Riemann
+  question: |
+    Let $f=u+iv$ be differentiable (i.e. $f'(z)$ exists) with continuous
+    partial derivatives at a point $z=re^{i\theta}$, $r\not= 0$. Show
+    that
+    $$\frac{\partial u}{\partial r}=\frac{1}{r}\frac{\partial v}{\partial \theta},\quad
+    \frac{\partial v}{\partial r}=-\frac{1}{r}\frac{\partial u}{\partial \theta}.$$
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Integrals
+  question: |
+    Show that $\displaystyle \int_0^\infty \frac{x^{a-1}}{1+x^n}
+    dx=\frac{\pi}{n\sin \frac{a\pi}{n}}$ using complex analysis, $0< a <
+    n$. Here $n$ is a positive integer.
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Analytic Functions
+    - Integrals
+  question: |
+    For $s>0$, the **gamma function** is defined by
+    $\displaystyle{\Gamma(s)=\int_0^{\infty} e^{-t}t^{s-1} dt}$.
+
+    1.  Show that the gamma function is analytic in the half-plane
+        $\Re (s)>0$, and is still given there by the integral formula
+        above.
+
+    2.  Apply the formula in the previous question to show that
+        $$\Gamma(s)\Gamma(1-s)=\frac{\pi}{\sin \pi s}.$$
+
+    > Hint: You may need $\displaystyle{\Gamma(1-s)=t \int_0^{\infty}e^{-vt}(vt)^{-s} dv}$ for $t>0$.
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Entire Functions
+    - Analysis
+  question: |
+    Suppose $f$ is entire and there exist $A, R >0$ and natural number
+    $N$ such that $$|f(z)| \geq A |z|^N\ \text{for}\ |z| \geq R.$$ Show
+    that 
+
+    (i) $f$ is a polynomial and 
+
+    (ii) the degree of $f$ is at least $N$.
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Analytic Functions
+  question: |
+    Let $f: {\mathbb C} \rightarrow {\mathbb C}$ be an injective
+    analytic (also called univalent) function. Show that there exist
+    complex numbers $a \neq 0$ and $b$ such that $f(z) = az + b$.
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Analytic Functions
+    - Analysis
+    - Conformal Maps
+  question: |
+    Let $g$ be analytic for $|z|\leq 1$ and $|g(z)| < 1$ for $|z| = 1$.
+
+    -   Show that $g$ has a unique fixed point in $|z| < 1$.
+
+    -   What happens if we replace $|g(z)| < 1$ with $|g(z)|\leq 1$ for
+        $|z|=1$? Give an example if (a) is not true or give an proof
+        if (a) is still true.
+
+    -   What happens if we simply assume that $f$ is analytic for
+        $|z| < 1$ and $|f(z)| < 1$ for $|z| < 1$? Suppose that $f(z)
+        \not\equiv  z$. Can f have more than one fixed point in
+        $|z| < 1$?
+
+    > Hint: The map
+    $\displaystyle{\psi_{\alpha}(z)=\frac{\alpha-z}{1-\bar{\alpha}z}}$
+    > may be useful.
+
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Conformal Maps
+  question: |
+    Find a conformal map from $D = \{z :\  |z| < 1,\ |z - 1/2| > 1/2\}$
+    to the unit disk $\Delta=\{z: \ |z|<1\}$.
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Entire Functions
+  question: |
+    Let $f(z)$ be entire and assume values of $f(z)$ lie outside a
+    *bounded* open set $\Omega$. Show without using Picard's theorems
+    that $f(z)$ is a constant.
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Liouville's Theorem
+  question: |
+    (1) Assume $\displaystyle f(z) = \sum_{n=0}^\infty c_n z^n$ converges
+    in $|z| < R$. Show that for $r <R$,
+    $$\frac{1}{2 \pi} \int_0^{2 \pi} |f(r e^{i \theta})|^2 d \theta
+    = \sum_{n=0}^\infty |c_n|^2 r^{2n} \; .$$
+
+    (2) Deduce Liouville's theorem from (1).
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Entire Functions
+    - Analysis
+  question: |
+    Let $f(z)$ be entire and assume that $f(z) \leq M |z|^2$ outside some
+    disk for some constant $M$. Show that $f(z)$ is a polynomial in $z$ of
+    degree $\leq 2$.
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Convergence
+  question: |
+    Let $a_n(z)$ be an analytic sequence in a domain $D$ such that
+    $\displaystyle \sum_{n=0}^\infty |a_n(z)|$ converges uniformly on
+    bounded and closed sub-regions of $D$. Show that
+    $\displaystyle \sum_{n=0}^\infty |a'_n(z)|$ converges uniformly on
+    bounded and closed sub-regions of $D$.
+
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Analytic Functions
+  question: |
+    Let $f(z)$ be analytic in an open set $\Omega$ except possibly at a
+    point $z_0$ inside $\Omega$. Show that if $f(z)$ is bounded in near
+    $z_0$, then $\displaystyle \int_\Delta f(z) dz = 0$ for all triangles
+    $\Delta$ in $\Omega$.
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Analysis
+    - Limits
+  question: |
+    Assume $f$ is continuous in the region:
+    $0< |z-a| \leq R, \; 0 \leq \arg(z-a) \leq \beta_0$
+    ($0 < \beta_0 \leq 2 \pi$) and the limit
+    $\displaystyle \lim_{z \rightarrow a} (z-a) f(z) = A$ exists. Show that
+    $$\lim_{r \rightarrow 0} \int_{\gamma_r} f(z) dz  = i A \beta_0 \; , \; \;$$
+    where
+    $$\gamma_r : = \{ z \; | \; z = a + r e^{it}, \; 0 \leq  t \leq \beta_0 \}.$$
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - PDEs
+  question: |
+    Show that $f(z) = z^2$ is uniformly continuous in any open disk
+    $|z| < R$, where $R>0$ is fixed, but it is not uniformly continuous on
+    $\mathbb C$.
+
+    (1) Show that the function $u=u(x,y)$ given by
+        $$u(x,y)=\frac{e^{ny}-e^{-ny}}{2n^2}\sin nx\quad \text{for}\ n\in {\mathbf N}$$
+        is the solution on $D=\{(x,y)\ | x^2+y^2<1\}$ of the Cauchy problem for
+        the Laplace equation
+        $$\frac{\partial ^2u}{\partial x^2}+\frac{\partial ^2u}{\partial y^2}=0,\quad
+        u(x,0)=0,\quad \frac{\partial u}{\partial y}(x,0)=\frac{\sin nx}{n}.$$
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Integrals
+  question: |
+    This question provides some insight into Cauchy's theorem. Solve the
+    problem without using Cauchy's theorem.
+
+    1.  Evaluate the integral $\displaystyle{\int_{\gamma} z^n dz}$ for
+        all integers $n$. Here $\gamma$ is any circle centered at the
+        origin with the positive (counterclockwise) orientation.
+
+    2.  Same question as (a), but with $\gamma$ any circle not
+        containing the origin.
+
+    3.  Show that if $|a|<r<|b|$, then
+        $\displaystyle{\int_{\gamma}\frac{dz}{(z-a)(z-b)} dz=\frac{2\pi i}{a-b}}$.
+        Here $\gamma$ denotes the circle centered at the origin, of
+        radius $r$, with the positive orientation.
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Liouville's Theorem
+  question: |
+    (1) Assume the infinite series
+    $\displaystyle  \sum_{n=0}^\infty c_n z^n$ converges in $|z| < R$
+    and let $f(z)$ be the limit. Show that for $r <R$,
+    $$\frac{1}{2 \pi} \int_0^{2 \pi} |f(r e^{i \theta})|^2 d \theta =
+    \sum_{n=0}^\infty |c_n|^2 r^{2n} \; .$$
+
+    (2) Deduce Liouville's theorem from (1). 
+
+    > Liouville's theorem: If $f(z)$ is entire and bounded, then $f$ is constant.
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Analysis
+    - Limits
+  question: |
+    Let $f$ be a continuous function in the region
+    $$D=\{z\ |  |z|>R, 0\leq \arg Z\leq \theta\}\quad\text{where}\quad
+    0\leq \theta \leq 2\pi.$$ 
+    If there exists $k$ such that
+    $\displaystyle{\lim_{z\to\infty} zf(z)=k}$ for $z$ in the region
+    $D$. 
+    Show that $$\lim_{R'\to\infty} \int_{L} f(z) dz=i\theta k,$$
+    where $L$ is the part of the circle $|z|=R'$ which lies in the
+    region $D$.
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Integrals
+  question: |
+    Evaluate $\displaystyle{ \int_{0}^{\infty}\frac{x\sin x}{x^2+a^2} \,
+    dx }$.
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Cauchy-Riemann
+  question: |
+    Let $f=u+iv$ be differentiable (i.e. $f'(z)$ exists) with continuous
+    partial derivatives at a point $z=re^{i\theta}$, $r\not= 0$. Show
+    that
+    $$\frac{\partial u}{\partial r}=\frac{1}{r}\frac{\partial v}{\partial \theta},\quad
+    \frac{\partial v}{\partial r}=-\frac{1}{r}\frac{\partial u}{\partial \theta}.$$
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Integrals
+  question: |
+    Show that $\displaystyle \int_0^\infty \frac{x^{a-1}}{1+x^n}
+    dx=\frac{\pi}{n\sin \frac{a\pi}{n}}$ using complex analysis, $0< a <
+    n$. Here $n$ is a positive integer.
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Integrals
+  question: |
+    For $s>0$, the **gamma function** is defined by
+    $\displaystyle{\Gamma(s)=\int_0^{\infty} e^{-t}t^{s-1} dt}$.
+
+    -   Show that the gamma function is analytic in the half-plane
+        $\Re (s)>0$, and is still given there by the integral formula
+        above.
+
+    -   Apply the formula in the previous question to show that
+        $$\Gamma(s)\Gamma(1-s)=\frac{\pi}{\sin \pi s}.$$
+
+    > Hint: You may need $\displaystyle{\Gamma(1-s)=t \int_0^{\infty}e^{-vt}(vt)^{-s} dv}$ for $t>0$.
+
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Entire Functions
+    - Analysis
+  question: |
+    Suppose $f$ is entire and there exist $A, R >0$ and natural number
+    $N$ such that $$|f(z)| \geq A |z|^N\ \text{for}\ |z| \geq R.$$ Show
+    that 
+    
+    (i) $f$ is a polynomial and 
+    
+    (ii) the degree of $f$ is at least $N$.
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Analytic Functions
+  question: |
+    Let $f: {\mathbb C} \rightarrow {\mathbb C}$ be an injective
+    analytic (also called univalent) function. Show that there exist
+    complex numbers $a \neq 0$ and $b$ such that $f(z) = az + b$.
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Analytic Functions
+    - Analysis
+    - Conformal Maps
+  question: |
+   Let $g$ be analytic for $|z|\leq 1$ and $|g(z)| < 1$ for $|z| = 1$.
+
+    -   Show that $g$ has a unique fixed point in $|z| < 1$.
+
+    -   What happens if we replace $|g(z)| < 1$ with $|g(z)|\leq 1$ for
+        $|z|=1$? Give an example if (a) is not true or give an proof
+        if (a) is still true.
+
+    -   What happens if we simply assume that $f$ is analytic for
+        $|z| < 1$ and $|f(z)| < 1$ for $|z| < 1$? Suppose that $f(z)
+        \not\equiv  z$. Can f have more than one fixed point in
+        $|z| < 1$?
+
+    > Hint: The map
+    $\displaystyle{\psi_{\alpha}(z)=\frac{\alpha-z}{1-\bar{\alpha}z}}$
+    > may be useful.
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Conformal Maps
+  question: |
+    Find a conformal map from $D = \{z :\  |z| < 1,\ |z - 1/2| > 1/2\}$
+    to the unit disk $\Delta=\{z: \ |z|<1\}$.
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Analysis
+  question: |
+    Let $a_n \neq 0$ and assume that $\displaystyle
+    \lim_{n \rightarrow \infty} \frac{|a_{n+1}|}{|a_n|} = L$. Show that
+    $\displaystyle
+    \lim_{n \rightarrow \infty}
+    \sqrt[n]{|a_n|} = L.
+    %p_n^{\frac{1}{n}} = L.$ In particular, this shows that when
+    applicable, the ratio test can be used to calculate the radius of
+    convergence of a power series.
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Conformal Maps
+  question: |
+    (a) Let $z, w$ be complex numbers, such that $\bar{z} w \neq 1$.
+    Prove that
+    $$\abs{\frac{w - z}{1 - \bar{w} z}} < 1 \; \; \; \mbox{if} \; |z| < 1 \; \mbox{and}\; |w| < 1,$$
+    and also that
+    $$\abs{\frac{w - z}{1 - \bar{w} z}} = 1 \; \; \; \mbox{if} \; |z| = 1 \; \mbox{or}\; |w| = 1.$$
+
+    (b) Prove that for fixed $w$ in the unit disk $\mathbb D$, the
+    mapping $$F: z \mapsto \frac{w - z}{1 - \bar{w} z}$$ satisfies the
+    following conditions:
+
+    (i) $F$ maps $\mathbb D$ to itself and is holomorphic. 
+
+    (ii) $F$ interchanges $0$ and $w$, namely, $F(0) = w$ and
+    $F(w) = 0$.
+
+    (iii) $|F(z)| = 1$ if $|z| = 1$.
+
+    (iv) $F: {\mathbb D} \mapsto {\mathbb D}$ is bijective. 
+    
+    > Hint: Calculate $F \circ F$.
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Analysis
+  question: |
+    Use $n$-th roots of unity (i.e. solutions of $z^n - 1 =0$) to show
+    that
+    $$2^{n-1} \sin\frac{\pi}{n} \sin\frac{2\pi}{n} \cdots \sin\frac{(n-1)\pi}{n}
+    = n
+    \; .$$ 
+    
+    > Hint: $1 - \cos 2 \theta = 2 \sin^2 \theta,\; \sin 2 \theta = 2 \sin \theta \cos \theta$.
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Cauchy-Riemann
+  question: |
+    (a) Show that in polar coordinates, the Cauchy-Riemann
+    equations take the form
+
+    $$\frac{\partial u}{\partial r} = \frac{1}{r} \frac{\partial v}{\partial \theta}
+    \; \; \; \text{and} \; \; \;
+    \frac{\partial v}{\partial r} = - \frac{1}{r} \frac{\partial u}{\partial \theta}$$
+
+    (b) Use these equations to show that the logarithm function
+    defined by $$\log z = \log r + i \theta \; \;
+    \mbox{where} \; z = r e^{i \theta } \; \mbox{with} \; - \pi < \theta < \pi$$
+    is a holomorphic function in the region
+    $r>0, \; - \pi < \theta < \pi$. Also show that $\log z$ defined
+    above is not continuous in $r>0$.
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Analysis
+    - Limits
+  question: |
+    Assume $f$ is continuous in the region:
+    $x \geq x_0, \; 0 \leq y \leq b$ and the limit
+    $$\displaystyle \lim_{x \rightarrow + \infty} f(x + iy) = A$$ exists
+    uniformly with respect to $y$ (independent of $y$). 
+
+    Show that
+    $$\lim_{x \rightarrow + \infty} \int_{\gamma_x} f(z) dz  = iA b \; , \; \;$$
+    where $\gamma_x : = \{ z \; | \; z = x + it, \; 0 \leq  t \leq b\}.$
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Cauchy Integral Formula
+  question: |
+    (Cauchy's formula for "exterior" region) Let $\gamma$ be piecewise
+    smooth simple closed curve with interior $\Omega_1$ and exterior
+    $\Omega_2$. Assume $f'(z)$ exists in an open set containing $\gamma$
+    and $\Omega_2$ and $\lim_{z \rightarrow \infty } f(z) = A$. Show
+    that
+    $$\frac{1}{2 \pi i} \int_\gamma \frac{f(\xi)}{\xi - z} \, d \xi =
+    \begin{cases}
+    A,          &     \text{if\ $z \in \Omega_1$}, \\
+    -f (z) + A, &  \text{if\ $z \in \Omega_2$}
+    \end{cases}$$
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Analytic Functions
+    - Limits
+    - Liouville's Theorem
+  question: |
+    Let $f(z)$ be bounded and analytic in $\mathbb C$. Let $a \neq b$ be
+    any fixed complex numbers. Show that the following limit exists
+    $$\lim_{R \rightarrow \infty} \int_{|z|=R} \frac{f(z)}{(z-a)(z-b)} dz.$$
+    Use this to show that $f(z)$ must be a constant (Liouville's
+    theorem).
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Integrals
+  question: |
+    Prove by *justifying all steps* that for all $\xi \in {\mathbb C}$
+    we have $\displaystyle
+    e^{- \pi \xi^2} = \int_{- \infty}^\infty e^{- \pi x^2} e^{2 \pi i x \xi} dx \; .$
+
+    > Hint: You may use that fact in Example 1 on p. 42 of the textbook
+    without proof, i.e., you may assume the above is true for real
+    values of $\xi$.
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Meromorphic Functions
+  question: |
+    Suppose that $f$ is holomorphic in an open set containing the closed
+    unit disc, except for a pole at $z_0$ on the unit circle. Let
+    $f(z) = \sum_{n = 1}^\infty c_n z^n$ denote the power series in
+    the open disc. Show that 
+
+    (1) $c_n \neq 0$ for all large enough $n$'s, and 
+    
+    (2) $\displaystyle \lim_{n \rightarrow \infty} \frac{c_n}{c_{n+1}}= z_0$.
+
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Analytic Functions
+    - Singularities
+  question: |
+    Let $f(z)$ be a non-constant analytic function in $|z|>0$ such that
+    $f(z_n) = 0$ for infinite many points $z_n$ with
+    $\lim_{n \rightarrow \infty} z_n =0$. Show that $z=0$ is an
+    essential singularity for $f(z)$. (An example of such a function is
+    $f(z) = \sin (1/z)$.)
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Entire Functions
+    - Limits
+  question: |
+    Let $f$ be entire and suppose that
+    $\lim_{z \rightarrow \infty} f(z) = \infty$. Show that $f$ is a
+    polynomial.
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Laurent Series
+  question: |
+    Expand the following functions into Laurent series in the indicated
+    regions:
+
+    (a)
+    $\displaystyle f(z) = \frac{z^2 - 1}{ (z+2)(z+3)}, \; \; 2 < |z| < 3$,
+    $3 < |z| < + \infty$.
+
+    (b)
+    $\displaystyle f(z) = \sin \frac{z}{1-z}, \; \; 0 < |z-1| < + \infty$
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Analytic Functions
+    - Analysis
+  question: |
+    Assume $f(z)$ is analytic in region $D$ and $\Gamma$ is a
+    rectifiable curve in $D$ with interior in $D$. Prove that if $f(z)$
+    is real for all $z \in \Gamma$, then $f(z)$ is a constant.
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Rouche 
+    - Polynomials
+    - Holomorphic Functions
+  question: |
+    Find the number of roots of $z^4 - 6z + 3 =0$ in $|z|<1$ and
+    $1 < |z| < 2$ respectively.
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Rouche
+    - Polynomials
+    - Holomorphic Functions
+  question: |
+    Prove that $z^4 + 2 z^3 - 2z + 10 =0$ has exactly one root in each
+    open quadrant.
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Analysis 
+  question: |
+    (1) Let $f(z) \in H({\mathbb D})$, $\text{Re}(f(z)) >0$,
+    $f(0)= a>0$. Show that $$\abs{ \frac{f(z)-a}{f(z)+a}} \leq |z|, \; \; \;
+    |f'(0)| \leq 2a.$$
+
+    (2) Show that the above is still true if $\text{Re}(f(z)) >0$ is
+    replaced with $\text{Re}(f(z)) \geq 0$.
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Analytic Functions
+    - Convergence
+  question: |
+    Assume $f(z)$ is analytic in ${\mathbb D}$ and $f(0)=0$ and is not a
+    rotation (i.e. $f(z) \neq e^{i \theta} z$). Show that
+    $\displaystyle \sum_{n=1}^\infty f^{n}(z)$ converges uniformly to an
+    analytic function on compact subsets of ${\mathbb D}$, where
+    $f^{n+1}(z) = f(f^{n}(z))$.
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Analytic Functions
+  question: |
+    Let $f(z) = \sum_{n=0}^\infty c_n z^n$ be analytic and one-to-one in
+    $|z| < 1$. For $0<r<1$, let $D_r$ be the disk $|z|<r$. Show that the
+    area of $f(D_r)$ is finite and is given by
+    $$S = \pi \sum_{n=1}^\infty n |c_n|^2 r^{2n}.$$ (Note that in
+    general the area of $f(D_1)$ is infinite.)
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Analytic Functions
+  question: |
+    Let $f(z) = \sum_{n= -\infty}^\infty c_n z^n$ be analytic and
+    one-to-one in $r_0< |z| < R_0$. For $r_0<r<R<R_0$, let $D(r,R)$ be
+    the annulus $r<|z|<R$. Show that the area of $f(D(r,R))$ is finite
+    and is given by
+    $$S = \pi \sum_{n=- \infty}^\infty n |c_n|^2 (R^{2n} - r^{2n}).$$
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Convergence
+  question: |
+    Let $a_n(z)$ be an analytic sequence in a domain $D$ such that
+    $\displaystyle \sum_{n=0}^\infty |a_n(z)|$ converges uniformly on
+    bounded and closed sub-regions of $D$. Show that
+    $\displaystyle \sum_{n=0}^\infty |a'_n(z)|$ converges uniformly on
+    bounded and closed sub-regions of $D$.
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Analytic Functions
+  question: |
+    Let $f_n, f$ be analytic functions on the unit disk ${\mathbb D}$.
+    Show that the following are equivalent.
+
+    (i) $f_n(z)$ converges to $f(z)$ uniformly on compact subsets in
+    $\mathbb D$.
+
+    (ii) $\int_{|z|= r} |f_n(z) - f(z)| \, |dz|$ converges to $0$ if
+    $0< r<1$.
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Analytic Functions
+  question: |
+    Let $f$ and $g$ be non-zero analytic functions on a region $\Omega$.
+    Assume $|f(z)| = |g(z)|$ for all $z$ in $\Omega$. Show that
+    $f(z) = e^{i \theta} g(z)$ in $\Omega$ for some
+    $0 \leq \theta < 2 \pi$.
+
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Analytic Functions
+  question: |
+    Suppose $f$ is analytic in an open set containing the unit disc
+    $\mathbb D$ and $|f(z)| =1$ when $|z|$=1. Show that either
+    $f(z) = e^{i \theta}$ for some $\theta \in \mathbb R$ or there are
+    finite number of $z_k \in \mathbb D$, $k \leq n$ and
+    $\theta \in \mathbb R$ such that
+    $\displaystyle f(z) = e^{i\theta} \prod_{k=1}^n \frac{z-z_k}{1 - \bar{z}_k z } \, .$
+    
+    > Also cf. Stein et al, 1.4.7, 3.8.17
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Analysis 
+  question: |
+    (1) Let $p(z)$ be a polynomial, $R>0$ any positive number, and
+    $m \geq 1$ an integer. Let
+    $$M_R = \sup \{ |z^{m} p(z) - 1|: |z| = R  \}.$$ Show that $M_R>1$.
+
+    (2) Let $m \geq 1$ be an integer and
+    $K = \{z \in {\mathbb C}: r \leq |z| \leq R \}$ where $r<R$.
+    Show (i) using (1) as well as, (ii) without using (1) that there
+    exists a positive number $\varepsilon_0>0$ such that for each
+    polynomial $p(z)$,
+    $$\sup \{|p(z) - z^{-m}|: z \in K  \} \geq \varepsilon_0 \, .$$
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Laurent Series
+  question: |
+    Let $\displaystyle f(z) = \frac{1}{z} + \frac{1}{z^2 -1}$. Find all
+    the Laurent series of $f$ and describe the largest annuli in which
+    these series are valid.
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Entire Functions
+    - Analysis
+  question: |
+    Suppose $f$ is entire and there exist $A, R >0$ and natural number
+    $N$ such that $|f(z)| \leq A |z|^N$ for $|z| \geq R$. Show that 
+    
+    (i) $f$ is a polynomial and 
+
+    (ii) the degree of $f$ is at most $N$.
+
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Analytic Functions
+  question: |
+    (1) Explicitly write down an example of a non-zero analytic
+    function in $|z|<1$ which has infinitely zeros in $|z|<1$.
+
+    (2) Why does not the phenomenon in (1) contradict the uniqueness
+    theorem?
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Harmonic Functions
+    - Schwarz Reflection
+  question: |
+    (1) Assume $u$ is harmonic on open set $O$ and $z_n$ is a sequence
+    in $O$ such that $u(z_n) = 0$ and $\lim z_n \in O$. Prove or
+    disprove that $u$ is identically zero. What if $O$ is a region?
+
+    (2) Assume $u$ is harmonic on open set $O$ and $u(z) = 0$ on a
+    disc in $O$. Prove or disprove that $u$ is identically zero. What if
+    $O$ is a region?
+
+    (3) Formulate and prove a Schwarz reflection principle for
+    harmonic functions 
+    
+    > cf. Theorem 5.6 on p.60 of Stein et al.
+    
+    > Hint: Verify the mean value property for your new function obtained by
+    Schwarz reflection principle.
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Holomorphic Functions
+    - Analysis
+  question: |
+    Let $f$ be holomorphic in a neighborhood of $D_r(z_0)$. Show that
+    for any $s<r$, there exists a constant $c>0$ such that
+    $$||f||_{(\infty, s)} \leq c ||f||_{(1, r)},$$ where
+    $\displaystyle |f||_{(\infty, s)} = \text{sup}_{z \in D_s(z_0)}|f(z)|$
+    and $\displaystyle ||f||_{(1, r)} = \int_{D_r(z_0)} |f(z)|dx dy$.
+
+    > Note: Exercise 3.8.20 on p.107 in Stein et al is a
+    straightforward consequence of this stronger result using the
+    integral form of the Cauchy-Schwarz inequality in real analysis.
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Casorati-Weierstrass
+  question: |
+    (1) Let $f$ be analytic in $\Omega: 0<|z-a|<r$ except at a
+    sequence of poles $a_n \in \Omega$ with
+    $\lim_{n \rightarrow \infty} a_n = a$. Show that for any
+    $w \in \mathbb C$, there exists a sequence $z_n \in \Omega$ such
+    that $\lim_{n \rightarrow \infty} f(z_n) = w$.
+
+    (2) Explain the similarity and difference between the above
+    assertion and the Weierstrass-Casorati theorem.
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Integrals
+  question: |
+    Compute the following integrals.
+
+    \(i\) $\displaystyle \int_0^\infty \frac{1}{(1 + x^n)^2} \, dx$,
+    $n \geq 1$ (ii)
+    $\displaystyle \int_0^\infty \frac{\cos x}{(x^2 + a^2)^2} \, dx$,
+    $a \in \mathbb R$ (iii)
+    $\displaystyle \int_0^\pi \frac{1}{a + \sin \theta} \, d \theta$,
+    $a>1$
+
+    \(iv\) $\displaystyle \int_0^{\frac{\pi}{2}}
+    \frac{d \theta}{a+ \sin ^2 \theta},$ $a >0$. (v)
+    $\displaystyle \int_{|z|=2} \frac{1}{(z^{5} -1) (z-3)} \, dz$ (v)
+    $\displaystyle \int_{- \infty}^{\infty} \frac{\sin \pi a}{\cosh \pi x + \cos \pi a} e^{- i x \xi} \, d x$,
+    $0< a <1$, $\xi \in \mathbb R$ (vi)
+    $\displaystyle \int_{|z| = 1} \cot^2 z \, dz$.
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Integrals
+  question: |
+    Compute the following integrals.
+
+    \(i\) $\displaystyle \int_0^\infty \frac{\sin x}{x} \, dx$ (ii)
+    $\displaystyle \int_0^\infty (\frac{\sin x}{x})^2 \, dx$ (iii)
+    $\displaystyle \int_0^\infty \frac{x^{a-1}}{(1 + x)^2} \, dx$,
+    $0< a < 2$
+
+    \(i\)
+    $\displaystyle \int_0^\infty \frac{\cos a x - \cos bx}{x^2} dx$,
+    $a, b >0$ (ii)
+    $\displaystyle \int_0^\infty \frac{x^{a-1}}{1 + x^n} \, dx$,
+    $0< a < n$
+
+    \(iii\) $\displaystyle \int_0^\infty \frac{\log x}{1 + x^n} \, dx$,
+    $n \geq 2$ (iv)
+    $\displaystyle \int_0^\infty \frac{\log x}{(1 + x^2)^2} dx$ (v)
+    $\displaystyle \int_0^{\pi} \log|1 - a \sin \theta| d \theta$,
+    $a \in \mathbb C$
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Polynomials
+    - Holomorphic Functions
+  question: |
+    Let $0<r<1$. Show that polynomials
+    $P_n(z)  = 1 + 2z + 3 z^2 + \cdots + n z^{n-1}$ have no zeros in
+    $|z|<r$ for all sufficiently large $n$'s.
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Analytic Functions
+  question: |
+    Let $f$ be an analytic function on a region $\Omega$. Show that $f$
+    is a constant if there is a simple closed curve $\gamma$ in $\Omega$
+    such that its image $f(\gamma)$ is contained in the real axis.
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Principal Parts
+    - Sums
+  question: |
+    (1) Show that $\displaystyle \frac{\pi^2}{\sin^2 \pi z}$ and
+    $\displaystyle g(z) = \sum_{n = - \infty}^{ \infty} \frac{1}{(z-n)^2}$
+    have the same principal part at each integer point.
+
+    (2) Show that
+    $\displaystyle h(z) = \frac{\pi^2}{\sin^2 \pi z} - g(z)$ is bounded
+    on $\mathbb C$ and conclude that
+    $\displaystyle \frac{\pi^2}{\sin^2 \pi z} = \sum_{n = - \infty}^{ \infty} \frac{1}{(z-n)^2} \, .$
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Analytic Functions
+    - Fractional Linear Transformations
+  question: |
+    Let $f(z)$ be an analytic function on
+    ${\mathbb C} \backslash \{ z_0 \}$, where $z_0$ is a fixed point.
+    Assume that $f(z)$ is bijective from
+    ${\mathbb C} \backslash \{ z_0 \}$ onto its image, and that $f(z)$
+    is bounded outside $D_r(z_0)$, where $r$ is some fixed positive
+    number. Show that there exist $a, b, c, d \in \mathbb C$ with
+    $ad-bc \neq 0$, $c \neq 0$ such that
+    $\displaystyle f(z) = \frac{az + b}{cz + d}$.
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Analytic Functions
+    - Convergence
+  question: |
+    Assume $f(z)$ is analytic in $\mathbb D: |z|<1$ and $f(0)=0$ and
+    is not a rotation (i.e. $f(z) \neq e^{i \theta} z$). Show that
+    $\displaystyle \sum_{n=1}^\infty f^{n}(z)$ converges uniformly to an
+    analytic function on compact subsets of ${\mathbb D}$, where
+    $f^{n+1}(z) = f(f^{n}(z))$.
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Analytic Functions
+    - Analysis
+  question: |
+    Let $f$ be a non-constant analytic function on $\mathbb D$ with
+    $f(\mathbb D) \subseteq \mathbb D$. Use $\psi_{a} (f(z))$ (where
+    $a=f(0)$, $\displaystyle \psi_a(z) = \frac{a - z}{1 - \bar{a}z}$) to
+    prove that $$\displaystyle
+    \frac{|f(0)| - |z|}{1 + |f(0)||z|} \leq |f(z)| \leq
+    \frac{|f(0)| + |z|}{1 - |f(0)||z|}.$$
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Conformal Maps
+  question: |
+    Find a conformal map
+
+    1.  from $\{ z: |z - 1/2| > 1/2, \text{Re}(z)>0 \}$ to $\mathbb H$
+
+    2.  from $\{ z: |z - 1/2| > 1/2, |z| <1  \}$ to $\mathbb D$
+
+    3.  from the intersection of the disk $|z + i| < \sqrt{2}$ with
+        ${\mathbb H}$ to ${\mathbb D}$.
+
+    4.  from ${\mathbb D}  \backslash [a, 1)$ to
+        ${\mathbb D} \backslash [0, 1)$ ($0<a<1)$. \[ Short solution
+        possible using Blaschke factor\]
+
+    5.  from $\{ z: |z| < 1, \text{Re}(z) > 0 \} \backslash (0, 1/2]$ to
+        $\mathbb H$.
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Fractional Linear Transformations
+  question: |
+    Let $C$ and $C'$ be two circles and let $z_1 \in C$, $z_2 \notin C$,
+    $z'_1 \in C'$, $z'_2 \notin C'$. Show that there is a unique
+    fractional linear transformation $f$ with $f(C) = C'$ and
+    $f(z_1) = z'_1$, $f(z_2) = z'_2$.
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Holomorphic Functions
+  question: |
+    Assume $f_n \in H(\Omega)$ is a sequence of holomorphic functions on
+    the region $\Omega$ that are uniformly bounded on compact subsets
+    and $f \in H(\Omega)$ is such that the set
+    $\displaystyle \{z \in \Omega: \lim_{n \rightarrow \infty} f_n(z) = f(z) \}$
+    has a limit point in $\Omega$. Show that $f_n$ converges to $f$
+    uniformly on compact subsets of $\Omega$.
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Conformal Maps
+    - Integrals
+    - Analysis
+  question: |
+    Let
+    $\displaystyle{\psi_{\alpha}(z)=\frac{\alpha-z}{1-\bar{\alpha}z}}$
+    with $|\alpha|<1$ and ${\mathbb D}=\{z:\ |z|<1\}$. Prove that
+
+    -   $\displaystyle{\frac{1}{\pi}\iint_{{\mathbb D}} |\psi'_{\alpha}|^2 dx dy =1}$.
+
+    -   $\displaystyle{\frac{1}{\pi}\iint_{{\mathbb D}} |\psi'_{\alpha}| dx dy =\frac{1-|\alpha|^2}{|\alpha|^2}
+        \log \frac{1}{1-|\alpha|^2}}$.
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Conformal Maps
+  question: |
+    Prove that
+    $\displaystyle{f(z)=-\frac{1}{2}\left(z+\frac{1}{z}\right)}$ is a
+    conformal map from half disc $\{z=x+iy:\ |z|<1,\ y>0\}$ to upper
+    half plane ${\mathbb H}=\{z=x+iy:\ y>0\}$.
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Holomorphic Functions
+    - Analysis
+  question: |
+    Let $\Omega$ be a simply connected open set and let $\gamma$ be a
+    simple closed contour in $\Omega$ and enclosing a bounded region $U$
+    anticlockwise. Let $f: \ \Omega \to {\mathbb C}$ be a holomorphic
+    function and $|f(z)|\leq M$ for all $z\in \gamma$. Prove that
+    $|f(z)|\leq M$ for all $z\in U$.
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Integrals
+  question: |
+    Compute the following integrals. 
+    
+    (i)
+    $\displaystyle \int_0^\infty \frac{x^{a-1}}{1 + x^n} \, dx$,
+    $0< a < n$ 
+
+    (ii)
+    $\displaystyle \int_0^\infty \frac{\log x}{(1 + x^2)^2}\, dx$
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Polynomials
+    - Holomorphic Functions
+  question: |
+    Let $0<r<1$. Show that polynomials
+    - Holomorphic Functions
+    $P_n(z)  = 1 + 2z + 3 z^2 + \cdots + n z^{n-1}$ have no zeros in
+    $|z|<r$ for all sufficiently large $n$'s.
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Holomorphic Functions
+    - Integrals
+    - Analysis
+  question: |
+    Let $f$ be holomorphic in a neighborhood of $D_r(z_0)$. Show that
+    for any $s<r$, there exists a constant $c>0$ such that
+    $$\|f\|_{(\infty, s)} \leq c \|f\|_{(1, r)},$$ where
+    $\displaystyle \|f\|_{(\infty, s)} = \text{sup}_{z \in D_s(z_0)}|f(z)|$
+    and $\displaystyle \|f\|_{(1, r)} = \int_{D_r(z_0)} |f(z)|dx dy$.
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Conformal Maps
+    - Integrals
+    - Analysis
+  question: |
+    Let $\displaystyle{\psi_{\alpha}(z)=\frac{\alpha-z}{1-\bar{\alpha}z}}$
+    with $|\alpha|<1$ and ${\mathbb D}=\{z:\ |z|<1\}$. Prove that
+
+    -   $\displaystyle{\frac{1}{\pi}\iint_{{\mathbb D}} |\psi'_{\alpha}|^2 dx dy =1}$.
+
+    -   $\displaystyle{\frac{1}{\pi}\iint_{{\mathbb D}} |\psi'_{\alpha}| dx dy =\frac{1-|\alpha|^2}{|\alpha|^2}
+        \log \frac{1}{1-|\alpha|^2}}$.
+
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Holomorphic Functions
+    - Analysis
+  question: |
+    Let $\Omega$ be a simply connected open set and let $\gamma$ be a simple
+    closed contour in $\Omega$ and enclosing a bounded region $U$
+    anticlockwise. Let $f: \ \Omega \to {\mathbb C}$ be a holomorphic
+    function and $|f(z)|\leq M$ for all $z\in \gamma$. Prove that
+    $|f(z)|\leq M$ for all $z\in U$.
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Integrals
+  question: |
+    Compute the following integrals. 
+    
+    (i) $\displaystyle \int_0^\infty \frac{x^{a-1}}{1 + x^n} \, dx$, $0< a < n$
+    
+    (ii) $\displaystyle \int_0^\infty \frac{\log x}{(1 + x^2)^2}\, dx$
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Holomorphic Functions
+    - Analysis
+  question: |
+    Let $f$ be holomorphic in a neighborhood of $D_r(z_0)$. Show that for
+    any $s<r$, there exists a constant $c>0$ such that
+    $$\|f\|_{(\infty, s)} \leq c \|f\|_{(1, r)},$$ where
+    $\displaystyle \|f\|_{(\infty, s)} = \text{sup}_{z \in D_s(z_0)}|f(z)|$
+    and $\displaystyle \|f\|_{(1, r)} = \int_{D_r(z_0)} |f(z)|dx dy$.
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Harmonic Functions
+    - Integrals
+  question: |
+    Let $u(x,y)$ be harmonic and have continuous partial derivatives of
+    order three in an open disc of radius $R>0$.
+
+    (a) Let two points $(a,b), (x,y)$ in this disk be given. Show that
+    the following integral is independent of the path in this disk
+    joining these points:
+    $$v(x,y) = \int_{a,b}^{x,y} ( -\frac{\partial u}{\partial y}dx +  \frac{\partial u}{\partial x}dy).$$\
+    
+    (b) \hfill
+
+        (i) Prove that $u(x,y)+i v(x,y)$ is an analytic function in this disc.
+
+        (ii) Prove that $v(x,y)$ is harmonic in this disc.
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Analytic Functions
+    - Geometry
+  question: |
+    (a) $f(z)= u(x,y) +i v(x,y)$ be analytic in a domain
+    $D\subset {\mathbb C}$. Let $z_0=(x_0,y_0)$ be a point in $D$ which
+    is in the intersection of the curves $u(x,y)= c_1$ and $v(x,y)=c_2$,
+    where $c_1$ and $c_2$ are constants. Suppose that $f'(z_0)\neq 0$.
+    Prove that the lines tangent to these curves at $z_0$ are
+    perpendicular.
+
+    (b) Let $f(z)=z^2$ be defined in ${\mathbb C}$. 
+      (i)   Describe the
+            level curves of $\mbox{\textrm Re}{(f)}$ and of $\mbox{Im}{(f)}$.
+      
+      (ii)  What are the angles of intersections between the level curves
+            $\mbox{\textrm Re}{(f)}=0$ and $\mbox{\textrm Im}{(f)}$? Is your answer in
+            agreement with part a) of this question?
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Integrals
+    - Analysis
+  question: |
+    (a) Let $f: D\rightarrow \mathbb C$ be a continuous function, where
+    $D\subset \mathbb C$ is a domain. Let $\alpha:[a,b]\rightarrow D$
+    be a smooth curve. Give a precise definition of the *complex line
+    integral* $$\int_{\alpha} f.$$
+
+    (b) Assume that there exists a constant $M$ such that
+    $|f(\tau)|\leq M$ for all $\tau\in \mbox{\textrm Image}(\alpha$). Prove
+    that
+    $$\big | \int_{\alpha} f \big |\leq M \times \mbox{\textrm length}(\alpha).$$
+
+    (c) Let $C_R$ be the circle $|z|=R$, described in the
+    counterclockwise direction, where $R>1$. Provide an upper bound for
+    $\abs{ \int_{C_R} \dfrac{\log{(z)} }{z^2} }$ which depends
+    *only* on $R$ and other constants.
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Entire Functions
+    - Analysis
+  question: |
+    (a) Let $f:{\mathbb C}\rightarrow {\mathbb C}$ be an entire
+    function. Assume the existence of a non-negative integer $m$, and of
+    positive constants $L$ and $R$, such that for all $z$ with $|z|>R$
+    the inequality $$|f(z)| \leq L |z|^m$$ holds. Prove that $f$ is a
+    polynomial of degree $\leq m$.
+
+    (b) Let $f:{\mathbb C}\rightarrow {\mathbb C}$ be an entire
+    function. Suppose that there exists a real number M such that for
+    all $z\in {\mathbb C}$ $$\mbox{\textrm Re} (f) \leq M.$$ Prove that $f$
+    must be a constant.
+
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Polynomials
+    - Rouche
+    - Holomorphic Functions
+  question: |
+    Prove that all the roots of the complex polynomial
+    $$z^7 - 5 z^3 +12 =0$$ lie between the circles $|z|=1$ and $|z|=2$.
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Analytic Functions
+  question: |
+    Let $F$ be an analytic function inside and on a simple closed
+    curve $C$, except for a pole of order $m\geq 1$ at $z=a$ inside $C$.
+    Prove that
+
+    $$
+    \frac{1}{2 \pi i}\oint_{C} F(\tau) d\tau = 
+    \lim_{\tau\rightarrow a} \frac{d^{m-1}}{d\tau^{m-1}}\big((\tau-a)^m F(\tau))\big)
+    .$$
+
+
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Conformal Maps
+  question: |
+    Find the conformal map that takes the upper half-plane comformally
+    onto the half-strip $\{
+    w=x+iy:\ -\pi/2<x<\pi/2\ y>0\}$.
+
+
+- year: Extra 
+  number: 0 
+  university: UGA
+  exam: Complex_Analysis
+  tags:
+    - Integrals
+  question: |
+    Compute the integral
+    $\displaystyle{\int_{-\infty}^{\infty} \frac{e^{-2\pi ix\xi}}{\cosh\pi x}dx}$
+    where $\displaystyle{\cosh z=\frac{e^{z}+e^{-z}}{2}}$.
+
+- year: 1970
+  season: Spring
+  exam: Complex_Analysis
+  number: 4
+  university: NUS
+  tags:
+    - Holomorphic Functions
+    - Polynomials
+    - Rouche
+  question: |
+    Find the number of zeroes, counting multiplicities, of the polynomial 
+
+    $f(z) = 2z^5 - 6z^2 - z + 1 = 0$
+
+    in the annulus $1 \leq |z| \leq 2$.
+
+- year: 1970
+  season: Spring
+  exam: Complex_Analysis
+  number: 5
+  university: NUS
+  tags:
+    - Biholomorphisms
+  question: |
+    Find an analytic isomorphism from the open region between $|z| = 1$ and $|z -\frac 1 2| =\frac 1 2$ to the upper half plane $\Im z > 0$. (You may leave your result as a composition of functions).
+
+- year: 1970
+  season: Spring
+  exam: Complex_Analysis
+  number: 6
+  university: NUS
+  tags:
+    - Holomorphic Functions
+    - Cauchy Integral Theorem
+    - Green's Theorem
+  question: |
+    Use Green theorem or otherwise to prove the Cauchy theorem.
+
+
+- year: 1970
+  season: spring
+  exam: Complex_Analysis
+  number: 8
+  university: NUS
+  tags:
+    - Green's Theorem
+  question: |
+    State and prove the divergence theorem on any rectangle in $\mathbb{R}^2$.
+
+
+- year: 1970
+  season: Spring
+  exam: Complex_Analysis
+  number: 6
+  university: NUS
+  tags:
+    - Biholomorphism
+  question: |
+    Find an analytic isomorphism from the open region between $x = 1$ and $x = 3$ to the upper half unit disk $\{|z| < 1,\Im z > 0\}$. (You may leave your result as a composition of functions)
+
+- year: 1970
+  season: Spring
+  exam: Complex_Analysis
+  number: 7
+  university: NUS
+  tags:
+    - Integrals
+    - Argument Principle
+      Cauchy's Integral Theorem
+    - Meromorphic Functions
+  question: |
+    Use Cauchy's theorem to prove the argument principle.
+
+- year: 1970
+  season: spring
+  exam: Complex_Analysis
+  number: 8
+  university: NUS
+  tags:
+    - Integrals
+    - Residues
+    - Meromorphic Functions
+  question: |
+    Evaluate the following by the method of residues:
+    $\int_0^{\pi /2} \frac{1}{3+\sin^2x}dx$
+
+
+- year: 1970
+  season: Spring
+  exam: Complex_Analysis
+  number: 7
+  university: NUS
+  tags:
+    - Integrals
+    - Residues
+    - Meromorphic Functions
+  question: |
+    Evaluate the improper integral 
+
+    $\int_0^\infty \frac{x^2~dx}{(x^2+1)(x^2+4)}$
+
+
+- year: 0
+  number: 0
+  exam: Complex_Analysis
+  university: Emory
+  tags:
+    - Integrals
+    - Residues
+  question: |
+    Use residues to compute the integral
+    \begin{align*}
+    \int_{0}^{\infty} \dfrac{\cos x}{(x^2+1)^2} \mathrm{d}x
+    \end{align*}
+
+
+- year: 0
+  number: 0
+  exam: Complex_Analysis
+  university: Emory
+  tags:
+    - Cauchy Integral Formula
+  question: |
+    State and prove the Cauchy integral formula for holomorphic
+    functions.
+
+
+- year: 0
+  number: 0
+  exam: Complex_Analysis
+  university: Emory
+  tags:
+    - Entire Functions
+  question: |
+    Let $f$ be an entire function and suppose that $|f(z)| \leq A|z|^2$
+    for all $z$ and some constant $A$. Show that $f$ is a polynomial of
+    degree $\leq 2$.
+
+
+- year: 0
+  number: 0
+  exam: Complex_Analysis
+  university: Emory
+  tags:
+    - Schwarz Lemma
+  question: |
+    1.  State the Schwarz lemma for analytic functions in the unit disc.
+
+    2.  Let $f: \mathbb{D} \to \mathbb{D}$ be an analytic map from the
+        unit disc $\mathbb{D}$ into itself. Use the Schwarz lemma to
+        show that for each $a\in \mathbb{D}$ we have
+        \begin{align*}
+        \dfrac{|f'(a)|}{1-|f(a)|^2} \leq \dfrac{1}{1-|a|^2}
+        \end{align*}
+
+
+- year: 0
+  number: 0
+  exam: Complex_Analysis
+  university: Emory
+  tags:
+    - Riemann Mapping
+  question: |
+    State the Riemann mapping theorem and prove the uniqueness part.
+
+
+- year: 0
+  number: 0
+  exam: Complex_Analysis
+  university: Emory
+  tags:
+    - Integrals
+  question: |
+    Compute the integrals
+    \begin{align*}
+    \int_{|z-2|=1} \dfrac{e^z}{z(z-1)^2} \,
+    \mathrm{d}z, \quad \int_0^\infty \dfrac{\cos 2x}{x^2 + 2} \, \mathrm{d}x
+    \end{align*}
+
+
+- year: 0
+  number: 0
+  exam: Complex_Analysis
+  university: Emory
+  tags:
+    - Convergence
+  question: |
+    Let $(f_n)$ be a sequence of holomorphic functions in a domain $D$.
+    Suppose that $f_n \to f$ uniformly on each compact subset of $D$.
+    Show that
+
+    -   $f$ is holomorphic on $D$.
+
+    -   $f_n' \to f'$ uniformly on each compact subset of $D$.
+
+
+
+- year: 0
+  number: 0
+  exam: Complex_Analysis
+  university: Emory
+  tags:
+    - Entire Functions
+  question: |
+    If $f$ is a non-constant entire function, then $f(\mathbb{C})$ is
+    dense in the plane.
+
+
+
+- year: 0
+  number: 0
+  exam: Complex_Analysis
+  university: Emory
+  tags:
+    - Rouche
+  question: |
+    1.  State Rouche's theorem.
+
+    2.  Let $f$ be analytic in a neighborhood of $0$, and satisfying
+        $f'(0) \neq 0$. Use Rouche's theorem to show that there exists a
+        neighborhood $U$ of $0$ such that $f$ is a bijection in $U$.
+
+
+
+- year: 0
+  number: 0
+  exam: Complex_Analysis
+  university: Emory
+  tags:
+    - Meromorphic Functions
+  question: |
+    Let $f$ be a meromorphic function in the plane such that
+    \begin{align*}
+    \lim_{|z|\to\infty} |f(z)| = \infty
+    \end{align*}
+
+    1.  Show that $f$ has only finitely many poles.
+
+    2.  Show that $f$ is a rational function.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- year: 2019
+  season: Spring
+  exam: Real_Analysis
+  number: 1
+  university: UGA
+  tags:
+    - Function Spaces
+    - Norms 
+    - Completeness
+  question: |
+    Let $C([0, 1])$ denote the space of all continuous real-valued functions on $[0, 1]$.
+      
+    a. Prove that $C([0, 1])$ is complete under the uniform norm $\norm{f}_u := \displaystyle\sup_{x\in [0,1]} |f (x)|$.
+    b. Prove that $C([0, 1])$ is not complete under the $L^1\dash$norm $\norm{f}_1 = \displaystyle\int_0^1 |f (x)| ~dx$.
+
+- year: 2019
+  season: Spring
+  exam: Real_Analysis
+  number: 2
+  university: UGA
+  tags:
+    - Measure Theory 
+  question: |
+    Let $\mathcal B$ denote the set of all Borel subsets of $\RR$ and $\mu : \mathcal B → [0, \infty)$ denote a finite Borel measure on $\RR$.
+    
+    a. Prove that if $\{F_k\}$ is a sequence of Borel sets for which $F_k \supseteq  F_{k+1}$ for all $k$, then
+    $$
+    \lim _{k \rightarrow \infty} \mu\left(F_{k}\right)=\mu\left(\bigcap_{k=1}^{\infty} F_{k}\right)
+    $$
+    
+    b. Suppose $µ$ has the property that $µ(E) = 0$ for every $E \in \mathcal B$ with Lebesgue measure $m(E) = 0$.
+      Prove that for every $\eps > 0$ there exists $\delta > 0$ so that if $E \in \mathcal B$ with $m(E) < \delta$, then $µ(E) < \eps$.
+
+
+- year: 2019
+  season: Spring
+  exam: Real_Analysis
+  number: 3
+  university: UGA
+  tags:
+    - Lp Spaces
+    - Convergence of Functions
+    - Fatou
+    - Egorov
+  question: |
+    Let $\{f_k\}$ be any sequence of functions in $L^2([0, 1])$ satisfying $\norm{f_k}_2 \leq M$ for all $k \in \NN$.
+      
+    Prove that if $f_k → f$ almost everywhere, then $f \in L^2([0, 1])$ with $\norm{f}_2 \leq M$ and
+    $$
+    \lim _{k \rightarrow \infty} \int_{0}^{1} f_{k}(x) dx = \int_{0}^{1} f(x) d x
+    $$
+
+    > Hint: Try using Fatou’s Lemma to show that $\norm{f}_2 \leq M$ and then try applying Egorov’s Theorem.
+
+
+
+- year: 2019
+  season: Spring
+  exam: Real_Analysis
+  number: 4
+  university: UGA
+  tags:
+    - Measure Theory
+  question: |
+    Let $f$ be a non-negative function on $\RR^n$ and $\mathcal A = \{(x, t) \in \RR^n × \RR : 0 \leq t \leq f (x)\}$.
+
+    Prove the validity of the following two statements:
+
+    a. $f$ is a Lebesgue measurable function on $\RR^n \iff  \mathcal A$ is a Lebesgue measurable subset of $\RR^{n+1}$
+    
+    b. If $f$ is a Lebesgue measurable function on $\RR^n$, then
+    $$
+    m(\mathcal{A})=\int_{\mathbb{R}^{n}} f(x) d x=\int_{0}^{\infty} m\left(\left\{x \in \mathbb{R}^{n}: f(x) \geq t\right\}\right) d t
+    $$
+
+
+- year: 2019
+  season: Spring
+  exam: Real_Analysis
+  number: 5
+  university: UGA
+  tags:
+    - Lp Spaces
+    - Functional Analysis
+    - Riesz Representation
+  question: |
+    a.  Show that $L^2([0, 1]) \subseteq L^1([0, 1])$ and argue that $L^2([0, 1])$ in fact 
+        forms a dense subset of $L^1([0, 1])$.
+
+    b.  Let $\Lambda$ be a continuous linear functional on $L^1([0, 1])$.
+      
+        Prove the Riesz Representation Theorem for $L^1([0, 1])$ by following the steps below:
+
+
+        i. Establish the existence of a function $g \in L^2([0, 1])$ which represents $\Lambda$ in the sense that
+        $$
+        \Lambda(f ) = f (x)g(x) dx \text{ for all } f \in L^2([0, 1]).
+        $$
+
+        > Hint: You may use, without proof, the Riesz Representation Theorem for $L^2([0, 1])$.
+
+        ii. Argue that the $g$ obtained above must in fact belong to $L^\infty([0, 1])$ and represent $\Lambda$ in the sense that
+        $$
+        \Lambda(f)=\int_{0}^{1} f(x) \overline{g(x)} d x \quad \text { for all } f \in L^{1}([0,1])
+        $$
+        with
+        $$
+        \|g\|_{L^{\infty}([0,1])}=\|\Lambda\|_{L^{1}([0,1])\dual}
+        $$
+
+
+- year: 2019
+  season: Fall
+  exam: Real_Analysis
+  number: 1
+  university: UGA
+  tags:
+    - Convergence of Numbers
+  question: |
+    Let $\{a_n\}_{n=1}^\infty$ be a sequence of real numbers.
+
+    a. Prove that if $\displaystyle\lim_{n→\infty} a_n = 0$, then $\displaystyle\lim_{n→\infty} a_1 + \cdots + a_n = 0$.
+    $$
+    \lim _{n \rightarrow \infty} \frac{a_{1}+\cdots+a_{n}}{n}=0
+    $$
+
+    b. Prove that if $\displaystyle\sum_{n=1}^{\infty} \frac{a_{n}}{n}$ converges, then 
+    $$
+    \lim _{n \rightarrow \infty} \frac{a_{1}+\cdots+a_{n}}{n}=0
+    $$
+
+
+
+- year: 2019
+  season: Fall
+  exam: Real_Analysis
+  number: 2
+  university: UGA
+  tags:
+    - Analysis
+    - Integrals
+  question: |
+    Prove that
+    $$
+    \left|\frac{d^{n}}{d x^{n}} \frac{\sin x}{x}\right| \leq \frac{1}{n}
+    $$
+
+    for all $x \neq 0$ and positive integers $n$.
+
+    > Hint: Consider $\displaystyle\int_0^1 \cos(tx) dt$
+
+
+- year: 2019
+  season: Fall
+  exam: Real_Analysis
+  number: 3
+  university: UGA
+  tags:
+    - Measure Theory
+    - Borel-Cantelli
+  question: |
+    Let $(X, \mathcal B, µ)$ be a measure space with $µ(X) = 1$ and $\{B_n\}_{n=1}^\infty$ be a sequence of $\mathcal B$-measurable subsets of $X$, and
+    $$
+    B \definedas \theset{x\in X \suchthat x\in B_n \text{ for infinitely many } n}.
+    $$
+
+    a. Argue that $B$ is also a $\mathcal{B} \dash$measurable subset of $X$.
+
+    b. Prove that if $\sum_{n=1}^\infty \mu(B_n) < \infty$ then $\mu(B)= 0$.
+
+    c. Prove that if  $\sum_{n=1}^\infty \mu(B_n) = \infty$ **and** the sequence of set complements $\theset{B_n^c}_{n=1}^\infty$ satisfies
+    $$
+    \mu\left(\bigcap_{n=k}^{K} B_{n}^{c}\right)=\prod_{n=k}^{K}\left(1-\mu\left(B_{n}\right)\right)
+    $$
+    for all positive integers $k$ and $K$ with $k < K$, then $µ(B) = 1$.
+
+    > Hint: Use the fact that $1 - x \leq e^{-x}$ for all $x$.
+
+
+
+- year: 2019
+  season: Fall
+  exam: Real_Analysis
+  number: 4
+  university: UGA
+  tags:
+    - Functional Analysis
+    - Hilbert Spaces
+    - Norms
+  question: |
+    Let $\{u_n\}_{n=1}^\infty$ be an orthonormal sequence in a Hilbert space $\mathcal{H}$.
+
+    a. Prove that for every $x \in \mathcal H$ one has 
+    $$
+    \displaystyle\sum_{n=1}^{\infty}\left|\left\langle x, u_{n}\right\rangle\right|^{2} \leq\|x\|^{2}
+    $$
+
+    b. Prove that for any sequence $\{a_n\}_{n=1}^\infty \in \ell^2(\NN)$ there exists an element $x\in\mathcal H$ such that 
+    $$
+    a_n = \inner{x}{u_n} \text{ for all } n\in \NN
+    $$
+    and
+    $$
+    \norm{x}^2 = \sum_{n=1}^{\infty}\left|\left\langle x, u_{n}\right\rangle\right|^{2}
+    $$
+
+
+
+- year: 2019
+  season: Fall
+  exam: Real_Analysis
+  number: 5
+  university: UGA
+  tags:
+    - Integrals
+    - Norms
+  question: |
+    a. Show that if $f$ is continuous with compact support on $\RR$, then 
+    $$
+    \lim _{y \rightarrow 0} \int_{\mathbb{R}}|f(x-y)-f(x)| d x=0
+    $$
+
+    b. Let $f\in L^1(\RR)$ and for each $h > 0$ let 
+    $$
+    \mathcal{A}_{h} f(x):=\frac{1}{2 h} \int_{|y| \leq h} f(x-y) d y
+    $$
+
+    i. Prove that $\left\|\mathcal{A}_{h} f\right\|_{1} \leq\|f\|_{1}$ for all $h > 0$.
+
+    ii. Prove that $\mathcal{A}_h f → f$ in $L^1(\RR)$ as $h → 0^+$.
+
+- year: 2018
+  season: Spring
+  exam: Real_Analysis
+  number: 1
+  university: UGA
+  tags:
+    - Borel-Cantelli
+  question: |
+    Define
+    $$
+    E:=\left\{x \in \mathbb{R}:\left|x-\frac{p}{q}\right|<q^{-3} \text { for infinitely many } p, q \in \mathbb{N}\right\}.
+    $$
+
+    Prove that $m(E) = 0$.
+
+
+
+- year: 2018
+  season: Spring
+  exam: Real_Analysis
+  number: 2
+  university: UGA
+  tags:
+    - Uniform Convergence
+    - Integrals
+    - Convergence of Integrals
+  question: |
+    Let
+    $$
+    f_{n}(x):=\frac{x}{1+x^{n}}, \quad x \geq 0.
+    $$
+
+    a. Show that this sequence converges pointwise and find its limit. Is the convergence uniform on $[0, \infty)$?
+
+    b. Compute 
+    $$
+    \lim _{n \rightarrow \infty} \int_{0}^{\infty} f_{n}(x) d x
+    $$
+
+
+
+- year: 2018
+  season: Spring
+  exam: Real_Analysis
+  number: 3
+  university: UGA
+  tags:
+    - Integrals
+    - Convergence of Integrals
+    - Lp Spaces
+    - Norms
+  question: |
+    Let $f$ be a non-negative measurable function on $[0, 1]$. 
+
+    Show that
+    $$
+    \lim _{p \rightarrow \infty}\left(\int_{[0,1]} f(x)^{p} d x\right)^{\frac{1}{p}}=\|f\|_{\infty}.
+    $$
+
+
+
+- year: 2018
+  season: Spring
+  exam: Real_Analysis
+  number: 4
+  university: UGA
+  tags:
+    - Lp Spaces
+    - Integrals
+  question: |
+    Let $f\in L^2([0, 1])$ and suppose
+    $$
+    \int_{[0,1]} f(x) x^{n} d x=0 \text { for all integers } n \geq 0.
+    $$
+    Show that $f = 0$ almost everywhere.
+
+
+- year: 2018
+  season: Spring
+  exam: Real_Analysis
+  number: 5
+  university: UGA
+  tags:
+    - Convergence of Integrals
+    - Convergence of Functions
+    - Lp Spaces
+  question: |
+    Suppose that
+
+    - $f_n, f \in L^1$,
+    - $f_n \to f$ almost everywhere, and
+    - $\int\left|f_{n}\right| \rightarrow \int|f|$.
+
+    Show that $\int f_{n} \rightarrow \int f$
+
+- year: 2018
+  season: Fall
+  exam: Real_Analysis
+  number: 1
+  university: UGA
+  tags:
+    - Uniform Continuity
+  question: |
+    Let $f(x) = \frac 1 x$.
+    Show that $f$ is uniformly continuous on $(1, \infty)$ but not on $(0,\infty)$.
+
+
+- year: 2018
+  season: Fall
+  exam: Real_Analysis
+  number: 2
+  university: UGA
+  tags:
+    - Measure Theory
+  question: |
+    Let $E\subset \RR$ be a Lebesgue measurable set.
+    Show that there is a Borel set $B \subset E$ such that $m(E\setminus B) = 0$.
+
+
+- year: 2018
+  season: Fall
+  exam: Real_Analysis
+  number: 3
+  university: UGA
+  tags:
+    - Integrals
+  question: |
+    Suppose $f(x)$ and $xf(x)$ are integrable on $\RR$.
+    Define $F$ by
+    $$
+    F(t):=\int_{-\infty}^{\infty} f(x) \cos (x t) d x
+    $$
+    Show that 
+    $$
+    F'(t)=-\int_{-\infty}^{\infty} x f(x) \sin (x t) d x.
+    $$
+
+
+
+- year: 2018
+  season: Fall
+  exam: Real_Analysis
+  number: 4
+  university: UGA
+  tags:
+    - Lp Spaces
+    - Integrals
+  question: |
+    Let $f\in L^1([0, 1])$.
+    Prove that
+    $$
+    \lim_{n \to \infty} \int_{0}^{1} f(x) \abs{\sin n x} ~d x= \frac{2}{\pi} \int_{0}^{1} f(x) ~d x
+    $$
+
+    > Hint: Begin with the case that $f$ is the characteristic function of an interval.
+
+
+
+- year: 2018
+  season: Fall
+  exam: Real_Analysis
+  number: 5
+  university: UGA
+  tags:
+    - Fubini-Tonelli 
+  question: |
+    Let $f \geq 0$ be a measurable function on $\RR$.
+    Show that
+    \[
+    \int_{\mathbb{R}} f=\int_{0}^{\infty} m(\{x: f(x)>t\}) d t
+    \]
+
+- year: 2018
+  season: Fall
+  exam: Real_Analysis
+  number: 1
+  university: UGA
+  tags:
+    - Integrals
+    - Convergence of Integrals
+  question: |
+    Compute the following limit and justify your calculations:
+    $$
+    \lim_{n \rightarrow \infty} \int_{1}^{n} \frac{d x}{\left(1+\frac{x}{n}\right)^{n} \sqrt[n]{x}}
+    $$
+
+
+- year: 2017
+  season: Spring 
+  exam: Real_Analysis
+  number: 1
+  university: UGA
+  tags:
+    - Cantor Set
+    - Measure Theory
+  question: |
+    Let $K$ be the set of numbers in $[0, 1]$ whose decimal expansions do not use the digit $4$.
+
+    > We use the convention that when a decimal number ends with 4 but all other digits are
+    different from 4, we replace the digit $4$ with $399\cdots$. For example, $0.8754 = 0.8753999\cdots$.
+
+    Show that $K$ is a compact, nowhere dense set without isolated points, and find the
+    Lebesgue measure $m(K)$.
+
+
+- year: 2017
+  season: Spring 
+  exam: Real_Analysis
+  number: 2
+  university: UGA
+  tags:
+    - Radon Nikodym
+    - Measure Theory
+  question: |
+
+    a. Let $\mu$ be a measure on a measurable space $(X, \mathcal M)$ and $f$ a positive measurable function.
+  
+    Define a measure $\lambda$ by
+    $$
+    \lambda(E):=\int_{E} f ~d \mu, \quad E \in \mathcal{M}
+    $$
+
+    Show that for $g$ any positive measurable function, 
+    $$
+    \int_{X} g ~d \lambda=\int_{X} f g ~d \mu
+    $$
+
+    b. Let $E \subset \RR$ be a measurable set such that 
+    $$
+    \int_{E} x^{2} ~d m=0.
+    $$
+    Show that $m(E) = 0$.
+
+
+- year: 2017
+  season: Spring 
+  exam: Real_Analysis
+  number: 3
+  university: UGA
+  tags:
+    - Series of Functions
+    - Integrals
+    - Convergence of Functions
+    - L1
+  question: |
+    Let
+    \[
+    f_{n}(x)=a e^{-n a x}-b e^{-n b x} \quad \text{ where } 0 < a < b.
+    \]
+
+    Show that 
+
+    a. $\sum_{n=1}^{\infty}\left|f_{n}\right| \text { is not in } L^{1}([0, \infty), m)$
+
+      > Hint: $f_n(x)$ has a root $x_n$.
+
+    b. 
+    \[
+    \sum_{n=1}^{\infty} f_{n} \text { is in } L^{1}([0, \infty), m) 
+    \quad \text { and } \quad 
+    \int_{0}^{\infty} \sum_{n=1}^{\infty} f_{n}(x) ~d m=\ln \frac{b}{a}
+    \]
+
+
+- year: 2017
+  season: Spring 
+  exam: Real_Analysis
+  number: 4
+  university: UGA
+  tags:
+    - L1 
+  question: |
+    Let $f(x, y)$ on $[-1, 1]^2$ be defined by 
+    $$
+    f(x, y) = \begin{cases}
+    \frac{x y}{\left(x^{2}+y^{2}\right)^{2}} & (x, y) \neq (0, 0) \\
+    0 & (x, y) = (0, 0)
+    \end{cases}
+    $$
+    Determine if $f$ is integrable.
+
+
+- year: 2017
+  season: Spring 
+  exam: Real_Analysis
+  number: 5
+  university: UGA
+  tags:
+    - Uniform Continuity
+    - Integrals
+    - L2
+  question: |
+    Let $f, g \in L^2(\RR)$. 
+    Prove that the formula
+    \[
+    h(x):=\int_{-\infty}^{\infty} f(t) g(x-t) d t
+    \]
+    defines a uniformly continuous function $h$ on $\RR$.
+
+
+- year: 2017
+  season: Spring 
+  exam: Real_Analysis
+  number: 6
+  university: UGA
+  tags:
+    - Function Spaces
+    - Norms 
+    - Completeness 
+  question: |
+    Show that the space $C^1([a, b])$ is a Banach space when equipped with the norm
+    $$
+    \|f\|:=\sup _{x \in[a, b]}|f(x)|+\sup _{x \in[a, b]}\left|f^{\prime}(x)\right|.
+    $$
+
+- year: 2017
+  season: Fall
+  exam: Real_Analysis
+  number: 1
+  university: UGA
+  tags:
+    - Uniform Convergence 
+  question: |
+    Let 
+    $$
+    f(x) = s \sum_{n=0}^{\infty} \frac{x^{n}}{n !}.
+    $$
+
+    Describe the intervals on which $f$ does and does not converge uniformly.
+
+
+- year: 2017
+  season: Fall
+  exam: Real_Analysis
+  number: 2
+  university: UGA
+  tags:
+    - Measure Theory 
+  question: |
+    Let $f(x) = x^2$ and $E \subset [0, \infty) \definedas \RR^+$.
+
+    1. Show that
+    $$
+    m^*(E) = 0 \iff m^*(f(E)) = 0.
+    $$
+
+    2. Deduce that the map
+
+    \begin{align*}
+    \phi: \mathcal{L}(\RR^+) &\to \mathcal{L}(\RR^+) \\
+    E &\mapsto f(E)
+    \end{align*}
+      is a bijection from the class of Lebesgue measurable sets of $[0, \infty)$ to itself.
+
+
+- year: 2017
+  season: Fall
+  exam: Real_Analysis
+  number: 3
+  university: UGA
+  tags:
+    - Sequences of Functions
+    - Convergence of Functions
+    - L1
+    - Density
+  question: |
+    Let 
+    $$
+    S = \spanof_\CC\theset{\chi_{(a, b)} \suchthat a, b \in \RR},
+    $$
+    the complex linear span of characteristic functions of intervals of the form $(a, b)$.
+
+    Show that for every $f\in L^1(\RR)$, there exists a sequence of functions $\theset{f_n} \subset S$ such that 
+    $$
+    \lim _{n \rightarrow \infty}\left\|f_{n}-f\right\|_{1}=0
+    $$
+
+
+- year: 2017
+  season: Fall
+  exam: Real_Analysis
+  number: 4
+  university: UGA
+  tags:
+    - Convergence of Functions
+    - Convergence of Integrals
+    - Integrals
+    - Uniform Convergence
+  question: |
+    Let
+    $$
+    f_{n}(x)=n x(1-x)^{n}, \quad n \in \mathbb{N}.
+    $$
+
+    1. Show that $f_n \to 0$ pointwise but not uniformly on $[0, 1]$.
+        
+        > Hint: Consider the maximum of $f_n$.
+
+    2. 
+    $$
+    \lim _{n \rightarrow \infty} \int_{0}^{1} n(1-x)^{n} \sin x d x=0
+    $$
+
+
+- year: 2017
+  season: Fall
+  exam: Real_Analysis
+  number: 5
+  university: UGA
+  tags:
+    - Approximations to the Identity
+    - Convergence of Functions
+    - Convergence of Integrals
+    - L1
+  question: |
+    Let $\phi$ be a compactly supported smooth function that vanishes outside of an interval $[-N, N]$ such that $\int_{\mathrm{R}} \phi(x) d x=1$.
+
+    For $f\in L^1(\RR)$, define
+    $$
+    K_{j}(x):=j \phi(j x), \quad \quad f \ast K_{j}(x):=\int_{\mathbb{R}} f(x-y) K_{j}(y) ~d y
+    $$
+    and prove the following:
+
+    1. Each $f\ast K_j$ is smooth and compactly supported.
+
+    2. 
+    $$
+    \lim _{j \rightarrow \infty}\left\|f * K_{j}-f\right\|_{1}=0
+    $$
+
+    > Hint:
+    $$
+    \lim _{y \rightarrow 0} \int_{\mathbb{R}}|f(x-y)-f(x)| d y=0
+    $$
+
+
+
+
+- year: 2017
+  season: Fall
+  exam: Real_Analysis
+  number: 6
+  university: UGA
+  tags:
+    - Function Spaces
+    - Norms 
+    - Completeness
+  question: |
+    Let $X$ be a complete metric space and define a norm
+    $$
+    \|f\|:=\max \{|f(x)|: x \in X\}.
+    $$
+
+    Show that $(C^0(\RR), \norm{\wait} )$ (the space of continuous functions $f: X\to \RR$) is complete.
+
+
+- year: 2016
+  season: Spring 
+  exam: Real_Analysis
+  number: 1
+  university: UGA
+  tags:
+    - Bernoulli
+    - Sequences of Numbers
+  question: |
+    For $n\in \NN$, define
+    $$
+    e_{n}=\left(1+\frac{1}{n}\right)^{n} 
+    \quad \text { and } \quad 
+    E_{n}=\left(1+\frac{1}{n}\right)^{n+1}
+    $$
+
+    Show that $e_n < E_n$, and prove Bernoulli's inequality:
+    $$
+    (1+x)^{n} \geq 1+n x \text { for }-1<x<\infty \text { and } n \in \mathbb{N}
+    $$
+
+    Use this to show the following:
+
+    1. The sequence $e_n$ is increasing.
+    2. The sequence $E_n$ is decreasing.
+    3. $2 < e_n < E_n < 4$.
+    4. $\lim _{n \rightarrow \infty} e_{n}=\lim _{n \rightarrow \infty} E_{n}$.
+
+
+- year: 2016
+  season: Spring 
+  exam: Real_Analysis
+  number: 2
+  university: UGA
+  tags:
+    - Cantor Set
+  question: |
+    Let $0 < \lambda < 1$ and construct a Cantor set $C_\lambda$ by successively removing middle intervals of length $\lambda$.
+
+    Prove that $m(C_\lambda) = 0$.
+
+
+- year: 2016
+  season: Spring 
+  exam: Real_Analysis
+  number: 3
+  university: UGA
+  tags:
+    - Measure Theory
+    - Continuity
+  question: |
+    Let $f$ be Lebesgue measurable on $\RR$ and $E \subset \RR$ be measurable such that
+    $$
+    0<A=\int_{E} f(x) d x<\infty.
+    $$
+
+    Show that for every $0 < t < 1$, there exists a measurable set $E_t \subset E$ such that
+    $$
+    \int_{E_{t}} f(x) d x=t A.
+    $$
+
+
+- year: 2016
+  season: Spring 
+  exam: Real_Analysis
+  number: 4
+  university: UGA
+  tags:
+    - Uniform Continuity
+    - Measure Theory
+    - L1
+  question: |
+    Let $E \subset \RR$ be measurable with $m(E) < \infty$. 
+    Define
+    $$
+    f(x)=m(E \cap(E+x)).
+    $$
+
+    Show that
+
+    1. $f\in L^1(\RR)$.
+    2. $f$ is uniformly continuous.
+    3. $\lim _{|x| \rightarrow \infty} f(x)=0$
+
+    > Hint: 
+    $$
+    \chi_{E \cap(E+x)}(y)=\chi_{E}(y) \chi_{E}(y-x)
+    $$
+
+
+- year: 2016
+  season: Spring 
+  exam: Real_Analysis
+  number: 5
+  university: UGA
+  tags:
+    - Measure Theory
+    - Integrals
+    - L1
+  question: |
+    Let $(X, \mathcal M, \mu)$ be a measure space. For $f\in L^1(\mu)$ and $\lambda > 0$, define
+    $$
+    \phi(\lambda)=\mu(\{x \in X | f(x)>\lambda\}) 
+    \quad \text { and } \quad 
+    \psi(\lambda)=\mu(\{x \in X | f(x)<-\lambda\})
+    $$
+
+    Show that $\phi, \psi$ are Borel measurable and
+    $$
+    \int_{X}|f| ~d \mu=\int_{0}^{\infty}[\phi(\lambda)+\psi(\lambda)] ~d \lambda
+    $$
+
+
+- year: 2016
+  season: Spring 
+  exam: Real_Analysis
+  number: 6
+  university: UGA
+  tags:
+    - Functional Analysis
+    - Norms
+    - L2
+    - Riesz Representation 
+  question: |
+    Without using the Riesz Representation Theorem, compute
+    $$
+    \sup \left\{\left|\int_{0}^{1} f(x) e^{x} d x\right| \suchthat f \in L^{2}([0,1], m),~~ \|f\|_{2} \leq 1\right\}
+    $$
+
+- year: 2016
+  season: Fall
+  exam: Real_Analysis
+  number: 1
+  university: UGA
+  tags:
+    - Uniform Convergence
+    - Series of Numbers
+  question: |
+    Define
+    $$
+    f(x) = \sum_{n=1}^{\infty} \frac{1}{n^{x}}.
+    $$ 
+
+    Show that $f$ converges to a differentiable function on $(1, \infty)$ and that
+    $$
+    f'(x)  =\sum_{n=1}^{\infty}\left(\frac{1}{n^{x}}\right)^{\prime}.
+    $$
+
+    > Hint:
+    $$
+    \left(\frac{1}{n^{x}}\right)^{\prime}=-\frac{1}{n^{x}} \ln n
+    $$
+
+
+- year: 2016
+  season: Fall
+  exam: Real_Analysis
+  number: 2
+  university: UGA
+  tags:
+    - Measure Theory
+  question: |
+    Let $f, g: [a, b] \to \RR$ be measurable with
+    \[
+    \int_{a}^{b} f(x) ~d x=\int_{a}^{b} g(x) ~d x.
+    \]
+
+    Show that either
+
+    1. $f(x) = g(x)$ almost everywhere, or
+    2. There exists a measurable set $E \subset [a, b]$ such that
+    $$
+    \int_{E} f(x) ~d x>\int_{E} g(x) ~d x
+    $$
+
+
+- year: 2016
+  season: Fall
+  exam: Real_Analysis
+  number: 3
+  university: UGA
+  tags:
+    - L1
+    - Norms
+    - Convergence of Integrals
+  question: |
+    Let $f\in L^1(\RR)$.
+    Show that
+    $$
+    \lim _{x \rightarrow 0} \int_{\mathbb{R}}|f(y-x)-f(y)| d y=0
+    $$
+
+
+- year: 2016
+  season: Fall
+  exam: Real_Analysis
+  number: 4
+  university: UGA
+  tags:
+    - Measure Theory
+    - Borel-Cantelli
+  question: |
+    Let $(X, \mathcal M, \mu)$ be a measure space and suppose $\theset{E_n} \subset \mathcal M$ satisfies
+    $$
+    \lim _{n \rightarrow \infty} \mu\left(X \backslash E_{n}\right)=0.
+    $$
+
+    Define
+    $$
+    G \definedas \theset{x\in X \suchthat x\in E_n \text{ for only finitely many  } n}.
+    $$
+
+    Show that $G \in \mathcal M$ and $\mu(G) = 0$.
+
+
+- year: 2016
+  season: Fall
+  exam: Real_Analysis
+  number: 5
+  university: UGA
+  tags:
+    - Lp Spaces
+    - Integrals
+    - Sequences of Functions
+  question: |
+    Let $\phi\in L^\infty(\RR)$. Show that the following limit exists and satisfies the equality
+    $$
+    \lim _{n \rightarrow \infty}\left(\int_{\mathbb{R}} \frac{|\phi(x)|^{n}}{1+x^{2}} d x\right)^{\frac{1}{n}} = \norm{\phi}_\infty.
+    $$
+
+
+- year: 2016
+  season: Fall
+  exam: Real_Analysis
+  number: 6
+  university: UGA
+  tags:
+    - L2
+    - Convergence of Integrals
+  question: |
+    Let $f, g \in L^2(\RR)$. Show that
+    $$
+    \lim _{n \rightarrow \infty} \int_{\mathbb{R}} f(x) g(x+n) d x=0
+    $$
+
+- year: 2015
+  season: Spring
+  exam: Real_Analysis
+  number: 1
+  university: UGA
+  tags:
+    - Completeness
+  question: |
+    Let $(X, d)$ and $(Y, \rho)$ be metric spaces, $f: X\to Y$, and $x_0 \in X$.
+
+    Prove that the following statements are equivalent:
+
+    1. For every $\varepsilon > 0 \quad \exists \delta > 0$ such that $\rho( f(x), f(x_0)  ) < \varepsilon$ whenever $d(x, x_0) < \delta$.
+    2. The sequence $\theset{f(x_n)}_{n=1}^\infty \to f(x_0)$ for every sequence $\theset{x_n} \to x_0$ in $X$.
+
+
+- year: 2015
+  season: Spring
+  exam: Real_Analysis
+  number: 2
+  university: UGA
+  tags:
+    - Series of Functions
+    - Integrals
+  question: |
+    Let $f: \RR \to \CC$ be continuous with period 1. Prove that
+    $$
+    \lim _{N \rightarrow \infty} \frac{1}{N} \sum_{n=1}^{N} f(n \alpha)=\int_{0}^{1} f(t) d t \quad \forall \alpha \in \RR\setminus\QQ.
+    $$
+
+    > Hint: show this first for the functions $f(t) = e^{2\pi i k t}$ for $k\in \ZZ$.
+
+
+- year: 2015
+  season: Spring
+  exam: Real_Analysis
+  number: 3
+  university: UGA
+  tags:
+    - Measure Theory
+  question: |
+    Let $\mu$ be a finite Borel measure on $\RR$ and $E \subset \RR$ Borel. 
+    Prove that the following statements are equivalent:
+
+    1. $\forall \varepsilon > 0$ there exists $G$ open and $F$ closed such that 
+    $$
+    F \subseteq E \subseteq G \quad \text{and} \quad \mu(G\setminus F) < \varepsilon.
+    $$
+    2. There exists a $V \in G_\delta$ and $H \in F_\sigma$ such that 
+    $$
+    H \subseteq E \subseteq V \quad \text{and}\quad \mu(V\setminus H) = 0
+    $$
+
+
+- year: 2015
+  season: Spring
+  exam: Real_Analysis
+  number: 4
+  university: UGA
+  tags:
+    - L1 
+  question: |
+    Define
+    $$
+    f(x, y):=\left\{\begin{array}{ll}{\frac{x^{1 / 3}}{(1+x y)^{3 / 2}}} & {\text { if } 0 \leq x \leq y} \\ {0} & {\text { otherwise }}\end{array}\right.
+    $$
+
+    Carefully show that $f \in L^1(\RR^2)$.
+
+
+
+- year: 2015
+  season: Spring
+  exam: Real_Analysis
+  number: 5
+  university: UGA
+  tags:
+    - Functional Analysis
+    - Hilbert Spaces
+  question: |
+    Let $\mathcal H$ be a Hilbert space.
+
+    1. Let $x\in \mathcal H$ and $\theset{u_n}_{n=1}^N$ be an orthonormal set.
+      Prove that the best approximation to $x$ in $\mathcal H$ by an element in $\spanof_\CC\theset{u_n}$ is given by
+      $$
+      \hat x \definedas \sum_{n=1}^N \inner{x}{u_n}u_n.
+      $$
+    2. Conclude that finite dimensional subspaces of $\mathcal H$ are always closed.
+
+
+- year: 2015
+  season: Spring
+  exam: Real_Analysis
+  number: 6
+  university: UGA
+  tags:
+    - Convolution
+    - Uniform Continuity
+    - L1
+  question: |
+    Let $f \in L^1(\RR)$ and $g$ be a bounded measurable function on $\RR$.
+
+    1. Show that the convolution $f\ast g$ is well-defined, bounded, and uniformly continuous on $\RR$.
+    2. Prove that one further assumes that $g \in C^1(\RR)$ with bounded derivative, then $f\ast g \in C^1(\RR)$ and
+    $$
+    \frac{d}{d x}(f * g)=f *\left(\frac{d}{d x} g\right)
+    $$
+
+
+- year: 2015
+  season: Fall
+  exam: Real_Analysis
+  number: 1
+  university: UGA
+  tags:
+    - Calculus
+  question: |
+    Define
+    $$
+    f(x)=c_{0}+c_{1} x^{1}+c_{2} x^{2}+\ldots+c_{n} x^{n} \text { with } n \text { even and } c_{n}>0.
+    $$
+
+    Show that there is a number $x_m$ such that $f(x_m) \leq f(x)$ for all $x\in \RR$.
+
+
+- year: 2015
+  season: Fall
+  exam: Real_Analysis
+  number: 2
+  university: UGA
+  tags:
+    - Convergence of Functions
+    - Density
+  question: |
+    Let $f: \RR \to \RR$ be Lebesgue measurable.
+
+    1. Show that there is a sequence of simple functions $s_n(x)$ such that $s_n(x) \to f(x)$ for all $x\in \RR$.
+    2. Show that there is a Borel measurable function $g$ such that $g = f$ almost everywhere.
+
+
+- year: 2015
+  season: Fall
+  exam: Real_Analysis
+  number: 3
+  university: UGA
+  tags:
+    - Integrals
+    - Convergence of Functions
+  question: |
+    Compute the following limit:
+    $$
+    \lim _{n \rightarrow \infty} \int_{1}^{n} \frac{n e^{-x}}{1+n x^{2}} ~\sin \left(\frac x n\right) ~d x
+    $$
+
+
+- year: 2015
+  season: Fall
+  exam: Real_Analysis
+  number: 4
+  university: UGA
+  tags:
+    - Convergence of Numbers
+    - Calculus
+  question: |
+    Let $f: [1, \infty) \to \RR$ such that $f(1) = 1$ and
+    $$
+    f^{\prime}(x)= \frac{1} {x^{2}+f(x)^{2}}
+    $$
+
+    Show that the following limit exists and satisfies the equality
+    $$
+    \lim _{x \rightarrow \infty} f(x) \leq 1 + \frac \pi 4
+    $$
+
+
+- year: 2015
+  season: Fall
+  exam: Real_Analysis
+  number: 5
+  university: UGA
+  tags:
+    - Measure Theory
+    - L1 
+    - Convolution
+    - Norms
+  question: |
+    Let $f, g \in L^1(\RR)$ be Borel measurable.
+
+    1. Show that 
+      - The function $$F(x, y) \definedas f(x-y) g(y)$$ is Borel measurable on $\RR^2$, and
+      - For almost every $y\in \RR$, $$F_y(x) \definedas f(x-y)g(y)$$ is integrable with respect to $y$.
+    2. Show that $f\ast g \in L^1(\RR)$ and
+    $$
+    \|f * g\|_{1} \leq\|f\|_{1}\|g\|_{1}
+    $$
+
+
+- year: 2015
+  season: Fall
+  exam: Real_Analysis
+  number: 6
+  university: UGA
+  tags:
+    - Norms
+    - L1
+  question: |
+    Let $f: [0, 1] \to \RR$ be continuous.
+    Show that
+    $$
+    \sup \left\{\|f g\|_{1} \suchthat g \in L^{1}[0,1],~~ \|g\|_{1} \leq 1\right\}=\|f\|_{\infty}
+    $$
+
+- year: 2014
+  season: Spring
+  exam: Real_Analysis
+  number: 1
+  university: UGA
+  tags:
+    - L1
+    - Uniform Continuity
+    - Small Tails
+  question: |
+    1. Give an example of a continuous $f\in L^1(\RR)$ such that $f(x) \not\to 0$ as$\abs x \to \infty$.
+
+    2. Show that if $f$ is *uniformly* continuous, then
+    \[
+    \lim_{\abs{x} \to \infty} f(x) = 0.
+    \]
+
+- year: 2014
+  season: Spring
+  exam: Real_Analysis
+  number: 2
+  university: UGA
+  tags:
+    - Sequences of Numbers
+    - Series of Numbers
+    - Lp Spaces
+  question: |
+    Let $\theset{a_n}$ be a sequence of real numbers such that
+    $$
+    \theset{b_n} \in \ell^2(\NN) \implies \sum a_n b_n < \infty.
+    $$
+    Show that $\sum a_n^2 < \infty$.
+
+    > Note: Assume $a_n, b_n$ are all non-negative.
+
+
+- year: 2014
+  season: Spring
+  exam: Real_Analysis
+  number: 3
+  university: UGA
+  tags:
+    - Measure Theory
+  question: |
+    Let $f: \RR \to \RR$ and suppose
+    $$
+    \forall x\in \RR,\quad f(x) \geq \limsup _{y \rightarrow x} f(y)
+    $$
+    Prove that $f$ is Borel measurable.
+
+
+- year: 2014
+  season: Spring
+  exam: Real_Analysis
+  number: 4
+  university: UGA
+  tags:
+    - Measure Theory
+    - Convergence of Integrals
+  question: |
+    Let $(X, \mathcal M, \mu)$ be a measure space and suppose $f$ is a measurable function on $X$.
+    Show that
+    $$
+    \lim _{n \rightarrow \infty} \int_{X} f^{n} ~d \mu =
+    \begin{cases}
+    \infty & or \\
+    \mu(f\inv(1)),
+    \end{cases}
+    $$
+    and characterize the collection of functions of each type.
+
+- year: 2014
+  season: Spring
+  exam: Real_Analysis
+  number: 5
+  university: UGA
+  tags:
+    - Integrals
+    - Fubini-Tonelli
+    - L1
+  question: |
+    Let $f, g \in L^1([0, 1])$ and for all $x\in [0, 1]$ define
+    $$
+    F(x):=\int_{0}^{x} f(y) d y \quad \text { and } \quad G(x):=\int_{0}^{x} g(y) d y.
+    $$
+
+    Prove that
+    $$
+    \int_{0}^{1} F(x) g(x) d x=F(1) G(1)-\int_{0}^{1} f(x) G(x) d x
+    $$
+
+- year: 2014
+  season: Fall
+  exam: Real_Analysis
+  number: 1
+  university: UGA
+  tags:
+    - Analysis
+  question: |
+    Let $\theset{f_n}$ be a sequence of continuous functions such that $\sum f_n$ converges uniformly.
+
+    Prove that $\sum f_n$ is also continuous.
+
+
+- year: 2014
+  season: Fall
+  exam: Real_Analysis
+  number: 2
+  university: UGA
+  tags:
+    - Analysis
+  question: |
+    Let $I$ be an index set and $\alpha: I \to (0, \infty)$.
+
+    1.  Show that
+        $$
+        \sum_{i \in I} a(i):=\sup _{\substack{ J \subset I \\ J \text { finite }}} \sum_{i \in J} a(i)<\infty \implies I \text{ is countable.}
+        $$
+
+    2.  Suppose $I = \QQ$ and $\sum_{q \in \mathbb{Q}} a(q)<\infty$.
+        Define
+        $$
+        f(x):=\sum_{\substack{q \in \mathbb{Q}\\ q \leq x}} a(q).
+        $$
+        Show that $f$ is continuous at $x \iff x\not\in \QQ$.
+
+- year: 2014
+  season: Fall
+  exam: Real_Analysis
+  number: 3
+  university: UGA
+  tags:
+    - L1
+    - Continuity of Measure
+    - Measure Theory
+  question: |
+    Let $f\in L^1(\RR)$. Show that
+    $$
+    \forall\varepsilon > 0 ~~\exists \delta > 0 \text{ such that } m(E) < \delta \implies \int_{E}|f(x)| d x<\varepsilon
+    $$
+
+- year: 2014
+  season: Fall
+  exam: Real_Analysis
+  number: 4
+  university: UGA
+  tags:
+    - L infty
+    - Integrals
+  question: |
+    Let $g\in L^\infty([0, 1])$
+    Prove that
+    $$
+    \int_{[0,1]} f(x) g(x) d x=0 \quad\text{for all continuous } f:[0, 1] \to \RR \implies g(x) = 0 \text{ almost everywhere. }
+    $$
+
+- year: 2014
+  season: Fall
+  exam: Real_Analysis
+  number: 5
+  university: UGA
+  tags:
+    - Convolution
+    - Integrals
+    - Convergence of Integrals
+    - L1
+    - Uniform Continuity
+  question: |
+    1. Let $f \in C_c^0(\RR^n)$, and show
+    $$
+    \lim _{t \rightarrow 0} \int_{\mathbb{R}^{n}}|f(x+t)-f(x)| d x=0.
+    $$
+
+    2. Extend the above result to $f\in L^1(\RR^n)$ and show that
+    $$
+    f\in L^1(\RR^n),~ g\in L^\infty(\RR^n) \implies f \ast g \text{ is bounded and uniformly continuous. }
+    $$
+
+- year: 2014
+  season: Fall
+  exam: Real_Analysis
+  number: 6
+  university: UGA
+  tags:
+    - Lp Spaces
+    - Norms
+    - Functional Analysis
+    - Riesz Representation
+  question: |
+    Let $1 \leq p,q \leq \infty$ be conjugate exponents, and show that
+    $$
+    f \in L^p(\RR^n) \implies \|f\|_{p}=\sup _{\|g\|_{q}=1}\left|\int f(x) g(x) d x\right|
+    $$
+- year: 1970
+  season: Spring
+  exam: Real_Analysis
+  number: 1abch
+  university: NUS
+  tags:
+    - Convergence of Functions
+    - Uniform Continuity
+    - Mean Value Theorem
+    - Variation
+  question: |
+    Prove or disprove each of the following statements.
+
+    (a) If $f$ is of bounded variation on $[0,1]$, then it is continuous on $[0,1]$.
+
+    (b) If $f : [0, 1] → [0, 1]$ is a continuous function, then there exists $x_0 \in [0, 1]$ such that $f(x_0) = x_0$.
+
+    (c) Let $\{f_n\}$ be a sequence of uniformly continuous functions on an interval $I$. If $\{f_n\}$ converges uniformly to a function $f$ on $I$, then $f$ is also uniformly continuous on $I$.
+    
+    (h) If $f$ is differentiable on a connected set $E \subset \mathbb{R}^n$, then for any $x, y \in E$, there exists $z \in E$ such that $f(x) - f(y) = \nabla f(z)(x - y)$.  
+
+- year: 1970
+  season: Spring
+  exam: Real_Analysis
+  number: 1de
+  university: NUS
+  tags:
+    - Convergence of Numbers
+    - Series of Numbers
+    - Uniform Continuity
+  question: |
+    Prove or disprove each of the following statements.
+    
+    (d) If $\lim_{n\to\infty} |a_n+1/a_n|$ exists, then $\lim_{n\to \infty} |a_n|^{1/n}$ exists and the two limits are equal.
+
+    (e) If $\sum_{n=1}^\infty a_n x^n$ converges for all $x \in [0, 1]$, then $\lim_{x\to 1^-} \sum_{n=1}^\infty a_n x^n=\sum_{n=1}^\infty a_n$
+
+- year: 1970
+  season: Spring
+  exam: Real_Analysis
+  number: 1fg
+  university: NUS
+  tags:
+    - Measure Theory
+  question: |
+    Prove or disprove each of the following statements.
+    
+    (f) If $E \subset \mathbb{R}$ and 
+
+        $\mu(E) = \inf\{\sum_{I_i \in S} |I_i| : S = \{I_i\}_{i=1}^n \text{ such that } E \subset \union_{i=1}^n I_i \text{ for some } n \in \mathbb{N}\}$
+
+        then $\mu$ coincides with the outer measure of $E$.
+
+    (g) If $E$ is a Borel set and $f$ is a measurable function, then $f^{-1}(E)$ is also measurable.
+
+
+- year: 1970
+  season: Spring
+  exam: Real_Analysis
+  number: 2
+  university: NUS
+  tags:
+    - Measure Theory 
+  question: |
+    If $f$ is a finite real valued measurable function on a measurable set $E \subset \mathbb{R}$, show that the set $\{(x, f(x)) : x \in E\}$ is measurable.
+
+- year: 1970
+  season: Spring
+  exam: Real_Analysis
+  number: 3
+  university: NUS
+  tags:
+    - Sequences of Functions
+    - Arzela-Ascoli
+  question: |
+    Let g : $[0, 1] × [0, 1] → [0, 1]$ be a continuous function and let $\{f_n\}$ be a sequence of functions such that 
+
+    $$f_n(x)=\begin{cases}{0,   0\leq x\leq 1/n},\\{\int_0^{x-\frac1n} g(t,f_n(t))dt, 1/n\leq x \leq 1.}\end{cases}$$
+
+    With the help of the Arzela-Ascoli theorem or otherwise, show that there exists a continuous function $f : [0, 1] → \mathbb{R}$ such that 
+
+    $f(x) = \int_0^x g(t, f(t))dt$
+
+    for all $x \in [0, 1]$. 
+
+    > Hint: first show that $|f_n(x_1) - f_n(x_2)| \leq |x_1 - x_2|$.
+
+
+- year: 1970
+  season: Spring
+  exam: Real_Analysis
+  number: 1
+  university: NUS
+  tags:
+    - Convergence of Numbers
+  question: |
+    If $\limsup_{n\rightarrow \infty} a_n\leq l$, show that $\limsup_{n\rightarrow \infty}\sum_{i=1}^n{a_i/n}\leq l$.  
+
+- year: 1970
+  season: Spring
+  exam: Real_Analysis
+  number: 2
+  university: NUS
+  tags:
+    - Integrals
+    - Measure Theory
+  question: |
+    If $f$ is a nonnegative measurable function on $\mathbb{R}$ and $p > 0$, show that
+    $$\int f^p ~dx = \int_0^{\infty} p t^{p-1} \abs{\{x : f(x) > t\}} ~dt$$ 
+    where $\abs{\{x : f(x) > t\}}$ is the Lebesgue measure of the set $\{x : f(x) > t\}$.
+
+- year: 1970
+  season: Spring
+  exam: Real_Analysis
+  number: 3
+  university: NUS
+  tags:
+    - Integrals
+  question: |
+    If $f$ is a nonnegative measurable function on $[0, \pi]$ and $\int_0^\pi f(x)^3~dx < \infty$, show that
+    \begin{align*}
+    \lim_{\alpha\to\infty} \int_{ \theset{x :f(x) > \alpha} } f(x)^2 ~dx=0
+    .\end{align*}
+
+
+- year: 1970
+  season: Spring
+  exam: Real_Analysis
+  number: 4
+  university: NUS
+  tags:
+    - Measure Theory
+  question: |
+    Prove or disprove each of the following statements.
+
+    (a) If $f : [0, 1] → \mathbb{R}$ is a measurable function, then given any $\varepsilon > 0$, there exists a compact set $K \subset [0, 1]$ such that $f$ is continuous on $K$ relative to $K$.
+
+    (c) If f is Borel measurable on $\mathbb{R} × \mathbb{R}$, then for any $x \in \mathbb{R}$, the function $g(y) = f(x, y)$ is also Borel measurable on $\mathbb{R}$.
+
+    (d) If $E \subset \mathbb{R}$, then $E$ is measurable if and only if given any $\varepsilon > 0$, there exist a closed set $F$ and an open set $G$ such that $F \subset E \subset G$ and the measure of $G-F$ is less than $\varepsilon$.
+
+   
+- year: 1970
+  season: Spring
+  exam: Real_Analysis
+  number: 4
+  university: NUS
+  tags:
+    - Integrals
+    - Convergence of Functions
+    - Lp Spaces
+  question: |
+    Prove or disprove each of the following statements.
+    
+    (b) If ${f_n}$ is a sequence of measurable functions that converges uniformly to $f$ on $\mathbb{R}$, then $\int{f}=\lim_{k\to \infty} \int f_k$
+    
+    (e) If $\{f_k\}$ is a sequence of function in $L_p[0,\infty)$ that converges to a function $f \in L_p [0,\infty)$, then $\{f_k\}$ has a subsequence that converges to $f$ almost everywhere.
+    
+
+- year: 1970
+  season: Spring
+  exam: Real_Analysis
+  number: 4
+  university: NUS
+  tags:
+    - Riemann Integrability
+    - Integrals
+    - Convergence of Functions
+    - L1
+    - Variation
+  question: |
+    Prove or disprove each of the following statements.
+    
+    (f) If $f$ is Riemann integrable on $[\eps, 1]$ for all $0 < \eps < 1$, then $f$ is Lebesgue integrable on $[0,1]$ if $f$ is nonnegative and the following limit exists $\lim_{\varepsilon\to 0^+} \int_\varepsilon^1 f dx$.
+
+    (g) If $f$ is integrable on $[0,1]$, then $\lim_{n\to\infty} \int_0^1 f(x)\sin(n\pi x)dx = 0$.
+
+    (h) If $f$ is continuous on $[0, 1]$, then it is of bounded variation on [0, 1]$.
+
+
+- year: 1970
+  season: Spring
+  exam: Real_Analysis
+  number: 5
+  university: NUS
+  tags:
+    - Mean Value Theorem 
+    - Sequences of Functions
+  question: |
+    (a) Let $f : \mathbb{R} → \mathbb{R}$ be a differentiable function. 
+        If $f'(-1) < 2$ and $f'(1) > 2$, show that there exists $x_0 \in (i1, 1)$ such that $f'(x_0) = 2$.
+
+        > Hint: consider the function $f(x) - 2x$ and recall the proof of Rolle’s theorem.)
+
+    (b) Let $f : (-1, 1) → \mathbb{R}$ be a differentiable function on $(-1, 0) \union (0, 1)$ such that $\lim_{x\to 0} f'(x) = L$. 
+        If $f$ is continuous on $(-1, 1)$, show that $f$ is indeed differentiable at $0$ and $f'(0) = L$.
+
+
+- year: 0 
+  number: 0
+  exam: Real_Analysis
+  university: Emory
+  tags:
+    - Measure Theory
+  question: |
+    Describe the process that extends a measure on an algebra
+    $\mathcal{A}$ of subsets of $X$, to a complete measure defined on a
+    $\sigma$-algebra $\mathcal{B}$ containing $\mathcal{A}$. State the
+    corresponding definitions and results (without proofs).
+
+
+- year: 0 
+  number: 0
+  exam: Real_Analysis
+  university: Emory
+  tags:
+    - Measure Theory
+    - Fatou
+  question: |
+    State and prove Fatou's Lemma on a general measurable space.
+
+
+- year: 0 
+  number: 0
+  exam: Real_Analysis
+  university: Emory
+  tags:
+    - Convergence of Functions
+  question: |
+    1.  State the Dominated Convergence Theorem for Lebesgue integrals.
+
+    2.  Let $\{f_n\}$ be a sequence of measurable functions on a
+        Lebesgue measurable set $E$ which converges *in measure* to a
+        function $f$ on $E$. Suppose that for every $n$, $|f_n| \leq g$
+        with $g$ integrable on $E$. Using the above theorem show that
+        \begin{align*}
+            \int_E |f_n-f| \longrightarrow 0 \, .
+        \end{align*}
+
+
+- year: 0 
+  number: 0
+  exam: Real_Analysis
+  university: Emory
+  tags:
+    - Lp Spaces 
+  question: |
+    Let $f\in L^1([0,1])$. Show that
+
+    1.  The limit $\lim_{p\to 0^+} \| f \|_p$ exists.
+
+    2.  If $m \{x : f(x) = 0\} > 0$, then the above limit is zero.
+
+
+- year: 0 
+  number: 0
+  exam: Real_Analysis
+  university: Emory
+  tags:
+    - Absolute Continuity
+  question: |
+    Let $f$ be a continuous function on $[0,1]$. Show that the following
+    statements are equivalent.
+
+    1.  $f$ is absolutely continuous.
+
+    2.  For any $\epsilon > 0$ there exists $\delta > 0$ such that
+        $m(f(E)) < \epsilon$ for any set $E\subseteq [0,1]$ with
+        $m(E) < \delta$.
+
+    3.  $m(f(E)) = 0$ for any set $E \subseteq [0,1]$ with $m(E)=0$.
 - year: 2019
   season: Fall
   number: 1
@@ -2578,2127 +6307,6 @@
     \rtimes_{\varphi_1}K\rightarrow H\rtimes_{\varphi_2}K$
     defined by $\psi((h,k))=(\sigma(h),k^a)$ is a homomorphism.
     Show $\psi$ is bijective by construcing a 2-sided inverse.
-- year: 1970
-  season: Spring
-  exam: Complex_Analysis
-  number: 4
-  university: NUS
-  tags:
-    - Holomorphic Functions
-    - Polynomials
-    - Rouche
-  question: |
-    Find the number of zeroes, counting multiplicities, of the polynomial 
-
-    $f(z) = 2z^5 - 6z^2 - z + 1 = 0$
-
-    in the annulus $1 ≤ |z| ≤ 2$.
-
-- year: 1970
-  season: Spring
-  exam: Complex_Analysis
-  number: 5
-  university: NUS
-  tags:
-    - Biholomorphisms
-  question: |
-    Find an analytic isomorphism from the open region between $|z| = 1$ and $|z -\frac 1 2| =\frac 1 2$ to the upper half plane $\Im z > 0$. (You may leave your result as a composition of functions).
-
-- year: 1970
-  season: Spring
-  exam: Complex_Analysis
-  number: 6
-  university: NUS
-  tags:
-    - Holomorphic Functions
-    - Cauchy Integral Theorem
-    - Green's Theorem
-  question: |
-    Use Green theorem or otherwise to prove the Cauchy theorem.
-
-
-- year: 1970
-  season: spring
-  exam: Complex_Analysis
-  number: 8
-  university: NUS
-  tags:
-    - Green's Theorem
-  question: |
-    State and prove the divergence theorem on any rectangle in $\mathbb{R}^2$.
-
-
-- year: 1970
-  season: Spring
-  exam: Complex_Analysis
-  number: 6
-  university: NUS
-  tags:
-    - Biholomorphism
-  question: |
-    Find an analytic isomorphism from the open region between $x = 1$ and $x = 3$ to the upper half unit disk $\{|z| < 1,\Im z > 0\}$. (You may leave your result as a composition of functions)
-
-- year: 1970
-  season: Spring
-  exam: Complex_Analysis
-  number: 7
-  university: NUS
-  tags:
-    - Integrals
-    - Argument Principle
-      Cauchy's Integral Theorem
-    - Meromorphic Functions
-  question: |
-    Use Cauchy's theorem to prove the argument principle.
-
-- year: 1970
-  season: spring
-  exam: Complex_Analysis
-  number: 8
-  university: NUS
-  tags:
-    - Integrals
-    - Residues
-    - Meromorphic Functions
-  question: |
-    Evaluate the following by the method of residues:
-    $\int_0^{\pi /2} \frac{1}{3+\sin^2x}dx$
-
-
-- year: 1970
-  season: Spring
-  exam: Complex_Analysis
-  number: 7
-  university: NUS
-  tags:
-    - Integrals
-    - Residues
-    - Meromorphic Functions
-  question: |
-    Evaluate the improper integral 
-
-    $\int_0^\infty \frac{x^2~dx}{(x^2+1)(x^2+4)}$
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Liouville's Theorem 
-  question: |
-    (1) Assume $\displaystyle f(z) = \sum_{n=0}^\infty c_n z^n$
-    converges in $|z| < R$. Show that for $r <R$,
-    $$\frac{1}{2 \pi} \int_0^{2 \pi} |f(r e^{i \theta})|^2 d \theta =
-    \sum_{n=0}^\infty |c_n|^2 r^{2n} \; .$$
-
-    (2) Deduce Liouville's theorem from (1).
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Analysis
-  question: |
-    Let $f$ be a continuous function in the region
-    $$D=\{z \suchthat  \abs{z}>R, 0\leq \arg z\leq \theta\}\quad\text{where}\quad
-    1\leq \theta \leq 2\pi.$$ If there exists $k$ such that
-    $\displaystyle{\lim_{z\to\infty} zf(z)=k}$ for $z$ in the region
-    $D$. 
-    Show that $$\lim_{R'\to\infty} \int_{L} f(z) dz=i\theta k,$$
-    where $L$ is the part of the circle $|z|=R'$ which lies in the
-    region $D$.
-
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Analytic Functions
-    - Residues
-    - Series of Functions
-  question: |
-    Suppose that $f$ is an analytic function in the region $D$ which
-    contains the point $a$. Let
-    $$F(z)= z-a-qf(z),\quad \text{where}~ q \ \text{is a complex
-    parameter}.$$ 
-
-    (1) Let $K\subset D$ be a circle with the center at
-    point $a$ and also we assume that $f(z)\not =0$ for $z\in K$. Prove
-    that the function $F$ has one and only one zero $z=w$ on the closed
-    disc $\bar{K}$ whose boundary is the circle $K$ if $\displaystyle{
-    |q|<\min_{z\in K} \frac{|z-a|}{|f(z)|}.}$\
-    
-    (2) Let $G(z)$ be an analytic function on the disk $\bar{K}$. Apply
-    the residue theorem to prove that
-    $\displaystyle{ \frac{G(w)}{F'(w)}=\frac{1}{2\pi
-    i}\int_K \frac{G(z)}{F(z)} dz,}$ where $w$ is the zero from (1).\
-    
-    (3) If $z\in K$, prove that the function
-    $\displaystyle{\frac{1}{F(z)}}$ can be represented as a convergent
-    series with respect to $q$: $\displaystyle{
-    \frac{1}{F(z)}=\sum_{n=0}^{\infty} \frac{(qf(z))^n}{(z-a)^{n+1}}.}$
-
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Integrals 
-  question: |
-    Evaluate $$\displaystyle{ \int_{0}^{\infty}\frac{x\sin x}{x^2+a^2} \,
-    dx }.$$
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Cauchy-Riemann 
-  question: |
-    Let $f=u+iv$ be differentiable (i.e. $f'(z)$ exists) with continuous
-    partial derivatives at a point $z=re^{i\theta}$, $r\not= 0$. Show
-    that
-    $$\frac{\partial u}{\partial r}=\frac{1}{r}\frac{\partial v}{\partial \theta},\quad
-    \frac{\partial v}{\partial r}=-\frac{1}{r}\frac{\partial u}{\partial \theta}.$$
-
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Integrals 
-  question: |
-    Show that $\displaystyle \int_0^\infty \frac{x^{a-1}}{1+x^n}
-    dx=\frac{\pi}{n\sin \frac{a\pi}{n}}$ using complex analysis, $0< a <
-    n$. Here $n$ is a positive integer.
-
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Integrals 
-  question: |
-    For $s>0$, the **gamma function** is defined by
-    $\displaystyle{\Gamma(s)=\int_0^{\infty} e^{-t}t^{s-1} dt}$.
-
-    1.  Show that the gamma function is analytic in the half-plane
-        $\Re (s)>0$, and is still given there by the integral formula
-        above.
-
-    2.  Apply the formula in the previous question to show that
-        $$\Gamma(s)\Gamma(1-s)=\frac{\pi}{\sin \pi s}.$$
-
-    > Hint: You may need $\displaystyle{\Gamma(1-s)=t \int_0^{\infty}e^{-vt}(vt)^{-s} dv}$ for $t>0$.
-
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Rouche 
-    - Polynomials
-    - Holomorphic Functions
-  question: |
-    Apply Rouché's Theorem to prove the Fundamental Theorem of Algebra: If
-    $$P_n(z) = a_0 + a_1z + \cdots + a_{n-1}z^{n-1} + a_nz^n\quad  (a_n \neq 0)$$
-    is a polynomial of degree n, then it has n zeros in $\mathbb C$.
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Entire Functions
-    - Analysis
-  question: |
-    Suppose $f$ is entire and there exist $A, R >0$ and natural number
-    $N$ such that $$|f(z)| \geq A |z|^N\ \text{for}\ |z| \geq R.$$ Show
-    that 
-    
-    (i) $f$ is a polynomial and 
-    
-    (ii) the degree of $f$ is at least $N$.
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Analytic Functions
-  question: |
-    Let $f: {\mathbb C} \rightarrow {\mathbb C}$ be an injective
-    analytic (also called *univalent*) function. Show that there exist
-    complex numbers $a \neq 0$ and $b$ such that $f(z) = az + b$.
-
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Analytic Functions
-    - Analysis
-    - Conformal Maps
-  question: |
-    Let $g$ be analytic for $|z|\leq 1$ and $|g(z)| < 1$ for $|z| = 1$.
-
-    1.  Show that $g$ has a unique fixed point in $|z| < 1$.
-
-    2.  What happens if we replace $|g(z)| < 1$ with $|g(z)|\leq 1$ for
-        $|z|=1$? Give an example if (a) is not true or give an proof
-        if (a) is still true.
-
-    3.  What happens if we simply assume that $f$ is analytic for
-        $|z| < 1$ and $|f(z)| < 1$ for $|z| < 1$? Suppose that $f(z)
-        \not\equiv  z$. Can f have more than one fixed point in
-        $|z| < 1$?
-
-    > Hint: The map $\displaystyle{\psi_{\alpha}(z)=\frac{\alpha-z}{1-\bar{\alpha}z}}$ may be useful.
-
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Conformal Maps
-  question: |
-    Find a conformal map from $D = \{z :\  |z| < 1,\ |z - 1/2| > 1/2\}$
-    to the unit disk $\Delta=\{z: \ |z|<1\}$.
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Entire Functions
-    - Analysis
-  question: |
-    Let $f(z)$ be entire and assume values of $f(z)$ lie outside a *bounded*
-    open set $\Omega$. Show without using Picard's theorems that $f(z)$ is a
-    constant.
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Liouville's Theorem
-  question: |
-    (1) Assume $\displaystyle f(z) = \sum_{n=0}^\infty c_n z^n$ converges
-    in $|z| < R$. Show that for $r <R$,
-    $$\frac{1}{2 \pi} \int_0^{2 \pi} |f(r e^{i \theta})|^2 d \theta
-    = \sum_{n=0}^\infty |c_n|^2 r^{2n} \; .$$
-
-    (2) Deduce Liouville's theorem from (1).
-
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Entire Functions
-    - Analysis
-  question: |
-    Let $f(z)$ be entire and assume that $f(z) \leq M |z|^2$ outside some
-    disk for some constant $M$. Show that $f(z)$ is a polynomial in $z$ of
-    degree $\leq 2$.
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Convergence
-    - Analysis
-  question: |
-    Let $a_n(z)$ be an analytic sequence in a domain $D$ such that
-    $\displaystyle \sum_{n=0}^\infty |a_n(z)|$ converges uniformly on
-    bounded and closed sub-regions of $D$. Show that
-    $\displaystyle \sum_{n=0}^\infty |a'_n(z)|$ converges uniformly on
-    bounded and closed sub-regions of $D$.
-
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Analytic Functions
-    - Analysis
-  question: |
-    Let $f(z)$ be analytic in an open set $\Omega$ except possibly at a
-    point $z_0$ inside $\Omega$. Show that if $f(z)$ is bounded in near
-    $z_0$, then $\displaystyle \int_\Delta f(z) dz = 0$ for all triangles
-    $\Delta$ in $\Omega$.
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Analysis
-    - Limits
-  question: |
-    Assume $f$ is continuous in the region:
-    $0< |z-a| \leq R, \; 0 \leq \arg(z-a) \leq \beta_0$
-    ($0 < \beta_0 \leq 2 \pi$) and the limit
-    $\displaystyle \lim_{z \rightarrow a} (z-a) f(z) = A$ exists. Show that
-    $$\lim_{r \rightarrow 0} \int_{\gamma_r} f(z) dz  = i A \beta_0 \; , \; \;$$
-    where
-    $$\gamma_r : = \{ z \; | \; z = a + r e^{it}, \; 0 \leq  t \leq \beta_0 \}.$$
-
-
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Uniform Continuity 
-  question: |
-    Show that $f(z) = z^2$ is uniformly continuous in any open disk
-    $|z| < R$, where $R>0$ is fixed, but it is not uniformly continuous on
-    $\mathbb C$.
-
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - PDEs
-  question: |
-    (1) Show that the function $u=u(x,y)$ given by
-    $$u(x,y)=\frac{e^{ny}-e^{-ny}}{2n^2}\sin nx\quad \text{for}\ n\in {\mathbf N}$$
-    is the solution on $D=\{(x,y)\ | x^2+y^2<1\}$ of the Cauchy problem for
-    the Laplace equation
-    $$\frac{\partial ^2u}{\partial x^2}+\frac{\partial ^2u}{\partial y^2}=0,\quad
-    u(x,0)=0,\quad \frac{\partial u}{\partial y}(x,0)=\frac{\sin nx}{n}.$$
-
-    (2) Show that there exist points $(x,y)\in D$ such that
-    $\displaystyle{\limsup_{n\to\infty} |u(x,y)|=\infty}$.
-   
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Liouville's Theorem 
-  question: |
-    (1) Assume $\displaystyle f(z) = \sum_{n=0}^\infty c_n z^n$
-    converges in $|z| < R$. Show that for $r <R$,
-    $$\frac{1}{2 \pi} \int_0^{2 \pi} |f(r e^{i \theta})|^2 d \theta =
-    \sum_{n=0}^\infty |c_n|^2 r^{2n} \; .$$
-
-    (2) Deduce Liouville's theorem from (1).
-
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Analysis
-    - Limits
-  question: |
-    Let $f$ be a continuous function in the region
-    $$D=\{z\ |  |z|>R, 0\leq \arg Z\leq \theta\}\quad\text{where}\quad
-    0\leq \theta \leq 2\pi.$$ If there exists $k$ such that
-    $\displaystyle{\lim_{z\to\infty} zf(z)=k}$ for $z$ in the region
-    $D$. Show that $$\lim_{R'\to\infty} \int_{L} f(z) dz=i\theta k,$$
-    where $L$ is the part of the circle $|z|=R'$ which lies in the
-    region $D$.
-
-
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Integrals
-  question: |
-    Evaluate $\displaystyle{ \int_{0}^{\infty}\frac{x\sin x}{x^2+a^2} \,dx }$.
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Cauchy-Riemann
-  question: |
-    Let $f=u+iv$ be differentiable (i.e. $f'(z)$ exists) with continuous
-    partial derivatives at a point $z=re^{i\theta}$, $r\not= 0$. Show
-    that
-    $$\frac{\partial u}{\partial r}=\frac{1}{r}\frac{\partial v}{\partial \theta},\quad
-    \frac{\partial v}{\partial r}=-\frac{1}{r}\frac{\partial u}{\partial \theta}.$$
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Integrals
-  question: |
-    Show that $\displaystyle \int_0^\infty \frac{x^{a-1}}{1+x^n}
-    dx=\frac{\pi}{n\sin \frac{a\pi}{n}}$ using complex analysis, $0< a <
-    n$. Here $n$ is a positive integer.
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Analytic Functions
-    - Integrals
-  question: |
-    For $s>0$, the **gamma function** is defined by
-    $\displaystyle{\Gamma(s)=\int_0^{\infty} e^{-t}t^{s-1} dt}$.
-
-    1.  Show that the gamma function is analytic in the half-plane
-        $\Re (s)>0$, and is still given there by the integral formula
-        above.
-
-    2.  Apply the formula in the previous question to show that
-        $$\Gamma(s)\Gamma(1-s)=\frac{\pi}{\sin \pi s}.$$
-
-    > Hint: You may need $\displaystyle{\Gamma(1-s)=t \int_0^{\infty}e^{-vt}(vt)^{-s} dv}$ for $t>0$.
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Entire Functions
-    - Analysis
-  question: |
-    Suppose $f$ is entire and there exist $A, R >0$ and natural number
-    $N$ such that $$|f(z)| \geq A |z|^N\ \text{for}\ |z| \geq R.$$ Show
-    that 
-
-    (i) $f$ is a polynomial and 
-
-    (ii) the degree of $f$ is at least $N$.
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Analytic Functions
-  question: |
-    Let $f: {\mathbb C} \rightarrow {\mathbb C}$ be an injective
-    analytic (also called univalent) function. Show that there exist
-    complex numbers $a \neq 0$ and $b$ such that $f(z) = az + b$.
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Analytic Functions
-    - Analysis
-    - Conformal Maps
-  question: |
-    Let $g$ be analytic for $|z|\leq 1$ and $|g(z)| < 1$ for $|z| = 1$.
-
-    -   Show that $g$ has a unique fixed point in $|z| < 1$.
-
-    -   What happens if we replace $|g(z)| < 1$ with $|g(z)|\leq 1$ for
-        $|z|=1$? Give an example if (a) is not true or give an proof
-        if (a) is still true.
-
-    -   What happens if we simply assume that $f$ is analytic for
-        $|z| < 1$ and $|f(z)| < 1$ for $|z| < 1$? Suppose that $f(z)
-        \not\equiv  z$. Can f have more than one fixed point in
-        $|z| < 1$?
-
-    > Hint: The map
-    $\displaystyle{\psi_{\alpha}(z)=\frac{\alpha-z}{1-\bar{\alpha}z}}$
-    > may be useful.
-
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Conformal Maps
-  question: |
-    Find a conformal map from $D = \{z :\  |z| < 1,\ |z - 1/2| > 1/2\}$
-    to the unit disk $\Delta=\{z: \ |z|<1\}$.
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Entire Functions
-  question: |
-    Let $f(z)$ be entire and assume values of $f(z)$ lie outside a
-    *bounded* open set $\Omega$. Show without using Picard's theorems
-    that $f(z)$ is a constant.
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Liouville's Theorem
-  question: |
-    (1) Assume $\displaystyle f(z) = \sum_{n=0}^\infty c_n z^n$ converges
-    in $|z| < R$. Show that for $r <R$,
-    $$\frac{1}{2 \pi} \int_0^{2 \pi} |f(r e^{i \theta})|^2 d \theta
-    = \sum_{n=0}^\infty |c_n|^2 r^{2n} \; .$$
-
-    (2) Deduce Liouville's theorem from (1).
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Entire Functions
-    - Analysis
-  question: |
-    Let $f(z)$ be entire and assume that $f(z) \leq M |z|^2$ outside some
-    disk for some constant $M$. Show that $f(z)$ is a polynomial in $z$ of
-    degree $\leq 2$.
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Convergence
-  question: |
-    Let $a_n(z)$ be an analytic sequence in a domain $D$ such that
-    $\displaystyle \sum_{n=0}^\infty |a_n(z)|$ converges uniformly on
-    bounded and closed sub-regions of $D$. Show that
-    $\displaystyle \sum_{n=0}^\infty |a'_n(z)|$ converges uniformly on
-    bounded and closed sub-regions of $D$.
-
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Analytic Functions
-  question: |
-    Let $f(z)$ be analytic in an open set $\Omega$ except possibly at a
-    point $z_0$ inside $\Omega$. Show that if $f(z)$ is bounded in near
-    $z_0$, then $\displaystyle \int_\Delta f(z) dz = 0$ for all triangles
-    $\Delta$ in $\Omega$.
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Analysis
-    - Limits
-  question: |
-    Assume $f$ is continuous in the region:
-    $0< |z-a| \leq R, \; 0 \leq \arg(z-a) \leq \beta_0$
-    ($0 < \beta_0 \leq 2 \pi$) and the limit
-    $\displaystyle \lim_{z \rightarrow a} (z-a) f(z) = A$ exists. Show that
-    $$\lim_{r \rightarrow 0} \int_{\gamma_r} f(z) dz  = i A \beta_0 \; , \; \;$$
-    where
-    $$\gamma_r : = \{ z \; | \; z = a + r e^{it}, \; 0 \leq  t \leq \beta_0 \}.$$
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - PDEs
-  question: |
-    Show that $f(z) = z^2$ is uniformly continuous in any open disk
-    $|z| < R$, where $R>0$ is fixed, but it is not uniformly continuous on
-    $\mathbb C$.
-
-    (1) Show that the function $u=u(x,y)$ given by
-        $$u(x,y)=\frac{e^{ny}-e^{-ny}}{2n^2}\sin nx\quad \text{for}\ n\in {\mathbf N}$$
-        is the solution on $D=\{(x,y)\ | x^2+y^2<1\}$ of the Cauchy problem for
-        the Laplace equation
-        $$\frac{\partial ^2u}{\partial x^2}+\frac{\partial ^2u}{\partial y^2}=0,\quad
-        u(x,0)=0,\quad \frac{\partial u}{\partial y}(x,0)=\frac{\sin nx}{n}.$$
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Integrals
-  question: |
-    This question provides some insight into Cauchy's theorem. Solve the
-    problem without using Cauchy's theorem.
-
-    1.  Evaluate the integral $\displaystyle{\int_{\gamma} z^n dz}$ for
-        all integers $n$. Here $\gamma$ is any circle centered at the
-        origin with the positive (counterclockwise) orientation.
-
-    2.  Same question as (a), but with $\gamma$ any circle not
-        containing the origin.
-
-    3.  Show that if $|a|<r<|b|$, then
-        $\displaystyle{\int_{\gamma}\frac{dz}{(z-a)(z-b)} dz=\frac{2\pi i}{a-b}}$.
-        Here $\gamma$ denotes the circle centered at the origin, of
-        radius $r$, with the positive orientation.
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Liouville's Theorem
-  question: |
-    (1) Assume the infinite series
-    $\displaystyle  \sum_{n=0}^\infty c_n z^n$ converges in $|z| < R$
-    and let $f(z)$ be the limit. Show that for $r <R$,
-    $$\frac{1}{2 \pi} \int_0^{2 \pi} |f(r e^{i \theta})|^2 d \theta =
-    \sum_{n=0}^\infty |c_n|^2 r^{2n} \; .$$
-
-    (2) Deduce Liouville's theorem from (1). 
-
-    > Liouville's theorem: If $f(z)$ is entire and bounded, then $f$ is constant.
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Analysis
-    - Limits
-  question: |
-    Let $f$ be a continuous function in the region
-    $$D=\{z\ |  |z|>R, 0\leq \arg Z\leq \theta\}\quad\text{where}\quad
-    0\leq \theta \leq 2\pi.$$ 
-    If there exists $k$ such that
-    $\displaystyle{\lim_{z\to\infty} zf(z)=k}$ for $z$ in the region
-    $D$. 
-    Show that $$\lim_{R'\to\infty} \int_{L} f(z) dz=i\theta k,$$
-    where $L$ is the part of the circle $|z|=R'$ which lies in the
-    region $D$.
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Integrals
-  question: |
-    Evaluate $\displaystyle{ \int_{0}^{\infty}\frac{x\sin x}{x^2+a^2} \,
-    dx }$.
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Cauchy-Riemann
-  question: |
-    Let $f=u+iv$ be differentiable (i.e. $f'(z)$ exists) with continuous
-    partial derivatives at a point $z=re^{i\theta}$, $r\not= 0$. Show
-    that
-    $$\frac{\partial u}{\partial r}=\frac{1}{r}\frac{\partial v}{\partial \theta},\quad
-    \frac{\partial v}{\partial r}=-\frac{1}{r}\frac{\partial u}{\partial \theta}.$$
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Integrals
-  question: |
-    Show that $\displaystyle \int_0^\infty \frac{x^{a-1}}{1+x^n}
-    dx=\frac{\pi}{n\sin \frac{a\pi}{n}}$ using complex analysis, $0< a <
-    n$. Here $n$ is a positive integer.
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Integrals
-  question: |
-    For $s>0$, the **gamma function** is defined by
-    $\displaystyle{\Gamma(s)=\int_0^{\infty} e^{-t}t^{s-1} dt}$.
-
-    -   Show that the gamma function is analytic in the half-plane
-        $\Re (s)>0$, and is still given there by the integral formula
-        above.
-
-    -   Apply the formula in the previous question to show that
-        $$\Gamma(s)\Gamma(1-s)=\frac{\pi}{\sin \pi s}.$$
-
-    > Hint: You may need $\displaystyle{\Gamma(1-s)=t \int_0^{\infty}e^{-vt}(vt)^{-s} dv}$ for $t>0$.
-
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Entire Functions
-    - Analysis
-  question: |
-    Suppose $f$ is entire and there exist $A, R >0$ and natural number
-    $N$ such that $$|f(z)| \geq A |z|^N\ \text{for}\ |z| \geq R.$$ Show
-    that 
-    
-    (i) $f$ is a polynomial and 
-    
-    (ii) the degree of $f$ is at least $N$.
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Analytic Functions
-  question: |
-    Let $f: {\mathbb C} \rightarrow {\mathbb C}$ be an injective
-    analytic (also called univalent) function. Show that there exist
-    complex numbers $a \neq 0$ and $b$ such that $f(z) = az + b$.
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Analytic Functions
-    - Analysis
-    - Conformal Maps
-  question: |
-   Let $g$ be analytic for $|z|\leq 1$ and $|g(z)| < 1$ for $|z| = 1$.
-
-    -   Show that $g$ has a unique fixed point in $|z| < 1$.
-
-    -   What happens if we replace $|g(z)| < 1$ with $|g(z)|\leq 1$ for
-        $|z|=1$? Give an example if (a) is not true or give an proof
-        if (a) is still true.
-
-    -   What happens if we simply assume that $f$ is analytic for
-        $|z| < 1$ and $|f(z)| < 1$ for $|z| < 1$? Suppose that $f(z)
-        \not\equiv  z$. Can f have more than one fixed point in
-        $|z| < 1$?
-
-    > Hint: The map
-    $\displaystyle{\psi_{\alpha}(z)=\frac{\alpha-z}{1-\bar{\alpha}z}}$
-    > may be useful.
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Conformal Maps
-  question: |
-    Find a conformal map from $D = \{z :\  |z| < 1,\ |z - 1/2| > 1/2\}$
-    to the unit disk $\Delta=\{z: \ |z|<1\}$.
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Analysis
-  question: |
-    Let $a_n \neq 0$ and assume that $\displaystyle
-    \lim_{n \rightarrow \infty} \frac{|a_{n+1}|}{|a_n|} = L$. Show that
-    $\displaystyle
-    \lim_{n \rightarrow \infty}
-    \sqrt[n]{|a_n|} = L.
-    %p_n^{\frac{1}{n}} = L.$ In particular, this shows that when
-    applicable, the ratio test can be used to calculate the radius of
-    convergence of a power series.
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Conformal Maps
-  question: |
-    (a) Let $z, w$ be complex numbers, such that $\bar{z} w \neq 1$.
-    Prove that
-    $$\abs{\frac{w - z}{1 - \bar{w} z}} < 1 \; \; \; \mbox{if} \; |z| < 1 \; \mbox{and}\; |w| < 1,$$
-    and also that
-    $$\abs{\frac{w - z}{1 - \bar{w} z}} = 1 \; \; \; \mbox{if} \; |z| = 1 \; \mbox{or}\; |w| = 1.$$
-
-    (b) Prove that for fixed $w$ in the unit disk $\mathbb D$, the
-    mapping $$F: z \mapsto \frac{w - z}{1 - \bar{w} z}$$ satisfies the
-    following conditions:
-
-    (i) $F$ maps $\mathbb D$ to itself and is holomorphic. 
-
-    (ii) $F$ interchanges $0$ and $w$, namely, $F(0) = w$ and
-    $F(w) = 0$.
-
-    (iii) $|F(z)| = 1$ if $|z| = 1$.
-
-    (iv) $F: {\mathbb D} \mapsto {\mathbb D}$ is bijective. 
-    
-    > Hint: Calculate $F \circ F$.
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Analysis
-  question: |
-    Use $n$-th roots of unity (i.e. solutions of $z^n - 1 =0$) to show
-    that
-    $$2^{n-1} \sin\frac{\pi}{n} \sin\frac{2\pi}{n} \cdots \sin\frac{(n-1)\pi}{n}
-    = n
-    \; .$$ 
-    
-    > Hint: $1 - \cos 2 \theta = 2 \sin^2 \theta,\; \sin 2 \theta = 2 \sin \theta \cos \theta$.
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Cauchy-Riemann
-  question: |
-    (a) Show that in polar coordinates, the Cauchy-Riemann
-    equations take the form
-
-    $$\frac{\partial u}{\partial r} = \frac{1}{r} \frac{\partial v}{\partial \theta}
-    \; \; \; \text{and} \; \; \;
-    \frac{\partial v}{\partial r} = - \frac{1}{r} \frac{\partial u}{\partial \theta}$$
-
-    (b) Use these equations to show that the logarithm function
-    defined by $$\log z = \log r + i \theta \; \;
-    \mbox{where} \; z = r e^{i \theta } \; \mbox{with} \; - \pi < \theta < \pi$$
-    is a holomorphic function in the region
-    $r>0, \; - \pi < \theta < \pi$. Also show that $\log z$ defined
-    above is not continuous in $r>0$.
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Analysis
-    - Limits
-  question: |
-    Assume $f$ is continuous in the region:
-    $x \geq x_0, \; 0 \leq y \leq b$ and the limit
-    $$\displaystyle \lim_{x \rightarrow + \infty} f(x + iy) = A$$ exists
-    uniformly with respect to $y$ (independent of $y$). 
-
-    Show that
-    $$\lim_{x \rightarrow + \infty} \int_{\gamma_x} f(z) dz  = iA b \; , \; \;$$
-    where $\gamma_x : = \{ z \; | \; z = x + it, \; 0 \leq  t \leq b\}.$
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Cauchy Integral Formula
-  question: |
-    (Cauchy's formula for "exterior" region) Let $\gamma$ be piecewise
-    smooth simple closed curve with interior $\Omega_1$ and exterior
-    $\Omega_2$. Assume $f'(z)$ exists in an open set containing $\gamma$
-    and $\Omega_2$ and $\lim_{z \rightarrow \infty } f(z) = A$. Show
-    that
-    $$\frac{1}{2 \pi i} \int_\gamma \frac{f(\xi)}{\xi - z} \, d \xi =
-    \begin{cases}
-    A,          &     \text{if\ $z \in \Omega_1$}, \\
-    -f (z) + A, &  \text{if\ $z \in \Omega_2$}
-    \end{cases}$$
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Analytic Functions
-    - Limits
-    - Liouville's Theorem
-  question: |
-    Let $f(z)$ be bounded and analytic in $\mathbb C$. Let $a \neq b$ be
-    any fixed complex numbers. Show that the following limit exists
-    $$\lim_{R \rightarrow \infty} \int_{|z|=R} \frac{f(z)}{(z-a)(z-b)} dz.$$
-    Use this to show that $f(z)$ must be a constant (Liouville's
-    theorem).
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Integrals
-  question: |
-    Prove by *justifying all steps* that for all $\xi \in {\mathbb C}$
-    we have $\displaystyle
-    e^{- \pi \xi^2} = \int_{- \infty}^\infty e^{- \pi x^2} e^{2 \pi i x \xi} dx \; .$
-
-    > Hint: You may use that fact in Example 1 on p. 42 of the textbook
-    without proof, i.e., you may assume the above is true for real
-    values of $\xi$.
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Meromorphic Functions
-  question: |
-    Suppose that $f$ is holomorphic in an open set containing the closed
-    unit disc, except for a pole at $z_0$ on the unit circle. Let
-    $f(z) = \sum_{n = 1}^\infty c_n z^n$ denote the power series in
-    the open disc. Show that 
-
-    (1) $c_n \neq 0$ for all large enough $n$'s, and 
-    
-    (2) $\displaystyle \lim_{n \rightarrow \infty} \frac{c_n}{c_{n+1}}= z_0$.
-
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Analytic Functions
-    - Singularities
-  question: |
-    Let $f(z)$ be a non-constant analytic function in $|z|>0$ such that
-    $f(z_n) = 0$ for infinite many points $z_n$ with
-    $\lim_{n \rightarrow \infty} z_n =0$. Show that $z=0$ is an
-    essential singularity for $f(z)$. (An example of such a function is
-    $f(z) = \sin (1/z)$.)
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Entire Functions
-    - Limits
-  question: |
-    Let $f$ be entire and suppose that
-    $\lim_{z \rightarrow \infty} f(z) = \infty$. Show that $f$ is a
-    polynomial.
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Laurent Series
-  question: |
-    Expand the following functions into Laurent series in the indicated
-    regions:
-
-    (a)
-    $\displaystyle f(z) = \frac{z^2 - 1}{ (z+2)(z+3)}, \; \; 2 < |z| < 3$,
-    $3 < |z| < + \infty$.
-
-    (b)
-    $\displaystyle f(z) = \sin \frac{z}{1-z}, \; \; 0 < |z-1| < + \infty$
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Analytic Functions
-    - Analysis
-  question: |
-    Assume $f(z)$ is analytic in region $D$ and $\Gamma$ is a
-    rectifiable curve in $D$ with interior in $D$. Prove that if $f(z)$
-    is real for all $z \in \Gamma$, then $f(z)$ is a constant.
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Rouche 
-    - Polynomials
-    - Holomorphic Functions
-  question: |
-    Find the number of roots of $z^4 - 6z + 3 =0$ in $|z|<1$ and
-    $1 < |z| < 2$ respectively.
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Rouche
-    - Polynomials
-    - Holomorphic Functions
-  question: |
-    Prove that $z^4 + 2 z^3 - 2z + 10 =0$ has exactly one root in each
-    open quadrant.
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Analysis 
-  question: |
-    (1) Let $f(z) \in H({\mathbb D})$, $\text{Re}(f(z)) >0$,
-    $f(0)= a>0$. Show that $$\abs{ \frac{f(z)-a}{f(z)+a}} \leq |z|, \; \; \;
-    |f'(0)| \leq 2a.$$
-
-    (2) Show that the above is still true if $\text{Re}(f(z)) >0$ is
-    replaced with $\text{Re}(f(z)) \geq 0$.
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Analytic Functions
-    - Convergence
-  question: |
-    Assume $f(z)$ is analytic in ${\mathbb D}$ and $f(0)=0$ and is not a
-    rotation (i.e. $f(z) \neq e^{i \theta} z$). Show that
-    $\displaystyle \sum_{n=1}^\infty f^{n}(z)$ converges uniformly to an
-    analytic function on compact subsets of ${\mathbb D}$, where
-    $f^{n+1}(z) = f(f^{n}(z))$.
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Analytic Functions
-  question: |
-    Let $f(z) = \sum_{n=0}^\infty c_n z^n$ be analytic and one-to-one in
-    $|z| < 1$. For $0<r<1$, let $D_r$ be the disk $|z|<r$. Show that the
-    area of $f(D_r)$ is finite and is given by
-    $$S = \pi \sum_{n=1}^\infty n |c_n|^2 r^{2n}.$$ (Note that in
-    general the area of $f(D_1)$ is infinite.)
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Analytic Functions
-  question: |
-    Let $f(z) = \sum_{n= -\infty}^\infty c_n z^n$ be analytic and
-    one-to-one in $r_0< |z| < R_0$. For $r_0<r<R<R_0$, let $D(r,R)$ be
-    the annulus $r<|z|<R$. Show that the area of $f(D(r,R))$ is finite
-    and is given by
-    $$S = \pi \sum_{n=- \infty}^\infty n |c_n|^2 (R^{2n} - r^{2n}).$$
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Convergence
-  question: |
-    Let $a_n(z)$ be an analytic sequence in a domain $D$ such that
-    $\displaystyle \sum_{n=0}^\infty |a_n(z)|$ converges uniformly on
-    bounded and closed sub-regions of $D$. Show that
-    $\displaystyle \sum_{n=0}^\infty |a'_n(z)|$ converges uniformly on
-    bounded and closed sub-regions of $D$.
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Analytic Functions
-  question: |
-    Let $f_n, f$ be analytic functions on the unit disk ${\mathbb D}$.
-    Show that the following are equivalent.
-
-    (i) $f_n(z)$ converges to $f(z)$ uniformly on compact subsets in
-    $\mathbb D$.
-
-    (ii) $\int_{|z|= r} |f_n(z) - f(z)| \, |dz|$ converges to $0$ if
-    $0< r<1$.
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Analytic Functions
-  question: |
-    Let $f$ and $g$ be non-zero analytic functions on a region $\Omega$.
-    Assume $|f(z)| = |g(z)|$ for all $z$ in $\Omega$. Show that
-    $f(z) = e^{i \theta} g(z)$ in $\Omega$ for some
-    $0 \leq \theta < 2 \pi$.
-
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Analytic Functions
-  question: |
-    Suppose $f$ is analytic in an open set containing the unit disc
-    $\mathbb D$ and $|f(z)| =1$ when $|z|$=1. Show that either
-    $f(z) = e^{i \theta}$ for some $\theta \in \mathbb R$ or there are
-    finite number of $z_k \in \mathbb D$, $k \leq n$ and
-    $\theta \in \mathbb R$ such that
-    $\displaystyle f(z) = e^{i\theta} \prod_{k=1}^n \frac{z-z_k}{1 - \bar{z}_k z } \, .$
-    
-    > Also cf. Stein et al, 1.4.7, 3.8.17
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Analysis 
-  question: |
-    (1) Let $p(z)$ be a polynomial, $R>0$ any positive number, and
-    $m \geq 1$ an integer. Let
-    $$M_R = \sup \{ |z^{m} p(z) - 1|: |z| = R  \}.$$ Show that $M_R>1$.
-
-    (2) Let $m \geq 1$ be an integer and
-    $K = \{z \in {\mathbb C}: r \leq |z| \leq R \}$ where $r<R$.
-    Show (i) using (1) as well as, (ii) without using (1) that there
-    exists a positive number $\varepsilon_0>0$ such that for each
-    polynomial $p(z)$,
-    $$\sup \{|p(z) - z^{-m}|: z \in K  \} \geq \varepsilon_0 \, .$$
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Laurent Series
-  question: |
-    Let $\displaystyle f(z) = \frac{1}{z} + \frac{1}{z^2 -1}$. Find all
-    the Laurent series of $f$ and describe the largest annuli in which
-    these series are valid.
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Entire Functions
-    - Analysis
-  question: |
-    Suppose $f$ is entire and there exist $A, R >0$ and natural number
-    $N$ such that $|f(z)| \leq A |z|^N$ for $|z| \geq R$. Show that 
-    
-    (i) $f$ is a polynomial and 
-
-    (ii) the degree of $f$ is at most $N$.
-
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Analytic Functions
-  question: |
-    (1) Explicitly write down an example of a non-zero analytic
-    function in $|z|<1$ which has infinitely zeros in $|z|<1$.
-
-    (2) Why does not the phenomenon in (1) contradict the uniqueness
-    theorem?
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Harmonic Functions
-    - Schwarz Reflection
-  question: |
-    (1) Assume $u$ is harmonic on open set $O$ and $z_n$ is a sequence
-    in $O$ such that $u(z_n) = 0$ and $\lim z_n \in O$. Prove or
-    disprove that $u$ is identically zero. What if $O$ is a region?
-
-    (2) Assume $u$ is harmonic on open set $O$ and $u(z) = 0$ on a
-    disc in $O$. Prove or disprove that $u$ is identically zero. What if
-    $O$ is a region?
-
-    (3) Formulate and prove a Schwarz reflection principle for
-    harmonic functions 
-    
-    > cf. Theorem 5.6 on p.60 of Stein et al.
-    
-    > Hint: Verify the mean value property for your new function obtained by
-    Schwarz reflection principle.
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Holomorphic Functions
-    - Analysis
-  question: |
-    Let $f$ be holomorphic in a neighborhood of $D_r(z_0)$. Show that
-    for any $s<r$, there exists a constant $c>0$ such that
-    $$||f||_{(\infty, s)} \leq c ||f||_{(1, r)},$$ where
-    $\displaystyle |f||_{(\infty, s)} = \text{sup}_{z \in D_s(z_0)}|f(z)|$
-    and $\displaystyle ||f||_{(1, r)} = \int_{D_r(z_0)} |f(z)|dx dy$.
-
-    > Note: Exercise 3.8.20 on p.107 in Stein et al is a
-    straightforward consequence of this stronger result using the
-    integral form of the Cauchy-Schwarz inequality in real analysis.
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Casorati-Weierstrass
-  question: |
-    (1) Let $f$ be analytic in $\Omega: 0<|z-a|<r$ except at a
-    sequence of poles $a_n \in \Omega$ with
-    $\lim_{n \rightarrow \infty} a_n = a$. Show that for any
-    $w \in \mathbb C$, there exists a sequence $z_n \in \Omega$ such
-    that $\lim_{n \rightarrow \infty} f(z_n) = w$.
-
-    (2) Explain the similarity and difference between the above
-    assertion and the Weierstrass-Casorati theorem.
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Integrals
-  question: |
-    Compute the following integrals.
-
-    \(i\) $\displaystyle \int_0^\infty \frac{1}{(1 + x^n)^2} \, dx$,
-    $n \geq 1$ (ii)
-    $\displaystyle \int_0^\infty \frac{\cos x}{(x^2 + a^2)^2} \, dx$,
-    $a \in \mathbb R$ (iii)
-    $\displaystyle \int_0^\pi \frac{1}{a + \sin \theta} \, d \theta$,
-    $a>1$
-
-    \(iv\) $\displaystyle \int_0^{\frac{\pi}{2}}
-    \frac{d \theta}{a+ \sin ^2 \theta},$ $a >0$. (v)
-    $\displaystyle \int_{|z|=2} \frac{1}{(z^{5} -1) (z-3)} \, dz$ (v)
-    $\displaystyle \int_{- \infty}^{\infty} \frac{\sin \pi a}{\cosh \pi x + \cos \pi a} e^{- i x \xi} \, d x$,
-    $0< a <1$, $\xi \in \mathbb R$ (vi)
-    $\displaystyle \int_{|z| = 1} \cot^2 z \, dz$.
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Integrals
-  question: |
-    Compute the following integrals.
-
-    \(i\) $\displaystyle \int_0^\infty \frac{\sin x}{x} \, dx$ (ii)
-    $\displaystyle \int_0^\infty (\frac{\sin x}{x})^2 \, dx$ (iii)
-    $\displaystyle \int_0^\infty \frac{x^{a-1}}{(1 + x)^2} \, dx$,
-    $0< a < 2$
-
-    \(i\)
-    $\displaystyle \int_0^\infty \frac{\cos a x - \cos bx}{x^2} dx$,
-    $a, b >0$ (ii)
-    $\displaystyle \int_0^\infty \frac{x^{a-1}}{1 + x^n} \, dx$,
-    $0< a < n$
-
-    \(iii\) $\displaystyle \int_0^\infty \frac{\log x}{1 + x^n} \, dx$,
-    $n \geq 2$ (iv)
-    $\displaystyle \int_0^\infty \frac{\log x}{(1 + x^2)^2} dx$ (v)
-    $\displaystyle \int_0^{\pi} \log|1 - a \sin \theta| d \theta$,
-    $a \in \mathbb C$
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Polynomials
-    - Holomorphic Functions
-  question: |
-    Let $0<r<1$. Show that polynomials
-    $P_n(z)  = 1 + 2z + 3 z^2 + \cdots + n z^{n-1}$ have no zeros in
-    $|z|<r$ for all sufficiently large $n$'s.
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Analytic Functions
-  question: |
-    Let $f$ be an analytic function on a region $\Omega$. Show that $f$
-    is a constant if there is a simple closed curve $\gamma$ in $\Omega$
-    such that its image $f(\gamma)$ is contained in the real axis.
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Principal Parts
-    - Sums
-  question: |
-    (1) Show that $\displaystyle \frac{\pi^2}{\sin^2 \pi z}$ and
-    $\displaystyle g(z) = \sum_{n = - \infty}^{ \infty} \frac{1}{(z-n)^2}$
-    have the same principal part at each integer point.
-
-    (2) Show that
-    $\displaystyle h(z) = \frac{\pi^2}{\sin^2 \pi z} - g(z)$ is bounded
-    on $\mathbb C$ and conclude that
-    $\displaystyle \frac{\pi^2}{\sin^2 \pi z} = \sum_{n = - \infty}^{ \infty} \frac{1}{(z-n)^2} \, .$
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Analytic Functions
-    - Fractional Linear Transformations
-  question: |
-    Let $f(z)$ be an analytic function on
-    ${\mathbb C} \backslash \{ z_0 \}$, where $z_0$ is a fixed point.
-    Assume that $f(z)$ is bijective from
-    ${\mathbb C} \backslash \{ z_0 \}$ onto its image, and that $f(z)$
-    is bounded outside $D_r(z_0)$, where $r$ is some fixed positive
-    number. Show that there exist $a, b, c, d \in \mathbb C$ with
-    $ad-bc \neq 0$, $c \neq 0$ such that
-    $\displaystyle f(z) = \frac{az + b}{cz + d}$.
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Analytic Functions
-    - Convergence
-  question: |
-    Assume $f(z)$ is analytic in $\mathbb D: |z|<1$ and $f(0)=0$ and
-    is not a rotation (i.e. $f(z) \neq e^{i \theta} z$). Show that
-    $\displaystyle \sum_{n=1}^\infty f^{n}(z)$ converges uniformly to an
-    analytic function on compact subsets of ${\mathbb D}$, where
-    $f^{n+1}(z) = f(f^{n}(z))$.
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Analytic Functions
-    - Analysis
-  question: |
-    Let $f$ be a non-constant analytic function on $\mathbb D$ with
-    $f(\mathbb D) \subseteq \mathbb D$. Use $\psi_{a} (f(z))$ (where
-    $a=f(0)$, $\displaystyle \psi_a(z) = \frac{a - z}{1 - \bar{a}z}$) to
-    prove that $$\displaystyle
-    \frac{|f(0)| - |z|}{1 + |f(0)||z|} \leq |f(z)| \leq
-    \frac{|f(0)| + |z|}{1 - |f(0)||z|}.$$
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Conformal Maps
-  question: |
-    Find a conformal map
-
-    1.  from $\{ z: |z - 1/2| > 1/2, \text{Re}(z)>0 \}$ to $\mathbb H$
-
-    2.  from $\{ z: |z - 1/2| > 1/2, |z| <1  \}$ to $\mathbb D$
-
-    3.  from the intersection of the disk $|z + i| < \sqrt{2}$ with
-        ${\mathbb H}$ to ${\mathbb D}$.
-
-    4.  from ${\mathbb D}  \backslash [a, 1)$ to
-        ${\mathbb D} \backslash [0, 1)$ ($0<a<1)$. \[ Short solution
-        possible using Blaschke factor\]
-
-    5.  from $\{ z: |z| < 1, \text{Re}(z) > 0 \} \backslash (0, 1/2]$ to
-        $\mathbb H$.
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Fractional Linear Transformations
-  question: |
-    Let $C$ and $C'$ be two circles and let $z_1 \in C$, $z_2 \notin C$,
-    $z'_1 \in C'$, $z'_2 \notin C'$. Show that there is a unique
-    fractional linear transformation $f$ with $f(C) = C'$ and
-    $f(z_1) = z'_1$, $f(z_2) = z'_2$.
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Holomorphic Functions
-  question: |
-    Assume $f_n \in H(\Omega)$ is a sequence of holomorphic functions on
-    the region $\Omega$ that are uniformly bounded on compact subsets
-    and $f \in H(\Omega)$ is such that the set
-    $\displaystyle \{z \in \Omega: \lim_{n \rightarrow \infty} f_n(z) = f(z) \}$
-    has a limit point in $\Omega$. Show that $f_n$ converges to $f$
-    uniformly on compact subsets of $\Omega$.
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Conformal Maps
-    - Integrals
-    - Analysis
-  question: |
-    Let
-    $\displaystyle{\psi_{\alpha}(z)=\frac{\alpha-z}{1-\bar{\alpha}z}}$
-    with $|\alpha|<1$ and ${\mathbb D}=\{z:\ |z|<1\}$. Prove that
-
-    -   $\displaystyle{\frac{1}{\pi}\iint_{{\mathbb D}} |\psi'_{\alpha}|^2 dx dy =1}$.
-
-    -   $\displaystyle{\frac{1}{\pi}\iint_{{\mathbb D}} |\psi'_{\alpha}| dx dy =\frac{1-|\alpha|^2}{|\alpha|^2}
-        \log \frac{1}{1-|\alpha|^2}}$.
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Conformal Maps
-  question: |
-    Prove that
-    $\displaystyle{f(z)=-\frac{1}{2}\left(z+\frac{1}{z}\right)}$ is a
-    conformal map from half disc $\{z=x+iy:\ |z|<1,\ y>0\}$ to upper
-    half plane ${\mathbb H}=\{z=x+iy:\ y>0\}$.
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Holomorphic Functions
-    - Analysis
-  question: |
-    Let $\Omega$ be a simply connected open set and let $\gamma$ be a
-    simple closed contour in $\Omega$ and enclosing a bounded region $U$
-    anticlockwise. Let $f: \ \Omega \to {\mathbb C}$ be a holomorphic
-    function and $|f(z)|\leq M$ for all $z\in \gamma$. Prove that
-    $|f(z)|\leq M$ for all $z\in U$.
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Integrals
-  question: |
-    Compute the following integrals. 
-    
-    (i)
-    $\displaystyle \int_0^\infty \frac{x^{a-1}}{1 + x^n} \, dx$,
-    $0< a < n$ 
-
-    (ii)
-    $\displaystyle \int_0^\infty \frac{\log x}{(1 + x^2)^2}\, dx$
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Polynomials
-    - Holomorphic Functions
-  question: |
-    Let $0<r<1$. Show that polynomials
-    - Holomorphic Functions
-    $P_n(z)  = 1 + 2z + 3 z^2 + \cdots + n z^{n-1}$ have no zeros in
-    $|z|<r$ for all sufficiently large $n$'s.
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Holomorphic Functions
-    - Integrals
-    - Analysis
-  question: |
-    Let $f$ be holomorphic in a neighborhood of $D_r(z_0)$. Show that
-    for any $s<r$, there exists a constant $c>0$ such that
-    $$\|f\|_{(\infty, s)} \leq c \|f\|_{(1, r)},$$ where
-    $\displaystyle \|f\|_{(\infty, s)} = \text{sup}_{z \in D_s(z_0)}|f(z)|$
-    and $\displaystyle \|f\|_{(1, r)} = \int_{D_r(z_0)} |f(z)|dx dy$.
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Conformal Maps
-    - Integrals
-    - Analysis
-  question: |
-    Let $\displaystyle{\psi_{\alpha}(z)=\frac{\alpha-z}{1-\bar{\alpha}z}}$
-    with $|\alpha|<1$ and ${\mathbb D}=\{z:\ |z|<1\}$. Prove that
-
-    -   $\displaystyle{\frac{1}{\pi}\iint_{{\mathbb D}} |\psi'_{\alpha}|^2 dx dy =1}$.
-
-    -   $\displaystyle{\frac{1}{\pi}\iint_{{\mathbb D}} |\psi'_{\alpha}| dx dy =\frac{1-|\alpha|^2}{|\alpha|^2}
-        \log \frac{1}{1-|\alpha|^2}}$.
-
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Holomorphic Functions
-    - Analysis
-  question: |
-    Let $\Omega$ be a simply connected open set and let $\gamma$ be a simple
-    closed contour in $\Omega$ and enclosing a bounded region $U$
-    anticlockwise. Let $f: \ \Omega \to {\mathbb C}$ be a holomorphic
-    function and $|f(z)|\leq M$ for all $z\in \gamma$. Prove that
-    $|f(z)|\leq M$ for all $z\in U$.
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Integrals
-  question: |
-    Compute the following integrals. 
-    
-    (i) $\displaystyle \int_0^\infty \frac{x^{a-1}}{1 + x^n} \, dx$, $0< a < n$
-    
-    (ii) $\displaystyle \int_0^\infty \frac{\log x}{(1 + x^2)^2}\, dx$
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Holomorphic Functions
-    - Analysis
-  question: |
-    Let $f$ be holomorphic in a neighborhood of $D_r(z_0)$. Show that for
-    any $s<r$, there exists a constant $c>0$ such that
-    $$\|f\|_{(\infty, s)} \leq c \|f\|_{(1, r)},$$ where
-    $\displaystyle \|f\|_{(\infty, s)} = \text{sup}_{z \in D_s(z_0)}|f(z)|$
-    and $\displaystyle \|f\|_{(1, r)} = \int_{D_r(z_0)} |f(z)|dx dy$.
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Harmonic Functions
-    - Integrals
-  question: |
-    Let $u(x,y)$ be harmonic and have continuous partial derivatives of
-    order three in an open disc of radius $R>0$.
-
-    (a) Let two points $(a,b), (x,y)$ in this disk be given. Show that
-    the following integral is independent of the path in this disk
-    joining these points:
-    $$v(x,y) = \int_{a,b}^{x,y} ( -\frac{\partial u}{\partial y}dx +  \frac{\partial u}{\partial x}dy).$$\
-    
-    (b) \hfill
-
-        (i) Prove that $u(x,y)+i v(x,y)$ is an analytic function in this disc.
-
-        (ii) Prove that $v(x,y)$ is harmonic in this disc.
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Analytic Functions
-    - Geometry
-  question: |
-    (a) $f(z)= u(x,y) +i v(x,y)$ be analytic in a domain
-    $D\subset {\mathbb C}$. Let $z_0=(x_0,y_0)$ be a point in $D$ which
-    is in the intersection of the curves $u(x,y)= c_1$ and $v(x,y)=c_2$,
-    where $c_1$ and $c_2$ are constants. Suppose that $f'(z_0)\neq 0$.
-    Prove that the lines tangent to these curves at $z_0$ are
-    perpendicular.
-
-    (b) Let $f(z)=z^2$ be defined in ${\mathbb C}$. 
-      (i)   Describe the
-            level curves of $\mbox{\textrm Re}{(f)}$ and of $\mbox{Im}{(f)}$.
-      
-      (ii)  What are the angles of intersections between the level curves
-            $\mbox{\textrm Re}{(f)}=0$ and $\mbox{\textrm Im}{(f)}$? Is your answer in
-            agreement with part a) of this question?
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Integrals
-    - Analysis
-  question: |
-    (a) Let $f: D\rightarrow \mathbb C$ be a continuous function, where
-    $D\subset \mathbb C$ is a domain. Let $\alpha:[a,b]\rightarrow D$
-    be a smooth curve. Give a precise definition of the *complex line
-    integral* $$\int_{\alpha} f.$$
-
-    (b) Assume that there exists a constant $M$ such that
-    $|f(\tau)|\leq M$ for all $\tau\in \mbox{\textrm Image}(\alpha$). Prove
-    that
-    $$\big | \int_{\alpha} f \big |\leq M \times \mbox{\textrm length}(\alpha).$$
-
-    (c) Let $C_R$ be the circle $|z|=R$, described in the
-    counterclockwise direction, where $R>1$. Provide an upper bound for
-    $\abs{ \int_{C_R} \dfrac{\log{(z)} }{z^2} }$ which depends
-    *only* on $R$ and other constants.
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Entire Functions
-    - Analysis
-  question: |
-    (a) Let $f:{\mathbb C}\rightarrow {\mathbb C}$ be an entire
-    function. Assume the existence of a non-negative integer $m$, and of
-    positive constants $L$ and $R$, such that for all $z$ with $|z|>R$
-    the inequality $$|f(z)| \leq L |z|^m$$ holds. Prove that $f$ is a
-    polynomial of degree $\leq m$.
-
-    (b) Let $f:{\mathbb C}\rightarrow {\mathbb C}$ be an entire
-    function. Suppose that there exists a real number M such that for
-    all $z\in {\mathbb C}$ $$\mbox{\textrm Re} (f) \leq M.$$ Prove that $f$
-    must be a constant.
-
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Polynomials
-    - Rouche
-    - Holomorphic Functions
-  question: |
-    Prove that all the roots of the complex polynomial
-    $$z^7 - 5 z^3 +12 =0$$ lie between the circles $|z|=1$ and $|z|=2$.
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Analytic Functions
-  question: |
-    Let $F$ be an analytic function inside and on a simple closed
-    curve $C$, except for a pole of order $m\geq 1$ at $z=a$ inside $C$.
-    Prove that
-
-    $$
-    \frac{1}{2 \pi i}\oint_{C} F(\tau) d\tau = 
-    \lim_{\tau\rightarrow a} \frac{d^{m-1}}{d\tau^{m-1}}\big((\tau-a)^m F(\tau))\big)
-    .$$
-
-
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Conformal Maps
-  question: |
-    Find the conformal map that takes the upper half-plane comformally
-    onto the half-strip $\{
-    w=x+iy:\ -\pi/2<x<\pi/2\ y>0\}$.
-
-
-- year: Extra 
-  number: 0 
-  university: UGA
-  exam: Complex_Analysis
-  tags:
-    - Integrals
-  question: |
-    Compute the integral
-    $\displaystyle{\int_{-\infty}^{\infty} \frac{e^{-2\pi ix\xi}}{\cosh\pi x}dx}$
-    where $\displaystyle{\cosh z=\frac{e^{z}+e^{-z}}{2}}$.
-
-
-- year: 0
-  number: 0
-  exam: Complex_Analysis
-  university: Emory
-  tags:
-    - Integrals
-    - Residues
-  question: |
-    Use residues to compute the integral
-    \begin{align*}
-    \int_{0}^{\infty} \dfrac{\cos x}{(x^2+1)^2} \mathrm{d}x
-    \end{align*}
-
-
-- year: 0
-  number: 0
-  exam: Complex_Analysis
-  university: Emory
-  tags:
-    - Cauchy Integral Formula
-  question: |
-    State and prove the Cauchy integral formula for holomorphic
-    functions.
-
-
-- year: 0
-  number: 0
-  exam: Complex_Analysis
-  university: Emory
-  tags:
-    - Entire Functions
-  question: |
-    Let $f$ be an entire function and suppose that $|f(z)| \leq A|z|^2$
-    for all $z$ and some constant $A$. Show that $f$ is a polynomial of
-    degree $\leq 2$.
-
-
-- year: 0
-  number: 0
-  exam: Complex_Analysis
-  university: Emory
-  tags:
-    - Schwarz Lemma
-  question: |
-    1.  State the Schwarz lemma for analytic functions in the unit disc.
-
-    2.  Let $f: \mathbb{D} \to \mathbb{D}$ be an analytic map from the
-        unit disc $\mathbb{D}$ into itself. Use the Schwarz lemma to
-        show that for each $a\in \mathbb{D}$ we have
-        \begin{align*}
-        \dfrac{|f'(a)|}{1-|f(a)|^2} \leq \dfrac{1}{1-|a|^2}
-        \end{align*}
-
-
-- year: 0
-  number: 0
-  exam: Complex_Analysis
-  university: Emory
-  tags:
-    - Riemann Mapping
-  question: |
-    State the Riemann mapping theorem and prove the uniqueness part.
-
-
-- year: 0
-  number: 0
-  exam: Complex_Analysis
-  university: Emory
-  tags:
-    - Integrals
-  question: |
-    Compute the integrals
-    \begin{align*}
-    \int_{|z-2|=1} \dfrac{e^z}{z(z-1)^2} \,
-    \mathrm{d}z, \quad \int_0^\infty \dfrac{\cos 2x}{x^2 + 2} \, \mathrm{d}x
-    \end{align*}
-
-
-- year: 0
-  number: 0
-  exam: Complex_Analysis
-  university: Emory
-  tags:
-    - Convergence
-  question: |
-    Let $(f_n)$ be a sequence of holomorphic functions in a domain $D$.
-    Suppose that $f_n \to f$ uniformly on each compact subset of $D$.
-    Show that
-
-    -   $f$ is holomorphic on $D$.
-
-    -   $f_n' \to f'$ uniformly on each compact subset of $D$.
-
-
-
-- year: 0
-  number: 0
-  exam: Complex_Analysis
-  university: Emory
-  tags:
-    - Entire Functions
-  question: |
-    If $f$ is a non-constant entire function, then $f(\mathbb{C})$ is
-    dense in the plane.
-
-
-
-- year: 0
-  number: 0
-  exam: Complex_Analysis
-  university: Emory
-  tags:
-    - Rouche
-  question: |
-    1.  State Rouche's theorem.
-
-    2.  Let $f$ be analytic in a neighborhood of $0$, and satisfying
-        $f'(0) \neq 0$. Use Rouche's theorem to show that there exists a
-        neighborhood $U$ of $0$ such that $f$ is a bijection in $U$.
-
-
-
-- year: 0
-  number: 0
-  exam: Complex_Analysis
-  university: Emory
-  tags:
-    - Meromorphic Functions
-  question: |
-    Let $f$ be a meromorphic function in the plane such that
-    \begin{align*}
-    \lim_{|z|\to\infty} |f(z)| = \infty
-    \end{align*}
-
-    1.  Show that $f$ has only finitely many poles.
-
-    2.  Show that $f$ is a rational function.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 - year: 0
   season: NA 
   exam: Topology 
@@ -6944,1614 +8552,3 @@
     b. Prove that if $X$ is path-connected then $\pi_1 (SX) = \theset{0}$.
 
     c. For all $n \geq 1$, prove that $H_{n} (X) \cong H_{n+1} (SX)$.
-- year: 1970
-  season: Spring
-  exam: Real_Analysis
-  number: 1abch
-  university: NUS
-  tags:
-    - Convergence of Functions
-    - Uniform Continuity
-    - Mean Value Theorem
-    - Variation
-  question: |
-    Prove or disprove each of the following statements.
-
-    (a) If $f$ is of bounded variation on $[0,1]$, then it is continuous on $[0,1]$.
-
-    (b) If $f : [0, 1] → [0, 1]$ is a continuous function, then there exists $x_0 \in [0, 1]$ such that $f(x_0) = x_0$.
-
-    (c) Let $\{f_n\}$ be a sequence of uniformly continuous functions on an interval $I$. If $\{f_n\}$ converges uniformly to a function $f$ on $I$, then $f$ is also uniformly continuous on $I$.
-    
-    (h) If $f$ is differentiable on a connected set $E \subset \mathbb{R}^n$, then for any $x, y \in E$, there exists $z \in E$ such that $f(x) - f(y) = \nabla f(z)(x - y)$.  
-
-- year: 1970
-  season: Spring
-  exam: Real_Analysis
-  number: 1de
-  university: NUS
-  tags:
-    - Convergence of Numbers
-    - Series of Numbers
-    - Uniform Continuity
-  question: |
-    Prove or disprove each of the following statements.
-    
-    (d) If $\lim_{n\to\infty} |a_n+1/a_n|$ exists, then $\lim_{n\to \infty} |a_n|^{1/n}$ exists and the two limits are equal.
-
-    (e) If $\sum_{n=1}^\infty a_n x^n$ converges for all $x ∈ [0, 1]$, then $\lim_{x\to 1^-} \sum_{n=1}^\infty a_n x^n=\sum_{n=1}^\infty a_n$
-
-- year: 1970
-  season: Spring
-  exam: Real_Analysis
-  number: 1fg
-  university: NUS
-  tags:
-    - Measure Theory
-  question: |
-    Prove or disprove each of the following statements.
-    
-    (f) If $E \subset \mathbb{R}$ and 
-
-        $\mu(E) = \inf\{\sum_{I_i \in S} |I_i| : S = \{I_i\}_{i=1}^n \text{ such that } E \subset \union_{i=1}^n I_i \text{ for some } n \in \mathbb{N}\}$
-
-        then $\mu$ coincides with the outer measure of $E$.
-
-    (g) If $E$ is a Borel set and $f$ is a measurable function, then $f^{-1}(E)$ is also measurable.
-
-
-- year: 1970
-  season: Spring
-  exam: Real_Analysis
-  number: 2
-  university: NUS
-  tags:
-    - Measure Theory 
-  question: |
-    If $f$ is a finite real valued measurable function on a measurable set $E \subset \mathbb{R}$, show that the set $\{(x, f(x)) : x ∈ E\}$ is measurable.
-
-- year: 1970
-  season: Spring
-  exam: Real_Analysis
-  number: 3
-  university: NUS
-  tags:
-    - Sequences of Functions
-    - Arzela-Ascoli
-  question: |
-    Let g : $[0, 1] × [0, 1] → [0, 1]$ be a continuous function and let $\{f_n\}$ be a sequence of functions such that 
-
-    $$f_n(x)=\begin{cases}{0,   0\leq x\leq 1/n},\\{\int_0^{x-\frac1n} g(t,f_n(t))dt, 1/n\leq x \leq 1.}\end{cases}$$
-
-    With the help of the Arzela-Ascoli theorem or otherwise, show that there exists a continuous function $f : [0, 1] → \mathbb{R}$ such that 
-
-    $f(x) = \int_0^x g(t, f(t))dt$
-
-    for all $x \in [0, 1]$. 
-
-    > Hint: first show that $|f_n(x_1) - f_n(x_2)| ≤ |x_1 - x_2|$.
-
-
-- year: 1970
-  season: Spring
-  exam: Real_Analysis
-  number: 1
-  university: NUS
-  tags:
-    - Convergence of Numbers
-  question: |
-    If $\limsup_{n\rightarrow \infty} a_n\leq l$, show that $\limsup_{n\rightarrow \infty}\sum_{i=1}^n{a_i/n}\leq l$.  
-
-- year: 1970
-  season: Spring
-  exam: Real_Analysis
-  number: 2
-  university: NUS
-  tags:
-    - Integrals
-    - Measure Theory
-  question: |
-    If $f$ is a nonnegative measurable function on $\mathbb{R}$ and $p > 0$, show that
-    $$\int f^p ~dx = \int_0^{\infty} p t^{p-1} \abs{\{x : f(x) > t\}} ~dt$$ 
-    where $\abs{\{x : f(x) > t\}}$ is the Lebesgue measure of the set $\{x : f(x) > t\}$.
-
-- year: 1970
-  season: Spring
-  exam: Real_Analysis
-  number: 3
-  university: NUS
-  tags:
-    - Integrals
-  question: |
-    If $f$ is a nonnegative measurable function on $[0, \pi]$ and $\int_0^\pi f(x)^3~dx < \infty$, show that
-    \begin{align*}
-    \lim_{\alpha\to\infty} \int_{ \theset{x :f(x) > \alpha} } f(x)^2 ~dx=0
-    .\end{align*}
-
-
-- year: 1970
-  season: Spring
-  exam: Real_Analysis
-  number: 4
-  university: NUS
-  tags:
-    - Measure Theory
-  question: |
-    Prove or disprove each of the following statements.
-
-    (a) If $f : [0, 1] → \mathbb{R}$ is a measurable function, then given any $\varepsilon > 0$, there exists a compact set $K \subset [0, 1]$ such that $f$ is continuous on $K$ relative to $K$.
-
-    (c) If f is Borel measurable on $\mathbb{R} × \mathbb{R}$, then for any $x \in \mathbb{R}$, the function $g(y) = f(x, y)$ is also Borel measurable on $\mathbb{R}$.
-
-    (d) If $E \subset \mathbb{R}$, then $E$ is measurable if and only if given any $\varepsilon > 0$, there exist a closed set $F$ and an open set $G$ such that $F \subset E \subset G$ and the measure of $G-F$ is less than $\varepsilon$.
-
-   
-- year: 1970
-  season: Spring
-  exam: Real_Analysis
-  number: 4
-  university: NUS
-  tags:
-    - Integrals
-    - Convergence of Functions
-    - Lp Spaces
-  question: |
-    Prove or disprove each of the following statements.
-    
-    (b) If ${f_n}$ is a sequence of measurable functions that converges uniformly to $f$ on $\mathbb{R}$, then $\int{f}=\lim_{k\to \infty} \int f_k$
-    
-    (e) If $\{f_k\}$ is a sequence of function in $L_p[0,\infty)$ that converges to a function $f ∈ L_p [0,∞)$, then $\{f_k\}$ has a subsequence that converges to $f$ almost everywhere.
-    
-
-- year: 1970
-  season: Spring
-  exam: Real_Analysis
-  number: 4
-  university: NUS
-  tags:
-    - Riemann Integrability
-    - Integrals
-    - Convergence of Functions
-    - L1
-    - Variation
-  question: |
-    Prove or disprove each of the following statements.
-    
-    (f) If $f$ is Riemann integrable on $[ε, 1]$ for all $0 < ε < 1$, then $f$ is Lebesgue integrable on $[0,1]$ if $f$ is nonnegative and the following limit exists $\lim_{\varepsilon\to 0^+} \int_\varepsilon^1 f dx$.
-
-    (g) If $f$ is integrable on $[0,1]$, then $\lim_{n\to\infty} \int_0^1 f(x)\sin(n\pi x)dx = 0$.
-
-    (h) If $f$ is continuous on $[0, 1]$, then it is of bounded variation on [0, 1]$.
-
-
-- year: 1970
-  season: Spring
-  exam: Real_Analysis
-  number: 5
-  university: NUS
-  tags:
-    - Mean Value Theorem 
-    - Sequences of Functions
-  question: |
-    (a) Let $f : \mathbb{R} → \mathbb{R}$ be a differentiable function. 
-        If $f'(-1) < 2$ and $f'(1) > 2$, show that there exists $x_0 \in (i1, 1)$ such that $f'(x_0) = 2$.
-
-        > Hint: consider the function $f(x) - 2x$ and recall the proof of Rolle’s theorem.)
-
-    (b) Let $f : (-1, 1) → \mathbb{R}$ be a differentiable function on $(-1, 0) \union (0, 1)$ such that $\lim_{x\to 0} f'(x) = L$. 
-        If $f$ is continuous on $(-1, 1)$, show that $f$ is indeed differentiable at $0$ and $f'(0) = L$.
-
-- year: 2019
-  season: Spring
-  exam: Real_Analysis
-  number: 1
-  university: UGA
-  tags:
-    - Function Spaces
-    - Norms 
-    - Completeness
-  question: |
-    Let $C([0, 1])$ denote the space of all continuous real-valued functions on $[0, 1]$.
-      
-    a. Prove that $C([0, 1])$ is complete under the uniform norm $\norm{f}_u := \displaystyle\sup_{x\in [0,1]} |f (x)|$.
-    b. Prove that $C([0, 1])$ is not complete under the $L^1\dash$norm $\norm{f}_1 = \displaystyle\int_0^1 |f (x)| ~dx$.
-
-- year: 2019
-  season: Spring
-  exam: Real_Analysis
-  number: 2
-  university: UGA
-  tags:
-    - Measure Theory 
-  question: |
-    Let $\mathcal B$ denote the set of all Borel subsets of $\RR$ and $\mu : \mathcal B → [0, \infty)$ denote a finite Borel measure on $\RR$.
-    
-    a. Prove that if $\{F_k\}$ is a sequence of Borel sets for which $F_k \supseteq  F_{k+1}$ for all $k$, then
-    $$
-    \lim _{k \rightarrow \infty} \mu\left(F_{k}\right)=\mu\left(\bigcap_{k=1}^{\infty} F_{k}\right)
-    $$
-    
-    b. Suppose $µ$ has the property that $µ(E) = 0$ for every $E \in \mathcal B$ with Lebesgue measure $m(E) = 0$.
-      Prove that for every $ε > 0$ there exists $δ > 0$ so that if $E \in \mathcal B$ with $m(E) < δ$, then $µ(E) < ε$.
-
-
-
-- year: 2019
-  season: Spring
-  exam: Real_Analysis
-  number: 3
-  university: UGA
-  tags:
-    - Lp Spaces
-    - Convergence of Functions
-    - Fatou
-    - Egorov
-  question: |
-    Let $\{f_k\}$ be any sequence of functions in $L^2([0, 1])$ satisfying $\norm{f_k}_2 ≤ M$ for all $k ∈ \NN$.
-      
-    Prove that if $f_k → f$ almost everywhere, then $f ∈ L^2([0, 1])$ with $\norm{f}_2 ≤ M$ and
-    $$
-    \lim _{k \rightarrow \infty} \int_{0}^{1} f_{k}(x) dx = \int_{0}^{1} f(x) d x
-    $$
-
-    > Hint: Try using Fatou’s Lemma to show that $\norm{f}_2 ≤ M$ and then try applying Egorov’s Theorem.
-
-
-
-- year: 2019
-  season: Spring
-  exam: Real_Analysis
-  number: 4
-  university: UGA
-  tags:
-    - Measure Theory
-  question: |
-    Let $f$ be a non-negative function on $\RR^n$ and $\mathcal A = \{(x, t) ∈ \RR^n × \RR : 0 ≤ t ≤ f (x)\}$.
-
-    Prove the validity of the following two statements:
-
-    a. $f$ is a Lebesgue measurable function on $\RR^n \iff  \mathcal A$ is a Lebesgue measurable subset of $\RR^{n+1}$
-    
-    b. If $f$ is a Lebesgue measurable function on $\RR^n$, then
-    $$
-    m(\mathcal{A})=\int_{\mathbb{R}^{n}} f(x) d x=\int_{0}^{\infty} m\left(\left\{x \in \mathbb{R}^{n}: f(x) \geq t\right\}\right) d t
-    $$
-
-
-- year: 2019
-  season: Spring
-  exam: Real_Analysis
-  number: 5
-  university: UGA
-  tags:
-    - Lp Spaces
-    - Functional Analysis
-    - Riesz Representation
-  question: |
-    a.  Show that $L^2([0, 1]) ⊆ L^1([0, 1])$ and argue that $L^2([0, 1])$ in fact 
-        forms a dense subset of $L^1([0, 1])$.
-
-    b.  Let $Λ$ be a continuous linear functional on $L^1([0, 1])$.
-      
-        Prove the Riesz Representation Theorem for $L^1([0, 1])$ by following the steps below:
-
-
-        i. Establish the existence of a function $g ∈ L^2([0, 1])$ which represents $Λ$ in the sense that
-        $$
-        Λ(f ) = f (x)g(x) dx \text{ for all } f ∈ L^2([0, 1]).
-        $$
-
-        > Hint: You may use, without proof, the Riesz Representation Theorem for $L^2([0, 1])$.
-
-        ii. Argue that the $g$ obtained above must in fact belong to $L^∞([0, 1])$ and represent $Λ$ in the sense that
-        $$
-        \Lambda(f)=\int_{0}^{1} f(x) \overline{g(x)} d x \quad \text { for all } f \in L^{1}([0,1])
-        $$
-        with
-        $$
-        \|g\|_{L^{\infty}([0,1])}=\|\Lambda\|_{L^{1}([0,1])\dual}
-        $$
-
-
-- year: 2019
-  season: Fall
-  exam: Real_Analysis
-  number: 1
-  university: UGA
-  tags:
-    - Convergence of Numbers
-  question: |
-    Let $\{a_n\}_{n=1}^\infty$ be a sequence of real numbers.
-
-    a. Prove that if $\displaystyle\lim_{n→∞} a_n = 0$, then $\displaystyle\lim_{n→∞} a_1 + \cdots + a_n = 0$.
-    $$
-    \lim _{n \rightarrow \infty} \frac{a_{1}+\cdots+a_{n}}{n}=0
-    $$
-
-    b. Prove that if $\displaystyle\sum_{n=1}^{\infty} \frac{a_{n}}{n}$ converges, then 
-    $$
-    \lim _{n \rightarrow \infty} \frac{a_{1}+\cdots+a_{n}}{n}=0
-    $$
-
-
-
-- year: 2019
-  season: Fall
-  exam: Real_Analysis
-  number: 2
-  university: UGA
-  tags:
-    - Analysis
-    - Integrals
-  question: |
-    Prove that
-    $$
-    \left|\frac{d^{n}}{d x^{n}} \frac{\sin x}{x}\right| \leq \frac{1}{n}
-    $$
-
-    for all $x \neq 0$ and positive integers $n$.
-
-    > Hint: Consider $\displaystyle\int_0^1 \cos(tx) dt$
-
-
-- year: 2019
-  season: Fall
-  exam: Real_Analysis
-  number: 3
-  university: UGA
-  tags:
-    - Measure Theory
-    - Borel-Cantelli
-  question: |
-    Let $(X, \mathcal B, µ)$ be a measure space with $µ(X) = 1$ and $\{B_n\}_{n=1}^\infty$ be a sequence of $\mathcal B$-measurable subsets of $X$, and
-    $$
-    B \definedas \theset{x\in X \suchthat x\in B_n \text{ for infinitely many } n}.
-    $$
-
-    a. Argue that $B$ is also a $\mathcal{B} \dash$measurable subset of $X$.
-
-    b. Prove that if $\sum_{n=1}^\infty \mu(B_n) < \infty$ then $\mu(B)= 0$.
-
-    c. Prove that if  $\sum_{n=1}^\infty \mu(B_n) = \infty$ **and** the sequence of set complements $\theset{B_n^c}_{n=1}^\infty$ satisfies
-    $$
-    \mu\left(\bigcap_{n=k}^{K} B_{n}^{c}\right)=\prod_{n=k}^{K}\left(1-\mu\left(B_{n}\right)\right)
-    $$
-    for all positive integers $k$ and $K$ with $k < K$, then $µ(B) = 1$.
-
-    > Hint: Use the fact that $1 - x ≤ e^{-x}$ for all $x$.
-
-
-
-- year: 2019
-  season: Fall
-  exam: Real_Analysis
-  number: 4
-  university: UGA
-  tags:
-    - Functional Analysis
-    - Hilbert Spaces
-    - Norms
-  question: |
-    Let $\{u_n\}_{n=1}^∞$ be an orthonormal sequence in a Hilbert space $\mathcal{H}$.
-
-    a. Prove that for every $x \in \mathcal H$ one has 
-    $$
-    \displaystyle\sum_{n=1}^{\infty}\left|\left\langle x, u_{n}\right\rangle\right|^{2} \leq\|x\|^{2}
-    $$
-
-    b. Prove that for any sequence $\{a_n\}_{n=1}^\infty \in \ell^2(\NN)$ there exists an element $x\in\mathcal H$ such that 
-    $$
-    a_n = \inner{x}{u_n} \text{ for all } n\in \NN
-    $$
-    and
-    $$
-    \norm{x}^2 = \sum_{n=1}^{\infty}\left|\left\langle x, u_{n}\right\rangle\right|^{2}
-    $$
-
-
-
-- year: 2019
-  season: Fall
-  exam: Real_Analysis
-  number: 5
-  university: UGA
-  tags:
-    - Integrals
-    - Norms
-  question: |
-    a. Show that if $f$ is continuous with compact support on $\RR$, then 
-    $$
-    \lim _{y \rightarrow 0} \int_{\mathbb{R}}|f(x-y)-f(x)| d x=0
-    $$
-
-    b. Let $f\in L^1(\RR)$ and for each $h > 0$ let 
-    $$
-    \mathcal{A}_{h} f(x):=\frac{1}{2 h} \int_{|y| \leq h} f(x-y) d y
-    $$
-
-    i. Prove that $\left\|\mathcal{A}_{h} f\right\|_{1} \leq\|f\|_{1}$ for all $h > 0$.
-
-    ii. Prove that $\mathcal{A}_h f → f$ in $L^1(\RR)$ as $h → 0^+$.
-
-- year: 2018
-  season: Spring
-  exam: Real_Analysis
-  number: 1
-  university: UGA
-  tags:
-    - Borel-Cantelli
-  question: |
-    Define
-    $$
-    E:=\left\{x \in \mathbb{R}:\left|x-\frac{p}{q}\right|<q^{-3} \text { for infinitely many } p, q \in \mathbb{N}\right\}.
-    $$
-
-    Prove that $m(E) = 0$.
-
-
-
-- year: 2018
-  season: Spring
-  exam: Real_Analysis
-  number: 2
-  university: UGA
-  tags:
-    - Uniform Convergence
-    - Integrals
-    - Convergence of Integrals
-  question: |
-    Let
-    $$
-    f_{n}(x):=\frac{x}{1+x^{n}}, \quad x \geq 0.
-    $$
-
-    a. Show that this sequence converges pointwise and find its limit. Is the convergence uniform on $[0, \infty)$?
-
-    b. Compute 
-    $$
-    \lim _{n \rightarrow \infty} \int_{0}^{\infty} f_{n}(x) d x
-    $$
-
-
-
-- year: 2018
-  season: Spring
-  exam: Real_Analysis
-  number: 3
-  university: UGA
-  tags:
-    - Integrals
-    - Convergence of Integrals
-    - Lp Spaces
-    - Norms
-  question: |
-    Let $f$ be a non-negative measurable function on $[0, 1]$. 
-
-    Show that
-    $$
-    \lim _{p \rightarrow \infty}\left(\int_{[0,1]} f(x)^{p} d x\right)^{\frac{1}{p}}=\|f\|_{\infty}.
-    $$
-
-
-
-- year: 2018
-  season: Spring
-  exam: Real_Analysis
-  number: 4
-  university: UGA
-  tags:
-    - Lp Spaces
-    - Integrals
-  question: |
-    Let $f\in L^2([0, 1])$ and suppose
-    $$
-    \int_{[0,1]} f(x) x^{n} d x=0 \text { for all integers } n \geq 0.
-    $$
-    Show that $f = 0$ almost everywhere.
-
-
-- year: 2018
-  season: Spring
-  exam: Real_Analysis
-  number: 5
-  university: UGA
-  tags:
-    - Convergence of Integrals
-    - Convergence of Functions
-    - Lp Spaces
-  question: |
-    Suppose that
-
-    - $f_n, f \in L^1$,
-    - $f_n \to f$ almost everywhere, and
-    - $\int\left|f_{n}\right| \rightarrow \int|f|$.
-
-    Show that $\int f_{n} \rightarrow \int f$
-
-- year: 2018
-  season: Fall
-  exam: Real_Analysis
-  number: 1
-  university: UGA
-  tags:
-    - Uniform Continuity
-  question: |
-    Let $f(x) = \frac 1 x$.
-    Show that $f$ is uniformly continuous on $(1, \infty)$ but not on $(0,\infty)$.
-
-
-- year: 2018
-  season: Fall
-  exam: Real_Analysis
-  number: 2
-  university: UGA
-  tags:
-    - Measure Theory
-  question: |
-    Let $E\subset \RR$ be a Lebesgue measurable set.
-    Show that there is a Borel set $B \subset E$ such that $m(E\setminus B) = 0$.
-
-
-- year: 2018
-  season: Fall
-  exam: Real_Analysis
-  number: 3
-  university: UGA
-  tags:
-    - Integrals
-  question: |
-    Suppose $f(x)$ and $xf(x)$ are integrable on $\RR$.
-    Define $F$ by
-    $$
-    F(t):=\int_{-\infty}^{\infty} f(x) \cos (x t) d x
-    $$
-    Show that 
-    $$
-    F'(t)=-\int_{-\infty}^{\infty} x f(x) \sin (x t) d x.
-    $$
-
-
-
-- year: 2018
-  season: Fall
-  exam: Real_Analysis
-  number: 4
-  university: UGA
-  tags:
-    - Lp Spaces
-    - Integrals
-  question: |
-    Let $f\in L^1([0, 1])$.
-    Prove that
-    $$
-    \lim_{n \to \infty} \int_{0}^{1} f(x) \abs{\sin n x} ~d x= \frac{2}{\pi} \int_{0}^{1} f(x) ~d x
-    $$
-
-    > Hint: Begin with the case that $f$ is the characteristic function of an interval.
-
-
-
-- year: 2018
-  season: Fall
-  exam: Real_Analysis
-  number: 5
-  university: UGA
-  tags:
-    - Fubini-Tonelli 
-  question: |
-    Let $f \geq 0$ be a measurable function on $\RR$.
-    Show that
-    $$
-    \int_{\mathbb{R}} f=\int_{0}^{\infty} m(\{x: f(x)>t\}) d t
-    $$
-
-- year: 2018
-  season: Fall
-  exam: Real_Analysis
-  number: 1
-  university: UGA
-  tags:
-    - Integrals
-    - Convergence of Integrals
-  question: |
-    Compute the following limit and justify your calculations:
-    $$
-    \lim_{n \rightarrow \infty} \int_{1}^{n} \frac{d x}{\left(1+\frac{x}{n}\right)^{n} \sqrt[n]{x}}
-    $$
-
-
-- year: 2017
-  season: Spring 
-  exam: Real_Analysis
-  number: 1
-  university: UGA
-  tags:
-    - Cantor Set
-    - Measure Theory
-  question: |
-    Let $K$ be the set of numbers in $[0, 1]$ whose decimal expansions do not use the digit $4$.
-
-    > We use the convention that when a decimal number ends with 4 but all other digits are
-    different from 4, we replace the digit $4$ with $399\cdots$. For example, $0.8754 = 0.8753999\cdots$.
-
-    Show that $K$ is a compact, nowhere dense set without isolated points, and find the
-    Lebesgue measure $m(K)$.
-
-
-- year: 2017
-  season: Spring 
-  exam: Real_Analysis
-  number: 2
-  university: UGA
-  tags:
-    - Radon Nikodym
-    - Measure Theory
-  question: |
-
-    a. Let $\mu$ be a measure on a measurable space $(X, \mathcal M)$ and $f$ a positive measurable function.
-  
-    Define a measure $\lambda$ by
-    $$
-    \lambda(E):=\int_{E} f ~d \mu, \quad E \in \mathcal{M}
-    $$
-
-    Show that for $g$ any positive measurable function, 
-    $$
-    \int_{X} g ~d \lambda=\int_{X} f g ~d \mu
-    $$
-
-    b. Let $E \subset \RR$ be a measurable set such that 
-    $$
-    \int_{E} x^{2} ~d m=0.
-    $$
-    Show that $m(E) = 0$.
-
-
-- year: 2017
-  season: Spring 
-  exam: Real_Analysis
-  number: 3
-  university: UGA
-  tags:
-    - Series of Functions
-    - Integrals
-    - Convergence of Functions
-    - L1
-  question: |
-    Let
-    $$
-    f_{n}(x)=a e^{-n a x}-b e^{-n b x} \quad \text{ where } 0 < a < b.
-    $$
-
-    Show that 
-
-    a. $\sum_{n=1}^{\infty}\left|f_{n}\right| \text { is not in } L^{1}([0, \infty), m)$
-
-      > Hint: $f_n(x)$ has a root $x_n$.
-
-    b. 
-    $$
-    \sum_{n=1}^{\infty} f_{n} \text { is in } L^{1}([0, \infty), m) 
-    \quad \text { and } \quad 
-    \int_{0}^{\infty} \sum_{n=1}^{\infty} f_{n}(x) ~d m=\ln \frac{b}{a}
-    $$
-
-
-- year: 2017
-  season: Spring 
-  exam: Real_Analysis
-  number: 4
-  university: UGA
-  tags:
-    - L1 
-  question: |
-    Let $f(x, y)$ on $[-1, 1]^2$ be defined by 
-    $$
-    f(x, y) = \begin{cases}
-    \frac{x y}{\left(x^{2}+y^{2}\right)^{2}} & (x, y) \neq (0, 0) \\
-    0 & (x, y) = (0, 0)
-    \end{cases}
-    $$
-    Determine if $f$ is integrable.
-
-
-- year: 2017
-  season: Spring 
-  exam: Real_Analysis
-  number: 5
-  university: UGA
-  tags:
-    - Uniform Continuity
-    - Integrals
-    - L2
-  question: |
-    Let $f, g \in L^2(\RR)$. 
-    Prove that the formula
-    $$
-    h(x):=\int_{-\infty}^{\infty} f(t) g(x-t) d t
-    $$
-    defines a uniformly continuous function $h$ on $\RR$.
-
-
-- year: 2017
-  season: Spring 
-  exam: Real_Analysis
-  number: 6
-  university: UGA
-  tags:
-    - Function Spaces
-    - Norms 
-    - Completeness 
-  question: |
-    Show that the space $C^1([a, b])$ is a Banach space when equipped with the norm
-    $$
-    \|f\|:=\sup _{x \in[a, b]}|f(x)|+\sup _{x \in[a, b]}\left|f^{\prime}(x)\right|.
-    $$
-
-- year: 2017
-  season: Fall
-  exam: Real_Analysis
-  number: 1
-  university: UGA
-  tags:
-    - Uniform Convergence 
-  question: |
-    Let 
-    $$
-    f(x) = s \sum_{n=0}^{\infty} \frac{x^{n}}{n !}.
-    $$
-
-    Describe the intervals on which $f$ does and does not converge uniformly.
-
-
-- year: 2017
-  season: Fall
-  exam: Real_Analysis
-  number: 2
-  university: UGA
-  tags:
-    - Measure Theory 
-  question: |
-    Let $f(x) = x^2$ and $E \subset [0, \infty) \definedas \RR^+$.
-
-    1. Show that
-    $$
-    m^*(E) = 0 \iff m^*(f(E)) = 0.
-    $$
-
-    2. Deduce that the map
-
-    \begin{align*}
-    \phi: \mathcal{L}(\RR^+) &\to \mathcal{L}(\RR^+) \\
-    E &\mapsto f(E)
-    \end{align*}
-      is a bijection from the class of Lebesgue measurable sets of $[0, \infty)$ to itself.
-
-
-- year: 2017
-  season: Fall
-  exam: Real_Analysis
-  number: 3
-  university: UGA
-  tags:
-    - Sequences of Functions
-    - Convergence of Functions
-    - L1
-    - Density
-  question: |
-    Let 
-    $$
-    S = \spanof_\CC\theset{\chi_{(a, b)} \suchthat a, b \in \RR},
-    $$
-    the complex linear span of characteristic functions of intervals of the form $(a, b)$.
-
-    Show that for every $f\in L^1(\RR)$, there exists a sequence of functions $\theset{f_n} \subset S$ such that 
-    $$
-    \lim _{n \rightarrow \infty}\left\|f_{n}-f\right\|_{1}=0
-    $$
-
-
-- year: 2017
-  season: Fall
-  exam: Real_Analysis
-  number: 4
-  university: UGA
-  tags:
-    - Convergence of Functions
-    - Convergence of Integrals
-    - Integrals
-    - Uniform Convergence
-  question: |
-    Let
-    $$
-    f_{n}(x)=n x(1-x)^{n}, \quad n \in \mathbb{N}.
-    $$
-
-    1. Show that $f_n \to 0$ pointwise but not uniformly on $[0, 1]$.
-        
-        > Hint: Consider the maximum of $f_n$.
-
-    2. 
-    $$
-    \lim _{n \rightarrow \infty} \int_{0}^{1} n(1-x)^{n} \sin x d x=0
-    $$
-
-
-- year: 2017
-  season: Fall
-  exam: Real_Analysis
-  number: 5
-  university: UGA
-  tags:
-    - Approximations to the Identity
-    - Convergence of Functions
-    - Convergence of Integrals
-    - L1
-  question: |
-    Let $\phi$ be a compactly supported smooth function that vanishes outside of an interval $[-N, N]$ such that $\int_{\mathrm{R}} \phi(x) d x=1$.
-
-    For $f\in L^1(\RR)$, define
-    $$
-    K_{j}(x):=j \phi(j x), \quad \quad f \ast K_{j}(x):=\int_{\mathbb{R}} f(x-y) K_{j}(y) ~d y
-    $$
-    and prove the following:
-
-    1. Each $f\ast K_j$ is smooth and compactly supported.
-
-    2. 
-    $$
-    \lim _{j \rightarrow \infty}\left\|f * K_{j}-f\right\|_{1}=0
-    $$
-
-    > Hint:
-    $$
-    \lim _{y \rightarrow 0} \int_{\mathbb{R}}|f(x-y)-f(x)| d y=0
-    $$
-
-
-
-
-- year: 2017
-  season: Fall
-  exam: Real_Analysis
-  number: 6
-  university: UGA
-  tags:
-    - Function Spaces
-    - Norms 
-    - Completeness
-  question: |
-    Let $X$ be a complete metric space and define a norm
-    $$
-    \|f\|:=\max \{|f(x)|: x \in X\}.
-    $$
-
-    Show that $(C^0(\RR), \norm{\wait} )$ (the space of continuous functions $f: X\to \RR$) is complete.
-
-
-- year: 2016
-  season: Spring 
-  exam: Real_Analysis
-  number: 1
-  university: UGA
-  tags:
-    - Bernoulli
-    - Sequences of Numbers
-  question: |
-    For $n\in \NN$, define
-    $$
-    e_{n}=\left(1+\frac{1}{n}\right)^{n} 
-    \quad \text { and } \quad 
-    E_{n}=\left(1+\frac{1}{n}\right)^{n+1}
-    $$
-
-    Show that $e_n < E_n$, and prove Bernoulli's inequality:
-    $$
-    (1+x)^{n} \geq 1+n x \text { for }-1<x<\infty \text { and } n \in \mathbb{N}
-    $$
-
-    Use this to show the following:
-
-    1. The sequence $e_n$ is increasing.
-    2. The sequence $E_n$ is decreasing.
-    3. $2 < e_n < E_n < 4$.
-    4. $\lim _{n \rightarrow \infty} e_{n}=\lim _{n \rightarrow \infty} E_{n}$.
-
-
-- year: 2016
-  season: Spring 
-  exam: Real_Analysis
-  number: 2
-  university: UGA
-  tags:
-    - Cantor Set
-  question: |
-    Let $0 < \lambda < 1$ and construct a Cantor set $C_\lambda$ by successively removing middle intervals of length $\lambda$.
-
-    Prove that $m(C_\lambda) = 0$.
-
-
-- year: 2016
-  season: Spring 
-  exam: Real_Analysis
-  number: 3
-  university: UGA
-  tags:
-    - Measure Theory
-    - Continuity
-  question: |
-    Let $f$ be Lebesgue measurable on $\RR$ and $E \subset \RR$ be measurable such that
-    $$
-    0<A=\int_{E} f(x) d x<\infty.
-    $$
-
-    Show that for every $0 < t < 1$, there exists a measurable set $E_t \subset E$ such that
-    $$
-    \int_{E_{t}} f(x) d x=t A.
-    $$
-
-
-- year: 2016
-  season: Spring 
-  exam: Real_Analysis
-  number: 4
-  university: UGA
-  tags:
-    - Uniform Continuity
-    - Measure Theory
-    - L1
-  question: |
-    Let $E \subset \RR$ be measurable with $m(E) < \infty$. 
-    Define
-    $$
-    f(x)=m(E \cap(E+x)).
-    $$
-
-    Show that
-
-    1. $f\in L^1(\RR)$.
-    2. $f$ is uniformly continuous.
-    3. $\lim _{|x| \rightarrow \infty} f(x)=0$
-
-    > Hint: 
-    $$
-    \chi_{E \cap(E+x)}(y)=\chi_{E}(y) \chi_{E}(y-x)
-    $$
-
-
-- year: 2016
-  season: Spring 
-  exam: Real_Analysis
-  number: 5
-  university: UGA
-  tags:
-    - Measure Theory
-    - Integrals
-    - L1
-  question: |
-    Let $(X, \mathcal M, \mu)$ be a measure space. For $f\in L^1(\mu)$ and $\lambda > 0$, define
-    $$
-    \phi(\lambda)=\mu(\{x \in X | f(x)>\lambda\}) 
-    \quad \text { and } \quad 
-    \psi(\lambda)=\mu(\{x \in X | f(x)<-\lambda\})
-    $$
-
-    Show that $\phi, \psi$ are Borel measurable and
-    $$
-    \int_{X}|f| ~d \mu=\int_{0}^{\infty}[\phi(\lambda)+\psi(\lambda)] ~d \lambda
-    $$
-
-
-- year: 2016
-  season: Spring 
-  exam: Real_Analysis
-  number: 6
-  university: UGA
-  tags:
-    - Functional Analysis
-    - Norms
-    - L2
-    - Riesz Representation 
-  question: |
-    Without using the Riesz Representation Theorem, compute
-    $$
-    \sup \left\{\left|\int_{0}^{1} f(x) e^{x} d x\right| \suchthat f \in L^{2}([0,1], m),~~ \|f\|_{2} \leq 1\right\}
-    $$
-
-- year: 2016
-  season: Fall
-  exam: Real_Analysis
-  number: 1
-  university: UGA
-  tags:
-    - Uniform Convergence
-    - Series of Numbers
-  question: |
-    Define
-    $$
-    f(x) = \sum_{n=1}^{\infty} \frac{1}{n^{x}}.
-    $$ 
-
-    Show that $f$ converges to a differentiable function on $(1, \infty)$ and that
-    $$
-    f'(x)  =\sum_{n=1}^{\infty}\left(\frac{1}{n^{x}}\right)^{\prime}.
-    $$
-
-    > Hint:
-    $$
-    \left(\frac{1}{n^{x}}\right)^{\prime}=-\frac{1}{n^{x}} \ln n
-    $$
-
-
-- year: 2016
-  season: Fall
-  exam: Real_Analysis
-  number: 2
-  university: UGA
-  tags:
-    - Measure Theory
-  question: |
-    Let $f, g: [a, b] \to \RR$ be measurable with
-    $$
-    \int_{a}^{b} f(x) ~d x=\int_{a}^{b} g(x) ~d x.
-    $$
-
-    Show that either
-
-    1. $f(x) = g(x)$ almost everywhere, or
-    2. There exists a measurable set $E \subset [a, b]$ such that
-    $$
-    \int_{E} f(x) ~d x>\int_{E} g(x) ~d x
-    $$
-
-
-- year: 2016
-  season: Fall
-  exam: Real_Analysis
-  number: 3
-  university: UGA
-  tags:
-    - L1
-    - Norms
-    - Convergence of Integrals
-  question: |
-    Let $f\in L^1(\RR)$.
-    Show that
-    $$
-    \lim _{x \rightarrow 0} \int_{\mathbb{R}}|f(y-x)-f(y)| d y=0
-    $$
-
-
-- year: 2016
-  season: Fall
-  exam: Real_Analysis
-  number: 4
-  university: UGA
-  tags:
-    - Measure Theory
-    - Borel-Cantelli
-  question: |
-    Let $(X, \mathcal M, \mu)$ be a measure space and suppose $\theset{E_n} \subset \mathcal M$ satisfies
-    $$
-    \lim _{n \rightarrow \infty} \mu\left(X \backslash E_{n}\right)=0.
-    $$
-
-    Define
-    $$
-    G \definedas \theset{x\in X \suchthat x\in E_n \text{ for only finitely many  } n}.
-    $$
-
-    Show that $G \in \mathcal M$ and $\mu(G) = 0$.
-
-
-- year: 2016
-  season: Fall
-  exam: Real_Analysis
-  number: 5
-  university: UGA
-  tags:
-    - Lp Spaces
-    - Integrals
-    - Sequences of Functions
-  question: |
-    Let $\phi\in L^\infty(\RR)$. Show that the following limit exists and satisfies the equality
-    $$
-    \lim _{n \rightarrow \infty}\left(\int_{\mathbb{R}} \frac{|\phi(x)|^{n}}{1+x^{2}} d x\right)^{\frac{1}{n}} = \norm{\phi}_\infty.
-    $$
-
-
-- year: 2016
-  season: Fall
-  exam: Real_Analysis
-  number: 6
-  university: UGA
-  tags:
-    - L2
-    - Convergence of Integrals
-  question: |
-    Let $f, g \in L^2(\RR)$. Show that
-    $$
-    \lim _{n \rightarrow \infty} \int_{\mathbb{R}} f(x) g(x+n) d x=0
-    $$
-
-- year: 2015
-  season: Spring
-  exam: Real_Analysis
-  number: 1
-  university: UGA
-  tags:
-    - Completeness
-  question: |
-    Let $(X, d)$ and $(Y, \rho)$ be metric spaces, $f: X\to Y$, and $x_0 \in X$.
-
-    Prove that the following statements are equivalent:
-
-    1. For every $\varepsilon > 0 \quad \exists \delta > 0$ such that $\rho( f(x), f(x_0)  ) < \varepsilon$ whenever $d(x, x_0) < \delta$.
-    2. The sequence $\theset{f(x_n)}_{n=1}^\infty \to f(x_0)$ for every sequence $\theset{x_n} \to x_0$ in $X$.
-
-
-- year: 2015
-  season: Spring
-  exam: Real_Analysis
-  number: 2
-  university: UGA
-  tags:
-    - Series of Functions
-    - Integrals
-  question: |
-    Let $f: \RR \to \CC$ be continuous with period 1. Prove that
-    $$
-    \lim _{N \rightarrow \infty} \frac{1}{N} \sum_{n=1}^{N} f(n \alpha)=\int_{0}^{1} f(t) d t \quad \forall \alpha \in \RR\setminus\QQ.
-    $$
-
-    > Hint: show this first for the functions $f(t) = e^{2\pi i k t}$ for $k\in \ZZ$.
-
-
-- year: 2015
-  season: Spring
-  exam: Real_Analysis
-  number: 3
-  university: UGA
-  tags:
-    - Measure Theory
-  question: |
-    Let $\mu$ be a finite Borel measure on $\RR$ and $E \subset \RR$ Borel. 
-    Prove that the following statements are equivalent:
-
-    1. $\forall \varepsilon > 0$ there exists $G$ open and $F$ closed such that 
-    $$
-    F \subseteq E \subseteq G \quad \text{and} \quad \mu(G\setminus F) < \varepsilon.
-    $$
-    2. There exists a $V \in G_\delta$ and $H \in F_\sigma$ such that 
-    $$
-    H \subseteq E \subseteq V \quad \text{and}\quad \mu(V\setminus H) = 0
-    $$
-
-
-- year: 2015
-  season: Spring
-  exam: Real_Analysis
-  number: 4
-  university: UGA
-  tags:
-    - L1 
-  question: |
-    Define
-    $$
-    f(x, y):=\left\{\begin{array}{ll}{\frac{x^{1 / 3}}{(1+x y)^{3 / 2}}} & {\text { if } 0 \leq x \leq y} \\ {0} & {\text { otherwise }}\end{array}\right.
-    $$
-
-    Carefully show that $f \in L^1(\RR^2)$.
-
-
-
-- year: 2015
-  season: Spring
-  exam: Real_Analysis
-  number: 5
-  university: UGA
-  tags:
-    - Functional Analysis
-    - Hilbert Spaces
-  question: |
-    Let $\mathcal H$ be a Hilbert space.
-
-    1. Let $x\in \mathcal H$ and $\theset{u_n}_{n=1}^N$ be an orthonormal set.
-      Prove that the best approximation to $x$ in $\mathcal H$ by an element in $\spanof_\CC\theset{u_n}$ is given by
-      $$
-      \hat x \definedas \sum_{n=1}^N \inner{x}{u_n}u_n.
-      $$
-    2. Conclude that finite dimensional subspaces of $\mathcal H$ are always closed.
-
-
-- year: 2015
-  season: Spring
-  exam: Real_Analysis
-  number: 6
-  university: UGA
-  tags:
-    - Convolution
-    - Uniform Continuity
-    - L1
-  question: |
-    Let $f \in L^1(\RR)$ and $g$ be a bounded measurable function on $\RR$.
-
-    1. Show that the convolution $f\ast g$ is well-defined, bounded, and uniformly continuous on $\RR$.
-    2. Prove that one further assumes that $g \in C^1(\RR)$ with bounded derivative, then $f\ast g \in C^1(\RR)$ and
-    $$
-    \frac{d}{d x}(f * g)=f *\left(\frac{d}{d x} g\right)
-    $$
-
-
-- year: 2015
-  season: Fall
-  exam: Real_Analysis
-  number: 1
-  university: UGA
-  tags:
-    - Calculus
-  question: |
-    Define
-    $$
-    f(x)=c_{0}+c_{1} x^{1}+c_{2} x^{2}+\ldots+c_{n} x^{n} \text { with } n \text { even and } c_{n}>0.
-    $$
-
-    Show that there is a number $x_m$ such that $f(x_m) \leq f(x)$ for all $x\in \RR$.
-
-
-- year: 2015
-  season: Fall
-  exam: Real_Analysis
-  number: 2
-  university: UGA
-  tags:
-    - Convergence of Functions
-    - Density
-  question: |
-    Let $f: \RR \to \RR$ be Lebesgue measurable.
-
-    1. Show that there is a sequence of simple functions $s_n(x)$ such that $s_n(x) \to f(x)$ for all $x\in \RR$.
-    2. Show that there is a Borel measurable function $g$ such that $g = f$ almost everywhere.
-
-
-- year: 2015
-  season: Fall
-  exam: Real_Analysis
-  number: 3
-  university: UGA
-  tags:
-    - Integrals
-    - Convergence of Functions
-  question: |
-    Compute the following limit:
-    $$
-    \lim _{n \rightarrow \infty} \int_{1}^{n} \frac{n e^{-x}}{1+n x^{2}} ~\sin \left(\frac x n\right) ~d x
-    $$
-
-
-- year: 2015
-  season: Fall
-  exam: Real_Analysis
-  number: 4
-  university: UGA
-  tags:
-    - Convergence of Numbers
-    - Calculus
-  question: |
-    Let $f: [1, \infty) \to \RR$ such that $f(1) = 1$ and
-    $$
-    f^{\prime}(x)= \frac{1} {x^{2}+f(x)^{2}}
-    $$
-
-    Show that the following limit exists and satisfies the equality
-    $$
-    \lim _{x \rightarrow \infty} f(x) \leq 1 + \frac \pi 4
-    $$
-
-
-- year: 2015
-  season: Fall
-  exam: Real_Analysis
-  number: 5
-  university: UGA
-  tags:
-    - Measure Theory
-    - L1 
-    - Convolution
-    - Norms
-  question: |
-    Let $f, g \in L^1(\RR)$ be Borel measurable.
-
-    1. Show that 
-      - The function $$F(x, y) \definedas f(x-y) g(y)$$ is Borel measurable on $\RR^2$, and
-      - For almost every $y\in \RR$, $$F_y(x) \definedas f(x-y)g(y)$$ is integrable with respect to $y$.
-    2. Show that $f\ast g \in L^1(\RR)$ and
-    $$
-    \|f * g\|_{1} \leq\|f\|_{1}\|g\|_{1}
-    $$
-
-
-- year: 2015
-  season: Fall
-  exam: Real_Analysis
-  number: 6
-  university: UGA
-  tags:
-    - Norms
-    - L1
-  question: |
-    Let $f: [0, 1] \to \RR$ be continuous.
-    Show that
-    $$
-    \sup \left\{\|f g\|_{1} \suchthat g \in L^{1}[0,1],~~ \|g\|_{1} \leq 1\right\}=\|f\|_{\infty}
-    $$
-
-- year: 2014
-  season: Spring
-  exam: Real_Analysis
-  number: 1
-  university: UGA
-  tags:
-    - L1
-    - Uniform Continuity
-    - Small Tails
-  question: |
-    1. Give an example of a continuous $f\in L^1(\RR)$ such that $f(x) \not\to 0$ as$\abs x \to \infty$.
-
-    2. Show that if $f$ is *uniformly* continuous, then
-    $$
-    \lim_{\abs x \to \infty} f(x) = 0.
-    $$
-
-- year: 2014
-  season: Spring
-  exam: Real_Analysis
-  number: 2
-  university: UGA
-  tags:
-    - Sequences of Numbers
-    - Series of Numbers
-    - Lp Spaces
-  question: |
-    Let $\theset{a_n}$ be a sequence of real numbers such that
-    $$
-    \theset{b_n} \in \ell^2(\NN) \implies \sum a_n b_n < \infty.
-    $$
-    Show that $\sum a_n^2 < \infty$.
-
-    > Note: Assume $a_n, b_n$ are all non-negative.
-
-
-- year: 2014
-  season: Spring
-  exam: Real_Analysis
-  number: 3
-  university: UGA
-  tags:
-    - Measure Theory
-  question: |
-    Let $f: \RR \to \RR$ and suppose
-    $$
-    \forall x\in \RR,\quad f(x) \geq \limsup _{y \rightarrow x} f(y)
-    $$
-    Prove that $f$ is Borel measurable.
-
-
-- year: 2014
-  season: Spring
-  exam: Real_Analysis
-  number: 4
-  university: UGA
-  tags:
-    - Measure Theory
-    - Convergence of Integrals
-  question: |
-    Let $(X, \mathcal M, \mu)$ be a measure space and suppose $f$ is a measurable function on $X$.
-    Show that
-    $$
-    \lim _{n \rightarrow \infty} \int_{X} f^{n} ~d \mu =
-    \begin{cases}
-    \infty & or \\
-    \mu(f\inv(1)),
-    \end{cases}
-    $$
-    and characterize the collection of functions of each type.
-
-- year: 2014
-  season: Spring
-  exam: Real_Analysis
-  number: 5
-  university: UGA
-  tags:
-    - Integrals
-    - Fubini-Tonelli
-    - L1
-  question: |
-    Let $f, g \in L^1([0, 1])$ and for all $x\in [0, 1]$ define
-    $$
-    F(x):=\int_{0}^{x} f(y) d y \quad \text { and } \quad G(x):=\int_{0}^{x} g(y) d y.
-    $$
-
-    Prove that
-    $$
-    \int_{0}^{1} F(x) g(x) d x=F(1) G(1)-\int_{0}^{1} f(x) G(x) d x
-    $$
-
-- year: 2014
-  season: Fall
-  exam: Real_Analysis
-  number: 1
-  university: UGA
-  tags:
-    - Analysis
-  question: |
-    Let $\theset{f_n}$ be a sequence of continuous functions such that $\sum f_n$ converges uniformly.
-
-    Prove that $\sum f_n$ is also continuous.
-
-
-- year: 2014
-  season: Fall
-  exam: Real_Analysis
-  number: 2
-  university: UGA
-  tags:
-    - Analysis
-  question: |
-    Let $I$ be an index set and $\alpha: I \to (0, \infty)$.
-
-    1.  Show that
-        $$
-        \sum_{i \in I} a(i):=\sup _{\substack{ J \subset I \\ J \text { finite }}} \sum_{i \in J} a(i)<\infty \implies I \text{ is countable.}
-        $$
-
-    2.  Suppose $I = \QQ$ and $\sum_{q \in \mathbb{Q}} a(q)<\infty$.
-        Define
-        $$
-        f(x):=\sum_{\substack{q \in \mathbb{Q}\\ q \leq x}} a(q).
-        $$
-        Show that $f$ is continuous at $x \iff x\not\in \QQ$.
-
-- year: 2014
-  season: Fall
-  exam: Real_Analysis
-  number: 3
-  university: UGA
-  tags:
-    - L1
-    - Continuity of Measure
-    - Measure Theory
-  question: |
-    Let $f\in L^1(\RR)$. Show that
-    $$
-    \forall\varepsilon > 0 ~~\exists \delta > 0 \text{ such that } m(E) < \delta \implies \int_{E}|f(x)| d x<\varepsilon
-    $$
-
-- year: 2014
-  season: Fall
-  exam: Real_Analysis
-  number: 4
-  university: UGA
-  tags:
-    - L infty
-    - Integrals
-  question: |
-    Let $g\in L^\infty([0, 1])$
-    Prove that
-    $$
-    \int_{[0,1]} f(x) g(x) d x=0 \quad\text{for all continuous } f:[0, 1] \to \RR \implies g(x) = 0 \text{ almost everywhere. }
-    $$
-
-- year: 2014
-  season: Fall
-  exam: Real_Analysis
-  number: 5
-  university: UGA
-  tags:
-    - Convolution
-    - Integrals
-    - Convergence of Integrals
-    - L1
-    - Uniform Continuity
-  question: |
-    1. Let $f \in C_c^0(\RR^n)$, and show
-    $$
-    \lim _{t \rightarrow 0} \int_{\mathbb{R}^{n}}|f(x+t)-f(x)| d x=0.
-    $$
-
-    2. Extend the above result to $f\in L^1(\RR^n)$ and show that
-    $$
-    f\in L^1(\RR^n),~ g\in L^\infty(\RR^n) \implies f \ast g \text{ is bounded and uniformly continuous. }
-    $$
-
-- year: 2014
-  season: Fall
-  exam: Real_Analysis
-  number: 6
-  university: UGA
-  tags:
-    - Lp Spaces
-    - Norms
-    - Functional Analysis
-    - Riesz Representation
-  question: |
-    Let $1 \leq p,q \leq \infty$ be conjugate exponents, and show that
-    $$
-    f \in L^p(\RR^n) \implies \|f\|_{p}=\sup _{\|g\|_{q}=1}\left|\int f(x) g(x) d x\right|
-    $$
-
-
-
-- year: 0 
-  number: 0
-  exam: Real_Analysis
-  university: Emory
-  tags:
-    - Measure Theory
-  question: |
-    Describe the process that extends a measure on an algebra
-    $\mathcal{A}$ of subsets of $X$, to a complete measure defined on a
-    $\sigma$-algebra $\mathcal{B}$ containing $\mathcal{A}$. State the
-    corresponding definitions and results (without proofs).
-
-
-- year: 0 
-  number: 0
-  exam: Real_Analysis
-  university: Emory
-  tags:
-    - Measure Theory
-    - Fatou
-  question: |
-    State and prove Fatou's Lemma on a general measurable space.
-
-
-- year: 0 
-  number: 0
-  exam: Real_Analysis
-  university: Emory
-  tags:
-    - Convergence of Functions
-  question: |
-    1.  State the Dominated Convergence Theorem for Lebesgue integrals.
-
-    2.  Let $\{f_n\}$ be a sequence of measurable functions on a
-        Lebesgue measurable set $E$ which converges *in measure* to a
-        function $f$ on $E$. Suppose that for every $n$, $|f_n| \leq g$
-        with $g$ integrable on $E$. Using the above theorem show that
-        \begin{align*}
-            \int_E |f_n-f| \longrightarrow 0 \, .
-        \end{align*}
-
-
-- year: 0 
-  number: 0
-  exam: Real_Analysis
-  university: Emory
-  tags:
-    - Lp Spaces 
-  question: |
-    Let $f\in L^1([0,1])$. Show that
-
-    1.  The limit $\lim_{p\to 0^+} \| f \|_p$ exists.
-
-    2.  If $m \{x : f(x) = 0\} > 0$, then the above limit is zero.
-
-
-- year: 0 
-  number: 0
-  exam: Real_Analysis
-  university: Emory
-  tags:
-    - Absolute Continuity
-  question: |
-    Let $f$ be a continuous function on $[0,1]$. Show that the following
-    statements are equivalent.
-
-    1.  $f$ is absolutely continuous.
-
-    2.  For any $\epsilon > 0$ there exists $\delta > 0$ such that
-        $m(f(E)) < \epsilon$ for any set $E\subseteq [0,1]$ with
-        $m(E) < \delta$.
-
-    3.  $m(f(E)) = 0$ for any set $E \subseteq [0,1]$ with $m(E)=0$.

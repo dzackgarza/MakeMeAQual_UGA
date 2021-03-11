@@ -33,7 +33,7 @@
     
     (d) If $\lim_{n\to\infty} |a_n+1/a_n|$ exists, then $\lim_{n\to \infty} |a_n|^{1/n}$ exists and the two limits are equal.
 
-    (e) If $\sum_{n=1}^\infty a_n x^n$ converges for all $x ∈ [0, 1]$, then $\lim_{x\to 1^-} \sum_{n=1}^\infty a_n x^n=\sum_{n=1}^\infty a_n$
+    (e) If $\sum_{n=1}^\infty a_n x^n$ converges for all $x \in [0, 1]$, then $\lim_{x\to 1^-} \sum_{n=1}^\infty a_n x^n=\sum_{n=1}^\infty a_n$
 
 - year: 1970
   season: Spring
@@ -62,7 +62,7 @@
   tags:
     - Measure Theory 
   question: |
-    If $f$ is a finite real valued measurable function on a measurable set $E \subset \mathbb{R}$, show that the set $\{(x, f(x)) : x ∈ E\}$ is measurable.
+    If $f$ is a finite real valued measurable function on a measurable set $E \subset \mathbb{R}$, show that the set $\{(x, f(x)) : x \in E\}$ is measurable.
 
 - year: 1970
   season: Spring
@@ -83,7 +83,7 @@
 
     for all $x \in [0, 1]$. 
 
-    > Hint: first show that $|f_n(x_1) - f_n(x_2)| ≤ |x_1 - x_2|$.
+    > Hint: first show that $|f_n(x_1) - f_n(x_2)| \leq |x_1 - x_2|$.
 
 
 - year: 1970
@@ -154,7 +154,7 @@
     
     (b) If ${f_n}$ is a sequence of measurable functions that converges uniformly to $f$ on $\mathbb{R}$, then $\int{f}=\lim_{k\to \infty} \int f_k$
     
-    (e) If $\{f_k\}$ is a sequence of function in $L_p[0,\infty)$ that converges to a function $f ∈ L_p [0,∞)$, then $\{f_k\}$ has a subsequence that converges to $f$ almost everywhere.
+    (e) If $\{f_k\}$ is a sequence of function in $L_p[0,\infty)$ that converges to a function $f \in L_p [0,\infty)$, then $\{f_k\}$ has a subsequence that converges to $f$ almost everywhere.
     
 
 - year: 1970
@@ -171,7 +171,7 @@
   question: |
     Prove or disprove each of the following statements.
     
-    (f) If $f$ is Riemann integrable on $[ε, 1]$ for all $0 < ε < 1$, then $f$ is Lebesgue integrable on $[0,1]$ if $f$ is nonnegative and the following limit exists $\lim_{\varepsilon\to 0^+} \int_\varepsilon^1 f dx$.
+    (f) If $f$ is Riemann integrable on $[\eps, 1]$ for all $0 < \eps < 1$, then $f$ is Lebesgue integrable on $[0,1]$ if $f$ is nonnegative and the following limit exists $\lim_{\varepsilon\to 0^+} \int_\varepsilon^1 f dx$.
 
     (g) If $f$ is integrable on $[0,1]$, then $\lim_{n\to\infty} \int_0^1 f(x)\sin(n\pi x)dx = 0$.
 

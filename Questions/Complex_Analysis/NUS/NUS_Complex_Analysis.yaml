@@ -12,7 +12,7 @@
 
     $f(z) = 2z^5 - 6z^2 - z + 1 = 0$
 
-    in the annulus $1 ≤ |z| ≤ 2$.
+    in the annulus $1 \leq |z| \leq 2$.
 
 - year: 1970
   season: Spring

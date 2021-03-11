@@ -14,20 +14,20 @@ Let $\mathcal B$ denote the set of all Borel subsets of $\RR$ and $\mu : \mathca
   \lim _{k \rightarrow \infty} \mu\left(F_{k}\right)=\mu\left(\bigcap_{k=1}^{\infty} F_{k}\right)
   $$
   b. Suppose $µ$ has the property that $µ(E) = 0$ for every $E \in \mathcal B$ with Lebesgue measure $m(E) = 0$.
-    Prove that for every $ε > 0$ there exists $δ > 0$ so that if $E \in \mathcal B$ with $m(E) < δ$, then $µ(E) < ε$.
+    Prove that for every $\eps > 0$ there exists $\delta > 0$ so that if $E \in \mathcal B$ with $m(E) < \delta$, then $µ(E) < \eps$.
 
 ## 3 
-Let $\{f_k\}$ be any sequence of functions in $L^2([0, 1])$ satisfying $\norm{f_k}_2 ≤ M$ for all $k ∈ \NN$.
+Let $\{f_k\}$ be any sequence of functions in $L^2([0, 1])$ satisfying $\norm{f_k}_2 \leq M$ for all $k ∈ \NN$.
   
-Prove that if $f_k → f$ almost everywhere, then $f ∈ L^2([0, 1])$ with $\norm{f}_2 ≤ M$ and
+Prove that if $f_k → f$ almost everywhere, then $f ∈ L^2([0, 1])$ with $\norm{f}_2 \leq M$ and
 $$
 \lim _{k \rightarrow \infty} \int_{0}^{1} f_{k}(x) dx = \int_{0}^{1} f(x) d x
 $$
 
-> Hint: Try using Fatou’s Lemma to show that $\norm{f}_2 ≤ M$ and then try applying Egorov’s Theorem.
+> Hint: Try using Fatou’s Lemma to show that $\norm{f}_2 \leq M$ and then try applying Egorov’s Theorem.
 
 ## 4
-Let $f$ be a non-negative function on $\RR^n$ and $\mathcal A = \{(x, t) ∈ \RR^n × \RR : 0 ≤ t ≤ f (x)\}$.
+Let $f$ be a non-negative function on $\RR^n$ and $\mathcal A = \{(x, t) ∈ \RR^n × \RR : 0 \leq t \leq f (x)\}$.
 
 Prove the validity of the following two statements:
 
