@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/zsh
 #
 # Find and replace by a given list of files.
 #
