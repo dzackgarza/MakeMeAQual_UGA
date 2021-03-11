@@ -34,12 +34,12 @@ def example():
     questions = random.sample(all_questions, num_questions)
         
     # Start building markdown document
-    total_string = "" if to_pdf else open('latexmacs.tex', 'r').read() + "\n\n"
+    total_string = "" if to_pdf else open('~/dotfiles/.pandoc/latexmacs.tex', 'r').read() + "\n\n"
     total_string += "---\ntitle: Qualifying Exam\n---\n\n"
 
     # Add all questions to doc
     for i, x in enumerate(questions):
-        out_str = '# Question {q_number} ({q_uni} {q_year} #{orig_number})\n\n{content}\n\n'.format(
+        out_str = '## Question {q_number} ({q_uni} {q_year} #{orig_number})\n\n{content}\n\n'.format(
                 q_number = i+1,
                 q_uni = x['university'],
                 q_year = x['year'],

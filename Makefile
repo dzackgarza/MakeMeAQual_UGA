@@ -12,7 +12,8 @@ testpdf:
 	./make_md_doc.py # --> Combined_Questions.md
 	cat "Combined_Questions.md" | pandoc -f markdown -r markdown+fenced_divs+tex_math_single_backslash+citations --template=pandoc_template.tex -o "Combined_Questions.tex";
 	@mkdir -p tex_tempfiles;
-	@latexmk --shell-escape -pdf Combined_Questions.tex -quiet -outdir=tex_tempfiles && cp tex_tempfiles/Combined_Questions.pdf . 2>&1 >/dev/null;
+	pdflatex Combined_Questions.tex Combined_Questions.pdf;
+	#@latexmk --shell-escape -pdf Combined_Questions.tex -quiet -outdir=tex_tempfiles && cp tex_tempfiles/Combined_Questions.pdf . 2>&1 >/dev/null;
 	echo "Output written at Combined_Questions.pdf"
 
 update:
@@ -21,7 +22,9 @@ update:
 
 clean:
 	@ rm Combined_Questions.*
+	rm -rf tex_tempfiles;
 	echo "Removed combined questions"
+
 
 .ONESHELL:
 
