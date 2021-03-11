@@ -13,7 +13,7 @@
 
     (a) If $f$ is of bounded variation on $[0,1]$, then it is continuous on $[0,1]$.
 
-    (b) If $f : [0, 1] → [0, 1]$ is a continuous function, then there exists $x_0 \in [0, 1]$ such that $f(x_0) = x_0$.
+    (b) If $f : [0, 1] \to [0, 1]$ is a continuous function, then there exists $x_0 \in [0, 1]$ such that $f(x_0) = x_0$.
 
     (c) Let $\{f_n\}$ be a sequence of uniformly continuous functions on an interval $I$. If $\{f_n\}$ converges uniformly to a function $f$ on $I$, then $f$ is also uniformly continuous on $I$.
     
@@ -73,11 +73,11 @@
     - Sequences of Functions
     - Arzela-Ascoli
   question: |
-    Let g : $[0, 1] × [0, 1] → [0, 1]$ be a continuous function and let $\{f_n\}$ be a sequence of functions such that 
+    Let g : $[0, 1] \times [0, 1] \to [0, 1]$ be a continuous function and let $\{f_n\}$ be a sequence of functions such that 
 
     $$f_n(x)=\begin{cases}{0,   0\leq x\leq 1/n},\\{\int_0^{x-\frac1n} g(t,f_n(t))dt, 1/n\leq x \leq 1.}\end{cases}$$
 
-    With the help of the Arzela-Ascoli theorem or otherwise, show that there exists a continuous function $f : [0, 1] → \mathbb{R}$ such that 
+    With the help of the Arzela-Ascoli theorem or otherwise, show that there exists a continuous function $f : [0, 1] \to \mathbb{R}$ such that 
 
     $f(x) = \int_0^x g(t, f(t))dt$
 
@@ -133,9 +133,9 @@
   question: |
     Prove or disprove each of the following statements.
 
-    (a) If $f : [0, 1] → \mathbb{R}$ is a measurable function, then given any $\varepsilon > 0$, there exists a compact set $K \subset [0, 1]$ such that $f$ is continuous on $K$ relative to $K$.
+    (a) If $f : [0, 1] \to \mathbb{R}$ is a measurable function, then given any $\varepsilon > 0$, there exists a compact set $K \subset [0, 1]$ such that $f$ is continuous on $K$ relative to $K$.
 
-    (c) If f is Borel measurable on $\mathbb{R} × \mathbb{R}$, then for any $x \in \mathbb{R}$, the function $g(y) = f(x, y)$ is also Borel measurable on $\mathbb{R}$.
+    (c) If f is Borel measurable on $\mathbb{R} \times \mathbb{R}$, then for any $x \in \mathbb{R}$, the function $g(y) = f(x, y)$ is also Borel measurable on $\mathbb{R}$.
 
     (d) If $E \subset \mathbb{R}$, then $E$ is measurable if and only if given any $\varepsilon > 0$, there exist a closed set $F$ and an open set $G$ such that $F \subset E \subset G$ and the measure of $G-F$ is less than $\varepsilon$.
 
@@ -187,11 +187,11 @@
     - Mean Value Theorem 
     - Sequences of Functions
   question: |
-    (a) Let $f : \mathbb{R} → \mathbb{R}$ be a differentiable function. 
+    (a) Let $f : \mathbb{R} \to \mathbb{R}$ be a differentiable function. 
         If $f'(-1) < 2$ and $f'(1) > 2$, show that there exists $x_0 \in (i1, 1)$ such that $f'(x_0) = 2$.
 
         > Hint: consider the function $f(x) - 2x$ and recall the proof of Rolle’s theorem.)
 
-    (b) Let $f : (-1, 1) → \mathbb{R}$ be a differentiable function on $(-1, 0) \union (0, 1)$ such that $\lim_{x\to 0} f'(x) = L$. 
+    (b) Let $f : (-1, 1) \to \mathbb{R}$ be a differentiable function on $(-1, 0) \union (0, 1)$ such that $\lim_{x\to 0} f'(x) = L$. 
         If $f$ is continuous on $(-1, 1)$, show that $f$ is indeed differentiable at $0$ and $f'(0) = L$.
 

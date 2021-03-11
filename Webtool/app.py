@@ -11,11 +11,11 @@ app = Flask(__name__, static_folder="Frontend")
 CORS(app)
 
 pandoc_cmd_html = """
-pandoc temp.md -f markdown -r markdown+tex_math_dollars+simple_tables+table_captions+yaml_metadata_block+smart+blank_before_blockquote+backtick_code_blocks+link_attributes --lua-filter=/home/zack/MakeMeAQual/dollar_math.lua -s --mathjax=https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML
+pandoc temp.md -f markdown -r markdown+tex_math_dollars+simple_tables+table_captions+yaml_metadata_block+smart+blank_before_blockquote+backtick_code_blocks+link_attributes --lua-filter=dollar_math.lua -s --mathjax=https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML
 """
 
 pandoc_cmd_pdf = """
-pandoc temp.md -f markdown -r markdown+tex_math_dollars+simple_tables+table_captions+yaml_metadata_block+smart+blank_before_blockquote+backtick_code_blocks+link_attributes --template=/home/zack/MakeMeAQual/pandoc_template.tex  --resource-path="$directory" --pdf-engine=pdflatex --lua-filter=/home/zack/MakeMeAQual/dollar_math.lua -t latex -o out.pdf && cat out.pdf
+pandoc temp.md -f markdown -r markdown+tex_math_dollars+simple_tables+table_captions+yaml_metadata_block+smart+blank_before_blockquote+backtick_code_blocks+link_attributes --template=pandoc_template.tex  --pdf-engine=pdflatex --lua-filter=dollar_math.lua -t latex -o out.pdf && cat out.pdf
 """
 @app.route("/")
 def hello():

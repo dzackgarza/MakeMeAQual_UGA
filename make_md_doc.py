@@ -2,7 +2,7 @@
 
 import yaml
 
-with open(r'combined_questions.yaml') as file:
+with open(r'Combined_Questions.yaml') as file:
     qs = yaml.load(file)
 
 print("Read YAML questions")

@@ -8,10 +8,11 @@ json:
 
 
 testpdf:
-	@ find ./Questions -type f -iname "*.yaml" -exec cat {} + > combined_questions.yaml
+	@ find ./Questions -type f -iname "*.yaml" -exec cat {} + > Combined_Questions.yaml
 	./make_md_doc.py # --> Combined_Questions.md
-	./latex_preview -f Combined_Questions.md -v -j
-	cat "Combined_Questions.md" | pandoc -f markdown -r markdown+fenced_divs+tex_math_single_backslash+citations --template=/home/zack/MakeMeAQual/pandoc_template.tex --pdf-engine=xelatex -o "CombinedQuestions.pdf"
+	cat "Combined_Questions.md" | pandoc -f markdown -r markdown+fenced_divs+tex_math_single_backslash+citations --template=pandoc_template.tex -o "Combined_Questions.tex";
+	@mkdir -p tex_tempfiles;
+	@latexmk --shell-escape -pdf Combined_Questions.tex -quiet -outdir=tex_tempfiles && cp tex_tempfiles/Combined_Questions.pdf . 2>&1 >/dev/null;
 	echo "Output written at Combined_Questions.pdf"
 
 update:
@@ -19,7 +20,8 @@ update:
 	git add *; git commit -am "Save"; git push && ssh zack@dzackgarza.com 'cd MakeMeAQual && git pull'
 
 clean:
-	rm combined_questions.*
+	@ rm Combined_Questions.*
+	echo "Removed combined questions"
 
 .ONESHELL:
 

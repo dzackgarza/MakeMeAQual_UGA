@@ -21,15 +21,15 @@
   tags:
     - Measure Theory 
   question: |
-    Let $\mathcal B$ denote the set of all Borel subsets of $\RR$ and $\mu : \mathcal B → [0, \infty)$ denote a finite Borel measure on $\RR$.
+    Let $\mathcal B$ denote the set of all Borel subsets of $\RR$ and $\mu : \mathcal B \to [0, \infty)$ denote a finite Borel measure on $\RR$.
     
     a. Prove that if $\{F_k\}$ is a sequence of Borel sets for which $F_k \supseteq  F_{k+1}$ for all $k$, then
     $$
     \lim _{k \rightarrow \infty} \mu\left(F_{k}\right)=\mu\left(\bigcap_{k=1}^{\infty} F_{k}\right)
     $$
     
-    b. Suppose $µ$ has the property that $µ(E) = 0$ for every $E \in \mathcal B$ with Lebesgue measure $m(E) = 0$.
-      Prove that for every $\eps > 0$ there exists $\delta > 0$ so that if $E \in \mathcal B$ with $m(E) < \delta$, then $µ(E) < \eps$.
+    b. Suppose $mu$ has the property that $mu(E) = 0$ for every $E \in \mathcal B$ with Lebesgue measure $m(E) = 0$.
+      Prove that for every $\eps > 0$ there exists $\delta > 0$ so that if $E \in \mathcal B$ with $m(E) < \delta$, then $mu(E) < \eps$.
 
 
 - year: 2019
@@ -45,7 +45,7 @@
   question: |
     Let $\{f_k\}$ be any sequence of functions in $L^2([0, 1])$ satisfying $\norm{f_k}_2 \leq M$ for all $k \in \NN$.
       
-    Prove that if $f_k → f$ almost everywhere, then $f \in L^2([0, 1])$ with $\norm{f}_2 \leq M$ and
+    Prove that if $f_k \to f$ almost everywhere, then $f \in L^2([0, 1])$ with $\norm{f}_2 \leq M$ and
     $$
     \lim _{k \rightarrow \infty} \int_{0}^{1} f_{k}(x) dx = \int_{0}^{1} f(x) d x
     $$
@@ -62,7 +62,7 @@
   tags:
     - Measure Theory
   question: |
-    Let $f$ be a non-negative function on $\RR^n$ and $\mathcal A = \{(x, t) \in \RR^n × \RR : 0 \leq t \leq f (x)\}$.
+    Let $f$ be a non-negative function on $\RR^n$ and $\mathcal A = \{(x, t) \in \RR^n \times \RR : 0 \leq t \leq f (x)\}$.
 
     Prove the validity of the following two statements:
 
@@ -119,7 +119,7 @@
   question: |
     Let $\{a_n\}_{n=1}^\infty$ be a sequence of real numbers.
 
-    a. Prove that if $\displaystyle\lim_{n→\infty} a_n = 0$, then $\displaystyle\lim_{n→\infty} a_1 + \cdots + a_n = 0$.
+    a. Prove that if $\displaystyle\lim_{n\to\infty} a_n = 0$, then $\displaystyle\lim_{n\to\infty} a_1 + \cdots + a_n = 0$.
     $$
     \lim _{n \rightarrow \infty} \frac{a_{1}+\cdots+a_{n}}{n}=0
     $$
@@ -159,7 +159,7 @@
     - Measure Theory
     - Borel-Cantelli
   question: |
-    Let $(X, \mathcal B, µ)$ be a measure space with $µ(X) = 1$ and $\{B_n\}_{n=1}^\infty$ be a sequence of $\mathcal B$-measurable subsets of $X$, and
+    Let $(X, \mathcal B, mu)$ be a measure space with $mu(X) = 1$ and $\{B_n\}_{n=1}^\infty$ be a sequence of $\mathcal B$-measurable subsets of $X$, and
     $$
     B \definedas \theset{x\in X \suchthat x\in B_n \text{ for infinitely many } n}.
     $$
@@ -172,7 +172,7 @@
     $$
     \mu\left(\bigcap_{n=k}^{K} B_{n}^{c}\right)=\prod_{n=k}^{K}\left(1-\mu\left(B_{n}\right)\right)
     $$
-    for all positive integers $k$ and $K$ with $k < K$, then $µ(B) = 1$.
+    for all positive integers $k$ and $K$ with $k < K$, then $mu(B) = 1$.
 
     > Hint: Use the fact that $1 - x \leq e^{-x}$ for all $x$.
 
@@ -227,7 +227,7 @@
 
     i. Prove that $\left\|\mathcal{A}_{h} f\right\|_{1} \leq\|f\|_{1}$ for all $h > 0$.
 
-    ii. Prove that $\mathcal{A}_h f → f$ in $L^1(\RR)$ as $h → 0^+$.
+    ii. Prove that $\mathcal{A}_h f \to f$ in $L^1(\RR)$ as $h \to 0^+$.
 
 - year: 2018
   season: Spring
