@@ -2,117 +2,74 @@
 title: Qualifying Exam
 ---
 
-## Question 1 (UGA 2018 #5)
+## Question 1 (UGA 0 #0)
 
-Let $f \geq 0$ be a measurable function on $\RR$.
-Show that
-$$
-\int_{\mathbb{R}} f=\int_{0}^{\infty} m(\{x: f(x)>t\}) d t
-$$
+Let $X$ denote the quotient space formed from the sphere $S^2$ by identifying two distinct points. 
+
+Compute the fundamental group and the homology groups of $X$.
 
 
-\newpage## Question 2 (UGA 2016 #5)
+\newpage## Question 2 (UGA 0 #0)
 
-Let $\phi\in L^\infty(\RR)$. Show that the following limit exists and satisfies the equality
-$$
-\lim _{n \rightarrow \infty}\left(\int_{\mathbb{R}} \frac{|\phi(x)|^{n}}{1+x^{2}} d x\right)^{\frac{1}{n}} = \norm{\phi}_\infty.
-$$
+Let $L$ be the union of the $z$-axis and the unit circle in the $xy\dash$plane. 
+Compute $\pi_1 (\RR^3 \backslash L, \ast)$.
 
 
-\newpage## Question 3 (UGA 2015 #6)
+\newpage## Question 3 (UGA 0 #0)
 
-Let $f: [0, 1] \to \RR$ be continuous.
-Show that
-$$
-\sup \left\{\|f g\|_{1} \suchthat g \in L^{1}[0,1],~~ \|g\|_{1} \leq 1\right\}=\|f\|_{\infty}
-$$
+Let $C$ be cylinder. 
+Let $I$ and $J$ be disjoint closed intervals contained in $\partial C$. 
 
+What is the Euler characteristic of the surface $S$ obtained by identifying $I$ and $J$? 
 
-\newpage## Question 4 (Emory 0 #0)
-
-State and prove Fatou's Lemma on a general measurable space.
+Can all surface with nonempty boundary and with this Euler characteristic be obtained from this construction?
 
 
-\newpage## Question 5 (UGA 2018 #5)
+\newpage## Question 4 (UGA 0 #0)
 
-Suppose that
+Let $X$ be the topological space obtained as the quotient of the sphere $S^2 = \theset{\vector x \in \RR^3 \suchthat \norm{\vector x} = 1}$ under the equivalence relation $\vector x \sim -\vector x$ for $\vector x$ in the equatorial circle, i.e. for $\vector x = (x_1, x_2, 0)$. 
 
-- $f_n, f \in L^1$,
-- $f_n \to f$ almost everywhere, and
-- $\int\left|f_{n}\right| \rightarrow \int|f|$.
-
-Show that $\int f_{n} \rightarrow \int f$
+Calculate $H_* (X; \ZZ)$ from a CW complex description of $X$.
 
 
-\newpage## Question 6 (UGA 2016 #4)
+\newpage## Question 5 (UGA 0 #0)
 
-Let $E \subset \RR$ be measurable with $m(E) < \infty$. 
-Define
-$$
-f(x)=m(E \cap(E+x)).
-$$
-
-Show that
-
-1. $f\in L^1(\RR)$.
-2. $f$ is uniformly continuous.
-3. $\lim _{|x| \rightarrow \infty} f(x)=0$
-
-> Hint: 
-$$
-\chi_{E \cap(E+x)}(y)=\chi_{E}(y) \chi_{E}(y-x)
-$$
+Give a self-contained proof that the zeroth homology $H_0 (X)$ is isomorphic to $\ZZ$ for every path-connected space $X$.
 
 
-\newpage## Question 7 (NUS 1970 #4)
+\newpage## Question 6 (UGA 0 #0)
 
-Prove or disprove each of the following statements.
-
-(a) If $f : [0, 1] → \mathbb{R}$ is a measurable function, then given any $\varepsilon > 0$, there exists a compact set $K \subset [0, 1]$ such that $f$ is continuous on $K$ relative to $K$.
-
-(c) If f is Borel measurable on $\mathbb{R} × \mathbb{R}$, then for any $x \in \mathbb{R}$, the function $g(y) = f(x, y)$ is also Borel measurable on $\mathbb{R}$.
-
-(d) If $E \subset \mathbb{R}$, then $E$ is measurable if and only if given any $\varepsilon > 0$, there exist a closed set $F$ and an open set $G$ such that $F \subset E \subset G$ and the measure of $G-F$ is less than $\varepsilon$.
+Compute the fundamental group, using any technique you like, of $\RP^2 \#\RP^2 \#\RP^2$.
 
 
-\newpage## Question 8 (Emory 0 #0)
+\newpage## Question 7 (UGA 0 #0)
 
-Let $f$ be a continuous function on $[0,1]$. Show that the following
-statements are equivalent.
+a.  Show that any finite index subgroup of a finitely generated free group is free. 
+    State clearly any facts you use about the fundamental groups of graphs.
 
-1.  $f$ is absolutely continuous.
-
-2.  For any $\epsilon > 0$ there exists $\delta > 0$ such that
-    $m(f(E)) < \epsilon$ for any set $E\subseteq [0,1]$ with
-    $m(E) < \delta$.
-
-3.  $m(f(E)) = 0$ for any set $E \subseteq [0,1]$ with $m(E)=0$.
+b.  Prove that if $N$ is a nontrivial normal subgroup of infinite index in a finitely generated free group $F$ , then $N$ is not finitely generated.
 
 
-\newpage## Question 9 (UGA 2019 #4)
+\newpage## Question 8 (UGA 0 #0)
 
-Let $f$ be a non-negative function on $\RR^n$ and $\mathcal A = \{(x, t) \in \RR^n × \RR : 0 ≤ t ≤ f (x)\}$.
+Let $A$ and $B$ be circles bounding disjoint disks in the plane $z = 0$ in $\RR^3$. 
+Let $X$ be the subset of the upper half-space of $\RR^3$ that is the union of the plane $z = 0$ and a (topological) cylinder that intersects the plane in $\partial C = A \cup B$.
 
-Prove the validity of the following two statements:
-
-a. $f$ is a Lebesgue measurable function on $\RR^n \iff  \mathcal A$ is a Lebesgue measurable subset of $\RR^{n+1}$
-
-b. If $f$ is a Lebesgue measurable function on $\RR^n$, then
-$$
-m(\mathcal{A})=\int_{\mathbb{R}^{n}} f(x) d x=\int_{0}^{\infty} m\left(\left\{x \in \mathbb{R}^{n}: f(x) \geq t\right\}\right) d t
-$$
+Compute $H_* (X)$ using the Mayer--Vietoris sequence.
 
 
-\newpage## Question 10 (UGA 2015 #5)
+\newpage## Question 9 (UGA 0 #0)
 
-Let $\mathcal H$ be a Hilbert space.
+Does there exist a map of degree 2013 from $S^2 \to S^2$.
 
-1. Let $x\in \mathcal H$ and $\theset{u_n}_{n=1}^N$ be an orthonormal set.
-  Prove that the best approximation to $x$ in $\mathcal H$ by an element in $\spanof_\CC\theset{u_n}$ is given by
-  $$
-  \hat x \definedas \sum_{n=1}^N \inner{x}{u_n}u_n.
-  $$
-2. Conclude that finite dimensional subspaces of $\mathcal H$ are always closed.
+
+\newpage## Question 10 (UGA 0 #0)
+
+Let $M$ and $N$ be finite CW complexes.
+
+a. Describe a cellular structure of $M \times N$ in terms of the cellular structures of $M$ and $N$.
+
+b. Show that the Euler characteristic of $M \times N$ is the product of the Euler characteristics of $M$ and $N$.
 
 
 \newpage
